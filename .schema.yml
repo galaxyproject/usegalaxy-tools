@@ -1,6 +1,10 @@
 ---
 type: map
 mapping:
+    "tool_panel_section_label":
+        type: str
+        required: true
+
     "tools":
         type: seq
         sequence:
