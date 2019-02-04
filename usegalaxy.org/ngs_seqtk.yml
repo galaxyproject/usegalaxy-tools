@@ -1,8 +1,3 @@
 tools:
 - name: seqtk
   owner: iuc
-  revisions:
-  - bc7d99f46a5d
-  tool_panel_section_id: ngs:_seqtk
-  tool_panel_section_label: 'NGS: Seqtk'
-  tool_shed_url: toolshed.g2.bx.psu.edu

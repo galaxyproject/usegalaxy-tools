@@ -1,57 +1,17 @@
 tools:
 - name: ggplot2_heatmap2
   owner: iuc
-  revisions:
-  - 4955e9bb96d1
-  tool_panel_section_id: plots
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xy_plot
   owner: devteam
-  revisions:
-  - ecb437f1d298
-  tool_panel_section_id: plots
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: circos
   owner: iuc
-  revisions:
-  - ef5f8bbf7730
-  tool_panel_section_id: plots
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: venn_list
   owner: peterjc
-  revisions:
-  - 26e35d5133a1
-  tool_panel_section_id: plots
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ucsc_custom_track
   owner: devteam
-  revisions:
-  - 618e56c3109b
-  tool_panel_section_id: plots
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: scatterplot
   owner: devteam
-  revisions:
-  - c12b0759203b
-  tool_panel_section_id: plots
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: histogram
   owner: devteam
-  revisions:
-  - 6ff47de059a0
-  tool_panel_section_id: plots
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gmaj
   owner: devteam
-  revisions:
-  - 2cd5ee197ec7
-  tool_panel_section_id: plots
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu

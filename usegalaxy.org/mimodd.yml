@@ -1,8 +1,3 @@
 tools:
 - name: mimodd_main
   owner: wolma
-  revisions:
-  - bfcd121b99bf
-  tool_panel_section_id: mimodd
-  tool_panel_section_label: MiModD
-  tool_shed_url: toolshed.g2.bx.psu.edu

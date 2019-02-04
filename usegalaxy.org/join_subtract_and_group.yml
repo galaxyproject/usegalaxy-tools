@@ -1,8 +1,3 @@
 tools:
 - name: subtract_query
   owner: devteam
-  revisions:
-  - 5f6ebef89722
-  tool_panel_section_id: group
-  tool_panel_section_label: Join, Subtract and Group
-  tool_shed_url: toolshed.g2.bx.psu.edu

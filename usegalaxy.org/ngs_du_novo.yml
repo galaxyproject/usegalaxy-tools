@@ -1,15 +1,5 @@
 tools:
 - name: dunovo
   owner: nick
-  revisions:
-  - 9dc43bf7d1db
-  tool_panel_section_id: ngs:_duplexnovo
-  tool_panel_section_label: 'NGS: Du Novo'
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sequence_content_trimmer
   owner: nick
-  revisions:
-  - 7f170cb06e2e
-  tool_panel_section_id: ngs:_duplexnovo
-  tool_panel_section_label: 'NGS: Du Novo'
-  tool_shed_url: toolshed.g2.bx.psu.edu

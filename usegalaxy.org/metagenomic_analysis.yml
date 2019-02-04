@@ -1,120 +1,35 @@
 tools:
 - name: diamond
   owner: bgruening
-  revisions:
-  - fd14bf35c9fd
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vsearch
   owner: iuc
-  revisions:
-  - b3c7199d8786
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vegan_rarefaction
   owner: iuc
-  revisions:
-  - b0d5976540e3
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vegan_fisher_alpha
   owner: iuc
-  revisions:
-  - f9966e11885b
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vegan_diversity
   owner: iuc
-  revisions:
-  - a2c047a2c380
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kraken_report
   owner: devteam
-  revisions:
-  - 6c09bed3444f
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kraken
   owner: devteam
-  revisions:
-  - 658d47fd33e3
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: taxonomy_krona_chart
   owner: crs4
-  revisions:
-  - c9f8fef1df74
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: scikit_bio_diversity_beta_diversity
   owner: iuc
-  revisions:
-  - 024a9b86f853
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: metagenomeseq_normalization
   owner: iuc
-  revisions:
-  - d16f7cc26516
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kraken_taxonomy_report
   owner: iuc
-  revisions:
-  - 528a1d91b066
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: biom_add_metadata
   owner: iuc
-  revisions:
-  - 367b1ed91207
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: biom_convert
   owner: iuc
-  revisions:
-  - 501c21cce614
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kraken_translate
   owner: devteam
-  revisions:
-  - 9bdcba262627
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kraken_filter
   owner: devteam
-  revisions:
-  - 5bee9adae474
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kraken2tax
   owner: devteam
-  revisions:
-  - f03c7ba8d8bc
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cd_hit_dup
   owner: devteam
-  revisions:
-  - 0fb894bd8eba
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomic Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu

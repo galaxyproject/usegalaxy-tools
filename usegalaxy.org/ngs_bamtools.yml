@@ -1,22 +1,7 @@
 tools:
 - name: bamtools_split
   owner: devteam
-  revisions:
-  - e2c1b62e1db1
-  tool_panel_section_id: ngs:_bam_tools
-  tool_panel_section_label: 'NGS: BamTools'
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bamtools
   owner: devteam
-  revisions:
-  - 04866f817daa
-  tool_panel_section_id: ngs:_bam_tools
-  tool_panel_section_label: 'NGS: BamTools'
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bamtools_filter
   owner: devteam
-  revisions:
-  - 4fe8a75334c8
-  tool_panel_section_id: ngs:_bam_tools
-  tool_panel_section_label: 'NGS: BamTools'
-  tool_shed_url: toolshed.g2.bx.psu.edu

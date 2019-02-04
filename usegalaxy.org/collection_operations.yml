@@ -1,15 +1,5 @@
 tools:
 - name: collection_column_join
   owner: iuc
-  revisions:
-  - 58228a4d58fe
-  tool_panel_section_id: collection_operations
-  tool_panel_section_label: Collection Operations
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: collapse_collections
   owner: nml
-  revisions:
-  - 25136a2b0cfe
-  tool_panel_section_id: collection_operations
-  tool_panel_section_label: Collection Operations
-  tool_shed_url: toolshed.g2.bx.psu.edu
