@@ -1,0 +1,111 @@
+tools:
+- name: seq_select_by_id
+  owner: peterjc
+  revisions:
+  - 8e1a90917fa7
+  tool_panel_section_label: FASTA manipulation
+- name: fasta_concatenate_by_species
+  owner: devteam
+  revisions:
+  - 717aee069681
+  tool_panel_section_label: FASTA manipulation
+- name: fasta_filter_by_length
+  owner: devteam
+  revisions:
+  - 2fd6033d0e9c
+  tool_panel_section_label: FASTA manipulation
+- name: clustalw
+  owner: devteam
+  revisions:
+  - d6694932c5e0
+  tool_panel_section_label: FASTA manipulation
+- name: fasta_compute_length
+  owner: devteam
+  revisions:
+  - de2db1bdfbf8
+  tool_panel_section_label: FASTA manipulation
+- name: split_paired_reads
+  owner: devteam
+  revisions:
+  - 36163bff76cc
+  tool_panel_section_label: FASTA manipulation
+- name: fasta_stats
+  owner: simon-gladman
+  revisions:
+  - 20ca2574216a
+  tool_panel_section_label: FASTA manipulation
+- name: fasta_extract
+  owner: simon-gladman
+  revisions:
+  - 5dfc014a8b3a
+  tool_panel_section_label: FASTA manipulation
+- name: fasta_nucleotide_changer
+  owner: devteam
+  revisions:
+  - f81d4362b6c1
+  tool_panel_section_label: FASTA manipulation
+- name: fastx_trimmer
+  owner: devteam
+  revisions:
+  - 377ac2829eac
+  tool_panel_section_label: FASTA manipulation
+- name: fastq_quality_converter
+  owner: devteam
+  revisions:
+  - 74db4cffab1f
+  tool_panel_section_label: FASTA manipulation
+- name: fastx_nucleotides_distribution
+  owner: devteam
+  revisions:
+  - 18a51655db17
+  tool_panel_section_label: FASTA manipulation
+- name: fastq_quality_filter
+  owner: devteam
+  revisions:
+  - e41385662e5e
+  tool_panel_section_label: FASTA manipulation
+- name: fastx_renamer
+  owner: devteam
+  revisions:
+  - 02f8a17a4ebd
+  tool_panel_section_label: FASTA manipulation
+- name: fastx_collapser
+  owner: devteam
+  revisions:
+  - 421f0af4ee95
+  tool_panel_section_label: FASTA manipulation
+- name: fastx_clipper
+  owner: devteam
+  revisions:
+  - bdf1ce174e39
+  tool_panel_section_label: FASTA manipulation
+- name: fastx_quality_statistics
+  owner: devteam
+  revisions:
+  - 7306ec78632a
+  tool_panel_section_label: FASTA manipulation
+- name: fasta_formatter
+  owner: devteam
+  revisions:
+  - 9457a20156db
+  tool_panel_section_label: FASTA manipulation
+- name: fastx_artifacts_filter
+  owner: devteam
+  revisions:
+  - 09070cacefd8
+  tool_panel_section_label: FASTA manipulation
+- name: fastx_reverse_complement
+  owner: devteam
+  revisions:
+  - e246088b6e34
+  tool_panel_section_label: FASTA manipulation
+- name: fastx_barcode_splitter
+  owner: devteam
+  revisions:
+  - 8abdedf55101
+  tool_panel_section_label: FASTA manipulation
+- name: fasta_clipping_histogram
+  owner: devteam
+  revisions:
+  - f666895cbebd
+  tool_panel_section_label: FASTA manipulation

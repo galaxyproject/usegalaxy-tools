@@ -1,0 +1,36 @@
+tools:
+- name: prokka
+  owner: crs4
+  revisions:
+  - eaee459f3d69
+  tool_panel_section_label: Annotation
+- name: snptools
+  owner: rreumerman
+  revisions:
+  - 8de0ffc2166f
+  tool_panel_section_label: Annotation
+- name: snpsift
+  owner: iuc
+  revisions:
+  - 09d6806c609e
+  tool_panel_section_label: Annotation
+- name: abricate
+  owner: iuc
+  revisions:
+  - 6e9aea89e388
+  tool_panel_section_label: Annotation
+- name: infernal
+  owner: bgruening
+  revisions:
+  - 477d829d3250
+  tool_panel_section_label: Annotation
+- name: barrnap
+  owner: iuc
+  revisions:
+  - 8fd427007e93
+  tool_panel_section_label: Annotation
+- name: snpeff
+  owner: iuc
+  revisions:
+  - 68693743661e
+  tool_panel_section_label: Annotation

@@ -1,0 +1,6 @@
+tools:
+- name: emboss_5
+  owner: devteam
+  revisions:
+  - 1b6538ec8b56
+  tool_panel_section_label: EMBOSS

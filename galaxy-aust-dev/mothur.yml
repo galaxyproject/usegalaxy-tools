@@ -1,904 +1,259 @@
 tools:
 - name: mothur_cluster_classic
   owner: iuc
-  revisions:
-  - 2825bfdfee39
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_unifrac_weighted
   owner: iuc
-  revisions:
-  - 20bc6be9e1df
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_lineage
   owner: iuc
-  revisions:
-  - d1abc038d4bd
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_relabund
   owner: iuc
-  revisions:
-  - d53c7d63b940
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_anosim
   owner: iuc
-  revisions:
-  - 947036da99f2
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_shhh_seqs
   owner: iuc
-  revisions:
-  - 151a711dec84
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_pcoa
   owner: iuc
-  revisions:
-  - 1c1d69d94f7d
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_remove_seqs
   owner: iuc
-  revisions:
-  - 92eb629218e1
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_chimera_pintail
   owner: iuc
-  revisions:
-  - a98f92e8923d
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_collect_shared
   owner: iuc
-  revisions:
-  - 818ec2fddea1
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_otulist
   owner: iuc
-  revisions:
-  - a68c119c37c5
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_bin_seqs
   owner: iuc
-  revisions:
-  - c9181cf15a6b
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_summary_shared
   owner: iuc
-  revisions:
-  - 47370a4efc95
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_label
   owner: iuc
-  revisions:
-  - 78e5065b27bd
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_chop_seqs
   owner: iuc
-  revisions:
-  - 3eeb1a2b2ae4
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_create_database
   owner: iuc
-  revisions:
-  - b6a0f2e80e5d
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_remove_rare
   owner: iuc
-  revisions:
-  - da5fbab58754
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_classify_otu
   owner: iuc
-  revisions:
-  - c384c39c9c27
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_group
   owner: iuc
-  revisions:
-  - 83700d313432
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_summary_qual
   owner: iuc
-  revisions:
-  - 315cf5ff78f9
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_clearcut
   owner: iuc
-  revisions:
-  - 7e5184c75727
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_summary_single
   owner: iuc
-  revisions:
-  - de4801f05e5e
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_summary_seqs
   owner: iuc
-  revisions:
-  - d7ea2d0b4917
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_sort_seqs
   owner: iuc
-  revisions:
-  - 2f6a9498447e
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_rarefaction_shared
   owner: iuc
-  revisions:
-  - 325ecaad64c0
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_pre_cluster
   owner: iuc
-  revisions:
-  - baba9fff9dba
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_make_sra
   owner: iuc
-  revisions:
-  - afa357a7b58a
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_make_fastq
   owner: iuc
-  revisions:
-  - 25b9449a5f3d
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_sharedseqs
   owner: iuc
-  revisions:
-  - deb8f26d8d66
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_groups
   owner: iuc
-  revisions:
-  - cfeef38a433e
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_sens_spec
   owner: iuc
-  revisions:
-  - 084dc4e8caae
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_amova
   owner: iuc
-  revisions:
-  - a781ac710ec3
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_align_seqs
   owner: iuc
-  revisions:
-  - a9e49986bea7
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_nmds
   owner: iuc
-  revisions:
-  - 555a89f14c55
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_pcr_seqs
   owner: iuc
-  revisions:
-  - 0ce27975e549
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_shhh_flows
   owner: iuc
-  revisions:
-  - b6a88afacb17
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_lefse
   owner: iuc
-  revisions:
-  - c98e47f7b233
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_sffinfo
   owner: iuc
-  revisions:
-  - 387d9e58afc2
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_rabund
   owner: iuc
-  revisions:
-  - 08a740b388d8
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_screen_seqs
   owner: iuc
-  revisions:
-  - 595419d427b6
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_phylotype
   owner: iuc
-  revisions:
-  - 249cdeb3cdb1
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_indicator
   owner: iuc
-  revisions:
-  - ba8150cff807
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_parse_list
   owner: iuc
-  revisions:
-  - 59906aed724a
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_align_check
   owner: iuc
-  revisions:
-  - e24361e6dd15
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_make_shared
   owner: iuc
-  revisions:
-  - f7a10f16aa99
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_chimera_slayer
   owner: iuc
-  revisions:
-  - cc983edb4db0
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_classify_tree
   owner: iuc
-  revisions:
-  - 9046e85ccaf6
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_normalize_shared
   owner: iuc
-  revisions:
-  - 5a00f7d92dc2
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_make_biom
   owner: iuc
-  revisions:
-  - cfdfa41e01a4
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_remove_otulabels
   owner: iuc
-  revisions:
-  - 2cbf56d15f4b
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_seq_error
   owner: iuc
-  revisions:
-  - bb53c2c29c23
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_mimarks_attributes
   owner: iuc
-  revisions:
-  - 7986e1c4bc23
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_split_groups
   owner: iuc
-  revisions:
-  - 627cf4d36194
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_remove_lineage
   owner: iuc
-  revisions:
-  - 380e75c0ae8e
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_primer_design
   owner: iuc
-  revisions:
-  - d6f7c58a89d0
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_dist_shared
   owner: iuc
-  revisions:
-  - 3e2ca0c67e9d
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_metastats
   owner: iuc
-  revisions:
-  - f50fa0018f6f
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_make_contigs
   owner: iuc
-  revisions:
-  - c3203178c41f
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_degap_seqs
   owner: iuc
-  revisions:
-  - 104cea550c2f
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_otus
   owner: iuc
-  revisions:
-  - 971ab18e74d7
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_tree_shared
   owner: iuc
-  revisions:
-  - 73dd30cbca20
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_otu_association
   owner: iuc
-  revisions:
-  - 12af8c375bb8
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_remove_otus
   owner: iuc
-  revisions:
-  - 530698de365d
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_cluster_fragments
   owner: iuc
-  revisions:
-  - 836052d22684
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_list_otulabels
   owner: iuc
-  revisions:
-  - 72c4cd2b5b74
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_venn
   owner: iuc
-  revisions:
-  - 8df8d8b67b13
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_unifrac_unweighted
   owner: iuc
-  revisions:
-  - 46ba42ec466b
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_make_lookup
   owner: iuc
-  revisions:
-  - 4dd1404ee026
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_summary_tax
   owner: iuc
-  revisions:
-  - 4db7f1329d0e
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_communitytype
   owner: iuc
-  revisions:
-  - ad6d51c51be2
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_heatmap_sim
   owner: iuc
-  revisions:
-  - 2f93c7bba6f8
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_list_seqs
   owner: iuc
-  revisions:
-  - 0ad4a88e6314
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_make_group
   owner: iuc
-  revisions:
-  - 63a75db03ecc
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_trim_seqs
   owner: iuc
-  revisions:
-  - fc17c9a3c800
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_remove_dists
   owner: iuc
-  revisions:
-  - f7dba43ea52c
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_rarefaction_single
   owner: iuc
-  revisions:
-  - 5c2157147393
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_seqs
   owner: iuc
-  revisions:
-  - 32a95d4cd850
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_pairwise_seqs
   owner: iuc
-  revisions:
-  - 39c7213ca279
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_cluster
   owner: iuc
-  revisions:
-  - c31bcc652db3
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_consensus_seqs
   owner: iuc
-  revisions:
-  - b114aeea6c4c
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_count_seqs
   owner: iuc
-  revisions:
-  - 9cfefba79f40
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_taxonomy_to_krona
   owner: iuc
-  revisions:
-  - af3efbe580c0
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_collect_single
   owner: iuc
-  revisions:
-  - ba873a97b0ac
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_merge_groups
   owner: iuc
-  revisions:
-  - 47d3c31340d7
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_sabund
   owner: iuc
-  revisions:
-  - 0bc1dc0c6aad
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_filter_shared
   owner: iuc
-  revisions:
-  - 38bb70251d7a
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_libshuff
   owner: iuc
-  revisions:
-  - 7c46233bfa06
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_oturep
   owner: iuc
-  revisions:
-  - '782220733828'
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_chimera_uchime
   owner: iuc
-  revisions:
-  - ac246f061fd5
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_make_design
   owner: iuc
-  revisions:
-  - 4b18c3d54bc6
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_biom_info
   owner: iuc
-  revisions:
-  - a5faa06c59ba
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_count_groups
   owner: iuc
-  revisions:
-  - 7b7f375b9b8d
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_pca
   owner: iuc
-  revisions:
-  - e3638c927d93
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_mimarkspackage
   owner: iuc
-  revisions:
-  - 49f2db40374d
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_chimera_check
   owner: iuc
-  revisions:
-  - c817602bbcbe
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_remove_groups
   owner: iuc
-  revisions:
-  - 2d5258c52be0
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_coremicrobiome
   owner: iuc
-  revisions:
-  - 80b24979c575
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_merge_sfffiles
   owner: iuc
-  revisions:
-  - 0778c4b6a300
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_sub_sample
   owner: iuc
-  revisions:
-  - 88d66f3b47e0
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_rename_seqs
   owner: iuc
-  revisions:
-  - e01bb061c319
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_dist_seqs
   owner: iuc
-  revisions:
-  - dcbf475d7d60
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_filter_seqs
   owner: iuc
-  revisions:
-  - e71c69acde3f
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_parsimony
   owner: iuc
-  revisions:
-  - b8f94e6180a7
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_dists
   owner: iuc
-  revisions:
-  - 4d0f7df5a8f8
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_deunique_tree
   owner: iuc
-  revisions:
-  - 2b96ca0b44c0
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_chimera_bellerophon
   owner: iuc
-  revisions:
-  - b6ddaa19dba3
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_otu_hierarchy
   owner: iuc
-  revisions:
-  - abf3d41b7428
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_cluster_split
   owner: iuc
-  revisions:
-  - c697df7d7a48
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_get_otulabels
   owner: iuc
-  revisions:
-  - b847275dfdf2
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_classify_seqs
   owner: iuc
-  revisions:
-  - 5da484e2c7a4
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_trim_flows
   owner: iuc
-  revisions:
-  - 51da4c69105d
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_deunique_seqs
   owner: iuc
-  revisions:
-  - 77e034e33a66
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_heatmap_bin
   owner: iuc
-  revisions:
-  - a271eda55001
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_chimera_vsearch
   owner: iuc
-  revisions:
-  - 1f9f30aed284
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_chimera_perseus
   owner: iuc
-  revisions:
-  - 29412cc05a3d
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_fastq_info
   owner: iuc
-  revisions:
-  - 3ce3974a0e0b
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_cooccurrence
   owner: iuc
-  revisions:
-  - 5076b26f99d0
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_phylo_diversity
   owner: iuc
-  revisions:
-  - 89843e792835
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_unique_seqs
   owner: iuc
-  revisions:
-  - 8fce7ef726c8
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_merge_taxsummary
   owner: iuc
-  revisions:
-  - a2dda99b6d79
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_merge_count
   owner: iuc
-  revisions:
-  - 025df4ea3e3c
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_mantel
   owner: iuc
-  revisions:
-  - 3179a29d3b70
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_split_abund
   owner: iuc
-  revisions:
-  - 3a364dd93195
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_corr_axes
   owner: iuc
-  revisions:
-  - 0c76942a61e2
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_chimera_ccode
   owner: iuc
-  revisions:
-  - 6e2e58e07e0f
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_reverse_seqs
   owner: iuc
-  revisions:
-  - db762c766b89
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_homova
   owner: iuc
-  revisions:
-  - 9a215084d776
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_make_lefse
   owner: iuc
-  revisions:
-  - 2da52b4bf3dc
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mothur_merge_files
   owner: iuc
-  revisions:
-  - 80e3857bf744
-  tool_panel_section_id: mothur
-  tool_panel_section_label: Mothur
-  tool_shed_url: toolshed.g2.bx.psu.edu

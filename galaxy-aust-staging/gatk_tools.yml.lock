@@ -1,0 +1,6 @@
+tools:
+- name: gatk2
+  owner: iuc
+  revisions:
+  - 84584664264c
+  tool_panel_section_label: GATK Tools

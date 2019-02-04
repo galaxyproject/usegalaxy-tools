@@ -1,0 +1,6 @@
+tools:
+- name: bedtools
+  owner: iuc
+  revisions:
+  - a8eabd2838f6
+  tool_panel_section_label: BED tools

@@ -1,0 +1,171 @@
+tools:
+- name: phyloseq_ordination_plot
+  owner: simon-gladman
+  revisions:
+  - 52f009b255a1
+  tool_panel_section_label: Metagenomic analyses
+- name: phyloseq_filter
+  owner: simon-gladman
+  revisions:
+  - 54897b7e0551
+  tool_panel_section_label: Metagenomic analyses
+- name: vegan_rarefaction
+  owner: iuc
+  revisions:
+  - b0d5976540e3
+  tool_panel_section_label: Metagenomic analyses
+- name: vegan_fisher_alpha
+  owner: iuc
+  revisions:
+  - f9966e11885b
+  tool_panel_section_label: Metagenomic analyses
+- name: vegan_diversity
+  owner: iuc
+  revisions:
+  - a2c047a2c380
+  tool_panel_section_label: Metagenomic analyses
+- name: mean_center_matrix
+  owner: insilico-bob
+  revisions:
+  - 9c8c6c3ae359
+  tool_panel_section_label: Metagenomic analyses
+- name: frogs_2_0_0
+  owner: oinizan
+  revisions:
+  - e1170d614e52
+  tool_panel_section_label: Metagenomic analyses
+- name: find_diag_hits
+  owner: devteam
+  revisions:
+  - acf51ff24c7d
+  tool_panel_section_label: Metagenomic analyses
+- name: gi2taxonomy
+  owner: devteam
+  revisions:
+  - 7b1b03c4465d
+  tool_panel_section_label: Metagenomic analyses
+- name: lca_wrapper
+  owner: devteam
+  revisions:
+  - 33e8ed5a4601
+  tool_panel_section_label: Metagenomic analyses
+- name: t2ps
+  owner: devteam
+  revisions:
+  - 4d9910e996f7
+  tool_panel_section_label: Metagenomic analyses
+- name: t2t_report
+  owner: devteam
+  revisions:
+  - 592acb9505fc
+  tool_panel_section_label: Metagenomic analyses
+- name: khmer_abundance_distribution_single
+  owner: iuc
+  revisions:
+  - 792d520ba676
+  tool_panel_section_label: Metagenomic analyses
+- name: khmer_normalize_by_median
+  owner: iuc
+  revisions:
+  - f0290a079720
+  tool_panel_section_label: Metagenomic analyses
+- name: khmer_partition
+  owner: iuc
+  revisions:
+  - c393687bd857
+  tool_panel_section_label: Metagenomic analyses
+- name: khmer_count_median
+  owner: iuc
+  revisions:
+  - 5efc5f21d0c1
+  tool_panel_section_label: Metagenomic analyses
+- name: khmer_abundance_distribution
+  owner: iuc
+  revisions:
+  - a02efb62565b
+  tool_panel_section_label: Metagenomic analyses
+- name: khmer_extract_partitions
+  owner: iuc
+  revisions:
+  - 7d8138b4a593
+  tool_panel_section_label: Metagenomic analyses
+- name: khmer_filter_below_abundance_cutoff
+  owner: iuc
+  revisions:
+  - d9cc87dfec6e
+  tool_panel_section_label: Metagenomic analyses
+- name: khmer_filter_abundance
+  owner: iuc
+  revisions:
+  - a4970dfc331c
+  tool_panel_section_label: Metagenomic analyses
+- name: usearch_uchime
+  owner: qfab
+  revisions:
+  - fd0ab76b83f1
+  tool_panel_section_label: Metagenomic analyses
+- name: kraken_translate
+  owner: devteam
+  revisions:
+  - 9bdcba262627
+  tool_panel_section_label: Metagenomic analyses
+- name: kraken_report
+  owner: devteam
+  revisions:
+  - a3a7440fc618
+  tool_panel_section_label: Metagenomic analyses
+- name: kraken
+  owner: devteam
+  revisions:
+  - 2fdac3e78553
+  tool_panel_section_label: Metagenomic analyses
+- name: kraken_filter
+  owner: devteam
+  revisions:
+  - 5bee9adae474
+  tool_panel_section_label: Metagenomic analyses
+- name: vsearch
+  owner: iuc
+  revisions:
+  - 576963db5f1b
+  tool_panel_section_label: Metagenomic analyses
+- name: pynast
+  owner: qfab
+  revisions:
+  - 17b2737094ce
+  tool_panel_section_label: Metagenomic analyses
+- name: fasttree
+  owner: iuc
+  revisions:
+  - c7e73acfa3eb
+  tool_panel_section_label: Metagenomic analyses
+- name: collector_curve
+  owner: qfab
+  revisions:
+  - 13552951d226
+  tool_panel_section_label: Metagenomic analyses
+- name: rarefaction
+  owner: qfab
+  revisions:
+  - f6c468a79849
+  tool_panel_section_label: Metagenomic analyses
+- name: usearch_cluster_otus
+  owner: qfab
+  revisions:
+  - 5d05b34a5fdf
+  tool_panel_section_label: Metagenomic analyses
+- name: usearch_map_reads_to_otus
+  owner: qfab
+  revisions:
+  - 87603fcae838
+  tool_panel_section_label: Metagenomic analyses
+- name: rdp_multiclassifier
+  owner: qfab
+  revisions:
+  - a73ae72b47aa
+  tool_panel_section_label: Metagenomic analyses
+- name: usearch_dereplication
+  owner: qfab
+  revisions:
+  - 88fc52f1c5db
+  tool_panel_section_label: Metagenomic analyses

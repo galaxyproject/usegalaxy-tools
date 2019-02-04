@@ -1,57 +1,17 @@
 tools:
 - name: abricate
   owner: iuc
-  revisions:
-  - 6e9aea89e388
-  tool_panel_section_id: ngs_annotation
-  tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: infernal
   owner: bgruening
-  revisions:
-  - 477d829d3250
-  tool_panel_section_id: ngs_annotation
-  tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: prokka
   owner: crs4
-  revisions:
-  - a17498c603ec
-  tool_panel_section_id: ngs_annotation
-  tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: barrnap
   owner: iuc
-  revisions:
-  - 8fd427007e93
-  tool_panel_section_id: ngs_annotation
-  tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpeff
   owner: iuc
-  revisions:
-  - 68693743661e
-  tool_panel_section_id: ngs_annotation
-  tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snptools
   owner: rreumerman
-  revisions:
-  - 8de0ffc2166f
-  tool_panel_section_id: ngs_annotation
-  tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpsift
   owner: iuc
-  revisions:
-  - 09d6806c609e
-  tool_panel_section_id: ngs_annotation
-  tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: abricate
   owner: iuc
-  revisions:
-  - 78c75f134c16
-  tool_panel_section_id: annotation
-  tool_panel_section_label: Annotation
-  tool_shed_url: toolshed.g2.bx.psu.edu
