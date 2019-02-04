@@ -1,0 +1,41 @@
+---
+type: map
+mapping:
+    "install_repository_dependencies":
+        type: bool
+        default: false
+    "install_resolver_dependencies":
+        type: bool
+        default: false
+    "install_tool_dependencies":
+        type: bool
+        default: false
+    "tools":
+        type: seq
+        sequence:
+            - type: map
+              mapping:
+                "name":
+                    type: str
+                    required: true
+                "owner":
+                    type: str
+                    required: true
+                "tool_panel_section_label":
+                    type: str
+                    enum: [
+                        'Annotation', 'Assembly', 'Test Tools', 'CellOrganizer', 'ChemicalToolBox',
+                        'Collection Operations', 'Convert Formats', 'deepTools', 'HiCExplorer', 'Graph/Display Data',
+                        'EMBOSS Tools', 'Epigenetics', 'Evolution', 'Extract Features',
+                        'FASTA/FASTQ manipulation', 'Fetch Alignments', 'Filter and Sort',
+                        'GATK Tools', 'Gemini Tools', 'Get Data', 'GraphClust',
+                        'Join, Subtract and Group', 'Mapping', 'Metabolomics', 'Metagenomic analyses',
+                        'mothur', 'Motif Tools', 'Multiple Alignments', 'NCBI Blast', 'Other Tools',
+                        'OBO Ontology manipulation', 'Operate on Genomic Intervals', 'Peak Calling',
+                        'Phenotype Association', 'Picard', 'Proteomics', 'Qiime', 'Quality Control',
+                        'RAD-seq', 'Regional Variation', 'RNA Analysis', 'SAM Tools', 'Send Data',
+                        'Statistics', 'Text Manipulation', 'Unix Tools', 'Phylogenetics',
+                        'Variant Calling', 'Mothur', 'Genome Diversity', 'Data Managers', 'Genome editing',
+                        'Apollo', 'MiModD'
+                    ]
+                    required: true
