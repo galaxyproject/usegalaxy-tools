@@ -1,0 +1,64 @@
+tools:
+- name: tophat2
+  owner: devteam
+  revisions:
+  - 16c4255042be
+  tool_panel_section_id: deprecated-ngs-rna-tools
+  tool_panel_section_label: 'NGS: RNA Analysis (deprecated)'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cummerbund_to_tabular
+  owner: devteam
+  revisions:
+  - 0761bbc0a4e7
+  tool_panel_section_id: deprecated-ngs-rna-tools
+  tool_panel_section_label: 'NGS: RNA Analysis (deprecated)'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cuffcompare
+  owner: devteam
+  revisions:
+  - e66b9b5b8580
+  tool_panel_section_id: deprecated-ngs-rna-tools
+  tool_panel_section_label: 'NGS: RNA Analysis (deprecated)'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cufflinks
+  owner: devteam
+  revisions:
+  - e04dbae2abe0
+  tool_panel_section_id: deprecated-ngs-rna-tools
+  tool_panel_section_label: 'NGS: RNA Analysis (deprecated)'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cuffquant
+  owner: devteam
+  revisions:
+  - 6dc45faebc1d
+  tool_panel_section_id: deprecated-ngs-rna-tools
+  tool_panel_section_label: 'NGS: RNA Analysis (deprecated)'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cuffnorm
+  owner: devteam
+  revisions:
+  - f5b2ee725d34
+  tool_panel_section_id: deprecated-ngs-rna-tools
+  tool_panel_section_label: 'NGS: RNA Analysis (deprecated)'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cuffmerge
+  owner: devteam
+  revisions:
+  - cf747d1bd79a
+  tool_panel_section_id: deprecated-ngs-rna-tools
+  tool_panel_section_label: 'NGS: RNA Analysis (deprecated)'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cuffdiff
+  owner: devteam
+  revisions:
+  - d3ae7d9c2202
+  tool_panel_section_id: deprecated-ngs-rna-tools
+  tool_panel_section_label: 'NGS: RNA Analysis (deprecated)'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: gffread
+  owner: devteam
+  revisions:
+  - 48fe74f391ab
+  tool_panel_section_id: deprecated-ngs-rna-tools
+  tool_panel_section_label: 'NGS: RNA Analysis (deprecated)'
+  tool_shed_url: toolshed.g2.bx.psu.edu

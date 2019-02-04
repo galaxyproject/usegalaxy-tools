@@ -1,0 +1,8 @@
+tools:
+- name: snippy
+  owner: iuc
+  revisions:
+  - c9a8ef2aa380
+  tool_panel_section_id: ngs_variant_detection
+  tool_panel_section_label: Variant Detection
+  tool_shed_url: toolshed.g2.bx.psu.edu

@@ -1,0 +1,8 @@
+tools:
+- name: ncbi_blast_plus
+  owner: devteam
+  revisions:
+  - 6f386c5dc4fb
+  tool_panel_section_id: blast+
+  tool_panel_section_label: Blast +
+  tool_shed_url: toolshed.g2.bx.psu.edu

@@ -1,0 +1,92 @@
+tools:
+- name: vcf_filter
+  owner: devteam
+  revisions:
+  - da1a6f33b504
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pileometh
+  owner: bgruening
+  revisions:
+  - 15df15127c18
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: nanopolish_methylation
+  owner: bgruening
+  revisions:
+  - 709490665bad
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: hicup_truncater
+  owner: bgruening
+  revisions:
+  - 17f80a8600ac
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: hicup_hicup
+  owner: bgruening
+  revisions:
+  - bd1594d55a38
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: hicup_filter
+  owner: bgruening
+  revisions:
+  - a7bbbf32da62
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: hicup_digester
+  owner: bgruening
+  revisions:
+  - a2f3a4129052
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: hicup_deduplicator
+  owner: bgruening
+  revisions:
+  - 46e5b4782715
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: epicseg
+  owner: rnateam
+  revisions:
+  - 6260e42c7d49
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bwameth
+  owner: iuc
+  revisions:
+  - 95219305823a
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: hicup_mapper
+  owner: bgruening
+  revisions:
+  - f396b479c2f2
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: metilene
+  owner: rnateam
+  revisions:
+  - cd253831a014
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: rnbeads
+  owner: pavlo-lutsik
+  revisions:
+  - 6b0981ab063e
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+  tool_shed_url: toolshed.g2.bx.psu.edu

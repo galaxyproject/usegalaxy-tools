@@ -1,0 +1,22 @@
+tools:
+- name: iwtomics_loadandplot
+  owner: iuc
+  revisions:
+  - ce633cc8f5f9
+  tool_panel_section_id: iwtomics
+  tool_panel_section_label: IWTomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: iwtomics_testandplot
+  owner: iuc
+  revisions:
+  - 94965e369be4
+  tool_panel_section_id: iwtomics
+  tool_panel_section_label: IWTomics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: iwtomics_plotwithscale
+  owner: iuc
+  revisions:
+  - 1bc9150ed125
+  tool_panel_section_id: iwtomics
+  tool_panel_section_label: IWTomics
+  tool_shed_url: toolshed.g2.bx.psu.edu

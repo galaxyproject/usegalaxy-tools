@@ -1,0 +1,8 @@
+tools:
+- name: hifive
+  owner: sauria
+  revisions:
+  - cc95aa05f643
+  tool_panel_section_id: ngs:_chromosome_conformation
+  tool_panel_section_label: 'NGS: Chromosome Conformation'
+  tool_shed_url: toolshed.g2.bx.psu.edu

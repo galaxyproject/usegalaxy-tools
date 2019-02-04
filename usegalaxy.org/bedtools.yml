@@ -1,0 +1,9 @@
+tools:
+- name: bedtools
+  owner: iuc
+  revisions:
+  - db1841942d2b
+  - a33db97b220c
+  tool_panel_section_id: bedtools
+  tool_panel_section_label: BEDTools
+  tool_shed_url: toolshed.g2.bx.psu.edu

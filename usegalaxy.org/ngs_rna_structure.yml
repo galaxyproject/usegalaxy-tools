@@ -1,0 +1,8 @@
+tools:
+- name: structurefold
+  owner: tyty
+  revisions:
+  - 7bb98e9296e9
+  tool_panel_section_id: ngs_rna_structure
+  tool_panel_section_label: 'NGS: RNA Structure'
+  tool_shed_url: toolshed.g2.bx.psu.edu

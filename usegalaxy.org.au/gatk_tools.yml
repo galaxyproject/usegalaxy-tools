@@ -1,0 +1,8 @@
+tools:
+- name: gatk2
+  owner: iuc
+  revisions:
+  - 84584664264c
+  tool_panel_section_id: gatk2
+  tool_panel_section_label: GATK Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu

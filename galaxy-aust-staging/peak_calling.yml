@@ -1,0 +1,57 @@
+tools:
+- name: idr
+  owner: iuc
+  revisions:
+  - d3ebbf39b1c5
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: diffbind
+  owner: bgruening
+  revisions:
+  - fa56d93f7980
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: spp_tool
+  owner: stemcellcommons
+  revisions:
+  - 23b22c1692fa
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: macs21
+  owner: pjbriggs
+  revisions:
+  - 4124781932db
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: rnachipintegrator
+  owner: pjbriggs
+  revisions:
+  - b695071de766
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sicer
+  owner: devteam
+  revisions:
+  - 4a14714649b4
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: macs2
+  owner: iuc
+  revisions:
+  - f5d67c722d67
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: idr_package
+  owner: modencode-dcc
+  revisions:
+  - 6f6a9fbe264e
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu

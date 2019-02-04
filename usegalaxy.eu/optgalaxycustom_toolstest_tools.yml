@@ -1,0 +1,8 @@
+tools:
+- name: hifive
+  owner: sauria
+  revisions:
+  - 20dfaec1678c
+  tool_panel_section_id: bg-test-tools
+  tool_panel_section_label: /opt/galaxy/custom-tools/Test Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu

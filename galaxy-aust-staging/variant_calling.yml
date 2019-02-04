@@ -1,0 +1,71 @@
+tools:
+- name: snippy
+  owner: iuc
+  revisions:
+  - c9a8ef2aa380
+  tool_panel_section_id: ngs_variant_analysis
+  tool_panel_section_label: Variant Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcftools_merge
+  owner: devteam
+  revisions:
+  - 71e19ddf52f5
+  tool_panel_section_id: ngs_variant_analysis
+  tool_panel_section_label: Variant Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: substitution_rates
+  owner: devteam
+  revisions:
+  - 3d9544198582
+  tool_panel_section_id: ngs_variant_analysis
+  tool_panel_section_label: Variant Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: snpfreq
+  owner: devteam
+  revisions:
+  - 5c3ac057608b
+  tool_panel_section_id: ngs_variant_analysis
+  tool_panel_section_label: Variant Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcf_extract
+  owner: devteam
+  revisions:
+  - 76ad0b7865b9
+  tool_panel_section_id: ngs_variant_analysis
+  tool_panel_section_label: Variant Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcf_intersect
+  owner: devteam
+  revisions:
+  - 9d162bde4113
+  tool_panel_section_id: ngs_variant_analysis
+  tool_panel_section_label: Variant Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcf_annotate
+  owner: devteam
+  revisions:
+  - b001b50f2009
+  tool_panel_section_id: ngs_variant_analysis
+  tool_panel_section_label: Variant Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcf_filter
+  owner: devteam
+  revisions:
+  - da1a6f33b504
+  tool_panel_section_id: ngs_variant_analysis
+  tool_panel_section_label: Variant Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: freebayes
+  owner: devteam
+  revisions:
+  - 156b60c1530f
+  tool_panel_section_id: ngs_variant_analysis
+  tool_panel_section_label: Variant Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: varscan_version_2
+  owner: devteam
+  revisions:
+  - bc1e0cd41241
+  tool_panel_section_id: ngs_variant_analysis
+  tool_panel_section_label: Variant Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu

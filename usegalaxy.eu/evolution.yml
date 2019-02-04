@@ -1,0 +1,29 @@
+tools:
+- name: mutate_snp_codon
+  owner: devteam
+  revisions:
+  - 8f0af7251167
+  tool_panel_section_id: evolution
+  tool_panel_section_label: Evolution
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: iqtree
+  owner: iuc
+  revisions:
+  - d1c340a5664b
+  tool_panel_section_id: evolution
+  tool_panel_section_label: Evolution
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: structure
+  owner: iuc
+  revisions:
+  - 64e681a1cad5
+  tool_panel_section_id: evolution
+  tool_panel_section_label: Evolution
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: codeml
+  owner: iuc
+  revisions:
+  - ba71e26d5bdc
+  tool_panel_section_id: evolution
+  tool_panel_section_label: Evolution
+  tool_shed_url: toolshed.g2.bx.psu.edu

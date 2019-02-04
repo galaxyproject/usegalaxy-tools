@@ -1,0 +1,73 @@
+tools:
+- name: macs
+  owner: devteam
+  revisions:
+  - f6319b0b4391
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sicer
+  owner: devteam
+  revisions:
+  - 74c9214cc8e6
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ccat
+  owner: devteam
+  revisions:
+  - 201d8e7dfc43
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: peakachu
+  owner: rnateam
+  revisions:
+  - 49a5a2e86c84
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: zerone
+  owner: iuc
+  revisions:
+  - 75962a01d8ab
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: diffbind
+  owner: bgruening
+  revisions:
+  - c97a786e8fb5
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pureclip
+  owner: iuc
+  revisions:
+  - eb000bccef28
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: macs2
+  owner: iuc
+  revisions:
+  - f5d67c722d67
+  - c33686854b19
+  - 01cded2297b7
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: jamm
+  owner: messersc
+  revisions:
+  - 243f75d0ed6e
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: piranha
+  owner: rnateam
+  revisions:
+  - f7f366ede872
+  tool_panel_section_id: peak_calling
+  tool_panel_section_label: Peak Calling
+  tool_shed_url: toolshed.g2.bx.psu.edu
