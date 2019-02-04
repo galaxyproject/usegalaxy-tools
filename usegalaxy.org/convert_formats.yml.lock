@@ -1,0 +1,26 @@
+tools:
+- name: bam_to_scidx
+  owner: iuc
+  revisions:
+  - 408520e1ae1a
+  tool_panel_section_label: Convert Formats
+- name: fastq_to_fasta
+  owner: devteam
+  revisions:
+  - 02a5f43cd5d1
+  tool_panel_section_label: Convert Formats
+- name: tabular_to_fastq
+  owner: devteam
+  revisions:
+  - b8cdc0507586
+  tool_panel_section_label: Convert Formats
+- name: fastqtofasta
+  owner: devteam
+  revisions:
+  - 4844c1810c16
+  tool_panel_section_label: Convert Formats
+- name: fastq_to_tabular
+  owner: devteam
+  revisions:
+  - ccf4e1d1fcbe
+  tool_panel_section_label: Convert Formats

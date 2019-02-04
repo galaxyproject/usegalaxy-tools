@@ -1,0 +1,6 @@
+tools:
+- name: picard
+  owner: devteam
+  revisions:
+  - 2a17c789e0a5
+  tool_panel_section_label: 'NGS: Picard'

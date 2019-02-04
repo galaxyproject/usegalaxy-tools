@@ -1,0 +1,36 @@
+tools:
+- name: plant_tribes_assembly_post_processor
+  owner: greg
+  revisions:
+  - 518b530c82de
+  tool_panel_section_label: PlantTribes
+- name: plant_tribes_gene_family_classifier
+  owner: greg
+  revisions:
+  - 0916fe9ef46f
+  tool_panel_section_label: PlantTribes
+- name: plant_tribes_gene_family_integrator
+  owner: greg
+  revisions:
+  - a4009bf30e70
+  tool_panel_section_label: PlantTribes
+- name: plant_tribes_gene_family_aligner
+  owner: greg
+  revisions:
+  - 79ea0eef1942
+  tool_panel_section_label: PlantTribes
+- name: plant_tribes_gene_family_phylogeny_builder
+  owner: greg
+  revisions:
+  - 800402ed6eb7
+  tool_panel_section_label: PlantTribes
+- name: plant_tribes_kaks_analysis
+  owner: greg
+  revisions:
+  - 84615d553d44
+  tool_panel_section_label: PlantTribes
+- name: plant_tribes_ks_distribution
+  owner: greg
+  revisions:
+  - dc4e4a1b3676
+  tool_panel_section_label: PlantTribes

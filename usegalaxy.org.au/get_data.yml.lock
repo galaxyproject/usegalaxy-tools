@@ -1,0 +1,6 @@
+tools:
+- name: sra_tools
+  owner: iuc
+  revisions:
+  - 8c00bc7fd8de
+  tool_panel_section_label: Get Data

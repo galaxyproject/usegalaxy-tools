@@ -1,0 +1,6 @@
+tools:
+- name: mlst
+  owner: iuc
+  revisions:
+  - 8e8dc9a1e3e5
+  tool_panel_section_label: Bacterial Typing

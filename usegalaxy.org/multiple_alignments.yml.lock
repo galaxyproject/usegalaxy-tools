@@ -1,0 +1,11 @@
+tools:
+- name: mafft
+  owner: rnateam
+  revisions:
+  - 15974dd17515
+  tool_panel_section_label: Multiple Alignments
+- name: clustalw
+  owner: devteam
+  revisions:
+  - 7cc64024fe92
+  tool_panel_section_label: Multiple Alignments

@@ -1,0 +1,26 @@
+tools:
+- name: cloudmap_variant_discovery_mapping
+  owner: gregory-minevich
+  revisions:
+  - 552fd088910e
+  tool_panel_section_label: CloudMap
+- name: cloudmap_in_silico_complementation
+  owner: gregory-minevich
+  revisions:
+  - 5389dc5a0be3
+  tool_panel_section_label: CloudMap
+- name: ems_variant_density_mapping
+  owner: gregory-minevich
+  revisions:
+  - 5cc9b35b5a52
+  tool_panel_section_label: CloudMap
+- name: snp_mapping_using_wgs
+  owner: gregory-minevich
+  revisions:
+  - 6b5bd5faf836
+  tool_panel_section_label: CloudMap
+- name: check_snpeff_candidates
+  owner: gregory-minevich
+  revisions:
+  - f20585ccbf05
+  tool_panel_section_label: CloudMap

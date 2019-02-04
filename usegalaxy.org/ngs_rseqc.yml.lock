@@ -1,0 +1,7 @@
+tools:
+- name: rseqc
+  owner: nilesh
+  revisions:
+  - daae0a118c36
+  - 080fd5739bb4
+  tool_panel_section_label: 'NGS: RSeQC'

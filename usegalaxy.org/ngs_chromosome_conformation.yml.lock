@@ -1,0 +1,6 @@
+tools:
+- name: hifive
+  owner: sauria
+  revisions:
+  - cc95aa05f643
+  tool_panel_section_label: 'NGS: Chromosome Conformation'

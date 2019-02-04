@@ -1,0 +1,6 @@
+tools:
+- name: subtract_query
+  owner: devteam
+  revisions:
+  - 5f6ebef89722
+  tool_panel_section_label: Join, Subtract and Group

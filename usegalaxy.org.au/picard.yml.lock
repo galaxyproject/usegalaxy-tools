@@ -1,0 +1,6 @@
+tools:
+- name: picard
+  owner: devteam
+  revisions:
+  - fc288950c3b7
+  tool_panel_section_label: Picard

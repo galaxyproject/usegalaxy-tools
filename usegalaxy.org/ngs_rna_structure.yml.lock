@@ -1,0 +1,6 @@
+tools:
+- name: structurefold
+  owner: tyty
+  revisions:
+  - 7bb98e9296e9
+  tool_panel_section_label: 'NGS: RNA Structure'
