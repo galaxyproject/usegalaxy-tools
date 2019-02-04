@@ -1,15 +1,18 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: ete
   owner: earlhaminst
   revisions:
-  - 6a5282f71f82
   - 276e3ee68c37
+  - 6a5282f71f82
   tool_panel_section_label: Phylogenetics
 - name: treebest_best
   owner: earlhaminst
   revisions:
-  - b78b529f66db
   - 4f9e5110914b
+  - b78b529f66db
   tool_panel_section_label: Phylogenetics
 - name: gstf_preparation
   owner: earlhaminst

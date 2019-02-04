@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: macs
   owner: devteam
@@ -37,8 +40,8 @@ tools:
 - name: macs2
   owner: iuc
   revisions:
-  - c33686854b19
   - 01cded2297b7
+  - c33686854b19
   - f5d67c722d67
   tool_panel_section_label: Peak Calling
 - name: jamm

@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: annotatemyids
   owner: iuc
@@ -127,8 +130,8 @@ tools:
 - name: segmentation_fold
   owner: yhoogstrate
   revisions:
-  - 4d16cf9414cf
   - 09e921a25c68
+  - 4d16cf9414cf
   tool_panel_section_label: Annotation
 - name: gubbins
   owner: iuc
@@ -193,6 +196,6 @@ tools:
 - name: dgidb_annotator
   owner: devteam
   revisions:
-  - c5bb987015c5
   - 792f3cb0eff4
+  - c5bb987015c5
   tool_panel_section_label: Annotation

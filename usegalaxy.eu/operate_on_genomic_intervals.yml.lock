@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: basecoverage
   owner: devteam
@@ -17,12 +20,12 @@ tools:
 - name: bedtools
   owner: iuc
   revisions:
+  - 4f7a5ccd2ae9
   - 6283d16e40ed
   - a33db97b220c
+  - b3c147390100
   - b8348686a0b9
   - bd7721ad15aa
-  - b3c147390100
-  - 4f7a5ccd2ae9
   tool_panel_section_label: Operate on Genomic Intervals
 - name: annotation_profiler
   owner: devteam

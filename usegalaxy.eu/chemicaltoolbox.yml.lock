@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: openbabel_filter
   owner: bgruening
@@ -197,8 +200,8 @@ tools:
 - name: chemical_data_sources
   owner: bgruening
   revisions:
-  - c2055dd1927b
   - 7c1f9962ac07
+  - c2055dd1927b
   tool_panel_section_label: ChemicalToolBox
 - name: openmg
   owner: bgruening

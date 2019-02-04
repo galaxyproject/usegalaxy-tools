@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: pileup_parser
   owner: devteam
@@ -87,8 +90,8 @@ tools:
 - name: samtools_sort
   owner: iuc
   revisions:
-  - 80fffde691eb
   - 38ea74bd4054
+  - 80fffde691eb
   tool_panel_section_label: SAM Tools
 - name: ngsutils_bam_filter
   owner: iuc

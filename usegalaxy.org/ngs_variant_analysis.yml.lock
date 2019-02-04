@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: varscan_version_2
   owner: devteam
@@ -7,9 +10,9 @@ tools:
 - name: snpeff
   owner: iuc
   revisions:
-  - c9ecd2a96ecf
   - 36dc3690a82c
   - 5a29ab10dba6
+  - c9ecd2a96ecf
   tool_panel_section_label: 'NGS: Variant Analysis'
 - name: naive_variant_caller
   owner: blankenberg

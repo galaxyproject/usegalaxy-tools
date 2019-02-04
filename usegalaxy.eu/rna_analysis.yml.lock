@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: cofold
   owner: rnateam
@@ -279,10 +282,10 @@ tools:
 - name: rseqc
   owner: nilesh
   revisions:
-  - f437057e46f1
   - 09846d5169fa
   - 2e6190c29c54
   - daae0a118c36
+  - f437057e46f1
   tool_panel_section_label: RNA Analysis
 - name: seurat
   owner: iuc

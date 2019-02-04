@@ -1,9 +1,12 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: snippy
   owner: iuc
   revisions:
-  - c9a8ef2aa380
   - 82f2b6f20fa2
+  - c9a8ef2aa380
   tool_panel_section_label: Variant Calling
 - name: bcftools_consensus
   owner: iuc
@@ -43,8 +46,8 @@ tools:
 - name: snpsift
   owner: iuc
   revisions:
-  - 2b3e65a4252f
   - 09d6806c609e
+  - 2b3e65a4252f
   - b04635ebfab0
   tool_panel_section_label: Variant Calling
 - name: bcftools_norm
@@ -60,11 +63,11 @@ tools:
 - name: snpeff
   owner: iuc
   revisions:
-  - e8adfc4c0a6b
-  - c9ecd2a96ecf
   - 85ca751407c3
-  - dd3622f501f3
   - 8f92c2b26e6d
+  - c9ecd2a96ecf
+  - dd3622f501f3
+  - e8adfc4c0a6b
   tool_panel_section_label: Variant Calling
 - name: vcfannotategenotypes
   owner: devteam
@@ -179,8 +182,8 @@ tools:
 - name: bcftools
   owner: iuc
   revisions:
-  - e5e78d1e09a6
   - bdd0cb7fbedf
+  - e5e78d1e09a6
   tool_panel_section_label: Variant Calling
 - name: freebayes
   owner: devteam

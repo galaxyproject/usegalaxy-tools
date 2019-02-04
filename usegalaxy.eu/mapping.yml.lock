@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: hisat2
   owner: iuc
@@ -37,8 +40,8 @@ tools:
 - name: bismark
   owner: bgruening
   revisions:
-  - 9d02cd7883ad
   - 9bfe38410155
+  - 9d02cd7883ad
   tool_panel_section_label: Mapping
 - name: graphmap_overlap
   owner: bgruening
@@ -63,8 +66,8 @@ tools:
 - name: bwa
   owner: devteam
   revisions:
-  - dfd8b7f78c37
   - 8d2a528a9513
+  - dfd8b7f78c37
   tool_panel_section_label: Mapping
 - name: star_fusion
   owner: iuc

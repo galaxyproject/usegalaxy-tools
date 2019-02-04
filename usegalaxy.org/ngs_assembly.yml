@@ -1,4 +1,4 @@
-tool_panel_section_label: NGS: Assembly
+tool_panel_section_label: "NGS: Assembly"
 tools:
 - name: unicycler
   owner: iuc

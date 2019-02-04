@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: pep_pointer
   owner: galaxyp
@@ -152,8 +155,8 @@ tools:
 - name: protease_prediction
   owner: bgruening
   revisions:
-  - c7a363d7ab26
   - 8e8c6df5cc64
+  - c7a363d7ab26
   tool_panel_section_label: Proteomics
 - name: sqlite_to_tabular
   owner: iuc
@@ -973,8 +976,8 @@ tools:
 - name: protease_prediction
   owner: bgruening
   revisions:
-  - c7a363d7ab26
   - 8e8c6df5cc64
+  - c7a363d7ab26
   tool_panel_section_label: Proteomics
 - name: decoyfasta
   owner: galaxyp

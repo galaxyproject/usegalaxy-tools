@@ -1,4 +1,4 @@
-tool_panel_section_label: NGS: RNA Analysis (deprecated)
+tool_panel_section_label: "NGS: RNA Analysis (deprecated)"
 tools:
 - name: tophat2
   owner: devteam

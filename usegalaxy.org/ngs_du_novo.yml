@@ -1,4 +1,4 @@
-tool_panel_section_label: NGS: Du Novo
+tool_panel_section_label: "NGS: Du Novo"
 tools:
 - name: dunovo
   owner: nick

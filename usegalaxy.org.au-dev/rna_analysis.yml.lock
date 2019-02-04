@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: kallisto_pseudo
   owner: iuc
@@ -207,8 +210,8 @@ tools:
 - name: trinotate
   owner: iuc
   revisions:
-  - 9e61bc67866f
   - 6fd16fad465d
+  - 9e61bc67866f
   tool_panel_section_label: RNA Analysis
 - name: rsem
   owner: jjohnson
@@ -218,6 +221,6 @@ tools:
 - name: trinotate
   owner: iuc
   revisions:
-  - 9e61bc67866f
   - 6fd16fad465d
+  - 9e61bc67866f
   tool_panel_section_label: RNA Analysis

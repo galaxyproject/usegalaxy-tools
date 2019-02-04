@@ -1,4 +1,4 @@
-tool_panel_section_label: NGS: SAMtools
+tool_panel_section_label: "NGS: SAMtools"
 tools:
 - name: bcftools_call
   owner: iuc

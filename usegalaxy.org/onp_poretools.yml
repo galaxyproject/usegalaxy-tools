@@ -1,4 +1,4 @@
-tool_panel_section_label: ONP: PoreTools
+tool_panel_section_label: "ONP: PoreTools"
 tools:
 - name: poretools_yield_plot
   owner: iuc

@@ -1,4 +1,4 @@
-tool_panel_section_label: NGS: QC and manipulation
+tool_panel_section_label: "NGS: QC and manipulation"
 tools:
 - name: cutadapt
   owner: lparsons

@@ -1,4 +1,4 @@
-tool_panel_section_label: NGS: RNA Analysis
+tool_panel_section_label: "NGS: RNA Analysis"
 tools:
 - name: dexseq
   owner: iuc

@@ -1,4 +1,4 @@
-tool_panel_section_label: NGS: GATK Tools (beta)
+tool_panel_section_label: "NGS: GATK Tools (beta)"
 tools:
 - name: variant_select
   owner: devteam

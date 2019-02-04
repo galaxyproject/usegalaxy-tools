@@ -1,7 +1,10 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: bedtools
   owner: iuc
   revisions:
-  - db1841942d2b
   - a33db97b220c
+  - db1841942d2b
   tool_panel_section_label: BEDTools
