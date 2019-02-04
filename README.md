@@ -22,7 +22,3 @@
 	- Run `make fix`
 	- Edit the .yaml.lock to correct the version number.
 - Open a pull request
-
-## For UseGalaxy.\* Instance Administrators
-
-Set the environment variables `GALAXY_SERVER_URL` and `GALAXY_API_KEY` and run `make install`. This will install ALL of the tools from the .lock files. Be sure that the tool panel sections are pre-existing or it will make a mess of your tool panel. You can run `grep -o -h 'tool_panel_section_label:.*' *.yaml.lock | sort -u` for a list of categories.
