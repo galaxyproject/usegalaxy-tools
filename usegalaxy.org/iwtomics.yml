@@ -1,3 +1,4 @@
+tool_panel_section_label: IWTomics
 tools:
 - name: iwtomics_loadandplot
   owner: iuc

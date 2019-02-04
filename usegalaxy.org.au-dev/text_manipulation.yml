@@ -1,3 +1,4 @@
+tool_panel_section_label: Text Manipulation
 tools:
 - name: text_processing
   owner: bgruening

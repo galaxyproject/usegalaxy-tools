@@ -1,3 +1,4 @@
+tool_panel_section_label: Filter and Sort
 tools:
 - name: gffcompare
   owner: iuc

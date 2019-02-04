@@ -1,3 +1,4 @@
+tool_panel_section_label: Quality Control
 tools:
 - name: short_reads_figure_score
   owner: devteam

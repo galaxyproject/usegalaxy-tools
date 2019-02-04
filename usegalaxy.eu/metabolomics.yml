@@ -1,3 +1,4 @@
+tool_panel_section_label: Metabolomics
 tools:
 - name: lipidmaps_textsearch
   owner: fgiacomoni

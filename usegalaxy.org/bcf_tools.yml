@@ -1,3 +1,4 @@
+tool_panel_section_label: BCF Tools
 tools:
 - name: bcftools_plugin_tag2tag
   owner: iuc

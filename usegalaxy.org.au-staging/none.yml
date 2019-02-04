@@ -1,3 +1,4 @@
+tool_panel_section_label: None
 tools:
 - name: data_manager_kallisto_index_builder
   owner: iuc

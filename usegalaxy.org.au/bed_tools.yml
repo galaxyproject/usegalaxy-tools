@@ -1,3 +1,4 @@
+tool_panel_section_label: BED tools
 tools:
 - name: bedtools
   owner: iuc

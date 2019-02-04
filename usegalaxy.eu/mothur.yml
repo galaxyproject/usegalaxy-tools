@@ -1,3 +1,4 @@
+tool_panel_section_label: Mothur
 tools:
 - name: mothur_chimera_vsearch
   owner: iuc

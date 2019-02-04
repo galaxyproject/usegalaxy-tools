@@ -1,3 +1,4 @@
+tool_panel_section_label: NGS: RSeQC
 tools:
 - name: rseqc
   owner: nilesh

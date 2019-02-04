@@ -1,3 +1,4 @@
+tool_panel_section_label: Annotation
 tools:
 - name: annotatemyids
   owner: iuc

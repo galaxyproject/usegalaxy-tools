@@ -1,3 +1,4 @@
+tool_panel_section_label: NGS: Variant Analysis
 tools:
 - name: varscan_version_2
   owner: devteam

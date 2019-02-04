@@ -1,3 +1,4 @@
+tool_panel_section_label: NGS: Mapping
 tools:
 - name: bowtie2
   owner: devteam

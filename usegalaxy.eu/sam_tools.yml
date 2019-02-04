@@ -1,3 +1,4 @@
+tool_panel_section_label: SAM Tools
 tools:
 - name: pileup_parser
   owner: devteam

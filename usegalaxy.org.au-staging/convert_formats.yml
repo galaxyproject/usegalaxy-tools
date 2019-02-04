@@ -1,3 +1,4 @@
+tool_panel_section_label: Convert Formats
 tools:
 - name: fml_gff3togtf
   owner: vipints

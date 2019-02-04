@@ -1,3 +1,4 @@
+tool_panel_section_label: HiCExplorer
 tools:
 - name: hicexplorer_hicfindtads
   owner: bgruening

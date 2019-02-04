@@ -1,3 +1,4 @@
+tool_panel_section_label: FASTA/FASTQ manipulation
 tools:
 - name: fastq_to_fasta
   owner: devteam

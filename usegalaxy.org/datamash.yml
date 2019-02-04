@@ -1,3 +1,4 @@
+tool_panel_section_label: Datamash
 tools:
 - name: datamash_ops
   owner: iuc

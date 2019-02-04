@@ -1,3 +1,4 @@
+tool_panel_section_label: Operate on Genomic Intervals
 tools:
 - name: merge
   owner: devteam

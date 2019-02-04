@@ -1,3 +1,4 @@
+tool_panel_section_label: Multivariate Analysis
 tools:
 - name: canonical_correlation_analysis
   owner: devteam

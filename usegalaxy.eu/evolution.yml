@@ -1,3 +1,4 @@
+tool_panel_section_label: Evolution
 tools:
 - name: mutate_snp_codon
   owner: devteam

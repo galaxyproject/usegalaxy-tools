@@ -1,3 +1,4 @@
+tool_panel_section_label: PlantTribes
 tools:
 - name: plant_tribes_assembly_post_processor
   owner: greg

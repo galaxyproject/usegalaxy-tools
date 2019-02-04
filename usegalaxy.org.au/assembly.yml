@@ -1,3 +1,4 @@
+tool_panel_section_label: Assembly
 tools:
 - name: velvetoptimiser
   owner: simon-gladman

@@ -1,3 +1,4 @@
+tool_panel_section_label: ChemicalToolBox
 tools:
 - name: openbabel_filter
   owner: bgruening

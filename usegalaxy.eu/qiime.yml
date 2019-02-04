@@ -1,3 +1,4 @@
+tool_panel_section_label: Qiime
 tools:
 - name: qiime_collapse_samples
   owner: iuc

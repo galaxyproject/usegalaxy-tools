@@ -1,3 +1,4 @@
+tool_panel_section_label: GraphClust
 tools:
 - name: structure_to_gspan
   owner: rnateam

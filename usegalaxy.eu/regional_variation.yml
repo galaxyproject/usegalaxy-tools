@@ -1,3 +1,4 @@
+tool_panel_section_label: Regional Variation
 tools:
 - name: indels_3way
   owner: devteam

@@ -1,3 +1,4 @@
+tool_panel_section_label: VCF Manipulation
 tools:
 - name: vcf2tsv
   owner: devteam

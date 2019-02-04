@@ -1,3 +1,4 @@
+tool_panel_section_label: Gemini Tools
 tools:
 - name: gemini_annotate
   owner: iuc

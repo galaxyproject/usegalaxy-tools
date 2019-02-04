@@ -1,3 +1,4 @@
+tool_panel_section_label: Join, Subtract and Group
 tools:
 - name: subtract
   owner: devteam

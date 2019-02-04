@@ -1,3 +1,4 @@
+tool_panel_section_label: Metagenomic analyses
 tools:
 - name: phyloseq_ordination_plot
   owner: simon-gladman

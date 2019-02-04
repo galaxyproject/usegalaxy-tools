@@ -1,3 +1,4 @@
+tool_panel_section_label: deepTools
 tools:
 - name: deeptools_plot_profile
   owner: bgruening

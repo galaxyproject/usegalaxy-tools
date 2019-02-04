@@ -1,3 +1,4 @@
+tool_panel_section_label: NGS: Peak Calling
 tools:
 - name: genetrack
   owner: iuc

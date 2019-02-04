@@ -1,3 +1,4 @@
+tool_panel_section_label: NGS: VCF Manipulation
 tools:
 - name: vcfdistance
   owner: devteam

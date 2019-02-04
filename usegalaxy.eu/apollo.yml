@@ -1,3 +1,4 @@
+tool_panel_section_label: Apollo
 tools:
 - name: apollo_iframe
   owner: gga

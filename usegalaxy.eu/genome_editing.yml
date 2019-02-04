@@ -1,3 +1,4 @@
+tool_panel_section_label: Genome editing
 tools:
 - name: mageck_test
   owner: iuc

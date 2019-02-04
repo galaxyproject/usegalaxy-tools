@@ -1,3 +1,4 @@
+tool_panel_section_label: Get Data
 tools:
 - name: ncbi_eutils_esearch
   owner: iuc

@@ -1,3 +1,4 @@
+tool_panel_section_label: FASTA manipulation
 tools:
 - name: seq_select_by_id
   owner: peterjc

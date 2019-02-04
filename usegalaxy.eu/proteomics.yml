@@ -1,3 +1,4 @@
+tool_panel_section_label: Proteomics
 tools:
 - name: pep_pointer
   owner: galaxyp

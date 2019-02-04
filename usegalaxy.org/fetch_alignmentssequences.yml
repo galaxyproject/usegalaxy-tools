@@ -1,3 +1,4 @@
+tool_panel_section_label: Fetch Alignments/Sequences
 tools:
 - name: extract_genomic_dna
   owner: iuc

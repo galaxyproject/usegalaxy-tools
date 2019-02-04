@@ -1,3 +1,4 @@
+tool_panel_section_label: OBO Ontology manipulation
 tools:
 - name: onto_tk_get_ancestor_terms
   owner: iuc

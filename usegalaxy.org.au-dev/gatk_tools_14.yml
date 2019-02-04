@@ -1,3 +1,4 @@
+tool_panel_section_label: GATK Tools 1.4
 tools:
 - name: depth_of_coverage
   owner: devteam

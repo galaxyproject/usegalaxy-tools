@@ -1,3 +1,4 @@
+tool_panel_section_label: CloudMap
 tools:
 - name: cloudmap_variant_discovery_mapping
   owner: gregory-minevich

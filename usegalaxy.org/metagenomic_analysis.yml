@@ -1,3 +1,4 @@
+tool_panel_section_label: Metagenomic Analysis
 tools:
 - name: diamond
   owner: bgruening
