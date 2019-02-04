@@ -1,839 +1,239 @@
 tools:
 - name: cofold
   owner: rnateam
-  revisions:
-  - 6fed0bc99753
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rnaz_cluster
   owner: bgruening
-  revisions:
-  - d21d8e70e802
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mea
   owner: rnateam
-  revisions:
-  - 9ebd60531aa6
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: dr_disco
   owner: erasmus-medical-center
-  revisions:
-  - 3743fd602fa9
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cmcv
   owner: rnateam
-  revisions:
-  - 8405fa59c2b2
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: deseq2
   owner: iuc
-  revisions:
-  - a6fc9228e1a0
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rnaz_randomize_aln
   owner: bgruening
-  revisions:
-  - 5d006d19f70a
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rnaz_select_seqs
   owner: bgruening
-  revisions:
-  - 273a961d332f
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rnaz_window
   owner: bgruening
-  revisions:
-  - fdfe3dcf8fc4
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rnaz_annotate
   owner: bgruening
-  revisions:
-  - e123d5c6f489
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: egsea
   owner: iuc
-  revisions:
-  - ba2111ae6eb4
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: dexseq
   owner: iuc
-  revisions:
-  - 251393b72616
-  - 278b189248cd
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: filter_transcripts_via_tracking
   owner: devteam
-  revisions:
-  - 45f89dcf0b4c
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: express
   owner: devteam
-  revisions:
-  - 7b0708761d05
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cuffmerge
   owner: devteam
-  revisions:
-  - cf747d1bd79a
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cufflinks
   owner: devteam
-  revisions:
-  - e04dbae2abe0
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cuffdiff
   owner: devteam
-  revisions:
-  - d3ae7d9c2202
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cuffcompare
   owner: devteam
-  revisions:
-  - e66b9b5b8580
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: crosscontamination_barcode_filter
   owner: iuc
-  revisions:
-  - 582b7bd4ae4c
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: deg_annotate
   owner: iuc
-  revisions:
-  - e98d4ab5b5bc
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: slamdunk
   owner: iuc
-  revisions:
-  - 24657d5edede
-  - 57bf9a0d49a5
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: scpipe
   owner: iuc
-  revisions:
-  - 5c4bca9dd4a2
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: featurecounts
   owner: iuc
-  revisions:
-  - af814359d244
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: limma_voom
   owner: iuc
-  revisions:
-  - 41573afd6871
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: edger
   owner: iuc
-  revisions:
-  - 4730985c816f
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: locarna_multiple
   owner: rnateam
-  revisions:
-  - 94b0468f0db8
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cmv
   owner: rnateam
-  revisions:
-  - 6e36667f1729
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ribotaper
   owner: rnateam
-  revisions:
-  - 9dda0cc9ff98
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pipmir
   owner: rnateam
-  revisions:
-  - 16209195224c
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: nastiseq
   owner: rnateam
-  revisions:
-  - 0a0bba8e1823
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: flaimapper
   owner: yhoogstrate
-  revisions:
-  - 0addbdbc1344
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: targetfinder
   owner: rnateam
-  revisions:
-  - 773fdd1a02ea
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: aresite2
   owner: rnateam
-  revisions:
-  - a3ce813ed604
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fuma
   owner: yhoogstrate
-  revisions:
-  - b21145d59d9c
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rnalien
   owner: rnateam
-  revisions:
-  - 9e173f038156
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kallisto_quant
   owner: iuc
-  revisions:
-  - 10c98fab6c5a
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: raceid_trajectory
   owner: iuc
-  revisions:
-  - ff7cd3c7c1df
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: raceid_clustering
   owner: iuc
-  revisions:
-  - 4ea021bd7513
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: raceid_inspecttrajectory
   owner: iuc
-  revisions:
-  - e0e9b24d76aa
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: raceid_filtnormconf
   owner: iuc
-  revisions:
-  - 8dc8ff057b0f
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: raceid_inspectclusters
   owner: iuc
-  revisions:
-  - 9fec5dd8fbb9
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: blockclust
   owner: rnateam
-  revisions:
-  - aab6cf87b40a
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_analyze_diff_expr
   owner: iuc
-  revisions:
-  - fab23c3b5258
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_gene_to_trans_map
   owner: iuc
-  revisions:
-  - 37a1129c89d2
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_samples_qccheck
   owner: iuc
-  revisions:
-  - 9871104ea630
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: describe_samples
   owner: iuc
-  revisions:
-  - 0693ccd171c4
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_define_clusters_by_cutting_tree
   owner: iuc
-  revisions:
-  - 33406f5a445c
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_run_de_analysis
   owner: iuc
-  revisions:
-  - 1d689e4e1caf
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_filter_low_expr_transcripts
   owner: iuc
-  revisions:
-  - e406ac71165d
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_contig_exn50_statistic
   owner: iuc
-  revisions:
-  - 34a018cbee9c
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_abundance_estimates_to_matrix
   owner: iuc
-  revisions:
-  - d6a479fd4281
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_align_and_estimate_abundance
   owner: iuc
-  revisions:
-  - 478f36effca1
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_super_transcripts
   owner: iuc
-  revisions:
-  - 3abd51c4b151
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity
   owner: iuc
-  revisions:
-  - c9cfec002f71
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ruvseq
   owner: iuc
-  revisions:
-  - 61dffb20b6f9
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rseqc
   owner: nilesh
-  revisions:
-  - 09846d5169fa
-  - f437057e46f1
-  - daae0a118c36
-  - 2e6190c29c54
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: seurat
   owner: iuc
-  revisions:
-  - 8d8412d35247
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: salmon
   owner: bgruening
-  revisions:
-  - 6b0ba6de1424
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: heinz
   owner: iuc
-  revisions:
-  - e41ec5af7472
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: migmap
   owner: iuc
-  revisions:
-  - fbbe507e692b
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: stringtie
   owner: iuc
-  revisions:
-  - dd4df992d93d
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sshmm
   owner: rnateam
-  revisions:
-  - 4b01f0d7b350
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pizzly
   owner: iuc
-  revisions:
-  - 91ef4a171202
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rcas
   owner: rnateam
-  revisions:
-  - 7c7a2a381dfe
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: feelnc
   owner: iuc
-  revisions:
-  - 17a77824c8e4
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: graphprot_predict_profile
   owner: rnateam
-  revisions:
-  - 215925e588c4
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rnacode
   owner: rnateam
-  revisions:
-  - 434332033e82
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: intarna
   owner: rnateam
-  revisions:
-  - 3f6715821198
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kallisto_pseudo
   owner: iuc
-  revisions:
-  - 1c75aa5de15e
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rnaz
   owner: bgruening
-  revisions:
-  - 58fd61a8362e
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rnashapes
   owner: rnateam
-  revisions:
-  - 7adb2518f6e9
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: htseq_count
   owner: lparsons
-  revisions:
-  - 7f5a8d427b39
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnafold
   owner: rnateam
-  revisions:
-  - bdb786715d28
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: idr
   owner: iuc
-  revisions:
-  - d3ebbf39b1c5
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnacofold
   owner: rnateam
-  revisions:
-  - 42b7c0fd4370
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnaalifold
   owner: rnateam
-  revisions:
-  - b63684e40386
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: segemehl
   owner: rnateam
-  revisions:
-  - db367d012fa3
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: masigpro
   owner: iuc
-  revisions:
-  - db04ba860dab
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cuffnorm
   owner: devteam
-  revisions:
-  - f5b2ee725d34
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cuffquant
   owner: devteam
-  revisions:
-  - 6dc45faebc1d
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cummerbund
   owner: devteam
-  revisions:
-  - 78fcfc04fcfe
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: transdecoder
   owner: iuc
-  revisions:
-  - 0db979fead3a
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sailfish
   owner: bgruening
-  revisions:
-  - a8f343909c17
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnaeval
   owner: rnateam
-  revisions:
-  - 4f1a37b08904
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnaplex
   owner: rnateam
-  revisions:
-  - 765c1ca8c386
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rna2dfold
   owner: rnateam
-  revisions:
-  - 17b6ff52efc3
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnapaln
   owner: rnateam
-  revisions:
-  - fb69ae544451
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnaplot
   owner: rnateam
-  revisions:
-  - 23c2c9a7b62e
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnasnoop
   owner: rnateam
-  revisions:
-  - 61e51eabbb95
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_kinfold
   owner: rnateam
-  revisions:
-  - ef720d386200
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnaaliduplex
   owner: rnateam
-  revisions:
-  - a1eeb45167e8
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnaduplex
   owner: rnateam
-  revisions:
-  - 7f557b728422
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnadistance
   owner: rnateam
-  revisions:
-  - 2d0d76f6a8aa
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnadpdist
   owner: rnateam
-  revisions:
-  - 00cf3d615a73
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnalfold
   owner: rnateam
-  revisions:
-  - c3162757c4cc
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnapkplex
   owner: rnateam
-  revisions:
-  - 339ad356faa1
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnaup
   owner: rnateam
-  revisions:
-  - 0a840ecbd627
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnalalifold
   owner: rnateam
-  revisions:
-  - 271fdfd36786
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnainverse
   owner: rnateam
-  revisions:
-  - 9f5eed9a1c82
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnaheat
   owner: rnateam
-  revisions:
-  - c7fe6d50a6ad
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: viennarna_rnasubopt
   owner: rnateam
-  revisions:
-  - a0a401d57947
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: infernal
   owner: bgruening
-  revisions:
-  - 477d829d3250
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: remurna
   owner: rnateam
-  revisions:
-  - b1f5d49a6f30
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rnasnp
   owner: rnateam
-  revisions:
-  - 327f5721612f
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mlocarna
   owner: rnateam
-  revisions:
-  - 59055c49a112
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: paralyzer
   owner: rnateam
-  revisions:
-  - 4dbe81be8b81
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: circexplorer
   owner: bgruening
-  revisions:
-  - c3b5869b95fd
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rnacommender
   owner: rnateam
-  revisions:
-  - b3462a72ff76
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tophat_fusion_post
   owner: devteam
-  revisions:
-  - f83394a2c2da
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: blockbuster
   owner: rnateam
-  revisions:
-  - 7c7ff7a3503f
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kinwalker
   owner: rnateam
-  revisions:
-  - cb66f1d643e4
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: antarna
   owner: rnateam
-  revisions:
-  - cfe9e6771518
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rnabob
   owner: rnateam
-  revisions:
-  - cd00b4fe6552
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: structurefold
   owner: tyty
-  revisions:
-  - 7bb98e9296e9
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cummerbund_to_tabular
   owner: devteam
-  revisions:
-  - 0761bbc0a4e7
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mirdeep2_mapper
   owner: rnateam
-  revisions:
-  - ab8cd78709e1
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mirdeep2_quantifier
   owner: rnateam
-  revisions:
-  - 40dc77f3730c
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mirdeep2
   owner: rnateam
-  revisions:
-  - d0faf81ccc99
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rsem
   owner: jjohnson
-  revisions:
-  - 14267d364365
-  tool_panel_section_id: rna_analysis
-  tool_panel_section_label: RNA Analysis
-  tool_shed_url: toolshed.g2.bx.psu.edu

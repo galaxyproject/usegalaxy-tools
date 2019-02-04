@@ -1,0 +1,43 @@
+tools:
+- name: ete
+  owner: earlhaminst
+  revisions:
+  - 6a5282f71f82
+  - 276e3ee68c37
+  tool_panel_section_label: Phylogenetics
+- name: treebest_best
+  owner: earlhaminst
+  revisions:
+  - b78b529f66db
+  - 4f9e5110914b
+  tool_panel_section_label: Phylogenetics
+- name: gstf_preparation
+  owner: earlhaminst
+  revisions:
+  - 92f3966d5bc3
+  tool_panel_section_label: Phylogenetics
+- name: gafa
+  owner: earlhaminst
+  revisions:
+  - b9f1bcf5ee59
+  tool_panel_section_label: Phylogenetics
+- name: t_coffee
+  owner: earlhaminst
+  revisions:
+  - df6527887a18
+  tool_panel_section_label: Phylogenetics
+- name: hcluster_sg_parser
+  owner: earlhaminst
+  revisions:
+  - f9e418125021
+  tool_panel_section_label: Phylogenetics
+- name: hcluster_sg
+  owner: earlhaminst
+  revisions:
+  - 1d2de27d7a9c
+  tool_panel_section_label: Phylogenetics
+- name: blast_parser
+  owner: earlhaminst
+  revisions:
+  - 363f3480622d
+  tool_panel_section_label: Phylogenetics

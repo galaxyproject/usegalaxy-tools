@@ -1,0 +1,36 @@
+tools:
+- name: indels_3way
+  owner: devteam
+  revisions:
+  - 5ad24b81dd10
+  tool_panel_section_label: Regional Variation
+- name: draw_stacked_barplots
+  owner: devteam
+  revisions:
+  - e997b710e38a
+  tool_panel_section_label: Regional Variation
+- name: delete_overlapping_indels
+  owner: devteam
+  revisions:
+  - f16000dc644b
+  tool_panel_section_label: Regional Variation
+- name: compute_motifs_frequency
+  owner: devteam
+  revisions:
+  - 1f8ee7f9701b
+  tool_panel_section_label: Regional Variation
+- name: compute_motif_frequencies_for_all_motifs
+  owner: devteam
+  revisions:
+  - 5319efa51514
+  tool_panel_section_label: Regional Variation
+- name: categorize_elements_satisfying_criteria
+  owner: devteam
+  revisions:
+  - 586c1f0e1515
+  tool_panel_section_label: Regional Variation
+- name: featurecounter
+  owner: devteam
+  revisions:
+  - ac6218e2b686
+  tool_panel_section_label: Regional Variation

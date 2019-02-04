@@ -1,0 +1,198 @@
+tools:
+- name: annotatemyids
+  owner: iuc
+  revisions:
+  - 38eedf3cc3c9
+  tool_panel_section_label: Annotation
+- name: goseq
+  owner: iuc
+  revisions:
+  - bbcf5f7f2af2
+  tool_panel_section_label: Annotation
+- name: spaln
+  owner: iuc
+  revisions:
+  - 95ea8d97abb4
+  tool_panel_section_label: Annotation
+- name: goslimmer
+  owner: iuc
+  revisions:
+  - 294de027cb5d
+  tool_panel_section_label: Annotation
+- name: goenrichment
+  owner: iuc
+  revisions:
+  - 5ace5c7d1a86
+  tool_panel_section_label: Annotation
+- name: chipseeker
+  owner: rnateam
+  revisions:
+  - 4c2dbe4dbb4e
+  tool_panel_section_label: Annotation
+- name: fgsea
+  owner: iuc
+  revisions:
+  - 9bb7943b5263
+  tool_panel_section_label: Annotation
+- name: exonerate
+  owner: iuc
+  revisions:
+  - f48ed38dfddf
+  tool_panel_section_label: Annotation
+- name: jcvi_gff_stats
+  owner: iuc
+  revisions:
+  - 8cffbd184762
+  tool_panel_section_label: Annotation
+- name: abricate
+  owner: iuc
+  revisions:
+  - 78c75f134c16
+  tool_panel_section_label: Annotation
+- name: prokka
+  owner: crs4
+  revisions:
+  - eaee459f3d69
+  tool_panel_section_label: Annotation
+- name: hammock
+  owner: hammock
+  revisions:
+  - 4db310b7e37c
+  tool_panel_section_label: Annotation
+- name: kobas
+  owner: iuc
+  revisions:
+  - 83b998fa34ea
+  tool_panel_section_label: Annotation
+- name: tmhmm_and_signalp
+  owner: peterjc
+  revisions:
+  - a19b3ded8f33
+  tool_panel_section_label: Annotation
+- name: picrust_metagenome_contributions
+  owner: iuc
+  revisions:
+  - bc71c2b53097
+  tool_panel_section_label: Annotation
+- name: picrust_format_tree_and_trait_table
+  owner: iuc
+  revisions:
+  - 61c60e3c8768
+  tool_panel_section_label: Annotation
+- name: picrust_compare_biom
+  owner: iuc
+  revisions:
+  - 9c0daedfbb0f
+  tool_panel_section_label: Annotation
+- name: picrust_predict_metagenomes
+  owner: iuc
+  revisions:
+  - d2c35bdb60bd
+  tool_panel_section_label: Annotation
+- name: picrust_categorize
+  owner: iuc
+  revisions:
+  - 86694fa8b64c
+  tool_panel_section_label: Annotation
+- name: antismash
+  owner: bgruening
+  revisions:
+  - 3f0077c88c16
+  tool_panel_section_label: Annotation
+- name: augustus
+  owner: bgruening
+  revisions:
+  - 4de31938431b
+  tool_panel_section_label: Annotation
+- name: roary
+  owner: iuc
+  revisions:
+  - f1ccc8a6eb05
+  tool_panel_section_label: Annotation
+- name: sortmerna
+  owner: rnateam
+  revisions:
+  - 65c38d020fea
+  tool_panel_section_label: Annotation
+- name: trna_prediction
+  owner: bgruening
+  revisions:
+  - 358f58401cd6
+  tool_panel_section_label: Annotation
+- name: transtermhp
+  owner: iuc
+  revisions:
+  - 1a1ec22a7e28
+  tool_panel_section_label: Annotation
+- name: segmentation_fold
+  owner: yhoogstrate
+  revisions:
+  - 4d16cf9414cf
+  - 09e921a25c68
+  tool_panel_section_label: Annotation
+- name: gubbins
+  owner: iuc
+  revisions:
+  - 637ec5d5368c
+  tool_panel_section_label: Annotation
+- name: probmetab
+  owner: mmonsoor
+  revisions:
+  - 3a9914b37f2f
+  tool_panel_section_label: Annotation
+- name: lcmsmatching
+  owner: prog
+  revisions:
+  - 253d531a0193
+  tool_panel_section_label: Annotation
+- name: nucleosome_prediction
+  owner: bgruening
+  revisions:
+  - 2c42bb973ac3
+  tool_panel_section_label: Annotation
+- name: miranda
+  owner: tgac
+  revisions:
+  - bf6976462251
+  tool_panel_section_label: Annotation
+- name: dotknot
+  owner: bgruening
+  revisions:
+  - 42d20ff5da1b
+  tool_panel_section_label: Annotation
+- name: blast2go
+  owner: peterjc
+  revisions:
+  - e23b621eb7bb
+  tool_panel_section_label: Annotation
+- name: hmmer3
+  owner: iuc
+  revisions:
+  - b5066aa77fea
+  tool_panel_section_label: Annotation
+- name: find_subsequences
+  owner: bgruening
+  revisions:
+  - d882a0a75759
+  tool_panel_section_label: Annotation
+- name: gotohscan
+  owner: rnateam
+  revisions:
+  - 6845ddcd5588
+  tool_panel_section_label: Annotation
+- name: interproscan5
+  owner: bgruening
+  revisions:
+  - e32f2ea6a139
+  tool_panel_section_label: Annotation
+- name: glimmer3
+  owner: bgruening
+  revisions:
+  - b1ad88bbc5fa
+  tool_panel_section_label: Annotation
+- name: dgidb_annotator
+  owner: devteam
+  revisions:
+  - c5bb987015c5
+  - 792f3cb0eff4
+  tool_panel_section_label: Annotation

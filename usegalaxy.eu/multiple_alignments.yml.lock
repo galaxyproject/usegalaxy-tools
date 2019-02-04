@@ -1,0 +1,81 @@
+tools:
+- name: clustalw
+  owner: devteam
+  revisions:
+  - d6694932c5e0
+  tool_panel_section_label: Multiple Alignments
+- name: selectsequencesfrommsa
+  owner: rnateam
+  revisions:
+  - 48fc2c21fe1c
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_nucmer
+  owner: iuc
+  revisions:
+  - a18fb4f826fc
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_mummerplot
+  owner: iuc
+  revisions:
+  - e8c60daa41e0
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_delta_filter
+  owner: iuc
+  revisions:
+  - 502018997bae
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_dnadiff
+  owner: iuc
+  revisions:
+  - deacc6b40cc0
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_show_coords
+  owner: iuc
+  revisions:
+  - f8734af48332
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_mummer
+  owner: iuc
+  revisions:
+  - 26f2cc1cc1e9
+  tool_panel_section_label: Multiple Alignments
+- name: msaboot
+  owner: iuc
+  revisions:
+  - 99f8b4e631e5
+  tool_panel_section_label: Multiple Alignments
+- name: hammock
+  owner: hammock
+  revisions:
+  - afddbcbc8ee8
+  tool_panel_section_label: Multiple Alignments
+- name: format_cd_hit_output
+  owner: bebatut
+  revisions:
+  - 4015e9d6d277
+  tool_panel_section_label: Multiple Alignments
+- name: cdhit
+  owner: bebatut
+  revisions:
+  - 54d811ad2b52
+  tool_panel_section_label: Multiple Alignments
+- name: muscle
+  owner: crs4
+  revisions:
+  - 533b3b2a1e66
+  tool_panel_section_label: Multiple Alignments
+- name: compalignp
+  owner: rnateam
+  revisions:
+  - 7e55ac3bd458
+  tool_panel_section_label: Multiple Alignments
+- name: mafft
+  owner: rnateam
+  revisions:
+  - 15974dd17515
+  tool_panel_section_label: Multiple Alignments
+- name: cdhit
+  owner: jjohnson
+  revisions:
+  - 28b7a43907f0
+  tool_panel_section_label: Multiple Alignments

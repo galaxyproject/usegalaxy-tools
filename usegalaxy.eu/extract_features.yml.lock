@@ -1,0 +1,11 @@
+tools:
+- name: length_and_gc_content
+  owner: iuc
+  revisions:
+  - f088370d2a3c
+  tool_panel_section_label: Extract Features
+- name: fraggenescan
+  owner: iuc
+  revisions:
+  - 1f0a3e4497d4
+  tool_panel_section_label: Extract Features

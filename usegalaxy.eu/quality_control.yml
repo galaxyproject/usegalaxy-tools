@@ -1,57 +1,17 @@
 tools:
 - name: short_reads_figure_score
   owner: devteam
-  revisions:
-  - b52b9c7aabd9
-  tool_panel_section_id: quality_control
-  tool_panel_section_label: Quality Control
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastq_stats
   owner: devteam
-  revisions:
-  - daaf552153fe
-  tool_panel_section_id: quality_control
-  tool_panel_section_label: Quality Control
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastqc
   owner: devteam
-  revisions:
-  - ff9530579d1f
-  tool_panel_section_id: quality_control
-  tool_panel_section_label: Quality Control
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastx_quality_statistics
   owner: devteam
-  revisions:
-  - 7306ec78632a
-  tool_panel_section_id: quality_control
-  tool_panel_section_label: Quality Control
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastq_quality_boxplot
   owner: devteam
-  revisions:
-  - f95284aa2946
-  tool_panel_section_id: quality_control
-  tool_panel_section_label: Quality Control
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: multiqc
   owner: iuc
-  revisions:
-  - 161f4383df15
-  tool_panel_section_id: quality_control
-  tool_panel_section_label: Quality Control
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mqc
   owner: rnateam
-  revisions:
-  - 523dd2a71270
-  tool_panel_section_id: quality_control
-  tool_panel_section_label: Quality Control
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trimmomatic
   owner: pjbriggs
-  revisions:
-  - dfa082f84068
-  tool_panel_section_id: quality_control
-  tool_panel_section_label: Quality Control
-  tool_shed_url: toolshed.g2.bx.psu.edu

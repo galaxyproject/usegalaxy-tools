@@ -1,0 +1,11 @@
+tools:
+- name: count_covariates
+  owner: devteam
+  revisions:
+  - 14e304b70425
+  tool_panel_section_label: GATK Tools
+- name: gatk2
+  owner: iuc
+  revisions:
+  - 84584664264c
+  tool_panel_section_label: GATK Tools

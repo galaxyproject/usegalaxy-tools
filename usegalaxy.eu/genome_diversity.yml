@@ -1,15 +1,5 @@
 tools:
 - name: fasttree
   owner: iuc
-  revisions:
-  - c7e73acfa3eb
-  tool_panel_section_id: genome_diversity
-  tool_panel_section_label: Genome Diversity
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: genome_diversity
   owner: miller-lab
-  revisions:
-  - e56023008e36
-  tool_panel_section_id: genome_diversity
-  tool_panel_section_label: Genome Diversity
-  tool_shed_url: toolshed.g2.bx.psu.edu

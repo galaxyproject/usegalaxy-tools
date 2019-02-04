@@ -1,0 +1,67 @@
+tools:
+- name: structure_to_gspan
+  owner: rnateam
+  revisions:
+  - d34ab3aa1724
+  tool_panel_section_label: GraphClust
+- name: graphclust_preprocessing
+  owner: rnateam
+  revisions:
+  - 2a5defc09381
+  tool_panel_section_label: GraphClust
+- name: graphclust_prepocessing_for_mlocarna
+  owner: rnateam
+  revisions:
+  - 5c92a3f7b59c
+  tool_panel_section_label: GraphClust
+- name: graphclust_nspdk
+  owner: rnateam
+  revisions:
+  - 90da74fd1c5c
+  tool_panel_section_label: GraphClust
+- name: graphclust_mlocarna
+  owner: rnateam
+  revisions:
+  - c45eef4517d9
+  tool_panel_section_label: GraphClust
+- name: graphclust_fasta_to_gspan
+  owner: rnateam
+  revisions:
+  - d2784e70dd19
+  tool_panel_section_label: GraphClust
+- name: graphclust_postprocessing
+  owner: rnateam
+  revisions:
+  - f93c868203cc
+  tool_panel_section_label: GraphClust
+- name: graphclust_cmfinder
+  owner: rnateam
+  revisions:
+  - 5a1dcc77b0ce
+  tool_panel_section_label: GraphClust
+- name: graphclust_align_cluster
+  owner: rnateam
+  revisions:
+  - 953353eacec2
+  tool_panel_section_label: GraphClust
+- name: graphclust_aggregate_alignments
+  owner: rnateam
+  revisions:
+  - 8778478a754f
+  tool_panel_section_label: GraphClust
+- name: graphclust_postprocessing_no_align
+  owner: rnateam
+  revisions:
+  - 0a48b2db75e7
+  tool_panel_section_label: GraphClust
+- name: graphclust_motif_finder_plot
+  owner: rnateam
+  revisions:
+  - f00fb88794dc
+  tool_panel_section_label: GraphClust
+- name: infernal
+  owner: bgruening
+  revisions:
+  - 55bb96edfc07
+  - c47a7c52ac4f
+  tool_panel_section_label: GraphClust

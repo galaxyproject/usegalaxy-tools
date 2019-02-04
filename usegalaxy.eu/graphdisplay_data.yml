@@ -1,219 +1,63 @@
 tools:
 - name: jbrowse
   owner: iuc
-  revisions:
-  - 1cfc579079a6
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ucsc_custom_track
   owner: devteam
-  revisions:
-  - 760f588e8a26
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: scatterplot
   owner: devteam
-  revisions:
-  - efda9a4a50e7
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: histogram
   owner: devteam
-  revisions:
-  - cdb9e89e2970
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gmaj
   owner: devteam
-  revisions:
-  - 2cd5ee197ec7
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: xy_plot
   owner: devteam
-  revisions:
-  - 319fa5a9fc1b
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: volcanoplot
   owner: iuc
-  revisions:
-  - d1d39c72b755
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: plotly_regression_performance_plots
   owner: bgruening
-  revisions:
-  - 389227fa1864
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: newick_utils
   owner: iuc
-  revisions:
-  - fe4235285ee8
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: plotly_ml_performance_plots
   owner: bgruening
-  revisions:
-  - 4fac53da862f
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: nanoplot
   owner: iuc
-  revisions:
-  - db1eeffba23e
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: plotly_parallel_coordinates_plot
   owner: bgruening
-  revisions:
-  - 7b2455348edf
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bandage
   owner: iuc
-  revisions:
-  - 067592b6b312
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: intervene
   owner: iuc
-  revisions:
-  - f5fa293605ca
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: pygenometracks
   owner: iuc
-  revisions:
-  - 0ea86f6bf2a1
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ggplot2_histogram
   owner: iuc
-  revisions:
-  - f52035800250
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ggplot2_point
   owner: iuc
-  revisions:
-  - 9a482995958c
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ggplot2_heatmap2
   owner: iuc
-  revisions:
-  - 4955e9bb96d1
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ggplot2_violin
   owner: iuc
-  revisions:
-  - 43778344b955
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ggplot2_heatmap
   owner: iuc
-  revisions:
-  - f44dc95928aa
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ggplot2_pca
   owner: iuc
-  revisions:
-  - c21099566418
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fasta_nucleotide_color_plot
   owner: iuc
-  revisions:
-  - e4b5401adcec
-  - 980917b09eb8
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: graphlan
   owner: iuc
-  revisions:
-  - 8f62f666dcb6
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: graphlan_annotate
   owner: iuc
-  revisions:
-  - 5d6f8f0bef7c
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: export2graphlan
   owner: iuc
-  revisions:
-  - ed1becc01910
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: circos
   owner: iuc
-  revisions:
-  - ef5f8bbf7730
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tsne
   owner: iuc
-  revisions:
-  - 53cfe6f313b3
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: krona_text
   owner: saskia-hiltemann
-  revisions:
-  - b14f1444e464
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: venn_list
   owner: peterjc
-  revisions:
-  - 20d347feb882
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mummer
   owner: peterjc
-  revisions:
-  - d9f3d4779507
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: karyotype_plot
   owner: guru-ananda
-  revisions:
-  - d810aa84ee6a
-  tool_panel_section_id: graph/display_data
-  tool_panel_section_label: Graph/Display Data
-  tool_shed_url: toolshed.g2.bx.psu.edu

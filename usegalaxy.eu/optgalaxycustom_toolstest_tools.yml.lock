@@ -1,0 +1,6 @@
+tools:
+- name: hifive
+  owner: sauria
+  revisions:
+  - 20dfaec1678c
+  tool_panel_section_label: /opt/galaxy/custom-tools/Test Tools

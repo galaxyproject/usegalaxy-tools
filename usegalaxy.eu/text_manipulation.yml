@@ -1,194 +1,55 @@
 tools:
 - name: dna_filtering
   owner: devteam
-  revisions:
-  - 549d2cb4c6f2
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: join_files_on_column_fuzzy
   owner: bgruening
-  revisions:
-  - 22ec3c1a20cd
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: column_maker
   owner: devteam
-  revisions:
-  - 464b9305180e
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: replace_chromosome_names
   owner: earlhaminst
-  revisions:
-  - 6c0373cc070f
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: text_processing
   owner: bgruening
-  revisions:
-  - a6f147a050a2
-  - e39fceb6ab85
-  - 616efa22d193
-  - 20344ce0c811
-  - 74a8bef53a00
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: jq
   owner: iuc
-  revisions:
-  - 5ff75eb1a893
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: reshape2_cast
   owner: iuc
-  revisions:
-  - d3b66a3a08ca
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: reshape2_melt
   owner: iuc
-  revisions:
-  - 317ed0ee8bf2
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: prinseq
   owner: iuc
-  revisions:
-  - 02befcb391f5
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gff3_rebase
   owner: iuc
-  revisions:
-  - 238981ed43b7
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: column_remove_by_header
   owner: iuc
-  revisions:
-  - 372967836e98
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: column_order_header_sort
   owner: iuc
-  revisions:
-  - 6ae9724caf4d
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: replace_column_by_key_value_file
   owner: bgruening
-  revisions:
-  - cc18bac5afdb
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: add_input_name_as_column
   owner: mvdbeek
-  revisions:
-  - b31219f26a8f
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: split_file_on_column
   owner: bgruening
-  revisions:
-  - 90b52d8d6f2c
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: coverage
   owner: devteam
-  revisions:
-  - bc9c66c1e9c9
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: regex_replace
   owner: kellrott
-  revisions:
-  - 9a77d5fca67c
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tables_arithmetic_operations
   owner: devteam
-  revisions:
-  - 2e9f3b6ebfbc
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: merge
   owner: devteam
-  revisions:
-  - 0926c81f382c
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: intersect
   owner: devteam
-  revisions:
-  - 8ddabc73af92
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: flanking_features
   owner: devteam
-  revisions:
-  - 8307665c4b6c
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: join
   owner: devteam
-  revisions:
-  - ffbd1de29c28
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: get_flanks
   owner: devteam
-  revisions:
-  - 4cd116158aef
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: subtract_query
   owner: devteam
-  revisions:
-  - 960d5d114184
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: merge_cols
   owner: devteam
-  revisions:
-  - f2aac0c5c60d
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: unique
   owner: bgruening
-  revisions:
-  - 7ce75adb93be
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: add_value
   owner: devteam
-  revisions:
-  - 745871c0b055
-  tool_panel_section_id: text_manipulation
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu

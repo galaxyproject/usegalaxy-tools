@@ -1,394 +1,111 @@
 tools:
 - name: snippy
   owner: iuc
-  revisions:
-  - c9a8ef2aa380
-  - 82f2b6f20fa2
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bcftools_consensus
   owner: iuc
-  revisions:
-  - 1829900b5dcd
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: varscan_somatic
   owner: iuc
-  revisions:
-  - 2657ab48e16a
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcffilter
   owner: devteam
-  revisions:
-  - de885f4afb7f
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: varscan_mpileup
   owner: iuc
-  revisions:
-  - db517af07461
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: varscan_copynumber
   owner: iuc
-  revisions:
-  - 807448b77107
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bcftools_cnv
   owner: iuc
-  revisions:
-  - 8408bffd5616
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bcftools_csq
   owner: iuc
-  revisions:
-  - 7cbf3c66d4ad
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpsift
   owner: iuc
-  revisions:
-  - 2b3e65a4252f
-  - 09d6806c609e
-  - b04635ebfab0
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bcftools_norm
   owner: iuc
-  revisions:
-  - a404f786a94c
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfselectsamples
   owner: devteam
-  revisions:
-  - 958b6484a7f1
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpeff
   owner: iuc
-  revisions:
-  - 8f92c2b26e6d
-  - 85ca751407c3
-  - dd3622f501f3
-  - e8adfc4c0a6b
-  - c9ecd2a96ecf
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfannotategenotypes
   owner: devteam
-  revisions:
-  - 70bc6ced57f7
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfflatten
   owner: devteam
-  revisions:
-  - b24e368ae7b1
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfcommonsamples
   owner: devteam
-  revisions:
-  - 254f285dbaaa
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfannotate
   owner: devteam
-  revisions:
-  - 6faa2c4c71d2
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfvcfintersect
   owner: devteam
-  revisions:
-  - 6f6bf10618d7
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfbreakcreatemulti
   owner: devteam
-  revisions:
-  - 690b1d846263
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfallelicprimitives
   owner: devteam
-  revisions:
-  - a8a4f94aa321
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfgeno2haplo
   owner: devteam
-  revisions:
-  - b890055e07bd
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcffixup
   owner: devteam
-  revisions:
-  - fc5a64fdd5b2
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfgenotypes
   owner: devteam
-  revisions:
-  - f5653ed90dfd
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfbedintersect
   owner: devteam
-  revisions:
-  - 9edfe5145ba8
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfrandomsample
   owner: devteam
-  revisions:
-  - 12b570dd0bc5
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfhethom
   owner: devteam
-  revisions:
-  - b07ef36cf7e6
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfsort
   owner: devteam
-  revisions:
-  - 5b7120c66efc
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfprimers
   owner: devteam
-  revisions:
-  - d226a7327946
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfcombine
   owner: devteam
-  revisions:
-  - 53edb91ed051
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfleftalign
   owner: devteam
-  revisions:
-  - d2406f98a782
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcf2tsv
   owner: devteam
-  revisions:
-  - e92b3c0f9224
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfaddinfo
   owner: devteam
-  revisions:
-  - afc0ba768690
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfcheck
   owner: devteam
-  revisions:
-  - 5e850c85ba32
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: varscan_version_2
   owner: devteam
-  revisions:
-  - bc1e0cd41241
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: nanopolish_variants
   owner: bgruening
-  revisions:
-  - 1ebed8b65752
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bcftools
   owner: iuc
-  revisions:
-  - bdd0cb7fbedf
-  - e5e78d1e09a6
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: freebayes
   owner: devteam
-  revisions:
-  - 156b60c1530f
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfdistance
   owner: iuc
-  revisions:
-  - c506b8275b1a
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: naive_variant_caller
   owner: blankenberg
-  revisions:
-  - aff38ea879f1
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: ococo
   owner: iuc
-  revisions:
-  - 03cabb6711c5
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bcftools_call
   owner: iuc
-  revisions:
-  - b03984136ce4
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpsift_genesets
   owner: iuc
-  revisions:
-  - d12a810c837e
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpsift_dbnsfp
   owner: iuc
-  revisions:
-  - 4e21e4f2bc48
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpsift_dbnsfp_generic
   owner: iuc
-  revisions:
-  - a7cbaf3beadd
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcfdistance
   owner: devteam
-  revisions:
-  - 6e0fc18309f4
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: allele_counts
   owner: nick
-  revisions:
-  - 411adeff1eec
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcftools_merge
   owner: devteam
-  revisions:
-  - 71e19ddf52f5
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcftools_isec
   owner: devteam
-  revisions:
-  - aa232e38338f
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vt_variant_tools
   owner: iuc
-  revisions:
-  - 6e073fc99d9c
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bamleftalign
   owner: devteam
-  revisions:
-  - e65540a91b87
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpeff_cds_report
   owner: jjohnson
-  revisions:
-  - fbb6510186df
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpeff_to_peptides
   owner: jjohnson
-  revisions:
-  - 80eff5812b2a
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcftools_compare
   owner: devteam
-  revisions:
-  - ad50c257e758
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcftools_annotate
   owner: devteam
-  revisions:
-  - 57a6550df582
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcftools_slice
   owner: devteam
-  revisions:
-  - 1363e5d4a8b8
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcftools_subset
   owner: devteam
-  revisions:
-  - 23436d1d0fa1
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu

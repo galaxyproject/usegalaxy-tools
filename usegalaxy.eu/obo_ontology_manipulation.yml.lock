@@ -1,0 +1,86 @@
+tools:
+- name: onto_tk_get_ancestor_terms
+  owner: iuc
+  revisions:
+  - 347b617a79c0
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_get_relationship_types
+  owner: iuc
+  revisions:
+  - c5b1acc3c42c
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_obo2rdf
+  owner: iuc
+  revisions:
+  - 7568445199b6
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_get_parent_terms
+  owner: iuc
+  revisions:
+  - a2fd3a529b77
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_get_parent_terms_by_relationship_type
+  owner: iuc
+  revisions:
+  - 8e81546cdee9
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_get_terms
+  owner: iuc
+  revisions:
+  - 6c5e1431c7df
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_obo2owl
+  owner: iuc
+  revisions:
+  - 54d363d435f0
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_get_relationship_id_vs_relationship_namespace
+  owner: iuc
+  revisions:
+  - 08527da0c8a3
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_get_term_synonyms
+  owner: iuc
+  revisions:
+  - 3747710b8936
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_get_descendent_terms
+  owner: iuc
+  revisions:
+  - 7f7a43c6a147
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_term_id_vs_term_name
+  owner: iuc
+  revisions:
+  - b2471db454a0
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_get_child_terms
+  owner: iuc
+  revisions:
+  - 298c8cdaf536
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_get_subontology_from
+  owner: iuc
+  revisions:
+  - 1b3796bc5ac0
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_get_relationship_id_vs_relationship_def
+  owner: iuc
+  revisions:
+  - 2c0c29a64e44
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_get_terms_by_relationship_type
+  owner: iuc
+  revisions:
+  - 7b625af8c84e
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_get_root_terms
+  owner: iuc
+  revisions:
+  - fc4edae65b37
+  tool_panel_section_label: OBO Ontology manipulation
+- name: onto_tk_get_relationship_id_vs_relationship_name
+  owner: iuc
+  revisions:
+  - e3e11b9e7750
+  tool_panel_section_label: OBO Ontology manipulation

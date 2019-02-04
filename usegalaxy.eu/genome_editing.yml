@@ -1,36 +1,11 @@
 tools:
 - name: mageck_test
   owner: iuc
-  revisions:
-  - 688a8eccea71
-  tool_panel_section_id: genome_editing
-  tool_panel_section_label: Genome editing
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mageck_mle
   owner: iuc
-  revisions:
-  - b36c85e37a48
-  tool_panel_section_id: genome_editing
-  tool_panel_section_label: Genome editing
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mageck_gsea
   owner: iuc
-  revisions:
-  - d46e36492bff
-  tool_panel_section_id: genome_editing
-  tool_panel_section_label: Genome editing
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mageck_count
   owner: iuc
-  revisions:
-  - 3edbd1ff5602
-  tool_panel_section_id: genome_editing
-  tool_panel_section_label: Genome editing
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mageck_pathway
   owner: iuc
-  revisions:
-  - 9744e1124d0f
-  tool_panel_section_id: genome_editing
-  tool_panel_section_label: Genome editing
-  tool_shed_url: toolshed.g2.bx.psu.edu
