@@ -1,7 +1,4 @@
 import yaml
-import os
-import glob
-import copy
 import argparse
 import logging
 
@@ -23,7 +20,7 @@ def update_file(fn, owner=None, name=None, without=False):
             if 'revisions' in tool and not len(tool.get('revisions', [])) == 0:
                 continue
 
-        if not without and owner and tool['owner'] != owner:
+        if not without and owner and tool['owner'] not in owner:
             continue
 
         if not without and name and tool['name'] != name:
@@ -61,7 +58,7 @@ def update_file(fn, owner=None, name=None, without=False):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('fn', type=argparse.FileType('r'), help="Tool.yaml file")
-    parser.add_argument('--owner', help="Repository owner to filter on, anything matching this will be updated")
+    parser.add_argument('--owner', action='append', help="Repository owner to filter on, anything matching this will be updated. Can be specified multiple times")
     parser.add_argument('--name', help="Repository name to filter on, anything matching this will be updated")
     parser.add_argument('--without', action='store_true', help="If supplied will ignore any owner/name and just automatically add the latest hash for anything lacking one.")
     parser.add_argument('--log', choices=('critical', 'error', 'warning', 'info', 'debug'), default='info')
