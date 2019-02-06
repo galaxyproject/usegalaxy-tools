@@ -1,49 +1,18 @@
+tool_panel_section_label: Convert Formats
 tools:
 - name: fasta_to_tabular
   owner: devteam
-  revisions:
-  - 9d189d08f2ad
-  tool_panel_section_label: Convert Formats
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastq_to_fasta
   owner: devteam
-  revisions:
-  - 186b8d913e6c
-  tool_panel_section_label: Convert Formats
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastq_to_tabular
   owner: devteam
-  revisions:
-  - ccf4e1d1fcbe
-  tool_panel_section_label: Convert Formats
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tabular_to_fasta
   owner: devteam
-  revisions:
-  - 0b4e36026794
-  tool_panel_section_label: Convert Formats
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: fastqtofasta
   owner: devteam
-  revisions:
-  - 4844c1810c16
-  tool_panel_section_label: Convert Formats
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: bam_to_scidx
   owner: iuc
-  revisions:
-  - 741b8af6386c
-  tool_panel_section_label: Convert Formats
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: resize_coordinate_window
   owner: iuc
-  revisions:
-  - 9ba78e8985dc
-  tool_panel_section_label: Convert Formats
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: idpquery
   owner: galaxyp
-  revisions:
-  - 42dc8e9e58d8
-  tool_panel_section_label: Convert Formats
-  tool_shed_url: toolshed.g2.bx.psu.edu

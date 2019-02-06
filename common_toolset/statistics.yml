@@ -1,97 +1,34 @@
+tool_panel_section_label: Statistics
 tools:
 - name: correlation
   owner: devteam
-  revisions:
-  - 24e01abf9e34
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: count_gff_features
   owner: devteam
-  revisions:
-  - fabda887a71f
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: generate_pc_lda_matrix
   owner: devteam
-  revisions:
-  - 04cdbd00dcec
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: plot_from_lda
   owner: devteam
-  revisions:
-  - c5ab37076128
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: t_test_two_samples
   owner: devteam
-  revisions:
-  - e6a85a9297b3
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: best_regression_subsets
   owner: devteam
-  revisions:
-  - 4f33ec73e445
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: canonical_correlation_analysis
   owner: devteam
-  revisions:
-  - 9bc0c48a027f
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kernel_canonical_correlation_analysis
   owner: devteam
-  revisions:
-  - 7a092113eb8c
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: kernel_principal_component_analysis
   owner: devteam
-  revisions:
-  - 3d58aa83e4a3
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: lda_analysis
   owner: devteam
-  revisions:
-  - f0b6217f4a0c
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mine
   owner: devteam
-  revisions:
-  - 783d91de9e6d
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: principal_component_analysis
   owner: devteam
-  revisions:
-  - f568051cdf2e
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: iwtomics_loadandplot
   owner: iuc
-  revisions:
-  - ce633cc8f5f9
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: iwtomics_plotwithscale
   owner: iuc
-  revisions:
-  - 1bc9150ed125
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: iwtomics_testandplot
   owner: iuc
-  revisions:
-  - 94965e369be4
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: dwt_var_perfeature
   owner: devteam
-  revisions:
-  - 7a15159140d1
-  tool_panel_section_label: Statistics
-  tool_shed_url: toolshed.g2.bx.psu.edu

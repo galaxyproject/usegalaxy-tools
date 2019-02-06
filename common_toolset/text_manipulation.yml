@@ -1,51 +1,18 @@
+tool_panel_section_label: Text Manipulation
 tools:
 - name: text_processing
   owner: bgruening
-  revisions:
-  - 74a8bef53a00
-  - 288462ec2630
-  - e39fceb6ab85
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: column_maker
   owner: devteam
-  revisions:
-  - 626658afe4cb
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: datamash_ops
   owner: iuc
-  revisions:
-  - c4611129661b
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: uniprot_rest_interface
   owner: bgruening
-  revisions:
-  - 48522382b6a4
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: datamash_reverse
   owner: iuc
-  revisions:
-  - 24b9a80cac40
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: datamash_transpose
   owner: iuc
-  revisions:
-  - 60e287a6d17d
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: replace_column_by_key_value_file
   owner: bgruening
-  revisions:
-  - cc18bac5afdb
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: add_input_name_as_column
   owner: mvdbeek
-  revisions:
-  - b31219f26a8f
-  tool_panel_section_label: Text Manipulation
-  tool_shed_url: toolshed.g2.bx.psu.edu

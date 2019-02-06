@@ -1,0 +1,7 @@
+tools:
+- name: collapse_collections
+  owner: nml
+  revisions:
+  - 25136a2b0cfe
+  tool_panel_section_label: Collection Operations
+  tool_shed_url: toolshed.g2.bx.psu.edu

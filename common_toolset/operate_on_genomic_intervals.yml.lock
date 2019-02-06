@@ -1,0 +1,73 @@
+tools:
+- name: basecoverage
+  owner: devteam
+  revisions:
+  - 0a3e3133b09d
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cluster
+  owner: devteam
+  revisions:
+  - 765ceb06c3e2
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: complement
+  owner: devteam
+  revisions:
+  - e0a23ab32d7f
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: concat
+  owner: devteam
+  revisions:
+  - d491589307e7
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: coverage
+  owner: devteam
+  revisions:
+  - bc9c66c1e9c9
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: flanking_features
+  owner: devteam
+  revisions:
+  - 8307665c4b6c
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: get_flanks
+  owner: devteam
+  revisions:
+  - 4b14d0e3a837
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: intersect
+  owner: devteam
+  revisions:
+  - 5f72be09cfd3
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: join
+  owner: devteam
+  revisions:
+  - ffbd1de29c28
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: merge
+  owner: devteam
+  revisions:
+  - 0926c81f382c
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: subtract
+  owner: devteam
+  revisions:
+  - c19a2a29c561
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: annotation_profiler
+  owner: devteam
+  revisions:
+  - 3b33da018e74
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu

@@ -1,43 +1,16 @@
+tool_panel_section_label: Regional Variation
 tools:
 - name: featurecounter
   owner: devteam
-  revisions:
-  - ac6218e2b686
-  tool_panel_section_label: Regional Variation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: substitution_rates
   owner: devteam
-  revisions:
-  - 3d9544198582
-  tool_panel_section_label: Regional Variation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: indels_3way
   owner: devteam
-  revisions:
-  - 5ad24b81dd10
-  tool_panel_section_label: Regional Variation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: categorize_elements_satisfying_criteria
   owner: devteam
-  revisions:
-  - 586c1f0e1515
-  tool_panel_section_label: Regional Variation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: compute_motif_frequencies_for_all_motifs
   owner: devteam
-  revisions:
-  - 5319efa51514
-  tool_panel_section_label: Regional Variation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: compute_motifs_frequency
   owner: devteam
-  revisions:
-  - 1f8ee7f9701b
-  tool_panel_section_label: Regional Variation
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: draw_stacked_barplots
   owner: devteam
-  revisions:
-  - e997b710e38a
-  tool_panel_section_label: Regional Variation
-  tool_shed_url: toolshed.g2.bx.psu.edu

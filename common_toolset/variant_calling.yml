@@ -1,52 +1,18 @@
+tool_panel_section_label: Variant Calling
 tools:
 - name: freebayes
   owner: devteam
-  revisions:
-  - 99684adf84de
-  - 978760187fe2
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: varscan_version_2
   owner: devteam
-  revisions:
-  - 6f8cead3dc93
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpeff
   owner: iuc
-  revisions:
-  - 5b4ac70948d2
-  - 68693743661e
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snpsift
   owner: iuc
-  revisions:
-  - bf8c1526871b
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: naive_variant_caller
   owner: blankenberg
-  revisions:
-  - ac0235d2d459
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: mutate_snp_codon
   owner: devteam
-  revisions:
-  - 8f0af7251167
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: allele_counts
   owner: nick
-  revisions:
-  - 411adeff1eec
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: snippy
   owner: iuc
-  revisions:
-  - c9a8ef2aa380
-  - 82f2b6f20fa2
-  tool_panel_section_label: Variant Calling
-  tool_shed_url: toolshed.g2.bx.psu.edu
