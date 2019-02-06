@@ -1,85 +1,74 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: express
   owner: devteam
   revisions:
   - 7b0708761d05
   tool_panel_section_label: RNA-Seq
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: tophat_fusion_post
   owner: devteam
   revisions:
   - f83394a2c2da
   tool_panel_section_label: RNA-Seq
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: describe_samples
   owner: iuc
   revisions:
   - 0693ccd171c4
   tool_panel_section_label: RNA-Seq
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: transdecoder
   owner: iuc
   revisions:
   - 0db979fead3a
   tool_panel_section_label: RNA-Seq
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_abundance_estimates_to_matrix
   owner: iuc
   revisions:
   - d6a479fd4281
   tool_panel_section_label: RNA-Seq
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_align_and_estimate_abundance
   owner: iuc
   revisions:
   - 478f36effca1
   tool_panel_section_label: RNA-Seq
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_analyze_diff_expr
   owner: iuc
   revisions:
   - fab23c3b5258
   tool_panel_section_label: RNA-Seq
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_contig_exn50_statistic
   owner: iuc
   revisions:
   - 34a018cbee9c
   tool_panel_section_label: RNA-Seq
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_define_clusters_by_cutting_tree
   owner: iuc
   revisions:
   - 33406f5a445c
   tool_panel_section_label: RNA-Seq
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_filter_low_expr_transcripts
   owner: iuc
   revisions:
   - e406ac71165d
   tool_panel_section_label: RNA-Seq
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_gene_to_trans_map
   owner: iuc
   revisions:
   - 37a1129c89d2
   tool_panel_section_label: RNA-Seq
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_run_de_analysis
   owner: iuc
   revisions:
   - 1d689e4e1caf
   tool_panel_section_label: RNA-Seq
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: trinity_samples_qccheck
   owner: iuc
   revisions:
   - 9871104ea630
   tool_panel_section_label: RNA-Seq
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: rsem
   owner: jjohnson
   revisions:
   - 14267d364365
   tool_panel_section_label: RNA-Seq
-  tool_shed_url: toolshed.g2.bx.psu.edu

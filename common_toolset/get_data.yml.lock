@@ -1,3 +1,6 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: sra_tools
   owner: iuc
@@ -5,4 +8,3 @@ tools:
   - 1790dcf3c32d
   - c38286ea7047
   tool_panel_section_label: Get Data
-  tool_shed_url: toolshed.g2.bx.psu.edu

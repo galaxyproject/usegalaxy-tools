@@ -1,103 +1,89 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: gemini_actionable_mutations
   owner: iuc
   revisions:
   - 643a9ad97f08
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_amend
   owner: iuc
   revisions:
   - bff8fad3fb69
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_annotate
   owner: iuc
   revisions:
   - 0c8f7322f8fc
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_burden
   owner: iuc
   revisions:
   - 699ce2631e79
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_db_info
   owner: iuc
   revisions:
   - bc8b01d1b496
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_fusions
   owner: iuc
   revisions:
   - 6e3d2bd01a96
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_gene_wise
   owner: iuc
   revisions:
   - 4b26f6c99227
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_interactions
   owner: iuc
   revisions:
   - 7028ca3cac1c
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_load
   owner: iuc
   revisions:
   - b5b53c27baca
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_lof_sieve
   owner: iuc
   revisions:
   - dda378a72430
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_pathways
   owner: iuc
   revisions:
   - c63b7eefb07a
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_qc
   owner: iuc
   revisions:
   - 8414eecc3828
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_query
   owner: iuc
   revisions:
   - cd00221d67cb
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_roh
   owner: iuc
   revisions:
   - d65ca2fa673b
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_set_somatic
   owner: iuc
   revisions:
   - '991049484627'
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_stats
   owner: iuc
   revisions:
   - 86d4303cc3ca
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: gemini_windower
   owner: iuc
   revisions:
   - 3b5b1ebc8423
   tool_panel_section_label: Gemini
-  tool_shed_url: toolshed.g2.bx.psu.edu

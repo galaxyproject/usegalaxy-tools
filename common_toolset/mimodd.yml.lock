@@ -1,7 +1,9 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
 tools:
 - name: mimodd_main
   owner: wolma
   revisions:
   - f0f2795de2c7
   tool_panel_section_label: MiModD
-  tool_shed_url: toolshed.g2.bx.psu.edu
