@@ -1,0 +1,12 @@
+tool_panel_section_label: Phenotype Association
+tools:
+- name: snpfreq
+  owner: devteam
+- name: divide_pg_snp
+  owner: devteam
+- name: hgv_fundo
+  owner: devteam
+- name: hgv_hilbertvis
+  owner: devteam
+- name: vcf2pgsnp
+  owner: devteam

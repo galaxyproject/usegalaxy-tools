@@ -1,0 +1,26 @@
+tool_panel_section_label: Operate on Genomic Intervals
+tools:
+- name: basecoverage
+  owner: devteam
+- name: cluster
+  owner: devteam
+- name: complement
+  owner: devteam
+- name: concat
+  owner: devteam
+- name: coverage
+  owner: devteam
+- name: flanking_features
+  owner: devteam
+- name: get_flanks
+  owner: devteam
+- name: intersect
+  owner: devteam
+- name: join
+  owner: devteam
+- name: merge
+  owner: devteam
+- name: subtract
+  owner: devteam
+- name: annotation_profiler
+  owner: devteam

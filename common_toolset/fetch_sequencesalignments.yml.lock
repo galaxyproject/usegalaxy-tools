@@ -1,0 +1,9 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
+tools:
+- name: extract_genomic_dna
+  owner: iuc
+  revisions:
+  - e400dcbc60d0
+  tool_panel_section_label: Fetch Sequences/Alignments

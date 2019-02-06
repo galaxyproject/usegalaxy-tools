@@ -1,0 +1,29 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
+tools:
+- name: snpfreq
+  owner: devteam
+  revisions:
+  - 5c3ac057608b
+  tool_panel_section_label: Phenotype Association
+- name: divide_pg_snp
+  owner: devteam
+  revisions:
+  - f74fdfc17143
+  tool_panel_section_label: Phenotype Association
+- name: hgv_fundo
+  owner: devteam
+  revisions:
+  - ca3fcd18dc3e
+  tool_panel_section_label: Phenotype Association
+- name: hgv_hilbertvis
+  owner: devteam
+  revisions:
+  - e1a9ad05dced
+  tool_panel_section_label: Phenotype Association
+- name: vcf2pgsnp
+  owner: devteam
+  revisions:
+  - 5fca46616675
+  tool_panel_section_label: Phenotype Association

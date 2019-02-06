@@ -1,0 +1,6 @@
+tool_panel_section_label: ChiP-seq
+tools:
+- name: sicer
+  owner: devteam
+- name: macs
+  owner: devteam

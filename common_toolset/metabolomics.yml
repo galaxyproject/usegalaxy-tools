@@ -1,0 +1,6 @@
+tool_panel_section_label: Metabolomics
+tools:
+- name: probmetab
+  owner: mmonsoor
+- name: lcmsmatching
+  owner: prog

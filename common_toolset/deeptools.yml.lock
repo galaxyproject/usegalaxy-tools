@@ -1,0 +1,94 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: true
+tools:
+- name: deeptools_bam_compare
+  owner: bgruening
+  revisions:
+  - 89f6d2283317
+  tool_panel_section_label: deepTools
+- name: deeptools_bam_coverage
+  owner: bgruening
+  revisions:
+  - 028fcce954f1
+  tool_panel_section_label: deepTools
+- name: deeptools_bam_pe_fragmentsize
+  owner: bgruening
+  revisions:
+  - dc8d6e07d829
+  tool_panel_section_label: deepTools
+- name: deeptools_bigwig_compare
+  owner: bgruening
+  revisions:
+  - aec7ca832043
+  tool_panel_section_label: deepTools
+- name: deeptools_compute_gc_bias
+  owner: bgruening
+  revisions:
+  - 1c9d626635b4
+  tool_panel_section_label: deepTools
+- name: deeptools_compute_matrix
+  owner: bgruening
+  revisions:
+  - aee77c22123d
+  tool_panel_section_label: deepTools
+- name: deeptools_correct_gc_bias
+  owner: bgruening
+  revisions:
+  - 3537e2b2f7a9
+  tool_panel_section_label: deepTools
+- name: deeptools_multi_bam_summary
+  owner: bgruening
+  revisions:
+  - 6f67a9da7fce
+  tool_panel_section_label: deepTools
+- name: deeptools_multi_bigwig_summary
+  owner: bgruening
+  revisions:
+  - 6fdfeeef190a
+  tool_panel_section_label: deepTools
+- name: deeptools_plot_correlation
+  owner: bgruening
+  revisions:
+  - 162837c86cbc
+  tool_panel_section_label: deepTools
+- name: deeptools_plot_coverage
+  owner: bgruening
+  revisions:
+  - 6fc072c36dc9
+  tool_panel_section_label: deepTools
+- name: deeptools_plot_enrichment
+  owner: bgruening
+  revisions:
+  - 4b88c90b6f6e
+  tool_panel_section_label: deepTools
+- name: deeptools_plot_fingerprint
+  owner: bgruening
+  revisions:
+  - 449dc21ee4e9
+  tool_panel_section_label: deepTools
+- name: deeptools_plot_heatmap
+  owner: bgruening
+  revisions:
+  - ca218dae7902
+  tool_panel_section_label: deepTools
+- name: deeptools_plot_pca
+  owner: bgruening
+  revisions:
+  - 1bd89a520120
+  tool_panel_section_label: deepTools
+- name: deeptools_plot_profile
+  owner: bgruening
+  revisions:
+  - b8e86bbb9de3
+  tool_panel_section_label: deepTools
+- name: deeptools_compute_matrix_operations
+  owner: bgruening
+  revisions:
+  - d8c2a68643ce
+  tool_panel_section_label: deepTools
+- name: hicup_deduplicator
+  owner: bgruening
+  revisions:
+  - c7bed3fe0e23
+  tool_panel_section_label: deepTools

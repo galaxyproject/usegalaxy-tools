@@ -1,0 +1,34 @@
+tool_panel_section_label: Statistics
+tools:
+- name: correlation
+  owner: devteam
+- name: count_gff_features
+  owner: devteam
+- name: generate_pc_lda_matrix
+  owner: devteam
+- name: plot_from_lda
+  owner: devteam
+- name: t_test_two_samples
+  owner: devteam
+- name: best_regression_subsets
+  owner: devteam
+- name: canonical_correlation_analysis
+  owner: devteam
+- name: kernel_canonical_correlation_analysis
+  owner: devteam
+- name: kernel_principal_component_analysis
+  owner: devteam
+- name: lda_analysis
+  owner: devteam
+- name: mine
+  owner: devteam
+- name: principal_component_analysis
+  owner: devteam
+- name: iwtomics_loadandplot
+  owner: iuc
+- name: iwtomics_plotwithscale
+  owner: iuc
+- name: iwtomics_testandplot
+  owner: iuc
+- name: dwt_var_perfeature
+  owner: devteam

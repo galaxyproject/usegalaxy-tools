@@ -1,0 +1,28 @@
+tool_panel_section_label: Nanopore
+tools:
+- name: poretools_events
+  owner: iuc
+- name: poretools_extract
+  owner: iuc
+- name: poretools_hist
+  owner: iuc
+- name: poretools_nucdist
+  owner: iuc
+- name: poretools_occupancy
+  owner: iuc
+- name: poretools_qualdist
+  owner: iuc
+- name: poretools_qualpos
+  owner: iuc
+- name: poretools_squiggle
+  owner: iuc
+- name: poretools_stats
+  owner: iuc
+- name: poretools_tabular
+  owner: iuc
+- name: poretools_times
+  owner: iuc
+- name: poretools_winner
+  owner: iuc
+- name: poretools_yield_plot
+  owner: iuc

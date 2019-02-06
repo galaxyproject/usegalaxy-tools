@@ -1,0 +1,18 @@
+tool_panel_section_label: Convert Formats
+tools:
+- name: fasta_to_tabular
+  owner: devteam
+- name: fastq_to_fasta
+  owner: devteam
+- name: fastq_to_tabular
+  owner: devteam
+- name: tabular_to_fasta
+  owner: devteam
+- name: fastqtofasta
+  owner: devteam
+- name: bam_to_scidx
+  owner: iuc
+- name: resize_coordinate_window
+  owner: iuc
+- name: idpquery
+  owner: galaxyp
