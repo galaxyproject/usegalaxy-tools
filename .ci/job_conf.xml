@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<job_conf>
+    <plugins workers="2">
+        <plugin id="slurm" type="runner" load="galaxy.jobs.runners.slurm:SlurmJobRunner">
+            <param id="drmaa_library_path">/usr/lib/slurm-drmaa/lib/libdrmaa.so</param>
+        </plugin>
+    </plugins>
+    <destinations default="slurm_cluster">
+		<destination id="slurm_cluster" runner="slurm">
+			<env file="/galaxy_venv/bin/activate"/>
+			<param id="nativeSpecification">--ntasks=1 --share</param>
+		</destination>
+	</destinations>
+</job_conf>
