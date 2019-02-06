@@ -1,0 +1,19 @@
+tools:
+- name: clustalw
+  owner: fubar
+  revisions:
+  - 9c4d943fbef7
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mafft
+  owner: rnateam
+  revisions:
+  - d71e007323d4
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: hammock
+  owner: hammock
+  revisions:
+  - afddbcbc8ee8
+  tool_panel_section_label: Multiple Alignments
+  tool_shed_url: toolshed.g2.bx.psu.edu

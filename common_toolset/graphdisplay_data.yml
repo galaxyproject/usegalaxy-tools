@@ -1,0 +1,80 @@
+tools:
+- name: histogram
+  owner: devteam
+  revisions:
+  - cdb9e89e2970
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xy_plot
+  owner: devteam
+  revisions:
+  - ecb437f1d298
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: circos
+  owner: iuc
+  revisions:
+  - ef5f8bbf7730
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scatterplot
+  owner: devteam
+  revisions:
+  - d243056b22ed
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ucsc_custom_track
+  owner: devteam
+  revisions:
+  - 618e56c3109b
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ggplot2_heatmap2
+  owner: iuc
+  revisions:
+  - cb04f3235a4e
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: venn_list
+  owner: peterjc
+  revisions:
+  - 6aae6bc0802d
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: gmaj
+  owner: devteam
+  revisions:
+  - 2cd5ee197ec7
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: karyotype_plot
+  owner: guru-ananda
+  revisions:
+  - d810aa84ee6a
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_nucleotide_color_plot
+  owner: iuc
+  revisions:
+  - e4b5401adcec
+  - 980917b09eb8
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: jbrowse
+  owner: iuc
+  revisions:
+  - 1cfc579079a6
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mummer
+  owner: peterjc
+  revisions:
+  - d9f3d4779507
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: krona_text
+  owner: saskia-hiltemann
+  revisions:
+  - b14f1444e464
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: toolshed.g2.bx.psu.edu

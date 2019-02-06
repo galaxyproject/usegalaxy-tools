@@ -1,0 +1,49 @@
+tools:
+- name: prokka
+  owner: crs4
+  revisions:
+  - a17498c603ec
+  tool_panel_section_label: Assembly
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: quast
+  owner: iuc
+  revisions:
+  - 0834c823d4b9
+  tool_panel_section_label: Assembly
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: unicycler
+  owner: iuc
+  revisions:
+  - 6710edf12bac
+  tool_panel_section_label: Assembly
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: pilon
+  owner: iuc
+  revisions:
+  - 11e5408fd238
+  tool_panel_section_label: Assembly
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: shovill
+  owner: iuc
+  revisions:
+  - 865119fcb694
+  tool_panel_section_label: Assembly
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: trinity
+  owner: iuc
+  revisions:
+  - c9cfec002f71
+  tool_panel_section_label: Assembly
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: spades
+  owner: nml
+  revisions:
+  - b8d633fbf5f5
+  tool_panel_section_label: Assembly
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: velvetoptimiser
+  owner: simon-gladman
+  revisions:
+  - 37d88f41c810
+  tool_panel_section_label: Assembly
+  tool_shed_url: toolshed.g2.bx.psu.edu

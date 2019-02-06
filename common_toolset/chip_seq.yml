@@ -1,0 +1,13 @@
+tools:
+- name: sicer
+  owner: devteam
+  revisions:
+  - 74c9214cc8e6
+  tool_panel_section_label: ChiP-seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: macs
+  owner: devteam
+  revisions:
+  - f6319b0b4391
+  tool_panel_section_label: ChiP-seq
+  tool_shed_url: toolshed.g2.bx.psu.edu
