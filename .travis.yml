@@ -18,6 +18,11 @@ before_install:
       [test.galaxyproject.org]=g2test
     )
   - >-
+    declare -g -A REPO_STRATUM0S=(
+      [sandbox.galaxyproject.org]=cvmfs0-psu0.galaxyproject.org
+      [test.galaxyproject.org]=cvmfs0-tacc0.galaxyproject.org
+    )
+  - >-
     declare -g -A CONDA_PATHS=(
       [sandbox.galaxyproject.org]=/cvmfs/sandbox.galaxyproject.org/dependencies/conda
       [test.galaxyproject.org]=/cvmfs/test.galaxyproject.org/deps/_conda
@@ -133,22 +138,22 @@ after_success:
   # TODO: uncomment next line
   #- '[ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "master" ] && travis_terminate 0 || true'
   - openssl aes-256-cbc -K $encrypted_0ffba610202a_key -iv $encrypted_0ffba610202a_iv -in .ci/deploy_key.pem.enc -out .ci/deploy_key.pem -d
-  - echo 'cvmfs0-psu0.galaxyproject.org ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGaFllzcKadhpbZ6hNXSgIfgYspqR+IB7NVxJf3FFqZr' >> $HOME/.ssh/known_hosts
-  - echo 'cvmfs0-psu0.galaxyproject.org ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDF4SgjupC+Te9Qx67srgaEtmFV+LjoNtLTndJwQieLDzwbcYNQoezeu4H4ijmQaL9U5oXA+l3IFL6znRxupAS21uMukqOChVfpMzuda36jcw+Eghuhfk+ZSB4A4FwMtoNJvWNgp+xNBjx0gaHM0oY7XFlACr/T48bAPUtMVrrRje70I6L6lN9oJFfVq1YyyjwZjvGzl2ffO7MzMAamphqfBpv15NFHa1jlDt5czaniJi4SLKCQoa8qZJYkdvtih71v9uP9Dhjwtau0QtPdIUrIt4T0VUjqO+ne1a9YndOLU3QGctDZHdnjklC7wbZlTy7NUKECva5nxYi2d9KwjlUh' >> $HOME/.ssh/known_hosts
-  - echo 'cvmfs0-psu0.galaxyproject.org ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNQupx1g6IkWVabJSscujjkFDDNfgyZtiSB6pwsgwnwpSI4C/oW5CZC2/zQBdecdJw9Mua5ImSp7KxdWk6OrWco=' >> $HOME/.ssh/known_hosts
+  - cp -p .ci/known_hosts $HOME/.ssh/known_hosts
   - eval "$(ssh-agent -s)"
   - chmod 600 .ci/deploy_key.pem
   - ssh-add .ci/deploy_key.pem
   - sudo find /upper -perm -u+r -not -perm -o+r -not -type l -print0 | sudo xargs -0 --no-run-if-empty chmod go+r
   - sudo find /upper -perm -u+rx -not -perm -o+rx -not -type l -print0 | sudo xargs -0 --no-run-if-empty chmod go+rx
   - REPO_USER=${REPO_USERS[$REPO]}
-  - ssh ${REPO_USER}@cvmfs0-psu0.galaxyproject.org cvmfs_server transaction ${REPO}
+  - REPO_STRATUM0=${REPO_STRATUM0S[$REPO]}
+  - echo "Pushing changes to repo ${REPO} on CVMFS Stratum 0 ${REPO_STRATUM0} as user ${REPO_USER}"
+  - ssh ${REPO_USER}@${REPO_STRATUM0} cvmfs_server transaction ${REPO}
   - |
-    rsync -av /upper/ ${REPO_USER}@cvmfs0-psu0.galaxyproject.org:/cvmfs/${REPO} || {
+    rsync -av /upper/ ${REPO_USER}@${REPO_STRATUM0}:/cvmfs/${REPO} || {
         echo "#### RSYNC FAILED, ABORTING TRANSACTION";
-        ssh ${REPO_USER}@cvmfs0-psu0.galaxyproject.org cvmfs_server abort -f ${REPO};
+        ssh ${REPO_USER}@${REPO_STRATUM0} cvmfs_server abort -f ${REPO};
         travis_terminate 1;
     }
   # TODO: un-echo next line, comment last line
-  - echo ssh ${REPO_USER}@cvmfs0-psu0.galaxyproject.org "cvmfs_server publish -m 'Automated tool install for commit $TRAVIS_COMMIT' ${REPO}"
-  - ssh ${REPO_USER}@cvmfs0-psu0.galaxyproject.org "cvmfs_server abort -f ${REPO}"
+  - echo ssh ${REPO_USER}@${REPO_STRATUM0} "cvmfs_server publish -m 'Automated tool install for commit $TRAVIS_COMMIT' ${REPO}"
+  - ssh ${REPO_USER}@${REPO_STRATUM0} "cvmfs_server abort -f ${REPO}"
