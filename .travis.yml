@@ -117,7 +117,15 @@ install:
 script:
   - |
     for tool_yaml in "${TOOL_YAMLS[@]}"; do
-        shed-tools install -v -a deadbeef -t "$tool_yaml"
+        shed-tools install -v -a deadbeef -t "$tool_yaml" || {
+            echo "#### TOOL INSTALL ERROR ####";
+            for f in /var/log/nginx/error.log /home/galaxy/logs/uwsgi.log; do
+                echo "#### CONTENTS OF ${f}:";
+                docker exec galaxy cat $f;
+            done;
+            echo "#### TERMINATING BUILD";
+            travis_terminate 1;
+        }
         #shed-tools install -v -a deadbeef -t "$tool_yaml" --test --test_json "${tool_yaml##*/}"-test.json || {
         #    # TODO: test here if test failures should be ignored (but we can't separate test failures from install
         #    # failures at the moment) and also we can't easily get the job stderr
