@@ -119,9 +119,9 @@ script:
     for tool_yaml in "${TOOL_YAMLS[@]}"; do
         shed-tools install -v -a deadbeef -t "$tool_yaml" || {
             echo "#### TOOL INSTALL ERROR ####";
-            for f in /var/log/nginx/error.log /home/galaxy/logs/uwsgi.log; do
-                echo "#### CONTENTS OF ${f}:";
-                docker exec galaxy cat $f;
+            for f in /var/log/nginx/error.log /var/log/nginx/access.log /home/galaxy/logs/uwsgi.log; do
+                echo "#### TAIL OF ${f}:";
+                docker exec galaxy tail -500 $f;
             done;
             echo "#### TERMINATING BUILD";
             travis_terminate 1;
