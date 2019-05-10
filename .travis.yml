@@ -117,23 +117,23 @@ install:
 script:
   - |
     for tool_yaml in "${TOOL_YAMLS[@]}"; do
-        shed-tools install -v -a deadbeef -t "$tool_yaml" --test --test_json "${tool_yaml##*/}"-test.json || {
-            # TODO: test here if test failures should be ignored (but we can't separate test failures from install
-            # failures at the moment) and also we can't easily get the job stderr
-            #[ "$TRAVIS_PULL_REQUEST" == "false" -a "$TRAVIS_BRANCH" == "master" ] || {
-            true || {
-                echo "#### TOOL INSTALL/TEST FAILED ####";
-                echo "#### CONTENTS OF /home/galaxy/logs/uwsgi.log:";
-                docker exec galaxy cat /home/galaxy/logs/uwsgi.log;
-                echo "#### TERMINATING BUILD";
-                travis_terminate 1;
-            };
-        }
+        shed-tools install -v -a deadbeef -t "$tool_yaml"
+        #shed-tools install -v -a deadbeef -t "$tool_yaml" --test --test_json "${tool_yaml##*/}"-test.json || {
+        #    # TODO: test here if test failures should be ignored (but we can't separate test failures from install
+        #    # failures at the moment) and also we can't easily get the job stderr
+        #    [ "$TRAVIS_PULL_REQUEST" == "false" -a "$TRAVIS_BRANCH" == "master" ] || {
+        #        echo "#### TOOL INSTALL/TEST FAILED ####";
+        #        echo "#### CONTENTS OF /home/galaxy/logs/uwsgi.log:";
+        #       docker exec galaxy cat /home/galaxy/logs/uwsgi.log;
+        #       echo "#### TERMINATING BUILD";
+        #       travis_terminate 1;
+        #    };
+        #}
     done
-  - |
-    for tool_yaml in "${TOOL_YAMLS[@]}"; do
-        planemo test_reports --test_output_text tests.txt "${tool_yaml##*/}"-test.json && cat tests.txt
-    done
+  #- |
+  #  for tool_yaml in "${TOOL_YAMLS[@]}"; do
+  #      planemo test_reports --test_output_text tests.txt "${tool_yaml##*/}"-test.json && cat tests.txt
+  #  done
 
 after_success:
   # TODO: uncomment next line
