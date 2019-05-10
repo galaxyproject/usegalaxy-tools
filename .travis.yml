@@ -95,9 +95,10 @@ install:
     -e GALAXY_CONFIG_MASTER_API_KEY=deadbeef
     -e GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATHS[$REPO]}
     -e GALAXY_HANDLER_NUMPROCS=0
-    -e CONDARC=/cvmfs/${REPO}/dependencies/_condarc
+    -e CONDARC=${CONDA_PATHS[$REPO]}rc
     -v /cvmfs/${REPO}:/cvmfs/${REPO}
     -v $(pwd)/.ci/job_conf.xml:/job_conf.xml
+    -v $(pwd)/.ci/nginx.conf:/etc/nginx/nginx.conf
     -e GALAXY_CONFIG_JOB_CONFIG_FILE=/job_conf.xml
     bgruening/galaxy-stable
   - |
@@ -144,6 +145,7 @@ after_success:
   - ssh-add .ci/deploy_key.pem
   - sudo find /upper -perm -u+r -not -perm -o+r -not -type l -print0 | sudo xargs -0 --no-run-if-empty chmod go+r
   - sudo find /upper -perm -u+rx -not -perm -o+rx -not -type l -print0 | sudo xargs -0 --no-run-if-empty chmod go+rx
+  - sudo ${CONDA_PATHS[$REPO]}/bin/conda clean --tarballs --yes
   - REPO_USER=${REPO_USERS[$REPO]}
   - REPO_STRATUM0=${REPO_STRATUM0S[$REPO]}
   - echo "Pushing changes to repo ${REPO} on CVMFS Stratum 0 ${REPO_STRATUM0} as user ${REPO_USER}"
