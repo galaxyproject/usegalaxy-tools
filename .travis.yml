@@ -144,7 +144,7 @@ script:
   #  done
 
 after_success:
-  # TODO: uncomment next line
+  # TODO: uncomment following line
   #- '[ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "master" ] && travis_terminate 0 || true'
   - openssl aes-256-cbc -K $encrypted_0ffba610202a_key -iv $encrypted_0ffba610202a_iv -in .ci/deploy_key.pem.enc -out .ci/deploy_key.pem -d
   - cp -p .ci/known_hosts $HOME/.ssh/known_hosts
@@ -164,6 +164,5 @@ after_success:
         ssh ${REPO_USER}@${REPO_STRATUM0} cvmfs_server abort -f ${REPO};
         travis_terminate 1;
     }
-  # TODO: un-echo next line, comment last line
-  - echo ssh ${REPO_USER}@${REPO_STRATUM0} "cvmfs_server publish -m 'Automated tool install for commit $TRAVIS_COMMIT' ${REPO}"
-  - ssh ${REPO_USER}@${REPO_STRATUM0} "cvmfs_server abort -f ${REPO}"
+  - ssh ${REPO_USER}@${REPO_STRATUM0} "cvmfs_server publish -m 'Automated tool install for commit $TRAVIS_COMMIT' ${REPO}"
+  #- ssh ${REPO_USER}@${REPO_STRATUM0} "cvmfs_server abort -f ${REPO}"
