@@ -11,21 +11,25 @@ before_install:
     declare -g -A TOOLSET_REPOS=(
       [common_toolset]=sandbox.galaxyproject.org
       [test.galaxyproject.org]=test.galaxyproject.org
+      [usegalaxy.org]=main.galaxyproject.org
     )
   - >-
     declare -g -A REPO_USERS=(
       [sandbox.galaxyproject.org]=sandbox
       [test.galaxyproject.org]=g2test
+      [main.galaxyproject.org]=g2main
     )
   - >-
     declare -g -A REPO_STRATUM0S=(
       [sandbox.galaxyproject.org]=cvmfs0-psu0.galaxyproject.org
       [test.galaxyproject.org]=cvmfs0-tacc0.galaxyproject.org
+      [main.galaxyproject.org]=cvmfs0-tacc0.galaxyproject.org
     )
   - >-
     declare -g -A CONDA_PATHS=(
       [sandbox.galaxyproject.org]=/cvmfs/sandbox.galaxyproject.org/dependencies/conda
       [test.galaxyproject.org]=/cvmfs/test.galaxyproject.org/deps/_conda
+      [main.galaxyproject.org]=/cvmfs/main.galaxyproject.org/deps/_conda
     )
   - echo 'Detecting changes to tool files...'
   - git diff --quiet "$TRAVIS_COMMIT_RANGE" --; GIT_DIFF_EXIT_CODE=$?
