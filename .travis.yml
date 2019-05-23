@@ -164,5 +164,5 @@ after_success:
         ssh ${REPO_USER}@${REPO_STRATUM0} cvmfs_server abort -f ${REPO};
         travis_terminate 1;
     }
-  - ssh ${REPO_USER}@${REPO_STRATUM0} "cvmfs_server publish -m 'Automated tool install for commit $TRAVIS_COMMIT' ${REPO}"
+  - ssh ${REPO_USER}@${REPO_STRATUM0} "cvmfs_server publish -a 'tools-${TRAVIS_COMMIT:0:7}' -m 'Automated tool install for commit $TRAVIS_COMMIT' ${REPO}"
   #- ssh ${REPO_USER}@${REPO_STRATUM0} "cvmfs_server abort -f ${REPO}"
