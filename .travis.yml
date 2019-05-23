@@ -144,6 +144,8 @@ script:
   #  done
 
 after_success:
+  - |
+    [ -d /upper/deps/_conda -o -d /upper/shed_tools ] || { echo "No changes to /upper"; travis_terminate 0; }
   - '[ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "master" ] && travis_terminate 0 || true'
   - openssl aes-256-cbc -K $encrypted_4ac50eded31b_key -iv $encrypted_4ac50eded31b_iv -in .ci/deploy_key.pem.enc -out .ci/deploy_key.pem -d
   - cp -p .ci/known_hosts $HOME/.ssh/known_hosts
