@@ -1,0 +1,12 @@
+# usegalaxy.* admins own everything
+*                           @galaxyproject/universe-admins
+
+# Galaxy Project AU servers
+#usegalaxy.org.au*           @usegalaxy-au/...
+
+# Galaxy Project EU servers
+#usegalaxy.eu/*              @usegalaxy-eu/...
+
+# Galaxy Project US servers
+usegalaxy.org/*             @galaxyproject/tool-installers
+test.galaxyproject.org/*    @galaxyproject/tool-installers
