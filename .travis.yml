@@ -164,7 +164,7 @@ after_success:
   - echo "Pushing changes to repo ${REPO} on CVMFS Stratum 0 ${REPO_STRATUM0} as user ${REPO_USER}"
   - ssh ${REPO_USER}@${REPO_STRATUM0} cvmfs_server transaction ${REPO}
   - |
-    rsync -av /upper/ ${REPO_USER}@${REPO_STRATUM0}:/cvmfs/${REPO} || {
+    rsync -a /upper/ ${REPO_USER}@${REPO_STRATUM0}:/cvmfs/${REPO} || {
         echo "#### RSYNC FAILED, ABORTING TRANSACTION";
         ssh ${REPO_USER}@${REPO_STRATUM0} cvmfs_server abort -f ${REPO};
         travis_terminate 1;
