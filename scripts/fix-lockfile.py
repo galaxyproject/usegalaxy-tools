@@ -59,7 +59,7 @@ def update_file(fn):
     clean_lockfile.update({
         "install_repository_dependencies": True,
         "install_resolver_dependencies": True,
-        "install_tool_dependencies": True,
+        "install_tool_dependencies": False,     # These are TS deps, not Conda
     })
 
     with open(fn + '.lock', 'w') as handle:
