@@ -12,11 +12,11 @@ ts = toolshed.ToolShedInstance(url='https://toolshed.g2.bx.psu.edu')
 
 def update_file(fn):
     with open(fn, 'r') as handle:
-        unlocked = yaml.load(handle)
+        unlocked = yaml.safe_load(handle)
     # If a lock file exists, load it from that file
     if os.path.exists(fn + '.lock'):
         with open(fn + '.lock', 'r') as handle:
-            locked = yaml.load(handle)
+            locked = yaml.safe_load(handle)
     else:
         # Otherwise just clone the "unlocked" list.
         locked = copy.deepcopy(unlocked)
@@ -59,7 +59,7 @@ def update_file(fn):
     clean_lockfile.update({
         "install_repository_dependencies": True,
         "install_resolver_dependencies": True,
-        "install_tool_dependencies": True,
+        "install_tool_dependencies": False,     # These are TS deps, not Conda
     })
 
     with open(fn + '.lock', 'w') as handle:
