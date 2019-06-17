@@ -1,10 +1,10 @@
 install_repository_dependencies: true
 install_resolver_dependencies: true
 install_tool_dependencies: false
-tool_panel_section_id: chip_seq
+tool_panel_section_label: chip_seq
 tools:
 - name: chipseeker
   owner: rnateam
   revisions:
   - 1b9a9409831d
-  tool_panel_section_id: chip_seq
+  tool_panel_section_label: chip_seq
