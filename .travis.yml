@@ -91,7 +91,7 @@ before_install:
   - sudo mount -t overlay overlay -o lowerdir=/lower,upperdir=/upper,workdir=/work "/cvmfs/${REPO}"
 
 install:
-  - sudo pip install ephemeris planemo
+  - sudo pip install git+https://github.com/natefoo/ephemeris.git@spinner planemo
   - >-
     docker run -d -p 8080:80 --name=galaxy
     -e GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:////cvmfs/${REPO}/config/install.sqlite
