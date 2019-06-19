@@ -2,7 +2,6 @@ install_repository_dependencies: true
 install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: ChIP-seq
-install: 1
 tools:
 - name: chipseeker
   owner: rnateam

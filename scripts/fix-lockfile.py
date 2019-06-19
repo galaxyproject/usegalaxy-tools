@@ -49,9 +49,19 @@ def update_file(fn):
         new_tool = {
             'name': tool['name'],
             'owner': tool['owner'],
-            'tool_panel_section_label': unlocked['tool_panel_section_label'],
             'revisions': sorted(list(set(revisions))),  # Cast to list for yaml serialization
         }
+
+        # Set the section - id supercedes label/name
+        for section_definition in ('tool_panel_section_id', 'tool_panel_section_label'):
+            if section_definition in unlocked:
+                new_tool[section_definition] = unlocked[section_definition]
+                break
+        else:
+            raise Exception(
+                "Unlocked tool definition must include 'tool_panel_section_id' or "
+                "'tool_panel_section_label': %s" % str(unlocked)
+            )
 
         clean_lockfile['tools'].append(new_tool)
 
