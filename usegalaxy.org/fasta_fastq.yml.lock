@@ -1,0 +1,10 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: FASTA/FASTQ
+tools:
+- name: find_subsequences
+  owner: bgruening
+  revisions:
+  - d882a0a75759
+  tool_panel_section_label: FASTA/FASTQ
