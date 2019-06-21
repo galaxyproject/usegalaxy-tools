@@ -3,11 +3,20 @@ import os
 import copy
 import argparse
 import logging
+import string
 
 from bioblend import toolshed
 
 logging.basicConfig()
 ts = toolshed.ToolShedInstance(url='https://toolshed.g2.bx.psu.edu')
+
+
+def section_id_chr(c):
+    return (c if c in string.ascii_letters + string.digits else '_').lower()
+
+
+def section_label_to_id(label):
+    return ''.join(map(section_id_chr, label))
 
 
 def update_file(fn):
@@ -53,6 +62,11 @@ def update_file(fn):
         }
 
         # Set the section - id supercedes label/name
+        if 'tool_panel_section_id' in unlocked:
+            new_tool['tool_panel_section_id'] = unlocked['tool_panel_section_id']
+        elif 'tool_panel_section_label' in unlocked:
+            new_tool['tool_panel_section_id'] = section_label_to_id(unlocked['tool_panel_section_label'])
+
         for section_definition in ('tool_panel_section_id', 'tool_panel_section_label'):
             if section_definition in unlocked:
                 new_tool[section_definition] = unlocked[section_definition]
