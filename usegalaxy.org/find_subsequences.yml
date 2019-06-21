@@ -7,4 +7,4 @@ tools:
   owner: bgruening
   revisions:
   - d882a0a75759
-  tool_panel_section_label: FASTA/FASTQ
+  tool_panel_section_id: fasta_fastq
