@@ -158,7 +158,14 @@ after_success:
   - ssh-add .ci/deploy_key.pem
   - sudo find /upper -perm -u+r -not -perm -o+r -not -type l -print0 | sudo xargs -0 --no-run-if-empty chmod go+r
   - sudo find /upper -perm -u+rx -not -perm -o+rx -not -type l -print0 | sudo xargs -0 --no-run-if-empty chmod go+rx
-  - sudo ${CONDA_PATHS[$REPO]}/bin/conda clean --tarballs --yes
+  - CONDA=${CONDA_PATHS[$REPO]}
+  - sudo ${CONDA}/bin/conda clean --tarballs --yes
+  - |
+    for env in ${CONDA}/envs/*; do
+        for link in conda activate deactivate; do
+            [ -h ${env}/bin/${link} ] || ln -s ${CONDA}/bin/${link} ${env}/bin/${link}
+        done
+    done
   - REPO_USER=${REPO_USERS[$REPO]}
   - REPO_STRATUM0=${REPO_STRATUM0S[$REPO]}
   - echo "Pushing changes to repo ${REPO} on CVMFS Stratum 0 ${REPO_STRATUM0} as user ${REPO_USER}"
