@@ -1,4 +1,0 @@
-tool_panel_section_label: FASTA/FASTQ
-tools:
-- name: find_subsequences
-  owner: bgruening
