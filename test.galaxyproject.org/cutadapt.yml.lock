@@ -6,4 +6,5 @@ tools:
   owner: lparsons
   revisions:
   - e4691e1589d3
+  - 660cffd8d92a
   tool_panel_section_label: FASTA/FASTQ
