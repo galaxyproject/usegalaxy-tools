@@ -6,4 +6,5 @@ tools:
   owner: devteam
   revisions:
   - 5f6ebef89722
+  tool_panel_section_id: join__subtract_and_group
   tool_panel_section_label: Join, Subtract and Group

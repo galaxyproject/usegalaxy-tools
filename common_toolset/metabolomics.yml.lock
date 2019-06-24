@@ -6,9 +6,11 @@ tools:
   owner: mmonsoor
   revisions:
   - 52b222a626b0
+  tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: lcmsmatching
   owner: prog
   revisions:
   - fb9c0409d85c
+  tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics

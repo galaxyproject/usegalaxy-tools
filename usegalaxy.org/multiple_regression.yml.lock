@@ -6,24 +6,29 @@ tools:
   owner: devteam
   revisions:
   - cf431604ec3e
+  tool_panel_section_id: multiple_regression
   tool_panel_section_label: Multiple regression
 - name: logistic_regression_vif
   owner: devteam
   revisions:
   - bd196d7c1ca9
+  tool_panel_section_id: multiple_regression
   tool_panel_section_label: Multiple regression
 - name: partialr_square
   owner: devteam
   revisions:
   - 88ef41de020d
+  tool_panel_section_id: multiple_regression
   tool_panel_section_label: Multiple regression
 - name: rcve
   owner: devteam
   revisions:
   - 7740956d197b
+  tool_panel_section_id: multiple_regression
   tool_panel_section_label: Multiple regression
 - name: best_regression_subsets
   owner: devteam
   revisions:
   - 4f33ec73e445
+  tool_panel_section_id: multiple_regression
   tool_panel_section_label: Multiple regression

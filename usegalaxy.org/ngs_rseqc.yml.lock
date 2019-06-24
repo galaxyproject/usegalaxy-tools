@@ -7,4 +7,5 @@ tools:
   revisions:
   - 080fd5739bb4
   - daae0a118c36
+  tool_panel_section_id: ngs__rseqc
   tool_panel_section_label: 'NGS: RSeQC'

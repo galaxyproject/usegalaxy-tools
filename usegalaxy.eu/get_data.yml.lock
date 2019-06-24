@@ -6,120 +6,144 @@ tools:
   owner: iuc
   revisions:
   - 30150bd36c9a
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_egquery
   owner: iuc
   revisions:
   - 28f69754ddc5
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_ecitmatch
   owner: iuc
   revisions:
   - 732a52c18758
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_epost
   owner: iuc
   revisions:
   - 196b8dd07896
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_elink
   owner: iuc
   revisions:
   - 2791c731fc65
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_einfo
   owner: iuc
   revisions:
   - 5b1dc5936af2
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_esummary
   owner: iuc
   revisions:
   - c8d4ea6376a7
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_efetch
   owner: iuc
   revisions:
   - 0fc65a60436f
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: sra_tools
   owner: iuc
   revisions:
   - 1790dcf3c32d
   - c38286ea7047
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: uniprot_rest_interface
   owner: bgruening
   revisions:
   - 054483e27a35
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ensembl_get_sequences
   owner: earlhaminst
   revisions:
   - 3b686142e9c2
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ensembl_get_genetree
   owner: earlhaminst
   revisions:
   - 0602dcf02768
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ensembl_get_feature_info
   owner: earlhaminst
   revisions:
   - 234d7babf34b
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: enasearch_search_data
   owner: iuc
   revisions:
   - 6e692d5a5599
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: enasearch_retrieve_data
   owner: iuc
   revisions:
   - 0719cfc3ebcb
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: enasearch_retrieve_taxons
   owner: iuc
   revisions:
   - 8881ac3eebd7
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: enasearch_retrieve_analysis_report
   owner: iuc
   revisions:
   - a5f787bfe69e
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: enasearch_retrieve_run_report
   owner: iuc
   revisions:
   - ccc0e55c9e16
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ebi_search_rest_results
   owner: iuc
   revisions:
   - 42d5e40fcd0b
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: unipept
   owner: galaxyp
   revisions:
   - 34758ab8aaa4
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: dbbuilder
   owner: galaxyp
   revisions:
   - a85fbebe8b2f
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: uniprotxml_downloader
   owner: galaxyp
   revisions:
   - e1abc9a35c64
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ebi_metagenomics_run_downloader
   owner: iuc
   revisions:
   - e2e9fae080ad
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ega_download_streamer
   owner: yhoogstrate
   revisions:
   - 3e2cccf08053
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data

@@ -6,14 +6,17 @@ tools:
   owner: iuc
   revisions:
   - fd522a964017
+  tool_panel_section_id: motifs
   tool_panel_section_label: Motifs
 - name: meme_meme
   owner: iuc
   revisions:
   - e416c7c26977
+  tool_panel_section_id: motifs
   tool_panel_section_label: Motifs
 - name: weblogo3
   owner: devteam
   revisions:
   - dc25a5169a91
+  tool_panel_section_id: motifs
   tool_panel_section_label: Motifs

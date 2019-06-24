@@ -6,104 +6,125 @@ tools:
   owner: devteam
   revisions:
   - 85bedbea8a12
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: sam_merge
   owner: devteam
   revisions:
   - 1977f1637890
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: samtool_filter2
   owner: devteam
   revisions:
   - dc6ff68ea5e8
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: sam_pileup
   owner: devteam
   revisions:
   - 890d97772e2a
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: sam_bitwise_flag_filter
   owner: devteam
   revisions:
   - 0b2424a404d9
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: sam2interval
   owner: devteam
   revisions:
   - 8c737b8ddc45
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: samtools_phase
   owner: devteam
   revisions:
   - 6166013090c0
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: pileup_interval
   owner: devteam
   revisions:
   - ef11139d4545
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: samtools_mpileup
   owner: devteam
   revisions:
   - 583abf29fc8e
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: samtools_idxstats
   owner: devteam
   revisions:
   - 88b8c2916784
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: samtools_flagstat
   owner: devteam
   revisions:
   - cc61ade70eb8
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: sam_to_bam
   owner: devteam
   revisions:
   - f7a0d41036c7
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: samtools_reheader
   owner: devteam
   revisions:
   - db000c6007a0
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: samtools_split
   owner: devteam
   revisions:
   - b7f7826ef1cd
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: samtools_stats
   owner: devteam
   revisions:
   - 24c5d43cb545
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: samtools_bedcov
   owner: devteam
   revisions:
   - 12749212f61b
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: samtools_slice_bam
   owner: devteam
   revisions:
   - a4a10c7924d1
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: samtools_calmd
   owner: devteam
   revisions:
   - 33208952b99d
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: samtools_sort
   owner: devteam
   revisions:
   - cab3f8d35989
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: bam_to_sam
   owner: devteam
   revisions:
   - f57df915aa10
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools
 - name: samtools_rmdup
   owner: devteam
   revisions:
   - 9129584416e2
+  tool_panel_section_id: sam_tools
   tool_panel_section_label: SAM Tools

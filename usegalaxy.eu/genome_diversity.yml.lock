@@ -6,9 +6,11 @@ tools:
   owner: iuc
   revisions:
   - c7e73acfa3eb
+  tool_panel_section_id: genome_diversity
   tool_panel_section_label: Genome Diversity
 - name: genome_diversity
   owner: miller-lab
   revisions:
   - e56023008e36
+  tool_panel_section_id: genome_diversity
   tool_panel_section_label: Genome Diversity

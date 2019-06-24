@@ -6,14 +6,17 @@ tools:
   owner: nml
   revisions:
   - 25136a2b0cfe
+  tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations
 - name: bundle_collections
   owner: nml
   revisions:
   - cd6da887a5f4
+  tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations
 - name: collection_column_join
   owner: iuc
   revisions:
   - dfde09461b1e
+  tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations

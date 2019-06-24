@@ -6,59 +6,71 @@ tools:
   owner: iuc
   revisions:
   - b2f1cf977ca9
+  tool_panel_section_id: ngs__presto
   tool_panel_section_label: 'NGS: pRESTO'
 - name: prestor_abseq3
   owner: iuc
   revisions:
   - ef917c03493c
+  tool_panel_section_id: ngs__presto
   tool_panel_section_label: 'NGS: pRESTO'
 - name: presto_partition
   owner: iuc
   revisions:
   - 0b103d43a2c7
+  tool_panel_section_id: ngs__presto
   tool_panel_section_label: 'NGS: pRESTO'
 - name: presto_parselog
   owner: iuc
   revisions:
   - 488cd05be723
+  tool_panel_section_id: ngs__presto
   tool_panel_section_label: 'NGS: pRESTO'
 - name: presto_parseheaders
   owner: iuc
   revisions:
   - 90315cb06d06
+  tool_panel_section_id: ngs__presto
   tool_panel_section_label: 'NGS: pRESTO'
 - name: presto_pairseq
   owner: iuc
   revisions:
   - f47efbc66fad
+  tool_panel_section_id: ngs__presto
   tool_panel_section_label: 'NGS: pRESTO'
 - name: presto_maskprimers
   owner: iuc
   revisions:
   - 14e648d05cce
+  tool_panel_section_id: ngs__presto
   tool_panel_section_label: 'NGS: pRESTO'
 - name: presto_filterseq
   owner: iuc
   revisions:
   - 7b102129b1e8
+  tool_panel_section_id: ngs__presto
   tool_panel_section_label: 'NGS: pRESTO'
 - name: presto_collapseseq
   owner: iuc
   revisions:
   - d1a1b738c119
+  tool_panel_section_id: ngs__presto
   tool_panel_section_label: 'NGS: pRESTO'
 - name: presto_buildconsensus
   owner: iuc
   revisions:
   - 7c7df98db5a9
+  tool_panel_section_id: ngs__presto
   tool_panel_section_label: 'NGS: pRESTO'
 - name: presto_assemblepairs
   owner: iuc
   revisions:
   - 44c980933450
+  tool_panel_section_id: ngs__presto
   tool_panel_section_label: 'NGS: pRESTO'
 - name: presto_alignsets
   owner: iuc
   revisions:
   - 40102188d44e
+  tool_panel_section_id: ngs__presto
   tool_panel_section_label: 'NGS: pRESTO'

@@ -6,209 +6,251 @@ tools:
   owner: devteam
   revisions:
   - 5e2c89443c44
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: plot_from_lda
   owner: devteam
   revisions:
   - 08affc5d2aef
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: lda_analysis
   owner: devteam
   revisions:
   - f0b6217f4a0c
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: generate_pc_lda_matrix
   owner: devteam
   revisions:
   - 04cdbd00dcec
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: count_gff_features
   owner: devteam
   revisions:
   - 188392a0d0a8
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: correlation
   owner: devteam
   revisions:
   - 24e01abf9e34
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: best_regression_subsets
   owner: devteam
   revisions:
   - 4f33ec73e445
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: principal_component_analysis
   owner: devteam
   revisions:
   - f568051cdf2e
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: kernel_principal_component_analysis
   owner: devteam
   revisions:
   - 3d58aa83e4a3
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: kernel_canonical_correlation_analysis
   owner: devteam
   revisions:
   - 5ce5a2adb875
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: canonical_correlation_analysis
   owner: devteam
   revisions:
   - 9bc0c48a027f
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: dwt_var_perfeature
   owner: devteam
   revisions:
   - 7a15159140d1
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: t_test_two_samples
   owner: devteam
   revisions:
   - c2ffc9885b5a
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_model_validation
   owner: bgruening
   revisions:
   - 86e1e2874460
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: scipy_sparse
   owner: bgruening
   revisions:
   - 27c0b1a050df
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_generalized_linear
   owner: bgruening
   revisions:
   - e3bc646e63b2
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_discriminant_classifier
   owner: bgruening
   revisions:
   - 75bcb7c19fcf
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_regression_metrics
   owner: bgruening
   revisions:
   - 268ecaf96b68
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_clf_metrics
   owner: bgruening
   revisions:
   - 3cd0dbc038ec
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_data_preprocess
   owner: bgruening
   revisions:
   - d6b8103c909c
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_feature_selection
   owner: bgruening
   revisions:
   - 2bbbac61e48d
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_ensemble
   owner: bgruening
   revisions:
   - 39ae276e75d9
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_numeric_clustering
   owner: bgruening
   revisions:
   - 9d234733ccfd
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_nn_classifier
   owner: bgruening
   revisions:
   - ed7b1654e841
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_pairwise_metrics
   owner: bgruening
   revisions:
   - 8338f71ed0c4
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_build_pipeline
   owner: bgruening
   revisions:
   - 99038af8deda
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_searchcv
   owner: bgruening
   revisions:
   - 4368259ff821
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_sample_generator
   owner: bgruening
   revisions:
   - 4ba68dd788b3
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_svm_classifier
   owner: bgruening
   revisions:
   - 372582a7a34d
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: nn_classifier
   owner: bgruening
   revisions:
   - c2bccd744f03
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: svm_classifier
   owner: bgruening
   revisions:
   - b8d4f843212c
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: anova
   owner: lecorguille
   revisions:
   - 102049093b7d
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: multivariate
   owner: ethevenot
   revisions:
   - 5526f8258e8a
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: univariate
   owner: ethevenot
   revisions:
   - 5687435b182c
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: iwtomics_plotwithscale
   owner: iuc
   revisions:
   - 1bc9150ed125
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: iwtomics_testandplot
   owner: iuc
   revisions:
   - 94965e369be4
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: iwtomics_loadandplot
   owner: iuc
   revisions:
   - ce633cc8f5f9
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: seq_composition
   owner: peterjc
   revisions:
   - 13be788233da
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: biosigner
   owner: ethevenot
   revisions:
   - fa80bd02055f
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: transformation
   owner: ethevenot
   revisions:
   - cc0e9eff0de2
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: heatmap
   owner: ethevenot
   revisions:
   - b1667c118127
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: numeric_clustering
   owner: bgruening
   revisions:
   - a3fd214e7555
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics

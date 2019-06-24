@@ -6,4 +6,5 @@ tools:
   owner: iuc
   revisions:
   - bc7d99f46a5d
+  tool_panel_section_id: ngs__seqtk
   tool_panel_section_label: 'NGS: Seqtk'

@@ -6,220 +6,264 @@ tools:
   owner: bgruening
   revisions:
   - 69e02cf88856
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_remsmall
   owner: bgruening
   revisions:
   - 11952f619e90
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_obgrep
   owner: bgruening
   revisions:
   - 50dc8ca09a50
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_addh
   owner: bgruening
   revisions:
   - bfb8555f0003
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_remduplicates
   owner: bgruening
   revisions:
   - d751e92477ea
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_svg_depiction
   owner: bgruening
   revisions:
   - ed50b83b02e9
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_multi_obgrep
   owner: bgruening
   revisions:
   - 09640954740c
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_genprop
   owner: bgruening
   revisions:
   - ebe0654a8b85
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_subsearch
   owner: bgruening
   revisions:
   - 9a83f24376b0
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_remove_protonation_state
   owner: bgruening
   revisions:
   - 44488fa95d1d
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_spectrophore_search
   owner: bgruening
   revisions:
   - 0b9ee280c439
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: md_converter
   owner: chemteam
   revisions:
   - acce5039ece7
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: bio3d_pca
   owner: chemteam
   revisions:
   - f56fb2762abb
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: bio3d_rmsd
   owner: chemteam
   revisions:
   - 75fd897bd85d
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: bio3d_rmsf
   owner: chemteam
   revisions:
   - e838317708a6
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: mdanalysis_distance
   owner: chemteam
   revisions:
   - c33b972fe040
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: mdanalysis_dihedral
   owner: chemteam
   revisions:
   - f95d4348ed7c
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: mdanalysis_rdf
   owner: chemteam
   revisions:
   - 9bb57bd1fdc8
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: mdanalysis_angle
   owner: chemteam
   revisions:
   - fc7293c6cb6a
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: packmol
   owner: chemteam
   revisions:
   - 0b8a0ce446f5
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_nvt
   owner: chemteam
   revisions:
   - f425c1453662
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_md
   owner: chemteam
   revisions:
   - d97433b7d482
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_solvate
   owner: chemteam
   revisions:
   - 77aaf9a68166
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_em
   owner: chemteam
   revisions:
   - 6d9a9ab96195
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_setup
   owner: chemteam
   revisions:
   - acc9922f3eab
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_npt
   owner: chemteam
   revisions:
   - 93e39b0321c7
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel
   owner: bgruening
   revisions:
   - b52872a1755a
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: osra
   owner: bgruening
   revisions:
   - aeb1f7daa7c2
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_remions
   owner: bgruening
   revisions:
   - abceed0106cd
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_compound_convert
   owner: bgruening
   revisions:
   - 37f6668ce540
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_change_title
   owner: bgruening
   revisions:
   - 3bf4dcc945f9
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: chemfp
   owner: bgruening
   revisions:
   - e3a7d6cc87af
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: natural_product_likeness
   owner: bgruening
   revisions:
   - 41e31a198b34
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: simsearch
   owner: bgruening
   revisions:
   - 0892f7ced10c
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: confab
   owner: bgruening
   revisions:
   - 4c4e812a67a2
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: ctb_machine_learning
   owner: bgruening
   revisions:
   - fe542273784f
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: silicos_it
   owner: bgruening
   revisions:
   - 5f1d98674a21
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: opsin
   owner: bgruening
   revisions:
   - cda22c799d0a
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: rdkit
   owner: bgruening
   revisions:
   - 6bb56f3a8de0
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: chemical_data_sources
   owner: bgruening
   revisions:
   - 7c1f9962ac07
   - c2055dd1927b
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openmg
   owner: bgruening
   revisions:
   - 8d2b075966d6
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: autodock_vina
   owner: bgruening
   revisions:
   - 65ffed035ca8
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: autodock_vina_prepare_ligand
   owner: bgruening
   revisions:
   - 965badb456d4
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: autodock_vina_prepare_receptor
   owner: bgruening
   revisions:
   - d15e5a2a7558
+  tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox

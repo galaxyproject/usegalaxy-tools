@@ -6,4 +6,5 @@ tools:
   owner: iuc
   revisions:
   - c9a8ef2aa380
+  tool_panel_section_id: variant_detection
   tool_panel_section_label: Variant Detection

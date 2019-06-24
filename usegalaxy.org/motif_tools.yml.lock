@@ -6,14 +6,17 @@ tools:
   owner: iuc
   revisions:
   - 57e5d9382f36
+  tool_panel_section_id: motif_tools
   tool_panel_section_label: Motif Tools
 - name: meme_fimo
   owner: iuc
   revisions:
   - 4eb02864e5df
+  tool_panel_section_id: motif_tools
   tool_panel_section_label: Motif Tools
 - name: weblogo3
   owner: devteam
   revisions:
   - dc25a5169a91
+  tool_panel_section_id: motif_tools
   tool_panel_section_label: Motif Tools

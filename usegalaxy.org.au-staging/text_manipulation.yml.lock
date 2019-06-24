@@ -6,29 +6,35 @@ tools:
   owner: bgruening
   revisions:
   - f18f67056946
+  tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: cut_include_exclude
   owner: r-lannes
   revisions:
   - d28ee835a561
+  tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: regex_find_replace
   owner: galaxyp
   revisions:
   - 209b7c5ee9d7
+  tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: concatenate_multiple_datasets
   owner: artbio
   revisions:
   - 6f54dc6b37da
+  tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: condense_characters
   owner: devteam
   revisions:
   - 381ed54c5e39
+  tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: column_maker
   owner: devteam
   revisions:
   - 626658afe4cb
+  tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation

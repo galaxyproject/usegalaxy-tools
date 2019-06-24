@@ -6,79 +6,95 @@ tools:
   owner: bgruening
   revisions:
   - 0cd2331b6e4f
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'
 - name: deeptools_bam_coverage
   owner: bgruening
   revisions:
   - b61d934cc1e8
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'
 - name: deeptools_plot_pca
   owner: bgruening
   revisions:
   - 93ce2662f917
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'
 - name: deeptools_plot_heatmap
   owner: bgruening
   revisions:
   - 46992aa30bd6
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'
 - name: deeptools_plot_fingerprint
   owner: bgruening
   revisions:
   - 664bd6df0959
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'
 - name: deeptools_plot_enrichment
   owner: bgruening
   revisions:
   - 7515364dd2df
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'
 - name: deeptools_plot_coverage
   owner: bgruening
   revisions:
   - 7373bed2be0f
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'
 - name: deeptools_plot_correlation
   owner: bgruening
   revisions:
   - e97f5de6b2da
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'
 - name: deeptools_multi_bigwig_summary
   owner: bgruening
   revisions:
   - 9311b1e5a284
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'
 - name: deeptools_multi_bam_summary
   owner: bgruening
   revisions:
   - c567b9bdbbfa
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'
 - name: deeptools_correct_gc_bias
   owner: bgruening
   revisions:
   - 24c209036764
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'
 - name: deeptools_compute_matrix
   owner: bgruening
   revisions:
   - c1bc6406b3bb
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'
 - name: deeptools_compute_gc_bias
   owner: bgruening
   revisions:
   - bb3e88bddd9f
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'
 - name: deeptools_bigwig_compare
   owner: bgruening
   revisions:
   - 17b7e83820d7
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'
 - name: deeptools_bam_pe_fragmentsize
   owner: bgruening
   revisions:
   - ec103ad3c567
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'
 - name: deeptools_bam_compare
   owner: bgruening
   revisions:
   - e4287c038599
+  tool_panel_section_id: ngs__deeptools
   tool_panel_section_label: 'NGS: DeepTools'

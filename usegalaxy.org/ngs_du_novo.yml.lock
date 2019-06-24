@@ -6,9 +6,11 @@ tools:
   owner: nick
   revisions:
   - 9dc43bf7d1db
+  tool_panel_section_id: ngs__du_novo
   tool_panel_section_label: 'NGS: Du Novo'
 - name: sequence_content_trimmer
   owner: nick
   revisions:
   - 7f170cb06e2e
+  tool_panel_section_id: ngs__du_novo
   tool_panel_section_label: 'NGS: Du Novo'

@@ -8,4 +8,5 @@ tools:
   - 832c20329690
   - ce22ceec214a
   - dc492eb6a4fc
+  tool_panel_section_id: emboss_tools
   tool_panel_section_label: EMBOSS Tools

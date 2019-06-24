@@ -6,39 +6,47 @@ tools:
   owner: iuc
   revisions:
   - 501c21cce614
+  tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: biom_add_metadata
   owner: iuc
   revisions:
   - 367b1ed91207
+  tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: fastq_to_fasta
   owner: devteam
   revisions:
   - 186b8d913e6c
+  tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: fastq_to_tabular
   owner: devteam
   revisions:
   - ccf4e1d1fcbe
+  tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: fasta_to_tabular
   owner: devteam
   revisions:
   - 7e801ab2b70e
+  tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: tabular_to_fastq
   owner: devteam
   revisions:
   - b8cdc0507586
+  tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: tabular_to_fasta
   owner: devteam
   revisions:
   - 0b4e36026794
+  tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: fml_gff3togtf
   owner: vipints
   revisions:
   - 5c6f33e20fcc
+  tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats

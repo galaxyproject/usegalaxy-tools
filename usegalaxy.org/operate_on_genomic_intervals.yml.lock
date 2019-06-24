@@ -6,59 +6,71 @@ tools:
   owner: devteam
   revisions:
   - 1bc76ceffa7f
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: concat
   owner: devteam
   revisions:
   - 35a89f8cc96e
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: subtract
   owner: devteam
   revisions:
   - 7a2a604ae9c8
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: join
   owner: devteam
   revisions:
   - ffbd1de29c28
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: intersect
   owner: devteam
   revisions:
   - 8ddabc73af92
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: coverage
   owner: devteam
   revisions:
   - bc9c66c1e9c9
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: complement
   owner: devteam
   revisions:
   - e0a23ab32d7f
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: cluster
   owner: devteam
   revisions:
   - 765ceb06c3e2
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: basecoverage
   owner: devteam
   revisions:
   - 0a3e3133b09d
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: annotation_profiler
   owner: devteam
   revisions:
   - 3b33da018e74
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: flanking_features
   owner: devteam
   revisions:
   - 90100b587723
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: get_flanks
   owner: devteam
   revisions:
   - 4cd116158aef
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals

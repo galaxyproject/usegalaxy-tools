@@ -6,4 +6,5 @@ tools:
   owner: devteam
   revisions:
   - ddf5c37952ac
+  tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control

@@ -6,4 +6,5 @@ tools:
   owner: nml
   revisions:
   - 25136a2b0cfe
+  tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations

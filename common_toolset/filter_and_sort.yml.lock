@@ -6,19 +6,23 @@ tools:
   owner: iuc
   revisions:
   - c80cdc2eac6d
+  tool_panel_section_id: filter_and_sort
   tool_panel_section_label: Filter and Sort
 - name: column_arrange_by_header
   owner: bgruening
   revisions:
   - f18f67056946
+  tool_panel_section_id: filter_and_sort
   tool_panel_section_label: Filter and Sort
 - name: query_tabular
   owner: jjohnson
   revisions:
   - 49ca06d66762
+  tool_panel_section_id: filter_and_sort
   tool_panel_section_label: Filter and Sort
 - name: sample_seqs
   owner: peterjc
   revisions:
   - 7c40a1fbc82e
+  tool_panel_section_id: filter_and_sort
   tool_panel_section_label: Filter and Sort

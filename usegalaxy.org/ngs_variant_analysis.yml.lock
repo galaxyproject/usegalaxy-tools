@@ -6,6 +6,7 @@ tools:
   owner: devteam
   revisions:
   - bc1e0cd41241
+  tool_panel_section_id: ngs__variant_analysis
   tool_panel_section_label: 'NGS: Variant Analysis'
 - name: snpeff
   owner: iuc
@@ -13,59 +14,71 @@ tools:
   - 36dc3690a82c
   - 5a29ab10dba6
   - c9ecd2a96ecf
+  tool_panel_section_id: ngs__variant_analysis
   tool_panel_section_label: 'NGS: Variant Analysis'
 - name: naive_variant_caller
   owner: blankenberg
   revisions:
   - 07e71cf6c8ef
+  tool_panel_section_id: ngs__variant_analysis
   tool_panel_section_label: 'NGS: Variant Analysis'
 - name: snpsift
   owner: iuc
   revisions:
   - 09d6806c609e
+  tool_panel_section_id: ngs__variant_analysis
   tool_panel_section_label: 'NGS: Variant Analysis'
 - name: freebayes
   owner: devteam
   revisions:
   - 156b60c1530f
+  tool_panel_section_id: ngs__variant_analysis
   tool_panel_section_label: 'NGS: Variant Analysis'
 - name: table_annovar
   owner: devteam
   revisions:
   - 08b003ee9db7
+  tool_panel_section_id: ngs__variant_analysis
   tool_panel_section_label: 'NGS: Variant Analysis'
 - name: mutate_snp_codon
   owner: devteam
   revisions:
   - 8f0af7251167
+  tool_panel_section_id: ngs__variant_analysis
   tool_panel_section_label: 'NGS: Variant Analysis'
 - name: allele_counts
   owner: nick
   revisions:
   - 411adeff1eec
+  tool_panel_section_id: ngs__variant_analysis
   tool_panel_section_label: 'NGS: Variant Analysis'
 - name: phylorelatives
   owner: boris
   revisions:
   - 06d6e56e8c2b
+  tool_panel_section_id: ngs__variant_analysis
   tool_panel_section_label: 'NGS: Variant Analysis'
 - name: hetbox
   owner: boris
   revisions:
   - 8d2c4c11fd8f
+  tool_panel_section_id: ngs__variant_analysis
   tool_panel_section_label: 'NGS: Variant Analysis'
 - name: getalleleseq
   owner: boris
   revisions:
   - 5a89151b5e82
+  tool_panel_section_id: ngs__variant_analysis
   tool_panel_section_label: 'NGS: Variant Analysis'
 - name: vcftools_annotate
   owner: devteam
   revisions:
   - 57a6550df582
+  tool_panel_section_id: ngs__variant_analysis
   tool_panel_section_label: 'NGS: Variant Analysis'
 - name: vcftools_slice
   owner: devteam
   revisions:
   - 1363e5d4a8b8
+  tool_panel_section_id: ngs__variant_analysis
   tool_panel_section_label: 'NGS: Variant Analysis'

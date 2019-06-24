@@ -6,4 +6,5 @@ tools:
   owner: devteam
   revisions:
   - 6f386c5dc4fb
+  tool_panel_section_id: blast__
   tool_panel_section_label: Blast +

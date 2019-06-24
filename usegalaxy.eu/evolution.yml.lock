@@ -6,19 +6,23 @@ tools:
   owner: devteam
   revisions:
   - 8f0af7251167
+  tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: iqtree
   owner: iuc
   revisions:
   - d1c340a5664b
+  tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: structure
   owner: iuc
   revisions:
   - 64e681a1cad5
+  tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: codeml
   owner: iuc
   revisions:
   - ba71e26d5bdc
+  tool_panel_section_id: evolution
   tool_panel_section_label: Evolution

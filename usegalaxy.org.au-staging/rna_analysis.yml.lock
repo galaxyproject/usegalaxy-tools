@@ -6,209 +6,251 @@ tools:
   owner: iuc
   revisions:
   - 10c98fab6c5a
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: kallisto_pseudo
   owner: iuc
   revisions:
   - 1c75aa5de15e
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: trinotate
   owner: iuc
   revisions:
   - 6fd16fad465d
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: cuffdiff
   owner: devteam
   revisions:
   - d3ae7d9c2202
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: cufflinks
   owner: devteam
   revisions:
   - e04dbae2abe0
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: trinity
   owner: iuc
   revisions:
   - cee61b3fcf78
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: rsem
   owner: jjohnson
   revisions:
   - 14267d364365
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: transdecoder
   owner: iuc
   revisions:
   - 0db979fead3a
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: htseq_count
   owner: lparsons
   revisions:
   - 7f5a8d427b39
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: sailfish
   owner: bgruening
   revisions:
   - a8f343909c17
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: gffcompare
   owner: iuc
   revisions:
   - 3c97c841a443
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: edger
   owner: iuc
   revisions:
   - 9bdff28ae1b1
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: dexseq
   owner: iuc
   revisions:
   - f1c406f9554c
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: rseqc
   owner: nilesh
   revisions:
   - 080fd5739bb4
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: featurecounts
   owner: iuc
   revisions:
   - e6a2a912677a
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: generate_count_matrix
   owner: jchung
   revisions:
   - 56768aac1758
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: stringtie
   owner: iuc
   revisions:
   - 76d290331481
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: trinity_run_de_analysis
   owner: iuc
   revisions:
   - 047c22569787
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: trinity_filter_low_expr_transcripts
   owner: iuc
   revisions:
   - 6f0fb35b799c
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: describe_samples
   owner: iuc
   revisions:
   - 8f0181aacb7a
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: trinity_gene_to_trans_map
   owner: iuc
   revisions:
   - c2c039e421af
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: trinity_analyze_diff_expr
   owner: iuc
   revisions:
   - c5f02e00d596
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: trinity_align_and_estimate_abundance
   owner: iuc
   revisions:
   - 04bd98a9c751
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: trinity_define_clusters_by_cutting_tree
   owner: iuc
   revisions:
   - c5fbddcac63a
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: trinity_abundance_estimates_to_matrix
   owner: iuc
   revisions:
   - 74217fbfba4d
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: trinity_samples_qccheck
   owner: iuc
   revisions:
   - 1812dbc5bb7b
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: trinity_contig_exn50_statistic
   owner: iuc
   revisions:
   - 4687ecf0eb2d
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: salmon
   owner: bgruening
   revisions:
   - 53e9709776a0
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: deseq2
   owner: iuc
   revisions:
   - 24a09ca67621
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: differential_count_models
   owner: fubar
   revisions:
   - 3107df74056e
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: htseq_bams_to_count_matrix
   owner: fubar
   revisions:
   - d300bc688e95
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: express
   owner: devteam
   revisions:
   - 7b0708761d05
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: filter_transcripts_via_tracking
   owner: devteam
   revisions:
   - 45f89dcf0b4c
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: cummerbund
   owner: devteam
   revisions:
   - 78fcfc04fcfe
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: cuffcompare
   owner: devteam
   revisions:
   - e66b9b5b8580
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: cuffmerge
   owner: devteam
   revisions:
   - cf747d1bd79a
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: cuffnorm
   owner: devteam
   revisions:
   - f5b2ee725d34
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: cuffquant
   owner: devteam
   revisions:
   - 6dc45faebc1d
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: tophat_fusion_post
   owner: devteam
   revisions:
   - f83394a2c2da
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: tophat2
   owner: devteam
   revisions:
   - 16c4255042be
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: rgrnastar
   owner: iuc
   revisions:
   - 99b17b74a8cd
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis
 - name: hisat2
   owner: iuc
   revisions:
   - 764756ab0eb5
+  tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis

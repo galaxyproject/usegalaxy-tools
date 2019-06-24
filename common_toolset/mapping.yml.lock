@@ -6,29 +6,35 @@ tools:
   owner: devteam
   revisions:
   - 8d2a528a9513
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: lastz
   owner: devteam
   revisions:
   - e7f19d6a9af8
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: megablast_wrapper
   owner: devteam
   revisions:
   - dc7b4acb3fa6
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: megablast_xml_parser
   owner: devteam
   revisions:
   - 03ca082aeb2e
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bowtie_wrappers
   owner: devteam
   revisions:
   - b46e7d48076a
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: lastz_paired_reads
   owner: devteam
   revisions:
   - ecc974513241
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping

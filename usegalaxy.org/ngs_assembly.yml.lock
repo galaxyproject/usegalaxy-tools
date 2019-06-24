@@ -6,19 +6,23 @@ tools:
   owner: iuc
   revisions:
   - 23300b42ca18
+  tool_panel_section_id: ngs__assembly
   tool_panel_section_label: 'NGS: Assembly'
 - name: prokka
   owner: crs4
   revisions:
   - eaee459f3d69
+  tool_panel_section_id: ngs__assembly
   tool_panel_section_label: 'NGS: Assembly'
 - name: quast
   owner: iuc
   revisions:
   - 0834c823d4b9
+  tool_panel_section_id: ngs__assembly
   tool_panel_section_label: 'NGS: Assembly'
 - name: trinity_psc
   owner: nate
   revisions:
   - 1de64ac61b4e
+  tool_panel_section_id: ngs__assembly
   tool_panel_section_label: 'NGS: Assembly'

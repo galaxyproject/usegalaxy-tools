@@ -6,20 +6,24 @@ tools:
   owner: devteam
   revisions:
   - 7a2a604ae9c8
+  tool_panel_section_id: join__subtract_and_group
   tool_panel_section_label: Join, Subtract and Group
 - name: datamash_ops
   owner: iuc
   revisions:
   - 2f3c6f2dcf39
   - 562f3c677828
+  tool_panel_section_id: join__subtract_and_group
   tool_panel_section_label: Join, Subtract and Group
 - name: datamash_reverse
   owner: iuc
   revisions:
   - 0f1724dd59d2
+  tool_panel_section_id: join__subtract_and_group
   tool_panel_section_label: Join, Subtract and Group
 - name: datamash_transpose
   owner: iuc
   revisions:
   - 22c2a1ac7ae3
+  tool_panel_section_id: join__subtract_and_group
   tool_panel_section_label: Join, Subtract and Group

@@ -8,4 +8,5 @@ tools:
   - a33db97b220c
   - db1841942d2b
   - dde39ba9c031
+  tool_panel_section_id: bed
   tool_panel_section_label: BED

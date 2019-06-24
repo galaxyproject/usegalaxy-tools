@@ -6,34 +6,41 @@ tools:
   owner: gga
   revisions:
   - a10003dc6c85
+  tool_panel_section_id: apollo
   tool_panel_section_label: Apollo
 - name: apollo_feat_from_gff3
   owner: gga
   revisions:
   - 7c4a3e737e08
+  tool_panel_section_id: apollo
   tool_panel_section_label: Apollo
 - name: apollo_create_or_update
   owner: gga
   revisions:
   - aee984715db1
+  tool_panel_section_id: apollo
   tool_panel_section_label: Apollo
 - name: apollo_export
   owner: gga
   revisions:
   - 5559e41721c3
+  tool_panel_section_id: apollo
   tool_panel_section_label: Apollo
 - name: apollo_delete_organism
   owner: gga
   revisions:
   - a5de2095bd01
+  tool_panel_section_id: apollo
   tool_panel_section_label: Apollo
 - name: apollo_fetch_jbrowse
   owner: gga
   revisions:
   - 9968eec7430e
+  tool_panel_section_id: apollo
   tool_panel_section_label: Apollo
 - name: apollo_list_organism
   owner: gga
   revisions:
   - b69804a685e2
+  tool_panel_section_id: apollo
   tool_panel_section_label: Apollo

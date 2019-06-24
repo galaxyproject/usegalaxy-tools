@@ -6,65 +6,78 @@ tools:
   owner: iuc
   revisions:
   - b41a4bb828a3
+  tool_panel_section_id: ngs__peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
 - name: sicer
   owner: devteam
   revisions:
   - 74c9214cc8e6
+  tool_panel_section_id: ngs__peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
 - name: ngsutils_bam_filter
   owner: iuc
   revisions:
   - aecfe10118ed
+  tool_panel_section_id: ngs__peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
 - name: multigps
   owner: greg
   revisions:
   - 62bdb6ff11d1
+  tool_panel_section_id: ngs__peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
 - name: diffbind
   owner: bgruening
   revisions:
   - c97a786e8fb5
+  tool_panel_section_id: ngs__peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
 - name: macs2
   owner: iuc
   revisions:
   - c16dbe4e2db2
   - f5d67c722d67
+  tool_panel_section_id: ngs__peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
 - name: tag_pileup_frequency
   owner: iuc
   revisions:
   - 6432735cdb22
+  tool_panel_section_id: ngs__peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
 - name: pe_histogram
   owner: iuc
   revisions:
   - 9be99db0304a
+  tool_panel_section_id: ngs__peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
 - name: fasta_nucleotide_color_plot
   owner: iuc
   revisions:
   - e4b5401adcec
+  tool_panel_section_id: ngs__peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
 - name: resize_coordinate_window
   owner: iuc
   revisions:
   - 0164d2edba9f
+  tool_panel_section_id: ngs__peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
 - name: repmatch_gff3
   owner: iuc
   revisions:
   - a072f0f30ea3
+  tool_panel_section_id: ngs__peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
 - name: cwpair2
   owner: iuc
   revisions:
   - d4db13c9dd7f
+  tool_panel_section_id: ngs__peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'
 - name: macs
   owner: devteam
   revisions:
   - ae2ec275332a
+  tool_panel_section_id: ngs__peak_calling
   tool_panel_section_label: 'NGS: Peak Calling'

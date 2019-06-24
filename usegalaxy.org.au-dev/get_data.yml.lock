@@ -6,4 +6,5 @@ tools:
   owner: iuc
   revisions:
   - 8c00bc7fd8de
+  tool_panel_section_id: get_data
   tool_panel_section_label: Get Data

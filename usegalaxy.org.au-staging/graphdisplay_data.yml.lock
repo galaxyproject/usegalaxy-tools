@@ -6,54 +6,65 @@ tools:
   owner: iuc
   revisions:
   - ef5f8bbf7730
+  tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: krona_text
   owner: saskia-hiltemann
   revisions:
   - b14f1444e464
+  tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: mummer
   owner: peterjc
   revisions:
   - d9f3d4779507
+  tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: histogram
   owner: devteam
   revisions:
   - cdb9e89e2970
+  tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: draw_stacked_barplots
   owner: devteam
   revisions:
   - e997b710e38a
+  tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: xy_plot
   owner: devteam
   revisions:
   - 319fa5a9fc1b
+  tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: prop_venn
   owner: idot
   revisions:
   - cc6707a1e044
+  tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: weblogo3
   owner: devteam
   revisions:
   - dc25a5169a91
+  tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: fastq_quality_boxplot
   owner: devteam
   revisions:
   - f95284aa2946
+  tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: gmaj
   owner: devteam
   revisions:
   - 2cd5ee197ec7
+  tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: jbrowse
   owner: iuc
   revisions:
   - 836d1aa3e89a
+  tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data

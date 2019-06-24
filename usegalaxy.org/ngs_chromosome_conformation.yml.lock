@@ -6,4 +6,5 @@ tools:
   owner: sauria
   revisions:
   - cc95aa05f643
+  tool_panel_section_id: ngs__chromosome_conformation
   tool_panel_section_label: 'NGS: Chromosome Conformation'

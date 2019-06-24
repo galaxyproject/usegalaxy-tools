@@ -7,4 +7,5 @@ tools:
   revisions:
   - 2a17c789e0a5
   - ab1f60c26526
+  tool_panel_section_id: picard
   tool_panel_section_label: Picard

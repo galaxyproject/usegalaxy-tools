@@ -6,224 +6,269 @@ tools:
   owner: devteam
   revisions:
   - 592acb9505fc
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: t2ps
   owner: devteam
   revisions:
   - 4d9910e996f7
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: poisson2test
   owner: devteam
   revisions:
   - 5ff18ec88181
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: lca_wrapper
   owner: devteam
   revisions:
   - 33e8ed5a4601
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: gi2taxonomy
   owner: devteam
   revisions:
   - 7b1b03c4465d
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: find_diag_hits
   owner: devteam
   revisions:
   - acf51ff24c7d
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: plasflow
   owner: iuc
   revisions:
   - bda6012394f7
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: khmer_abundance_distribution_single
   owner: iuc
   revisions:
   - 792d520ba676
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: khmer_normalize_by_median
   owner: iuc
   revisions:
   - f0290a079720
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: khmer_partition
   owner: iuc
   revisions:
   - c393687bd857
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: khmer_count_median
   owner: iuc
   revisions:
   - 5efc5f21d0c1
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: khmer_abundance_distribution
   owner: iuc
   revisions:
   - a02efb62565b
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: khmer_extract_partitions
   owner: iuc
   revisions:
   - 7d8138b4a593
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: khmer_filter_below_abundance_cutoff
   owner: iuc
   revisions:
   - d9cc87dfec6e
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: khmer_filter_abundance
   owner: iuc
   revisions:
   - a4970dfc331c
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: vsearch
   owner: iuc
   revisions:
   - b3c7199d8786
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: vegan_rarefaction
   owner: iuc
   revisions:
   - b0d5976540e3
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: vegan_fisher_alpha
   owner: iuc
   revisions:
   - f9966e11885b
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: vegan_diversity
   owner: iuc
   revisions:
   - a2c047a2c380
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: compare_humann2_output
   owner: bebatut
   revisions:
   - c1aca37cb1fc
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: group_humann2_uniref_abundances_to_go
   owner: bebatut
   revisions:
   - cad28d7b49d2
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: combine_metaphlan2_humann2
   owner: bebatut
   revisions:
   - 31394a0c0242
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: format_metaphlan2_output
   owner: bebatut
   revisions:
   - 2bfa9b200600
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: valet
   owner: iuc
   revisions:
   - 56236acaad45
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: humann2_split_stratified_table
   owner: iuc
   revisions:
   - b58d3f965a49
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: humann2_renorm_table
   owner: iuc
   revisions:
   - dbf0e8eeeeed
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: humann2_genefamilies_genus_level
   owner: iuc
   revisions:
   - c7ac7103023d
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: humann2_rna_dna_norm
   owner: iuc
   revisions:
   - c8ef30c8451d
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: humann2_regroup_table
   owner: iuc
   revisions:
   - 1d141730ec69
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: humann2_barplot
   owner: iuc
   revisions:
   - efd98a5e8255
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: humann2
   owner: iuc
   revisions:
   - 1d6d855c10d8
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: humann2_split_table
   owner: iuc
   revisions:
   - ace84aac38ce
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: humann2_strain_profiler
   owner: iuc
   revisions:
   - eb13789029de
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: humann2_rename_table
   owner: iuc
   revisions:
   - b6d4c448782f
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: humann2_reduce_table
   owner: iuc
   revisions:
   - d020ce7b0e4c
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: humann2_unpack_pathways
   owner: iuc
   revisions:
   - d2e4fee96dd1
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: humann2_join_tables
   owner: iuc
   revisions:
   - 9ada8e95bdd0
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: humann2_associate
   owner: iuc
   revisions:
   - b6f52c19973d
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: bio_hansel
   owner: iuc
   revisions:
   - e3698ac146d7
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: nonpareil
   owner: iuc
   revisions:
   - 280386b252a5
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: metaphlan2
   owner: iuc
   revisions:
   - 8c82c4d90cc6
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: metaphlan2krona
   owner: iuc
   revisions:
   - fdbd63e92b01
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: merge_metaphlan_tables
   owner: iuc
   revisions:
   - 3b469e230e82
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: metaphlan_hclust_heatmap
   owner: iuc
   revisions:
   - f7353110d18c
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses
 - name: metagenomeseq_normalization
   owner: iuc
   revisions:
   - d16f7cc26516
+  tool_panel_section_id: metagenomic_analyses
   tool_panel_section_label: Metagenomic analyses

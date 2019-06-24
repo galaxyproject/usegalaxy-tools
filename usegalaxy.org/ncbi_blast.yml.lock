@@ -6,4 +6,5 @@ tools:
   owner: devteam
   revisions:
   - c877294f8025
+  tool_panel_section_id: ncbi_blast_
   tool_panel_section_label: NCBI BLAST+

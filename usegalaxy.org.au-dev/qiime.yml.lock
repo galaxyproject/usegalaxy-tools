@@ -6,159 +6,191 @@ tools:
   owner: iuc
   revisions:
   - 486570c88d1b
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_beta_diversity_through_plots
   owner: iuc
   revisions:
   - 2140c12755d0
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_upgma_cluster
   owner: iuc
   revisions:
   - 4e9b6a0fcb78
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_multiple_split_libraries_fastq
   owner: iuc
   revisions:
   - a8bff14347ec
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_make_phylogeny
   owner: iuc
   revisions:
   - 9e5b2251a6a5
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_filter_otus_from_otu_table
   owner: iuc
   revisions:
   - e84a31935a8b
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_alpha_diversity
   owner: iuc
   revisions:
   - ffe438e1fc67
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_filter_samples_from_otu_table
   owner: iuc
   revisions:
   - 0766f46f379d
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_make_emperor
   owner: iuc
   revisions:
   - f43da0fd602c
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_count_seqs
   owner: iuc
   revisions:
   - bb0c29df7392
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_validate_mapping_file
   owner: iuc
   revisions:
   - 6b784a33f3b3
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_compare_categories
   owner: iuc
   revisions:
   - 21abe2afb7cf
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_split_libraries_fastq
   owner: iuc
   revisions:
   - 1327fee2bf93
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_summarize_taxa
   owner: iuc
   revisions:
   - 65b11616e81d
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_pick_open_reference_otus
   owner: iuc
   revisions:
   - bf3348cc35d5
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_alpha_rarefaction
   owner: iuc
   revisions:
   - 0a097fc6e5a6
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_plot_taxa_summary
   owner: iuc
   revisions:
   - d0910542c8f6
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_jackknifed_beta_diversity
   owner: iuc
   revisions:
   - 205f4c9739c0
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_multiple_join_paired_ends
   owner: iuc
   revisions:
   - e13fb0cbfd8c
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_pick_otus
   owner: iuc
   revisions:
   - 127947ced93f
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_align_seqs
   owner: iuc
   revisions:
   - 98614f0549e3
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_summarize_taxa_through_plots
   owner: iuc
   revisions:
   - 62eb36dff24d
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_filter_taxa_from_otu_table
   owner: iuc
   revisions:
   - 95a39cd8a53a
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_assign_taxonomy
   owner: iuc
   revisions:
   - b4170e1a3b85
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_make_otu_heatmap
   owner: iuc
   revisions:
   - 06cb29d26718
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_split_libraries
   owner: iuc
   revisions:
   - 6f2a0b6a8da2
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_pick_rep_set
   owner: iuc
   revisions:
   - 8218f848c2b9
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_filter_fasta
   owner: iuc
   revisions:
   - 82ab467a74fc
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_beta_diversity
   owner: iuc
   revisions:
   - 206c7eb264db
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_filter_alignment
   owner: iuc
   revisions:
   - ffcb719ff53c
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_pick_closed_reference_otus
   owner: iuc
   revisions:
   - 935abbf93f99
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime
 - name: qiime_extract_barcodes
   owner: iuc
   revisions:
   - c7eeac78cb64
+  tool_panel_section_id: qiime
   tool_panel_section_label: Qiime

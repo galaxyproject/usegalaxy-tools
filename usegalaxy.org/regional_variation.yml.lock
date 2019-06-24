@@ -6,74 +6,89 @@ tools:
   owner: devteam
   revisions:
   - efa2b391e887
+  tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: quality_filter
   owner: devteam
   revisions:
   - 6c6f15373f96
+  tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: substitution_rates
   owner: devteam
   revisions:
   - d1b35bcdaacc
+  tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: substitutions
   owner: devteam
   revisions:
   - c54f5d0bbb58
+  tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: indels_3way
   owner: devteam
   revisions:
   - 5ad24b81dd10
+  tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: featurecounter
   owner: devteam
   revisions:
   - ac6218e2b686
+  tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: getindelrates_3way
   owner: devteam
   revisions:
   - d427e5acb9ee
+  tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: maf_cpg_filter
   owner: devteam
   revisions:
   - 7f2a12cb047d
+  tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: microsats_mutability
   owner: devteam
   revisions:
   - 4aa1ee5d8510
+  tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: getindels_2way
   owner: devteam
   revisions:
   - f1dc6f5fce6e
+  tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: microsats_alignment_level
   owner: devteam
   revisions:
   - 7852385470f3
+  tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: windowsplitter
   owner: devteam
   revisions:
   - 592089499ae7
+  tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: karyotype_plot
   owner: guru-ananda
   revisions:
   - d810aa84ee6a
+  tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: rhmm
   owner: guru-ananda
   revisions:
   - 38f5cd46ffd3
+  tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: heatmap
   owner: guru-ananda
   revisions:
   - dbd447fcd3e4
+  tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation

@@ -6,34 +6,41 @@ tools:
   owner: devteam
   revisions:
   - ff9530579d1f
+  tool_panel_section_id: quality_control
   tool_panel_section_label: Quality Control
 - name: fastx_nucleotides_distribution
   owner: devteam
   revisions:
   - bcc5424a4a3c
+  tool_panel_section_id: quality_control
   tool_panel_section_label: Quality Control
 - name: fastx_quality_statistics
   owner: devteam
   revisions:
   - 45f077341b24
+  tool_panel_section_id: quality_control
   tool_panel_section_label: Quality Control
 - name: trimmomatic
   owner: pjbriggs
   revisions:
   - f8a9a5eaca8a
+  tool_panel_section_id: quality_control
   tool_panel_section_label: Quality Control
 - name: short_reads_figure_score
   owner: devteam
   revisions:
   - b52b9c7aabd9
+  tool_panel_section_id: quality_control
   tool_panel_section_label: Quality Control
 - name: align_back_trans
   owner: peterjc
   revisions:
   - ec202446408a
+  tool_panel_section_id: quality_control
   tool_panel_section_label: Quality Control
 - name: seq_filter_by_mapping
   owner: peterjc
   revisions:
   - 8ff0ac66f1a3
+  tool_panel_section_id: quality_control
   tool_panel_section_label: Quality Control

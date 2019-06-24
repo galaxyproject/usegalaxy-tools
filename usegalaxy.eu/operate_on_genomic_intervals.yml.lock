@@ -6,16 +6,19 @@ tools:
   owner: devteam
   revisions:
   - 2cedec3759e4
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: complement
   owner: devteam
   revisions:
   - 38c8bb402872
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: cluster
   owner: devteam
   revisions:
   - 05696474ee89
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: bedtools
   owner: iuc
@@ -26,29 +29,35 @@ tools:
   - b3c147390100
   - b8348686a0b9
   - bd7721ad15aa
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: annotation_profiler
   owner: devteam
   revisions:
   - 3b33da018e74
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: translate_bed
   owner: galaxyp
   revisions:
   - 038ecf54cbec
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: concat
   owner: devteam
   revisions:
   - 32e1c8dac438
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: translate_bed_sequences
   owner: jjohnson
   revisions:
   - d328db400280
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: filter_bed_on_splice_junctions
   owner: jjohnson
   revisions:
   - 915e5c5e02e6
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals

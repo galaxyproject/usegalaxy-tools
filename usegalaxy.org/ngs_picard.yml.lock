@@ -6,4 +6,5 @@ tools:
   owner: devteam
   revisions:
   - 2a17c789e0a5
+  tool_panel_section_id: ngs__picard
   tool_panel_section_label: 'NGS: Picard'

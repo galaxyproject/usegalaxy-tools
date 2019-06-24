@@ -6,9 +6,11 @@ tools:
   owner: iuc
   revisions:
   - 38eedf3cc3c9
+  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: abricate
   owner: iuc
   revisions:
   - 78c75f134c16
+  tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

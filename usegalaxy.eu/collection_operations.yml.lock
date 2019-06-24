@@ -6,9 +6,11 @@ tools:
   owner: nml
   revisions:
   - 25136a2b0cfe
+  tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations
 - name: collection_column_join
   owner: iuc
   revisions:
   - 58228a4d58fe
+  tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations

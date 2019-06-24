@@ -6,64 +6,77 @@ tools:
   owner: iuc
   revisions:
   - 64a83664b814
+  tool_panel_section_id: onp__poretools
   tool_panel_section_label: 'ONP: PoreTools'
 - name: poretools_winner
   owner: iuc
   revisions:
   - 9d8f41103cc6
+  tool_panel_section_id: onp__poretools
   tool_panel_section_label: 'ONP: PoreTools'
 - name: poretools_times
   owner: iuc
   revisions:
   - e5072f0d3772
+  tool_panel_section_id: onp__poretools
   tool_panel_section_label: 'ONP: PoreTools'
 - name: poretools_tabular
   owner: iuc
   revisions:
   - 7f0b324de883
+  tool_panel_section_id: onp__poretools
   tool_panel_section_label: 'ONP: PoreTools'
 - name: poretools_stats
   owner: iuc
   revisions:
   - ae4c8446ce30
+  tool_panel_section_id: onp__poretools
   tool_panel_section_label: 'ONP: PoreTools'
 - name: poretools_squiggle
   owner: iuc
   revisions:
   - ce8af9373061
+  tool_panel_section_id: onp__poretools
   tool_panel_section_label: 'ONP: PoreTools'
 - name: poretools_qualpos
   owner: iuc
   revisions:
   - 2e22ebec211a
+  tool_panel_section_id: onp__poretools
   tool_panel_section_label: 'ONP: PoreTools'
 - name: poretools_qualdist
   owner: iuc
   revisions:
   - 44111014e7c1
+  tool_panel_section_id: onp__poretools
   tool_panel_section_label: 'ONP: PoreTools'
 - name: poretools_occupancy
   owner: iuc
   revisions:
   - 336791b5665f
+  tool_panel_section_id: onp__poretools
   tool_panel_section_label: 'ONP: PoreTools'
 - name: poretools_nucdist
   owner: iuc
   revisions:
   - 3ae7ccba16cf
+  tool_panel_section_id: onp__poretools
   tool_panel_section_label: 'ONP: PoreTools'
 - name: poretools_hist
   owner: iuc
   revisions:
   - 47936349f3e9
+  tool_panel_section_id: onp__poretools
   tool_panel_section_label: 'ONP: PoreTools'
 - name: poretools_extract
   owner: iuc
   revisions:
   - 7593f94691fb
+  tool_panel_section_id: onp__poretools
   tool_panel_section_label: 'ONP: PoreTools'
 - name: poretools_events
   owner: iuc
   revisions:
   - 1d835c691480
+  tool_panel_section_id: onp__poretools
   tool_panel_section_label: 'ONP: PoreTools'

@@ -6,9 +6,11 @@ tools:
   owner: iuc
   revisions:
   - 6843a0db2da0
+  tool_panel_section_id: none
   tool_panel_section_label: None
 - name: data_manager_gemini_database_downloader
   owner: iuc
   revisions:
   - 172815da3d41
+  tool_panel_section_id: none
   tool_panel_section_label: None

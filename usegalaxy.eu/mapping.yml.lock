@@ -6,86 +6,103 @@ tools:
   owner: iuc
   revisions:
   - 3fb01a8c902d
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: megablast_xml_parser
   owner: devteam
   revisions:
   - 03ca082aeb2e
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: megablast_wrapper
   owner: devteam
   revisions:
   - fb2e0e1dac89
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bowtie2
   owner: devteam
   revisions:
   - c3dd1aeb7d07
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: lastz_paired_reads
   owner: devteam
   revisions:
   - ecc974513241
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: lastz
   owner: devteam
   revisions:
   - e7f19d6a9af8
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bowtie_wrappers
   owner: devteam
   revisions:
   - b46e7d48076a
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bismark
   owner: bgruening
   revisions:
   - 9bfe38410155
   - 9d02cd7883ad
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: graphmap_overlap
   owner: bgruening
   revisions:
   - d0a712cf0518
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: graphmap_align
   owner: bgruening
   revisions:
   - 190175f4e143
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: minimap2
   owner: iuc
   revisions:
   - 17e61517c166
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: rgrnastar
   owner: iuc
   revisions:
   - d5659efd66aa
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bwa
   owner: devteam
   revisions:
   - 8d2a528a9513
   - dfd8b7f78c37
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: star_fusion
   owner: iuc
   revisions:
   - 0b44456754e2
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: tophat2
   owner: devteam
   revisions:
   - 16c4255042be
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bowtie_color_wrappers
   owner: devteam
   revisions:
   - a3825c73805c
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bwa_mem
   owner: crs4
   revisions:
   - ebb02ba5987c
+  tool_panel_section_id: mapping
   tool_panel_section_label: Mapping

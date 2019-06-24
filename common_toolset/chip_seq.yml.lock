@@ -6,9 +6,11 @@ tools:
   owner: devteam
   revisions:
   - 74c9214cc8e6
+  tool_panel_section_id: chip_seq
   tool_panel_section_label: ChiP-seq
 - name: macs
   owner: devteam
   revisions:
   - f6319b0b4391
+  tool_panel_section_id: chip_seq
   tool_panel_section_label: ChiP-seq

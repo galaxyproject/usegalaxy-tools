@@ -7,39 +7,47 @@ tools:
   revisions:
   - 37d88f41c810
   - d81360ea69d8
+  tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: shovill
   owner: iuc
   revisions:
   - 57d5928f456e
+  tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: quast
   owner: iuc
   revisions:
   - 6fcbee531de6
+  tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: unicycler
   owner: iuc
   revisions:
   - e92675014ac9
+  tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades
   owner: nml
   revisions:
   - 9006e5836729
+  tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pilon
   owner: iuc
   revisions:
   - 11e5408fd238
+  tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: kmergenie
   owner: rchikhi
   revisions:
   - 2d4b0398cbaf
+  tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: busco
   owner: iuc
   revisions:
   - 382a4c19007f
+  tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

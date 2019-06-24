@@ -6,4 +6,5 @@ tools:
   owner: devteam
   revisions:
   - ce22ceec214a
+  tool_panel_section_id: emboss
   tool_panel_section_label: EMBOSS

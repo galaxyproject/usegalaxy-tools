@@ -6,4 +6,5 @@ tools:
   owner: iuc
   revisions:
   - 1790dcf3c32d
+  tool_panel_section_id: ncbi_sra_tools
   tool_panel_section_label: NCBI SRA Tools

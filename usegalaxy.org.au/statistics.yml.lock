@@ -6,79 +6,95 @@ tools:
   owner: simon-gladman
   revisions:
   - 33493e25c51c
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: count_gff_features
   owner: devteam
   revisions:
   - 188392a0d0a8
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: datamash_ops
   owner: iuc
   revisions:
   - 2f3c6f2dcf39
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: plot_from_lda
   owner: devteam
   revisions:
   - 08affc5d2aef
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: dwt_ivc_all
   owner: devteam
   revisions:
   - 0b89b03ad760
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: dwt_cor_ava_perclass
   owner: devteam
   revisions:
   - a0defff5cf89
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: correlation
   owner: devteam
   revisions:
   - 24e01abf9e34
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: compute_motif_frequencies_for_all_motifs
   owner: devteam
   revisions:
   - 5319efa51514
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: t_test_two_samples
   owner: devteam
   revisions:
   - c2ffc9885b5a
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: poisson2test
   owner: devteam
   revisions:
   - 5ff18ec88181
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: categorize_elements_satisfying_criteria
   owner: devteam
   revisions:
   - 586c1f0e1515
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: dwt_cor_avb_all
   owner: devteam
   revisions:
   - 8564f6927b87
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: generate_pc_lda_matrix
   owner: devteam
   revisions:
   - 04cdbd00dcec
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: compute_motifs_frequency
   owner: devteam
   revisions:
   - 1f8ee7f9701b
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: dwt_var_perfeature
   owner: devteam
   revisions:
   - cb1c59d69557
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: dwt_var_perclass
   owner: devteam
   revisions:
   - cb422b6f49d2
+  tool_panel_section_id: statistics
   tool_panel_section_label: Statistics

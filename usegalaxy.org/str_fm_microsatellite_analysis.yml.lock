@@ -6,4 +6,5 @@ tools:
   owner: arkarachai-fungtammasan
   revisions:
   - 48b5f719e36a
+  tool_panel_section_id: str_fm__microsatellite_analysis
   tool_panel_section_label: 'STR-FM: Microsatellite Analysis'

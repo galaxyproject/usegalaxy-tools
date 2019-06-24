@@ -6,4 +6,5 @@ tools:
   owner: devteam
   revisions:
   - 5eaa8a968300
+  tool_panel_section_id: picard
   tool_panel_section_label: Picard
