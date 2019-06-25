@@ -2,6 +2,8 @@
 
 **WORK IN PROGRESS**
 
+[![Build Status](https://travis-ci.org/galaxyproject/usegalaxy-tools.svg?branch=master)](https://travis-ci.org/galaxyproject/usegalaxy-tools)
+
 ## Setup
 
 - `yaml` files are manually curated
