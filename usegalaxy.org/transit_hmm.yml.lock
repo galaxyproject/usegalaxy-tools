@@ -5,5 +5,6 @@ tool_panel_section_id: transit
 tools:
 - name: transit_hmm
   owner: iuc
-  revisions: []
+  revisions:
+  - 3c83ed97f9ee
   tool_panel_section_id: transit
