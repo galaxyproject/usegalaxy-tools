@@ -1,0 +1,10 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_id: transit
+tools:
+- name: transit_hmm
+  owner: iuc
+  revisions:
+  - 3c83ed97f9ee
+  tool_panel_section_id: transit
