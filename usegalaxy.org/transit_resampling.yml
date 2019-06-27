@@ -1,8 +1,4 @@
 tool_panel_section_id: transit
 tools:
-- name: transit_gumbel
-  owner: iuc
-- name: transit_hmm
-  owner: iuc
 - name: transit_resampling
   owner: iuc
