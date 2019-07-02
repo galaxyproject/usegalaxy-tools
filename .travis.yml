@@ -7,30 +7,8 @@ dist: xenial
 language: minimal
 
 before_install:
-  - >-
-    declare -g -A TOOLSET_REPOS=(
-      [common_toolset]=sandbox.galaxyproject.org
-      [test.galaxyproject.org]=test.galaxyproject.org
-      [usegalaxy.org]=main.galaxyproject.org
-    )
-  - >-
-    declare -g -A REPO_USERS=(
-      [sandbox.galaxyproject.org]=sandbox
-      [test.galaxyproject.org]=g2test
-      [main.galaxyproject.org]=g2main
-    )
-  - >-
-    declare -g -A REPO_STRATUM0S=(
-      [sandbox.galaxyproject.org]=cvmfs0-psu0.galaxyproject.org
-      [test.galaxyproject.org]=cvmfs0-tacc0.galaxyproject.org
-      [main.galaxyproject.org]=cvmfs0-tacc0.galaxyproject.org
-    )
-  - >-
-    declare -g -A CONDA_PATHS=(
-      [sandbox.galaxyproject.org]=/cvmfs/sandbox.galaxyproject.org/dependencies/conda
-      [test.galaxyproject.org]=/cvmfs/test.galaxyproject.org/deps/_conda
-      [main.galaxyproject.org]=/cvmfs/main.galaxyproject.org/deps/_conda
-    )
+  - echo 'Loading repository configs'
+  - . ./.ci/repos.conf
   - echo 'Detecting changes to tool files...'
   - git diff --quiet "$TRAVIS_COMMIT_RANGE" --; GIT_DIFF_EXIT_CODE=$?
   - |
@@ -94,8 +72,8 @@ install:
   - sudo pip install git+https://github.com/natefoo/ephemeris.git@spinner planemo
   - >-
     docker run -d -p 8080:80 --name=galaxy
-    -e GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:////cvmfs/${REPO}/config/install.sqlite
-    -e GALAXY_CONFIG_TOOL_CONFIG_FILE=/cvmfs/${REPO}/config/shed_tool_conf.xml
+    -e GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASES[$REPO]}
+    -e GALAXY_CONFIG_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIGS[$REPO]}
     -e GALAXY_CONFIG_MASTER_API_KEY=deadbeef
     -e GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATHS[$REPO]}
     -e GALAXY_HANDLER_NUMPROCS=0
