@@ -1,7 +1,5 @@
 tool_panel_section_label: Assembly
 tools:
-- name: prokka
-  owner: crs4
 - name: quast
   owner: iuc
 - name: unicycler

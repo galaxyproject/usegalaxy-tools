@@ -2,11 +2,6 @@ install_repository_dependencies: true
 install_resolver_dependencies: true
 install_tool_dependencies: false
 tools:
-- name: prokka
-  owner: crs4
-  revisions:
-  - a17498c603ec
-  tool_panel_section_label: Assembly
 - name: quast
   owner: iuc
   revisions:

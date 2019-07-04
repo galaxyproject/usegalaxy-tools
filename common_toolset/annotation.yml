@@ -4,3 +4,5 @@ tools:
   owner: iuc
 - name: abricate
   owner: iuc
+- name: prokka
+  owner: crs4

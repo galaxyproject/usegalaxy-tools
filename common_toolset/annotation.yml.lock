@@ -12,3 +12,8 @@ tools:
   revisions:
   - 78c75f134c16
   tool_panel_section_label: Annotation
+- name: prokka
+  owner: crs4
+  revisions:
+  - a17498c603ec
+  tool_panel_section_label: Annotation
