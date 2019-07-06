@@ -1,6 +1,13 @@
 #!/bin/bash
 
 export SCRIPT_PATH="$(dirname ${BASH_SOURCE[0]})"
+
+if [ ! -d $SCRIPT_PATH/../venv ] then
+  virtualenv ${SCRIPT_PATH}/../venv
+  source ${SCRIPT_PATH}/../venv/bin/activate
+  pip install -r ${SCRIPT_PATH}/../requiremnents.txt
+fi
+
 export EPH_PATH="${SCRIPT_PATH}/../venv/bin/python"
 export GET_TOOL_LIST_COMMAND="${SCRIPT_PATH}/../venv/bin/get-tool-list"
 
