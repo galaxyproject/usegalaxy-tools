@@ -12,8 +12,9 @@ def main():
     VERSION = 0.1
 
     parser = argparse.ArgumentParser(description="")
-    #parser.add_argument("-i", "--infiles", help="An array of yaml tool files to be intersected.")
     parser.add_argument("-o", "--outfile", help="The output file to write the intersection into.")
+    parser.add_argument("-u", "--unionfile", help="The name of the outputfile to write the union tool_list to.")
+    parser.add_argument("-m", "--minimum_occurences", default=2, help="The minimum number of servers a tool has to appear in to be added to intersection. Default = 2")
     parser.add_argument("--version", action='store_true')
     parser.add_argument("--verbose", action='store_true')
     parser.add_argument("infiles", nargs="+")
@@ -24,6 +25,8 @@ def main():
         print("intersect_tool_yaml.py version: %.1f" % VERSION)
         return
 
+    min_intersect = int(args.minimum_occurences)
+
     filenames = args.infiles
     outfile = args.outfile
 
@@ -31,27 +34,34 @@ def main():
     tools_union = defaultdict(dict)
 
     for file in filenames:
-        if args.verbose == True:
+        if args.verbose:
             print("Processing: %s" % file)
         a = yaml.safe_load(open(file, 'r'))
         these_tools = a['tools']
         for tool in these_tools:
-            #print(tool['name'])
             if tools_count[tool['name']]:
                 tools_count[tool['name']] += 1
             else:
                 tools_count[tool['name']] = 1
                 tools_union[tool['name']] = tool
 
-
     intersection = defaultdict(list)
     for tool in tools_count:
-        if tools_count[tool] >= 2:
-            #print("%s %i" % (tool,tools_count[tool]))
+        if tools_count[tool] >= min_intersect:
             intersection['tools'].append(tools_union[tool])
-            intersect_yaml = {'tools': intersection['tools']}
+
+    intersect_yaml = {'tools': intersection['tools']}
 
     with open(outfile, 'w') as out:
         yaml.dump(intersect_yaml, out, default_flow_style=False)
+
+    if args.unionfile:
+        union = []
+        for tool in tools_union:
+            union.append(tools_union[tool])
+
+        union_yaml = {'tools': union}
+        with open(args.unionfile, 'w') as uout:
+            yaml.dump(union_yaml, uout, default_flow_style=False)
 
 if __name__ == "__main__": main()
