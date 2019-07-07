@@ -1,19 +1,23 @@
 install_repository_dependencies: true
 install_resolver_dependencies: true
 install_tool_dependencies: false
+tool_panel_section_label: Multiple Alignments
 tools:
-- name: clustalw
-  owner: fubar
-  revisions:
-  - 9c4d943fbef7
-  tool_panel_section_label: Multiple Alignments
 - name: mafft
   owner: rnateam
   revisions:
-  - d71e007323d4
+  - c5908940967d
+  tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
-- name: hammock
-  owner: hammock
+- name: clustalw
+  owner: devteam
   revisions:
-  - afddbcbc8ee8
+  - d6694932c5e0
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: cdhit
+  owner: bebatut
+  revisions:
+  - 93f25d52cfa5
+  tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments

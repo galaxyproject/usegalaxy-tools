@@ -1,6 +1,34 @@
 tool_panel_section_label: SAM/BAM
 tools:
+- name: samtools_sort
+  owner: devteam
+- name: samtools_mpileup
+  owner: devteam
+- name: samtools_flagstat
+  owner: devteam
+- name: samtool_filter2
+  owner: devteam
 - name: bam_to_sam
+  owner: devteam
+- name: samtools_idxstats
+  owner: devteam
+- name: sam_to_bam
+  owner: devteam
+- name: samtools_calmd
+  owner: devteam
+- name: samtools_bedcov
+  owner: devteam
+- name: samtools_split
+  owner: devteam
+- name: samtools_stats
+  owner: devteam
+- name: samtools_slice_bam
+  owner: devteam
+- name: samtools_reheader
+  owner: devteam
+- name: samtools_rmdup
+  owner: devteam
+- name: sam_merge
   owner: devteam
 - name: pileup_interval
   owner: devteam
@@ -10,45 +38,13 @@ tools:
   owner: devteam
 - name: sam_bitwise_flag_filter
   owner: devteam
-- name: sam_merge
-  owner: devteam
 - name: sam_pileup
   owner: devteam
-- name: sam_to_bam
+- name: bamtools_split
   owner: devteam
-- name: samtool_filter2
-  owner: devteam
-- name: samtools_bedcov
-  owner: devteam
-- name: samtools_calmd
-  owner: devteam
-- name: samtools_flagstat
-  owner: devteam
-- name: samtools_idxstats
-  owner: devteam
-- name: samtools_mpileup
-  owner: devteam
-- name: samtools_reheader
-  owner: devteam
-- name: samtools_rmdup
-  owner: devteam
-- name: samtools_slice_bam
-  owner: devteam
-- name: samtools_sort
-  owner: devteam
-- name: samtools_split
-  owner: devteam
-- name: samtools_stats
-  owner: devteam
-- name: ngsutils_bam_filter
-  owner: iuc
 - name: bamtools
   owner: devteam
 - name: bamtools_filter
   owner: devteam
-- name: bamtools_split
-  owner: devteam
-- name: tag_pileup_frequency
-  owner: iuc
 - name: samtools_phase
   owner: devteam

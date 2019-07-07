@@ -1,18 +1,16 @@
 tool_panel_section_label: Variant Calling
 tools:
-- name: freebayes
-  owner: devteam
 - name: varscan_version_2
   owner: devteam
 - name: snpeff
   owner: iuc
-- name: snpsift
-  owner: iuc
 - name: naive_variant_caller
   owner: blankenberg
+- name: snpsift
+  owner: iuc
+- name: freebayes
+  owner: devteam
 - name: mutate_snp_codon
   owner: devteam
 - name: allele_counts
   owner: nick
-- name: snippy
-  owner: iuc

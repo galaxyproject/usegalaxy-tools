@@ -1,8 +1,4 @@
 tool_panel_section_label: Phylogenetics
 tools:
-- name: fasttree
-  owner: iuc
-- name: gubbins
-  owner: iuc
-- name: roary
+- name: phyml
   owner: iuc

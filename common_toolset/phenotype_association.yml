@@ -1,5 +1,7 @@
 tool_panel_section_label: Phenotype Association
 tools:
+- name: vcf2pgsnp
+  owner: devteam
 - name: snpfreq
   owner: devteam
 - name: divide_pg_snp
@@ -7,6 +9,4 @@ tools:
 - name: hgv_fundo
   owner: devteam
 - name: hgv_hilbertvis
-  owner: devteam
-- name: vcf2pgsnp
   owner: devteam

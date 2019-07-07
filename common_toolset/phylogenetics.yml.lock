@@ -1,19 +1,11 @@
 install_repository_dependencies: true
 install_resolver_dependencies: true
 install_tool_dependencies: false
+tool_panel_section_label: Phylogenetics
 tools:
-- name: fasttree
+- name: phyml
   owner: iuc
   revisions:
-  - c7e73acfa3eb
-  tool_panel_section_label: Phylogenetics
-- name: gubbins
-  owner: iuc
-  revisions:
-  - 637ec5d5368c
-  tool_panel_section_label: Phylogenetics
-- name: roary
-  owner: iuc
-  revisions:
-  - f1ccc8a6eb05
+  - 850e213bee26
+  tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics

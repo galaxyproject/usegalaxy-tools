@@ -1,30 +1,40 @@
-tool_panel_section_label: RNA-Seq
+tool_panel_section_label: RNA-seq
 tools:
-- name: express
+- name: limma_voom
+  owner: iuc
+- name: edger
+  owner: iuc
+- name: hisat2
+  owner: iuc
+- name: featurecounts
+  owner: iuc
+- name: dexseq
+  owner: iuc
+- name: stringtie
+  owner: iuc
+- name: salmon
+  owner: bgruening
+- name: kallisto_quant
+  owner: iuc
+- name: kallisto_pseudo
+  owner: iuc
+- name: sailfish
+  owner: bgruening
+- name: goseq
+  owner: iuc
+- name: deseq2
+  owner: iuc
+- name: rgrnastar
+  owner: iuc
+- name: cummerbund
   owner: devteam
-- name: tophat_fusion_post
+- name: htseq_count
+  owner: lparsons
+- name: gffcompare
+  owner: iuc
+- name: cuffmerge
   owner: devteam
-- name: describe_samples
-  owner: iuc
-- name: transdecoder
-  owner: iuc
-- name: trinity_abundance_estimates_to_matrix
-  owner: iuc
-- name: trinity_align_and_estimate_abundance
-  owner: iuc
-- name: trinity_analyze_diff_expr
-  owner: iuc
-- name: trinity_contig_exn50_statistic
-  owner: iuc
-- name: trinity_define_clusters_by_cutting_tree
-  owner: iuc
-- name: trinity_filter_low_expr_transcripts
-  owner: iuc
-- name: trinity_gene_to_trans_map
-  owner: iuc
-- name: trinity_run_de_analysis
-  owner: iuc
-- name: trinity_samples_qccheck
-  owner: iuc
-- name: rsem
-  owner: jjohnson
+- name: filter_transcripts_via_tracking
+  owner: devteam
+- name: structurefold
+  owner: tyty

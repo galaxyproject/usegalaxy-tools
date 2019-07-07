@@ -1,9 +1,11 @@
 install_repository_dependencies: true
 install_resolver_dependencies: true
 install_tool_dependencies: false
+tool_panel_section_label: NCBI BLAST+
 tools:
 - name: ncbi_blast_plus
   owner: devteam
   revisions:
-  - 6f386c5dc4fb
+  - e25d3acf6e68
+  tool_panel_section_id: ncbi_blast_
   tool_panel_section_label: NCBI BLAST+

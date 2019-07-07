@@ -2,3 +2,5 @@ tool_panel_section_label: Genome Diversity
 tools:
 - name: genome_diversity
   owner: miller-lab
+- name: fasttree
+  owner: iuc
