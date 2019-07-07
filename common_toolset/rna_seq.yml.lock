@@ -117,3 +117,105 @@ tools:
   - 7bb98e9296e9
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
+- name: express
+  owner: devteam
+  revisions:
+  - 7b0708761d05
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: trinotate
+  owner: iuc
+  revisions:
+  - 6fd16fad465d
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: trinity_analyze_diff_expr
+  owner: iuc
+  revisions:
+  - dc0f01791c9b
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: selectsequencesfrommsa
+  owner: rnateam
+  revisions:
+  - 876c70c6ecad
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: trinity_gene_to_trans_map
+  owner: iuc
+  revisions:
+  - 37a1129c89d2
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: trinity_samples_qccheck
+  owner: iuc
+  revisions:
+  - 9871104ea630
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: describe_samples
+  owner: iuc
+  revisions:
+  - 0693ccd171c4
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: trinity_run_de_analysis
+  owner: iuc
+  revisions:
+  - 1d689e4e1caf
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: trinity_filter_low_expr_transcripts
+  owner: iuc
+  revisions:
+  - e406ac71165d
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: trinity_contig_exn50_statistic
+  owner: iuc
+  revisions:
+  - 34a018cbee9c
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: trinity_abundance_estimates_to_matrix
+  owner: iuc
+  revisions:
+  - d6a479fd4281
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: trinity_align_and_estimate_abundance
+  owner: iuc
+  revisions:
+  - 478f36effca1
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: trinity
+  owner: iuc
+  revisions:
+  - c9cfec002f71
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: transdecoder
+  owner: iuc
+  revisions:
+  - 0db979fead3a
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: infernal
+  owner: bgruening
+  revisions:
+  - 477d829d3250
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: tophat_fusion_post
+  owner: devteam
+  revisions:
+  - f83394a2c2da
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: rsem
+  owner: jjohnson
+  revisions:
+  - 14267d364365
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
