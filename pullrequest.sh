@@ -65,18 +65,17 @@ sudo mount -t overlay overlay -o lowerdir=/lower,upperdir=/upper,workdir=/work "
 
 #INSTALL
 sudo pip install git+https://github.com/natefoo/ephemeris.git@spinner planemo
->-
-docker run -d -p 8080:80 --name=galaxy
--e GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASES[$REPO]}
--e GALAXY_CONFIG_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIGS[$REPO]}
--e GALAXY_CONFIG_MASTER_API_KEY=deadbeef
--e GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATHS[$REPO]}
--e GALAXY_HANDLER_NUMPROCS=0
--e CONDARC=${CONDA_PATHS[$REPO]}rc
--v /cvmfs/${REPO}:/cvmfs/${REPO}
--v $(pwd)/.ci/job_conf.xml:/job_conf.xml
--v $(pwd)/.ci/nginx.conf:/etc/nginx/nginx.conf
--e GALAXY_CONFIG_JOB_CONFIG_FILE=/job_conf.xml
+docker run -d -p 8080:80 --name=galaxy \
+-e GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASES[$REPO]} \
+-e GALAXY_CONFIG_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIGS[$REPO]} \
+-e GALAXY_CONFIG_MASTER_API_KEY=deadbeef \
+-e GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATHS[$REPO]} \
+-e GALAXY_HANDLER_NUMPROCS=0 \
+-e CONDARC=${CONDA_PATHS[$REPO]}rc \
+-v /cvmfs/${REPO}:/cvmfs/${REPO} \
+-v $(pwd)/.ci/job_conf.xml:/job_conf.xml \
+-v $(pwd)/.ci/nginx.conf:/etc/nginx/nginx.conf \
+-e GALAXY_CONFIG_JOB_CONFIG_FILE=/job_conf.xml \
 bgruening/galaxy-stable
 
 galaxy-wait -v --timeout 120 || {
