@@ -1,0 +1,4 @@
+tool_panel_section_id: transit
+tools:
+- name: compgenes
+  owner: antmarge

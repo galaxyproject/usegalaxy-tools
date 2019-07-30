@@ -1,0 +1,10 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_id: transit
+tools:
+- name: dataoverview
+  owner: antmarge
+  revisions:
+  - 80205e898861
+  tool_panel_section_id: transit

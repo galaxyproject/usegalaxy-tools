@@ -1,0 +1,10 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_id: transit
+tools:
+- name: calculate_fitness
+  owner: kaymccoy
+  revisions:
+  - ca6b343dd70e
+  tool_panel_section_id: transit
