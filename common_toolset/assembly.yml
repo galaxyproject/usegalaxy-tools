@@ -1,18 +1,14 @@
 tool_panel_section_label: Assembly
 tools:
-- name: prokka
-  owner: crs4
-- name: quast
-  owner: iuc
 - name: unicycler
   owner: iuc
-- name: pilon
-  owner: iuc
-- name: shovill
-  owner: iuc
-- name: trinity
+- name: quast
   owner: iuc
 - name: spades
   owner: nml
+- name: shovill
+  owner: iuc
 - name: velvetoptimiser
   owner: simon-gladman
+- name: pilon
+  owner: iuc

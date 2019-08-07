@@ -2,5 +2,3 @@ tool_panel_section_label: GATK
 tools:
 - name: count_covariates
   owner: devteam
-- name: gatk2
-  owner: iuc

@@ -1,0 +1,6 @@
+tool_panel_section_label: Epigenetics
+tools:
+- name: vcf_filter
+  owner: devteam
+- name: hicup_deduplicator
+  owner: bgruening

@@ -1,0 +1,17 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Epigenetics
+tools:
+- name: vcf_filter
+  owner: devteam
+  revisions:
+  - da1a6f33b504
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+- name: hicup_deduplicator
+  owner: bgruening
+  revisions:
+  - 46e5b4782715
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics

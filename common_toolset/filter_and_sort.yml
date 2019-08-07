@@ -1,10 +1,10 @@
 tool_panel_section_label: Filter and Sort
 tools:
-- name: gffcompare
-  owner: iuc
 - name: column_arrange_by_header
   owner: bgruening
-- name: query_tabular
-  owner: jjohnson
 - name: sample_seqs
   owner: peterjc
+- name: sqlite_to_tabular
+  owner: jjohnson
+- name: query_tabular
+  owner: jjohnson
