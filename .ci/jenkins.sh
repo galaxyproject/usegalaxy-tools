@@ -16,6 +16,7 @@ REPO_STRATUM0=
 CONDA_PATH=
 INSTALL_DATABASE=
 SHED_TOOL_CONFIG=
+SHED_TOOL_DATA_TABLE_CONFIG=
 SSH_MASTER_SOCKET=
 GALAXY_TMPDIR=
 
@@ -138,6 +139,7 @@ function set_repo_vars() {
     CONDA_PATH="${CONDA_PATHS[$REPO]}"
     INSTALL_DATABASE="${INSTALL_DATABASES[$REPO]}"
     SHED_TOOL_CONFIG="${SHED_TOOL_CONFIGS[$REPO]}"
+    SHED_TOOL_DATA_TABLE_CONFIG="${SHED_TOOL_DATA_TABLE_CONFIGS[$REPO]}"
     CONTAINER_NAME="galaxy-${REPO_USER}"
 }
 
@@ -196,9 +198,10 @@ function run_cloudve_galaxy() {
     exec_on docker run -d -p 127.0.0.1:${REMOTE_PORT}:8080 --user '$(id -u)' --name="${CONTAINER_NAME}" \
         -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////${GALAXY_TEMPLATE_DB}" \
         -e "GALAXY_CONFIG_OVERRIDE_INTEGRATED_TOOL_PANEL_CONFIG=/tmp/integrated_tool_panel.xml" \
+        -e "GALAXY_CONFIG_OVERRIDE_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIG}" \
+        -e "GALAXY_CONFIG_OVERRIDE_SHED_TOOL_DATA_TABLE_CONFIG=${SHED_TOOL_DATA_TABLE_CONFIG}" \
         -e "GALAXY_CONFIG_TOOL_DATA_PATH=/tmp/tool-data" \
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
-        -e "GALAXY_CONFIG_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIG}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
         -e "GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATH}" \
         -e "CONDARC=${CONDA_PATH}rc" \
@@ -314,7 +317,7 @@ function check_for_repo_changes() {
     exec_on "[ -d '${upper}${CONDA_PATH##*${REPO}}' -o -d '${upper}/shed_tools' ]" || {
         log_error "Tool installation failed";
         log_debug "contents of docker log";
-        exec_on docker logs "$CONTAINER_NAME"
+        exec_on docker logs --tail 500 "$CONTAINER_NAME"
         # bgruening log paths
         #log_debug "contents of /home/galaxy/logs/uwsgi.log:";
         #exec_on docker exec "$CONTAINER_NAME" tail -500 /home/galaxy/logs/uwsgi.log;
@@ -328,6 +331,8 @@ function post_install() {
     log "Running post-installation tasks"
     exec_on find "$upper" -perm -u+r -not -perm -o+r -not -type l -print0 | sudo xargs -0 --no-run-if-empty chmod go+r
     exec_on find "$upper" -perm -u+rx -not -perm -o+rx -not -type l -print0 | sudo xargs -0 --no-run-if-empty chmod go+rx
+    exec_on ${CONDA}/bin/conda clean --tarballs --yes
+    exec_on 'for env in ${CONDA}/envs/\*; do for link in conda activate deactivate; do [ -h ${env}/bin/${link} ] || ln -s ${CONDA}/bin/${link} ${env}/bin/${link}; done; done'
 }
 
 
@@ -343,6 +348,7 @@ function main() {
     install_tools
     check_for_repo_changes
     stop_galaxy
+    post_install
     abort_transaction
     stop_ssh_control
 }
