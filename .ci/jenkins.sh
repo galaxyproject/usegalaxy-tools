@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Set this variable to 'true' to publish on successful installation
+: ${PUBLISH:=false}
+
 LOCAL_PORT=8080
 REMOTE_PORT=8080
 GALAXY_URL="http://127.0.0.1:${LOCAL_PORT}"
@@ -8,7 +11,11 @@ REMOTE_WORKDIR='.local/share/usegalaxy-tools'
 SSH_MASTER_SOCKET_DIR="${HOME}/.cache/usegalaxy-tools"
 
 GALAXY_DOCKER_IMAGE='galaxy/galaxy:19.05'
-GALAXY_TEMPLATE_DB='galaxy-153.sqlite'
+GALAXY_TEMPLATE_DB_URL='https://depot.galaxyproject.org/nate/galaxy-153.sqlite'
+GALAXY_TEMPLATE_DB="${GALAXY_TEMPLATE_DB_URL##*/}"
+
+# Should be set by Jenkins, so the default here is for development
+: ${GIT_COMMIT:=$(git rev-parse HEAD)}
 
 TOOL_YAMLS=()
 REPO_USER=
@@ -19,6 +26,7 @@ SHED_TOOL_CONFIG=
 SHED_TOOL_DATA_TABLE_CONFIG=
 SSH_MASTER_SOCKET=
 GALAXY_TMPDIR=
+OVERLAYFS_UPPER=
 
 SSH_MASTER_UP=false
 CVMFS_TRANSACTION_UP=false
@@ -139,8 +147,10 @@ function set_repo_vars() {
     CONDA_PATH="${CONDA_PATHS[$REPO]}"
     INSTALL_DATABASE="${INSTALL_DATABASES[$REPO]}"
     SHED_TOOL_CONFIG="${SHED_TOOL_CONFIGS[$REPO]}"
+    SHED_TOOL_DIR="${SHED_TOOL_DIRS[$REPO]}"
     SHED_TOOL_DATA_TABLE_CONFIG="${SHED_TOOL_DATA_TABLE_CONFIGS[$REPO]}"
     CONTAINER_NAME="galaxy-${REPO_USER}"
+    OVERLAYFS_UPPER="/var/spool/cvmfs/${REPO}/scratch/current"
 }
 
 
@@ -183,8 +193,16 @@ function abort_transaction() {
 }
 
 
+function publish_transaction() {
+    log "Publishing transaction on $REPO"
+    exec_on "cvmfs_server publish -a 'tools-${GIT_COMMIT:0:7}' -m 'Automated tool installation for commit ${GIT_COMMIT}' ${REPO}"
+    CVMFS_TRANSACTION_UP=false
+}
+
+
 function run_cloudve_galaxy() {
     log "Copying configs to Stratum 0"
+    log_exec curl -o ".ci/${GALAXY_TEMPLATE_DB}" "$GALAXY_TEMPLATE_DB_URL"
     copy_to ".ci/${GALAXY_TEMPLATE_DB}"
     log "Fetching latest Galaxy image"
     exec_on docker pull "$GALAXY_DOCKER_IMAGE"
@@ -278,6 +296,31 @@ function wait_for_galaxy() {
 }
 
 
+function show_logs() {
+    local lines
+    if [ -n "$1" ]; then
+        lines="--tail ${1}"
+        log_debug "tail ${lines} of server log";
+    else
+        log_debug "contents of server log";
+    fi
+    exec_on docker logs $lines "$CONTAINER_NAME"
+    # bgruening log paths
+    #for f in /var/log/nginx/error.log /var/log/nginx/access.log /home/galaxy/logs/uwsgi.log; do
+    #    log_debug "tail of ${f}";
+    #    exec_on docker exec "$CONTAINER_NAME" tail -500 $f;
+    #done;
+}
+
+
+function show_paths() {
+    log_debug "contents of \$GALAXY_TMPDIR (will be discarded)"
+    exec_on ls -lR "$GALAXY_TMPDIR"
+    log_debug "contents of OverlayFS upper mount (will be published)"
+    exec_on ls -lR "$OVERLAYFS_UPPER"
+}
+
+
 function install_tools() {
     local tool_yaml
     log "Installing tools"
@@ -285,13 +328,8 @@ function install_tools() {
         log "Installing tools in ${tool_yaml}"
         log_exec shed-tools install -v -g "$GALAXY_URL" -a "$API_KEY" -t "$tool_yaml" || {
             log_error "Tool installation failed"
-            log_debug "contents of docker log";
-            exec_on docker logs "$CONTAINER_NAME"
-            # bgruening log paths
-            #for f in /var/log/nginx/error.log /var/log/nginx/access.log /home/galaxy/logs/uwsgi.log; do
-            #    log_debug "tail of ${f}";
-            #    exec_on docker exec "$CONTAINER_NAME" tail -500 $f;
-            #done;
+            show_logs
+            show_paths
             log_exit_error "Terminating build due to previous errors"
         }
         #shed-tools install -v -a deadbeef -t "$tool_yaml" --test --test_json "${tool_yaml##*/}"-test.json || {
@@ -299,8 +337,8 @@ function install_tools() {
         #    # failures at the moment) and also we can't easily get the job stderr
         #    [ "$TRAVIS_PULL_REQUEST" == "false" -a "$TRAVIS_BRANCH" == "master" ] || {
         #        log_error "Tool install/test failed";
-        #        log_debug "contents of /home/galaxy/logs/uwsgi.log:";
-        #        exec_on docker exec "$CONTAINER_NAME" cat /home/galaxy/logs/uwsgi.log;
+        #        show_logs
+        #        show_paths
         #        log_exit_error "Terminating build due to previous errors"
         #    };
         #}
@@ -310,29 +348,23 @@ function install_tools() {
 
 
 function check_for_repo_changes() {
-    local upper="/var/spool/cvmfs/${REPO}/scratch/current"
     log "Checking for changes to repo"
-    exec_on ls -lR "$upper"
-    # FIXME: hardcoded shed tools path should go in repos.conf
-    exec_on "[ -d '${upper}${CONDA_PATH##*${REPO}}' -o -d '${upper}/shed_tools' ]" || {
+    show_paths
+    exec_on "[ -d '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}' -o -d '${OVERLAYFS_UPPER}${SHED_TOOL_DIR##*${REPO}}' ]" || {
         log_error "Tool installation failed";
-        log_debug "contents of docker log";
-        exec_on docker logs --tail 500 "$CONTAINER_NAME"
-        # bgruening log paths
-        #log_debug "contents of /home/galaxy/logs/uwsgi.log:";
-        #exec_on docker exec "$CONTAINER_NAME" tail -500 /home/galaxy/logs/uwsgi.log;
-        log_exit_error "Expected changes to ${upper} not found!";
+        show_logs
+        log_exit_error "Terminating build: expected changes to ${OVERLAYFS_UPPER} not found!";
     }
 }
 
 
 function post_install() {
-    local upper="/var/spool/cvmfs/${REPO}/scratch/current"
     log "Running post-installation tasks"
-    exec_on find "$upper" -perm -u+r -not -perm -o+r -not -type l -print0 | sudo xargs -0 --no-run-if-empty chmod go+r
-    exec_on find "$upper" -perm -u+rx -not -perm -o+rx -not -type l -print0 | sudo xargs -0 --no-run-if-empty chmod go+rx
-    exec_on ${CONDA}/bin/conda clean --tarballs --yes
-    exec_on 'for env in ${CONDA}/envs/\*; do for link in conda activate deactivate; do [ -h ${env}/bin/${link} ] || ln -s ${CONDA}/bin/${link} ${env}/bin/${link}; done; done'
+    exec_on "find '$OVERLAYFS_UPPER' -perm -u+r -not -perm -o+r -not -type l -print0 | xargs -0 --no-run-if-empty chmod go+r"
+    exec_on "find '$OVERLAYFS_UPPER' -perm -u+rx -not -perm -o+rx -not -type l -print0 | xargs -0 --no-run-if-empty chmod go+rx"
+    exec_on ${CONDA_PATH}/bin/conda clean --tarballs --yes
+    # we're fixing the links for everything here not just the new stuff in $OVERLAYFS_UPPER
+    exec_on "for env in '${CONDA_PATH}/envs/'*; do for link in conda activate deactivate; do [ -h "\${env}/bin/\${link}" ] || echo ln -s '${CONDA_PATH}/bin/'"\${link}" "\${env}/bin/\${link}"; done; done"
 }
 
 
@@ -349,7 +381,7 @@ function main() {
     check_for_repo_changes
     stop_galaxy
     post_install
-    abort_transaction
+    $PUBLISH && publish_transaction || abort_transaction
     stop_ssh_control
 }
 
