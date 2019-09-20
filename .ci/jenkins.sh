@@ -158,7 +158,7 @@ function setup_ephemeris() {
     log "Setting up Ephemeris"
     log_exec python3 -m venv ephemeris
     . ./ephemeris/bin/activate
-    log_exec pip install "${EPHEMERIS:=ephemeris}" "${PLANEMO:=planemo}"
+    log_exec pip install --index-url https://wheels.galaxyproject.org/simple/ --extra-index-url https://pypi.org/simple/ "${EPHEMERIS:=ephemeris}" #"${PLANEMO:=planemo}"
 }
 
 
