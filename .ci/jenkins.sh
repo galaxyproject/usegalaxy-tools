@@ -38,6 +38,7 @@ function trap_handler() {
     $GALAXY_UP && stop_galaxy
     $CVMFS_TRANSACTION_UP && abort_transaction
     $SSH_MASTER_UP && stop_ssh_control
+    return 0
 }
 trap "trap_handler" SIGTERM SIGINT ERR EXIT
 
@@ -364,7 +365,7 @@ function post_install() {
     exec_on "find '$OVERLAYFS_UPPER' -perm -u+rx -not -perm -o+rx -not -type l -print0 | xargs -0 --no-run-if-empty chmod go+rx"
     exec_on ${CONDA_PATH}/bin/conda clean --tarballs --yes
     # we're fixing the links for everything here not just the new stuff in $OVERLAYFS_UPPER
-    exec_on "for env in '${CONDA_PATH}/envs/'*; do for link in conda activate deactivate; do [ -h "\${env}/bin/\${link}" ] || echo ln -s '${CONDA_PATH}/bin/'"\${link}" "\${env}/bin/\${link}"; done; done"
+    exec_on "for env in '${CONDA_PATH}/envs/'*; do for link in conda activate deactivate; do [ -h "\${env}/bin/\${link}" ] || ln -s '${CONDA_PATH}/bin/'"\${link}" "\${env}/bin/\${link}"; done; done"
 }
 
 
@@ -383,6 +384,7 @@ function main() {
     post_install
     $PUBLISH && publish_transaction || abort_transaction
     stop_ssh_control
+    return 0
 }
 
 
