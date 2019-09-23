@@ -92,6 +92,18 @@ function copy_to() {
 }
 
 
+function check_bot_command() {
+    log 'Checking for Github PR Bot commands'
+    log_debug "Value of \$ghprbCommentBody is: ${ghprbCommentBody:-UNSET}"
+    case "${ghprbCommentBody:-UNSET}" in
+        "@galaxybot deploy"*)
+            PUBLISH=true
+            ;;
+    esac
+    $PUBLISH && log_debug "Changes will be published" || log_debug "Test installation, changes will be discarded"
+}
+
+
 function load_repo_configs() {
     log 'Loading repository configs'
     . ./.ci/repos.conf
@@ -377,6 +389,7 @@ function post_install() {
 
 
 function main() {
+    check_bot_command
     load_repo_configs
     detect_changes
     set_repo_vars
