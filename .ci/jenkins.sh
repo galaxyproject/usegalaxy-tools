@@ -315,9 +315,9 @@ function wait_for_galaxy() {
 
 
 function show_logs() {
-    local lines
-    if [ -n "$1" ]; then
-        lines="--tail ${1}"
+    local lines=
+    if [ -n "${1:-}" ]; then
+        lines="--tail ${1:-}"
         log_debug "tail ${lines} of server log";
     else
         log_debug "contents of server log";
