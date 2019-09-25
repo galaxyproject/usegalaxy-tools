@@ -172,7 +172,10 @@ function set_repo_vars() {
 function setup_ephemeris() {
     log "Setting up Ephemeris"
     log_exec python3 -m venv ephemeris
+    # FIXME: temporary until Jenkins nodes are updated, new versions of venv properly default unset vars in activate
+    set +u
     . ./ephemeris/bin/activate
+    set -u
     log_exec pip install --index-url https://wheels.galaxyproject.org/simple/ --extra-index-url https://pypi.org/simple/ "${EPHEMERIS:=ephemeris}" #"${PLANEMO:=planemo}"
 }
 
