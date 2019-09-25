@@ -5,7 +5,7 @@ export SCRIPT_PATH="$(dirname ${BASH_SOURCE[0]})"
 if [ ! -d $SCRIPT_PATH/../venv ]; then
   virtualenv ${SCRIPT_PATH}/../venv
   source ${SCRIPT_PATH}/../venv/bin/activate
-  pip install -r ${SCRIPT_PATH}/../requiremnents.txt
+  pip install -r ${SCRIPT_PATH}/../requirements.txt
 fi
 
 export EPH_PATH="${SCRIPT_PATH}/../venv/bin/python"
