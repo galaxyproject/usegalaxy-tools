@@ -5,10 +5,7 @@ import argparse
 import logging
 import string
 
-from bioblend import toolshed
-
 logging.basicConfig()
-ts = toolshed.ToolShedInstance(url='https://toolshed.g2.bx.psu.edu')
 
 
 def section_id_chr(c):
@@ -60,6 +57,11 @@ def update_file(fn):
             'owner': tool['owner'],
             'revisions': sorted(list(set(revisions))),  # Cast to list for yaml serialization
         }
+
+        if 'tool_shed_url' in tool:
+            ts_url = tool['tool_shed_url']
+            logging.warning('Non-default Tool Shed URL for %s/%s: %s', tool['owner'], tool['name'], ts_url)
+            new_tool['tool_shed_url'] = ts_url
 
         # Set the section - id supercedes label/name
         if 'tool_panel_section_id' in unlocked:
