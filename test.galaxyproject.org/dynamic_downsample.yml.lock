@@ -1,0 +1,11 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_id: variant_calling
+tools:
+- name: dynamic_downsample
+  owner: dave
+  revisions:
+  - 20823bce09e7
+  tool_panel_section_id: variant_calling
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu
