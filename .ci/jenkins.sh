@@ -172,7 +172,10 @@ function set_repo_vars() {
 function setup_ephemeris() {
     log "Setting up Ephemeris"
     log_exec python3 -m venv ephemeris
+    # FIXME: temporary until Jenkins nodes are updated, new versions of venv properly default unset vars in activate
+    set +u
     . ./ephemeris/bin/activate
+    set -u
     log_exec pip install --index-url https://wheels.galaxyproject.org/simple/ --extra-index-url https://pypi.org/simple/ "${EPHEMERIS:=ephemeris}" #"${PLANEMO:=planemo}"
 }
 
@@ -219,6 +222,7 @@ function run_cloudve_galaxy() {
     log "Copying configs to Stratum 0"
     log_exec curl -o ".ci/${GALAXY_TEMPLATE_DB}" "$GALAXY_TEMPLATE_DB_URL"
     copy_to ".ci/${GALAXY_TEMPLATE_DB}"
+    copy_to ".ci/tool_sheds_conf.xml"
     log "Fetching latest Galaxy image"
     exec_on docker pull "$GALAXY_DOCKER_IMAGE"
     log "Updating database"
@@ -232,6 +236,7 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////${GALAXY_TEMPLATE_DB}" \
         -e "GALAXY_CONFIG_OVERRIDE_INTEGRATED_TOOL_PANEL_CONFIG=/tmp/integrated_tool_panel.xml" \
         -e "GALAXY_CONFIG_OVERRIDE_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIG}" \
+        -e "GALAXY_CONFIG_OVERRIDE_TOOL_SHEDS_CONFIG_FILE=/tool_sheds_conf.xml" \
         -e "GALAXY_CONFIG_OVERRIDE_SHED_TOOL_DATA_TABLE_CONFIG=${SHED_TOOL_DATA_TABLE_CONFIG}" \
         -e "GALAXY_CONFIG_TOOL_DATA_PATH=/tmp/tool-data" \
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
@@ -239,6 +244,7 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATH}" \
         -e "CONDARC=${CONDA_PATH}rc" \
         -v "\$(pwd)/${REMOTE_WORKDIR}/${GALAXY_TEMPLATE_DB}:/${GALAXY_TEMPLATE_DB}" \
+        -v "\$(pwd)/${REMOTE_WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
         -v "/cvmfs/${REPO}:/cvmfs/${REPO}" \
         -v "${GALAXY_TMPDIR}:/galaxy/server/database" \
         "$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --yaml config/galaxy.yml
@@ -312,9 +318,9 @@ function wait_for_galaxy() {
 
 
 function show_logs() {
-    local lines
-    if [ -n "$1" ]; then
-        lines="--tail ${1}"
+    local lines=
+    if [ -n "${1:-}" ]; then
+        lines="--tail ${1:-}"
         log_debug "tail ${lines} of server log";
     else
         log_debug "contents of server log";
