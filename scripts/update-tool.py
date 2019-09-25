@@ -1,10 +1,22 @@
 import yaml
 import argparse
 import logging
+from collections import defaultdict
 
 from bioblend import toolshed
 
-ts = toolshed.ToolShedInstance(url='https://toolshed.g2.bx.psu.edu')
+DEFAULT_TOOL_SHED_URL = 'https://toolshed.g2.bx.psu.edu'
+
+
+class ToolSheds(defaultdict):
+    default_factory = toolshed.ToolShedInstance
+
+    def __missing__(self, key):
+        logging.debug('Creating new ToolShedInstance for URL: %s', key)
+        return self.default_factory(url=key)
+
+
+tool_sheds = ToolSheds()
 
 
 def update_file(fn, owner=None, name=None, without=False):
@@ -25,6 +37,11 @@ def update_file(fn, owner=None, name=None, without=False):
 
         if not without and name and tool['name'] != name:
             continue
+
+        ts_url = tool.get('tool_shed_url', DEFAULT_TOOL_SHED_URL)
+        if ts_url != DEFAULT_TOOL_SHED_URL:
+            logging.warning('Non-default Tool Shed URL for %s/%s: %s', tool['owner'], tool['name'], ts_url)
+        ts = tool_sheds[ts_url]
 
         logging.info("Fetching updates for {owner}/{name}".format(**tool))
 
