@@ -1,0 +1,11 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_id: variant_calling
+tools:
+- name: gatk4_mutect2
+  owner: dave
+  revisions:
+  - fcf1bc63ed06
+  tool_panel_section_id: variant_calling
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu
