@@ -38,12 +38,20 @@ def main():
             print("Processing: %s" % file)
         a = yaml.safe_load(open(file, 'r'))
         these_tools = a['tools']
+        tools_already_seen_on_this_instance = []
         for tool in these_tools:
-            if tools_count[tool['name']]:
-                tools_count[tool['name']] += 1
+            # deal with tools that have the same name
+            tool_id = '%s/%s' % (tool['name'], tool['owner'])
+            # deal with tools duplicated in different sections
+            if tool_id in tools_already_seen_on_this_instance:
+                continue
             else:
-                tools_count[tool['name']] = 1
-                tools_union[tool['name']] = tool
+                tools_already_seen_on_this_instance.append(tool_id)
+            if tools_count[tool_id]:
+                tools_count[tool_id] += 1
+            else:
+                tools_count[tool_id] = 1
+                tools_union[tool_id] = tool
 
     intersection = defaultdict(list)
     for tool in tools_count:
