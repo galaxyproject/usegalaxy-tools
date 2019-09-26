@@ -47,11 +47,11 @@ def main():
                 continue
             else:
                 tools_already_seen_on_this_instance.append(tool_id)
-            if tools_count[tool['name']]:
-                tools_count[tool['name']] += 1
+            if tools_count[tool_id]:
+                tools_count[tool_id] += 1
             else:
-                tools_count[tool['name']] = 1
-                tools_union[tool['name']] = tool
+                tools_count[tool_id] = 1
+                tools_union[tool_id] = tool
 
     intersection = defaultdict(list)
     for tool in tools_count:
