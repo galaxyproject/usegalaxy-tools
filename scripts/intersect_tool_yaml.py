@@ -41,7 +41,7 @@ def main():
         tools_already_seen_on_this_instance = []
         for tool in these_tools:
             # deal with tools that have the same name
-            tool_id = tool['name'] + tool['owner']
+            tool_id = '%s/%s' % (tool['name'], tool['owner'])
             # deal with tools duplicated in different sections
             if tool_id in tools_already_seen_on_this_instance:
                 continue
