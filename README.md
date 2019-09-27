@@ -4,6 +4,22 @@
 
 [![Build Status](https://travis-ci.org/galaxyproject/usegalaxy-tools.svg?branch=master)](https://travis-ci.org/galaxyproject/usegalaxy-tools)
 
+## Using these tools
+
+Add the following dependency resolver:
+
+```xml
+<conda prefix="/cvmfs/sandbox.galaxyproject.org/dependencies/conda" auto_install="False" auto_init="False" />
+```
+
+preferably above your existing conda dependency resolver (you will need to set `conda_auto_install: false` in your `galaxy.yml`).
+
+And add the new shed tool conf:
+
+```yml
+tool_config_file: ...,/cvmfs/sandbox.galaxyproject.org/config/shed_tool_conf.xml
+```
+
 ## Setup
 
 - `yaml` files are manually curated
