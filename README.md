@@ -20,6 +20,13 @@ And add the new shed tool conf:
 tool_config_file: ...,/cvmfs/sandbox.galaxyproject.org/config/shed_tool_conf.xml
 ```
 
+In your destination you should set:
+
+```
+<param id="singularity_enabled">true</param>
+<param id="singularity_volumes">$defaults</param>
+```
+
 ## Setup
 
 - `yaml` files are manually curated
