@@ -6,7 +6,5 @@ tools:
     owner: bgruening
   - name: plotly_parallel_coordinates_plot
     owner: bgruening
-  - name: plotly_parallel_coordinates_plot
-    owner: bgruening
   - name: ml_visualization_ex
     owner: bgruening
