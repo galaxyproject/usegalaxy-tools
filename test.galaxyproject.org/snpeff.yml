@@ -1,4 +1,4 @@
 tool_panel_section_id: variant_calling
 tools:
     - name: snpeff
-    - owner: iuc
+      owner: iuc
