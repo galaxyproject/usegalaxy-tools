@@ -225,17 +225,18 @@ function run_cloudve_galaxy() {
     copy_to ".ci/${GALAXY_TEMPLATE_DB}"
     copy_to ".ci/tool_sheds_conf.xml"
     copy_to ".ci/condarc"
+    GALAXY_TMPDIR=$(exec_on mktemp -d -t usegalaxy-tools.XXXXXX)
+    exec_on mv "\$(pwd)/${REMOTE_WORKDIR}/${GALAXY_TEMPLATE_DB} ${GALAXY_TMPDIR}"
     log "Fetching latest Galaxy image"
     exec_on docker pull "$GALAXY_DOCKER_IMAGE"
     log "Updating database"
     exec_on docker run --rm --user '$(id -u)' --name="${CONTAINER_NAME}-setup" \
-        -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////${GALAXY_TEMPLATE_DB}" \
-        -v "\$(pwd)/${REMOTE_WORKDIR}/${GALAXY_TEMPLATE_DB}:/${GALAXY_TEMPLATE_DB}" \
+        -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
+        -v "${GALAXY_TMPDIR}:/galaxy/server/database" \
         "$GALAXY_DOCKER_IMAGE" ./.venv/bin/python ./scripts/manage_db.py upgrade
     log "Starting Galaxy on Stratum 0"
-    GALAXY_TMPDIR=$(exec_on mktemp -d -t usegalaxy-tools.XXXXXX)
     exec_on docker run -d -p 127.0.0.1:${REMOTE_PORT}:8080 --user '$(id -u)' --name="${CONTAINER_NAME}" \
-        -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////${GALAXY_TEMPLATE_DB}" \
+        -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
         -e "GALAXY_CONFIG_OVERRIDE_INTEGRATED_TOOL_PANEL_CONFIG=/tmp/integrated_tool_panel.xml" \
         -e "GALAXY_CONFIG_OVERRIDE_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIG}" \
         -e "GALAXY_CONFIG_OVERRIDE_TOOL_SHEDS_CONFIG_FILE=/tool_sheds_conf.xml" \
@@ -246,7 +247,6 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATH}" \
         -v "/cvmfs/${REPO}:/cvmfs/${REPO}" \
         -v "\$(pwd)/${REMOTE_WORKDIR}/galaxy.yml:/galaxy/server/config/galaxy.yml" \
-        -v "\$(pwd)/${REMOTE_WORKDIR}/${GALAXY_TEMPLATE_DB}:/${GALAXY_TEMPLATE_DB}" \
         -v "\$(pwd)/${REMOTE_WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
         -v "\$(pwd)/${REMOTE_WORKDIR}/condarc:${CONDA_PATH}/.condarc" \
         -v "${GALAXY_TMPDIR}:/galaxy/server/database" \
