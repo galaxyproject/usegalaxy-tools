@@ -223,6 +223,7 @@ function run_cloudve_galaxy() {
     log_exec curl -o ".ci/${GALAXY_TEMPLATE_DB}" "$GALAXY_TEMPLATE_DB_URL"
     copy_to ".ci/${GALAXY_TEMPLATE_DB}"
     copy_to ".ci/tool_sheds_conf.xml"
+    copy_to ".ci/condarc"
     log "Fetching latest Galaxy image"
     exec_on docker pull "$GALAXY_DOCKER_IMAGE"
     log "Updating database"
@@ -242,10 +243,10 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
         -e "GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATH}" \
-        -e "CONDARC=${CONDA_PATH}rc" \
+        -v "/cvmfs/${REPO}:/cvmfs/${REPO}" \
         -v "\$(pwd)/${REMOTE_WORKDIR}/${GALAXY_TEMPLATE_DB}:/${GALAXY_TEMPLATE_DB}" \
         -v "\$(pwd)/${REMOTE_WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
-        -v "/cvmfs/${REPO}:/cvmfs/${REPO}" \
+        -v "\$(pwd)/${REMOTE_WORKDIR}/condarc:${CONDA_PATH}/.condarc" \
         -v "${GALAXY_TMPDIR}:/galaxy/server/database" \
         "$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --yaml config/galaxy.yml
     GALAXY_UP=true
@@ -370,6 +371,8 @@ function install_tools() {
 
 function check_for_repo_changes() {
     local stc="${SHED_TOOL_CONFIG%,*}"
+    log "Showing log"
+    show_logs
     log "Checking for changes to repo"
     show_paths
     log_debug "diff of shed_tool_conf.xml"

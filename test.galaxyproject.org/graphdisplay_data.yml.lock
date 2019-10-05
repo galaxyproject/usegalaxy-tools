@@ -1,0 +1,29 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Graph/Display Data
+tools:
+- name: plotly_regression_performance_plots
+  owner: bgruening
+  revisions:
+  - 389227fa1864
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: plotly_ml_performance_plots
+  owner: bgruening
+  revisions:
+  - 85da91bbdbfb
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: plotly_parallel_coordinates_plot
+  owner: bgruening
+  revisions:
+  - 7b21a9b5922f
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: ml_visualization_ex
+  owner: bgruening
+  revisions:
+  - 09efff9a5765
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
