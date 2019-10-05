@@ -1,6 +1,0 @@
-tool_panel_section_label: Join, Subtract and Group
-tools:
-- name: collection_column_join
-  owner: iuc
-- name: subtract_query
-  owner: devteam
