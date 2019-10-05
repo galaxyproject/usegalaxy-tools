@@ -1,0 +1,41 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Metagenomic Analysis (deprecated)
+tools:
+- name: t2t_report
+  owner: devteam
+  revisions:
+  - 592acb9505fc
+  tool_panel_section_id: metagenomic_analysis__deprecated_
+  tool_panel_section_label: Metagenomic Analysis (deprecated)
+- name: t2ps
+  owner: devteam
+  revisions:
+  - 4d9910e996f7
+  tool_panel_section_id: metagenomic_analysis__deprecated_
+  tool_panel_section_label: Metagenomic Analysis (deprecated)
+- name: poisson2test
+  owner: devteam
+  revisions:
+  - 5ff18ec88181
+  tool_panel_section_id: metagenomic_analysis__deprecated_
+  tool_panel_section_label: Metagenomic Analysis (deprecated)
+- name: lca_wrapper
+  owner: devteam
+  revisions:
+  - 33e8ed5a4601
+  tool_panel_section_id: metagenomic_analysis__deprecated_
+  tool_panel_section_label: Metagenomic Analysis (deprecated)
+- name: gi2taxonomy
+  owner: devteam
+  revisions:
+  - 7b1b03c4465d
+  tool_panel_section_id: metagenomic_analysis__deprecated_
+  tool_panel_section_label: Metagenomic Analysis (deprecated)
+- name: find_diag_hits
+  owner: devteam
+  revisions:
+  - acf51ff24c7d
+  tool_panel_section_id: metagenomic_analysis__deprecated_
+  tool_panel_section_label: Metagenomic Analysis (deprecated)

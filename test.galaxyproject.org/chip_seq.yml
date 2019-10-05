@@ -1,0 +1,16 @@
+tool_panel_section_label: ChIP-seq
+tools:
+- name: chipseeker
+  owner: rnateam
+- name: idr
+  owner: iuc
+- name: macs2
+  owner: iuc
+- name: diffbind
+  owner: bgruening
+- name: repmatch_gff3
+  owner: iuc
+- name: cwpair2
+  owner: iuc
+- name: genetrack
+  owner: iuc

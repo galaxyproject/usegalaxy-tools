@@ -1,0 +1,53 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Assembly
+tools:
+- name: unicycler
+  owner: iuc
+  revisions:
+  - 0a3a602cd1e3
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: quast
+  owner: iuc
+  revisions:
+  - 59db8ea8c845
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: unicycler
+  owner: iuc
+  revisions:
+  - 0a3a602cd1e3
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: prokka
+  owner: crs4
+  revisions:
+  - eaee459f3d69
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: quast
+  owner: iuc
+  revisions:
+  - 59db8ea8c845
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: spades
+  owner: lionelguy
+  revisions:
+  - 21734680d921
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: trinity
+  owner: iuc
+  revisions:
+  - c9cfec002f71
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: spades
+  owner: nml
+  revisions:
+  - b8d633fbf5f5
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly

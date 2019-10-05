@@ -1,0 +1,10 @@
+tool_panel_section_label: Filter and Sort
+tools:
+- name: sample_seqs
+  owner: peterjc
+- name: query_tabular
+  owner: jjohnson
+- name: column_arrange_by_header
+  owner: bgruening
+- name: gffcompare
+  owner: iuc

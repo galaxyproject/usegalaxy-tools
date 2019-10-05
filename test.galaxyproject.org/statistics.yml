@@ -1,46 +1,78 @@
 tool_panel_section_label: Statistics
 tools:
-  - name: sklearn_generalized_linear
-    owner: bgruening
-  - name: sklearn_discriminant_classifier
-    owner: bgruening
-  - name: sklearn_regression_metrics
-    owner: bgruening
-  - name: sklearn_clf_metrics
-    owner: bgruening
-  - name: sklearn_data_preprocess
-    owner: bgruening
-  - name: sklearn_feature_selection
-    owner: bgruening
-  - name: sklearn_ensemble
-    owner: bgruening
-  - name: sklearn_numeric_clustering
-    owner: bgruening
-  - name: sklearn_nn_classifier
-    owner: bgruening
-  - name: sklearn_pairwise_metrics
-    owner: bgruening
-  - name: sklearn_build_pipeline
-    owner: bgruening
-  - name: sklearn_searchcv
-    owner: bgruening
-  - name: sklearn_sample_generator
-    owner: bgruening
-  - name: sklearn_svm_classifier
-    owner: bgruening
-  - name: sklearn_model_validation
-    owner: bgruening
-  - name: sklearn_estimator_attributes
-    owner: bgruening
-  - name: sklearn_train_test_eval
-    owner: bgruening
-  - name: sklearn_stacking_ensemble_models
-    owner: bgruening
-  - name: keras_batch_models
-    owner: bgruening
-  - name: keras_model_builder
-    owner: bgruening
-  - name: keras_model_config
-    owner: bgruening
-  - name: model_prediction
-    owner: bgruening
+- name: model_prediction
+  owner: bgruening
+- name: keras_model_config
+  owner: bgruening
+- name: keras_model_builder
+  owner: bgruening
+- name: keras_batch_models
+  owner: bgruening
+- name: sklearn_stacking_ensemble_models
+  owner: bgruening
+- name: sklearn_train_test_eval
+  owner: bgruening
+- name: sklearn_estimator_attributes
+  owner: bgruening
+- name: sklearn_model_validation
+  owner: bgruening
+- name: sklearn_svm_classifier
+  owner: bgruening
+- name: sklearn_sample_generator
+  owner: bgruening
+- name: sklearn_searchcv
+  owner: bgruening
+- name: sklearn_build_pipeline
+  owner: bgruening
+- name: sklearn_pairwise_metrics
+  owner: bgruening
+- name: sklearn_nn_classifier
+  owner: bgruening
+- name: sklearn_numeric_clustering
+  owner: bgruening
+- name: sklearn_ensemble
+  owner: bgruening
+- name: sklearn_feature_selection
+  owner: bgruening
+- name: sklearn_data_preprocess
+  owner: bgruening
+- name: sklearn_clf_metrics
+  owner: bgruening
+- name: sklearn_regression_metrics
+  owner: bgruening
+- name: sklearn_discriminant_classifier
+  owner: bgruening
+- name: sklearn_generalized_linear
+  owner: bgruening
+- name: plot_from_lda
+  owner: devteam
+- name: mine
+  owner: devteam
+- name: lda_analysis
+  owner: devteam
+- name: generate_pc_lda_matrix
+  owner: devteam
+- name: count_gff_features
+  owner: devteam
+- name: correlation
+  owner: devteam
+- name: t_test_two_samples
+  owner: devteam
+- name: best_regression_subsets
+  owner: devteam
+- name: rcve
+  owner: devteam
+- name: partialr_square
+  owner: devteam
+- name: logistic_regression_vif
+  owner: devteam
+- name: linear_regression
+  owner: devteam
+- name: principal_component_analysis
+  owner: devteam
+- name: kernel_principal_component_analysis
+  owner: devteam
+- name: kernel_canonical_correlation_analysis
+  owner: devteam
+- name: canonical_correlation_analysis
+  owner: devteam

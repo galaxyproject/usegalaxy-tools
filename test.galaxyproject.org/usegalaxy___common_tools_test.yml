@@ -1,0 +1,6 @@
+tool_panel_section_label: usegalaxy.* common tools test
+tools:
+- name: filter_tabular
+  owner: iuc
+- name: jq
+  owner: iuc

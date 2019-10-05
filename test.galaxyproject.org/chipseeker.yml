@@ -1,4 +1,0 @@
-tool_panel_section_label: ChIP-seq
-tools:
-  - name: chipseeker
-    owner: rnateam

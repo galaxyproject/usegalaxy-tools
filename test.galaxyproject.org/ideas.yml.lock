@@ -1,0 +1,20 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: IDEAS
+tools:
+- name: ideas_genome_tracks
+  owner: greg
+  revisions: []
+  tool_panel_section_id: ideas
+  tool_panel_section_label: IDEAS
+- name: ideas_preprocessor
+  owner: greg
+  revisions: []
+  tool_panel_section_id: ideas
+  tool_panel_section_label: IDEAS
+- name: ideas2
+  owner: greg
+  revisions: []
+  tool_panel_section_id: ideas
+  tool_panel_section_label: IDEAS

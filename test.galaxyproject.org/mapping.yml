@@ -1,0 +1,18 @@
+tool_panel_section_label: Mapping
+tools:
+- name: bowtie_wrappers
+  owner: devteam
+- name: bwa
+  owner: devteam
+- name: bowtie2
+  owner: devteam
+- name: lastz
+  owner: devteam
+- name: megablast_xml_parser
+  owner: devteam
+- name: megablast_wrapper
+  owner: devteam
+- name: bwa_wrappers
+  owner: devteam
+- name: lastz_paired_reads
+  owner: devteam

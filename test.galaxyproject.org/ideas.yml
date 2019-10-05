@@ -1,0 +1,8 @@
+tool_panel_section_label: IDEAS
+tools:
+- name: ideas_genome_tracks
+  owner: greg
+- name: ideas_preprocessor
+  owner: greg
+- name: ideas2
+  owner: greg

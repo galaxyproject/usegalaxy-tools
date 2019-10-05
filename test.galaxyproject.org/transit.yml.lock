@@ -1,0 +1,77 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Transit
+tools:
+- name: singlefitness
+  owner: antmarge
+  revisions:
+  - 8d889fc6abf2
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: regionfitness
+  owner: antmarge
+  revisions:
+  - 2655e8056329
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: dataoverview
+  owner: antmarge
+  revisions:
+  - 80205e898861
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: compstrains
+  owner: antmarge
+  revisions:
+  - 8ea6bb9da985
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: compregions
+  owner: antmarge
+  revisions:
+  - 088c679fb58a
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: compgenes
+  owner: antmarge
+  revisions:
+  - 2efae0932a7a
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: calculate_fitness
+  owner: kaymccoy
+  revisions:
+  - ca6b343dd70e
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: aggregate_fitness
+  owner: kaymccoy
+  revisions:
+  - 4ea9c69aa74d
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: gff_to_prot
+  owner: iuc
+  revisions:
+  - d605800d956c
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: transit_resampling
+  owner: iuc
+  revisions:
+  - 73a3ea18ec71
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: transit_hmm
+  owner: iuc
+  revisions:
+  - 3c83ed97f9ee
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: transit_gumbel
+  owner: iuc
+  revisions:
+  - 202a99525669
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit

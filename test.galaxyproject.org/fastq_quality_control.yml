@@ -1,0 +1,18 @@
+tool_panel_section_label: FASTQ Quality Control
+tools:
+- name: fastqc
+  owner: devteam
+- name: fastq_quality_boxplot
+  owner: devteam
+- name: multiqc
+  owner: iuc
+- name: fastq_stats
+  owner: devteam
+- name: short_reads_figure_score
+  owner: devteam
+- name: trimmomatic
+  owner: pjbriggs
+- name: fastx_quality_statistics
+  owner: devteam
+- name: fastx_nucleotides_distribution
+  owner: devteam
