@@ -47,35 +47,34 @@ galaxy:
     ucsc_build_sites: /galaxy/server/tool-data/shared/ucsc/ucsc_build_sites.txt.sample
     visualization_plugins_directory: config/plugins/visualizations
     whoosh_index_dir: /galaxy/server/database/whoosh_cache
-    galaxy:
-      logging:
-        disable_existing_loggers: false
-        filters:
-          stack:
-            (): galaxy.web.stack.application_stack_log_filter
-        formatters:
-          stack:
-            (): galaxy.web.stack.application_stack_log_formatter
-        handlers:
-          console:
-            class: logging.StreamHandler
-            filters:
-            - stack
-            formatter: stack
-            level: DEBUG
-            stream: ext://sys.stderr
-        loggers:
-          amqp:
-            level: INFO
-            qualname: amqp
-          paste.httpserver.ThreadPool:
-            level: WARN
-            qualname: paste.httpserver.ThreadPool
-          routes.middleware:
-            level: WARN
-            qualname: routes.middleware
-        root:
-          handlers:
-          - console
+    logging:
+      disable_existing_loggers: false
+      filters:
+        stack:
+          (): galaxy.web.stack.application_stack_log_filter
+      formatters:
+        stack:
+          (): galaxy.web.stack.application_stack_log_formatter
+      handlers:
+        console:
+          class: logging.StreamHandler
+          filters:
+          - stack
+          formatter: stack
           level: DEBUG
-        version: 1
+          stream: ext://sys.stderr
+      loggers:
+        amqp:
+          level: INFO
+          qualname: amqp
+        paste.httpserver.ThreadPool:
+          level: WARN
+          qualname: paste.httpserver.ThreadPool
+        routes.middleware:
+          level: WARN
+          qualname: routes.middleware
+      root:
+        handlers:
+        - console
+        level: DEBUG
+      version: 1
