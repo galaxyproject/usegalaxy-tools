@@ -5,14 +5,18 @@ tool_panel_section_label: Variant Calling
 tools:
 - name: gatk4_mutect2
   owner: dave
-  revisions: []
+  revisions:
+  - fcf1bc63ed06
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: dynamic_downsample
   owner: dave
-  revisions: []
+  revisions:
+  - 03aeb837e398
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: snippy
   owner: iuc
   revisions:
@@ -82,9 +86,10 @@ tools:
 - name: getalleleseq
   owner: boris
   revisions:
-  - 5a89151b5e82
+  - 28640b50ba2f
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: mutate_snp_codon
   owner: devteam
   revisions:

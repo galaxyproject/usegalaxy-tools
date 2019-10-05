@@ -8,6 +8,7 @@ tools:
   owner: devteam
 - name: lastz
   owner: devteam
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: megablast_xml_parser
   owner: devteam
 - name: megablast_wrapper

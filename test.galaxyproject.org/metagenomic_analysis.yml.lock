@@ -12,15 +12,17 @@ tools:
 - name: vegan_diversity
   owner: iuc
   revisions:
-  - a2c047a2c380
+  - 66ef96efa29d
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: vegan_fisher_alpha
   owner: iuc
   revisions:
-  - f9966e11885b
+  - c99a23943f0d
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: diamond
   owner: bgruening
   revisions:
@@ -36,9 +38,10 @@ tools:
 - name: vegan_rarefaction
   owner: iuc
   revisions:
-  - b0d5976540e3
+  - c9dac54e8039
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: taxonomy_krona_chart
   owner: crs4
   revisions:

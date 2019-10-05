@@ -78,9 +78,10 @@ tools:
 - name: rnaspades
   owner: iuc
   revisions:
-  - 9e58ff014088
+  - dd4b53e5b34a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: tophat2
   owner: devteam
   revisions:

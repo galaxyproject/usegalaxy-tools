@@ -4,14 +4,17 @@ tools:
   owner: iuc
 - name: vegan_diversity
   owner: iuc
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: vegan_fisher_alpha
   owner: iuc
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: diamond
   owner: bgruening
 - name: kraken2tax
   owner: devteam
 - name: vegan_rarefaction
   owner: iuc
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: taxonomy_krona_chart
   owner: crs4
 - name: cd_hit_dup

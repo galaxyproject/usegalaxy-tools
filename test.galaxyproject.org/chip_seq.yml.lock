@@ -18,9 +18,10 @@ tools:
 - name: macs2
   owner: iuc
   revisions:
-  - 424aefbd7777
+  - 644444825ef9
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: diffbind
   owner: bgruening
   revisions:

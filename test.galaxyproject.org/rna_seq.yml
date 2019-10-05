@@ -26,6 +26,7 @@ tools:
   owner: iuc
 - name: rnaspades
   owner: iuc
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: tophat2
   owner: devteam
 - name: sailfish

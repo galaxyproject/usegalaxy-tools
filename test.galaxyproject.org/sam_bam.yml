@@ -6,6 +6,7 @@ tools:
   owner: devteam
 - name: samtools_phase
   owner: devteam
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: pileup_interval
   owner: devteam
 - name: ngsutils_bam_filter

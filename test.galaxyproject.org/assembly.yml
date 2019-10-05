@@ -6,10 +6,12 @@ tools:
   owner: iuc
 - name: unicycler
   owner: iuc
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: prokka
   owner: crs4
 - name: quast
   owner: iuc
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: spades
   owner: lionelguy
 - name: trinity

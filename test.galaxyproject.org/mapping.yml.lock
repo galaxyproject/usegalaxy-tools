@@ -24,9 +24,10 @@ tools:
 - name: lastz
   owner: devteam
   revisions:
-  - e7f19d6a9af8
+  - 0acd9701676b
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: megablast_xml_parser
   owner: devteam
   revisions:

@@ -18,9 +18,10 @@ tools:
 - name: samtools_phase
   owner: devteam
   revisions:
-  - b5c3b1856370
+  - dd8305e4e58e
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: pileup_interval
   owner: devteam
   revisions:

@@ -102,9 +102,10 @@ tools:
 - name: cutadapt
   owner: lparsons
   revisions:
-  - e4691e1589d3
+  - 510dbf2872f7
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: trim_galore
   owner: bgruening
   revisions:
