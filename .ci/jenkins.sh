@@ -14,7 +14,8 @@ GALAXY_DOCKER_IMAGE='galaxy/galaxy:19.05'
 GALAXY_TEMPLATE_DB_URL='https://depot.galaxyproject.org/nate/galaxy-153.sqlite'
 GALAXY_TEMPLATE_DB="${GALAXY_TEMPLATE_DB_URL##*/}"
 
-EPHEMERIS="git+https://github.com/natefoo/ephemeris.git@shed-tools-poll-fix"
+# Need to run dev until 0.10.4
+EPHEMERIS="git+https://github.com/galaxyproject/ephemeris.git"
 
 # Should be set by Jenkins, so the default here is for development
 : ${GIT_COMMIT:=$(git rev-parse HEAD)}
