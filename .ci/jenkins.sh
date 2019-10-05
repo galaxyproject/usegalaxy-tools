@@ -221,6 +221,7 @@ function publish_transaction() {
 function run_cloudve_galaxy() {
     log "Copying configs to Stratum 0"
     log_exec curl -o ".ci/${GALAXY_TEMPLATE_DB}" "$GALAXY_TEMPLATE_DB_URL"
+    copy_to ".ci/galaxy.yml"
     copy_to ".ci/${GALAXY_TEMPLATE_DB}"
     copy_to ".ci/tool_sheds_conf.xml"
     copy_to ".ci/condarc"
@@ -244,6 +245,7 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
         -e "GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATH}" \
         -v "/cvmfs/${REPO}:/cvmfs/${REPO}" \
+        -v "\$(pwd)/${REMOTE_WORKDIR}/galaxy.yml:/galaxy/server/config/galaxy.yml" \
         -v "\$(pwd)/${REMOTE_WORKDIR}/${GALAXY_TEMPLATE_DB}:/${GALAXY_TEMPLATE_DB}" \
         -v "\$(pwd)/${REMOTE_WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
         -v "\$(pwd)/${REMOTE_WORKDIR}/condarc:${CONDA_PATH}/.condarc" \
