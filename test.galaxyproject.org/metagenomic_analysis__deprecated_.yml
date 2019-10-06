@@ -1,0 +1,14 @@
+tool_panel_section_label: Metagenomic Analysis (deprecated)
+tools:
+- name: t2t_report
+  owner: devteam
+- name: t2ps
+  owner: devteam
+- name: poisson2test
+  owner: devteam
+- name: lca_wrapper
+  owner: devteam
+- name: gi2taxonomy
+  owner: devteam
+- name: find_diag_hits
+  owner: devteam

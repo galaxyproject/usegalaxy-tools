@@ -1,0 +1,17 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Motifs
+tools:
+- name: meme_fimo
+  owner: iuc
+  revisions:
+  - c1a9a297ba8b
+  tool_panel_section_id: motifs
+  tool_panel_section_label: Motifs
+- name: meme_meme
+  owner: iuc
+  revisions:
+  - 57e5d9382f36
+  tool_panel_section_id: motifs
+  tool_panel_section_label: Motifs
