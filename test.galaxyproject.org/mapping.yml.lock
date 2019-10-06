@@ -1,0 +1,54 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Mapping
+tools:
+- name: bowtie_wrappers
+  owner: devteam
+  revisions:
+  - b46e7d48076a
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: bwa
+  owner: devteam
+  revisions:
+  - 01ac0a5fedc3
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: bowtie2
+  owner: devteam
+  revisions:
+  - 749c918495f7
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: lastz
+  owner: devteam
+  revisions:
+  - 0acd9701676b
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: megablast_xml_parser
+  owner: devteam
+  revisions:
+  - 03ca082aeb2e
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: megablast_wrapper
+  owner: devteam
+  revisions:
+  - fb2e0e1dac89
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: bwa_wrappers
+  owner: devteam
+  revisions:
+  - b4427dbb6ced
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: lastz_paired_reads
+  owner: devteam
+  revisions:
+  - ecc974513241
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping

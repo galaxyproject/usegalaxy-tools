@@ -1,0 +1,11 @@
+tool_panel_section_label: IDEAS
+tools:
+- name: ideas_genome_tracks
+  owner: greg
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: ideas_preprocessor
+  owner: greg
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: ideas2
+  owner: greg
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
