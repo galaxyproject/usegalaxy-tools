@@ -1,4 +1,0 @@
-tool_panel_section_id: assembly
-tools:
-    - name: unicycler
-      owner: iuc

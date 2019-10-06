@@ -1,0 +1,17 @@
+tool_panel_section_label: ChIP-seq
+tools:
+- name: chipseeker
+  owner: rnateam
+- name: idr
+  owner: iuc
+- name: macs2
+  owner: iuc
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: diffbind
+  owner: bgruening
+- name: repmatch_gff3
+  owner: iuc
+- name: cwpair2
+  owner: iuc
+- name: genetrack
+  owner: iuc

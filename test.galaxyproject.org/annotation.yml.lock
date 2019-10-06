@@ -1,0 +1,23 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Annotation
+tools:
+- name: prokka
+  owner: crs4
+  revisions:
+  - eaee459f3d69
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: augustus
+  owner: bgruening
+  revisions:
+  - b3f5d0879dab
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: augustus_training
+  owner: bgruening
+  revisions:
+  - ccf8d0bbebe9
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation

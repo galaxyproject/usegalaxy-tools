@@ -1,0 +1,20 @@
+tool_panel_section_label: Assembly
+tools:
+- name: unicycler
+  owner: iuc
+- name: quast
+  owner: iuc
+- name: unicycler
+  owner: iuc
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: prokka
+  owner: crs4
+- name: quast
+  owner: iuc
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: spades
+  owner: lionelguy
+- name: trinity
+  owner: iuc
+- name: spades
+  owner: nml

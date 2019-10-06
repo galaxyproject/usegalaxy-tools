@@ -1,0 +1,29 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Filter and Sort
+tools:
+- name: sample_seqs
+  owner: peterjc
+  revisions:
+  - 7c40a1fbc82e
+  tool_panel_section_id: filter_and_sort
+  tool_panel_section_label: Filter and Sort
+- name: query_tabular
+  owner: jjohnson
+  revisions:
+  - 5bb148ee644a
+  tool_panel_section_id: filter_and_sort
+  tool_panel_section_label: Filter and Sort
+- name: column_arrange_by_header
+  owner: bgruening
+  revisions:
+  - 6c6d26ff01ff
+  tool_panel_section_id: filter_and_sort
+  tool_panel_section_label: Filter and Sort
+- name: gffcompare
+  owner: iuc
+  revisions:
+  - 2bb86e2c417f
+  tool_panel_section_id: filter_and_sort
+  tool_panel_section_label: Filter and Sort

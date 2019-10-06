@@ -1,0 +1,17 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Fabio Tools
+tools:
+- name: btman
+  owner: fabio
+  revisions:
+  - c619ad82600e
+  tool_panel_section_id: fabio_tools
+  tool_panel_section_label: Fabio Tools
+- name: iwtomics
+  owner: fabio
+  revisions:
+  - ef627fa13c64
+  tool_panel_section_id: fabio_tools
+  tool_panel_section_label: Fabio Tools

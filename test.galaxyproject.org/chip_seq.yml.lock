@@ -1,0 +1,48 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: ChIP-seq
+tools:
+- name: chipseeker
+  owner: rnateam
+  revisions:
+  - 1b9a9409831d
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: idr
+  owner: iuc
+  revisions:
+  - d3ebbf39b1c5
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: macs2
+  owner: iuc
+  revisions:
+  - 644444825ef9
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: diffbind
+  owner: bgruening
+  revisions:
+  - 194e3f2c1d86
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: repmatch_gff3
+  owner: iuc
+  revisions:
+  - 2365720de36d
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: cwpair2
+  owner: iuc
+  revisions:
+  - c4b926c9831c
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: genetrack
+  owner: iuc
+  revisions:
+  - b41a4bb828a3
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq

@@ -14,6 +14,9 @@ GALAXY_DOCKER_IMAGE='galaxy/galaxy:19.05'
 GALAXY_TEMPLATE_DB_URL='https://depot.galaxyproject.org/nate/galaxy-153.sqlite'
 GALAXY_TEMPLATE_DB="${GALAXY_TEMPLATE_DB_URL##*/}"
 
+# Need to run dev until 0.10.4
+EPHEMERIS="git+https://github.com/galaxyproject/ephemeris.git"
+
 # Should be set by Jenkins, so the default here is for development
 : ${GIT_COMMIT:=$(git rev-parse HEAD)}
 
@@ -221,20 +224,22 @@ function publish_transaction() {
 function run_cloudve_galaxy() {
     log "Copying configs to Stratum 0"
     log_exec curl -o ".ci/${GALAXY_TEMPLATE_DB}" "$GALAXY_TEMPLATE_DB_URL"
+    copy_to ".ci/galaxy.yml"
     copy_to ".ci/${GALAXY_TEMPLATE_DB}"
     copy_to ".ci/tool_sheds_conf.xml"
     copy_to ".ci/condarc"
+    GALAXY_TMPDIR=$(exec_on mktemp -d -t usegalaxy-tools.XXXXXX)
+    exec_on mv "\$(pwd)/${REMOTE_WORKDIR}/${GALAXY_TEMPLATE_DB} ${GALAXY_TMPDIR}"
     log "Fetching latest Galaxy image"
     exec_on docker pull "$GALAXY_DOCKER_IMAGE"
     log "Updating database"
     exec_on docker run --rm --user '$(id -u)' --name="${CONTAINER_NAME}-setup" \
-        -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////${GALAXY_TEMPLATE_DB}" \
-        -v "\$(pwd)/${REMOTE_WORKDIR}/${GALAXY_TEMPLATE_DB}:/${GALAXY_TEMPLATE_DB}" \
+        -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
+        -v "${GALAXY_TMPDIR}:/galaxy/server/database" \
         "$GALAXY_DOCKER_IMAGE" ./.venv/bin/python ./scripts/manage_db.py upgrade
     log "Starting Galaxy on Stratum 0"
-    GALAXY_TMPDIR=$(exec_on mktemp -d -t usegalaxy-tools.XXXXXX)
     exec_on docker run -d -p 127.0.0.1:${REMOTE_PORT}:8080 --user '$(id -u)' --name="${CONTAINER_NAME}" \
-        -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////${GALAXY_TEMPLATE_DB}" \
+        -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
         -e "GALAXY_CONFIG_OVERRIDE_INTEGRATED_TOOL_PANEL_CONFIG=/tmp/integrated_tool_panel.xml" \
         -e "GALAXY_CONFIG_OVERRIDE_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIG}" \
         -e "GALAXY_CONFIG_OVERRIDE_TOOL_SHEDS_CONFIG_FILE=/tool_sheds_conf.xml" \
@@ -244,7 +249,7 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
         -e "GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATH}" \
         -v "/cvmfs/${REPO}:/cvmfs/${REPO}" \
-        -v "\$(pwd)/${REMOTE_WORKDIR}/${GALAXY_TEMPLATE_DB}:/${GALAXY_TEMPLATE_DB}" \
+        -v "\$(pwd)/${REMOTE_WORKDIR}/galaxy.yml:/galaxy/server/config/galaxy.yml" \
         -v "\$(pwd)/${REMOTE_WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
         -v "\$(pwd)/${REMOTE_WORKDIR}/condarc:${CONDA_PATH}/.condarc" \
         -v "${GALAXY_TMPDIR}:/galaxy/server/database" \

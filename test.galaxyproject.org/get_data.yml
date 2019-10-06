@@ -1,0 +1,6 @@
+tool_panel_section_label: Get Data
+tools:
+- name: sickle
+  owner: nilesh
+- name: sra_tools
+  owner: iuc

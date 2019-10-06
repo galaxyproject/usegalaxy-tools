@@ -1,5 +1,0 @@
-tool_panel_section_id: variant_calling
-tools:
-  - name: dynamic_downsample
-    owner: dave
-    tool_shed_url: https://testtoolshed.g2.bx.psu.edu
