@@ -1,0 +1,81 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Transit
+tools:
+- name: singlefitness
+  owner: antmarge
+  revisions:
+  - 8d889fc6abf2
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: regionfitness
+  owner: antmarge
+  revisions:
+  - 2655e8056329
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: dataoverview
+  owner: antmarge
+  revisions:
+  - 80205e898861
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: compstrains
+  owner: antmarge
+  revisions:
+  - 8ea6bb9da985
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: compregions
+  owner: antmarge
+  revisions:
+  - 088c679fb58a
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: compgenes
+  owner: antmarge
+  revisions:
+  - 2efae0932a7a
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: calculate_fitness
+  owner: kaymccoy
+  revisions:
+  - ca6b343dd70e
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: aggregate_fitness
+  owner: kaymccoy
+  revisions:
+  - 4ea9c69aa74d
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+- name: gff_to_prot
+  owner: iuc
+  revisions:
+  - 78c16a7fe346
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: transit_resampling
+  owner: iuc
+  revisions:
+  - 910f3ee28aaa
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: transit_hmm
+  owner: iuc
+  revisions:
+  - a98c46dfe5ed
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: transit_gumbel
+  owner: iuc
+  revisions:
+  - 693a79dee53c
+  tool_panel_section_id: transit
+  tool_panel_section_label: Transit
+  tool_shed_url: testtoolshed.g2.bx.psu.edu

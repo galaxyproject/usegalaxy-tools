@@ -1,0 +1,4 @@
+tool_panel_section_label: Picard
+tools:
+- name: picard
+  owner: devteam
