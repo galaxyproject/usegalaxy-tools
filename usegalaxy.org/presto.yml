@@ -1,0 +1,26 @@
+tool_panel_section_label: pRESTO
+tools:
+- name: migmap
+  owner: iuc
+- name: prestor_abseq3
+  owner: iuc
+- name: presto_partition
+  owner: iuc
+- name: presto_parselog
+  owner: iuc
+- name: presto_parseheaders
+  owner: iuc
+- name: presto_pairseq
+  owner: iuc
+- name: presto_maskprimers
+  owner: iuc
+- name: presto_filterseq
+  owner: iuc
+- name: presto_collapseseq
+  owner: iuc
+- name: presto_buildconsensus
+  owner: iuc
+- name: presto_assemblepairs
+  owner: iuc
+- name: presto_alignsets
+  owner: iuc

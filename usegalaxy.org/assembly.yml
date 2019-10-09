@@ -1,0 +1,8 @@
+tool_panel_section_label: Assembly
+tools:
+- name: unicycler
+  owner: iuc
+- name: quast
+  owner: iuc
+- name: trinity_psc
+  owner: nate

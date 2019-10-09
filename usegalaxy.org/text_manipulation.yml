@@ -1,5 +1,7 @@
 tool_panel_section_label: Text Manipulation
 tools:
+- name: column_maker
+  owner: devteam
 - name: annotatemyids
   owner: iuc
 - name: uniprot_rest_interface
@@ -10,5 +12,5 @@ tools:
   owner: bgruening
 - name: text_processing
   owner: bgruening
-- name: column_maker
-  owner: devteam
+- name: annotatemyids
+  owner: iuc
