@@ -4,6 +4,7 @@ import yaml
 from collections import defaultdict
 import re
 import os
+import string
 import sys
 import argparse
 
@@ -12,13 +13,14 @@ def slugify(value):
     Normalizes string, converts to lowercase, removes non-alpha characters,
     and converts spaces to hyphens.
     """
-    value = re.sub('[^\w\s-]', '', value).strip().lower()
-    value = re.sub('[-\s]+', '_', value)
-    return value
+    rval = ''
+    for c in value:
+        rval += (c if c in string.ascii_letters + string.digits else '_').lower()
+    return rval
 
 def strip_superflous(cat):
     """
-    Re-arranges the ehpemeris returned yml format for tools to the usegalaxy-tools minimal tool yml format
+    Re-arranges the ephemeris returned yml format for tools to the usegalaxy-tools minimal tool yml format
 
     i.e. Takes a list like:
 
@@ -52,8 +54,10 @@ def strip_superflous(cat):
 
     for tool in cat:
         del tool['tool_panel_section_label']
+        del tool['tool_panel_section_id']
         del tool['revisions']
-        del tool['tool_shed_url']
+        if tool['tool_shed_url'] == 'toolshed.g2.bx.psu.edu':
+            del tool['tool_shed_url']
 
     out['tools'] = cat
 
@@ -62,7 +66,7 @@ def strip_superflous(cat):
 
 def main():
 
-    VERSION = 0.1
+    VERSION = 0.2
 
     parser = argparse.ArgumentParser(description="Splits up a Ephemeris `get_tool_list` yml file for a Galaxy server into individual files for each Section Label.")
     parser.add_argument("-i", "--infile", help="The returned `get_tool_list` yml file to split.")
