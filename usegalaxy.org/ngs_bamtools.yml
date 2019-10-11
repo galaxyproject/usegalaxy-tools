@@ -1,8 +1,0 @@
-tool_panel_section_label: "NGS: BamTools"
-tools:
-- name: bamtools_split
-  owner: devteam
-- name: bamtools
-  owner: devteam
-- name: bamtools_filter
-  owner: devteam

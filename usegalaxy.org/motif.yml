@@ -1,0 +1,8 @@
+tool_panel_section_label: Motif
+tools:
+- name: meme_meme
+  owner: iuc
+- name: meme_fimo
+  owner: iuc
+- name: weblogo3
+  owner: devteam

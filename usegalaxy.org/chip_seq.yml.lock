@@ -1,0 +1,89 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: ChIP-seq
+tools:
+- name: chipseeker
+  owner: rnateam
+  revisions:
+  - 1b9a9409831d
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: cwpair2
+  owner: iuc
+  revisions:
+  - c4b926c9831c
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: genetrack
+  owner: iuc
+  revisions:
+  - b41a4bb828a3
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: macs2
+  owner: iuc
+  revisions:
+  - 424aefbd7777
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: sicer
+  owner: devteam
+  revisions:
+  - 74c9214cc8e6
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: ngsutils_bam_filter
+  owner: iuc
+  revisions:
+  - 2e957d4c4b95
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: multigps
+  owner: greg
+  revisions:
+  - 62bdb6ff11d1
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: diffbind
+  owner: bgruening
+  revisions:
+  - 194e3f2c1d86
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: tag_pileup_frequency
+  owner: iuc
+  revisions:
+  - 6432735cdb22
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: pe_histogram
+  owner: iuc
+  revisions:
+  - 9be99db0304a
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: fasta_nucleotide_color_plot
+  owner: iuc
+  revisions:
+  - e4b5401adcec
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: resize_coordinate_window
+  owner: iuc
+  revisions:
+  - 9ba78e8985dc
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: repmatch_gff3
+  owner: iuc
+  revisions:
+  - 2365720de36d
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: macs
+  owner: devteam
+  revisions:
+  - f6319b0b4391
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq

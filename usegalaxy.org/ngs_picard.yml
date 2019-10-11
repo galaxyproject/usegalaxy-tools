@@ -1,4 +1,0 @@
-tool_panel_section_label: "NGS: Picard"
-tools:
-- name: picard
-  owner: devteam

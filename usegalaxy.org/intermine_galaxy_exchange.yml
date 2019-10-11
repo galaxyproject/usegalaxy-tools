@@ -1,4 +1,0 @@
-tool_panel_section_id: convert_formats
-tools:
-  - name: intermine_galaxy_exchange
-    owner: iuc

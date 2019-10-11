@@ -1,4 +1,0 @@
-tool_panel_section_label: NCBI SRA Tools
-tools:
-- name: sra_tools
-  owner: iuc

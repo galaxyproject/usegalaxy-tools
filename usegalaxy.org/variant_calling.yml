@@ -1,0 +1,24 @@
+tool_panel_section_label: Variant Calling
+tools:
+- name: varscan_version_2
+  owner: devteam
+- name: snpeff
+  owner: iuc
+- name: naive_variant_caller
+  owner: blankenberg
+- name: snpsift
+  owner: iuc
+- name: freebayes
+  owner: devteam
+- name: table_annovar
+  owner: devteam
+- name: mutate_snp_codon
+  owner: devteam
+- name: allele_counts
+  owner: nick
+- name: phylorelatives
+  owner: boris
+- name: hetbox
+  owner: boris
+- name: getalleleseq
+  owner: boris
