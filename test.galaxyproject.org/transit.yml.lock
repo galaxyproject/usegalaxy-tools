@@ -54,28 +54,28 @@ tools:
 - name: gff_to_prot
   owner: iuc
   revisions:
-  - 78c16a7fe346
+  - e046db34c47a
   tool_panel_section_id: transit
   tool_panel_section_label: Transit
   tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: transit_resampling
   owner: iuc
   revisions:
-  - 910f3ee28aaa
+  - 32a5211380bc
   tool_panel_section_id: transit
   tool_panel_section_label: Transit
   tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: transit_hmm
   owner: iuc
   revisions:
-  - a98c46dfe5ed
+  - 1a615b00dbd0
   tool_panel_section_id: transit
   tool_panel_section_label: Transit
   tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: transit_gumbel
   owner: iuc
   revisions:
-  - 693a79dee53c
+  - c48923d7a0a2
   tool_panel_section_id: transit
   tool_panel_section_label: Transit
   tool_shed_url: testtoolshed.g2.bx.psu.edu
