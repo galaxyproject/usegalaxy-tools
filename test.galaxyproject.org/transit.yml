@@ -18,13 +18,16 @@ tools:
   owner: kaymccoy
 - name: gff_to_prot
   owner: iuc
-  tool_shed_url: testtoolshed.g2.bx.psu.edu
+  tool_shed_url: testtoolshed.g2.bx.psu.edu/repos/iuc/gff_to_prot/gff_to_prot/1.0.0
 - name: transit_resampling
   owner: iuc
-  tool_shed_url: testtoolshed.g2.bx.psu.edu
+  tool_shed_url: testtoolshed.g2.bx.psu.edu/repos/iuc/transit_resampling/transit_resampling/3.0.1+galaxy2
 - name: transit_hmm
   owner: iuc
-  tool_shed_url: testtoolshed.g2.bx.psu.edu
+  tool_shed_url: testtoolshed.g2.bx.psu.edu/repos/iuc/transit_hmm/transit_hmm/3.0.1+galaxy2
 - name: transit_gumbel
   owner: iuc
-  tool_shed_url: testtoolshed.g2.bx.psu.edu
+  tool_shed_url: testtoolshed.g2.bx.psu.edu/repos/iuc/transit_gumbel/transit_gumbel/3.0.1+galaxy2
+- name: transit_tn5gaps
+  owner: iuc
+  tool_shed_url: testtoolshed.g2.bx.psu.edutesttoolshed.g2.bx.psu.edu/repos/iuc/transit_tn5gaps/transit_tn5gaps/3.0.1+galaxy2
