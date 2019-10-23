@@ -57,32 +57,32 @@ tools:
   - 78c16a7fe346
   tool_panel_section_id: transit
   tool_panel_section_label: Transit
-  tool_shed_url: testtoolshed.g2.bx.psu.edu/repos/iuc/gff_to_prot/gff_to_prot/1.0.0
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: transit_resampling
   owner: iuc
   revisions:
   - 910f3ee28aaa
   tool_panel_section_id: transit
   tool_panel_section_label: Transit
-  tool_shed_url: testtoolshed.g2.bx.psu.edu/repos/iuc/transit_resampling/transit_resampling/3.0.1+galaxy2
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: transit_hmm
   owner: iuc
   revisions:
   - a98c46dfe5ed
   tool_panel_section_id: transit
   tool_panel_section_label: Transit
-  tool_shed_url: testtoolshed.g2.bx.psu.edu/repos/iuc/transit_hmm/transit_hmm/3.0.1+galaxy2
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: transit_gumbel
   owner: iuc
   revisions:
   - 693a79dee53c
   tool_panel_section_id: transit
   tool_panel_section_label: Transit
-  tool_shed_url: testtoolshed.g2.bx.psu.edu/repos/iuc/transit_gumbel/transit_gumbel/3.0.1+galaxy2
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: transit_tn5gaps
   owner: iuc
   revisions:
   - 14173ac32110
   tool_panel_section_id: transit
   tool_panel_section_label: Transit
-  tool_shed_url: testtoolshed.g2.bx.psu.edutesttoolshed.g2.bx.psu.edu/repos/iuc/transit_tn5gaps/transit_tn5gaps/3.0.1+galaxy2
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
