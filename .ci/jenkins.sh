@@ -10,8 +10,8 @@ GALAXY_URL="http://127.0.0.1:${LOCAL_PORT}"
 REMOTE_WORKDIR='.local/share/usegalaxy-tools'
 SSH_MASTER_SOCKET_DIR="${HOME}/.cache/usegalaxy-tools"
 
-GALAXY_DOCKER_IMAGE='galaxy/galaxy:19.05'
-GALAXY_TEMPLATE_DB_URL='https://depot.galaxyproject.org/nate/galaxy-153.sqlite'
+GALAXY_DOCKER_IMAGE='galaxy/galaxy:19.09-k8s'
+GALAXY_TEMPLATE_DB_URL='https://depot.galaxyproject.org/nate/galaxy-158.sqlite'
 GALAXY_TEMPLATE_DB="${GALAXY_TEMPLATE_DB_URL##*/}"
 
 # Need to run dev until 0.10.4
@@ -27,6 +27,7 @@ CONDA_PATH=
 INSTALL_DATABASE=
 SHED_TOOL_CONFIG=
 SHED_TOOL_DATA_TABLE_CONFIG=
+SHED_DATA_MANAGER_CONFIG=
 SSH_MASTER_SOCKET=
 GALAXY_TMPDIR=
 OVERLAYFS_UPPER=
@@ -34,12 +35,12 @@ OVERLAYFS_LOWER=
 
 SSH_MASTER_UP=false
 CVMFS_TRANSACTION_UP=false
-GALAXY_UP=false
+GALAXY_CONTAINER_UP=false
 
 
 function trap_handler() {
     { set +x; } 2>/dev/null
-    $GALAXY_UP && stop_galaxy
+    $GALAXY_CONTAINER_UP && stop_galaxy
     $CVMFS_TRANSACTION_UP && abort_transaction
     $SSH_MASTER_UP && stop_ssh_control
     return 0
@@ -166,6 +167,7 @@ function set_repo_vars() {
     SHED_TOOL_CONFIG="${SHED_TOOL_CONFIGS[$REPO]}"
     SHED_TOOL_DIR="${SHED_TOOL_DIRS[$REPO]}"
     SHED_TOOL_DATA_TABLE_CONFIG="${SHED_TOOL_DATA_TABLE_CONFIGS[$REPO]}"
+    SHED_DATA_MANAGER_CONFIG="${SHED_DATA_MANAGER_CONFIGS[$REPO]}"
     CONTAINER_NAME="galaxy-${REPO_USER}"
     OVERLAYFS_UPPER="/var/spool/cvmfs/${REPO}/scratch/current"
     OVERLAYFS_LOWER="/var/spool/cvmfs/${REPO}/rdonly"
@@ -224,7 +226,6 @@ function publish_transaction() {
 function run_cloudve_galaxy() {
     log "Copying configs to Stratum 0"
     log_exec curl -o ".ci/${GALAXY_TEMPLATE_DB}" "$GALAXY_TEMPLATE_DB_URL"
-    copy_to ".ci/galaxy.yml"
     copy_to ".ci/${GALAXY_TEMPLATE_DB}"
     copy_to ".ci/tool_sheds_conf.xml"
     copy_to ".ci/condarc"
@@ -244,17 +245,17 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_OVERRIDE_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIG}" \
         -e "GALAXY_CONFIG_OVERRIDE_TOOL_SHEDS_CONFIG_FILE=/tool_sheds_conf.xml" \
         -e "GALAXY_CONFIG_OVERRIDE_SHED_TOOL_DATA_TABLE_CONFIG=${SHED_TOOL_DATA_TABLE_CONFIG}" \
+        -e "GALAXY_CONFIG_OVERRIDE_SHED_DATA_MANAGER_CONFIG_FILE=${SHED_DATA_MANAGER_CONFIG}" \
         -e "GALAXY_CONFIG_TOOL_DATA_PATH=/tmp/tool-data" \
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
         -e "GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATH}" \
         -v "/cvmfs/${REPO}:/cvmfs/${REPO}" \
-        -v "\$(pwd)/${REMOTE_WORKDIR}/galaxy.yml:/galaxy/server/config/galaxy.yml" \
         -v "\$(pwd)/${REMOTE_WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
         -v "\$(pwd)/${REMOTE_WORKDIR}/condarc:${CONDA_PATH}/.condarc" \
         -v "${GALAXY_TMPDIR}:/galaxy/server/database" \
         "$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --yaml config/galaxy.yml
-    GALAXY_UP=true
+    GALAXY_CONTAINER_UP=true
 }
 
 
@@ -277,7 +278,7 @@ function run_bgruening_galaxy() {
         -v "\$(pwd)/${REMOTE_WORKDIR}/nginx.conf:/etc/nginx/nginx.conf" \
         -e "GALAXY_CONFIG_JOB_CONFIG_FILE=/job_conf.xml" \
         "$GALAXY_DOCKER_IMAGE"
-    GALAXY_UP=true
+    GALAXY_CONTAINER_UP=true
 }
 
 
@@ -299,9 +300,9 @@ function run_galaxy() {
 function stop_galaxy() {
     log "Stopping Galaxy on Stratum 0"
     exec_on docker kill "$CONTAINER_NAME" || true  # probably failed to start, don't prevent the rest of cleanup
-    exec_on docker rm -v "$CONTAINER_NAME"
+    exec_on docker rm -v "$CONTAINER_NAME" || true
     [ -n "$GALAXY_TMPDIR" ] && exec_on rm -rf "$GALAXY_TMPDIR"
-    GALAXY_UP=false
+    GALAXY_CONTAINER_UP=false
 }
 
 
