@@ -1,0 +1,23 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Assembly
+tools:
+- name: unicycler
+  owner: iuc
+  revisions:
+  - 88c240872a65
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: quast
+  owner: iuc
+  revisions:
+  - 59db8ea8c845
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: trinity_psc
+  owner: nate
+  revisions:
+  - 1de64ac61b4e
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
