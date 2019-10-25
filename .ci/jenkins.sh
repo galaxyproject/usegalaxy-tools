@@ -10,7 +10,8 @@ GALAXY_URL="http://127.0.0.1:${LOCAL_PORT}"
 REMOTE_WORKDIR='.local/share/usegalaxy-tools'
 SSH_MASTER_SOCKET_DIR="${HOME}/.cache/usegalaxy-tools"
 
-GALAXY_DOCKER_IMAGE='galaxy/galaxy:19.09-k8s'
+GALAXY_DOCKER_IMAGE='galaxy/galaxy:19.09-7f839ee'
+GALAXY_DOCKER_IMAGE_PULL=false
 GALAXY_TEMPLATE_DB_URL='https://depot.galaxyproject.org/nate/galaxy-158.sqlite'
 GALAXY_TEMPLATE_DB="${GALAXY_TEMPLATE_DB_URL##*/}"
 
@@ -181,6 +182,7 @@ function setup_ephemeris() {
     set +u
     . ./ephemeris/bin/activate
     set -u
+    log_exec pip install wheel
     log_exec pip install --index-url https://wheels.galaxyproject.org/simple/ --extra-index-url https://pypi.org/simple/ "${EPHEMERIS:=ephemeris}" #"${PLANEMO:=planemo}"
 }
 
@@ -231,8 +233,10 @@ function run_cloudve_galaxy() {
     copy_to ".ci/condarc"
     GALAXY_TMPDIR=$(exec_on mktemp -d -t usegalaxy-tools.XXXXXX)
     exec_on mv "\$(pwd)/${REMOTE_WORKDIR}/${GALAXY_TEMPLATE_DB} ${GALAXY_TMPDIR}"
-    log "Fetching latest Galaxy image"
-    exec_on docker pull "$GALAXY_DOCKER_IMAGE"
+    if $GALAXY_DOCKER_IMAGE_PULL; then
+        log "Fetching latest Galaxy image"
+        exec_on docker pull "$GALAXY_DOCKER_IMAGE"
+    fi
     log "Updating database"
     exec_on docker run --rm --user '$(id -u)' --name="${CONTAINER_NAME}-setup" \
         -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
