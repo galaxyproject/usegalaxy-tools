@@ -78,12 +78,12 @@ trap "trap_handler" SIGTERM SIGINT ERR EXIT
 
 
 function log() {
-    echo -e '\033[1;32m#' "$@" '\033[0m'
+    [ -t 0 ] && echo -e '\033[1;32m#' "$@" '\033[0m' || echo "$@"
 }
 
 
 function log_error() {
-    echo -e '\033[0;31mERROR:' "$@" '\033[0m'
+    [ -t 0 ] && echo -e '\033[0;31mERROR:' "$@" '\033[0m' || echo 'ERROR:' "$@"
 }
 
 

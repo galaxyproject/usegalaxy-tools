@@ -1,0 +1,11 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Get Data
+tools:
+- name: sra_tools
+  owner: iuc
+  revisions:
+  - f5ea3ce9b9b0
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
