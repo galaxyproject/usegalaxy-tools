@@ -1,0 +1,35 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: TRANSIT
+tools:
+- name: transit_gumbel
+  owner: iuc
+  revisions:
+  - c980be2c002c
+  tool_panel_section_id: transit
+  tool_panel_section_label: TRANSIT
+- name: transit_hmm
+  owner: iuc
+  revisions:
+  - 32da07a53d3b
+  tool_panel_section_id: transit
+  tool_panel_section_label: TRANSIT
+- name: transit_resampling
+  owner: iuc
+  revisions:
+  - 335197e8f75e
+  tool_panel_section_id: transit
+  tool_panel_section_label: TRANSIT
+- name: transit_tn5gaps
+  owner: iuc
+  revisions:
+  - c68753eedf72
+  tool_panel_section_id: transit
+  tool_panel_section_label: TRANSIT
+- name: gff_to_prot
+  owner: iuc
+  revisions:
+  - b12ff7a3ee41
+  tool_panel_section_id: transit
+  tool_panel_section_label: TRANSIT
