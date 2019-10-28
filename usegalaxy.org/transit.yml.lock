@@ -27,3 +27,9 @@ tools:
   - c68753eedf72
   tool_panel_section_id: transit
   tool_panel_section_label: TRANSIT
+- name: gff_to_prot
+  owner: iuc
+  revisions:
+  - b12ff7a3ee41
+  tool_panel_section_id: transit
+  tool_panel_section_label: TRANSIT
