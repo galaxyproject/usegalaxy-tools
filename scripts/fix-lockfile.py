@@ -5,7 +5,7 @@ import argparse
 import logging
 import string
 
-logging.basicConfig()
+logging.basicConfig(level=logging.INFO)
 
 
 def section_id_chr(c):
@@ -96,4 +96,5 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('fn', type=argparse.FileType('r'), help="Tool.yaml file")
     args = parser.parse_args()
+    logging.info("Processing %s", args.fn.name)
     update_file(args.fn.name)
