@@ -6,5 +6,5 @@ tools:
 - name: transit_gumbel
   owner: iuc
   revisions:
-  - ecce0cbe659f
+  - c980be2c002c
   tool_panel_section_id: transit

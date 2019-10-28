@@ -6,5 +6,5 @@ tools:
 - name: transit_resampling
   owner: iuc
   revisions:
-  - 0e0618c96ca4
+  - 335197e8f75e
   tool_panel_section_id: transit

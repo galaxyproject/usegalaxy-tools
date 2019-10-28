@@ -6,5 +6,5 @@ tools:
 - name: transit_hmm
   owner: iuc
   revisions:
-  - a15f2773a7d7
+  - 32da07a53d3b
   tool_panel_section_id: transit
