@@ -1,10 +1,13 @@
 install_repository_dependencies: true
 install_resolver_dependencies: true
 install_tool_dependencies: false
-tool_panel_section_id: transit
+tool_panel_section_label: TRANSIT
 tools:
+- name: transit_gumbel
+  owner: iuc
+- name: transit_hmm
+  owner: iuc
+- name: transit_resampling
+  owner: iuc
 - name: transit_tn5gaps
   owner: iuc
-  revisions:
-  - c68753eedf72
-  tool_panel_section_id: transit
