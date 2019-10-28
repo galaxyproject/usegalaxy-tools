@@ -1,0 +1,125 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: RNA-seq
+tools:
+- name: limma_voom
+  owner: iuc
+  revisions:
+  - 0921444c832d
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: edger
+  owner: iuc
+  revisions:
+  - 334ce9b1bac5
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: hisat2
+  owner: iuc
+  revisions:
+  - 0c16cad5e03b
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: featurecounts
+  owner: iuc
+  revisions:
+  - a37612abf7f9
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: dexseq
+  owner: iuc
+  revisions:
+  - 9fd8b69e6e68
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: stringtie
+  owner: iuc
+  revisions:
+  - eba36e001f45
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: salmon
+  owner: bgruening
+  revisions:
+  - 7fdb9d1591e2
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: diamond
+  owner: bgruening
+  revisions:
+  - 64be1ac21109
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: kallisto_quant
+  owner: iuc
+  revisions:
+  - 60f888039fb2
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: kallisto_pseudo
+  owner: iuc
+  revisions:
+  - 5ae5c312d718
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: sailfish
+  owner: bgruening
+  revisions:
+  - a8f343909c17
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: goseq
+  owner: iuc
+  revisions:
+  - 8b3e3657034e
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: deseq2
+  owner: iuc
+  revisions:
+  - 0696db066a5b
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: rgrnastar
+  owner: iuc
+  revisions:
+  - 850f3679b9b4
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: cummerbund
+  owner: devteam
+  revisions:
+  - 78fcfc04fcfe
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: htseq_count
+  owner: lparsons
+  revisions:
+  - 67b0b160903a
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: gffcompare
+  owner: iuc
+  revisions:
+  - 0f710191a66d
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: cuffmerge
+  owner: devteam
+  revisions:
+  - cf747d1bd79a
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: filter_transcripts_via_tracking
+  owner: devteam
+  revisions:
+  - 45f89dcf0b4c
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: structurefold
+  owner: tyty
+  revisions:
+  - 7bb98e9296e9
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
