@@ -48,3 +48,17 @@ tools:
   owner: devteam
 - name: bamtools_filter
   owner: devteam
+- name: samtools_depth
+  owner: iuc
+- name: samtools_fastx
+  owner: iuc
+- name: samtools_fixmate
+  owner: iuc
+- name: samtools_markdup
+  owner: iuc
+- name: samtools_merge
+  owner: iuc
+- name: samtools_phase
+  owner: devteam
+- name: samtools_view
+  owner: iuc
