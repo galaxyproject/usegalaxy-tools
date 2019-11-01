@@ -84,3 +84,9 @@ tools:
   owner: ethevenot
 - name: numeric_clustering
   owner: bgruening
+- name: sklearn_model_fit
+  owner: bgruening
+- name: sklearn_train_test_split
+  owner: bgruening
+- name: fitted_model_eval
+  owner: bgruening
