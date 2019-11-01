@@ -44,6 +44,12 @@ tools:
   owner: bgruening
 - name: sklearn_generalized_linear
   owner: bgruening
+- name: sklearn_model_fit
+  owner: bgruening
+- name: sklearn_train_test_split
+  owner: bgruening
+- name: sklearn_fitted_model_eval
+  owner: bgruening
 - name: plot_from_lda
   owner: devteam
 - name: mine
