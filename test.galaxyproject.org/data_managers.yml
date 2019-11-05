@@ -20,53 +20,21 @@ tools:
   owner: devteam
 - name: data_manager_snpeff
   owner: iuc
-- name: data_manager_snpeff
-  owner: iuc
 - name: data_manager_kallisto_index_builder
   owner: iuc
 - name: data_manager_manual
   owner: iuc
-- name: data_manager_snpeff
-  owner: iuc
-  tool_shed_url: testtoolshed.g2.bx.psu.edu
-- name: data_manager_snpeff
-  owner: iuc
-  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: data_manager_plant_tribes_scaffolds_downloader
-  owner: iuc
-- name: data_manager_bowtie_index_builder
-  owner: iuc
-- name: data_manager_bowtie_index_builder
-  owner: iuc
-- name: data_manager_bowtie2_index_builder
-  owner: devteam
-- name: data_manager_bwa_mem_index_builder
-  owner: devteam
-- name: data_manager_bowtie_index_builder
   owner: iuc
 - name: data_manager_bowtie_index_builder
   owner: iuc
 - name: data_manager_fetch_ncbi_taxonomy
   owner: devteam
-- name: data_manager_fetch_genome_dbkeys_all_fasta
-  owner: devteam
 - name: data_manager_gatk_picard_index_builder
-  owner: devteam
-- name: data_manager_hisat2_index_builder
-  owner: iuc
-- name: data_manager_picard_index_builder
   owner: devteam
 - name: data_manager_sam_fasta_index_builder
   owner: devteam
-- name: data_manager_snpeff
-  owner: iuc
-- name: data_manager_snpeff
-  owner: iuc
-- name: data_manager_star_index_builder
-  owner: iuc
-- name: data_manager_star_index_builder
-  owner: iuc
-- name: data_manager_twobit_builder
-  owner: devteam
+#- name: data_manager_star_index_builder
+#  owner: iuc
 - name: data_manager_gemini_database_downloader
   owner: iuc
