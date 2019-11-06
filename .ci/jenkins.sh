@@ -530,6 +530,8 @@ function check_for_repo_changes() {
     exec_on diff -u "${OVERLAYFS_LOWER}${stc##*${REPO}}" "$stc" || true
     log_debug "diff of shed_tool_data_table_conf.xml"
     exec_on diff -u "${OVERLAYFS_LOWER}${SHED_TOOL_DATA_TABLE_CONFIG##*${REPO}}" "$SHED_TOOL_DATA_TABLE_CONFIG" || true
+    log_debug "diff of shed_data_manager.xml"
+    exec_on diff -u "${OVERLAYFS_LOWER}${SHED_DATA_MANAGER_CONFIG##*${REPO}}" "$SHED_DATA_MANAGER_CONFIG" || true
     exec_on "[ -d '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}' -o -d '${OVERLAYFS_UPPER}${SHED_TOOL_DIR##*${REPO}}' ]" || {
         log_error "Tool installation failed";
         show_logs
