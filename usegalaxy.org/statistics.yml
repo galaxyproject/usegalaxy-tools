@@ -76,3 +76,9 @@ tools:
   owner: bgruening
 - name: model_prediction
   owner: bgruening
+- name: sklearn_model_fit
+  owner: bgruening
+- name: sklearn_train_test_split
+  owner: bgruening
+- name: sklearn_fitted_model_eval
+  owner: bgruening

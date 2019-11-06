@@ -231,3 +231,21 @@ tools:
   - ce00f1cccb03
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
+- name: sklearn_model_fit
+  owner: bgruening
+  revisions:
+  - 734c66aa945a
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: sklearn_train_test_split
+  owner: bgruening
+  revisions:
+  - 0985b0dd6f1a
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: sklearn_fitted_model_eval
+  owner: bgruening
+  revisions:
+  - eaddff553324
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
