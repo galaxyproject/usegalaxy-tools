@@ -1,0 +1,4 @@
+tool_panel_section_id: variant_calling
+tools:
+- name: gatk4_mutect2
+  owner: iuc

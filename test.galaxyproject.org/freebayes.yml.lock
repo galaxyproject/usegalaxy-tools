@@ -1,0 +1,10 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_id: variant_calling
+tools:
+- name: freebayes
+  owner: devteam
+  revisions:
+  - ef2c525bd8cd
+  tool_panel_section_id: variant_calling
