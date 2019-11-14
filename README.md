@@ -2,8 +2,6 @@
 
 **WORK IN PROGRESS**
 
-[![Build Status](https://travis-ci.org/galaxyproject/usegalaxy-tools.svg?branch=master)](https://travis-ci.org/galaxyproject/usegalaxy-tools)
-
 ## Using these tools
 
 Add the following dependency resolver:
