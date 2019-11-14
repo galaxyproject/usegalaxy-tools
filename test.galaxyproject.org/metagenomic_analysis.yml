@@ -23,3 +23,25 @@ tools:
   owner: iuc
 - name: biom_add_metadata
   owner: iuc
+- name: dada2_filterandtrim
+  owner: iuc
+- name: dada2_dada
+  owner: iuc
+- name: dada2_removebimeradenovo
+  owner: iuc
+- name: dada2_learnerrors
+  owner: iuc
+- name: dada2_makesequencetable
+  owner: iuc
+- name: dada2_assigntaxonomyaddspecies
+  owner: iuc
+- name: dada2_seqcounts
+  owner: iuc
+- name: dada2_mergepairs
+  owner: iuc
+- name: dada2_plotcomplexity
+  owner: iuc
+- name: dada2_plotqualityprofile
+  owner: iuc
+- name: data_manager_dada2
+  owner: iuc
