@@ -13,9 +13,9 @@ SSH_MASTER_SOCKET_DIR="${HOME}/.cache/usegalaxy-tools"
 
 # Set to 'centos:7' and set GALAXY_GIT_* below to use a clone
 # This is my usegalaxy-tools branch of Galaxy built with galaxy-docker-k8s (g2test@galaxy04)
-GALAXY_DOCKER_IMAGE='galaxy/galaxy:19.09-usegalaxy-tools'
+GALAXY_DOCKER_IMAGE='galaxy/galaxy-k8s:19.09'
 # Disable if using a locally built image e.g. for debugging
-GALAXY_DOCKER_IMAGE_PULL=false
+GALAXY_DOCKER_IMAGE_PULL=TRUE
 
 GALAXY_TEMPLATE_DB_URL='https://depot.galaxyproject.org/nate/galaxy-158.sqlite'
 GALAXY_TEMPLATE_DB="${GALAXY_TEMPLATE_DB_URL##*/}"
