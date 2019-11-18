@@ -6,5 +6,5 @@ tools:
 - name: gatk4_mutect2
   owner: iuc
   revisions:
-  - f41a1e03538b
+  - fd2d6e035c3f
   tool_panel_section_id: variant_calling
