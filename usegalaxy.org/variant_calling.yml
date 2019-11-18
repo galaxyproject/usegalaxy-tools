@@ -22,3 +22,5 @@ tools:
   owner: boris
 - name: getalleleseq
   owner: boris
+- name: snippy
+  owner: iuc
