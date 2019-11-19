@@ -96,3 +96,9 @@ tools:
   - 8f0af7251167
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
+- name: gatk4_mutect2
+  owner: iuc
+  revisions:
+  - fd2d6e035c3f
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling

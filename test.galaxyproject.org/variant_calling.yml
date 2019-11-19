@@ -33,3 +33,5 @@ tools:
   tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: mutate_snp_codon
   owner: devteam
+- name: gatk4_mutect2
+  owner: iuc
