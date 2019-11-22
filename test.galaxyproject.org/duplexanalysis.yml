@@ -1,0 +1,6 @@
+tool_panel_section_label: Du Novo
+tools:
+- name: duplex_family_size_distribution
+  owner: iuc
+- name: variant_analyzer
+  owner: iuc
