@@ -1,0 +1,14 @@
+tool_panel_section_label: Du Novo
+tools:
+- name: fsd
+  owner: mheinzl
+- name: fsd_bvsa
+  owner: mheinzl
+- name: fsd_regions
+  owner: mheinzl
+- name: hd
+  owner: mheinzl
+- name: td
+  owner: mheinzl
+- name: variant_analyzer
+  owner: iuc
