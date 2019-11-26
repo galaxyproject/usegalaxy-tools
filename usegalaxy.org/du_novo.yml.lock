@@ -15,3 +15,15 @@ tools:
   - 7f170cb06e2e
   tool_panel_section_id: du_novo
   tool_panel_section_label: Du Novo
+- name: duplex_family_size_distribution
+  owner: iuc
+  revisions:
+  - 7fc3c8704c05
+  tool_panel_section_id: du_novo
+  tool_panel_section_label: Du Novo
+- name: variant_analyzer
+  owner: iuc
+  revisions:
+  - 8d29173d49a9
+  tool_panel_section_id: du_novo
+  tool_panel_section_label: Du Novo

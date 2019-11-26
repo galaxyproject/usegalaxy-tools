@@ -4,3 +4,7 @@ tools:
   owner: nick
 - name: sequence_content_trimmer
   owner: nick
+- name: duplex_family_size_distribution
+  owner: iuc
+- name: variant_analyzer
+  owner: iuc
