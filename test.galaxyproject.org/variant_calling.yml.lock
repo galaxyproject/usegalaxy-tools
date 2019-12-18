@@ -3,6 +3,18 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: Variant Calling
 tools:
+- name: lofreq_call
+  owner: iuc
+  revisions:
+  - 31216d510164
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: lofreq_viterbi
+  owner: iuc
+  revisions:
+  - 33a416e1659e
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
 - name: gatk4_mutect2
   owner: dave
   revisions:
