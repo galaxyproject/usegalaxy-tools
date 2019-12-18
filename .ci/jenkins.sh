@@ -210,7 +210,7 @@ function setup_ephemeris() {
     set +u
     . ./ephemeris/bin/activate
     set -u
-    log_exec pip install wheel
+    log_exec pip install --upgrade pip wheel
     log_exec pip install --index-url https://wheels.galaxyproject.org/simple/ --extra-index-url https://pypi.org/simple/ "${EPHEMERIS:=ephemeris}" #"${PLANEMO:=planemo}"
 }
 
