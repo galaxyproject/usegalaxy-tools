@@ -69,66 +69,66 @@ tools:
 - name: dada2_filterandtrim
   owner: iuc
   revisions:
-  - cc41546adf56
+  - 777f9846c56d
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_dada
   owner: iuc
   revisions:
-  - ce4aec98949d
+  - 6b4ddc3b64bd
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_removebimeradenovo
   owner: iuc
   revisions:
-  - 1937c2b4da7a
+  - 7f8f0e9fcb37
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_learnerrors
   owner: iuc
   revisions:
-  - fd892c845981
+  - 39638e0aff59
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_makesequencetable
   owner: iuc
   revisions:
-  - 6e0946238688
+  - 9ccec6ed8e82
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_assigntaxonomyaddspecies
   owner: iuc
   revisions:
-  - 18517edb4733
+  - 4d89978c6188
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_seqcounts
   owner: iuc
   revisions:
-  - d26cea4b4cc4
+  - 4cc834cce4fb
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_mergepairs
   owner: iuc
   revisions:
-  - 805daed21ef3
+  - b1e55c248f17
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_plotcomplexity
   owner: iuc
   revisions:
-  - ab2030f217a9
+  - 498d57610fcd
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_plotqualityprofile
   owner: iuc
   revisions:
-  - 371afe17d247
+  - fa11922f3d91
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: data_manager_dada2
   owner: iuc
   revisions:
-  - f57c13f5878b
+  - bf7b2c14cabc
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
