@@ -1,6 +1,12 @@
 tool_panel_section_label: Variant Calling
 tools:
+- name: lofreq_alnqual
+  owner: iuc
 - name: lofreq_call
+  owner: iuc
+- name: lofreq_filter
+  owner: iuc
+- name: lofreq_indelqual
   owner: iuc
 - name: lofreq_viterbi
   owner: iuc
