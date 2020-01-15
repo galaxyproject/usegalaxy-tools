@@ -12,6 +12,8 @@ tools:
   owner: devteam
 - name: data_manager_diamond_database_builder
   owner: bgruening
+- name: data_manager_dada2
+  owner: iuc
 - name: data_manager_hisat2_index_builder
   owner: iuc
 - name: data_manager_bowtie2_index_builder
