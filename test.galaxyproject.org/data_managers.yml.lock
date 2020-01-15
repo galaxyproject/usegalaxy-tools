@@ -66,7 +66,6 @@ tools:
 - name: data_manager_snpeff
   owner: iuc
   revisions:
-  - 71821eb11274
   - d107d20dc6bd
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
