@@ -71,6 +71,37 @@ tools:
   tool_panel_section_label: Variant Calling
 - name: snippy
   owner: iuc
-  revisions: []
+  revisions:
+  - 32f2211eeec3
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: lofreq_alnqual
+  owner: iuc
+  revisions:
+  - 606542a18f82
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: lofreq_call
+  owner: iuc
+  revisions:
+  - 31216d510164
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: lofreq_filter
+  owner: iuc
+  revisions:
+  - 6f9ffff040ce
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: lofreq_indelqual
+  owner: iuc
+  revisions:
+  - 5d6a078d30b0
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: lofreq_viterbi
+  owner: iuc
+  revisions:
+  - 33a416e1659e
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling

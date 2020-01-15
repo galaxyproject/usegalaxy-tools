@@ -24,3 +24,13 @@ tools:
   owner: boris
 - name: snippy
   owner: iuc
+- name: lofreq_alnqual
+  owner: iuc
+- name: lofreq_call
+  owner: iuc
+- name: lofreq_filter
+  owner: iuc
+- name: lofreq_indelqual
+  owner: iuc
+- name: lofreq_viterbi
+  owner: iuc
