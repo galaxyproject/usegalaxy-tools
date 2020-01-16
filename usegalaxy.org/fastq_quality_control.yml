@@ -6,6 +6,8 @@ tools:
   owner: pjbriggs
 - name: multiqc
   owner: iuc
+- name: fastp
+  owner: iuc
 - name: fastq_stats
   owner: devteam
 - name: fastx_quality_statistics

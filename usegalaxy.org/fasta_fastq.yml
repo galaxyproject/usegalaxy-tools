@@ -6,8 +6,6 @@ tools:
   owner: lparsons
 - name: flash
   owner: iuc
-- name: fastp
-  owner: iuc
 - name: fastx_trimmer
   owner: devteam
 - name: fastx_reverse_complement
