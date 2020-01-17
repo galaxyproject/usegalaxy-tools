@@ -201,3 +201,39 @@ tools:
   - 2051602a5f97
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
+- name: fasta_stats
+  owner: iuc
+  revisions:
+  - 9c620a950d3a
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: filtlong
+  owner: iuc
+  revisions:
+  - 8880fb74ef56
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: pear
+  owner: iuc
+  revisions:
+  - 2f804526f5fd
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: sickle
+  owner: iuc
+  revisions:
+  - 6756c87dc2d4
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: ucsc_fasplit
+  owner: iuc
+  revisions:
+  - 71f649c23021
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: umi_tools_count
+  owner: iuc
+  revisions:
+  - 276b4111b253
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
