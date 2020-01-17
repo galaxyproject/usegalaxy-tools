@@ -15,3 +15,57 @@ tools:
   - d6694932c5e0
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
+- name: msaboot
+  owner: iuc
+  revisions:
+  - 99f8b4e631e5
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_delta_filter
+  owner: iuc
+  revisions:
+  - 502018997bae
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_mummer
+  owner: iuc
+  revisions:
+  - 48badcd29c5d
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_dnadiff
+  owner: iuc
+  revisions:
+  - deacc6b40cc0
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_show_coords
+  owner: iuc
+  revisions:
+  - f8734af48332
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_mummerplot
+  owner: iuc
+  revisions:
+  - e8c60daa41e0
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_nucmer
+  owner: iuc
+  revisions:
+  - a18fb4f826fc
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: pipelign
+  owner: iuc
+  revisions:
+  - cd9d1eccda7e
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: sina
+  owner: iuc
+  revisions:
+  - 49b937f12aa4
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
