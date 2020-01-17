@@ -130,3 +130,87 @@ tools:
   - ade773848c3d
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: maker_map_ids
+  owner: iuc
+  revisions:
+  - 326f9c294b09
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: maker
+  owner: iuc
+  revisions:
+  - 5e96efe6e6c6
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: mlst
+  owner: iuc
+  revisions:
+  - 1f5641a52664
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: progressivemauve
+  owner: iuc
+  revisions:
+  - bdb752f3c6bb
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: repeat_masker
+  owner: bgruening
+  revisions:
+  - d7540a923c7b
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: roary
+  owner: iuc
+  revisions:
+  - 809e42326fc2
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: snap_training
+  owner: iuc
+  revisions:
+  - 2a598c0aa042
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: socru
+  owner: iuc
+  revisions:
+  - ce0c9fe32e04
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: spaln
+  owner: iuc
+  revisions:
+  - 95ea8d97abb4
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: tbprofiler
+  owner: iuc
+  revisions:
+  - c2656b729ee9
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: tb_variant_filter
+  owner: iuc
+  revisions:
+  - 3b1e7c170b10
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: tbvcfreport
+  owner: iuc
+  revisions:
+  - 02d81b994ef5
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: tetyper
+  owner: iuc
+  revisions:
+  - 8bc80c2a15b3
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: transtermhp
+  owner: iuc
+  revisions:
+  - 012171ba9fce
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
