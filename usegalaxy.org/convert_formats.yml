@@ -16,3 +16,21 @@ tools:
   owner: devteam
 - name: fastq_to_tabular
   owner: devteam
+- name: bax2bam
+  owner: iuc
+- name: crossmap_bam
+  owner: iuc
+- name: crossmap_bed
+  owner: iuc
+- name: crossmap_wig
+  owner: iuc
+- name: crossmap_vcf
+  owner: iuc
+- name: crossmap_gff
+  owner: iuc
+- name: gfa_to_fa
+  owner: iuc
+- name: gtftobed12
+  owner: iuc
+- name: ucsc_twobittofa
+  owner: iuc
