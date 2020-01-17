@@ -21,3 +21,15 @@ tools:
   - dc25a5169a91
   tool_panel_section_id: motif
   tool_panel_section_label: Motif
+- name: meme_psp_gen
+  owner: iuc
+  revisions:
+  - ff2f53a32d0e
+  tool_panel_section_id: motif
+  tool_panel_section_label: Motif
+- name: meme_chip
+  owner: iuc
+  revisions:
+  - 091a9d638d78
+  tool_panel_section_id: motif
+  tool_panel_section_label: Motif

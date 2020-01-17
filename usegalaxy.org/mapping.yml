@@ -16,3 +16,9 @@ tools:
   owner: devteam
 - name: bowtie_wrappers
   owner: devteam
+- name: bwameth
+  owner: iuc
+- name: minimap2
+  owner: iuc
+- name: rna_starsolo
+  owner: iuc

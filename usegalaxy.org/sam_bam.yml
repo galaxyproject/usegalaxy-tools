@@ -62,3 +62,7 @@ tools:
   owner: devteam
 - name: samtools_view
   owner: iuc
+- name: qualimap_multi_bamqc
+  owner: iuc
+- name: qualimap_bamqc
+  owner: iuc

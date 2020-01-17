@@ -9,3 +9,27 @@ tools:
   - f5ea3ce9b9b0
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
+- name: ebi_metagenomics_run_downloader
+  owner: iuc
+  revisions:
+  - a1ef6c88ee37
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+- name: ebi_search_rest_results
+  owner: iuc
+  revisions:
+  - 42d5e40fcd0b
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+- name: gdcwebapp
+  owner: iuc
+  revisions:
+  - 7709b8ca3296
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+- name: ncbi_acc_download
+  owner: iuc
+  revisions:
+  - 1c58de56d587
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data

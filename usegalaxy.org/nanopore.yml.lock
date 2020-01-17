@@ -81,3 +81,15 @@ tools:
   - 1d835c691480
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
+- name: nanoplot
+  owner: iuc
+  revisions:
+  - 645159bcee2d
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: porechop
+  owner: iuc
+  revisions:
+  - 93d623d9979c
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore

@@ -189,3 +189,15 @@ tools:
   - ff313de5f7f4
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
+- name: qualimap_multi_bamqc
+  owner: iuc
+  revisions:
+  - e38af83df163
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: qualimap_bamqc
+  owner: iuc
+  revisions:
+  - e7fd6754d093
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM

@@ -9,3 +9,9 @@ tools:
   - 2889433c7ae1
   tool_panel_section_id: ncbi_blast_
   tool_panel_section_label: NCBI BLAST+
+- name: kraken2
+  owner: iuc
+  revisions:
+  - 328c607150ff
+  tool_panel_section_id: ncbi_blast_
+  tool_panel_section_label: NCBI BLAST+
