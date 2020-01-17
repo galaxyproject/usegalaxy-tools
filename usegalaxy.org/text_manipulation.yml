@@ -14,3 +14,5 @@ tools:
   owner: bgruening
 - name: annotatemyids
   owner: iuc
+- name: table_compute
+  owner: iuc

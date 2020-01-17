@@ -45,3 +45,9 @@ tools:
   - 1aae04680c4b
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
+- name: table_compute
+  owner: iuc
+  revisions:
+  - 60ff16842fcd
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
