@@ -6,3 +6,29 @@ tools:
   owner: iuc
 - name: trinity_psc
   owner: nate
+- name: abyss
+  owner: iuc
+- name: disco
+  owner: iuc
+- name: idba_hybrid
+  owner: iuc
+- name: idba_tran
+  owner: iuc
+- name: idba_ud
+  owner: iuc
+- name: megahit
+  owner: iuc
+- name: metaspades
+  owner: nml
+- name: miniasm
+  owner: iuc
+- name: pilon
+  owner: iuc
+- name: rnaspades
+  owner: iuc
+- name: shovill
+  owner: iuc
+- name: spades
+  owner: nml
+- name: velvetoptimiser
+  owner: simon-gladman
