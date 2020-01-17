@@ -13,7 +13,7 @@ IGNORE_REPOS = ('package_', 'suite_')
 def list_repos_to_install(infile, toolset, outfile):
     toolset_dir = os.path.join(ROOT_DIR, toolset)
     repos = defaultdict(set)
-    for subset in glob.glob("{toolset_dir}/*.yml".format(toolset_dir=toolset_dir)):
+    for subset in glob.glob("{toolset_dir}/*.y*ml".format(toolset_dir=toolset_dir)):
         with open(subset) as s:
             loaded_repos = yaml.safe_load(s.read())['tools']
             for repo in loaded_repos:
