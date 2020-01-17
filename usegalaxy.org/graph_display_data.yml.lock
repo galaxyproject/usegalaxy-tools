@@ -75,9 +75,87 @@ tools:
   - 09efff9a5765
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
+- name: charts
+  owner: iuc
+  revisions:
+  - a87a3773d8ed
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: export2graphlan
+  owner: iuc
+  revisions:
+  - b16989c1e3a7
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_violin
+  owner: iuc
+  revisions:
+  - 637cf21db396
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_point
+  owner: iuc
+  revisions:
+  - 9cec81e1b90e
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_histogram
+  owner: iuc
+  revisions:
+  - 536078949ae4
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_heatmap
+  owner: iuc
+  revisions:
+  - de002ba2b849
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_pca
+  owner: iuc
+  revisions:
+  - 1b9406a1a769
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: intervene
+  owner: iuc
+  revisions:
+  - f5fa293605ca
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
 - name: jbrowse
   owner: iuc
   revisions:
-  - edb534491f92
+  - 3235aeb45c22
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: newick_utils
+  owner: iuc
+  revisions:
+  - b4163d2f64ab
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: pathview
+  owner: iuc
+  revisions:
+  - bd99e8fbde97
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: pygenometracks
+  owner: iuc
+  revisions:
+  - eca03db4f612
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: tsne
+  owner: iuc
+  revisions:
+  - 53cfe6f313b3
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: volcanoplot
+  owner: iuc
+  revisions:
+  - 73b8cb5bddcd
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data

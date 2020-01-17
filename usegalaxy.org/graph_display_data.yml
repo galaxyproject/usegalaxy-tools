@@ -24,5 +24,31 @@ tools:
   owner: bgruening
 - name: ml_visualization_ex
   owner: bgruening
+- name: charts
+  owner: iuc
+- name: export2graphlan
+  owner: iuc
+- name: ggplot2_violin
+  owner: iuc
+- name: ggplot2_point
+  owner: iuc
+- name: ggplot2_histogram
+  owner: iuc
+- name: ggplot2_heatmap
+  owner: iuc
+- name: ggplot2_pca
+  owner: iuc
+- name: intervene
+  owner: iuc
 - name: jbrowse
+  owner: iuc
+- name: newick_utils
+  owner: iuc
+- name: pathview
+  owner: iuc
+- name: pygenometracks
+  owner: iuc
+- name: tsne
+  owner: iuc
+- name: volcanoplot
   owner: iuc
