@@ -15,3 +15,9 @@ tools:
   - 33151a38533a
   tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations
+- name: collection_element_identifiers
+  owner: iuc
+  revisions:
+  - d3c07d270a50
+  tool_panel_section_id: collection_operations
+  tool_panel_section_label: Collection Operations
