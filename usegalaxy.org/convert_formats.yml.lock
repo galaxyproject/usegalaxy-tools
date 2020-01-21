@@ -51,3 +51,57 @@ tools:
   - ccf4e1d1fcbe
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
+- name: bax2bam
+  owner: iuc
+  revisions:
+  - ee356d7a5518
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: crossmap_bam
+  owner: iuc
+  revisions:
+  - 0f0cf480051b
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: crossmap_bed
+  owner: iuc
+  revisions:
+  - 91efc13d3ec1
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: crossmap_wig
+  owner: iuc
+  revisions:
+  - e8d84292e510
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: crossmap_vcf
+  owner: iuc
+  revisions:
+  - 97979c3d179f
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: crossmap_gff
+  owner: iuc
+  revisions:
+  - 09c6a9e067f9
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: gfa_to_fa
+  owner: iuc
+  revisions:
+  - 49d6f8ef63b3
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: gtftobed12
+  owner: iuc
+  revisions:
+  - 57d45064f114
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: ucsc_twobittofa
+  owner: iuc
+  revisions:
+  - 356dc923f8d3
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
