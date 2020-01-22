@@ -68,3 +68,15 @@ tools:
   owner: devteam
 - name: fasta_compute_length
   owner: devteam
+- name: fasta_stats
+  owner: iuc
+- name: filtlong
+  owner: iuc
+- name: pear
+  owner: iuc
+- name: sickle
+  owner: iuc
+- name: ucsc_fasplit
+  owner: iuc
+- name: umi_tools_count
+  owner: iuc
