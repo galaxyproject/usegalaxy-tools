@@ -51,3 +51,9 @@ tools:
   - 3987db70a4b0
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
+- name: prinseq
+  owner: iuc
+  revisions:
+  - 02befcb391f5
+  tool_panel_section_id: fastq_quality_control
+  tool_panel_section_label: FASTQ Quality Control

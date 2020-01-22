@@ -16,3 +16,5 @@ tools:
   owner: devteam
 - name: fastq_quality_boxplot
   owner: devteam
+- name: prinseq
+  owner: iuc
