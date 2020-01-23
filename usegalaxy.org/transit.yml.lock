@@ -6,19 +6,19 @@ tools:
 - name: transit_gumbel
   owner: iuc
   revisions:
-  - c980be2c002c
+  - ecce0cbe659f
   tool_panel_section_id: transit
   tool_panel_section_label: TRANSIT
 - name: transit_hmm
   owner: iuc
   revisions:
-  - 32da07a53d3b
+  - a15f2773a7d7
   tool_panel_section_id: transit
   tool_panel_section_label: TRANSIT
 - name: transit_resampling
   owner: iuc
   revisions:
-  - 335197e8f75e
+  - 0e0618c96ca4
   tool_panel_section_id: transit
   tool_panel_section_label: TRANSIT
 - name: transit_tn5gaps
