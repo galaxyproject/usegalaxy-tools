@@ -51,3 +51,21 @@ tools:
   - b46e7d48076a
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: bwameth
+  owner: iuc
+  revisions:
+  - 29bdbc353f20
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: minimap2
+  owner: iuc
+  revisions:
+  - b3eab4b67562
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: rna_starsolo
+  owner: iuc
+  revisions:
+  - 178bdbdb6d24
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping

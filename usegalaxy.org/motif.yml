@@ -6,3 +6,7 @@ tools:
   owner: iuc
 - name: weblogo3
   owner: devteam
+- name: meme_psp_gen
+  owner: iuc
+- name: meme_chip
+  owner: iuc

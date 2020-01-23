@@ -2,3 +2,5 @@ tool_panel_section_label: NCBI BLAST+
 tools:
 - name: ncbi_blast_plus
   owner: devteam
+- name: kraken2
+  owner: iuc

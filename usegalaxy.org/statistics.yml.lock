@@ -249,3 +249,9 @@ tools:
   - eaddff553324
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
+- name: graphembed
+  owner: iuc
+  revisions:
+  - f28678233baf
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
