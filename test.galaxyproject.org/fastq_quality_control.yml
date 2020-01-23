@@ -16,3 +16,5 @@ tools:
   owner: devteam
 - name: fastx_nucleotides_distribution
   owner: devteam
+- name: fastp
+  owner: iuc
