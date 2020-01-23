@@ -190,3 +190,9 @@ tools:
   - 2d0d13b0b0f1
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
+- name: fastp
+  owner: iuc
+  revisions:
+  - 1d8fe9bc4cb0
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ

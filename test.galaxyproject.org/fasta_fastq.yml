@@ -63,3 +63,5 @@ tools:
   owner: devteam
 - name: fastq_trimmer
   owner: devteam
+- name: fastp
+  owner: iuc
