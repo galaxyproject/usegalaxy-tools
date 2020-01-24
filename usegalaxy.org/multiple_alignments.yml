@@ -4,3 +4,21 @@ tools:
   owner: rnateam
 - name: clustalw
   owner: devteam
+- name: msaboot
+  owner: iuc
+- name: mummer_delta_filter
+  owner: iuc
+- name: mummer_mummer
+  owner: iuc
+- name: mummer_dnadiff
+  owner: iuc
+- name: mummer_show_coords
+  owner: iuc
+- name: mummer_mummerplot
+  owner: iuc
+- name: mummer_nucmer
+  owner: iuc
+- name: pipelign
+  owner: iuc
+- name: sina
+  owner: iuc
