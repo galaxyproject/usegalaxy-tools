@@ -14,5 +14,17 @@ tools:
   owner: bgruening
 - name: annotatemyids
   owner: iuc
+- name: column_order_header_sort
+  owner: iuc
+- name: column_remove_by_header
+  owner: iuc
+- name: gff3_rebase
+  owner: iuc
+- name: jq
+  owner: iuc
+- name: reshape2_cast
+  owner: iuc
+- name: reshape2_melt
+  owner: iuc
 - name: table_compute
   owner: iuc
