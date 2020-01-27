@@ -34,3 +34,27 @@ tools:
   owner: iuc
 - name: lofreq_viterbi
   owner: iuc
+- name: basil
+  owner: iuc
+- name: bcftools_plugin_color_chrs
+  owner: iuc
+- name: bcftools_plugin_frameshifts
+  owner: iuc
+- name: exomedepth
+  owner: crs4
+- name: gatk4_mutect2
+  owner: iuc
+- name: mixcr_analyze
+  owner: iuc
+- name: ococo
+  owner: iuc
+- name: varscan_copynumber
+  owner: iuc
+- name: varscan_mpileup
+  owner: iuc
+- name: varscan_somatic
+  owner: iuc
+- name: snpsift_dbnsfp
+  owner: iuc
+- name: snpsift_genesets
+  owner: iuc

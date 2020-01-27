@@ -105,3 +105,75 @@ tools:
   - 33a416e1659e
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
+- name: basil
+  owner: iuc
+  revisions:
+  - e6ef29001647
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: bcftools_plugin_color_chrs
+  owner: iuc
+  revisions:
+  - 71dfde92fd57
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: bcftools_plugin_frameshifts
+  owner: iuc
+  revisions:
+  - 48ac4d611e92
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: exomedepth
+  owner: crs4
+  revisions:
+  - 45af4a9748cf
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: gatk4_mutect2
+  owner: iuc
+  revisions:
+  - fd2d6e035c3f
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: mixcr_analyze
+  owner: iuc
+  revisions:
+  - d38cfb922f95
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: ococo
+  owner: iuc
+  revisions:
+  - 03cabb6711c5
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: varscan_copynumber
+  owner: iuc
+  revisions:
+  - 0bc56f894766
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: varscan_mpileup
+  owner: iuc
+  revisions:
+  - e3f170cc4f95
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: varscan_somatic
+  owner: iuc
+  revisions:
+  - 4e97191a1ff7
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: snpsift_dbnsfp
+  owner: iuc
+  revisions:
+  - 4e21e4f2bc48
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: snpsift_genesets
+  owner: iuc
+  revisions:
+  - d12a810c837e
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
