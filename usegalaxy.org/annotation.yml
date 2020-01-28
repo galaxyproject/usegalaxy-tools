@@ -2,3 +2,5 @@ tool_panel_section_label: Annotation
 tools:
 - name: prokka
   owner: crs4
+- name: bp_genbank2gff3
+  owner: iuc
