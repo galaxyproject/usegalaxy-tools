@@ -10,9 +10,99 @@ tools:
   - eaee459f3d69
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: abricate
+  owner: iuc
+  revisions:
+  - 4efdca267d51
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: augustus
+  owner: bgruening
+  revisions:
+  - ca6d970d931c
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: augustus_training
+  owner: bgruening
+  revisions:
+  - 6519ebe25019
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
 - name: bp_genbank2gff3
   owner: iuc
   revisions:
   - a0d092f27fdf
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: blastxml_to_gapped_gff3
+  owner: iuc
+  revisions:
+  - 561e827baa5f
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: busco
+  owner: iuc
+  revisions:
+  - 1e62c28ba91d
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: exonerate
+  owner: iuc
+  revisions:
+  - b03ae2ba8688
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: fargene
+  owner: iuc
+  revisions:
+  - 239ce9f24386
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: fgsea
+  owner: iuc
+  revisions:
+  - 17eb1e0d711f
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: goslimmer
+  owner: iuc
+  revisions:
+  - de3e053bd6a5
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: goenrichment
+  owner: iuc
+  revisions:
+  - 2c7c9646ccf0
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: gprofiler_snpense
+  owner: iuc
+  revisions:
+  - 74385d563652
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: gprofiler_gost
+  owner: iuc
+  revisions:
+  - bf39cdd007f5
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: gprofiler_random
+  owner: iuc
+  revisions:
+  - 7d18814397a7
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: gprofiler_convert
+  owner: iuc
+  revisions:
+  - 8ee097f1763d
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: gprofiler_orth
+  owner: iuc
+  revisions:
+  - 727e7e114f9d
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
