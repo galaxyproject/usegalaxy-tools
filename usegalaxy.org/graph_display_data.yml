@@ -24,3 +24,5 @@ tools:
   owner: bgruening
 - name: ml_visualization_ex
   owner: bgruening
+- name: jbrowse
+  owner: iuc
