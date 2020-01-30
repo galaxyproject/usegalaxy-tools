@@ -34,3 +34,9 @@ tools:
   owner: iuc
 - name: gprofiler_orth
   owner: iuc
+- name: gubbins
+  owner: iuc
+- name: jcvi_gff_stats
+  owner: iuc
+- name: kobas
+  owner: iuc

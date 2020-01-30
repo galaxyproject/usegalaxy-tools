@@ -106,3 +106,21 @@ tools:
   - 727e7e114f9d
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: gubbins
+  owner: iuc
+  revisions:
+  - 637ec5d5368c
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: jcvi_gff_stats
+  owner: iuc
+  revisions:
+  - 8cffbd184762
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: kobas
+  owner: iuc
+  revisions:
+  - 20f1b45dea63
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
