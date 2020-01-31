@@ -85,6 +85,7 @@ tools:
   owner: iuc
   revisions:
   - 850f3679b9b4
+  - b9e04854e2bb
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: cummerbund

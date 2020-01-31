@@ -67,6 +67,7 @@ tools:
   owner: iuc
   revisions:
   - 8b6d0d85252b
+  - 2dcd07f40204
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pilon

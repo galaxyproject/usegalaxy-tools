@@ -25,6 +25,7 @@ tools:
   owner: iuc
   revisions:
   - 04b73d626680
+  - 137942fac417
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: megablast_xml_parser

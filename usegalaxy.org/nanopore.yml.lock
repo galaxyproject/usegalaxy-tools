@@ -7,84 +7,98 @@ tools:
   owner: iuc
   revisions:
   - 64a83664b814
+  - ca22d8497db5
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_winner
   owner: iuc
   revisions:
   - 9d8f41103cc6
+  - 79c1ac92f31b
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_times
   owner: iuc
   revisions:
   - e5072f0d3772
+  - 960be5e0b47e
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_tabular
   owner: iuc
   revisions:
   - 7f0b324de883
+  - 2cb2feb94f0e
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_stats
   owner: iuc
   revisions:
   - ae4c8446ce30
+  - 4b17acf9b6ab
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_squiggle
   owner: iuc
   revisions:
   - ce8af9373061
+  - 34553d0caa5e
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_qualpos
   owner: iuc
   revisions:
   - 2e22ebec211a
+  - 4fe6b96aff72
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_qualdist
   owner: iuc
   revisions:
   - 44111014e7c1
+  - ae9060e764b5
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_occupancy
   owner: iuc
   revisions:
   - 336791b5665f
+  - 338d15b8d6fb
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_nucdist
   owner: iuc
   revisions:
   - 3ae7ccba16cf
+  - a57b6350fd5d
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_hist
   owner: iuc
   revisions:
   - 47936349f3e9
+  - 5a82eb9e1b89
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_extract
   owner: iuc
   revisions:
   - 7593f94691fb
+  - 7e4f1ed70187
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_events
   owner: iuc
   revisions:
   - 1d835c691480
+  - 28d7819c312f
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: nanoplot
   owner: iuc
   revisions:
   - 645159bcee2d
+  - edbb6c5028f5
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: porechop

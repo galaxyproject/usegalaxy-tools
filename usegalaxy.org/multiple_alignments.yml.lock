@@ -25,36 +25,42 @@ tools:
   owner: iuc
   revisions:
   - 502018997bae
+  - abe34706eddf
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_mummer
   owner: iuc
   revisions:
   - 48badcd29c5d
+  - fc143c06a842
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_dnadiff
   owner: iuc
   revisions:
   - deacc6b40cc0
+  - 315c678562d2
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_show_coords
   owner: iuc
   revisions:
   - f8734af48332
+  - b8e2c2f95d26
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_mummerplot
   owner: iuc
   revisions:
   - e8c60daa41e0
+  - c0cedc12fcc5
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_nucmer
   owner: iuc
   revisions:
   - a18fb4f826fc
+  - 5b0b49b5421c
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: pipelign

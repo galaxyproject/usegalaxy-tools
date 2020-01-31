@@ -73,12 +73,14 @@ tools:
   owner: iuc
   revisions:
   - 28ad7ac9c193
+  - e3cbd2287f63
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: biom_convert
   owner: iuc
   revisions:
   - 0de92f0b96ef
+  - 584008e574b2
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken_translate

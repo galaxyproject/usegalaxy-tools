@@ -7,29 +7,34 @@ tools:
   owner: iuc
   revisions:
   - ecce0cbe659f
+  - f50807720df1
   tool_panel_section_id: transit
   tool_panel_section_label: TRANSIT
 - name: transit_hmm
   owner: iuc
   revisions:
   - a15f2773a7d7
+  - 532a84f0de1e
   tool_panel_section_id: transit
   tool_panel_section_label: TRANSIT
 - name: transit_resampling
   owner: iuc
   revisions:
   - 0e0618c96ca4
+  - ad4d42fabf32
   tool_panel_section_id: transit
   tool_panel_section_label: TRANSIT
 - name: transit_tn5gaps
   owner: iuc
   revisions:
   - c68753eedf72
+  - 4aaabd55eab8
   tool_panel_section_id: transit
   tool_panel_section_label: TRANSIT
 - name: gff_to_prot
   owner: iuc
   revisions:
   - b12ff7a3ee41
+  - 2aea122fbd25
   tool_panel_section_id: transit
   tool_panel_section_label: TRANSIT

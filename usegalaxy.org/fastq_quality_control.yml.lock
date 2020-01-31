@@ -19,6 +19,7 @@ tools:
   owner: iuc
   revisions:
   - b2f1f75d49c4
+  - 3d93dd18d9f8
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastp
