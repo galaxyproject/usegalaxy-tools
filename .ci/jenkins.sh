@@ -28,7 +28,7 @@ EPHEMERIS="git+https://github.com/galaxyproject/ephemeris.git"
 # Set to true to perform everything on the Jenkins worker and copy results to the Stratum 0 for publish, instead of
 # performing everything directly on the Stratum 0. Requires preinstallation/preconfiguration of CVMFS and for
 # fuse-overlayfs to be installed on Jenkins workers.
-USE_LOCAL_OVERLAYFS=false
+USE_LOCAL_OVERLAYFS=true
 
 #
 # Development/debug options
@@ -61,6 +61,7 @@ SHED_TOOL_DATA_TABLE_CONFIG=
 SHED_DATA_MANAGER_CONFIG=
 SSH_MASTER_SOCKET=
 WORKDIR=
+USER_UID="$(id -u)"
 GALAXY_DATABASE_TMPDIR=
 GALAXY_SOURCE_TMPDIR=
 OVERLAYFS_UPPER=
@@ -106,7 +107,7 @@ function log_debug() {
 function log_exec() {
     local rc
     set -x
-    "$@"
+    eval "$@"
     { rc=$?; set +x; } 2>/dev/null
     return $rc
 }
@@ -134,9 +135,12 @@ function exec_on() {
 
 
 function copy_to() {
-    $USE_LOCAL_OVERLAYFS && ! $SSH_MASTER_UP && return
     local file="$1"
-    log_exec scp -o "ControlPath=$SSH_MASTER_SOCKET" "$file" "${REPO_USER}@${REPO_STRATUM0}:${WORKDIR}/${file##*/}"
+    if $USE_LOCAL_OVERLAYFS && ! $SSH_MASTER_UP; then
+        log_exec cp "$file" "${WORKDIR}/${file##*}"
+    else
+        log_exec scp -o "ControlPath=$SSH_MASTER_SOCKET" "$file" "${REPO_USER}@${REPO_STRATUM0}:${WORKDIR}/${file##*/}"
+    fi
 }
 
 
@@ -212,12 +216,13 @@ function set_repo_vars() {
     SHED_TOOL_DIR="${SHED_TOOL_DIRS[$REPO]}"
     SHED_TOOL_DATA_TABLE_CONFIG="${SHED_TOOL_DATA_TABLE_CONFIGS[$REPO]}"
     SHED_DATA_MANAGER_CONFIG="${SHED_DATA_MANAGER_CONFIGS[$REPO]}"
-    CONTAINER_NAME="galaxy-${REPO_USER}"
+    CONTAINER_NAME="usegalaxy-tools-${REPO_USER}-${BUILD_NUMBER}"
     if $USE_LOCAL_OVERLAYFS; then
-        OVERLAYFS_LOWER="${WORKSPACE}/lower"
-        OVERLAYFS_UPPER="${WORKSPACE}/upper"
-        OVERLAYFS_WORK="${WORKSPACE}/work"
-        OVERLAYFS_MOUNT="${WORKSPACE}/rdonly"
+        OVERLAYFS_LOWER="${WORKSPACE}/${BUILD_NUMBER}/lower"
+        OVERLAYFS_UPPER="${WORKSPACE}/${BUILD_NUMBER}/upper"
+        OVERLAYFS_WORK="${WORKSPACE}/${BUILD_NUMBER}/work"
+        OVERLAYFS_MOUNT="${WORKSPACE}/${BUILD_NUMBER}/mount"
+        CVMFS_CACHE="${WORKSPACE}/${BUILD_NUMBER}/cvmfs-cache"
     else
         OVERLAYFS_UPPER="/var/spool/cvmfs/${REPO}/scratch/current"
         OVERLAYFS_LOWER="/var/spool/cvmfs/${REPO}/rdonly"
@@ -240,22 +245,32 @@ function setup_ephemeris() {
 
 
 function mount_overlay() {
-    log_exec mkdir -p "$OVERLAYFS_LOWER" "$OVERLAYFS_UPPER" "$OVERLAYFS_WORK" "$OVERLAYFS_MOUNT" \
-        "${WORKSPACE}/cvmfs-cache"
-    log_exec cvmfs2 -o config=.ci/cvmfs-fuse.conf "$REPO" "$OVERLAYFS_LOWER"
+    log "Mounting OverlayFS/CVMFS"
+    log_debug "\$JOB_NAME: ${JOB_NAME}, \$WORKSPACE: ${WORKSPACE}, \$BUILD_NUMBER: ${BUILD_NUMBER}"
+    log_exec mkdir -p "$OVERLAYFS_LOWER" "$OVERLAYFS_UPPER" "$OVERLAYFS_WORK" "$OVERLAYFS_MOUNT" "$CVMFS_CACHE"
+    log_exec cvmfs2 -o config=.ci/cvmfs-fuse.conf,allow_root "$REPO" "$OVERLAYFS_LOWER"
     LOCAL_CVMFS_MOUNTED=true
-    log_exec fuse-overlayfs
-        -o "lowerdir=${OVERLAYFS_LOWER},upperdir=${OVERLAYFS_UPPER},workdir=${OVERLAYFS_WORK}" "$OVERLAYFS_MOUNT"
+    # Attempting to create files as root yields EPERM, even with allow_root/allow_other and user_allow_other
+    # FIXME: unprivilged would be preferable but file creation inside docker fails with fuse-overlayfs
+    #log_exec fuse-overlayfs \
+    #    -o "lowerdir=${OVERLAYFS_LOWER},upperdir=${OVERLAYFS_UPPER},workdir=${OVERLAYFS_WORK},allow_root" \
+    #    "$OVERLAYFS_MOUNT"
+    log_exec sudo --preserve-env=JOB_NAME --preserve-env=WORKSPACE --preserve-env=BUILD_NUMBER \
+        /usr/local/sbin/jenkins-mount-overlayfs
     LOCAL_OVERLAYFS_MOUNTED=true
 }
 
 
 function unmount_overlay() {
+    log "Unmounting OverlayFS/CVMFS"
     if $LOCAL_OVERLAYFS_MOUNTED; then
-        log_exec fusermount -u "$OVERLAYFS_MOUNT"
+        #log_exec fusermount -u "$OVERLAYFS_MOUNT"
+        log_exec sudo --preserve-env=JOB_NAME --preserve-env=WORKSPACE --preserve-env=BUILD_NUMBER \
+            /usr/local/sbin/jenkins-umount-overlayfs
         LOCAL_OVERLAYFS_MOUNTED=false
     fi
     log_exec fusermount -u "$OVERLAYFS_LOWER"
+    log_exec rm -rf "${WORKSPACE}/${BUILD_NUMBER}"
     LOCAL_CVMFS_MOUNTED=false
 }
 
@@ -266,6 +281,7 @@ function start_ssh_control() {
     log_exec mkdir -p "$SSH_MASTER_SOCKET_DIR"
     $USE_LOCAL_OVERLAYFS || port_forward_flag="-L 127.0.0.1:${LOCAL_PORT}:127.0.0.1:${REMOTE_PORT}"
     log_exec ssh -S "$SSH_MASTER_SOCKET" -M ${port_forward_flag:-} -Nfn -l "$REPO_USER" "$REPO_STRATUM0"
+    USER_UID=$(exec_on id -u)
     SSH_MASTER_UP=true
 }
 
@@ -340,7 +356,7 @@ function prep_for_galaxy_run() {
     copy_to ".ci/tool_sheds_conf.xml"
     copy_to ".ci/condarc"
     GALAXY_DATABASE_TMPDIR=$(exec_on mktemp -d -t usegalaxy-tools.database.XXXXXX)
-    exec_on mv "${WORKDIR}/${GALAXY_TEMPLATE_DB} ${GALAXY_DATABASE_TMPDIR}"
+    exec_on mv "${WORKDIR}/${GALAXY_TEMPLATE_DB}" "${GALAXY_DATABASE_TMPDIR}"
     if $GALAXY_DOCKER_IMAGE_PULL; then
         log "Fetching latest Galaxy image"
         exec_on docker pull "$GALAXY_DOCKER_IMAGE"
@@ -402,21 +418,21 @@ function run_mounted_galaxy() {
     log "Installing packages"
     exec_on docker exec --user root "$PRECONFIGURE_CONTAINER_NAME" yum install -y python-virtualenv
     log "Installing dependencies"
-    exec_on docker exec --user '$(id -u)' --workdir /galaxy/server "$PRECONFIGURE_CONTAINER_NAME" virtualenv .venv
+    exec_on docker exec --user "$USER_UID" --workdir /galaxy/server "$PRECONFIGURE_CONTAINER_NAME" virtualenv .venv
     # $HOME is set for pip cache (~/.cache), which is needed to build wheels
-    exec_on docker exec --user '$(id -u)' --workdir /galaxy/server -e "HOME=/galaxy/server/database" "$PRECONFIGURE_CONTAINER_NAME" ./.venv/bin/pip install --upgrade pip setuptools wheel
-    exec_on docker exec --user '$(id -u)' --workdir /galaxy/server -e "HOME=/galaxy/server/database" "$PRECONFIGURE_CONTAINER_NAME" ./.venv/bin/pip install -r requirements.txt
+    exec_on docker exec --user "$USER_UID" --workdir /galaxy/server -e "HOME=/galaxy/server/database" "$PRECONFIGURE_CONTAINER_NAME" ./.venv/bin/pip install --upgrade pip setuptools wheel
+    exec_on docker exec --user "$USER_UID" --workdir /galaxy/server -e "HOME=/galaxy/server/database" "$PRECONFIGURE_CONTAINER_NAME" ./.venv/bin/pip install -r requirements.txt
     commit_preconfigured_container
 
     log "Updating database"
-    exec_on docker run --rm --user '$(id -u)' --name="${CONTAINER_NAME}-setup" \
+    exec_on docker run --rm --user "$USER_UID" --name="${CONTAINER_NAME}-setup" \
         -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
         -v "${GALAXY_SOURCE_TMPDIR}:/galaxy/server" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
         --workdir /galaxy/server \
         "$GALAXY_DOCKER_IMAGE" ./.venv/bin/python ./scripts/manage_db.py upgrade
     log "Starting Galaxy on Stratum 0"
-    exec_on docker run -d -p 127.0.0.1:${REMOTE_PORT}:8080 --user '$(id -u)' --name="${CONTAINER_NAME}" \
+    exec_on docker run -d -p 127.0.0.1:${REMOTE_PORT}:8080 --user "$USER_UID" --name="${CONTAINER_NAME}" \
         -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
         -e "GALAXY_CONFIG_OVERRIDE_INTEGRATED_TOOL_PANEL_CONFIG=/tmp/integrated_tool_panel.xml" \
         -e "GALAXY_CONFIG_OVERRIDE_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIG}" \
@@ -441,13 +457,13 @@ function run_mounted_galaxy() {
 function run_cloudve_galaxy() {
     patch_cloudve_galaxy
     log "Updating database"
-    exec_on docker run --rm --user '$(id -u)' --name="${CONTAINER_NAME}-setup" \
+    exec_on docker run --rm --user "$USER_UID" --name="${CONTAINER_NAME}-setup" \
         -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
         "$GALAXY_DOCKER_IMAGE" ./.venv/bin/python ./scripts/manage_db.py upgrade
     # we could just start the patch container and run Galaxy in it with `docker exec`, but then logs aren't captured
     log "Starting Galaxy on Stratum 0"
-    exec_on docker run -d -p 127.0.0.1:${REMOTE_PORT}:8080 --user '$(id -u)' --name="${CONTAINER_NAME}" \
+    exec_on docker run -d -p 127.0.0.1:${REMOTE_PORT}:8080 --user "$USER_UID" --name="${CONTAINER_NAME}" \
         -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
         -e "GALAXY_CONFIG_OVERRIDE_INTEGRATED_TOOL_PANEL_CONFIG=/tmp/integrated_tool_panel.xml" \
         -e "GALAXY_CONFIG_OVERRIDE_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIG}" \
@@ -589,17 +605,20 @@ function install_tools() {
 
 function check_for_repo_changes() {
     local stc="${SHED_TOOL_CONFIG%,*}"
-    log "Showing log"
-    show_logs
+    # probbably don't need this unless things fail
+    #log "Showing log"
+    #show_logs
     log "Checking for changes to repo"
     show_paths
     log_debug "diff of shed_tool_conf.xml"
-    exec_on diff -u "${OVERLAYFS_LOWER}${stc##*${REPO}}" "$stc" || true
+    exec_on diff -u "${OVERLAYFS_LOWER}${stc##*${REPO}}" "${OVERLAYFS_MOUNT}${stc##*${REPO}}" || true
     log_debug "diff of shed_tool_data_table_conf.xml"
-    exec_on diff -u "${OVERLAYFS_LOWER}${SHED_TOOL_DATA_TABLE_CONFIG##*${REPO}}" "$SHED_TOOL_DATA_TABLE_CONFIG" || true
+    exec_on diff -u "${OVERLAYFS_LOWER}${SHED_TOOL_DATA_TABLE_CONFIG##*${REPO}}" \
+        "${OVERLAYFS_MOUNT}${SHED_TOOL_DATA_TABLE_CONFIG##*${REPO}}" || true
     log_debug "diff of shed_data_manager.xml"
-    exec_on diff -u "${OVERLAYFS_LOWER}${SHED_DATA_MANAGER_CONFIG##*${REPO}}" "$SHED_DATA_MANAGER_CONFIG" || true
-    exec_on "[ -d '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}' -o -d '${OVERLAYFS_UPPER}${SHED_TOOL_DIR##*${REPO}}' ]" || {
+    exec_on diff -u "${OVERLAYFS_LOWER}${SHED_DATA_MANAGER_CONFIG##*${REPO}}" \
+        "${OVERLAYFS_MOUNT}${SHED_DATA_MANAGER_CONFIG##*${REPO}}" || true
+    exec_on [ -d "${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}" -o -d "${OVERLAYFS_UPPER}${SHED_TOOL_DIR##*${REPO}}" ] || {
         log_error "Tool installation failed";
         show_logs
         log_exit_error "Terminating build: expected changes to ${OVERLAYFS_UPPER} not found!";
@@ -611,21 +630,30 @@ function post_install() {
     log "Running post-installation tasks"
     exec_on "find '$OVERLAYFS_UPPER' -perm -u+r -not -perm -o+r -not -type l -print0 | xargs -0 --no-run-if-empty chmod go+r"
     exec_on "find '$OVERLAYFS_UPPER' -perm -u+rx -not -perm -o+rx -not -type l -print0 | xargs -0 --no-run-if-empty chmod go+rx"
-    exec_on ${CONDA_PATH}/bin/conda clean --tarballs --yes
+    #exec_on ${CONDA_PATH}/bin/conda clean --tarballs --yes
+    exec_on docker run --rm --user "$USER_UID" --name="${CONTAINER_NAME}" \
+        -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
+        -v "${WORKDIR}/condarc:${CONDA_PATH}/.condarc" \
+        "$GALAXY_DOCKER_IMAGE" ${CONDA_PATH}/bin/conda clean --tarballs --yes
     # we're fixing the links for everything here not just the new stuff in $OVERLAYFS_UPPER
-    exec_on "for env in '${CONDA_PATH}/envs/'*; do for link in conda activate deactivate; do [ -h "\${env}/bin/\${link}" ] || ln -s '${CONDA_PATH}/bin/'"\${link}" "\${env}/bin/\${link}"; done; done"
+    exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/activate' '_ENVPATH_/bin/activate'" || true
+    exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/deactivate' '_ENVPATH_/bin/deactivate'" || true
+    exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/conda' '_ENVPATH_/bin/conda'" || true
     [ -n "${WORKDIR:-}" ] && exec_on rm -rf "$WORKDIR"
 }
 
 
 function copy_upper_to_stratum0() {
     log "Copying changes to Stratum 0"
-    log_exec rsync -a -e "ssh -o ControlPath=${SSH_MASTER_SOCKET}" "${OVERLAYFS_UPPER}/" "${REPO_USER}@${REPO_STRATUM0}:/cvmfs/${REPO}"
+    set -x
+    rsync -ah -e "ssh -o ControlPath=${SSH_MASTER_SOCKET}" --stats "${OVERLAYFS_UPPER}/" "${REPO_USER}@${REPO_STRATUM0}:/cvmfs/${REPO}"
+    { rc=$?; set +x; } 2>/dev/null
+    return $rc
 }
 
 
 function do_install_local() {
-    mount_overlayfs
+    mount_overlay
     run_galaxy
     wait_for_galaxy
     install_tools
@@ -637,10 +665,10 @@ function do_install_local() {
         start_ssh_control
         begin_transaction 600
         copy_upper_to_stratum0
-        publish_transaction
+        abort_transaction #publish_transaction
         stop_ssh_control
     fi
-    unmount_overlayfs
+    unmount_overlay
 }
 
 
