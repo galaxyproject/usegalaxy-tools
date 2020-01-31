@@ -7,8 +7,6 @@ set -euo pipefail
 LOCAL_PORT=8080
 REMOTE_PORT=8080
 GALAXY_URL="http://127.0.0.1:${LOCAL_PORT}"
-# TODO: perhaps should be a tempdir
-REMOTE_WORKDIR='.local/share/usegalaxy-tools'
 SSH_MASTER_SOCKET_DIR="${HOME}/.cache/usegalaxy-tools"
 
 # Set to 'centos:7' and set GALAXY_GIT_* below to use a clone
@@ -16,7 +14,7 @@ SSH_MASTER_SOCKET_DIR="${HOME}/.cache/usegalaxy-tools"
 #   galaxy_commit_id: 48c9a52700b7bf073f1819252e582477d23d4cdb
 GALAXY_DOCKER_IMAGE='galaxy/galaxy:19.09-usegalaxy-tools'
 # Disable if using a locally built image e.g. for debugging
-GALAXY_DOCKER_IMAGE_PULL=false
+GALAXY_DOCKER_IMAGE_PULL=true
 
 GALAXY_TEMPLATE_DB_URL='https://depot.galaxyproject.org/nate/galaxy-158.sqlite'
 GALAXY_TEMPLATE_DB="${GALAXY_TEMPLATE_DB_URL##*/}"
@@ -26,6 +24,11 @@ EPHEMERIS="git+https://github.com/galaxyproject/ephemeris.git"
 
 # Should be set by Jenkins, so the default here is for development
 : ${GIT_COMMIT:=$(git rev-parse HEAD)}
+
+# Set to true to perform everything on the Jenkins worker and copy results to the Stratum 0 for publish, instead of
+# performing everything directly on the Stratum 0. Requires preinstallation/preconfiguration of CVMFS and for
+# fuse-overlayfs to be installed on Jenkins workers.
+USE_LOCAL_OVERLAYFS=false
 
 #
 # Development/debug options
@@ -57,20 +60,27 @@ SHED_TOOL_CONFIG=
 SHED_TOOL_DATA_TABLE_CONFIG=
 SHED_DATA_MANAGER_CONFIG=
 SSH_MASTER_SOCKET=
+WORKDIR=
 GALAXY_DATABASE_TMPDIR=
 GALAXY_SOURCE_TMPDIR=
 OVERLAYFS_UPPER=
 OVERLAYFS_LOWER=
+OVERLAYFS_WORK=
+OVERLAYFS_MOUNT=
 
 SSH_MASTER_UP=false
 CVMFS_TRANSACTION_UP=false
 GALAXY_CONTAINER_UP=false
+LOCAL_CVMFS_MOUNTED=false
+LOCAL_OVERLAYFS_MOUNTED=false
 
 
 function trap_handler() {
     { set +x; } 2>/dev/null
     $GALAXY_CONTAINER_UP && stop_galaxy
     clean_preconfigured_container
+    $LOCAL_CVMFS_MOUNTED && unmount_overlay
+    # $LOCAL_OVERLAYFS_MOUNTED does not need to be checked here since if it's true, $LOCAL_CVMFS_MOUNTED must be true
     $CVMFS_TRANSACTION_UP && abort_transaction
     $SSH_MASTER_UP && stop_ssh_control
     return 0
@@ -115,14 +125,18 @@ function log_exit() {
 
 
 function exec_on() {
-    log_exec ssh -S "$SSH_MASTER_SOCKET" -l "$REPO_USER" "$REPO_STRATUM0" -- "$@"
+    if $USE_LOCAL_OVERLAYFS && ! $SSH_MASTER_UP; then
+        log_exec "$@"
+    else
+        log_exec ssh -S "$SSH_MASTER_SOCKET" -l "$REPO_USER" "$REPO_STRATUM0" -- "$@"
+    fi
 }
 
 
 function copy_to() {
+    $USE_LOCAL_OVERLAYFS && ! $SSH_MASTER_UP && return
     local file="$1"
-    exec_on mkdir -p "$REMOTE_WORKDIR"
-    log_exec scp -o "ControlPath=$SSH_MASTER_SOCKET" "$file" "${REPO_USER}@${REPO_STRATUM0}:${REMOTE_WORKDIR}/${file##*/}"
+    log_exec scp -o "ControlPath=$SSH_MASTER_SOCKET" "$file" "${REPO_USER}@${REPO_STRATUM0}:${WORKDIR}/${file##*/}"
 }
 
 
@@ -199,8 +213,16 @@ function set_repo_vars() {
     SHED_TOOL_DATA_TABLE_CONFIG="${SHED_TOOL_DATA_TABLE_CONFIGS[$REPO]}"
     SHED_DATA_MANAGER_CONFIG="${SHED_DATA_MANAGER_CONFIGS[$REPO]}"
     CONTAINER_NAME="galaxy-${REPO_USER}"
-    OVERLAYFS_UPPER="/var/spool/cvmfs/${REPO}/scratch/current"
-    OVERLAYFS_LOWER="/var/spool/cvmfs/${REPO}/rdonly"
+    if $USE_LOCAL_OVERLAYFS; then
+        OVERLAYFS_LOWER="${WORKSPACE}/lower"
+        OVERLAYFS_UPPER="${WORKSPACE}/upper"
+        OVERLAYFS_WORK="${WORKSPACE}/work"
+        OVERLAYFS_MOUNT="${WORKSPACE}/rdonly"
+    else
+        OVERLAYFS_UPPER="/var/spool/cvmfs/${REPO}/scratch/current"
+        OVERLAYFS_LOWER="/var/spool/cvmfs/${REPO}/rdonly"
+        OVERLAYFS_MOUNT="/cvmfs/${REPO}"
+    fi
 }
 
 
@@ -212,7 +234,29 @@ function setup_ephemeris() {
     . ./ephemeris/bin/activate
     set -u
     log_exec pip install --upgrade pip wheel
-    log_exec pip install --index-url https://wheels.galaxyproject.org/simple/ --extra-index-url https://pypi.org/simple/ "${EPHEMERIS:=ephemeris}" #"${PLANEMO:=planemo}"
+    log_exec pip install --index-url https://wheels.galaxyproject.org/simple/ \
+        --extra-index-url https://pypi.org/simple/ "${EPHEMERIS:=ephemeris}" #"${PLANEMO:=planemo}"
+}
+
+
+function mount_overlay() {
+    log_exec mkdir -p "$OVERLAYFS_LOWER" "$OVERLAYFS_UPPER" "$OVERLAYFS_WORK" "$OVERLAYFS_MOUNT" \
+        "${WORKSPACE}/cvmfs-cache"
+    log_exec cvmfs2 -o config=.ci/cvmfs-fuse.conf "$REPO" "$OVERLAYFS_LOWER"
+    LOCAL_CVMFS_MOUNTED=true
+    log_exec fuse-overlayfs
+        -o "lowerdir=${OVERLAYFS_LOWER},upperdir=${OVERLAYFS_UPPER},workdir=${OVERLAYFS_WORK}" "$OVERLAYFS_MOUNT"
+    LOCAL_OVERLAYFS_MOUNTED=true
+}
+
+
+function unmount_overlay() {
+    if $LOCAL_OVERLAYFS_MOUNTED; then
+        log_exec fusermount -u "$OVERLAYFS_MOUNT"
+        LOCAL_OVERLAYFS_MOUNTED=false
+    fi
+    log_exec fusermount -u "$OVERLAYFS_LOWER"
+    LOCAL_CVMFS_MOUNTED=false
 }
 
 
@@ -220,7 +264,8 @@ function start_ssh_control() {
     log "Starting SSH control connection to Stratum 0"
     SSH_MASTER_SOCKET="${SSH_MASTER_SOCKET_DIR}/ssh-tunnel-${REPO_USER}-${REPO_STRATUM0}.sock"
     log_exec mkdir -p "$SSH_MASTER_SOCKET_DIR"
-    log_exec ssh -S "$SSH_MASTER_SOCKET" -M -L "127.0.0.1:${LOCAL_PORT}:127.0.0.1:${REMOTE_PORT}" -Nfn -l "$REPO_USER" "$REPO_STRATUM0"
+    $USE_LOCAL_OVERLAYFS || port_forward_flag="-L 127.0.0.1:${LOCAL_PORT}:127.0.0.1:${REMOTE_PORT}"
+    log_exec ssh -S "$SSH_MASTER_SOCKET" -M ${port_forward_flag:-} -Nfn -l "$REPO_USER" "$REPO_STRATUM0"
     SSH_MASTER_UP=true
 }
 
@@ -234,8 +279,26 @@ function stop_ssh_control() {
 
 
 function begin_transaction() {
+    # $1 >= 0 number of seconds to retry opening transaction for
+    local max_wait="${1:--1}"
+    local start=$(date +%s)
+    local elapsed='-1'
+    local sleep='4'
+    local max_sleep='60'
     log "Opening transaction on $REPO"
-    exec_on cvmfs_server transaction "$REPO"
+    while ! exec_on cvmfs_server transaction "$REPO"; do
+        log "Failed to open CVMFS transaction on ${REPO}"
+        if [ "$max_wait" -eq -1 ]; then
+            log_exit_error 'Transaction open retry disabled, giving up!'
+        elif [ "$elapsed" -ge "$max_wait" ]; then
+            log_exit_error "Time waited (${elapsed}s) exceeds limit (${max_wait}s), giving up!"
+        fi
+        log "Will retry in ${sleep}s"
+        sleep $sleep
+        [ $sleep -ne $max_sleep ] && let sleep="${sleep}*2"
+        [ $sleep -gt $max_sleep ] && sleep="$max_sleep"
+        let elapsed="$(date +%s)-${start}"
+    done
     CVMFS_TRANSACTION_UP=true
 }
 
@@ -269,14 +332,15 @@ function patch_cloudve_galaxy() {
 
 
 function prep_for_galaxy_run() {
-    # Sets global $GALAXY_DATABASE_TMPDIR
+    # Sets globals $GALAXY_DATABASE_TMPDIR $WORKDIR
     log "Copying configs to Stratum 0"
+    WORKDIR=$(exec_on mktemp -d -t usegalaxy-tools.work.XXXXXX)
     log_exec curl -o ".ci/${GALAXY_TEMPLATE_DB}" "$GALAXY_TEMPLATE_DB_URL"
     copy_to ".ci/${GALAXY_TEMPLATE_DB}"
     copy_to ".ci/tool_sheds_conf.xml"
     copy_to ".ci/condarc"
     GALAXY_DATABASE_TMPDIR=$(exec_on mktemp -d -t usegalaxy-tools.database.XXXXXX)
-    exec_on mv "\$(pwd)/${REMOTE_WORKDIR}/${GALAXY_TEMPLATE_DB} ${GALAXY_DATABASE_TMPDIR}"
+    exec_on mv "${WORKDIR}/${GALAXY_TEMPLATE_DB} ${GALAXY_DATABASE_TMPDIR}"
     if $GALAXY_DOCKER_IMAGE_PULL; then
         log "Fetching latest Galaxy image"
         exec_on docker pull "$GALAXY_DOCKER_IMAGE"
@@ -294,7 +358,7 @@ function run_container_for_preconfigure() {
     ORIGINAL_IMAGE_NAME="$GALAXY_DOCKER_IMAGE"
     log "Starting Galaxy container for preconfiguration on Stratum 0"
     exec_on docker run -d --name="$PRECONFIGURE_CONTAINER_NAME" \
-        -v "\$(pwd)/${REMOTE_WORKDIR}/:/work/" \
+        -v "${WORKDIR}/:/work/" \
         $source_mount_flag \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
         "$GALAXY_DOCKER_IMAGE" sleep infinity
@@ -319,6 +383,7 @@ function clean_preconfigured_container() {
 }
 
 
+# TODO: update for $USE_LOCAL_OVERLAYFS
 function run_mounted_galaxy() {
     log "Cloning Galaxy"
     GALAXY_SOURCE_TMPDIR=$(exec_on mktemp -d -t usegalaxy-tools.source.XXXXXX)
@@ -362,9 +427,9 @@ function run_mounted_galaxy() {
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
         -e "GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATH}" \
-        -v "/cvmfs/${REPO}:/cvmfs/${REPO}" \
-        -v "\$(pwd)/${REMOTE_WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
-        -v "\$(pwd)/${REMOTE_WORKDIR}/condarc:${CONDA_PATH}/.condarc" \
+        -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
+        -v "${WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
+        -v "${WORKDIR}/condarc:${CONDA_PATH}/.condarc" \
         -v "${GALAXY_SOURCE_TMPDIR}:/galaxy/server" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
         --workdir /galaxy/server \
@@ -393,15 +458,16 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
         -e "GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATH}" \
-        -v "/cvmfs/${REPO}:/cvmfs/${REPO}" \
-        -v "\$(pwd)/${REMOTE_WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
-        -v "\$(pwd)/${REMOTE_WORKDIR}/condarc:${CONDA_PATH}/.condarc" \
+        -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
+        -v "${WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
+        -v "${WORKDIR}/condarc:${CONDA_PATH}/.condarc" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
         "$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --yaml config/galaxy.yml
     GALAXY_CONTAINER_UP=true
 }
 
 
+# TODO: update for $USE_LOCAL_OVERLAYFS
 function run_bgruening_galaxy() {
     log "Copying additional configs to Stratum 0"
     copy_to ".ci/nginx.conf"
@@ -413,9 +479,9 @@ function run_bgruening_galaxy() {
         -e "GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATH}" \
         -e "GALAXY_HANDLER_NUMPROCS=0" \
         -e "CONDARC=${CONDA_PATH}rc" \
-        -v "/cvmfs/${REPO}:/cvmfs/${REPO}" \
-        -v "\$(pwd)/${REMOTE_WORKDIR}/job_conf.xml:/job_conf.xml" \
-        -v "\$(pwd)/${REMOTE_WORKDIR}/nginx.conf:/etc/nginx/nginx.conf" \
+        -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
+        -v "${WORKDIR}/job_conf.xml:/job_conf.xml" \
+        -v "${WORKDIR}/nginx.conf:/etc/nginx/nginx.conf" \
         -e "GALAXY_CONFIG_JOB_CONFIG_FILE=/job_conf.xml" \
         "$GALAXY_DOCKER_IMAGE"
     GALAXY_CONTAINER_UP=true
@@ -548,15 +614,37 @@ function post_install() {
     exec_on ${CONDA_PATH}/bin/conda clean --tarballs --yes
     # we're fixing the links for everything here not just the new stuff in $OVERLAYFS_UPPER
     exec_on "for env in '${CONDA_PATH}/envs/'*; do for link in conda activate deactivate; do [ -h "\${env}/bin/\${link}" ] || ln -s '${CONDA_PATH}/bin/'"\${link}" "\${env}/bin/\${link}"; done; done"
+    [ -n "${WORKDIR:-}" ] && exec_on rm -rf "$WORKDIR"
 }
 
 
-function main() {
-    check_bot_command
-    load_repo_configs
-    detect_changes
-    set_repo_vars
-    setup_ephemeris
+function copy_upper_to_stratum0() {
+    log "Copying changes to Stratum 0"
+    log_exec rsync -a -e "ssh -o ControlPath=${SSH_MASTER_SOCKET}" "${OVERLAYFS_UPPER}/" "${REPO_USER}@${REPO_STRATUM0}:/cvmfs/${REPO}"
+}
+
+
+function do_install_local() {
+    mount_overlayfs
+    run_galaxy
+    wait_for_galaxy
+    install_tools
+    check_for_repo_changes
+    stop_galaxy
+    clean_preconfigured_container
+    post_install
+    if $PUBLISH; then
+        start_ssh_control
+        begin_transaction 600
+        copy_upper_to_stratum0
+        publish_transaction
+        stop_ssh_control
+    fi
+    unmount_overlayfs
+}
+
+
+function do_install_remote() {
     start_ssh_control
     begin_transaction
     run_galaxy
@@ -568,6 +656,20 @@ function main() {
     post_install
     $PUBLISH && publish_transaction || abort_transaction
     stop_ssh_control
+}
+
+
+function main() {
+    check_bot_command
+    load_repo_configs
+    detect_changes
+    set_repo_vars
+    setup_ephemeris
+    if $USE_LOCAL_OVERLAYFS; then
+        do_install_local
+    else
+        do_install_remote
+    fi
     return 0
 }
 
