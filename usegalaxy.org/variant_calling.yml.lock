@@ -13,6 +13,7 @@ tools:
   owner: iuc
   revisions:
   - 268d162b9c49
+  - 74aebe30fb52
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: naive_variant_caller
@@ -73,36 +74,42 @@ tools:
   owner: iuc
   revisions:
   - 32f2211eeec3
+  - 3fe8ef358d66
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_alnqual
   owner: iuc
   revisions:
   - 606542a18f82
+  - 2953c43180c0
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_call
   owner: iuc
   revisions:
   - 31216d510164
+  - 03627f24605f
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_filter
   owner: iuc
   revisions:
   - 6f9ffff040ce
+  - fdba1586551d
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_indelqual
   owner: iuc
   revisions:
   - 5d6a078d30b0
+  - 2ae554b4bcca
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_viterbi
   owner: iuc
   revisions:
   - 33a416e1659e
+  - ecd80c7c3886
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: basil
@@ -163,6 +170,7 @@ tools:
   owner: iuc
   revisions:
   - 4e97191a1ff7
+  - a57606054bd7
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: snpsift_dbnsfp
