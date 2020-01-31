@@ -6,3 +6,5 @@ tools:
   owner: bgruening
 - name: augustus_training
   owner: bgruening
+- name: busco
+  owner: iuc
