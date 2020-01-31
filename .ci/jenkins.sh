@@ -555,9 +555,9 @@ function show_logs() {
 
 function show_paths() {
     log_debug "contents of \$GALAXY_DATABASE_TMPDIR (will be discarded)"
-    exec_on tree "$GALAXY_DATABASE_TMPDIR"
+    exec_on tree -L 6 "$GALAXY_DATABASE_TMPDIR"
     log_debug "contents of OverlayFS upper mount (will be published)"
-    exec_on tree "$OVERLAYFS_UPPER"
+    exec_on tree -L 6 "$OVERLAYFS_UPPER"
 }
 
 
