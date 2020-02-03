@@ -7,5 +7,5 @@ tools:
   owner: iuc
   revisions:
   - 738e58ed9cc2
-  tool_panel_section_id: ti_seq
+  tool_panel_section_id: transposon_insertion_sequencing
   tool_panel_section_label: Transposon Insertion Sequencing
