@@ -2,29 +2,3 @@ tool_panel_section_label: Transposon Insertion Sequencing
 tools:
 - name: biotradis
   owner: iuc
-- name: gff_to_prot
-  owner: iuc
-- name: transit_resampling
-  owner: iuc
-- name: transit_hmm
-  owner: iuc
-- name: transit_gumbel
-  owner: iuc
-- name: transit_tn5gaps
-  owner: iuc
-- name: singlefitness
-  owner: antmarge
-- name: regionfitness
-  owner: antmarge
-- name: dataoverview
-  owner: antmarge
-- name: compstrains
-  owner: antmarge
-- name: compregions
-  owner: antmarge
-- name: compgenes
-  owner: antmarge
-- name: calculate_fitness
-  owner: kaymccoy
-- name: aggregate_fitness
-  owner: kaymccoy
