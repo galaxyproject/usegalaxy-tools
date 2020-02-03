@@ -66,6 +66,7 @@ tools:
 - name: miniasm
   owner: iuc
   revisions:
+  - 2dcd07f40204
   - 8b6d0d85252b
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -97,5 +98,11 @@ tools:
   owner: simon-gladman
   revisions:
   - 37d88f41c810
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: bandage
+  owner: iuc
+  revisions:
+  - b2860df42e16
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
