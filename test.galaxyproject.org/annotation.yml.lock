@@ -21,3 +21,9 @@ tools:
   - ccf8d0bbebe9
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: busco
+  owner: iuc
+  revisions:
+  - 1e62c28ba91d
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
