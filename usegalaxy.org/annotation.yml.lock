@@ -124,3 +124,9 @@ tools:
   - 20f1b45dea63
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: repeat_masker
+  owner: bgruening
+  revisions:
+  - ade773848c3d
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
