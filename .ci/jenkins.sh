@@ -665,7 +665,7 @@ function do_install_local() {
         start_ssh_control
         begin_transaction 600
         copy_upper_to_stratum0
-        abort_transaction #publish_transaction
+        publish_transaction
         stop_ssh_control
     fi
     unmount_overlay
