@@ -106,8 +106,13 @@ function log_debug() {
 
 function log_exec() {
     local rc
-    set -x
-    eval "$@"
+    if $USE_LOCAL_OVERLAYFS && ! $SSH_MASTER_UP; then
+        set -x
+        eval "$@"
+    else
+        set -x
+        "$@"
+    fi
     { rc=$?; set +x; } 2>/dev/null
     return $rc
 }
