@@ -25,6 +25,7 @@ tools:
   owner: devteam
   revisions:
   - a7add3e93cc5
+  - 649a225999a5
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bam_to_sam
@@ -43,12 +44,14 @@ tools:
   owner: devteam
   revisions:
   - b77f7b516b17
+  - cf1ffd88f895
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_calmd
   owner: devteam
   revisions:
   - 3d873744df7e
+  - 06dc50b7b711
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_bedcov
@@ -67,6 +70,7 @@ tools:
   owner: devteam
   revisions:
   - 47035d167365
+  - 145f6d74ff5e
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_slice_bam
@@ -115,6 +119,7 @@ tools:
   owner: devteam
   revisions:
   - 8c737b8ddc45
+  - 75557c0908a9
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: sam_bitwise_flag_filter
@@ -133,12 +138,14 @@ tools:
   owner: devteam
   revisions:
   - e2c1b62e1db1
+  - 9676127a1ed2
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bamtools
   owner: devteam
   revisions:
   - 04866f817daa
+  - 4d343c1f606b
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bamtools_filter
