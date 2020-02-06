@@ -55,12 +55,14 @@ tools:
   owner: iuc
   revisions:
   - 6432735cdb22
+  - 580e8bcb6413
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: pe_histogram
   owner: iuc
   revisions:
   - 9be99db0304a
+  - bd1416eea1f0
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: fasta_nucleotide_color_plot
@@ -73,17 +75,20 @@ tools:
   owner: iuc
   revisions:
   - 9ba78e8985dc
+  - 4eb3cc1f8466
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: repmatch_gff3
   owner: iuc
   revisions:
   - 2365720de36d
+  - 79f505a25bb8
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: macs
   owner: devteam
   revisions:
   - f6319b0b4391
+  - e5f3bfba6812
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
