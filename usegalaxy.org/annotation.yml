@@ -42,3 +42,31 @@ tools:
   owner: iuc
 - name: repeat_masker
   owner: bgruening
+- name: maker_map_ids
+  owner: iuc
+- name: maker
+  owner: iuc
+- name: mlst
+  owner: iuc
+- name: progressivemauve
+  owner: iuc
+- name: repeat_masker
+  owner: bgruening
+- name: roary
+  owner: iuc
+- name: snap_training
+  owner: iuc
+- name: socru
+  owner: iuc
+- name: spaln
+  owner: iuc
+- name: tbprofiler
+  owner: iuc
+- name: tb_variant_filter
+  owner: iuc
+- name: tbvcfreport
+  owner: iuc
+- name: tetyper
+  owner: iuc
+- name: transtermhp
+  owner: iuc
