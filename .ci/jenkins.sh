@@ -481,7 +481,19 @@ function run_cloudve_galaxy() {
         -v "${WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
         -v "${WORKDIR}/condarc:${CONDA_PATH}/.condarc" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
-        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --yaml config/galaxy.yml
+        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --http :8080 \
+            --virtualenv /galaxy/server/.venv --pythonpath /galaxy/server/lib \
+            --master --offload-threads 2 --processes 1 --threads 4 --enable-threads \
+            --buffer-size 16384 --thunder-lock --die-on-term --py-call-osafterfork \
+            --module 'galaxy.webapps.galaxy.buildapp:uwsgi_app\(\)' \
+            --hook-master-start '"unix_signal:2 gracefully_kill_them_all"' \
+            --hook-master-start '"unix_signal:15 gracefully_kill_them_all"' \
+            --static-map '/static/style=/galaxy/server/static/style/blue' \
+            --static-map '/static=/galaxy/server/static' \
+            --set 'galaxy_config_file=/galaxy/server/config/galaxy.yml' \
+            --set 'galaxy_root=/galaxy/server'
+        #"$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --yaml config/galaxy.yml
+        # TODO: double quoting above probably breaks non-local mode
     GALAXY_CONTAINER_UP=true
 }
 
