@@ -6,7 +6,7 @@ tools:
 - name: biotradis
   owner: iuc
   revisions:
-  - 738e58ed9cc2
+  - 58234d95978d
   tool_panel_section_id: transposon_insertion_sequencing
   tool_panel_section_label: Transposon Insertion Sequencing
 - name: gff_to_prot
