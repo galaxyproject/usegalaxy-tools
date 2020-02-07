@@ -575,9 +575,7 @@ function show_logs() {
     else
         log_debug "contents of server log";
     fi
-    # attempt to filter out thousands of status update log messages
-    exec_on docker logs $lines "$CONTAINER_NAME" | grep -Ev \
-        '(/api/tool_shed_repositories\?key=deadbeef|Session authenticated using Galaxy master api key$)'
+    exec_on docker logs $lines "$CONTAINER_NAME"
     # bgruening log paths
     #for f in /var/log/nginx/error.log /var/log/nginx/access.log /home/galaxy/logs/uwsgi.log; do
     #    log_debug "tail of ${f}";
