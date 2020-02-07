@@ -10,9 +10,7 @@ GALAXY_URL="http://127.0.0.1:${LOCAL_PORT}"
 SSH_MASTER_SOCKET_DIR="${HOME}/.cache/usegalaxy-tools"
 
 # Set to 'centos:7' and set GALAXY_GIT_* below to use a clone
-# This is my usegalaxy-tools branch of Galaxy built with galaxy-docker-k8s (g2test@galaxy04)
-#   galaxy_commit_id: 48c9a52700b7bf073f1819252e582477d23d4cdb
-GALAXY_DOCKER_IMAGE='galaxy/galaxy:19.09-usegalaxy-tools'
+GALAXY_DOCKER_IMAGE='galaxy/galaxy-k8s:20.01'
 # Disable if using a locally built image e.g. for debugging
 GALAXY_DOCKER_IMAGE_PULL=true
 
@@ -565,7 +563,9 @@ function show_logs() {
     else
         log_debug "contents of server log";
     fi
-    exec_on docker logs $lines "$CONTAINER_NAME"
+    # attempt to filter out thousands of status update log messages
+    exec_on docker logs $lines "$CONTAINER_NAME" | grep -Ev \
+        '(/api/tool_shed_repositories\?key=deadbeef|Session authenticated using Galaxy master api key$)'
     # bgruening log paths
     #for f in /var/log/nginx/error.log /var/log/nginx/access.log /home/galaxy/logs/uwsgi.log; do
     #    log_debug "tail of ${f}";
