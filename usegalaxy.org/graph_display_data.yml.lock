@@ -18,7 +18,7 @@ tools:
 - name: circos
   owner: iuc
   revisions:
-  - 014a21767ac4
+  - a64dc31ab7f2
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: venn_list
@@ -60,19 +60,19 @@ tools:
 - name: plotly_ml_performance_plots
   owner: bgruening
   revisions:
-  - 85da91bbdbfb
+  - 62e3a4e8c54c
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: plotly_parallel_coordinates_plot
   owner: bgruening
   revisions:
-  - 7b21a9b5922f
+  - 9958188c6195
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ml_visualization_ex
   owner: bgruening
   revisions:
-  - 09efff9a5765
+  - c7655b5a94af
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: charts
@@ -126,7 +126,7 @@ tools:
 - name: jbrowse
   owner: iuc
   revisions:
-  - 3235aeb45c22
+  - edb534491f92
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: newick_utils
@@ -138,7 +138,7 @@ tools:
 - name: pathview
   owner: iuc
   revisions:
-  - bd99e8fbde97
+  - 03c13085aecc
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: pygenometracks
