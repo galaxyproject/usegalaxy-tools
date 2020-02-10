@@ -10,9 +10,7 @@ GALAXY_URL="http://127.0.0.1:${LOCAL_PORT}"
 SSH_MASTER_SOCKET_DIR="${HOME}/.cache/usegalaxy-tools"
 
 # Set to 'centos:7' and set GALAXY_GIT_* below to use a clone
-# This is my usegalaxy-tools branch of Galaxy built with galaxy-docker-k8s (g2test@galaxy04)
-#   galaxy_commit_id: 48c9a52700b7bf073f1819252e582477d23d4cdb
-GALAXY_DOCKER_IMAGE='galaxy/galaxy:19.09-usegalaxy-tools'
+GALAXY_DOCKER_IMAGE='galaxy/galaxy-k8s:20.01'
 # Disable if using a locally built image e.g. for debugging
 GALAXY_DOCKER_IMAGE_PULL=true
 
@@ -483,7 +481,19 @@ function run_cloudve_galaxy() {
         -v "${WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
         -v "${WORKDIR}/condarc:${CONDA_PATH}/.condarc" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
-        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --yaml config/galaxy.yml
+        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --http :8080 \
+            --virtualenv /galaxy/server/.venv --pythonpath /galaxy/server/lib \
+            --master --offload-threads 2 --processes 1 --threads 4 --enable-threads \
+            --buffer-size 16384 --thunder-lock --die-on-term --py-call-osafterfork \
+            --module 'galaxy.webapps.galaxy.buildapp:uwsgi_app\(\)' \
+            --hook-master-start '"unix_signal:2 gracefully_kill_them_all"' \
+            --hook-master-start '"unix_signal:15 gracefully_kill_them_all"' \
+            --static-map '/static/style=/galaxy/server/static/style/blue' \
+            --static-map '/static=/galaxy/server/static' \
+            --set 'galaxy_config_file=/galaxy/server/config/galaxy.yml' \
+            --set 'galaxy_root=/galaxy/server'
+        #"$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --yaml config/galaxy.yml
+        # TODO: double quoting above probably breaks non-local mode
     GALAXY_CONTAINER_UP=true
 }
 
