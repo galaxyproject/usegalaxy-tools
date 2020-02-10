@@ -150,7 +150,7 @@ tools:
 - name: heinz
   owner: iuc
   revisions:
-  - 5f589c91566e
+  - 704c401e0afb
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: idr
@@ -198,13 +198,13 @@ tools:
 - name: seurat
   owner: iuc
   revisions:
-  - 321bdd834266
+  - 7a5cd7987b03
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: slamdunk
   owner: iuc
   revisions:
-  - fe3fe68b09a7
+  - 8b62f89924a7
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: transdecoder
