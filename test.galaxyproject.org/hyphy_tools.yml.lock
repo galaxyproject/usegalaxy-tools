@@ -1,0 +1,71 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: HyPhy Methods
+tools:
+- name: hyphy_absrel
+  owner: iuc
+  revisions:
+  - 5c87e4907e08
+  tool_panel_section_id: hyphy_methods
+  tool_panel_section_label: HyPhy Methods
+- name: hyphy_bgm
+  owner: iuc
+  revisions:
+  - bf97cacc1a55
+  tool_panel_section_id: hyphy_methods
+  tool_panel_section_label: HyPhy Methods
+- name: hyphy_busted
+  owner: iuc
+  revisions:
+  - b678fe748dc5
+  tool_panel_section_id: hyphy_methods
+  tool_panel_section_label: HyPhy Methods
+- name: hyphy_fade
+  owner: iuc
+  revisions:
+  - 6164d9298db9
+  tool_panel_section_id: hyphy_methods
+  tool_panel_section_label: HyPhy Methods
+- name: hyphy_fel
+  owner: iuc
+  revisions:
+  - 6c3ece5fb602
+  tool_panel_section_id: hyphy_methods
+  tool_panel_section_label: HyPhy Methods
+- name: hyphy_fubar
+  owner: iuc
+  revisions:
+  - 0f108ee932ea
+  tool_panel_section_id: hyphy_methods
+  tool_panel_section_label: HyPhy Methods
+- name: hyphy_gard
+  owner: iuc
+  revisions:
+  - 1942d02039c2
+  tool_panel_section_id: hyphy_methods
+  tool_panel_section_label: HyPhy Methods
+- name: hyphy_meme
+  owner: iuc
+  revisions:
+  - 7b3f9c78cf6d
+  tool_panel_section_id: hyphy_methods
+  tool_panel_section_label: HyPhy Methods
+- name: hyphy_relax
+  owner: iuc
+  revisions:
+  - 551616a65f8f
+  tool_panel_section_id: hyphy_methods
+  tool_panel_section_label: HyPhy Methods
+- name: hyphy_slac
+  owner: iuc
+  revisions:
+  - c2bed8cc8fc1
+  tool_panel_section_id: hyphy_methods
+  tool_panel_section_label: HyPhy Methods
+- name: hyphy_sm19
+  owner: iuc
+  revisions:
+  - ae7c42d49717
+  tool_panel_section_id: hyphy_methods
+  tool_panel_section_label: HyPhy Methods
