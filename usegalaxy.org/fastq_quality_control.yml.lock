@@ -31,6 +31,7 @@ tools:
   owner: devteam
   revisions:
   - e2cf940128d5
+  - b1cea1b2fcd0
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastx_quality_statistics
@@ -43,12 +44,14 @@ tools:
   owner: devteam
   revisions:
   - 21796f46e0ba
+  - ad116ae3f4d9
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastq_quality_boxplot
   owner: devteam
   revisions:
   - 3987db70a4b0
+  - 7cf5b1d072b5
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: prinseq
