@@ -6,66 +6,66 @@ tools:
 - name: hyphy_absrel
   owner: iuc
   revisions:
-  - fb40b0928cad
+  - 181f5b9f139f
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_bgm
   owner: iuc
   revisions:
-  - f2c6ada85b41
+  - 1df765cc6bcb
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_busted
   owner: iuc
   revisions:
-  - 1d8b63d18f30
+  - d6389faa75ff
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_fade
   owner: iuc
   revisions:
-  - f65e8fe7d5b8
+  - b959fd359a6b
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_fel
   owner: iuc
   revisions:
-  - e90f16ec5929
+  - 1b62167f7ab2
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_fubar
   owner: iuc
   revisions:
-  - b73b35db4664
+  - 93a0cf4ea5fc
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_gard
   owner: iuc
   revisions:
-  - 728d5b0af60f
+  - bff9a82d630d
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_meme
   owner: iuc
   revisions:
-  - b15d64d85c03
+  - 33040ebb30c6
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_relax
   owner: iuc
   revisions:
-  - 8e92afe83af9
+  - 134d46bd47dd
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_slac
   owner: iuc
   revisions:
-  - 242ed2357a01
+  - 8522e7cc4fb4
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_sm19
   owner: iuc
   revisions:
-  - 3a04bc15a251
+  - a96a307afb40
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
