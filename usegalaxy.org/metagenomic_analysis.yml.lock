@@ -37,12 +37,14 @@ tools:
   owner: devteam
   revisions:
   - 6c09bed3444f
+  - 1902d3de4a4f
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken
   owner: devteam
   revisions:
   - 8ba2174315aa
+  - aec58624706f
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: taxonomy_krona_chart
@@ -85,12 +87,14 @@ tools:
   owner: devteam
   revisions:
   - 9bdcba262627
+  - 9a5be5b1a5c9
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken_filter
   owner: devteam
   revisions:
   - 5bee9adae474
+  - 3d6570bffdb1
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken2tax
