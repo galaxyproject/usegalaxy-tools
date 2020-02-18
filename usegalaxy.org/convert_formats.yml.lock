@@ -7,6 +7,7 @@ tools:
   owner: devteam
   revisions:
   - 0b4e36026794
+  - 0a7799698fe5
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: fasta_to_tabular
@@ -31,24 +32,28 @@ tools:
   owner: devteam
   revisions:
   - 02a5f43cd5d1
+  - e282bc27be9a
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: tabular_to_fastq
   owner: devteam
   revisions:
   - b8cdc0507586
+  - 68f57cc8fad0
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: fastqtofasta
   owner: devteam
   revisions:
   - 4844c1810c16
+  - a64c24430f5e
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: fastq_to_tabular
   owner: devteam
   revisions:
   - ccf4e1d1fcbe
+  - 614a63f14adf
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: bax2bam
