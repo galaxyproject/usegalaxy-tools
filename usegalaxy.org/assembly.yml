@@ -34,3 +34,5 @@ tools:
   owner: simon-gladman
 - name: bandage
   owner: iuc
+- name: velvet
+  owner: devteam
