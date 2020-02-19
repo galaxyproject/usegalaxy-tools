@@ -132,6 +132,7 @@ tools:
   owner: devteam
   revisions:
   - 890d97772e2a
+  - a3b4ad6858ff
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bamtools_split
