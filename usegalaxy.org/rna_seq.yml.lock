@@ -37,6 +37,7 @@ tools:
   owner: iuc
   revisions:
   - eba36e001f45
+  - 1ebd14235b92
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: salmon
