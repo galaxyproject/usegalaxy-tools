@@ -37,6 +37,7 @@ tools:
   owner: iuc
   revisions:
   - eba36e001f45
+  - 1ebd14235b92
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: salmon
@@ -85,6 +86,7 @@ tools:
   owner: iuc
   revisions:
   - 850f3679b9b4
+  - b9e04854e2bb
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: cummerbund
@@ -217,42 +219,49 @@ tools:
   owner: iuc
   revisions:
   - 55cf05b65ad5
+  - 04936df18de3
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_super_transcripts
   owner: iuc
   revisions:
   - 6723249ce1bd
+  - 6f480aee5877
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity
   owner: iuc
   revisions:
   - db1f362cca3e
+  - d84caa5a98ad
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_abundance_estimates_to_matrix
   owner: iuc
   revisions:
   - 08326e2e82f1
+  - 59fff1388bc2
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_contig_exn50_statistic
   owner: iuc
   revisions:
   - 3cdcd5753218
+  - 62b05e565a45
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_align_and_estimate_abundance
   owner: iuc
   revisions:
   - 983552d5822d
+  - 56162e446004
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_filter_low_expr_transcripts
   owner: iuc
   revisions:
   - 42f93482524f
+  - 42c5172815f7
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinotate

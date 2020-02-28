@@ -7,6 +7,7 @@ tools:
   owner: iuc
   revisions:
   - 6ad9d48a512e
+  - 587fa797ede9
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: prestor_abseq3

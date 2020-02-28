@@ -90,6 +90,7 @@ tools:
   revisions:
   - 31216d510164
   - 03627f24605f
+  - dfadc322b065
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_filter

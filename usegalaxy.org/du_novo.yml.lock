@@ -19,11 +19,13 @@ tools:
   owner: iuc
   revisions:
   - 7fc3c8704c05
+  - ec5a92514113
   tool_panel_section_id: du_novo
   tool_panel_section_label: Du Novo
 - name: variant_analyzer
   owner: iuc
   revisions:
   - 8d29173d49a9
+  - 3556001ff2db
   tool_panel_section_id: du_novo
   tool_panel_section_label: Du Novo

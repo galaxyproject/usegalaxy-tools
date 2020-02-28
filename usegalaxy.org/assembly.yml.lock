@@ -13,6 +13,7 @@ tools:
   owner: iuc
   revisions:
   - 59db8ea8c845
+  - ebb0dcdb621a
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: trinity_psc
