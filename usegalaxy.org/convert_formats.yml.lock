@@ -99,12 +99,14 @@ tools:
   owner: iuc
   revisions:
   - 49d6f8ef63b3
+  - 8e9d604e92f4
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: gtftobed12
   owner: iuc
   revisions:
   - 57d45064f114
+  - b026dae67fba
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: ucsc_twobittofa

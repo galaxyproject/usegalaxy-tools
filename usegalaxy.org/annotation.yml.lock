@@ -164,6 +164,7 @@ tools:
   owner: iuc
   revisions:
   - 809e42326fc2
+  - dbe2b2204555
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: snap_training
@@ -188,6 +189,7 @@ tools:
   owner: iuc
   revisions:
   - c2656b729ee9
+  - 200c378d85f3
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tb_variant_filter
@@ -206,6 +208,7 @@ tools:
   owner: iuc
   revisions:
   - 8bc80c2a15b3
+  - 36093854bfc7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: transtermhp
