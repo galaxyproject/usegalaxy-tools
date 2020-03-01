@@ -80,6 +80,7 @@ tools:
   owner: iuc
   revisions:
   - 0696db066a5b
+  - 71bacea10eee
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: rgrnastar
