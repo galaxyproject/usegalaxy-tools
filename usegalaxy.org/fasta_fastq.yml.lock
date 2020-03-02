@@ -201,6 +201,7 @@ tools:
   owner: devteam
   revisions:
   - c64d534a763c
+  - 8050e091e99b
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fasta_nucleotide_changer
@@ -221,18 +222,23 @@ tools:
   revisions:
   - 2fd6033d0e9c
   - e626b3ff9922
+  - 8cacfcf96a52
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fasta_concatenate_by_species
   owner: devteam
   revisions:
   - 717aee069681
+  - 16df616b39e5
+  - 25b8736c627a
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fasta_compute_length
   owner: devteam
   revisions:
   - 2051602a5f97
+  - e12f68d2cc4e
+  - 7d37cfda8e00
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fasta_stats

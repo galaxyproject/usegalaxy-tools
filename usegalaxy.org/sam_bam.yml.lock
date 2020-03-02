@@ -153,6 +153,7 @@ tools:
   owner: devteam
   revisions:
   - 4fe8a75334c8
+  - cb20f99fd45b
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_depth
