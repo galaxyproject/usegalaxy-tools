@@ -14,6 +14,8 @@ tools:
   owner: devteam
   revisions:
   - 7e801ab2b70e
+  - 091edad7622f
+  - e7ed3c310b74
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: intermine_galaxy_exchange
