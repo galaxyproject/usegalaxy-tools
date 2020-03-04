@@ -21,7 +21,7 @@ fix: ## Fix all lockfiles and add any missing revisions
 
 update-trusted: ## Run the update script
 	@# Missing --without, so this updates all tools in the file.
-	find ./$(TOOLSET) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update-tool.py --owner iuc --owner earlhaminst --owner rnateam
+	find ./$(TOOLSET) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update-tool.py --owner $(OWNER)
 
 
 .PHONY: lint update-trusted help fix
