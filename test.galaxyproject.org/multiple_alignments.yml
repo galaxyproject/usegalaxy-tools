@@ -4,3 +4,5 @@ tools:
   owner: rnateam
 - name: clustalw
   owner: fubar
+- name: kc_align
+  owner: iuc
