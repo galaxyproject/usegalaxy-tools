@@ -7,6 +7,7 @@ tools:
   owner: bgruening
   revisions:
   - 64be1ac21109
+  - 62c9df8382c2
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: vsearch

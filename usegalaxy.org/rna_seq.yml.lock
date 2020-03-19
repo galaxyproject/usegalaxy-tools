@@ -50,6 +50,7 @@ tools:
   owner: bgruening
   revisions:
   - 64be1ac21109
+  - 62c9df8382c2
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: kallisto_quant
