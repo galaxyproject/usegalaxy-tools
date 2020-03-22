@@ -6,7 +6,7 @@ tools:
 - name: extract_genomic_dna
   owner: iuc
   revisions:
-  - e400dcbc60d0
   - 5cc8e93ee98f
+  - e400dcbc60d0
   tool_panel_section_id: fetch_sequences_alignments
   tool_panel_section_label: Fetch Sequences/Alignments

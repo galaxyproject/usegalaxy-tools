@@ -25,7 +25,7 @@ tools:
 - name: variant_analyzer
   owner: iuc
   revisions:
-  - 8d29173d49a9
   - 3556001ff2db
+  - 8d29173d49a9
   tool_panel_section_id: du_novo
   tool_panel_section_label: Du Novo

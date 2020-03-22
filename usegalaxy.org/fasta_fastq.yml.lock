@@ -90,24 +90,24 @@ tools:
 - name: fastq_paired_end_joiner
   owner: devteam
   revisions:
-  - 822cc1e6274e
   - 09a2199cd356
+  - 822cc1e6274e
   - c885369b207b
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_paired_end_interlacer
   owner: devteam
   revisions:
-  - ef49268ee579
-  - 3e396e702cea
   - 2ccb8dcabddc
+  - 3e396e702cea
+  - ef49268ee579
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_paired_end_deinterlacer
   owner: devteam
   revisions:
-  - b7ce72b00e62
   - 03d57fea6482
+  - b7ce72b00e62
   - f3936d0632cb
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -120,33 +120,33 @@ tools:
 - name: fastq_paired_end_splitter
   owner: devteam
   revisions:
-  - 9bbe5b7ffa12
-  - 35e38452bb3f
   - 249c8393f2d4
+  - 35e38452bb3f
+  - 9bbe5b7ffa12
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_masker_by_quality
   owner: devteam
   revisions:
-  - eb592e9ec47a
   - 9282652e7234
   - 9dfda4e310ed
+  - eb592e9ec47a
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_manipulation
   owner: devteam
   revisions:
   - 4ac14b275aca
-  - 7861f3b10c68
   - 5b87038565bb
+  - 7861f3b10c68
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_groomer
   owner: devteam
   revisions:
+  - 47e5dbc3e790
   - 71e5fa25b8a2
   - 8611b80a14d6
-  - 47e5dbc3e790
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_filter
@@ -200,8 +200,8 @@ tools:
 - name: fastq_trimmer_by_quality
   owner: devteam
   revisions:
-  - c64d534a763c
   - 8050e091e99b
+  - c64d534a763c
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fasta_nucleotide_changer
@@ -221,24 +221,24 @@ tools:
   owner: devteam
   revisions:
   - 2fd6033d0e9c
-  - e626b3ff9922
   - 8cacfcf96a52
+  - e626b3ff9922
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fasta_concatenate_by_species
   owner: devteam
   revisions:
-  - 717aee069681
   - 16df616b39e5
   - 25b8736c627a
+  - 717aee069681
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fasta_compute_length
   owner: devteam
   revisions:
   - 2051602a5f97
-  - e12f68d2cc4e
   - 7d37cfda8e00
+  - e12f68d2cc4e
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fasta_stats

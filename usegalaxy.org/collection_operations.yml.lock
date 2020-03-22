@@ -21,3 +21,9 @@ tools:
   - d3c07d270a50
   tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations
+- name: split_file_to_collection
+  owner: bgruening
+  revisions:
+  - e77b954f0da5
+  tool_panel_section_id: collection_operations
+  tool_panel_section_label: Collection Operations

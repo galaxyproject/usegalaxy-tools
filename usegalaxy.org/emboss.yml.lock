@@ -6,7 +6,7 @@ tools:
 - name: emboss_5
   owner: devteam
   revisions:
-  - dc492eb6a4fc
   - dba489bfcd62
+  - dc492eb6a4fc
   tool_panel_section_id: emboss
   tool_panel_section_label: EMBOSS

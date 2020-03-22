@@ -72,8 +72,8 @@ tools:
 - name: ml_visualization_ex
   owner: bgruening
   revisions:
-  - c7655b5a94af
   - 222c02df5d55
+  - c7655b5a94af
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: charts
@@ -127,8 +127,8 @@ tools:
 - name: jbrowse
   owner: iuc
   revisions:
-  - edb534491f92
   - 667e17248bfe
+  - edb534491f92
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: newick_utils
@@ -146,8 +146,8 @@ tools:
 - name: pygenometracks
   owner: iuc
   revisions:
-  - eca03db4f612
   - 5cec5fb749f0
+  - eca03db4f612
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: tsne
