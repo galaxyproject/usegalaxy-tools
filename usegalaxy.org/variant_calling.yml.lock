@@ -76,6 +76,7 @@ tools:
   revisions:
   - 32f2211eeec3
   - 3fe8ef358d66
+  - 5bbf9eada9c2
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_alnqual
@@ -83,6 +84,7 @@ tools:
   revisions:
   - 606542a18f82
   - 2953c43180c0
+  - 435b157bed6d
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_call
@@ -91,6 +93,7 @@ tools:
   - 31216d510164
   - 03627f24605f
   - dfadc322b065
+  - 3b4b2121842f
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_filter
@@ -98,6 +101,7 @@ tools:
   revisions:
   - 6f9ffff040ce
   - fdba1586551d
+  - 9cb929f21cfa
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_indelqual
@@ -105,6 +109,7 @@ tools:
   revisions:
   - 5d6a078d30b0
   - 2ae554b4bcca
+  - f4473557ffc7
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_viterbi
@@ -112,6 +117,7 @@ tools:
   revisions:
   - 33a416e1659e
   - ecd80c7c3886
+  - cdaab621d454
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: basil
