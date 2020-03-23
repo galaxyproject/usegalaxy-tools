@@ -61,7 +61,6 @@ tools:
 - name: pe_histogram
   owner: iuc
   revisions:
-  - 9be99db0304a
   - bd1416eea1f0
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
