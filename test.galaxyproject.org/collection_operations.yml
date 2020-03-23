@@ -1,0 +1,8 @@
+tool_panel_section_label: Collection Operations
+tools:
+- name: collection_column_join
+  owner: iuc
+- name: collapse_collections
+  owner: nml
+- name: collection_element_identifiers
+  owner: iuc
