@@ -6,8 +6,8 @@ tools:
 - name: diamond
   owner: bgruening
   revisions:
-  - 64be1ac21109
   - 62c9df8382c2
+  - 64be1ac21109
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: vsearch
@@ -37,8 +37,8 @@ tools:
 - name: kraken_report
   owner: devteam
   revisions:
-  - 6c09bed3444f
   - 1902d3de4a4f
+  - 6c09bed3444f
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken
@@ -89,15 +89,15 @@ tools:
 - name: kraken_translate
   owner: devteam
   revisions:
-  - 9bdcba262627
   - 9a5be5b1a5c9
+  - 9bdcba262627
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken_filter
   owner: devteam
   revisions:
-  - 5bee9adae474
   - 3d6570bffdb1
+  - 5bee9adae474
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken2tax
@@ -145,36 +145,42 @@ tools:
 - name: dada2_plotqualityprofile
   owner: iuc
   revisions:
+  - 2a90d2fd3336
   - fa11922f3d91
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_plotcomplexity
   owner: iuc
   revisions:
+  - 1728e5ee871a
   - 498d57610fcd
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_assigntaxonomyaddspecies
   owner: iuc
   revisions:
+  - 1c9715cef808
   - 4d89978c6188
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_removebimeradenovo
   owner: iuc
   revisions:
+  - 5b752525bd6f
   - 7f8f0e9fcb37
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_filterandtrim
   owner: iuc
   revisions:
+  - 23fc35093b11
   - 777f9846c56d
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_dada
   owner: iuc
   revisions:
+  - 2222f08c8316
   - 6b4ddc3b64bd
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -182,17 +188,20 @@ tools:
   owner: iuc
   revisions:
   - 39638e0aff59
+  - c48d42d65d2b
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_makesequencetable
   owner: iuc
   revisions:
+  - 99c6929236fa
   - 9ccec6ed8e82
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_mergepairs
   owner: iuc
   revisions:
+  - 69900ffd3b8e
   - b1e55c248f17
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -200,6 +209,7 @@ tools:
   owner: iuc
   revisions:
   - 4cc834cce4fb
+  - f74c56549143
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: bio_hansel

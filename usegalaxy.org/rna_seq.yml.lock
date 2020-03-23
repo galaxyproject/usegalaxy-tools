@@ -36,8 +36,8 @@ tools:
 - name: stringtie
   owner: iuc
   revisions:
-  - eba36e001f45
   - 1ebd14235b92
+  - eba36e001f45
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: salmon
@@ -49,8 +49,8 @@ tools:
 - name: diamond
   owner: bgruening
   revisions:
-  - 64be1ac21109
   - 62c9df8382c2
+  - 64be1ac21109
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: kallisto_quant
@@ -220,8 +220,8 @@ tools:
 - name: trinity_run_de_analysis
   owner: iuc
   revisions:
-  - 55cf05b65ad5
   - 04936df18de3
+  - 55cf05b65ad5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_super_transcripts
@@ -234,8 +234,8 @@ tools:
 - name: trinity
   owner: iuc
   revisions:
-  - db1f362cca3e
   - d84caa5a98ad
+  - db1f362cca3e
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_abundance_estimates_to_matrix
@@ -255,15 +255,15 @@ tools:
 - name: trinity_align_and_estimate_abundance
   owner: iuc
   revisions:
-  - 983552d5822d
   - 56162e446004
+  - 983552d5822d
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_filter_low_expr_transcripts
   owner: iuc
   revisions:
-  - 42f93482524f
   - 42c5172815f7
+  - 42f93482524f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinotate

@@ -13,36 +13,36 @@ tools:
 - name: poretools_winner
   owner: iuc
   revisions:
-  - 9d8f41103cc6
   - 79c1ac92f31b
+  - 9d8f41103cc6
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_times
   owner: iuc
   revisions:
-  - e5072f0d3772
   - 960be5e0b47e
+  - e5072f0d3772
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_tabular
   owner: iuc
   revisions:
-  - 7f0b324de883
   - 2cb2feb94f0e
+  - 7f0b324de883
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_stats
   owner: iuc
   revisions:
-  - ae4c8446ce30
   - 4b17acf9b6ab
+  - ae4c8446ce30
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_squiggle
   owner: iuc
   revisions:
-  - ce8af9373061
   - 34553d0caa5e
+  - ce8af9373061
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_qualpos

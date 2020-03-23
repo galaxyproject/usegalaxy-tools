@@ -24,8 +24,8 @@ tools:
 - name: samtool_filter2
   owner: devteam
   revisions:
-  - a7add3e93cc5
   - 649a225999a5
+  - a7add3e93cc5
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bam_to_sam
@@ -50,8 +50,8 @@ tools:
 - name: samtools_calmd
   owner: devteam
   revisions:
-  - 3d873744df7e
   - 06dc50b7b711
+  - 3d873744df7e
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_bedcov
@@ -69,8 +69,8 @@ tools:
 - name: samtools_stats
   owner: devteam
   revisions:
-  - 47035d167365
   - 145f6d74ff5e
+  - 47035d167365
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_slice_bam
@@ -118,8 +118,8 @@ tools:
 - name: sam2interval
   owner: devteam
   revisions:
-  - 8c737b8ddc45
   - 75557c0908a9
+  - 8c737b8ddc45
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: sam_bitwise_flag_filter
@@ -138,8 +138,8 @@ tools:
 - name: bamtools_split
   owner: devteam
   revisions:
-  - e2c1b62e1db1
   - 9676127a1ed2
+  - e2c1b62e1db1
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bamtools
@@ -195,8 +195,8 @@ tools:
 - name: samtools_view
   owner: iuc
   revisions:
-  - ff313de5f7f4
   - b01db2684fa5
+  - ff313de5f7f4
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: qualimap_multi_bamqc

@@ -6,15 +6,15 @@ tools:
 - name: meme_meme
   owner: iuc
   revisions:
-  - 57e5d9382f36
   - 3f0dd362b755
+  - 57e5d9382f36
   tool_panel_section_id: motif
   tool_panel_section_label: Motif
 - name: meme_fimo
   owner: iuc
   revisions:
-  - c1a9a297ba8b
   - 0c5239d1aa65
+  - c1a9a297ba8b
   tool_panel_section_id: motif
   tool_panel_section_label: Motif
 - name: weblogo3

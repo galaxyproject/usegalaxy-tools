@@ -54,14 +54,13 @@ tools:
 - name: tag_pileup_frequency
   owner: iuc
   revisions:
-  - 6432735cdb22
   - 580e8bcb6413
+  - 6432735cdb22
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: pe_histogram
   owner: iuc
   revisions:
-  - 9be99db0304a
   - bd1416eea1f0
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
@@ -74,8 +73,8 @@ tools:
 - name: resize_coordinate_window
   owner: iuc
   revisions:
-  - 9ba78e8985dc
   - 4eb3cc1f8466
+  - 9ba78e8985dc
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: repmatch_gff3
@@ -88,7 +87,7 @@ tools:
 - name: macs
   owner: devteam
   revisions:
-  - f6319b0b4391
   - e5f3bfba6812
+  - f6319b0b4391
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq

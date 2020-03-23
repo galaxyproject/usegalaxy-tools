@@ -49,8 +49,8 @@ tools:
 - name: exonerate
   owner: iuc
   revisions:
-  - b03ae2ba8688
   - a03dead1bede
+  - b03ae2ba8688
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: fargene
@@ -129,6 +129,7 @@ tools:
   owner: bgruening
   revisions:
   - ade773848c3d
+  - d7540a923c7b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: maker_map_ids
@@ -158,8 +159,8 @@ tools:
 - name: repeat_masker
   owner: bgruening
   revisions:
-  - d7540a923c7b
   - ade773848c3d
+  - d7540a923c7b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: roary
@@ -190,8 +191,8 @@ tools:
 - name: tbprofiler
   owner: iuc
   revisions:
-  - c2656b729ee9
   - 200c378d85f3
+  - c2656b729ee9
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tb_variant_filter
@@ -209,8 +210,8 @@ tools:
 - name: tetyper
   owner: iuc
   revisions:
-  - 8bc80c2a15b3
   - 36093854bfc7
+  - 8bc80c2a15b3
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: transtermhp

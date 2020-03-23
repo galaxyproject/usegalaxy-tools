@@ -38,29 +38,29 @@ tools:
 - name: mummer_dnadiff
   owner: iuc
   revisions:
-  - deacc6b40cc0
   - 315c678562d2
+  - deacc6b40cc0
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_show_coords
   owner: iuc
   revisions:
-  - f8734af48332
   - b8e2c2f95d26
+  - f8734af48332
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_mummerplot
   owner: iuc
   revisions:
-  - e8c60daa41e0
   - c0cedc12fcc5
+  - e8c60daa41e0
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_nucmer
   owner: iuc
   revisions:
-  - a18fb4f826fc
   - 5b0b49b5421c
+  - a18fb4f826fc
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: pipelign
