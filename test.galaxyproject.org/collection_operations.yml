@@ -6,3 +6,5 @@ tools:
   owner: nml
 - name: collection_element_identifiers
   owner: iuc
+- name: split_file_to_collection
+  owner: bgruening
