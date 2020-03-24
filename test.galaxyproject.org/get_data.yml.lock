@@ -15,3 +15,9 @@ tools:
   - f5ea3ce9b9b0
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
+- name: ncbi_acc_download
+  owner: iuc
+  revisions:
+  - 1c58de56d587
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data

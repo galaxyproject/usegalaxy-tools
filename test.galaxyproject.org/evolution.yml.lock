@@ -1,0 +1,11 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Evolution
+tools:
+- name: fasttree
+  owner: iuc
+  revisions:
+  - e005e659ae21
+  tool_panel_section_id: evolution
+  tool_panel_section_label: Evolution

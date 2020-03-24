@@ -1,0 +1,23 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Collection Operations
+tools:
+- name: collection_column_join
+  owner: iuc
+  revisions:
+  - 071084070619
+  tool_panel_section_id: collection_operations
+  tool_panel_section_label: Collection Operations
+- name: collapse_collections
+  owner: nml
+  revisions:
+  - 830961c48e42
+  tool_panel_section_id: collection_operations
+  tool_panel_section_label: Collection Operations
+- name: collection_element_identifiers
+  owner: iuc
+  revisions:
+  - d3c07d270a50
+  tool_panel_section_id: collection_operations
+  tool_panel_section_label: Collection Operations
