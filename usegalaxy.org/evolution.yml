@@ -4,3 +4,5 @@ tools:
   owner: iuc
 - name: iqtree
   owner: iuc
+- name: suite_tn93
+  owner: iuc
