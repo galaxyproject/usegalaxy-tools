@@ -13,6 +13,7 @@ tools:
   owner: nml
   revisions:
   - 33151a38533a
+  - 830961c48e42
   tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations
 - name: collection_element_identifiers
