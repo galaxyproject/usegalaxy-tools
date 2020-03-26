@@ -69,9 +69,3 @@ tools:
   - 1cd3060a8504
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
-- name: suite_tn93
-  owner: iuc
-  revisions:
-  - 4f89354ffb6e
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
