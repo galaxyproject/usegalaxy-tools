@@ -16,10 +16,11 @@ tools:
   owner: iuc
 - name: hyphy_meme
   owner: iuc
+- name: hyphy_prime
+  owner: iuc
 - name: hyphy_relax
   owner: iuc
 - name: hyphy_slac
   owner: iuc
 - name: hyphy_sm19
   owner: iuc
-  
