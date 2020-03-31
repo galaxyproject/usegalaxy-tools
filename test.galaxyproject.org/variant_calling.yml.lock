@@ -87,6 +87,7 @@ tools:
   owner: nick
   revisions:
   - 411adeff1eec
+  - 6cc488e11544
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: freebayes
