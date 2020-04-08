@@ -51,6 +51,7 @@ tools:
   owner: nick
   revisions:
   - 411adeff1eec
+  - cf2af5c3118c
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: phylorelatives
