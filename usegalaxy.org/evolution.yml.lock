@@ -14,6 +14,7 @@ tools:
   owner: iuc
   revisions:
   - 973a28be3b7f
+  - f97743d52b87
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: tn93
