@@ -78,6 +78,7 @@ tools:
 - name: kc_align
   owner: iuc
   revisions:
+  - a0ffbc759ad8
   - 0243407479f1
   - 20bef04b5272
   - 60ed1c94f584
