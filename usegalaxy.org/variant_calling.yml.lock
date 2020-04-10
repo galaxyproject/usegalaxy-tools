@@ -148,6 +148,7 @@ tools:
   owner: iuc
   revisions:
   - fd2d6e035c3f
+  - 3be27a9a7313
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: mixcr_analyze
