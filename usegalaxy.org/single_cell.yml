@@ -1,0 +1,18 @@
+tool_panel_section_label: Single Cell
+tools:
+- name: seurat
+  owner: iuc
+- name: raceid_trajectory
+  owner: iuc
+- name: raceid_clustering
+  owner: iuc
+- name: raceid_inspecttrajectory
+  owner: iuc
+- name: raceid_filtnormconf
+  owner: iuc
+- name: raceid_inspectclusters
+  owner: iuc
+- name: dropletutils
+  owner: iuc
+- name: rna_starsolo
+  owner: iuc

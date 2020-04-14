@@ -1,0 +1,53 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Single Cell
+tools:
+- name: seurat
+  owner: iuc
+  revisions:
+  - 7a5cd7987b03
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single Cell
+- name: raceid_trajectory
+  owner: iuc
+  revisions:
+  - 44b935f2271b
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single Cell
+- name: raceid_clustering
+  owner: iuc
+  revisions:
+  - 7e014059a88d
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single Cell
+- name: raceid_inspecttrajectory
+  owner: iuc
+  revisions:
+  - 69018f285aa3
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single Cell
+- name: raceid_filtnormconf
+  owner: iuc
+  revisions:
+  - 7608d5faee41
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single Cell
+- name: raceid_inspectclusters
+  owner: iuc
+  revisions:
+  - 37a47c4fd84d
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single Cell
+- name: dropletutils
+  owner: iuc
+  revisions:
+  - cdf4443d5625
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single Cell
+- name: rna_starsolo
+  owner: iuc
+  revisions:
+  - 178bdbdb6d24
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single Cell
