@@ -148,8 +148,8 @@ tools:
 - name: gatk4_mutect2
   owner: iuc
   revisions:
-  - fd2d6e035c3f
   - 3be27a9a7313
+  - fd2d6e035c3f
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: mixcr_analyze
