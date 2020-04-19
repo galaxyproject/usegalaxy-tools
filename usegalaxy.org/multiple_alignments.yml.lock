@@ -6,6 +6,7 @@ tools:
 - name: mafft
   owner: rnateam
   revisions:
+  - aaefa93c2dd2
   - c5908940967d
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
@@ -78,9 +79,9 @@ tools:
 - name: kc_align
   owner: iuc
   revisions:
-  - a0ffbc759ad8
   - 0243407479f1
   - 20bef04b5272
   - 60ed1c94f584
+  - a0ffbc759ad8
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
