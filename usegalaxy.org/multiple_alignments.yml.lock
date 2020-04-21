@@ -78,10 +78,10 @@ tools:
 - name: kc_align
   owner: iuc
   revisions:
-  - 1e70671a90c6
-  - a0ffbc759ad8
   - 0243407479f1
+  - 1e70671a90c6
   - 20bef04b5272
   - 60ed1c94f584
+  - a0ffbc759ad8
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
