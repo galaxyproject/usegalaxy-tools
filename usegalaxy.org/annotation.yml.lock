@@ -14,6 +14,7 @@ tools:
   owner: iuc
   revisions:
   - 4efdca267d51
+  - b734db305578
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: augustus
