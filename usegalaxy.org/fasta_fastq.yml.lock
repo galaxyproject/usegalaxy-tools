@@ -25,6 +25,7 @@ tools:
   owner: iuc
   revisions:
   - 1d8fe9bc4cb0
+  - dbf9c561ef29
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_trimmer
