@@ -75,3 +75,15 @@ tools:
   - 6cf8d753e93e
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
+- name: sarscov2summary
+  owner: iuc
+  revisions:
+  - 4ad8b610ea41
+  tool_panel_section_id: hyphy
+  tool_panel_section_label: HyPhy
+- name: sarscov2formatter
+  owner: iuc
+  revisions:
+  - 1c664ff29354
+  tool_panel_section_id: hyphy
+  tool_panel_section_label: HyPhy
