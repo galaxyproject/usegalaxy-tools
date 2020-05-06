@@ -2,6 +2,8 @@ tool_panel_section_label: Multiple Alignments
 tools:
 - name: mafft
   owner: rnateam
+- name: mafft-add
+  owner: rnateam
 - name: clustalw
   owner: fubar
 - name: kc_align
