@@ -1,5 +1,7 @@
 tool_panel_section_label: Evolution
 tools:
+- name: rapidnj
+  owner: iuc
 - name: fasttree
   owner: iuc
 - name: iqtree
