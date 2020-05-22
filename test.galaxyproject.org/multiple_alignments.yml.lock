@@ -9,10 +9,6 @@ tools:
   - aaefa93c2dd2
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
-- name: mafft-add
-  owner: rnateam
-  revisions:
-  - aaefa93c2dd2
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: clustalw
