@@ -32,3 +32,5 @@ tools:
   owner: rnateam
 - name: cdhit
   owner: jjohnson
+- name: kc_align
+  owner: iuc
