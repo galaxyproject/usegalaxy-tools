@@ -32,6 +32,7 @@ tools:
 - name: bp_genbank2gff3
   owner: iuc
   revisions:
+  - 11c3eb512633
   - a0d092f27fdf
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -149,6 +150,7 @@ tools:
   owner: iuc
   revisions:
   - 1f5641a52664
+  - ded48b36f3b7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: progressivemauve

@@ -18,6 +18,7 @@ tools:
 - name: circos
   owner: iuc
   revisions:
+  - 4b519282a05b
   - a64dc31ab7f2
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data

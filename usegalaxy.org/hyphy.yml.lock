@@ -6,19 +6,19 @@ tools:
 - name: hyphy_absrel
   owner: iuc
   revisions:
-  - c78f3d7dd1db
   - 107d3ba7024a
   - 4aad5b48d5b2
   - ad0af446d496
+  - c78f3d7dd1db
   - cce7b18495e4
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_bgm
   owner: iuc
   revisions:
-  - 7fd2d1451728
-  - 14e7ae9331cb
   - 0669558ebc6b
+  - 14e7ae9331cb
+  - 7fd2d1451728
   - c669c8f7c6f6
   - cd9063b57f8b
   tool_panel_section_id: hyphy
@@ -26,9 +26,9 @@ tools:
 - name: hyphy_busted
   owner: iuc
   revisions:
-  - 686a8b41d09c
   - 04d4919c73d4
   - 6647e04e92a7
+  - 686a8b41d09c
   - 7bed09107277
   - cde38657e82c
   tool_panel_section_id: hyphy
@@ -36,8 +36,8 @@ tools:
 - name: hyphy_fade
   owner: iuc
   revisions:
-  - bf27b3df1a4f
   - 7c41611bf5b7
+  - bf27b3df1a4f
   - c257fa0a98a7
   - c630f400742f
   - e7be036f1616
@@ -46,39 +46,39 @@ tools:
 - name: hyphy_fel
   owner: iuc
   revisions:
-  - ae95a6b22562
-  - b6e3961a25ff
   - 4926c55123d1
   - 8389039f7fbc
+  - ae95a6b22562
+  - b6e3961a25ff
   - bab5041d177e
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_fubar
   owner: iuc
   revisions:
-  - ff1e9dd7ad13
   - 37f6c6344193
   - 73833ae53fbb
   - 77ff2a3d93fa
   - 9d2714133deb
+  - ff1e9dd7ad13
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_gard
   owner: iuc
   revisions:
-  - 7a2092844346
-  - e75442c7f4da
   - 03f1b4c09330
+  - 7a2092844346
   - 8d8e1285fdea
   - aa8cc71438cf
+  - e75442c7f4da
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_meme
   owner: iuc
   revisions:
-  - b69685ed772e
   - 36f47ae7dd8c
   - 3d1f153e2aa1
+  - b69685ed772e
   - c5e1017b9232
   - d3b4e05f969b
   tool_panel_section_id: hyphy
@@ -86,41 +86,41 @@ tools:
 - name: hyphy_prime
   owner: iuc
   revisions:
-  - e06961ac014b
   - 70aa4bada58d
   - 725ef5f6d749
   - 87f070db0de0
   - 8f66e659530b
+  - e06961ac014b
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_relax
   owner: iuc
   revisions:
   - 2ccc579efdde
-  - 9158a34fc9c5
   - 2e65b13d8b13
   - 2fe09c202bbe
   - 627443c1e5ba
+  - 9158a34fc9c5
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_slac
   owner: iuc
   revisions:
-  - 4ddef72f7f21
-  - b82429e9c6a9
   - 0b4ee5db66ca
+  - 4ddef72f7f21
   - 5856faafe469
   - aafe4a864d84
+  - b82429e9c6a9
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_sm19
   owner: iuc
   revisions:
-  - c102811766ef
   - 056a5b14721d
   - 188452adcaa0
   - 638942ba8e37
   - 6cf8d753e93e
+  - c102811766ef
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: sarscov2summary
