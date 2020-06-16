@@ -1,0 +1,14 @@
+tool_panel_section_label: Virology
+tools:
+- name: ivar_consensus
+  owner: iuc
+- name: ivar_filtervariants
+  owner: iuc
+- name: ivar_getmasked
+  owner: iuc
+- name: ivar_removereads
+  owner: iuc
+- name: ivar_trim
+  owner: iuc
+- name: ivar_variants
+  owner: iuc

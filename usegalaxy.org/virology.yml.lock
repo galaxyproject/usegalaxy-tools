@@ -1,0 +1,41 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Virology
+tools:
+- name: ivar_consensus
+  owner: iuc
+  revisions:
+  - 7f781286b55f
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+- name: ivar_filtervariants
+  owner: iuc
+  revisions:
+  - 2c47c138176e
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+- name: ivar_getmasked
+  owner: iuc
+  revisions:
+  - 2cf4a1cafc16
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+- name: ivar_removereads
+  owner: iuc
+  revisions:
+  - 3d18f8c3c0f6
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+- name: ivar_trim
+  owner: iuc
+  revisions:
+  - 5d6ed46cc101
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+- name: ivar_variants
+  owner: iuc
+  revisions:
+  - aa9de8f20668
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
