@@ -202,6 +202,7 @@ tools:
 - name: seurat
   owner: iuc
   revisions:
+  - 06ed31cf52ed
   - 7a5cd7987b03
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
