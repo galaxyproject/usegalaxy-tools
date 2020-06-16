@@ -14,7 +14,7 @@ GALAXY_DOCKER_IMAGE='galaxy/galaxy-k8s:20.01'
 # Disable if using a locally built image e.g. for debugging
 GALAXY_DOCKER_IMAGE_PULL=true
 
-GALAXY_TEMPLATE_DB_URL='https://github.com/davebx/galaxyproject-sqlite/raw/master/20.01.sqlite'
+GALAXY_TEMPLATE_DB_URL='https://raw.githubusercontent.com/davebx/galaxyproject-sqlite/master/20.01.sqlite'
 GALAXY_TEMPLATE_DB="${GALAXY_TEMPLATE_DB_URL##*/}"
 
 # Need to run dev until 0.10.4
