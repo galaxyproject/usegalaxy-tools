@@ -12,3 +12,5 @@ tools:
   owner: iuc
 - name: ivar_variants
   owner: iuc
+- name: snpeff_sars_cov_2
+  owner: iuc
