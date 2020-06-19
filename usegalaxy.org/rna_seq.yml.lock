@@ -155,6 +155,7 @@ tools:
   owner: iuc
   revisions:
   - 704c401e0afb
+  - 2b80a2596064
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: idr
@@ -197,6 +198,7 @@ tools:
   owner: iuc
   revisions:
   - 5c4bca9dd4a2
+  - 7397e6badc11
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: seurat
