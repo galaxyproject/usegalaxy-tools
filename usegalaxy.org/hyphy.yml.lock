@@ -6,6 +6,7 @@ tools:
 - name: hyphy_absrel
   owner: iuc
   revisions:
+  - 8834daeb9892
   - 107d3ba7024a
   - 4aad5b48d5b2
   - ad0af446d496
@@ -16,6 +17,7 @@ tools:
 - name: hyphy_bgm
   owner: iuc
   revisions:
+  - f22ed633b72b
   - 0669558ebc6b
   - 14e7ae9331cb
   - 7fd2d1451728
@@ -26,6 +28,7 @@ tools:
 - name: hyphy_busted
   owner: iuc
   revisions:
+  - 35df756079a3
   - 04d4919c73d4
   - 6647e04e92a7
   - 686a8b41d09c
@@ -36,6 +39,7 @@ tools:
 - name: hyphy_fade
   owner: iuc
   revisions:
+  - 048d3f9c9efc
   - 7c41611bf5b7
   - bf27b3df1a4f
   - c257fa0a98a7
@@ -46,6 +50,7 @@ tools:
 - name: hyphy_fel
   owner: iuc
   revisions:
+  - 048d3f9c9efc
   - 4926c55123d1
   - 8389039f7fbc
   - ae95a6b22562
@@ -56,6 +61,7 @@ tools:
 - name: hyphy_fubar
   owner: iuc
   revisions:
+  - 658ad6851b71
   - 37f6c6344193
   - 73833ae53fbb
   - 77ff2a3d93fa
@@ -66,6 +72,7 @@ tools:
 - name: hyphy_gard
   owner: iuc
   revisions:
+  - df47d4845b62
   - 03f1b4c09330
   - 7a2092844346
   - 8d8e1285fdea
@@ -76,6 +83,7 @@ tools:
 - name: hyphy_meme
   owner: iuc
   revisions:
+  - dd45dc0b8c11
   - 36f47ae7dd8c
   - 3d1f153e2aa1
   - b69685ed772e
@@ -86,6 +94,7 @@ tools:
 - name: hyphy_prime
   owner: iuc
   revisions:
+  - 9f566d869e2f
   - 70aa4bada58d
   - 725ef5f6d749
   - 87f070db0de0
@@ -96,6 +105,7 @@ tools:
 - name: hyphy_relax
   owner: iuc
   revisions:
+  - 4d13ff4556da
   - 2ccc579efdde
   - 2e65b13d8b13
   - 2fe09c202bbe
@@ -106,6 +116,7 @@ tools:
 - name: hyphy_slac
   owner: iuc
   revisions:
+  - 6b987524ea27
   - 0b4ee5db66ca
   - 4ddef72f7f21
   - 5856faafe469
@@ -116,6 +127,7 @@ tools:
 - name: hyphy_sm19
   owner: iuc
   revisions:
+  - 5c2640980c0a
   - 056a5b14721d
   - 188452adcaa0
   - 638942ba8e37
