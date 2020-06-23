@@ -7,23 +7,27 @@ tools:
   owner: iuc
   revisions:
   - 606542a18f82
+  - e0e2fd665102
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_call
   owner: iuc
   revisions:
   - 31216d510164
+  - 65432c3abf6c
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_filter
   owner: iuc
   revisions:
   - 6f9ffff040ce
+  - 950d1d49d678
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_indelqual
   owner: iuc
   revisions:
+  - 354b534eeab7
   - 5d6a078d30b0
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -31,6 +35,7 @@ tools:
   owner: iuc
   revisions:
   - 33a416e1659e
+  - af7e416d8176
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: gatk4_mutect2
@@ -51,11 +56,13 @@ tools:
   owner: iuc
   revisions:
   - 0aa87d97847f
+  - 5bbf9eada9c2
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: snpeff
   owner: iuc
   revisions:
+  - 74aebe30fb52
   - 8f92c2b26e6d
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
