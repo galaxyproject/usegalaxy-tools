@@ -157,6 +157,7 @@ tools:
   owner: iuc
   revisions:
   - bdb752f3c6bb
+  - 97a43bcbf44d
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: repeat_masker
@@ -171,6 +172,7 @@ tools:
   revisions:
   - 809e42326fc2
   - dbe2b2204555
+  - 15ac71df11a0
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: snap_training

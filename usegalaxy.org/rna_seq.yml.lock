@@ -44,6 +44,7 @@ tools:
   owner: bgruening
   revisions:
   - 7fdb9d1591e2
+  - e3d32471da11
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: diamond
