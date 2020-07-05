@@ -87,6 +87,7 @@ tools:
   owner: iuc
   revisions:
   - d9f6a00b6db7
+  - 8d1af5db538d
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades

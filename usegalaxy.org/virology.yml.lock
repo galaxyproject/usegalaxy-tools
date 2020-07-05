@@ -7,12 +7,14 @@ tools:
   owner: iuc
   revisions:
   - 7f781286b55f
+  - 78bbd17d0703
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_filtervariants
   owner: iuc
   revisions:
   - 2c47c138176e
+  - 7fe36019c073
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_getmasked
@@ -25,18 +27,21 @@ tools:
   owner: iuc
   revisions:
   - 3d18f8c3c0f6
+  - ee2beb764a7b
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_trim
   owner: iuc
   revisions:
   - 5d6ed46cc101
+  - db536ad45f28
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_variants
   owner: iuc
   revisions:
   - aa9de8f20668
+  - f95f403841ad
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: snpeff_sars_cov_2
