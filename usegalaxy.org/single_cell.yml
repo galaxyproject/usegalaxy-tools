@@ -1,0 +1,39 @@
+tool_panel_section_label: Single-cell
+tools:
+- name: scanpy_plot
+  owner: iuc
+- name: scanpy_inspect
+  owner: iuc
+- name: scanpy_filter
+  owner: iuc
+- name: scanpy_normalize
+  owner: iuc
+- name: scanpy_plot
+  owner: iuc
+- name: scanpy_cluster_reduce_dimension
+  owner: iuc
+- name: scanpy_remove_confounders
+  owner: iuc
+- name: anndata_export
+  owner: iuc
+- name: anndata_import
+  owner: iuc
+- name: anndata_inspect
+  owner: iuc
+- name: anndata_maninpulate
+  owner: iuc
+- name: modify_loom
+  owner: iuc
+- name: dropletutils
+  owner: iuc
+- name: raceid_clustering
+  owner: iuc
+- name: raceid_filtnormconf
+  owner: iuc
+- name: raceid_inspectclusters
+  owner: iuc
+- name: raceid_inspecttrajectory
+  owner: iuc
+- name: raceid_trajectory
+  owner: iuc
+  
