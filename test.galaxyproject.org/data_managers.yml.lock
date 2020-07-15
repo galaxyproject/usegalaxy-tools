@@ -4,6 +4,12 @@ install_tool_dependencies: false
 tool_panel_section_label: Data Managers
 tools:
 - name: data_manager_fetch_index_maf
+  owner: dave
+  revisions:
+  - de73b258a601
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_fetch_index_maf
   owner: iuc
   revisions:
   - aed50ca398bb
