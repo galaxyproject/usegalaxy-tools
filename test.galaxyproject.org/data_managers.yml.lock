@@ -6,7 +6,7 @@ tools:
 - name: data_manager_fetch_index_maf
   owner: dave
   revisions:
-  - de73b258a601
+  - edf39ed96bc3
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_fetch_index_maf
