@@ -3,6 +3,18 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: Data Managers
 tools:
+- name: data_manager_fetch_index_maf
+  owner: dave
+  revisions:
+  - edf39ed96bc3
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_fetch_index_maf
+  owner: iuc
+  revisions:
+  - aed50ca398bb
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
 - name: data_manager_hisat_index_builder
   owner: devteam
   revisions:
