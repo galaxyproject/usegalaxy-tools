@@ -18,3 +18,5 @@ tools:
   owner: devteam
 - name: prinseq
   owner: iuc
+- name: fastqe
+  owner: iuc
