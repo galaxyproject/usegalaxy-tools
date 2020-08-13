@@ -18,3 +18,5 @@ tools:
   owner: devteam
 - name: fastp
   owner: iuc
+- name: fastqe
+  owner: iuc
