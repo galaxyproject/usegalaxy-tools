@@ -1,5 +1,7 @@
 tool_panel_section_label: Multiple Alignments
 tools:
+- name: maf_stats
+  owner: iuc
 - name: interval2maf
   owner: iuc
 - name: mafft

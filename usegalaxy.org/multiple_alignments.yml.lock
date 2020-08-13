@@ -3,6 +3,12 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: Multiple Alignments
 tools:
+- name: maf_stats
+  owner: iuc
+  revisions:
+  - 5a92f4c476b5
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
 - name: interval2maf
   owner: iuc
   revisions:
