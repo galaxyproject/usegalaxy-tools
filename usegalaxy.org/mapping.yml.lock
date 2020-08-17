@@ -69,6 +69,7 @@ tools:
 - name: rna_starsolo
   owner: iuc
   revisions:
+  - e403d27e8f24
   - 178bdbdb6d24
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
