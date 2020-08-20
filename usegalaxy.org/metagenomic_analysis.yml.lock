@@ -147,6 +147,7 @@ tools:
   revisions:
   - 2a90d2fd3336
   - fa11922f3d91
+  - 52a911972c02
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_plotcomplexity
@@ -154,6 +155,7 @@ tools:
   revisions:
   - 1728e5ee871a
   - 498d57610fcd
+  - 806fe614ca46
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_assigntaxonomyaddspecies
@@ -161,6 +163,7 @@ tools:
   revisions:
   - 1c9715cef808
   - 4d89978c6188
+  - 79212a309499
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_removebimeradenovo
@@ -168,6 +171,7 @@ tools:
   revisions:
   - 5b752525bd6f
   - 7f8f0e9fcb37
+  - b6dddf8c2e6f
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_filterandtrim
@@ -175,6 +179,7 @@ tools:
   revisions:
   - 23fc35093b11
   - 777f9846c56d
+  - ca73bbac615a
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_dada
@@ -182,6 +187,7 @@ tools:
   revisions:
   - 2222f08c8316
   - 6b4ddc3b64bd
+  - f79565b12646
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_learnerrors
@@ -189,6 +195,7 @@ tools:
   revisions:
   - 39638e0aff59
   - c48d42d65d2b
+  - afdfa35a89d9
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_makesequencetable
@@ -196,6 +203,7 @@ tools:
   revisions:
   - 99c6929236fa
   - 9ccec6ed8e82
+  - bfd62e881837
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_mergepairs
@@ -203,6 +211,7 @@ tools:
   revisions:
   - 69900ffd3b8e
   - b1e55c248f17
+  - 0b884b080bb6
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_seqcounts
@@ -210,6 +219,7 @@ tools:
   revisions:
   - 4cc834cce4fb
   - f74c56549143
+  - 7d28da5e9e27
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: bio_hansel

@@ -83,6 +83,7 @@ tools:
   owner: devteam
   revisions:
   - db000c6007a0
+  - 30388d878f81
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_rmdup

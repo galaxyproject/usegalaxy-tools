@@ -161,6 +161,7 @@ tools:
   - 287c4af133e6
   - 3be27a9a7313
   - fd2d6e035c3f
+  - 1cea23583655
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: mixcr_analyze

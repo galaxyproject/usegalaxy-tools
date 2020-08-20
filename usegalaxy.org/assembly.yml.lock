@@ -38,18 +38,21 @@ tools:
   owner: iuc
   revisions:
   - a81c5169e9fc
+  - 5ece301faf6b
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: idba_tran
   owner: iuc
   revisions:
   - a30d991a3fdd
+  - 33f00ff1cb22
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: idba_ud
   owner: iuc
   revisions:
   - 2ed5c0795f99
+  - 694b0f55b744
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: megahit
@@ -88,6 +91,7 @@ tools:
   revisions:
   - d9f6a00b6db7
   - 8d1af5db538d
+  - 83ead2be47b2
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades
@@ -112,5 +116,6 @@ tools:
   owner: devteam
   revisions:
   - 5da9a0e2fb2d
+  - 8d09f8be269e
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

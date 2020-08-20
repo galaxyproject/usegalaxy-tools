@@ -46,6 +46,7 @@ tools:
   owner: iuc
   revisions:
   - 1e62c28ba91d
+  - 4048d82f0c88
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: exonerate
@@ -191,6 +192,7 @@ tools:
   owner: iuc
   revisions:
   - 95ea8d97abb4
+  - 37b5e1f0b544
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tbprofiler
