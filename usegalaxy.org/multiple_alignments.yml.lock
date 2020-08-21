@@ -3,6 +3,12 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: Multiple Alignments
 tools:
+- name: genebed_maf_to_fasta
+  owner: iuc
+  revisions:
+  - f24a9ff28d3c
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
 - name: maf_stats
   owner: iuc
   revisions:
