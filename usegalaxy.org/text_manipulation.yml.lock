@@ -7,6 +7,7 @@ tools:
   owner: devteam
   revisions:
   - 464b9305180e
+  - 6e8d94597139
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: annotatemyids

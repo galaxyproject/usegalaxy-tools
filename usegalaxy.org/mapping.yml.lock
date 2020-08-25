@@ -19,6 +19,7 @@ tools:
   owner: devteam
   revisions:
   - 01ac0a5fedc3
+  - 3fe632431b68
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: star_fusion

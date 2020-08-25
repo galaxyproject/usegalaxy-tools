@@ -19,36 +19,42 @@ tools:
   owner: devteam
   revisions:
   - e66b9b5b8580
+  - f648e5180e40
   tool_panel_section_id: rna_analysis__deprecated_
   tool_panel_section_label: RNA Analysis (deprecated)
 - name: cufflinks
   owner: devteam
   revisions:
   - e04dbae2abe0
+  - d080005cffe1
   tool_panel_section_id: rna_analysis__deprecated_
   tool_panel_section_label: RNA Analysis (deprecated)
 - name: cuffquant
   owner: devteam
   revisions:
   - 6dc45faebc1d
+  - 679d93c99757
   tool_panel_section_id: rna_analysis__deprecated_
   tool_panel_section_label: RNA Analysis (deprecated)
 - name: cuffnorm
   owner: devteam
   revisions:
   - f5b2ee725d34
+  - 9a854107dbb2
   tool_panel_section_id: rna_analysis__deprecated_
   tool_panel_section_label: RNA Analysis (deprecated)
 - name: cuffmerge
   owner: devteam
   revisions:
   - cf747d1bd79a
+  - 6a6717a5f421
   tool_panel_section_id: rna_analysis__deprecated_
   tool_panel_section_label: RNA Analysis (deprecated)
 - name: cuffdiff
   owner: devteam
   revisions:
   - d3ae7d9c2202
+  - af3e173cad7f
   tool_panel_section_id: rna_analysis__deprecated_
   tool_panel_section_label: RNA Analysis (deprecated)
 - name: gffread

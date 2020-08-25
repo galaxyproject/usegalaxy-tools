@@ -25,6 +25,7 @@ tools:
   owner: devteam
   revisions:
   - c54f5d0bbb58
+  - aca54f2b2151
   tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: indels_3way
@@ -73,6 +74,7 @@ tools:
   owner: devteam
   revisions:
   - 592089499ae7
+  - d8515fe22ac8
   tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: karyotype_plot

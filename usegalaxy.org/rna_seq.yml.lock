@@ -25,6 +25,7 @@ tools:
   owner: iuc
   revisions:
   - a37612abf7f9
+  - 90d16db017d7
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: dexseq
@@ -90,12 +91,14 @@ tools:
   revisions:
   - 850f3679b9b4
   - b9e04854e2bb
+  - 5ec75f5dae3c
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: cummerbund
   owner: devteam
   revisions:
   - 78fcfc04fcfe
+  - c3b54a4b7741
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: htseq_count
@@ -114,6 +117,7 @@ tools:
   owner: devteam
   revisions:
   - cf747d1bd79a
+  - 6a6717a5f421
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: filter_transcripts_via_tracking
@@ -207,6 +211,7 @@ tools:
   revisions:
   - 06ed31cf52ed
   - 7a5cd7987b03
+  - 764f076e9d52
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: slamdunk
@@ -274,6 +279,7 @@ tools:
   owner: iuc
   revisions:
   - 6fd16fad465d
+  - 4383070d29ed
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: tximport
