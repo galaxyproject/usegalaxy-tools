@@ -5,11 +5,13 @@ tool_panel_section_label: Protein Modeling
 tools:
 - name: hhsuite
   owner: guerler
-  revisions: []
+  revisions:
+  - 3e4d88784254
   tool_panel_section_id: protein_modeling
   tool_panel_section_label: Protein Modeling
 - name: springsuite
   owner: guerler
-  revisions: []
+  revisions:
+  - 860bd6f8f480
   tool_panel_section_id: protein_modeling
   tool_panel_section_label: Protein Modeling
