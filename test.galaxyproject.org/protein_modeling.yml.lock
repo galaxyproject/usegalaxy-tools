@@ -1,0 +1,17 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Protein Modeling
+tools:
+- name: hhsuite
+  owner: guerler
+  revisions:
+  - 3e4d88784254
+  tool_panel_section_id: protein_modeling
+  tool_panel_section_label: Protein Modeling
+- name: springsuite
+  owner: guerler
+  revisions:
+  - 860bd6f8f480
+  tool_panel_section_id: protein_modeling
+  tool_panel_section_label: Protein Modeling
