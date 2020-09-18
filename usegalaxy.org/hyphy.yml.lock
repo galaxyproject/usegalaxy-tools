@@ -6,6 +6,7 @@ tools:
 - name: hyphy_absrel
   owner: iuc
   revisions:
+  - 4cc4dbca2f02
   - 8834daeb9892
   - 107d3ba7024a
   - 4aad5b48d5b2
