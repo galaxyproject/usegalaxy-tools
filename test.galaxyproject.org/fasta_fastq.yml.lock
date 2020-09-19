@@ -96,6 +96,7 @@ tools:
 - name: cutadapt
   owner: lparsons
   revisions:
+  - 510dbf2872f7
   - e4691e1589d3
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -103,6 +104,7 @@ tools:
   owner: lparsons
   revisions:
   - 510dbf2872f7
+  - e4691e1589d3
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
   tool_shed_url: testtoolshed.g2.bx.psu.edu
@@ -194,5 +196,10 @@ tools:
   owner: iuc
   revisions:
   - 1d8fe9bc4cb0
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: rbc_splitfasta
+  owner: rnateam
+  revisions: []
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
