@@ -24,7 +24,7 @@ tools:
 - name: split_file_to_collection
   owner: bgruening
   revisions:
-  - e77b954f0da5
   - 6cbe2f30c2d7
+  - e77b954f0da5
   tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations

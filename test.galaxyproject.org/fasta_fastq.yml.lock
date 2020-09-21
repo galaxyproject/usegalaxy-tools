@@ -198,8 +198,9 @@ tools:
   - 1d8fe9bc4cb0
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
-- name: rbc_splitfasta
+- name: splitfasta
   owner: rnateam
-  revisions: []
+  revisions:
+  - ae4d5733272f
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
