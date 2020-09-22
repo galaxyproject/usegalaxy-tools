@@ -65,3 +65,5 @@ tools:
   owner: devteam
 - name: fastp
   owner: iuc
+- name: splitfasta
+  owner: rnateam
