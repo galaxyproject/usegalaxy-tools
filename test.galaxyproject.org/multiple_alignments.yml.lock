@@ -13,6 +13,7 @@ tools:
   owner: rnateam
   revisions:
   - c5908940967d
+  - aaefa93c2dd2
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: clustalw
