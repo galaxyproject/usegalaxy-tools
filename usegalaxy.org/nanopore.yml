@@ -30,3 +30,11 @@ tools:
   owner: iuc
 - name: porechop
   owner: iuc
+- name: medaka_variant
+  owner: iuc
+- name: medaka_consensus
+  owner: iuc
+- name: medaka_variant_pipeline
+  owner: iuc
+- name: medaka_consensus_pipeline
+  owner: iuc
