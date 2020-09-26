@@ -14,5 +14,6 @@ tools:
   revisions:
   - 0ea00dce62ab
   - 860bd6f8f480
+  - f8ba4dd48cbd
   tool_panel_section_id: protein_modeling
   tool_panel_section_label: Protein Modeling
