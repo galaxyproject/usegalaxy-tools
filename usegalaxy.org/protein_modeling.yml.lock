@@ -12,6 +12,6 @@ tools:
 - name: springsuite
   owner: guerler
   revisions:
-  - b53a98b90354
+  - 4a4888bf0338
   tool_panel_section_id: protein_modeling
   tool_panel_section_label: Protein Modeling
