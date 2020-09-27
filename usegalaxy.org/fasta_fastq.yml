@@ -80,3 +80,5 @@ tools:
   owner: iuc
 - name: umi_tools_count
   owner: iuc
+- name: splitfasta
+  owner: rnateam
