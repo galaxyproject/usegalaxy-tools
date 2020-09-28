@@ -45,3 +45,9 @@ tools:
   - 411adeff1eec
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
+- name: plink
+  owner: iuc
+  revisions:
+  - ac16d24f0d9d
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling

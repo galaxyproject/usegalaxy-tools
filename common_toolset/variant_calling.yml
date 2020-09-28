@@ -14,3 +14,5 @@ tools:
   owner: devteam
 - name: allele_counts
   owner: nick
+- name: plink
+  owner: iuc
