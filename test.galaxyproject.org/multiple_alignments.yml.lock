@@ -25,6 +25,7 @@ tools:
 - name: kc_align
   owner: iuc
   revisions:
+  - 1c65ddbaeefa
   - 04b13fc809ac
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
