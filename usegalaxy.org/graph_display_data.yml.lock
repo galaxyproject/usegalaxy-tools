@@ -77,6 +77,7 @@ tools:
   revisions:
   - 222c02df5d55
   - c7655b5a94af
+  - 05143043ca13
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: charts
