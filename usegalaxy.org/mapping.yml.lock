@@ -33,6 +33,7 @@ tools:
   owner: devteam
   revisions:
   - 03ca082aeb2e
+  - fbff957a3655
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: megablast_wrapper
