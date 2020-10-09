@@ -7,6 +7,7 @@ tools:
   owner: devteam
   revisions:
   - 2889433c7ae1
+  - 5edc472ec434
   tool_panel_section_id: ncbi_blast_
   tool_panel_section_label: NCBI BLAST+
 - name: kraken2
