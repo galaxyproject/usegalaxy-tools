@@ -59,6 +59,7 @@ tools:
   owner: iuc
   revisions:
   - de387b2b2803
+  - 7518ee87b53d
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: metaspades
@@ -72,6 +73,7 @@ tools:
   revisions:
   - 2dcd07f40204
   - 8b6d0d85252b
+  - 8dee0218ac7d
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pilon

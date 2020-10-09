@@ -212,6 +212,7 @@ tools:
   - 06ed31cf52ed
   - 7a5cd7987b03
   - 764f076e9d52
+  - 4c139a9415d7
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: slamdunk
@@ -224,6 +225,7 @@ tools:
   owner: iuc
   revisions:
   - 0db979fead3a
+  - c6334cb383ff
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_run_de_analysis

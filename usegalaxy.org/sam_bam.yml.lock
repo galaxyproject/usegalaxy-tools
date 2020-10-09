@@ -198,6 +198,7 @@ tools:
   revisions:
   - b01db2684fa5
   - ff313de5f7f4
+  - bf328cec6a42
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: qualimap_multi_bamqc

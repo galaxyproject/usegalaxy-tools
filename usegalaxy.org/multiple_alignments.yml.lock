@@ -92,6 +92,7 @@ tools:
   owner: iuc
   revisions:
   - 49b937f12aa4
+  - 482052b30b78
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: kc_align
@@ -104,5 +105,6 @@ tools:
   - 60ed1c94f584
   - 8dc7708c3266
   - a0ffbc759ad8
+  - 1c65ddbaeefa
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
