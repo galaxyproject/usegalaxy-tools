@@ -71,30 +71,35 @@ tools:
   owner: iuc
   revisions:
   - 0f0cf480051b
+  - 60ca8d013263
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_bed
   owner: iuc
   revisions:
   - 91efc13d3ec1
+  - cdbdce00f5f6
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_wig
   owner: iuc
   revisions:
   - e8d84292e510
+  - 5f893ed3c5ed
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_vcf
   owner: iuc
   revisions:
   - 97979c3d179f
+  - b21851ddcc79
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_gff
   owner: iuc
   revisions:
   - 09c6a9e067f9
+  - 88d180fb6d67
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: gfa_to_fa
