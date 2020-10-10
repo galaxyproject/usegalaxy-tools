@@ -284,3 +284,9 @@ tools:
   - 733ca84b21ee
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
+- name: filter_by_fasta_ids
+  owner: galaxyp
+  revisions:
+  - dff7df6fcab5
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
