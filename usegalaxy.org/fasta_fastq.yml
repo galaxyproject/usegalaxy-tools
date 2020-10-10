@@ -82,3 +82,5 @@ tools:
   owner: iuc
 - name: splitfasta
   owner: rnateam
+- name: filter_by_fasta_ids
+  owner: galaxyp
