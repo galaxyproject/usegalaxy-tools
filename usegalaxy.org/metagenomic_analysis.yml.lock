@@ -52,6 +52,7 @@ tools:
   owner: crs4
   revisions:
   - c9f8fef1df74
+  - 1334cb4c6b68
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: scikit_bio_diversity_beta_diversity
