@@ -28,3 +28,5 @@ tools:
   owner: iuc
 - name: table_compute
   owner: iuc
+- name: regex_find_replace
+  owner: galaxyp
