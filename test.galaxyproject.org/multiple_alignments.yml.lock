@@ -27,5 +27,6 @@ tools:
   revisions:
   - 1c65ddbaeefa
   - 04b13fc809ac
+  - 0c0288a9d92c
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
