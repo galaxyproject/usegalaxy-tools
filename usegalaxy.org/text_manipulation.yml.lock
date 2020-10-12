@@ -27,6 +27,7 @@ tools:
   owner: mvdbeek
   revisions:
   - 06061aa49527
+  - 3284b72eef56
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: replace_column_by_key_value_file
