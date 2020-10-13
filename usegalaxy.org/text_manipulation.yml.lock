@@ -95,6 +95,7 @@ tools:
   tool_panel_section_label: Text Manipulation
 - name: regex_find_replace
   owner: galaxyp
-  revisions: []
+  revisions:
+  - ae8c4b2488e7
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
