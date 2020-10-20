@@ -131,3 +131,9 @@ tools:
   - 35666d44fe7a
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
+- name: flye
+  owner: bgruening
+  revisions:
+  - 3ee0ef312022
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
