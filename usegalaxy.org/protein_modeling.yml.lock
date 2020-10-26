@@ -13,6 +13,5 @@ tools:
   owner: guerler
   revisions:
   - 4a4888bf0338
-  - 16eb2acaaa20
   tool_panel_section_id: protein_modeling
   tool_panel_section_label: Protein Modeling
