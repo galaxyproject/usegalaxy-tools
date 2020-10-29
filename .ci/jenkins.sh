@@ -18,7 +18,7 @@ GALAXY_TEMPLATE_DB_URL='https://raw.githubusercontent.com/davebx/galaxyproject-s
 GALAXY_TEMPLATE_DB="${GALAXY_TEMPLATE_DB_URL##*/}"
 
 # Need to run dev until 0.10.4
-EPHEMERIS="git+https://github.com/mvdbeek/ephemeris.git"
+EPHEMERIS="git+https://github.com/galaxyproject/ephemeris.git"
 
 # Should be set by Jenkins, so the default here is for development
 : ${GIT_COMMIT:=$(git rev-parse HEAD)}
