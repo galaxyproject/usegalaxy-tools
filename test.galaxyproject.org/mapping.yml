@@ -1,5 +1,7 @@
 tool_panel_section_label: Mapping
 tools:
+- name: ngmlr
+  owner: iuc
 - name: bowtie_wrappers
   owner: devteam
 - name: bwa
