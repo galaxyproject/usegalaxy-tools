@@ -14,6 +14,7 @@ tools:
   - ad0af446d496
   - c78f3d7dd1db
   - cce7b18495e4
+  - 0b58ef9e84b2
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_bgm
@@ -27,6 +28,7 @@ tools:
   - c669c8f7c6f6
   - cd9063b57f8b
   - 91006eb8b84e
+  - 26ad9a6b1293
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_busted
@@ -40,6 +42,7 @@ tools:
   - 7bed09107277
   - cde38657e82c
   - 98ee8ba908d6
+  - c92d5ec5d8d7
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_fade
@@ -53,6 +56,7 @@ tools:
   - c630f400742f
   - e7be036f1616
   - a4398cfa8792
+  - 7dbcce65a8ff
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_fel
@@ -67,6 +71,7 @@ tools:
   - bab5041d177e
   - 9862c57d02a6
   - af7490b6329b
+  - 2e5ab7526bd4
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_fubar
@@ -80,6 +85,7 @@ tools:
   - 9d2714133deb
   - ff1e9dd7ad13
   - 47145f568cd6
+  - 3db56014322f
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_gard
@@ -93,6 +99,7 @@ tools:
   - aa8cc71438cf
   - e75442c7f4da
   - 88c4aa435ded
+  - 42efcb0955e6
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_meme
@@ -106,6 +113,7 @@ tools:
   - c5e1017b9232
   - d3b4e05f969b
   - 546f2f99b820
+  - 5b380f4dbf1c
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_prime
@@ -119,6 +127,7 @@ tools:
   - 8f66e659530b
   - e06961ac014b
   - acd9dfe3dec0
+  - 1d9d3c6bc246
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_relax
@@ -132,6 +141,7 @@ tools:
   - 627443c1e5ba
   - 9158a34fc9c5
   - 6a6300b42803
+  - ea64cc9a06e4
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_slac
@@ -145,6 +155,7 @@ tools:
   - aafe4a864d84
   - b82429e9c6a9
   - d6f4ff2aed07
+  - dc9e52b2d0e1
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_sm19
@@ -158,6 +169,7 @@ tools:
   - 6cf8d753e93e
   - c102811766ef
   - 23b9bd244670
+  - 2126c9e28ce6
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: sarscov2summary
