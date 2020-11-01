@@ -541,6 +541,7 @@ function run_galaxy() {
 function stop_galaxy() {
     log "Stopping Galaxy on Stratum 0"
     # NOTE: docker rm -f exits 1 if the container does not exist
+    exec_on docker stop "$CONTAINER_NAME" || true  # try graceful shutdown first
     exec_on docker kill "$CONTAINER_NAME" || true  # probably failed to start, don't prevent the rest of cleanup
     exec_on docker rm -v "$CONTAINER_NAME" || true
     [ -n "$GALAXY_DATABASE_TMPDIR" ] && exec_on rm -rf "$GALAXY_DATABASE_TMPDIR"
