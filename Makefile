@@ -14,6 +14,10 @@ fix: ## Fix all lockfiles and add any missing revisions
 	@# --without says only add those hashes for those missing hashes (zB new tools)
 	find ./$(TOOLSET) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update-tool.py --without
 
+fix-no-deps:
+	find ./$(TOOLSET) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/fix-lockfile.py --no-install-repository-dependencies --no-install-resolver-dependencies
+	find ./$(TOOLSET) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update-tool.py --without
+
 #install:
 	#@echo "Installing any updated versions of $<"
 	#@-shed-tools install --toolsfile $< --galaxy $(GALAXY_SERVER) --api_key $(GALAXY_API_KEY)
