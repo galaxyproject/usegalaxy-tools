@@ -6,18 +6,21 @@ tools:
 - name: genebed_maf_to_fasta
   owner: iuc
   revisions:
+  - 020c78e91cc5
   - f24a9ff28d3c
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: maf_stats
   owner: iuc
   revisions:
+  - 0c84cce7b030
   - 5a92f4c476b5
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: interval2maf
   owner: iuc
   revisions:
+  - b79f6002b176
   - cfea1d6354db
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
