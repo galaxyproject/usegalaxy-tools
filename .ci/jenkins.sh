@@ -231,6 +231,13 @@ function set_repo_vars() {
         OVERLAYFS_LOWER="/var/spool/cvmfs/${REPO}/rdonly"
         OVERLAYFS_MOUNT="/cvmfs/${REPO}"
     fi
+    if [ -n "$CONDA_PATH" ]; then
+        CONDA_ENV_OPTION="GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATH}"
+        CONDARC_MOUNT_PATH="${CONDA_PATH}/.condarc"
+    else
+        CONDA_ENV_OPTION="GALAXY_CONFIG_OVERRIDE_CONDA_AUTO_INIT=false"
+        CONDARC_MOUNT_PATH="/.condarc"
+    fi
 }
 
 
@@ -445,10 +452,10 @@ function run_mounted_galaxy() {
         -e "GALAXY_CONFIG_TOOL_DATA_PATH=/tmp/tool-data" \
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
-        -e "GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATH}" \
+        -e "${CONDA_ENV_OPTION}" \
         -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
         -v "${WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
-        -v "${WORKDIR}/condarc:${CONDA_PATH}/.condarc" \
+        -v "${WORKDIR}/condarc:${CONDARC_MOUNT_PATH}" \
         -v "${GALAXY_SOURCE_TMPDIR}:/galaxy/server" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
         --workdir /galaxy/server \
@@ -476,10 +483,10 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_TOOL_DATA_PATH=/tmp/tool-data" \
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
-        -e "GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATH}" \
+        -e "${CONDA_ENV_OPTION}" \
         -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
         -v "${WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
-        -v "${WORKDIR}/condarc:${CONDA_PATH}/.condarc" \
+        -v "${WORKDIR}/condarc:${CONDARC_MOUNT_PATH}" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
         "$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --http :8080 \
             --virtualenv /galaxy/server/.venv --pythonpath /galaxy/server/lib \
@@ -507,10 +514,10 @@ function run_bgruening_galaxy() {
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_SHED_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIG}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
-        -e "GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATH}" \
+        -e "${CONDA_ENV_OPTION}" \
         -e "GALAXY_HANDLER_NUMPROCS=0" \
-        -e "CONDARC=${CONDA_PATH}rc" \
         -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
+        -v "${WORKDIR}/condarc:${CONDARC_MOUNT_PATH}" \
         -v "${WORKDIR}/job_conf.xml:/job_conf.xml" \
         -v "${WORKDIR}/nginx.conf:/etc/nginx/nginx.conf" \
         -e "GALAXY_CONFIG_JOB_CONFIG_FILE=/job_conf.xml" \
@@ -634,11 +641,19 @@ function check_for_repo_changes() {
     log_debug "diff of shed_data_manager.xml"
     exec_on diff -u "${OVERLAYFS_LOWER}${SHED_DATA_MANAGER_CONFIG##*${REPO}}" \
         "${OVERLAYFS_MOUNT}${SHED_DATA_MANAGER_CONFIG##*${REPO}}" || true
-    exec_on [ -d "${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}" -o -d "${OVERLAYFS_UPPER}${SHED_TOOL_DIR##*${REPO}}" ] || {
-        log_error "Tool installation failed";
-        show_logs
-        log_exit_error "Terminating build: expected changes to ${OVERLAYFS_UPPER} not found!";
-    }
+    if [ -n "$CONDA_PATH" ]; then
+        exec_on [ -d "${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}" -o -d "${OVERLAYFS_UPPER}${SHED_TOOL_DIR##*${REPO}}" ] || {
+            log_error "Tool installation failed";
+            show_logs
+            log_exit_error "Terminating build: expected changes to ${OVERLAYFS_UPPER} not found!";
+        }
+    else
+        exec_on [ -d "${OVERLAYFS_UPPER}${SHED_TOOL_DIR##*${REPO}}" ] || {
+            log_error "Tool installation failed";
+            show_logs
+            log_exit_error "Terminating build: expected changes to ${OVERLAYFS_UPPER} not found!";
+        }
+    fi
 }
 
 
@@ -646,15 +661,16 @@ function post_install() {
     log "Running post-installation tasks"
     exec_on "find '$OVERLAYFS_UPPER' -perm -u+r -not -perm -o+r -not -type l -print0 | xargs -0 --no-run-if-empty chmod go+r"
     exec_on "find '$OVERLAYFS_UPPER' -perm -u+rx -not -perm -o+rx -not -type l -print0 | xargs -0 --no-run-if-empty chmod go+rx"
-    #exec_on ${CONDA_PATH}/bin/conda clean --tarballs --yes
-    exec_on docker run --rm --user "$USER_UID" --name="${CONTAINER_NAME}" \
-        -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
-        -v "${WORKDIR}/condarc:${CONDA_PATH}/.condarc" \
-        "$GALAXY_DOCKER_IMAGE" ${CONDA_PATH}/bin/conda clean --tarballs --yes
-    # we're fixing the links for everything here not just the new stuff in $OVERLAYFS_UPPER
-    exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/activate' '_ENVPATH_/bin/activate'" || true
-    exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/deactivate' '_ENVPATH_/bin/deactivate'" || true
-    exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/conda' '_ENVPATH_/bin/conda'" || true
+    if [ -n "$CONDA_PATH" ]; then
+        exec_on docker run --rm --user "$USER_UID" --name="${CONTAINER_NAME}" \
+            -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
+            -v "${WORKDIR}/condarc:${CONDARC_MOUNT_PATH}" \
+            "$GALAXY_DOCKER_IMAGE" ${CONDA_PATH}/bin/conda clean --tarballs --yes
+        # we're fixing the links for everything here not just the new stuff in $OVERLAYFS_UPPER
+        exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/activate' '_ENVPATH_/bin/activate'" || true
+        exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/deactivate' '_ENVPATH_/bin/deactivate'" || true
+        exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/conda' '_ENVPATH_/bin/conda'" || true
+    fi
     [ -n "${WORKDIR:-}" ] && exec_on rm -rf "$WORKDIR"
 }
 
