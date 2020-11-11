@@ -16,7 +16,7 @@ def section_label_to_id(label):
     return ''.join(map(section_id_chr, label))
 
 
-def update_file(fn):
+def update_file(fn, install_repository_dependencies, install_resolver_dependencies):
     with open(fn, 'r') as handle:
         unlocked = yaml.safe_load(handle)
     # If a lock file exists, load it from that file
@@ -83,8 +83,8 @@ def update_file(fn):
 
     # Set appropriate installation flags to true
     clean_lockfile.update({
-        "install_repository_dependencies": True,
-        "install_resolver_dependencies": True,
+        "install_repository_dependencies": install_repository_dependencies,
+        "install_resolver_dependencies": install_resolver_dependencies,
         "install_tool_dependencies": False,     # These are TS deps, not Conda
     })
 
@@ -94,7 +94,11 @@ def update_file(fn):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
+    parser.add_argument('--no-install-repository-dependencies', action='store_true', default=False,
+                        help="Don't install TS repository dependencies")
+    parser.add_argument('--no-install-resolver-dependencies', action='store_true', default=False,
+                        help="Don't install tool dependencies via Galaxy dependency resolver (e.g. conda)")
     parser.add_argument('fn', type=argparse.FileType('r'), help="Tool.yaml file")
     args = parser.parse_args()
     logging.info("Processing %s", args.fn.name)
-    update_file(args.fn.name)
+    update_file(args.fn.name, not args.no_install_repository_dependencies, not args.no_install_resolver_dependencies)
