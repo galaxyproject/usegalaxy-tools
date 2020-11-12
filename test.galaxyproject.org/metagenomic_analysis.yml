@@ -10,6 +10,16 @@ tools:
   tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: diamond
   owner: bgruening
+- name: kraken_report
+  owner: devteam
+- name: kraken
+  owner: devteam
+- name: kraken_taxonomy_report
+  owner: iuc
+- name: kraken_translate
+  owner: devteam
+- name: kraken_filter
+  owner: devteam
 - name: kraken2tax
   owner: devteam
 - name: vegan_rarefaction
