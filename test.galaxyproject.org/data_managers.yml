@@ -1,5 +1,7 @@
 tool_panel_section_label: Data Managers
 tools:
+- name: data_manager_build_kraken2_database
+  owner: iuc
 - name: data_manager_fetch_index_maf
   owner: dave
 - name: data_manager_fetch_index_maf
