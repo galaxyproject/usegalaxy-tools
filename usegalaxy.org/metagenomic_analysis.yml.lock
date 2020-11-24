@@ -3,6 +3,12 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: Metagenomic Analysis
 tools:
+- name: kraken2
+  owner: iuc
+  revisions:
+  - 4a9da2b6c2e3
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
 - name: diamond
   owner: bgruening
   revisions:
@@ -51,8 +57,8 @@ tools:
 - name: taxonomy_krona_chart
   owner: crs4
   revisions:
-  - c9f8fef1df74
   - 1334cb4c6b68
+  - c9f8fef1df74
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: scikit_bio_diversity_beta_diversity
@@ -147,8 +153,8 @@ tools:
   owner: iuc
   revisions:
   - 2a90d2fd3336
-  - fa11922f3d91
   - 52a911972c02
+  - fa11922f3d91
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_plotcomplexity
@@ -195,8 +201,8 @@ tools:
   owner: iuc
   revisions:
   - 39638e0aff59
-  - c48d42d65d2b
   - afdfa35a89d9
+  - c48d42d65d2b
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_makesequencetable
@@ -210,17 +216,17 @@ tools:
 - name: dada2_mergepairs
   owner: iuc
   revisions:
+  - 0b884b080bb6
   - 69900ffd3b8e
   - b1e55c248f17
-  - 0b884b080bb6
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_seqcounts
   owner: iuc
   revisions:
   - 4cc834cce4fb
-  - f74c56549143
   - 7d28da5e9e27
+  - f74c56549143
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: bio_hansel
