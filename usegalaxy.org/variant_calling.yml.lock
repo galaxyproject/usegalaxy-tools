@@ -3,6 +3,12 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: Variant Calling
 tools:
+- name: snpfreqplot
+  owner: iuc
+  revisions:
+  - 1062d6ad6503
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
 - name: varscan_version_2
   owner: devteam
   revisions:
