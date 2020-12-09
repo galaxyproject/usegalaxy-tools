@@ -8,6 +8,7 @@ tools:
   revisions:
   - 0a3a602cd1e3
   - d1ac6363b63b
+  - 9e3e80cc4ad4
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: quast
@@ -15,30 +16,15 @@ tools:
   revisions:
   - 59db8ea8c845
   - e2f831d9d1e5
+  - ebb0dcdb621a
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
-- name: unicycler
-  owner: iuc
-  revisions:
-  - 0a3a602cd1e3
-  - d1ac6363b63b
-  tool_panel_section_id: assembly
-  tool_panel_section_label: Assembly
-  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: prokka
   owner: crs4
   revisions:
   - eaee459f3d69
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
-- name: quast
-  owner: iuc
-  revisions:
-  - 59db8ea8c845
-  - e2f831d9d1e5
-  tool_panel_section_id: assembly
-  tool_panel_section_label: Assembly
-  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: spades
   owner: lionelguy
   revisions:
@@ -49,11 +35,13 @@ tools:
   owner: iuc
   revisions:
   - c9cfec002f71
+  - d84caa5a98ad
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades
   owner: nml
   revisions:
   - b8d633fbf5f5
+  - b8c00ce5dfa0
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
