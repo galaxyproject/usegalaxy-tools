@@ -6,16 +6,17 @@ tools:
 - name: unicycler
   owner: iuc
   revisions:
+  - e9c1cdb9f9dc
+  - f13d0498a199
   - 0a3a602cd1e3
-  - d1ac6363b63b
   - 9e3e80cc4ad4
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: quast
   owner: iuc
   revisions:
+  - 0834c823d4b9
   - 59db8ea8c845
-  - e2f831d9d1e5
   - ebb0dcdb621a
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
