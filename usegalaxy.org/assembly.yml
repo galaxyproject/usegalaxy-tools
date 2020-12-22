@@ -30,9 +30,5 @@ tools:
   owner: iuc
 - name: spades
   owner: nml
-- name: velvetoptimiser
-  owner: simon-gladman
 - name: bandage
   owner: iuc
-- name: velvet
-  owner: devteam
