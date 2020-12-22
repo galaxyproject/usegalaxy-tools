@@ -100,3 +100,9 @@ tools:
   - ae8c4b2488e7
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
+- name: split_file_on_column
+  owner: bgruening
+  revisions:
+  - b60f2452580e
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
