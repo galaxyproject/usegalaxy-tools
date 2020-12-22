@@ -102,22 +102,9 @@ tools:
   - b8c00ce5dfa0
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
-- name: velvetoptimiser
-  owner: simon-gladman
-  revisions:
-  - 37d88f41c810
-  tool_panel_section_id: assembly
-  tool_panel_section_label: Assembly
 - name: bandage
   owner: iuc
   revisions:
   - b2860df42e16
-  tool_panel_section_id: assembly
-  tool_panel_section_label: Assembly
-- name: velvet
-  owner: devteam
-  revisions:
-  - 5da9a0e2fb2d
-  - 8d09f8be269e
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
