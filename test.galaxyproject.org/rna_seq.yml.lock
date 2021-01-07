@@ -74,6 +74,7 @@ tools:
   revisions:
   - 9e58ff014088
   - dd4b53e5b34a
+  - 03fd468e158f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: rnaspades
