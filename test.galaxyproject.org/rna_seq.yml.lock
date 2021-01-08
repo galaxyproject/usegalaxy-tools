@@ -127,12 +127,6 @@ tools:
   - 0761bbc0a4e7
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
-- name: cummerbund
-  owner: devteam
-  revisions:
-  - c3b54a4b7741
-  tool_panel_section_id: rna_seq
-  tool_panel_section_label: RNA-seq
 - name: cuffquant
   owner: devteam
   revisions:
