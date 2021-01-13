@@ -22,12 +22,6 @@ tools:
   - 1de64ac61b4e
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
-- name: abyss
-  owner: iuc
-  revisions:
-  - 3ce74eab308b
-  tool_panel_section_id: assembly
-  tool_panel_section_label: Assembly
 - name: disco
   owner: iuc
   revisions:

@@ -6,8 +6,6 @@ tools:
   owner: iuc
 - name: trinity_psc
   owner: nate
-- name: abyss
-  owner: iuc
 - name: disco
   owner: iuc
 - name: idba_hybrid
