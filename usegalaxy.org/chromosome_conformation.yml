@@ -1,4 +1,5 @@
-tool_panel_section_label: Chromosome Conformation
-tools:
-- name: hifive
-  owner: sauria
+# tool_panel_section_label: Chromosome Conformation
+# tools:
+# - name: hifive
+#   owner: sauria
+# hifive does not seem to be updated

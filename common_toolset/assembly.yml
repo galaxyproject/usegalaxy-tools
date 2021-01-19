@@ -8,7 +8,12 @@ tools:
   owner: nml
 - name: shovill
   owner: iuc
-- name: velvetoptimiser
-  owner: simon-gladman
 - name: pilon
   owner: iuc
+- name: spades # needs to be updated
+  owner: nml
+- name: bandage
+  owner: iuc
+- name: miniasm
+  owner: iuc
+

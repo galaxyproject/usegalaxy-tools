@@ -6,7 +6,3 @@ tools:
   owner: iuc
 - name: iqtree
   owner: iuc
-- name: tn93
-  owner: iuc
-- name: tn93_readreduce
-  owner: iuc

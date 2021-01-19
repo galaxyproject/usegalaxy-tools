@@ -2,19 +2,5 @@ tool_panel_section_label: Annotation
 tools:
 - name: prokka
   owner: crs4
-- name: busco
-  owner: iuc
-- name: mlst
-  owner: iuc
-- name: abricate
-  owner: iuc
-- name: hammock
-  owner: hammock
 - name: roary
   owner: iuc
-- name: gubbins
-  owner: iuc
-- name: probmetab
-  owner: mmonsoor
-- name: lcmsmatching
-  owner: prog

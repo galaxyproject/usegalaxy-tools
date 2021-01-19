@@ -8,8 +8,6 @@ tools:
   owner: iuc
 - name: mafft
   owner: rnateam
-- name: clustalw
-  owner: devteam
 - name: msaboot
   owner: iuc
 - name: mummer_delta_filter

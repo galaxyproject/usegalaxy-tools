@@ -42,12 +42,6 @@ tools:
   owner: devteam
 - name: sam_pileup
   owner: devteam
-- name: bamtools_split
-  owner: devteam
-- name: bamtools
-  owner: devteam
-- name: bamtools_filter
-  owner: devteam
 - name: samtools_depth
   owner: iuc
 - name: samtools_fastx

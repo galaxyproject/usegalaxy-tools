@@ -8,8 +8,6 @@ tools:
   owner: iuc
 - name: bam_to_scidx
   owner: iuc
-- name: fastq_to_fasta
-  owner: devteam
 - name: tabular_to_fastq
   owner: devteam
 - name: fastqtofasta

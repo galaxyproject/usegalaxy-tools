@@ -8,14 +8,6 @@ tools:
   owner: iuc
 - name: fastp
   owner: iuc
-- name: fastq_stats
-  owner: devteam
-- name: fastx_quality_statistics
-  owner: devteam
-- name: fastx_nucleotides_distribution
-  owner: devteam
-- name: fastq_quality_boxplot
-  owner: devteam
 - name: prinseq
   owner: iuc
 - name: fastqe

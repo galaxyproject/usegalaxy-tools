@@ -1,6 +1,6 @@
-tool_panel_section_label: Protein Modeling
-tools:
-- name: hhsuite
-  owner: guerler
-- name: springsuite
-  owner: guerler
+# tool_panel_section_label: Protein Modeling
+# tools:
+# - name: hhsuite
+#   owner: guerler
+# - name: springsuite
+#   owner: guerler

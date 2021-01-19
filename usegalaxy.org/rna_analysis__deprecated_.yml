@@ -1,20 +1,20 @@
-tool_panel_section_label: RNA Analysis (deprecated)
-tools:
-- name: tophat2
-  owner: devteam
-- name: cummerbund_to_tabular
-  owner: devteam
-- name: cuffcompare
-  owner: devteam
-- name: cufflinks
-  owner: devteam
-- name: cuffquant
-  owner: devteam
-- name: cuffnorm
-  owner: devteam
-- name: cuffmerge
-  owner: devteam
-- name: cuffdiff
-  owner: devteam
-- name: gffread
-  owner: devteam
+# tool_panel_section_label: RNA Analysis (deprecated)
+# tools:
+# - name: tophat2
+#   owner: devteam
+# - name: cummerbund_to_tabular
+#   owner: devteam
+# - name: cuffcompare
+#   owner: devteam
+# - name: cufflinks
+#   owner: devteam
+# - name: cuffquant
+#   owner: devteam
+# - name: cuffnorm
+#   owner: devteam
+# - name: cuffmerge
+#   owner: devteam
+# - name: cuffdiff
+#   owner: devteam
+# - name: gffread
+#   owner: devteam

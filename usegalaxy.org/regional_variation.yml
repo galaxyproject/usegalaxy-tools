@@ -1,32 +1,32 @@
-tool_panel_section_label: Regional Variation
-tools:
-- name: weightedaverage
-  owner: devteam
-- name: quality_filter
-  owner: devteam
-- name: substitution_rates
-  owner: devteam
-- name: substitutions
-  owner: devteam
-- name: indels_3way
-  owner: devteam
-- name: featurecounter
-  owner: devteam
-- name: getindelrates_3way
-  owner: devteam
-- name: maf_cpg_filter
-  owner: devteam
-- name: microsats_mutability
-  owner: devteam
-- name: getindels_2way
-  owner: devteam
-- name: microsats_alignment_level
-  owner: devteam
-- name: windowsplitter
-  owner: devteam
-- name: karyotype_plot
-  owner: guru-ananda
-- name: rhmm
-  owner: guru-ananda
-- name: heatmap
-  owner: guru-ananda
+# tool_panel_section_label: Regional Variation
+# tools:
+# - name: weightedaverage
+#   owner: devteam
+# - name: quality_filter
+#   owner: devteam
+# - name: substitution_rates
+#   owner: devteam
+# - name: substitutions
+#   owner: devteam
+# - name: indels_3way
+#   owner: devteam
+# - name: featurecounter
+#   owner: devteam
+# - name: getindelrates_3way
+#   owner: devteam
+# - name: maf_cpg_filter
+#   owner: devteam
+# - name: microsats_mutability
+#   owner: devteam
+# - name: getindels_2way
+#   owner: devteam
+# - name: microsats_alignment_level
+#   owner: devteam
+# - name: windowsplitter
+#   owner: devteam
+# - name: karyotype_plot
+#   owner: guru-ananda
+# - name: rhmm
+#   owner: guru-ananda
+# - name: heatmap
+#   owner: guru-ananda

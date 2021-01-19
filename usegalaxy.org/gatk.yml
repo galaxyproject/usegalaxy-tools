@@ -1,34 +1,34 @@
-tool_panel_section_label: GATK
-tools:
-- name: variant_select
-  owner: devteam
-- name: print_reads
-  owner: devteam
-- name: variants_validate
-  owner: devteam
-- name: variant_recalibrator
-  owner: devteam
-- name: variant_filtration
-  owner: devteam
-- name: variant_eval
-  owner: devteam
-- name: variant_combine
-  owner: devteam
-- name: variant_apply_recalibration
-  owner: devteam
-- name: variant_annotator
-  owner: devteam
-- name: unified_genotyper
-  owner: devteam
-- name: realigner_target_creator
-  owner: devteam
-- name: indel_realigner
-  owner: devteam
-- name: depth_of_coverage
-  owner: devteam
-- name: count_covariates
-  owner: devteam
-- name: analyze_covariates
-  owner: devteam
-- name: table_recalibration
-  owner: devteam
+# tool_panel_section_label: GATK
+# tools:
+# - name: variant_select
+#   owner: devteam
+# - name: print_reads
+#   owner: devteam
+# - name: variants_validate
+#   owner: devteam
+# - name: variant_recalibrator
+#   owner: devteam
+# - name: variant_filtration
+#   owner: devteam
+# - name: variant_eval
+#   owner: devteam
+# - name: variant_combine
+#   owner: devteam
+# - name: variant_apply_recalibration
+#   owner: devteam
+# - name: variant_annotator
+#   owner: devteam
+# - name: unified_genotyper
+#   owner: devteam
+# - name: realigner_target_creator
+#   owner: devteam
+# - name: indel_realigner
+#   owner: devteam
+# - name: depth_of_coverage
+#   owner: devteam
+# - name: count_covariates
+#   owner: devteam
+# - name: analyze_covariates
+#   owner: devteam
+# - name: table_recalibration
+#   owner: devteam

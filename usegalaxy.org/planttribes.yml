@@ -1,16 +1,16 @@
-tool_panel_section_label: PlantTribes
-tools:
-- name: plant_tribes_assembly_post_processor
-  owner: greg
-- name: plant_tribes_gene_family_classifier
-  owner: greg
-- name: plant_tribes_gene_family_integrator
-  owner: greg
-- name: plant_tribes_gene_family_aligner
-  owner: greg
-- name: plant_tribes_gene_family_phylogeny_builder
-  owner: greg
-- name: plant_tribes_kaks_analysis
-  owner: greg
-- name: plant_tribes_ks_distribution
-  owner: greg
+# tool_panel_section_label: PlantTribes
+# tools:
+# - name: plant_tribes_assembly_post_processor
+#   owner: greg
+# - name: plant_tribes_gene_family_classifier
+#   owner: greg
+# - name: plant_tribes_gene_family_integrator
+#   owner: greg
+# - name: plant_tribes_gene_family_aligner
+#   owner: greg
+# - name: plant_tribes_gene_family_phylogeny_builder
+#   owner: greg
+# - name: plant_tribes_kaks_analysis
+#   owner: greg
+# - name: plant_tribes_ks_distribution
+#   owner: greg

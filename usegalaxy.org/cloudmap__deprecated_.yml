@@ -1,14 +1,14 @@
-tool_panel_section_label: CloudMap (deprecated)
-tools:
-- name: cloudmap_variant_discovery_mapping
-  owner: gregory-minevich
-- name: cloudmap_in_silico_complementation
-  owner: gregory-minevich
-- name: ems_variant_density_mapping
-  owner: gregory-minevich
-- name: snp_mapping_using_wgs
-  owner: gregory-minevich
-- name: check_snpeff_candidates
-  owner: gregory-minevich
-- name: bcftools_view
-  owner: gregory-minevich
+#tool_panel_section_label: CloudMap (deprecated)
+#tools:
+#- name: cloudmap_variant_discovery_mapping
+#  owner: gregory-minevich
+#- name: cloudmap_in_silico_complementation
+#  owner: gregory-minevich
+#- name: ems_variant_density_mapping
+#  owner: gregory-minevich
+#- name: snp_mapping_using_wgs
+#  owner: gregory-minevich
+#- name: check_snpeff_candidates
+#  owner: gregory-minevich
+#- name: bcftools_view
+#  owner: gregory-minevich
