@@ -112,18 +112,18 @@ tools:
   owner: iuc
   revisions:
   - 1ea4e668bf73
-  tool_panel_section_id: text manipulation
+  tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: sqlite_to_tabular
   owner: iuc
   revisions:
   - 6e72fd26a9d3
   - f31bb1e5725d
-  tool_panel_section_id: text manipulation
+  tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: concatenate_multiple_datasets
   owner: mvdbeek
   revisions:
   - 201c568972c3
-  tool_panel_section_id: missing
-  tool_panel_section_label: Missing
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation

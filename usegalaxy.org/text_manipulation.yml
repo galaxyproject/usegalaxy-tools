@@ -32,3 +32,9 @@ tools:
   owner: galaxyp
 - name: split_file_on_column
   owner: bgruening
+- name: query_tabular
+  owner: iuc
+- name: sqlite_to_tabular
+  owner: iuc
+- name: concatenate_multiple_datasets
+  owner: mvdbeek

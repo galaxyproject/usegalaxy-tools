@@ -26,5 +26,5 @@ tools:
   owner: pravs
   revisions:
   - 561b62936e2c
-  tool_panel_section_id: missing
-  tool_panel_section_label: Missing
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics

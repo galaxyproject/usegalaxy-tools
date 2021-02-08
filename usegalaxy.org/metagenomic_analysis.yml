@@ -92,3 +92,5 @@ tools:
   owner: iuc
 - name: valet
   owner: iuc
+- name: staramr
+  owner: nml

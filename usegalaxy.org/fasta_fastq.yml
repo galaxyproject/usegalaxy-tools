@@ -84,3 +84,5 @@ tools:
   owner: rnateam
 - name: filter_by_fasta_ids
   owner: galaxyp
+- name: fasta_merge_files_and_filter_unique_sequences
+  owner: galaxyp

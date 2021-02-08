@@ -1,0 +1,6 @@
+tool_panel_section_label: GIS Data Handling
+tools:
+- name: xarray_metadata_info
+  owner: ecology
+- name: xarray_select
+  owner: ecology

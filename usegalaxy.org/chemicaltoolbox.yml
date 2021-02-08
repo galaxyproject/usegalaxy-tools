@@ -1,0 +1,19 @@
+tool_panel_section_label: ChemicalToolBox
+
+tools:
+- name: chemical_data_sources
+  owner: bgruening
+- name: chemfp
+  owner: bgruening
+- name: get_pdb
+  owner: bgruening
+- name: gmx_setup
+  owner: chemteam
+- name: gmx_editconf
+  owner: chemteam
+- name: gmx_solvate
+  owner: chemteam
+- name: gmx_em
+  owner: chemteam
+- name: gmx_sim
+  owner: chemteam
