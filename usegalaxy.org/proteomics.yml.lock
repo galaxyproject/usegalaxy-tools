@@ -1,0 +1,30 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Proteomics
+tools:
+- name: peptideshaker
+  owner: galaxyp
+  revisions:
+  - 3634c90301af
+  - f35bb9d0c93e
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: custom_pro_db
+  owner: galaxyp
+  revisions:
+  - 2c7df0077d28
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: pep_pointer
+  owner: galaxyp
+  revisions:
+  - 073a2965e3b2
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: peptidegenomiccoordinate
+  owner: pravs
+  revisions:
+  - 561b62936e2c
+  tool_panel_section_id: missing
+  tool_panel_section_label: Missing

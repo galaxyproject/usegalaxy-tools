@@ -70,6 +70,7 @@ tools:
   owner: devteam
   revisions:
   - 145f6d74ff5e
+  - 24c5d43cb545
   - 47035d167365
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
@@ -154,6 +155,7 @@ tools:
   owner: devteam
   revisions:
   - 4fe8a75334c8
+  - bd735cae4ce6
   - cb20f99fd45b
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
@@ -197,8 +199,8 @@ tools:
   owner: iuc
   revisions:
   - b01db2684fa5
-  - ff313de5f7f4
   - bf328cec6a42
+  - ff313de5f7f4
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: qualimap_multi_bamqc

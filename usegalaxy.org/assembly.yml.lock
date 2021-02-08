@@ -6,6 +6,7 @@ tools:
 - name: unicycler
   owner: iuc
   revisions:
+  - 0a3a602cd1e3
   - 88c240872a65
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -100,6 +101,13 @@ tools:
 - name: bandage
   owner: iuc
   revisions:
+  - 067592b6b312
   - b2860df42e16
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: racon
+  owner: bgruening
+  revisions:
+  - aa39b19ca11e
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

@@ -27,6 +27,7 @@ tools:
 - name: deeptools_plot_heatmap
   owner: bgruening
   revisions:
+  - 010e58e9d822
   - a4dfb122e52b
   - a7849312d328
   tool_panel_section_id: deeptools
@@ -85,6 +86,7 @@ tools:
   revisions:
   - 514fa53b5efb
   - b73e213add0c
+  - fb9cf9c97ec4
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_compute_gc_bias
