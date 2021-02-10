@@ -28,3 +28,5 @@ tools:
   owner: iuc
 - name: macs
   owner: devteam
+- name: genrich
+  owner: iuc

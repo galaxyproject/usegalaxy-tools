@@ -312,5 +312,5 @@ tools:
   owner: nml
   revisions:
   - da787fc8b740
-  tool_panel_section_id: metagenomic analysis
+  tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis

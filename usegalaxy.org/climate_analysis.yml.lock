@@ -7,5 +7,5 @@ tools:
   owner: climate
   revisions:
   - b525b88bc941
-  tool_panel_section_id: climate analysis
+  tool_panel_section_id: climate_analysis
   tool_panel_section_label: Climate Analysis

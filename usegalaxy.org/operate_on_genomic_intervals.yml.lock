@@ -79,5 +79,5 @@ tools:
   owner: galaxyp
   revisions:
   - 038ecf54cbec
-  tool_panel_section_id: operate on genomic intervals
+  tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
