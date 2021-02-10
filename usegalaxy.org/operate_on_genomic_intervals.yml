@@ -24,3 +24,5 @@ tools:
   owner: devteam
 - name: get_flanks
   owner: devteam
+- name: translate_bed
+  owner: galaxyp

@@ -1,0 +1,10 @@
+tool_panel_section_label: Proteomics
+tools:
+- name: peptideshaker
+  owner: galaxyp
+- name: custom_pro_db
+  owner: galaxyp
+- name: pep_pointer
+  owner: galaxyp
+- name: peptidegenomiccoordinate
+  owner: pravs

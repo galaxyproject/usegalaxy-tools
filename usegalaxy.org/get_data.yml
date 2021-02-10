@@ -10,3 +10,5 @@ tools:
   owner: iuc
 - name: ncbi_acc_download
   owner: iuc
+- name: unipept
+  owner: galaxyp

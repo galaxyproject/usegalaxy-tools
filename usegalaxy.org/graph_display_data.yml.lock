@@ -21,6 +21,7 @@ tools:
   - 4b519282a05b
   - a64dc31ab7f2
   - e6cbe3190642
+  - fd59d783248a
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: venn_list
@@ -132,31 +133,34 @@ tools:
 - name: jbrowse
   owner: iuc
   revisions:
+  - 17359b808b01
+  - 1cfc579079a6
   - 667e17248bfe
   - edb534491f92
   - fd5dbf0f732e
-  - 17359b808b01
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: newick_utils
   owner: iuc
   revisions:
   - b4163d2f64ab
+  - fe4235285ee8
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: pathview
   owner: iuc
   revisions:
   - 03c13085aecc
+  - bd99e8fbde97
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: pygenometracks
   owner: iuc
   revisions:
   - 326a3db8d9d1
+  - 4ac4e7083b7e
   - 5cec5fb749f0
   - eca03db4f612
-  - 4ac4e7083b7e
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: tsne

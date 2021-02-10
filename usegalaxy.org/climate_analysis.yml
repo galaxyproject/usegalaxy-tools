@@ -1,0 +1,4 @@
+tool_panel_section_label: Climate Analysis
+tools:
+- name: ctsm_fates
+  owner: climate

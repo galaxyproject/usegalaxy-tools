@@ -1,0 +1,11 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Peak Calling
+tools:
+- name: genrich
+  owner: iuc
+  revisions:
+  - 8353f3cc03db
+  tool_panel_section_id: peak calling
+  tool_panel_section_label: Peak Calling

@@ -34,3 +34,9 @@ tools:
   owner: iuc
 - name: ucsc_twobittofa
   owner: iuc
+- name: bed_to_protein_map
+  owner: galaxyp
+- name: gffcompare_to_bed
+  owner: galaxyp
+- name: mz_to_sqlite
+  owner: galaxyp

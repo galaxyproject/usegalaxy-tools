@@ -12,7 +12,10 @@ tools:
 - name: cutadapt
   owner: lparsons
   revisions:
+  - 49370cb85f0f
+  - 660cffd8d92a
   - e4691e1589d3
+  - f5fdf41c08b8
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: flash
@@ -170,6 +173,7 @@ tools:
   owner: bgruening
   revisions:
   - 084bbd8ba7b8
+  - 949f01671246
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: short_reads_trim_seq
@@ -288,5 +292,11 @@ tools:
   owner: galaxyp
   revisions:
   - dff7df6fcab5
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: fasta_merge_files_and_filter_unique_sequences
+  owner: galaxyp
+  revisions:
+  - 650d553c1fda
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ

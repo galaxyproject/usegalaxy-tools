@@ -78,6 +78,7 @@ tools:
   owner: iuc
   revisions:
   - cdf4443d5625
+  - cfe1e6c28d95
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_clustering
