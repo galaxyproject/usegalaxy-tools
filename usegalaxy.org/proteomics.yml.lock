@@ -16,15 +16,15 @@ tools:
   - 2c7df0077d28
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
-- name: pep_pointer
-  owner: galaxyp
-  revisions:
-  - 073a2965e3b2
-  tool_panel_section_id: proteomics
-  tool_panel_section_label: Proteomics
 - name: peptidegenomiccoordinate
   owner: pravs
   revisions:
   - 561b62936e2c
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: pep_pointer
+  owner: galaxyp
+  revisions:
+  - 073a2965e3b2
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics

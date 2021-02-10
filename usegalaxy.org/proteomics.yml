@@ -4,7 +4,7 @@ tools:
   owner: galaxyp
 - name: custom_pro_db
   owner: galaxyp
-- name: pep_pointer
-  owner: galaxyp
 - name: peptidegenomiccoordinate
   owner: pravs
+- name: pep_pointer
+  owner: galaxyp
