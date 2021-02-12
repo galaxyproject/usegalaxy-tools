@@ -15,6 +15,7 @@ tools:
   revisions:
   - 1aae04680c4b
   - b5d8e5475247
+  - 44018dd6b447
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: uniprot_rest_interface
@@ -50,6 +51,7 @@ tools:
   revisions:
   - 1aae04680c4b
   - b5d8e5475247
+  - 44018dd6b447
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: column_order_header_sort
@@ -112,6 +114,7 @@ tools:
   owner: iuc
   revisions:
   - 1ea4e668bf73
+  - 2e8f945f7285
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: sqlite_to_tabular
@@ -119,6 +122,7 @@ tools:
   revisions:
   - 6e72fd26a9d3
   - f31bb1e5725d
+  - dfe38b7c34ed
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: concatenate_multiple_datasets

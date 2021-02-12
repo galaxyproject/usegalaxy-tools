@@ -20,6 +20,7 @@ tools:
   revisions:
   - 0c16cad5e03b
   - fbf98f24097b
+  - 26371a1df031
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: featurecounts
@@ -28,6 +29,7 @@ tools:
   - 90d16db017d7
   - a37612abf7f9
   - f3a5f075498f
+  - ea04b737afa0
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: dexseq
@@ -88,6 +90,7 @@ tools:
   revisions:
   - 0696db066a5b
   - 71bacea10eee
+  - 6a3a025714d3
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: rgrnastar
@@ -97,6 +100,7 @@ tools:
   - 850f3679b9b4
   - b9e04854e2bb
   - d5659efd66aa
+  - 7ed2edc1337f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: cummerbund
@@ -160,6 +164,7 @@ tools:
   owner: iuc
   revisions:
   - 75427ceb32d1
+  - 095162ba8e90
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: heinz
@@ -173,6 +178,7 @@ tools:
   owner: iuc
   revisions:
   - d3ebbf39b1c5
+  - de7795890bc5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: masigpro
@@ -203,6 +209,7 @@ tools:
   owner: iuc
   revisions:
   - c24765926774
+  - fed9d0350d72
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: scpipe
@@ -210,6 +217,7 @@ tools:
   revisions:
   - 5c4bca9dd4a2
   - 7397e6badc11
+  - 3ffca09599ca
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: seurat
@@ -232,6 +240,7 @@ tools:
   revisions:
   - 0db979fead3a
   - c6334cb383ff
+  - d0d4cef4f967
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_run_de_analysis

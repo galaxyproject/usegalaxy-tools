@@ -8,6 +8,7 @@ tools:
   revisions:
   - 0a3a602cd1e3
   - 88c240872a65
+  - 9e3e80cc4ad4
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: quast
@@ -103,6 +104,7 @@ tools:
   revisions:
   - 067592b6b312
   - b2860df42e16
+  - 94fe43e75ddc
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: racon
