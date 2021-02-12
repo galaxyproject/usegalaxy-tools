@@ -25,6 +25,7 @@ tools:
   - 5e33b465d8d5
   - b2f1f75d49c4
   - bf675f34b056
+  - f7985e0479b9
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastp
