@@ -22,9 +22,9 @@ tools:
   - 073a2965e3b2
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
-- name: peptidegenomiccoordinate
-  owner: pravs
+- name: peptide_genomic_coordinate
+  owner: galaxyp
   revisions:
-  - 561b62936e2c
+  - 5f49ffce52cb
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics

@@ -52,3 +52,5 @@ tools:
   owner: iuc
 - name: volcanoplot
   owner: iuc
+- name: jvarkit_wgscoverageplotter
+  owner: iuc
