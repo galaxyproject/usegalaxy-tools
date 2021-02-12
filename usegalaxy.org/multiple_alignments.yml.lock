@@ -48,6 +48,7 @@ tools:
   revisions:
   - 502018997bae
   - abe34706eddf
+  - b3acbb3a6af0
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_mummer
@@ -55,6 +56,7 @@ tools:
   revisions:
   - 48badcd29c5d
   - fc143c06a842
+  - 48823c9635a4
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_dnadiff
@@ -62,6 +64,7 @@ tools:
   revisions:
   - 315c678562d2
   - deacc6b40cc0
+  - 60698466facd
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_show_coords
@@ -69,6 +72,7 @@ tools:
   revisions:
   - b8e2c2f95d26
   - f8734af48332
+  - 959c1f8dae95
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_mummerplot
@@ -76,6 +80,7 @@ tools:
   revisions:
   - c0cedc12fcc5
   - e8c60daa41e0
+  - ebe3b0f84de9
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_nucmer
@@ -83,6 +88,7 @@ tools:
   revisions:
   - 5b0b49b5421c
   - a18fb4f826fc
+  - 636b049e6141
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: pipelign
@@ -96,6 +102,7 @@ tools:
   revisions:
   - 49b937f12aa4
   - 482052b30b78
+  - 56d7dc39eec8
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: kc_align
@@ -109,5 +116,6 @@ tools:
   - 8dc7708c3266
   - a0ffbc759ad8
   - 1c65ddbaeefa
+  - 0c0288a9d92c
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments

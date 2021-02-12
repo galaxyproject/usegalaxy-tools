@@ -48,6 +48,7 @@ tools:
   revisions:
   - 1e62c28ba91d
   - 4048d82f0c88
+  - 602fb8e63aa7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: exonerate
@@ -141,12 +142,14 @@ tools:
   owner: iuc
   revisions:
   - 326f9c294b09
+  - e408aa831db3
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: maker
   owner: iuc
   revisions:
   - 5e96efe6e6c6
+  - d46d803ca6cc
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: mlst
@@ -203,6 +206,7 @@ tools:
   revisions:
   - 200c378d85f3
   - c2656b729ee9
+  - 037a11682176
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tb_variant_filter

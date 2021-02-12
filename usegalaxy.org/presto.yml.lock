@@ -8,6 +8,7 @@ tools:
   revisions:
   - 587fa797ede9
   - 6ad9d48a512e
+  - 29ec7b3a458b
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: prestor_abseq3

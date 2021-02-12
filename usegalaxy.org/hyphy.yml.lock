@@ -215,5 +215,6 @@ tools:
   owner: iuc
   revisions:
   - 1c664ff29354
+  - e3a7995dce75
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
