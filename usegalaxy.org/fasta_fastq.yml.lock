@@ -301,3 +301,9 @@ tools:
   - 650d553c1fda
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
+- name: seq_filter_by_id
+  owner: peterjc
+  revisions:
+  - 141612f8c3e3
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ

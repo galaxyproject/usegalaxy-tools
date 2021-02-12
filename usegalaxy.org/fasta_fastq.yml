@@ -86,3 +86,5 @@ tools:
   owner: galaxyp
 - name: fasta_merge_files_and_filter_unique_sequences
   owner: galaxyp
+- name: seq_filter_by_id
+  owner: peterjc
