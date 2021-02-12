@@ -69,6 +69,7 @@ tools:
   - 53c0b7a1a0c3
   - 8c6cd2650d1f
   - b3eab4b67562
+  - 77b2770508f6
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: rna_starsolo
@@ -76,5 +77,6 @@ tools:
   revisions:
   - 178bdbdb6d24
   - e403d27e8f24
+  - ec9cbd6b9a49
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
