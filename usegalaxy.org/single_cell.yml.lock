@@ -66,9 +66,10 @@ tools:
   - 038e32885fec
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
-- name: anndata_maninpulate
+- name: anndata_manipulate
   owner: iuc
-  revisions: []
+  revisions:
+  - 43cb7b5a6fe7
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: modify_loom

@@ -6,5 +6,5 @@ tools:
   owner: galaxyp
 - name: pep_pointer
   owner: galaxyp
-- name: peptidegenomiccoordinate
-  owner: pravs
+- name: peptide_genomic_coordinate
+  owner: galaxyp

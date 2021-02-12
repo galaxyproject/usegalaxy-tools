@@ -183,3 +183,9 @@ tools:
   - 73b8cb5bddcd
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
+- name: jvarkit_wgscoverageplotter
+  owner: iuc
+  revisions:
+  - ac048a34cac3
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data

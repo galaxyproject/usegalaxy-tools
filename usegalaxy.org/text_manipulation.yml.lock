@@ -131,3 +131,9 @@ tools:
   - 201c568972c3
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
+- name: filter_tabular
+  owner: iuc
+  revisions:
+  - 9cc411a62277
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
