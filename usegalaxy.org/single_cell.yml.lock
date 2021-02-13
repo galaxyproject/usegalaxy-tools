@@ -9,18 +9,6 @@ tools:
   - 7647e5cd1b8b
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
-- name: scanpy_inspect
-  owner: iuc
-  revisions:
-  - 6c145a6868cc
-  tool_panel_section_id: single_cell
-  tool_panel_section_label: Single-cell
-- name: scanpy_filter
-  owner: iuc
-  revisions:
-  - 3c86f71498bc
-  tool_panel_section_id: single_cell
-  tool_panel_section_label: Single-cell
 - name: scanpy_normalize
   owner: iuc
   revisions:
@@ -31,18 +19,6 @@ tools:
   owner: iuc
   revisions:
   - 7647e5cd1b8b
-  tool_panel_section_id: single_cell
-  tool_panel_section_label: Single-cell
-- name: scanpy_cluster_reduce_dimension
-  owner: iuc
-  revisions:
-  - b2df381a6004
-  tool_panel_section_id: single_cell
-  tool_panel_section_label: Single-cell
-- name: scanpy_remove_confounders
-  owner: iuc
-  revisions:
-  - 215733a383f2
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_export

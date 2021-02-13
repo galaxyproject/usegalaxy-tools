@@ -2,17 +2,9 @@ tool_panel_section_label: Single-cell
 tools:
 - name: scanpy_plot
   owner: iuc
-- name: scanpy_inspect
-  owner: iuc
-- name: scanpy_filter
-  owner: iuc
 - name: scanpy_normalize
   owner: iuc
 - name: scanpy_plot
-  owner: iuc
-- name: scanpy_cluster_reduce_dimension
-  owner: iuc
-- name: scanpy_remove_confounders
   owner: iuc
 - name: anndata_export
   owner: iuc
