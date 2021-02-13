@@ -141,3 +141,9 @@ tools:
   - f57426daa04d
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
+- name: custom_pro_db_annotation_data_manager
+  owner: galaxyp
+  revisions:
+  - 9ee512decde8
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
