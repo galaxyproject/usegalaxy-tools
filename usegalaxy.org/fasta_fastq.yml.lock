@@ -299,6 +299,7 @@ tools:
   owner: galaxyp
   revisions:
   - 650d553c1fda
+  - f546e7278f04
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: seq_filter_by_id
