@@ -88,3 +88,5 @@ tools:
   owner: galaxyp
 - name: seq_filter_by_id
   owner: peterjc
+- name: umi_tools_extract
+  owner: iuc
