@@ -44,5 +44,6 @@ tools:
   owner: galaxyp
   revisions:
   - 34758ab8aaa4
+  - 9aaa46d45472
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data

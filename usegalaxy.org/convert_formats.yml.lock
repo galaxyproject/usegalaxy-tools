@@ -127,17 +127,20 @@ tools:
   owner: galaxyp
   revisions:
   - 024ed7b0ad93
+  - a7c58b43cbaa
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: gffcompare_to_bed
   owner: galaxyp
   revisions:
   - 7e572e148175
+  - ba5368c19dbd
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: mz_to_sqlite
   owner: galaxyp
   revisions:
   - e34bdac5b157
+  - f5c632894818
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
