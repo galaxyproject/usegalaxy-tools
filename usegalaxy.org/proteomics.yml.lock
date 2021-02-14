@@ -29,3 +29,15 @@ tools:
   - 5f49ffce52cb
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
+- name: maxquant
+  owner: galaxyp
+  revisions:
+  - ea0a1d50c83f
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: msstats
+  owner: galaxyp
+  revisions:
+  - 8212e342e482
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
