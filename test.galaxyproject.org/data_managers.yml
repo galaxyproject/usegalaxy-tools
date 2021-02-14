@@ -46,3 +46,5 @@ tools:
   owner: iuc
 - name: data_manager_gemini_database_downloader
   owner: iuc
+- name: custom_pro_db_annotation_data_manager
+  owner: galaxyp
