@@ -8,3 +8,7 @@ tools:
   owner: galaxyp
 - name: peptide_genomic_coordinate
   owner: galaxyp
+- name: maxquant
+  owner: galaxyp
+- name: msstats
+  owner: galaxyp
