@@ -6,7 +6,10 @@ tools:
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - 864bd76db767
+  - 3634c90301af
+  - f35bb9d0c93e
+  - 7fdd9119cc4f
+  - 1beff3ddce58
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: custom_pro_db
