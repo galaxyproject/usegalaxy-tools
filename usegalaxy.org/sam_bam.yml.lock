@@ -214,7 +214,6 @@ tools:
   owner: iuc
   revisions:
   - ac607906f10a
-  - 19ece8afbaab
   - e7fd6754d093
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
