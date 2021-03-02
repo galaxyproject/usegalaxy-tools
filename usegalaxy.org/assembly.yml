@@ -32,3 +32,5 @@ tools:
   owner: iuc
 - name: racon
   owner: bgruening
+- name: hifiasm
+  owner: bgruening
