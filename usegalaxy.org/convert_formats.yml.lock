@@ -105,6 +105,7 @@ tools:
 - name: gfa_to_fa
   owner: iuc
   revisions:
+  - e33c82b63727
   - 49d6f8ef63b3
   - 8e9d604e92f4
   tool_panel_section_id: convert_formats
