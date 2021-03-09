@@ -15,5 +15,6 @@ tools:
   - 4a4888bf0338
   - 802daf2993b0
   - 75d1aedc9b3f
+  - f316caf098a6
   tool_panel_section_id: protein_modeling
   tool_panel_section_label: Protein Modeling
