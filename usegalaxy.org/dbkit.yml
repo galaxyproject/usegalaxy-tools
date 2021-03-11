@@ -1,4 +1,0 @@
-tool_panel_section_label: Database Tools
-tools:
-- name: dbkit
-  owner: guerler

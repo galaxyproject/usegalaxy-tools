@@ -1,5 +1,7 @@
 tool_panel_section_label: Protein Modeling
 tools:
+- name: dbkit
+  owner: guerler
 - name: hhsuite
   owner: guerler
 - name: springsuite
