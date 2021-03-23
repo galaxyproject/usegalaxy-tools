@@ -31,6 +31,7 @@ tools:
   owner: devteam
   revisions:
   - 74c9214cc8e6
+  - 5c2cc3b58c7d
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: ngsutils_bam_filter
