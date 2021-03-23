@@ -109,7 +109,6 @@ tools:
   owner: devteam
   revisions:
   - ef11139d4545
-  - 9c1c0b947e46
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: pileup_parser

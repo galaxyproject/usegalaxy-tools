@@ -145,7 +145,6 @@ tools:
   - edb534491f92
   - fd5dbf0f732e
   - 6cd09d7b5f37
-  - 4542035c1075
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: newick_utils

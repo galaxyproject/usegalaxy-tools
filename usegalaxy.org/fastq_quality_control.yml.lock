@@ -26,7 +26,6 @@ tools:
   - b2f1f75d49c4
   - bf675f34b056
   - f7985e0479b9
-  - 75c93c70d094
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastp
@@ -74,6 +73,5 @@ tools:
   owner: iuc
   revisions:
   - a252d8415583
-  - 819b8c1657d5
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control

@@ -10,7 +10,6 @@ tools:
   - 13b6f0007d9e
   - 464b9305180e
   - 6e8d94597139
-  - 02026300aa45
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: annotatemyids
@@ -119,7 +118,6 @@ tools:
   - 1ea4e668bf73
   - 33d61c89fb8d
   - 2e8f945f7285
-  - 83069b38aa85
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: sqlite_to_tabular
@@ -128,7 +126,6 @@ tools:
   - 6e72fd26a9d3
   - f31bb1e5725d
   - dfe38b7c34ed
-  - bce29ec10b78
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: concatenate_multiple_datasets
@@ -141,6 +138,5 @@ tools:
   owner: iuc
   revisions:
   - 9cc411a62277
-  - 6544e4b87a4f
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation

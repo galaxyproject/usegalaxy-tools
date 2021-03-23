@@ -83,7 +83,6 @@ tools:
   revisions:
   - 9e58ff014088
   - 03fd468e158f
-  - a8a278849c18
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: shovill
