@@ -33,15 +33,15 @@ tools:
 - name: idba_hybrid
   owner: iuc
   revisions:
-  - a81c5169e9fc
   - 5ece301faf6b
+  - a81c5169e9fc
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: idba_tran
   owner: iuc
   revisions:
-  - a30d991a3fdd
   - 33f00ff1cb22
+  - a30d991a3fdd
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: idba_ud
@@ -54,8 +54,8 @@ tools:
 - name: megahit
   owner: iuc
   revisions:
-  - de387b2b2803
   - 7518ee87b53d
+  - de387b2b2803
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: metaspades
@@ -81,17 +81,17 @@ tools:
 - name: rnaspades
   owner: iuc
   revisions:
-  - 9e58ff014088
   - 03fd468e158f
+  - 9e58ff014088
   - a8a278849c18
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: shovill
   owner: iuc
   revisions:
-  - d9f6a00b6db7
-  - 8d1af5db538d
   - 83ead2be47b2
+  - 8d1af5db538d
+  - d9f6a00b6db7
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades
@@ -104,8 +104,8 @@ tools:
   owner: iuc
   revisions:
   - 067592b6b312
-  - b2860df42e16
   - 94fe43e75ddc
+  - b2860df42e16
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: racon
@@ -119,5 +119,11 @@ tools:
   revisions:
   - 6505bd37670d
   - bf0a4667e3ce
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: purge_dups
+  owner: iuc
+  revisions:
+  - 29151e779524
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

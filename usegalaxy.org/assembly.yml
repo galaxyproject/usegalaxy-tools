@@ -34,3 +34,5 @@ tools:
   owner: bgruening
 - name: hifiasm
   owner: bgruening
+- name: purge_dups
+  owner: iuc
