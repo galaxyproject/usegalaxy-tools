@@ -15,6 +15,7 @@ tools:
 - name: lastz
   owner: devteam
   revisions:
+  - 2ff111fac1d7
   - e7f19d6a9af8
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
