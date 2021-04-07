@@ -1,0 +1,191 @@
+install_repository_dependencies: 'true'
+install_resolver_dependencies: 'false'
+install_tool_dependencies: 'false'
+tool_panel_section_label: SAM/BAM
+tools:
+- name: pileup_interval
+  owner: devteam
+  revisions:
+  - 9c1c0b947e46
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: qualimap_bamqc
+  owner: iuc
+  revisions:
+  - 19ece8afbaab
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_view
+  owner: iuc
+  revisions:
+  - b72793637686
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_reheader
+  owner: devteam
+  revisions:
+  - 30388d878f81
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: sam_pileup
+  owner: devteam
+  revisions:
+  - a3b4ad6858ff
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: bamtools
+  owner: devteam
+  revisions:
+  - 4d343c1f606b
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: bamtools_split
+  owner: devteam
+  revisions:
+  - 9676127a1ed2
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: sam2interval
+  owner: devteam
+  revisions:
+  - 75557c0908a9
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: qualimap_multi_bamqc
+  owner: iuc
+  revisions:
+  - e38af83df163
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_phase
+  owner: devteam
+  revisions:
+  - b5c3b1856370
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_merge
+  owner: iuc
+  revisions:
+  - 740ce0a18f0d
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_markdup
+  owner: iuc
+  revisions:
+  - 83b8e36e9cbe
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_fixmate
+  owner: iuc
+  revisions:
+  - bc0cc7bfbfe9
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_fastx
+  owner: iuc
+  revisions:
+  - a8d69aee190e
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_depth
+  owner: iuc
+  revisions:
+  - 44de678a44c4
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_stats
+  owner: devteam
+  revisions:
+  - 145f6d74ff5e
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_split
+  owner: devteam
+  revisions:
+  - 135c85f4cfaf
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_bedcov
+  owner: devteam
+  revisions:
+  - 9149ad20699a
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_calmd
+  owner: devteam
+  revisions:
+  - 06dc50b7b711
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_idxstats
+  owner: devteam
+  revisions:
+  - 7a6034296ae9
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtool_filter2
+  owner: devteam
+  revisions:
+  - 649a225999a5
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_flagstat
+  owner: devteam
+  revisions:
+  - 22970df7a40e
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_sort
+  owner: devteam
+  revisions:
+  - e613c1ad4c4c
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_mpileup
+  owner: devteam
+  revisions:
+  - fa7ad9b89f4a
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: bam_to_sam
+  owner: devteam
+  revisions:
+  - 88eedb4abea0
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: bamtools_filter
+  owner: devteam
+  revisions:
+  - cb20f99fd45b
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: sam_to_bam
+  owner: devteam
+  revisions:
+  - cf1ffd88f895
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_slice_bam
+  owner: devteam
+  revisions:
+  - a4a10c7924d1
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: samtools_rmdup
+  owner: devteam
+  revisions:
+  - 586f9e1cdb2b
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: filter_on_md
+  owner: boris
+  revisions:
+  - ac70bfaf1224
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: sam_merge
+  owner: devteam
+  revisions:
+  - 1977f1637890
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
