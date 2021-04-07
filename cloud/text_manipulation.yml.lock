@@ -1,0 +1,113 @@
+install_repository_dependencies: 'true'
+install_resolver_dependencies: 'false'
+install_tool_dependencies: 'false'
+tool_panel_section_label: Text Manipulation
+tools:
+- name: filter_tabular
+  owner: iuc
+  revisions:
+  - 6544e4b87a4f
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: query_tabular
+  owner: iuc
+  revisions:
+  - 83069b38aa85
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: column_maker
+  owner: devteam
+  revisions:
+  - 02026300aa45
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: sqlite_to_tabular
+  owner: iuc
+  revisions:
+  - bce29ec10b78
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: annotatemyids
+  owner: iuc
+  revisions:
+  - 44018dd6b447
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: concatenate_multiple_datasets
+  owner: mvdbeek
+  revisions:
+  - 201c568972c3
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: regex_find_replace
+  owner: galaxyp
+  revisions:
+  - ae8c4b2488e7
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: table_compute
+  owner: iuc
+  revisions:
+  - 60ff16842fcd
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: split_file_on_column
+  owner: bgruening
+  revisions:
+  - 37a53100b67e
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: add_input_name_as_column
+  owner: mvdbeek
+  revisions:
+  - 3284b72eef56
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: text_processing
+  owner: bgruening
+  revisions:
+  - ddf54b12c295
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: reshape2_melt
+  owner: iuc
+  revisions:
+  - 317ed0ee8bf2
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: reshape2_cast
+  owner: iuc
+  revisions:
+  - d3b66a3a08ca
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: jq
+  owner: iuc
+  revisions:
+  - 5ff75eb1a893
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: gff3_rebase
+  owner: iuc
+  revisions:
+  - 238981ed43b7
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: column_remove_by_header
+  owner: iuc
+  revisions:
+  - 372967836e98
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: column_order_header_sort
+  owner: iuc
+  revisions:
+  - 6ae9724caf4d
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: replace_column_by_key_value_file
+  owner: bgruening
+  revisions:
+  - d533e4b75800
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
