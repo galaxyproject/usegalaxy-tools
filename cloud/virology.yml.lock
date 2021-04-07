@@ -1,0 +1,47 @@
+install_repository_dependencies: 'true'
+install_resolver_dependencies: 'false'
+install_tool_dependencies: 'false'
+tool_panel_section_label: Virology
+tools:
+- name: ivar_trim
+  owner: iuc
+  revisions:
+  - db536ad45f28
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+- name: ivar_removereads
+  owner: iuc
+  revisions:
+  - ee2beb764a7b
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+- name: snpeff_sars_cov_2
+  owner: iuc
+  revisions:
+  - 2a3a00c1fa0a
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+- name: ivar_consensus
+  owner: iuc
+  revisions:
+  - 78bbd17d0703
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+- name: ivar_filtervariants
+  owner: iuc
+  revisions:
+  - 7fe36019c073
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+- name: ivar_getmasked
+  owner: iuc
+  revisions:
+  - 2cf4a1cafc16
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+- name: ivar_variants
+  owner: iuc
+  revisions:
+  - f95f403841ad
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
