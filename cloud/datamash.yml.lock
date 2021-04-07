@@ -1,0 +1,23 @@
+install_repository_dependencies: 'true'
+install_resolver_dependencies: 'false'
+install_tool_dependencies: 'false'
+tool_panel_section_label: Datamash
+tools:
+- name: datamash_reverse
+  owner: iuc
+  revisions:
+  - 0f1724dd59d2
+  tool_panel_section_id: datamash
+  tool_panel_section_label: Datamash
+- name: datamash_transpose
+  owner: iuc
+  revisions:
+  - 22c2a1ac7ae3
+  tool_panel_section_id: datamash
+  tool_panel_section_label: Datamash
+- name: datamash_ops
+  owner: iuc
+  revisions:
+  - 562f3c677828
+  tool_panel_section_id: datamash
+  tool_panel_section_label: Datamash
