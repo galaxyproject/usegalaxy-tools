@@ -1,0 +1,41 @@
+install_repository_dependencies: 'true'
+install_resolver_dependencies: 'false'
+install_tool_dependencies: 'false'
+tool_panel_section_label: Multiple Alignments
+tools:
+- name: mummer_nucmer
+  owner: iuc
+  revisions:
+  - 636b049e6141
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_mummerplot
+  owner: iuc
+  revisions:
+  - ebe3b0f84de9
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_show_coords
+  owner: iuc
+  revisions:
+  - 959c1f8dae95
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_dnadiff
+  owner: iuc
+  revisions:
+  - 60698466facd
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_mummer
+  owner: iuc
+  revisions:
+  - 48823c9635a4
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: mummer_delta_filter
+  owner: iuc
+  revisions:
+  - b3acbb3a6af0
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
