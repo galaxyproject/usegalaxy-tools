@@ -1,0 +1,12 @@
+tool_panel_section_label: Mapping
+tools:
+- name: minimap2
+  owner: iuc
+- name: bowtie2
+  owner: devteam
+- name: bwa
+  owner: devteam
+- name: bwameth
+  owner: iuc
+- name: lastz
+  owner: devteam
