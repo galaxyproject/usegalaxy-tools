@@ -1,0 +1,6 @@
+tool_panel_section_label: Get Data
+tools:
+- name: sra_tools
+  owner: iuc
+- name: ncbi_acc_download
+  owner: iuc
