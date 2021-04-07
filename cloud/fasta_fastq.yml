@@ -1,0 +1,20 @@
+tool_panel_section_label: FASTA/FASTQ
+tools:
+- name: cutadapt
+  owner: lparsons
+- name: fastq_filter
+  owner: devteam
+- name: fastq_groomer
+  owner: devteam
+- name: fastq_manipulation
+  owner: devteam
+- name: fasta_compute_length
+  owner: devteam
+- name: fastq_paired_end_deinterlacer
+  owner: devteam
+- name: fastq_paired_end_interlacer
+  owner: devteam
+- name: flash
+  owner: iuc
+- name: trim_galore
+  owner: bgruening
