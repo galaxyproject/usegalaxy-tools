@@ -1,0 +1,34 @@
+tool_panel_section_label: deepTools
+tools:
+- name: deeptools_compute_matrix
+  owner: bgruening
+- name: deeptools_plot_heatmap
+  owner: bgruening
+- name: deeptools_bam_compare
+  owner: bgruening
+- name: deeptools_bam_pe_fragmentsize
+  owner: bgruening
+- name: deeptools_bigwig_compare
+  owner: bgruening
+- name: deeptools_compute_gc_bias
+  owner: bgruening
+- name: deeptools_correct_gc_bias
+  owner: bgruening
+- name: deeptools_multi_bam_summary
+  owner: bgruening
+- name: deeptools_multi_bigwig_summary
+  owner: bgruening
+- name: deeptools_plot_correlation
+  owner: bgruening
+- name: deeptools_plot_coverage
+  owner: bgruening
+- name: deeptools_plot_enrichment
+  owner: bgruening
+- name: deeptools_plot_fingerprint
+  owner: bgruening
+- name: deeptools_plot_pca
+  owner: bgruening
+- name: deeptools_bam_coverage
+  owner: bgruening
+- name: deeptools_plot_profile
+  owner: bgruening
