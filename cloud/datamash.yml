@@ -1,0 +1,8 @@
+tool_panel_section_label: Datamash
+tools:
+- name: datamash_reverse
+  owner: iuc
+- name: datamash_transpose
+  owner: iuc
+- name: datamash_ops
+  owner: iuc
