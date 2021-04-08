@@ -1,0 +1,10 @@
+tool_panel_section_label: FASTQ Quality Control
+tools:
+- name: multiqc
+  owner: iuc
+- name: fastp
+  owner: iuc
+- name: fastqc
+  owner: devteam
+- name: trimmomatic
+  owner: pjbriggs
