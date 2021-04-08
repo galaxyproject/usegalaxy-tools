@@ -1,0 +1,10 @@
+tool_panel_section_label: Graph/Display Data
+tools:
+- name: pygenometracks
+  owner: iuc
+- name: circos
+  owner: iuc
+- name: jbrowse
+  owner: iuc
+- name: volcanoplot
+  owner: iuc
