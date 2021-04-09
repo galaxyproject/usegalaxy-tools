@@ -1,0 +1,22 @@
+tool_panel_section_label: Variant Calling
+tools:
+- name: lofreq_call
+  owner: iuc
+- name: lofreq_viterbi
+  owner: iuc
+- name: lofreq_indelqual
+  owner: iuc
+- name: lofreq_filter
+  owner: iuc
+- name: lofreq_alnqual
+  owner: iuc
+- name: freebayes
+  owner: devteam
+- name: snpsift_genesets
+  owner: iuc
+- name: snpsift_dbnsfp
+  owner: iuc
+- name: snpeff
+  owner: iuc
+- name: snpsift
+  owner: iuc
