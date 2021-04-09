@@ -1,0 +1,14 @@
+tool_panel_section_label: Multiple Alignments
+tools:
+- name: mummer_nucmer
+  owner: iuc
+- name: mummer_mummerplot
+  owner: iuc
+- name: mummer_show_coords
+  owner: iuc
+- name: mummer_dnadiff
+  owner: iuc
+- name: mummer_mummer
+  owner: iuc
+- name: mummer_delta_filter
+  owner: iuc
