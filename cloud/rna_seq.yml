@@ -1,0 +1,20 @@
+tool_panel_section_label: RNA-seq
+tools:
+- name: salmon
+  owner: bgruening
+- name: kallisto_pseudo
+  owner: iuc
+- name: kallisto_quant
+  owner: iuc
+- name: deseq2
+  owner: iuc
+- name: limma_voom
+  owner: iuc
+- name: edger
+  owner: iuc
+- name: sailfish
+  owner: bgruening
+- name: hisat2
+  owner: iuc
+- name: stringtie
+  owner: iuc
