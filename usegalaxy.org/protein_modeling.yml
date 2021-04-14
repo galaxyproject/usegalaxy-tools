@@ -1,6 +1,22 @@
 tool_panel_section_label: Protein Modeling
 tools:
-- name: hhsuite
-  owner: guerler
-- name: springsuite
-  owner: guerler
+  - name: hhsearch
+    owner: guerler
+  - name: spring_map
+    owner: guerler
+  - name: spring_minz
+    owner: guerler
+  - name: spring_model
+    owner: guerler
+  - name: spring_cross
+    owner: guerler
+  - name: spring_model_all
+    owner: guerler
+  - name: spring_mcc
+    owner: guerler
+  - name: ffindex_dbkit_create
+    owner: guerler
+  - name: ffindex_dbkit_extract
+    owner: guerler
+  - name: ffindex_dbkit_merge
+    owner: guerler
