@@ -36,3 +36,5 @@ tools:
   owner: iuc
 - name: replace_column_by_key_value_file
   owner: bgruening
+- name: diff
+  owner: bgruening
