@@ -1,30 +1,76 @@
 tool_panel_section_label: Graph/Display Data
 tools:
-- name: ml_visualization_ex
+- name: hicexplorer_hicplottads
   owner: bgruening
-- name: plotly_parallel_coordinates_plot
+- name: ml_visualization_ex
   owner: bgruening
 - name: plotly_ml_performance_plots
   owner: bgruening
+- name: plotly_parallel_coordinates_plot
+  owner: bgruening
 - name: plotly_regression_performance_plots
   owner: bgruening
-- name: jbrowse
-  owner: iuc
-- name: xy_plot
-  owner: devteam
-- name: hicexplorer_hicplottads
-  owner: bgruening
-- name: ggplot2_heatmap2
-  owner: iuc
-- name: circos
-  owner: iuc
-- name: venn_list
-  owner: peterjc
-- name: ucsc_custom_track
-  owner: devteam
-- name: scatterplot
+- name: taxonomy_krona_chart
+  owner: crs4
+- name: gmaj
   owner: devteam
 - name: histogram
   owner: devteam
+- name: scatterplot
+  owner: devteam
+- name: ucsc_custom_track
+  owner: devteam
+- name: xy_plot
+  owner: devteam
+- name: karyotype_plot
+  owner: guru-ananda
+- name: bandage
+  owner: iuc
+- name: circos
+  owner: iuc
+- name: export2graphlan
+  owner: iuc
+- name: fasta_nucleotide_color_plot
+  owner: iuc
+- name: ggplot2_heatmap2
+  owner: iuc
+- name: ggplot2_heatmap
+  owner: iuc
+- name: ggplot2_histogram
+  owner: iuc
+- name: ggplot2_pca
+  owner: iuc
+- name: ggplot2_point
+  owner: iuc
+- name: ggplot2_violin
+  owner: iuc
+- name: graphlan
+  owner: iuc
+- name: graphlan_annotate
+  owner: iuc
+- name: intervene
+  owner: iuc
+- name: jbrowse
+  owner: iuc
+- name: jvarkit_wgscoverageplotter
+  owner: iuc
+- name: newick_utils
+  owner: iuc
+- name: pathview
+  owner: iuc
+- name: pe_histogram
+  owner: iuc
+- name: pretext_snapshot
+  owner: iuc
+- name: pygenometracks
+  owner: iuc
+- name: tsne
+  owner: iuc
+- name: volcanoplot
+  owner: iuc
 - name: mummer
   owner: peterjc
+- name: venn_list
+  owner: peterjc
+- name: krona_text
+  owner: saskia-hiltemann
