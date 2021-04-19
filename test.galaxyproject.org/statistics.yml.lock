@@ -7,156 +7,182 @@ tools:
   owner: bgruening
   revisions:
   - 6efb9bc6bf32
+  - 22f9cbcf1582
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: keras_model_config
   owner: bgruening
   revisions:
   - c3813c64d678
+  - 64bbfa592868
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: keras_model_builder
   owner: bgruening
   revisions:
   - ed7c222e47e3
+  - e3b420d0b71a
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: keras_batch_models
   owner: bgruening
   revisions:
   - 62b85c8ad8fa
+  - f5e7df4f7975
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: keras_train_and_eval
   owner: bgruening
   revisions:
   - 03f61bb3ca43
+  - 785dd890e27d
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_stacking_ensemble_models
   owner: bgruening
   revisions:
   - a2e4a45c6083
+  - 2b679bb676be
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_train_test_eval
   owner: bgruening
   revisions:
   - 2b8406e74f9e
+  - a9e0b963b7bb
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_estimator_attributes
   owner: bgruening
   revisions:
   - 7a9a9349eb42
+  - 74de84506e74
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_model_validation
   owner: bgruening
   revisions:
   - a5aed87b2cc0
+  - de360b57a5ab
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_svm_classifier
   owner: bgruening
   revisions:
   - 2df8f5c30edc
+  - a5665e1b06b0
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_sample_generator
   owner: bgruening
   revisions:
   - df579b31311d
+  - 999e07f0a9fa
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_searchcv
   owner: bgruening
   revisions:
   - c1ca24a1509d
+  - 586e68c83df2
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_build_pipeline
   owner: bgruening
   revisions:
   - 3f3c6dc38f3e
+  - 664666bd14ec
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_pairwise_metrics
   owner: bgruening
   revisions:
   - bc17040617c0
+  - cd4328a02798
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_nn_classifier
   owner: bgruening
   revisions:
   - 699024d5c451
+  - 34d31bd995e9
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_numeric_clustering
   owner: bgruening
   revisions:
   - 83938131dd46
+  - e7f047a9dca9
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_ensemble
   owner: bgruening
   revisions:
   - af0523c606a7
+  - a98fdfcd9f5f
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_feature_selection
   owner: bgruening
   revisions:
   - 41b109e70a7f
+  - 1d20e0dce176
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_data_preprocess
   owner: bgruening
   revisions:
   - eb79bde99328
+  - b75cae00f980
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_clf_metrics
   owner: bgruening
   revisions:
   - c89a3bfb3b1d
+  - 40e31fb88836
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_regression_metrics
   owner: bgruening
   revisions:
   - a152c1d23379
+  - 9c8ede554b7c
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_discriminant_classifier
   owner: bgruening
   revisions:
   - 64b771b1471a
+  - 420a4bf99244
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_generalized_linear
   owner: bgruening
   revisions:
   - a8c7b9fa426c
+  - 616a241c5b37
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_model_fit
   owner: bgruening
   revisions:
   - 8861ece0b66f
+  - 5dc03d8e137e
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_train_test_split
   owner: bgruening
   revisions:
   - 5a092779412e
+  - 13b9ac5d277c
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: sklearn_fitted_model_eval
   owner: bgruening
   revisions:
   - cf54bae8ad42
+  - e00c1c9d206b
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: plot_from_lda
