@@ -45,7 +45,7 @@ tools:
 - name: univariate
   owner: ethevenot
 - name: landmark_registration
-  pwner: imgteam
+  owner: imgteam
 - name: graphembed
   owner: iuc
 - name: iwtomics_loadandplot
