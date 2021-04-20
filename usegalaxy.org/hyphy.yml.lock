@@ -3,9 +3,16 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: HyPhy
 tools:
+- name: hyphy_annotate
+  owner: iuc
+  revisions:
+  - df56795c3d89
+  tool_panel_section_id: hyphy
+  tool_panel_section_label: HyPhy
 - name: hyphy_absrel
   owner: iuc
   revisions:
+  - 9275e81b5590
   - d033ffc1c161
   - 3b8b5bde0bd9
   - b89cac5156ec
@@ -24,6 +31,7 @@ tools:
 - name: hyphy_bgm
   owner: iuc
   revisions:
+  - ede53272264e
   - df8c64576038
   - 082d47606949
   - cebcce34d63b
@@ -41,6 +49,7 @@ tools:
 - name: hyphy_busted
   owner: iuc
   revisions:
+  - e2f03a50aace
   - 12bc58a60606
   - 2228dcc23dd9
   - 6acfd47732d1
@@ -55,9 +64,22 @@ tools:
   - 98ee8ba908d6
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
+- name: hyphy_cfel
+  owner: iuc
+  revisions:
+  - 3d4ea0544af1
+  tool_panel_section_id: hyphy
+  tool_panel_section_label: HyPhy
+- name: hyphy_conv
+  owner: iuc
+  revisions:
+  - 9ce3d6d4bd0e
+  tool_panel_section_id: hyphy
+  tool_panel_section_label: HyPhy
 - name: hyphy_fade
   owner: iuc
   revisions:
+  - 17ac281a46d9
   - 270763dcdfb4
   - 751948c21000
   - 29515b569f8b
@@ -76,6 +98,7 @@ tools:
 - name: hyphy_fel
   owner: iuc
   revisions:
+  - 389fd0e51bcb
   - 86ea61f31779
   - ccf8f1712632
   - e961403fdba3
@@ -94,6 +117,7 @@ tools:
 - name: hyphy_fubar
   owner: iuc
   revisions:
+  - c5ef306c2041
   - 271afda54a6d
   - af40a8b95f8d
   - 80c9e5256a0d
@@ -112,6 +136,7 @@ tools:
 - name: hyphy_gard
   owner: iuc
   revisions:
+  - a0731e81e0c2
   - 02b8758214b0
   - a185b079b095
   - 6a726db04d4b
@@ -130,6 +155,7 @@ tools:
 - name: hyphy_meme
   owner: iuc
   revisions:
+  - 2f07f5b4e47b
   - 6433eab14244
   - a4bf56abff97
   - d9dc61719379
@@ -148,6 +174,7 @@ tools:
 - name: hyphy_prime
   owner: iuc
   revisions:
+  - 296f6bc03fa6
   - bdcfaa985c16
   - a8f760e7c322
   - 76f42c7f9b7b
@@ -166,6 +193,7 @@ tools:
 - name: hyphy_relax
   owner: iuc
   revisions:
+  - 801547975424
   - 7cd99ec269ee
   - 169f4d983656
   - 63f85ef1a3d5
@@ -184,6 +212,7 @@ tools:
 - name: hyphy_slac
   owner: iuc
   revisions:
+  - ec499ddce7a9
   - a2e3319aca46
   - 08449da86cdf
   - ae4e61b62996
@@ -202,6 +231,7 @@ tools:
 - name: hyphy_sm19
   owner: iuc
   revisions:
+  - f1261376fd4b
   - 4636d51b049c
   - 051642420aec
   - 466217f0aa76
@@ -215,6 +245,12 @@ tools:
   - 6cf8d753e93e
   - c102811766ef
   - 23b9bd244670
+  tool_panel_section_id: hyphy
+  tool_panel_section_label: HyPhy
+- name: hyphy_strike_ambigs
+  owner: iuc
+  revisions:
+  - 7c86ceaf523c
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: sarscov2summary
