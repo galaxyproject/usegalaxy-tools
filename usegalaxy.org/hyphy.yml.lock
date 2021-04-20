@@ -74,6 +74,7 @@ tools:
   owner: iuc
   revisions:
   - 9ce3d6d4bd0e
+  - c1d24ff838c8
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_fade
