@@ -8,5 +8,9 @@ tools:
   owner: iuc
 - name: tn93
   owner: iuc
+- name: tn93_filter
+  owner: iuc
+- name: tn93_cluster
+  owner: iuc
 - name: tn93_readreduce
   owner: iuc
