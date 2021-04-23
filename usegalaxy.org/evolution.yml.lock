@@ -29,6 +29,18 @@ tools:
   - ccebde0e2d61
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
+- name: tn93_filter
+  owner: iuc
+  revisions:
+  - ba95715078c9
+  tool_panel_section_id: evolution
+  tool_panel_section_label: Evolution
+- name: tn93_cluster
+  owner: iuc
+  revisions:
+  - af03f3398f03
+  tool_panel_section_id: evolution
+  tool_panel_section_label: Evolution
 - name: tn93_readreduce
   owner: iuc
   revisions:
