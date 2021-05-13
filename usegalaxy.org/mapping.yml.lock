@@ -3,6 +3,12 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: Mapping
 tools:
+- name: bioext_bealign
+  owner: iuc
+  revisions:
+  - f9b72a376ec9
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
 - name: bowtie2
   owner: devteam
   revisions:
