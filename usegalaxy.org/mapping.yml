@@ -1,5 +1,7 @@
 tool_panel_section_label: Mapping
 tools:
+- name: bioext_bealign
+  owner: iuc
 - name: bowtie2
   owner: devteam
 - name: lastz
