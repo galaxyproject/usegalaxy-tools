@@ -1,0 +1,10 @@
+tool_panel_section_label: Assembly
+tools:
+- name: unicycler
+  owner: iuc
+- name: spades
+  owner: nml
+- name: miniasm
+  owner: iuc
+- name: racon
+  owner: bgruening
