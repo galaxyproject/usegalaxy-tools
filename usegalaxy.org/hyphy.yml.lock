@@ -47,7 +47,6 @@ tools:
   - 7fd2d1451728
   - c669c8f7c6f6
   - cd9063b57f8b
-  - 91006eb8b84e
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_busted
