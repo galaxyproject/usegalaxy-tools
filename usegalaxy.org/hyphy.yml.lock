@@ -33,6 +33,7 @@ tools:
 - name: hyphy_bgm
   owner: iuc
   revisions:
+  - d1c977aee228
   - d88bbb287923
   - ede53272264e
   - df8c64576038
