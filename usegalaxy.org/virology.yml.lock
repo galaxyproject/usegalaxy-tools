@@ -8,6 +8,7 @@ tools:
   revisions:
   - 7f781286b55f
   - 78bbd17d0703
+  - 5e668dc9f379
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_filtervariants
@@ -15,6 +16,7 @@ tools:
   revisions:
   - 2c47c138176e
   - 7fe36019c073
+  - 51afc8a64951
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_getmasked
@@ -28,6 +30,7 @@ tools:
   revisions:
   - 3d18f8c3c0f6
   - ee2beb764a7b
+  - 75c279fa403a
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_trim
@@ -35,6 +38,7 @@ tools:
   revisions:
   - 5d6ed46cc101
   - db536ad45f28
+  - cf65217ad61c
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_variants
@@ -42,6 +46,7 @@ tools:
   revisions:
   - aa9de8f20668
   - f95f403841ad
+  - 49236b03e4fd
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: snpeff_sars_cov_2
