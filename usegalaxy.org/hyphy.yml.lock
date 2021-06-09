@@ -271,6 +271,12 @@ tools:
   - 7c86ceaf523c
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
+- name: hyphy_summary
+  owner: iuc
+  revisions:
+  - f304c108aa1f
+  tool_panel_section_id: hyphy
+  tool_panel_section_label: HyPhy
 - name: sarscov2summary
   owner: iuc
   revisions:
