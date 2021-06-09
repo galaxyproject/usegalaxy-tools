@@ -26,6 +26,7 @@ tools:
 - name: hyphy_annotate
   owner: iuc
   revisions:
+  - f7810488bd92
   - a88848771d2d
   - df56795c3d89
   tool_panel_section_id: hyphy
