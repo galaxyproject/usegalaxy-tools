@@ -14,6 +14,7 @@ tools:
   - c441583adae5
   - f5ea3ce9b9b0
   - e08a7ad4378b
+  - 69ebb7f46e45
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ebi_metagenomics_run_downloader
