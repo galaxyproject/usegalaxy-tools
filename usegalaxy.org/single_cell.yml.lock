@@ -8,6 +8,7 @@ tools:
   revisions:
   - 7647e5cd1b8b
   - 6adf98e782f3
+  - 9a169729c9f9
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_inspect
@@ -15,6 +16,7 @@ tools:
   revisions:
   - 6c145a6868cc
   - 9d33775ec67d
+  - e4c99c83dfbf
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_filter
@@ -22,6 +24,7 @@ tools:
   revisions:
   - 3c86f71498bc
   - f87ed6503715
+  - 5511647110ff
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalize
@@ -29,6 +32,7 @@ tools:
   revisions:
   - a407e7f8bdc1
   - 5342ce58cd1e
+  - 51d945eab1e1
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_plot
@@ -36,6 +40,7 @@ tools:
   revisions:
   - 7647e5cd1b8b
   - 6adf98e782f3
+  - 9a169729c9f9
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_cluster_reduce_dimension
@@ -43,6 +48,7 @@ tools:
   revisions:
   - b2df381a6004
   - 35bc2eb568ed
+  - 3e4e1cf73d98
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_remove_confounders
@@ -50,6 +56,7 @@ tools:
   revisions:
   - 215733a383f2
   - 80d4e2cac903
+  - c2ef03559dc6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_export
@@ -103,29 +110,34 @@ tools:
   owner: iuc
   revisions:
   - 7e014059a88d
+  - a4b734cd253b
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_filtnormconf
   owner: iuc
   revisions:
   - 7608d5faee41
+  - 43c146e25a43
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_inspectclusters
   owner: iuc
   revisions:
   - 37a47c4fd84d
+  - 41f34e925bd5
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_inspecttrajectory
   owner: iuc
   revisions:
   - 69018f285aa3
+  - c8434a623268
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_trajectory
   owner: iuc
   revisions:
   - 44b935f2271b
+  - 72979cac22b2
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
