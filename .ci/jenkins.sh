@@ -631,6 +631,7 @@ function check_for_repo_changes() {
     # probbably don't need this unless things fail
     #log "Showing log"
     #show_logs
+    sleep 60s
     log "Checking for changes to repo"
     show_paths
     log_debug "diff of shed_tool_conf.xml"
