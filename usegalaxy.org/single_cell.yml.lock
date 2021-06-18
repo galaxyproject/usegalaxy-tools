@@ -141,3 +141,81 @@ tools:
   - 72979cac22b2
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
+- name: scanpy_filter_cells
+  owner: ebi-gxa
+  revisions:
+  - 7fd39eb52f38
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_filter_genes
+  owner: ebi-gxa
+  revisions:
+  - d82d999fa716
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_normalise_data
+  owner: ebi-gxa
+  revisions:
+  - 3a4564b9d685
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_find_variable_genes
+  owner: ebi-gxa
+  revisions:
+  - ae467daae2f7
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_scale_data
+  owner: ebi-gxa
+  revisions:
+  - 22f2957da902
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_run_pca
+  owner: ebi-gxa
+  revisions:
+  - 04bdc69f00d7
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_compute_graph
+  owner: ebi-gxa
+  revisions:
+  - 5ec3b715809c
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_run_tsne
+  owner: ebi-gxa
+  revisions:
+  - fe727a9496ea
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_run_umap
+  owner: ebi-gxa
+  revisions:
+  - e31937baa330
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_find_cluster
+  owner: ebi-gxa
+  revisions:
+  - 621d7d7a605f
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_find_markers
+  owner: ebi-gxa
+  revisions:
+  - 7042ce140caa
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_plot_embed
+  owner: ebi-gxa
+  revisions:
+  - 9fafbfcdee0d
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: anndata_ops
+  owner: ebi-gxa
+  revisions:
+  - 53a251c6d991
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
