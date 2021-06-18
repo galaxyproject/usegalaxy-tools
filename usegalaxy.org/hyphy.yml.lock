@@ -276,6 +276,7 @@ tools:
   owner: iuc
   revisions:
   - f304c108aa1f
+  - d7c01f81739b
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: sarscov2summary
