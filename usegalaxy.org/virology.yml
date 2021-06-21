@@ -14,3 +14,5 @@ tools:
   owner: iuc
 - name: snpeff_sars_cov_2
   owner: iuc
+- name: nextclade
+  owner: iuc
