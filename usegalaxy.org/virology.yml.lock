@@ -60,3 +60,9 @@ tools:
   - 2a3a00c1fa0a
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
+- name: nextclade
+  owner: iuc
+  revisions:
+  - 3b75d5285aff
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
