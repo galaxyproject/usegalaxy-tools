@@ -214,3 +214,9 @@ tools:
   - e7fd6754d093
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
+- name: bamutil_clip_overlap
+  owner: iuc
+  revisions:
+  - 047a20d4258f
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
