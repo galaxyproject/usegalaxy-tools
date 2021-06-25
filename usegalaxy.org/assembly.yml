@@ -36,3 +36,9 @@ tools:
   owner: bgruening
 - name: purge_dups
   owner: iuc
+- name: meryl
+  owner: iuc
+- name: merqury
+  owner: iuc
+- name: genomescope
+  owner: iuc

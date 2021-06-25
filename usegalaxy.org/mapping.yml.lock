@@ -30,6 +30,7 @@ tools:
   revisions:
   - 01ac0a5fedc3
   - 3fe632431b68
+  - 64f11cf59c6e
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: star_fusion
