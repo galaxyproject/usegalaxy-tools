@@ -119,11 +119,62 @@ tools:
   revisions:
   - 6505bd37670d
   - bf0a4667e3ce
+  - 9ef6920c3089
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: purge_dups
   owner: iuc
   revisions:
   - 29151e779524
+  - cf13a1e03e5b
+  - 76d4cbefff85
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: meryl
+  owner: iuc
+  revisions:
+  - 31fa26c0692b
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: merqury
+  owner: iuc
+  revisions:
+  - 9d79beb19ac3
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: genomescope
+  owner: iuc
+  revisions:
+  - b2f674562a18
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: bionano_scaffold
+  owner: bgruening
+  revisions:
+  - 96cacb31d571
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: bellerophon
+  owner: iuc
+  revisions:
+  - eca6296a091a
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: salsa
+  owner: iuc
+  revisions:
+  - ba7b0f11e470
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: pretext_map
+  owner: iuc
+  revisions:
+  - 02831bf9e95f
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: pretext_snapshot
+  owner: iuc
+  revisions:
+  - 7c9417381ad5
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
