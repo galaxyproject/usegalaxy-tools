@@ -16,3 +16,5 @@ tools:
   owner: iuc
 - name: pangolin
   owner: iuc
+- name: nextclade
+  owner: iuc
