@@ -64,6 +64,9 @@ tools:
   owner: iuc
   revisions:
   - 42126b414951
+  - 42a174224817
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
 - name: nextclade
   owner: iuc
   revisions:
