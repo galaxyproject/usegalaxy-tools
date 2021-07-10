@@ -6,6 +6,7 @@ tools:
 - name: bioext_bealign
   owner: iuc
   revisions:
+  - d8b6f0adaa79
   - f9b72a376ec9
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
