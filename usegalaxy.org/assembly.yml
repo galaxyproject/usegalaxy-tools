@@ -36,3 +36,19 @@ tools:
   owner: bgruening
 - name: purge_dups
   owner: iuc
+- name: meryl
+  owner: iuc
+- name: merqury
+  owner: iuc
+- name: genomescope
+  owner: iuc
+- name: bionano_scaffold
+  owner: bgruening
+- name: bellerophon
+  owner: iuc
+- name: salsa
+  owner: iuc
+- name: pretext_map
+  owner: iuc
+- name: pretext_snapshot
+  owner: iuc

@@ -8,6 +8,8 @@ tools:
   revisions:
   - 7f781286b55f
   - 78bbd17d0703
+  - 5e668dc9f379
+  - d1459d85ff18
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_filtervariants
@@ -15,6 +17,8 @@ tools:
   revisions:
   - 2c47c138176e
   - 7fe36019c073
+  - 51afc8a64951
+  - 4abcfbc2e5b6
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_getmasked
@@ -28,6 +32,8 @@ tools:
   revisions:
   - 3d18f8c3c0f6
   - ee2beb764a7b
+  - 75c279fa403a
+  - 43aac8d29685
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_trim
@@ -35,6 +41,8 @@ tools:
   revisions:
   - 5d6ed46cc101
   - db536ad45f28
+  - cf65217ad61c
+  - 364f4ffec275
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_variants
@@ -42,11 +50,26 @@ tools:
   revisions:
   - aa9de8f20668
   - f95f403841ad
+  - 49236b03e4fd
+  - 252dfb042563
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: snpeff_sars_cov_2
   owner: iuc
   revisions:
   - 2a3a00c1fa0a
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+- name: pangolin
+  owner: iuc
+  revisions:
+  - 42126b414951
+  - 42a174224817
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+- name: nextclade
+  owner: iuc
+  revisions:
+  - 3b75d5285aff
   tool_panel_section_id: virology
   tool_panel_section_label: Virology

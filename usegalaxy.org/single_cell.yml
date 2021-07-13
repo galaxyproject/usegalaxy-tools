@@ -36,4 +36,29 @@ tools:
   owner: iuc
 - name: raceid_trajectory
   owner: iuc
-  
+- name: scanpy_filter_cells
+  owner: ebi-gxa
+- name: scanpy_filter_genes
+  owner: ebi-gxa
+- name: scanpy_normalise_data
+  owner: ebi-gxa
+- name: scanpy_find_variable_genes
+  owner: ebi-gxa
+- name: scanpy_scale_data
+  owner: ebi-gxa
+- name: scanpy_run_pca
+  owner: ebi-gxa
+- name: scanpy_compute_graph
+  owner: ebi-gxa
+- name: scanpy_run_tsne
+  owner: ebi-gxa
+- name: scanpy_run_umap
+  owner: ebi-gxa
+- name: scanpy_find_cluster
+  owner: ebi-gxa
+- name: scanpy_find_markers
+  owner: ebi-gxa
+- name: scanpy_plot_embed
+  owner: ebi-gxa
+- name: anndata_ops
+  owner: ebi-gxa

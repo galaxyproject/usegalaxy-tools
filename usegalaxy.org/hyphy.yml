@@ -24,6 +24,8 @@ tools:
   owner: iuc
 - name: hyphy_sm19
   owner: iuc
+- name: hyphy_summary
+  owner: iuc
 - name: sarscov2summary
   owner: iuc
 - name: sarscov2formatter

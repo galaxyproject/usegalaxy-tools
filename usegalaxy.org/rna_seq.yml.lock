@@ -7,12 +7,14 @@ tools:
   owner: iuc
   revisions:
   - 0921444c832d
+  - 58c35179ebf0
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: edger
   owner: iuc
   revisions:
   - 334ce9b1bac5
+  - 3d89af8a44f0
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: hisat2
@@ -66,12 +68,14 @@ tools:
   owner: iuc
   revisions:
   - 60f888039fb2
+  - 40985510cd98
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: kallisto_pseudo
   owner: iuc
   revisions:
   - 5ae5c312d718
+  - 01247aaf0a10
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: sailfish
@@ -84,6 +88,7 @@ tools:
   owner: iuc
   revisions:
   - 8b3e3657034e
+  - ef2ad746b589
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: deseq2
@@ -230,6 +235,7 @@ tools:
   - 7a5cd7987b03
   - 764f076e9d52
   - 4c139a9415d7
+  - 828324f3292f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: slamdunk
@@ -268,6 +274,7 @@ tools:
   - d84caa5a98ad
   - db1f362cca3e
   - 26d5493b20b6
+  - 5b60313a6ce7
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_abundance_estimates_to_matrix

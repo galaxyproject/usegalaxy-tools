@@ -3,6 +3,13 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: Mapping
 tools:
+- name: bioext_bealign
+  owner: iuc
+  revisions:
+  - d8b6f0adaa79
+  - f9b72a376ec9
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
 - name: bowtie2
   owner: devteam
   revisions:
@@ -24,6 +31,7 @@ tools:
   revisions:
   - 01ac0a5fedc3
   - 3fe632431b68
+  - 64f11cf59c6e
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: star_fusion
@@ -73,6 +81,7 @@ tools:
   - b3eab4b67562
   - 77b2770508f6
   - f54f5baedfdd
+  - 1f06dccdc5d1
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: rna_starsolo
