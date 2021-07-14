@@ -28,3 +28,27 @@ tools:
   owner: devteam
 - name: mummer
   owner: peterjc
+- name: taxonomy_krona_chart
+  owner: crs4
+- name: gmaj
+  owner: devteam
+- name: karyotype_plot
+  owner: guru-ananda
+- name: bandage
+  owner: iuc
+- name: export2graphlan
+  owner: iuc
+- name: fasta_nucleotide_color_plot
+  owner: iuc
+- name: ggplot2_heatmap
+  owner: iuc
+- name: ggplot2_histogram
+  owner: iuc
+- name: ggplot2_pca
+  owner: iuc
+- name: ggplot2_point
+  owner: iuc
+- name: ggplot2_violin
+  owner: iuc
+- name: graphlan
+  owner: iuc

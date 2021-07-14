@@ -94,3 +94,75 @@ tools:
   - d9f3d4779507
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
+- name: taxonomy_krona_chart
+  owner: crs4
+  revisions:
+  - e9005d1f3cfd
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: gmaj
+  owner: devteam
+  revisions:
+  - 2cd5ee197ec7
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: karyotype_plot
+  owner: guru-ananda
+  revisions:
+  - d810aa84ee6a
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: bandage
+  owner: iuc
+  revisions:
+  - 94fe43e75ddc
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: export2graphlan
+  owner: iuc
+  revisions:
+  - b16989c1e3a7
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: fasta_nucleotide_color_plot
+  owner: iuc
+  revisions:
+  - e4b5401adcec
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_heatmap
+  owner: iuc
+  revisions:
+  - a4d83ba2a1bc
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_histogram
+  owner: iuc
+  revisions:
+  - 497d700a5229
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_pca
+  owner: iuc
+  revisions:
+  - 90928b255abb
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_point
+  owner: iuc
+  revisions:
+  - a36551483a8f
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_violin
+  owner: iuc
+  revisions:
+  - d8305f18060e
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: graphlan
+  owner: iuc
+  revisions:
+  - a490b70e46fc
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
