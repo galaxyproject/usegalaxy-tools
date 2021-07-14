@@ -8,6 +8,7 @@ tools:
   revisions:
   - 7647e5cd1b8b
   - 6adf98e782f3
+  - 9a169729c9f9
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_inspect
@@ -15,6 +16,7 @@ tools:
   revisions:
   - 6c145a6868cc
   - 9d33775ec67d
+  - e4c99c83dfbf
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_filter
@@ -22,6 +24,7 @@ tools:
   revisions:
   - 3c86f71498bc
   - f87ed6503715
+  - 5511647110ff
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalize
@@ -29,6 +32,7 @@ tools:
   revisions:
   - a407e7f8bdc1
   - 5342ce58cd1e
+  - 51d945eab1e1
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_plot
@@ -36,6 +40,7 @@ tools:
   revisions:
   - 7647e5cd1b8b
   - 6adf98e782f3
+  - 9a169729c9f9
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_cluster_reduce_dimension
@@ -43,6 +48,7 @@ tools:
   revisions:
   - b2df381a6004
   - 35bc2eb568ed
+  - 3e4e1cf73d98
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_remove_confounders
@@ -50,6 +56,7 @@ tools:
   revisions:
   - 215733a383f2
   - 80d4e2cac903
+  - c2ef03559dc6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_export
@@ -103,29 +110,112 @@ tools:
   owner: iuc
   revisions:
   - 7e014059a88d
+  - a4b734cd253b
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_filtnormconf
   owner: iuc
   revisions:
   - 7608d5faee41
+  - 43c146e25a43
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_inspectclusters
   owner: iuc
   revisions:
   - 37a47c4fd84d
+  - 41f34e925bd5
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_inspecttrajectory
   owner: iuc
   revisions:
   - 69018f285aa3
+  - c8434a623268
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_trajectory
   owner: iuc
   revisions:
   - 44b935f2271b
+  - 72979cac22b2
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_filter_cells
+  owner: ebi-gxa
+  revisions:
+  - 7fd39eb52f38
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_filter_genes
+  owner: ebi-gxa
+  revisions:
+  - d82d999fa716
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_normalise_data
+  owner: ebi-gxa
+  revisions:
+  - 3a4564b9d685
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_find_variable_genes
+  owner: ebi-gxa
+  revisions:
+  - ae467daae2f7
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_scale_data
+  owner: ebi-gxa
+  revisions:
+  - 22f2957da902
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_run_pca
+  owner: ebi-gxa
+  revisions:
+  - 04bdc69f00d7
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_compute_graph
+  owner: ebi-gxa
+  revisions:
+  - 5ec3b715809c
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_run_tsne
+  owner: ebi-gxa
+  revisions:
+  - fe727a9496ea
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_run_umap
+  owner: ebi-gxa
+  revisions:
+  - e31937baa330
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_find_cluster
+  owner: ebi-gxa
+  revisions:
+  - 621d7d7a605f
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_find_markers
+  owner: ebi-gxa
+  revisions:
+  - 7042ce140caa
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_plot_embed
+  owner: ebi-gxa
+  revisions:
+  - 9fafbfcdee0d
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: anndata_ops
+  owner: ebi-gxa
+  revisions:
+  - 53a251c6d991
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
