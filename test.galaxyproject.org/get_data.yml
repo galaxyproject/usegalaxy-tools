@@ -6,3 +6,6 @@ tools:
   owner: iuc
 - name: ncbi_acc_download
   owner: iuc
+- name: ncbi_datasets
+  owner: iuc
+  tool_shed_url: testtoolshed.g2.bx.psu.edu

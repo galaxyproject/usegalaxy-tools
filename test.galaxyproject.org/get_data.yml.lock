@@ -21,3 +21,10 @@ tools:
   - 1c58de56d587
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
+- name: ncbi_datasets
+  owner: iuc
+  revisions:
+  - 48e0814f250a
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
