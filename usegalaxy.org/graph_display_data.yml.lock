@@ -3,10 +3,44 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: Graph/Display Data
 tools:
-- name: ggplot2_heatmap2
+- name: ml_visualization_ex
+  owner: bgruening
+  revisions:
+  - 05143043ca13
+  - 222c02df5d55
+  - 4a229a7ad638
+  - c7655b5a94af
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: plotly_parallel_coordinates_plot
+  owner: bgruening
+  revisions:
+  - 9958188c6195
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: plotly_ml_performance_plots
+  owner: bgruening
+  revisions:
+  - 62e3a4e8c54c
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: plotly_regression_performance_plots
+  owner: bgruening
+  revisions:
+  - 389227fa1864
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: jbrowse
   owner: iuc
   revisions:
-  - ca7cb0eaad62
+  - 17359b808b01
+  - 1cfc579079a6
+  - 4542035c1075
+  - 667e17248bfe
+  - 6cd09d7b5f37
+  - a6e57ff585c0
+  - edb534491f92
+  - fd5dbf0f732e
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: xy_plot
@@ -15,14 +49,26 @@ tools:
   - ecb437f1d298
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
+- name: hicexplorer_hicplottads
+  owner: bgruening
+  revisions:
+  - 50171f863420
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_heatmap2
+  owner: iuc
+  revisions:
+  - ca7cb0eaad62
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
 - name: circos
   owner: iuc
   revisions:
   - 4b519282a05b
   - a64dc31ab7f2
+  - df7356989ac1
   - e6cbe3190642
   - fd59d783248a
-  - df7356989ac1
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: venn_list
@@ -46,8 +92,20 @@ tools:
 - name: histogram
   owner: devteam
   revisions:
-  - cdb9e89e2970
   - 6f134426c2b0
+  - cdb9e89e2970
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: mummer
+  owner: peterjc
+  revisions:
+  - d9f3d4779507
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: taxonomy_krona_chart
+  owner: crs4
+  revisions:
+  - e9005d1f3cfd
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: gmaj
@@ -56,36 +114,16 @@ tools:
   - 2cd5ee197ec7
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
-- name: plotly_regression_performance_plots
-  owner: bgruening
+- name: karyotype_plot
+  owner: guru-ananda
   revisions:
-  - 389227fa1864
+  - d810aa84ee6a
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
-- name: plotly_ml_performance_plots
-  owner: bgruening
-  revisions:
-  - 62e3a4e8c54c
-  tool_panel_section_id: graph_display_data
-  tool_panel_section_label: Graph/Display Data
-- name: plotly_parallel_coordinates_plot
-  owner: bgruening
-  revisions:
-  - 9958188c6195
-  tool_panel_section_id: graph_display_data
-  tool_panel_section_label: Graph/Display Data
-- name: ml_visualization_ex
-  owner: bgruening
-  revisions:
-  - 222c02df5d55
-  - c7655b5a94af
-  - 05143043ca13
-  tool_panel_section_id: graph_display_data
-  tool_panel_section_label: Graph/Display Data
-- name: charts
+- name: bandage
   owner: iuc
   revisions:
-  - a87a3773d8ed
+  - 94fe43e75ddc
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: export2graphlan
@@ -94,11 +132,31 @@ tools:
   - b16989c1e3a7
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
-- name: ggplot2_violin
+- name: fasta_nucleotide_color_plot
   owner: iuc
   revisions:
-  - 637cf21db396
-  - d8305f18060e
+  - e4b5401adcec
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_heatmap
+  owner: iuc
+  revisions:
+  - a4d83ba2a1bc
+  - de002ba2b849
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_histogram
+  owner: iuc
+  revisions:
+  - 497d700a5229
+  - 536078949ae4
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: ggplot2_pca
+  owner: iuc
+  revisions:
+  - 1b9406a1a769
+  - 90928b255abb
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_point
@@ -109,43 +167,36 @@ tools:
   - a36551483a8f
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
-- name: ggplot2_histogram
+- name: ggplot2_violin
   owner: iuc
   revisions:
-  - 536078949ae4
-  - 497d700a5229
+  - 637cf21db396
+  - d8305f18060e
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
-- name: ggplot2_heatmap
+- name: graphlan
   owner: iuc
   revisions:
-  - de002ba2b849
-  - a4d83ba2a1bc
+  - a490b70e46fc
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
-- name: ggplot2_pca
+- name: graphlan_annotate
   owner: iuc
   revisions:
-  - 1b9406a1a769
-  - 90928b255abb
+  - cf1df6b2220a
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: intervene
   owner: iuc
   revisions:
+  - 08780101bc36
   - f5fa293605ca
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
-- name: jbrowse
+- name: jvarkit_wgscoverageplotter
   owner: iuc
   revisions:
-  - 17359b808b01
-  - 1cfc579079a6
-  - 667e17248bfe
-  - edb534491f92
-  - fd5dbf0f732e
-  - 6cd09d7b5f37
-  - 4542035c1075
+  - ac048a34cac3
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: newick_utils
@@ -162,14 +213,26 @@ tools:
   - bd99e8fbde97
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
+- name: pe_histogram
+  owner: iuc
+  revisions:
+  - bd1416eea1f0
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
+- name: pretext_snapshot
+  owner: iuc
+  revisions:
+  - 7c9417381ad5
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
 - name: pygenometracks
   owner: iuc
   revisions:
+  - 2824d77cd8f8
   - 326a3db8d9d1
   - 4ac4e7083b7e
   - 5cec5fb749f0
   - eca03db4f612
-  - 2824d77cd8f8
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: tsne
@@ -182,11 +245,12 @@ tools:
   owner: iuc
   revisions:
   - 73b8cb5bddcd
+  - 83c573f2e73c
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
-- name: jvarkit_wgscoverageplotter
-  owner: iuc
+- name: krona_text
+  owner: saskia-hiltemann
   revisions:
-  - ac048a34cac3
+  - b14f1444e464
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
