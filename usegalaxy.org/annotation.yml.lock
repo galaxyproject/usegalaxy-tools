@@ -22,12 +22,14 @@ tools:
   owner: bgruening
   revisions:
   - ca6d970d931c
+  - 09855551d713
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: augustus_training
   owner: bgruening
   revisions:
   - 6519ebe25019
+  - 7be22100e5e1
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: bp_genbank2gff3
@@ -137,6 +139,7 @@ tools:
   - ade773848c3d
   - d7540a923c7b
   - 438f65cb1d14
+  - 72aade318318
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: maker_map_ids
@@ -173,6 +176,7 @@ tools:
   - ade773848c3d
   - d7540a923c7b
   - 438f65cb1d14
+  - 72aade318318
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: roary
