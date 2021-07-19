@@ -3,16 +3,28 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: Statistics
 tools:
-- name: plot_from_lda
+- name: count_gff_features
   owner: devteam
   revisions:
-  - 08affc5d2aef
+  - 188392a0d0a8
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: t_test_two_samples
+  owner: devteam
+  revisions:
+  - c2ffc9885b5a
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: mine
   owner: devteam
   revisions:
   - 5e2c89443c44
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: plot_from_lda
+  owner: devteam
+  revisions:
+  - 08affc5d2aef
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: lda_analysis
@@ -27,46 +39,10 @@ tools:
   - 04cdbd00dcec
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-- name: count_gff_features
-  owner: devteam
-  revisions:
-  - 188392a0d0a8
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
 - name: correlation
   owner: devteam
   revisions:
   - 24e01abf9e34
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: t_test_two_samples
-  owner: devteam
-  revisions:
-  - c2ffc9885b5a
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: best_regression_subsets
-  owner: devteam
-  revisions:
-  - 4f33ec73e445
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: rcve
-  owner: devteam
-  revisions:
-  - 7740956d197b
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: partialr_square
-  owner: devteam
-  revisions:
-  - 88ef41de020d
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: logistic_regression_vif
-  owner: devteam
-  revisions:
-  - bd196d7c1ca9
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: linear_regression
@@ -75,22 +51,28 @@ tools:
   - cf431604ec3e
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-- name: principal_component_analysis
+- name: logistic_regression_vif
   owner: devteam
   revisions:
-  - f568051cdf2e
+  - bd196d7c1ca9
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-- name: kernel_principal_component_analysis
+- name: partialr_square
   owner: devteam
   revisions:
-  - 3d58aa83e4a3
+  - 88ef41de020d
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-- name: kernel_canonical_correlation_analysis
+- name: rcve
   owner: devteam
   revisions:
-  - 5ce5a2adb875
+  - 7740956d197b
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: best_regression_subsets
+  owner: devteam
+  revisions:
+  - 4f33ec73e445
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: canonical_correlation_analysis
@@ -99,87 +81,27 @@ tools:
   - 9bc0c48a027f
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-- name: dwt_var_perfeature
+- name: kernel_canonical_correlation_analysis
   owner: devteam
   revisions:
-  - 6c29c7e347e8
+  - 5ce5a2adb875
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-- name: biosigner
-  owner: ethevenot
+- name: kernel_principal_component_analysis
+  owner: devteam
   revisions:
-  - fa80bd02055f
+  - 3d58aa83e4a3
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-- name: heatmap
-  owner: ethevenot
+- name: principal_component_analysis
+  owner: devteam
   revisions:
-  - b1667c118127
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: multivariate
-  owner: ethevenot
-  revisions:
-  - 5526f8258e8a
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: transformation
-  owner: ethevenot
-  revisions:
-  - cc0e9eff0de2
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: univariate
-  owner: ethevenot
-  revisions:
-  - 5687435b182c
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: landmark_registration
-  owner: imgteam
-  revisions:
-  - b0503eec7bd6
+  - f568051cdf2e
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: graphembed
   owner: iuc
   revisions:
   - f28678233baf
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: iwtomics_loadandplot
-  owner: iuc
-  revisions:
-  - ce633cc8f5f9
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: iwtomics_plotwithscale
-  owner: iuc
-  revisions:
-  - 1bc9150ed125
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: iwtomics_testandplot
-  owner: iuc
-  revisions:
-  - 94965e369be4
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: rgcca
-  owner: iuc
-  revisions:
-  - 067d45e6caa9
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: anova
-  owner: lecorguille
-  revisions:
-  - 102049093b7d
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: seq_composition
-  owner: peterjc
-  revisions:
-  - 13be788233da
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
