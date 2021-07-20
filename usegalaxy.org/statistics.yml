@@ -1,36 +1,50 @@
 tool_panel_section_label: Statistics
 tools:
-- name: count_gff_features
-  owner: devteam
-- name: t_test_two_samples
+- name: plot_from_lda
   owner: devteam
 - name: mine
-  owner: devteam
-- name: plot_from_lda
   owner: devteam
 - name: lda_analysis
   owner: devteam
 - name: generate_pc_lda_matrix
   owner: devteam
+- name: count_gff_features
+  owner: devteam
 - name: correlation
   owner: devteam
-- name: linear_regression
-  owner: devteam
-- name: logistic_regression_vif
-  owner: devteam
-- name: partialr_square
-  owner: devteam
-- name: rcve
+- name: t_test_two_samples
   owner: devteam
 - name: best_regression_subsets
   owner: devteam
-- name: canonical_correlation_analysis
+- name: rcve
   owner: devteam
-- name: kernel_canonical_correlation_analysis
+- name: partialr_square
   owner: devteam
-- name: kernel_principal_component_analysis
+- name: logistic_regression_vif
+  owner: devteam
+- name: linear_regression
   owner: devteam
 - name: principal_component_analysis
   owner: devteam
+- name: kernel_principal_component_analysis
+  owner: devteam
+- name: kernel_canonical_correlation_analysis
+  owner: devteam
+- name: canonical_correlation_analysis
+  owner: devteam
+- name: dwt_var_perfeature
+  owner: devteam
+- name: biosigner
+  owner: ethevenot
+- name: heatmap
+  owner: ethevenot
+- name: multivariate
+  owner: ethevenot
+- name: transformation
+  owner: ethevenot
+- name: univariate
+  owner: ethevenot
+- name: landmark_registration
+  owner: imgteam
 - name: graphembed
   owner: iuc
