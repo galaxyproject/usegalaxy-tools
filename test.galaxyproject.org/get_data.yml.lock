@@ -13,6 +13,7 @@ tools:
   owner: iuc
   revisions:
   - f5ea3ce9b9b0
+  - 69ebb7f46e45
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_acc_download
@@ -25,6 +26,7 @@ tools:
   owner: iuc
   revisions:
   - 48e0814f250a
+  - 2753a5786114
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
   tool_shed_url: testtoolshed.g2.bx.psu.edu
