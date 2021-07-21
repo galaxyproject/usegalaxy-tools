@@ -99,6 +99,30 @@ tools:
   - 9bc0c48a027f
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
+- name: dwt_var_perfeature
+  owner: devteam
+  revisions:
+  - 6c29c7e347e8
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: biosigner
+  owner: ethevenot
+  revisions:
+  - fa80bd02055f
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: heatmap
+  owner: ethevenot
+  revisions:
+  - b1667c118127
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: multivariate
+  owner: ethevenot
+  revisions:
+  - 5526f8258e8a
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
 - name: graphembed
   owner: iuc
   revisions:
