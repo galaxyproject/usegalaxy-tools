@@ -40,10 +40,6 @@ tools:
   owner: ethevenot
 - name: multivariate
   owner: ethevenot
-- name: univariate
-  owner: ethevenot
-- name: landmark_registration
-  owner: imgteam
 - name: graphembed
   owner: iuc
 - name: iwtomics_loadandplot
