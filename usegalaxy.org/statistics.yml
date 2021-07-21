@@ -32,5 +32,19 @@ tools:
   owner: devteam
 - name: canonical_correlation_analysis
   owner: devteam
+- name: dwt_var_perfeature
+  owner: devteam
+- name: biosigner
+  owner: ethevenot
+- name: heatmap
+  owner: ethevenot
+- name: multivariate
+  owner: ethevenot
+- name: transformation
+  owner: ethevenot
+- name: univariate
+  owner: ethevenot
+- name: landmark_registration
+  owner: imgteam
 - name: graphembed
   owner: iuc
