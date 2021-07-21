@@ -3,28 +3,16 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: Statistics
 tools:
-- name: count_gff_features
+- name: plot_from_lda
   owner: devteam
   revisions:
-  - 188392a0d0a8
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: t_test_two_samples
-  owner: devteam
-  revisions:
-  - c2ffc9885b5a
+  - 08affc5d2aef
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: mine
   owner: devteam
   revisions:
   - 5e2c89443c44
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: plot_from_lda
-  owner: devteam
-  revisions:
-  - 08affc5d2aef
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: lda_analysis
@@ -39,34 +27,22 @@ tools:
   - 04cdbd00dcec
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
+- name: count_gff_features
+  owner: devteam
+  revisions:
+  - 188392a0d0a8
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
 - name: correlation
   owner: devteam
   revisions:
   - 24e01abf9e34
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-- name: linear_regression
+- name: t_test_two_samples
   owner: devteam
   revisions:
-  - cf431604ec3e
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: logistic_regression_vif
-  owner: devteam
-  revisions:
-  - bd196d7c1ca9
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: partialr_square
-  owner: devteam
-  revisions:
-  - 88ef41de020d
-  tool_panel_section_id: statistics
-  tool_panel_section_label: Statistics
-- name: rcve
-  owner: devteam
-  revisions:
-  - 7740956d197b
+  - c2ffc9885b5a
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: best_regression_subsets
@@ -75,16 +51,34 @@ tools:
   - 4f33ec73e445
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-- name: canonical_correlation_analysis
+- name: rcve
   owner: devteam
   revisions:
-  - 9bc0c48a027f
+  - 7740956d197b
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-- name: kernel_canonical_correlation_analysis
+- name: partialr_square
   owner: devteam
   revisions:
-  - 5ce5a2adb875
+  - 88ef41de020d
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: logistic_regression_vif
+  owner: devteam
+  revisions:
+  - bd196d7c1ca9
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: linear_regression
+  owner: devteam
+  revisions:
+  - cf431604ec3e
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: principal_component_analysis
+  owner: devteam
+  revisions:
+  - f568051cdf2e
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: kernel_principal_component_analysis
@@ -93,10 +87,16 @@ tools:
   - 3d58aa83e4a3
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
-- name: principal_component_analysis
+- name: kernel_canonical_correlation_analysis
   owner: devteam
   revisions:
-  - f568051cdf2e
+  - 5ce5a2adb875
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: canonical_correlation_analysis
+  owner: devteam
+  revisions:
+  - 9bc0c48a027f
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: graphembed
