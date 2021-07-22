@@ -40,10 +40,6 @@ tools:
   owner: ethevenot
 - name: multivariate
   owner: ethevenot
-- name: transformation
-  owner: ethevenot
-- name: univariate
-  owner: ethevenot
 - name: landmark_registration
   owner: imgteam
 - name: graphembed
@@ -56,3 +52,7 @@ tools:
   owner: iuc
 - name: rgcca
   owner: iuc
+- name: anova
+  owner: lecorguille
+- name: seq_composition
+  owner: peterjc
