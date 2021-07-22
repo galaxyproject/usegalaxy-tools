@@ -123,6 +123,24 @@ tools:
   - 5526f8258e8a
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
+- name: transformation
+  owner: ethevenot
+  revisions:
+  - cc0e9eff0de2
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: univariate
+  owner: ethevenot
+  revisions:
+  - 5687435b182c
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: landmark_registration
+  owner: imgteam
+  revisions:
+  - b0503eec7bd6
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
 - name: graphembed
   owner: iuc
   revisions:
