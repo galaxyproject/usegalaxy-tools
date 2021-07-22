@@ -40,6 +40,8 @@ tools:
   owner: ethevenot
 - name: multivariate
   owner: ethevenot
+- name: landmark_registration
+  owner: imgteam
 - name: graphembed
   owner: iuc
 - name: iwtomics_loadandplot
@@ -50,3 +52,7 @@ tools:
   owner: iuc
 - name: rgcca
   owner: iuc
+- name: anova
+  owner: lecorguille
+- name: seq_composition
+  owner: peterjc

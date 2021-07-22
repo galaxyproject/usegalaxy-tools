@@ -123,6 +123,12 @@ tools:
   - 5526f8258e8a
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
+- name: landmark_registration
+  owner: imgteam
+  revisions:
+  - b0503eec7bd6
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
 - name: graphembed
   owner: iuc
   revisions:
@@ -151,5 +157,17 @@ tools:
   owner: iuc
   revisions:
   - 4e73ea176c34
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: anova
+  owner: lecorguille
+  revisions:
+  - 102049093b7d
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: seq_composition
+  owner: peterjc
+  revisions:
+  - 13be788233da
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
