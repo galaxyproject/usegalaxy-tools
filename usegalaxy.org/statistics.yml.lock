@@ -129,3 +129,9 @@ tools:
   - f28678233baf
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
+- name: iwtomics_loadandplot
+  owner: iuc
+  revisions:
+  - ce633cc8f5f9
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
