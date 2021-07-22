@@ -53,6 +53,7 @@ TOOL_YAMLS=()
 REPO_USER=
 REPO_STRATUM0=
 CONDA_PATH=
+CONDA_EXEC=
 INSTALL_DATABASE=
 SHED_TOOL_CONFIG=
 SHED_TOOL_DATA_TABLE_CONFIG=
@@ -66,6 +67,9 @@ OVERLAYFS_UPPER=
 OVERLAYFS_LOWER=
 OVERLAYFS_WORK=
 OVERLAYFS_MOUNT=
+
+CONDA_ENV_OPTION=
+CONDA_EXEC_OPTION=
 
 SSH_MASTER_UP=false
 CVMFS_TRANSACTION_UP=false
@@ -214,6 +218,7 @@ function set_repo_vars() {
     REPO_USER="${REPO_USERS[$REPO]}"
     REPO_STRATUM0="${REPO_STRATUM0S[$REPO]}"
     CONDA_PATH="${CONDA_PATHS[$REPO]}"
+    CONDA_EXEC="${CONDA_EXECS[$REPO]}"
     INSTALL_DATABASE="${INSTALL_DATABASES[$REPO]}"
     SHED_TOOL_CONFIG="${SHED_TOOL_CONFIGS[$REPO]}"
     SHED_TOOL_DIR="${SHED_TOOL_DIRS[$REPO]}"
@@ -237,6 +242,11 @@ function set_repo_vars() {
     else
         CONDA_ENV_OPTION="GALAXY_CONFIG_OVERRIDE_CONDA_AUTO_INIT=false"
         CONDARC_MOUNT_PATH="/.condarc"
+    fi
+    if [ -n "$CONDA_EXEC" ]; then
+        CONDA_EXEC_OPTION="-e GALAXY_CONFIG_CONDA_EXEC=${CONDA_EXEC}"
+    else
+        CONDA_EXEC_OPTION=
     fi
 }
 
@@ -453,6 +463,7 @@ function run_mounted_galaxy() {
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
         -e "${CONDA_ENV_OPTION}" \
+        ${CONDA_EXEC_OPTION} \
         -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
         -v "${WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
         -v "${WORKDIR}/condarc:${CONDARC_MOUNT_PATH}" \
@@ -484,6 +495,7 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
         -e "${CONDA_ENV_OPTION}" \
+        ${CONDA_EXEC_OPTION} \
         -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
         -v "${WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
         -v "${WORKDIR}/condarc:${CONDARC_MOUNT_PATH}" \
@@ -515,6 +527,7 @@ function run_bgruening_galaxy() {
         -e "GALAXY_CONFIG_SHED_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIG}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
         -e "${CONDA_ENV_OPTION}" \
+        ${CONDA_EXEC_OPTION} \
         -e "GALAXY_HANDLER_NUMPROCS=0" \
         -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
         -v "${WORKDIR}/condarc:${CONDARC_MOUNT_PATH}" \
