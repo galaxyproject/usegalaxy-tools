@@ -50,3 +50,17 @@ tools:
   owner: bgruening
 - name: sklearn_fitted_model_eval
   owner: bgruening
+- name: sklearn_to_categorical
+  owner: bgruening
+- name: ml_visualization_ex
+  owner: bgruening
+- name: sklearn_lightgbm
+  owner: bgruening
+- name: sklearn_pca
+  owner: bgruening
+- name: keras_train_and_eval
+  owner: bgruening
+- name: scipy_sparse
+  owner: bgruening
+- name: create_tool_recommendation_model
+  owner: bgruening
