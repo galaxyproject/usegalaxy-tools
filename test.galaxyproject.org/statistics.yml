@@ -60,3 +60,9 @@ tools:
   owner: lecorguille
 - name: seq_composition
   owner: peterjc
+- name: scipy_sparse
+  owner: bgruening
+- name: create_tool_recommendation_model
+  owner: bgruening
+- name: pandas_rolling_window
+  owner: bgruening
