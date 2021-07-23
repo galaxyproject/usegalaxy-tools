@@ -183,3 +183,21 @@ tools:
   - 13be788233da
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
+- name: scipy_sparse
+  owner: bgruening
+  revisions:
+  - 92e09b827300
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: create_tool_recommendation_model
+  owner: bgruening
+  revisions:
+  - afec8c595124
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: pandas_rolling_window
+  owner: bgruening
+  revisions:
+  - a06f7b5c4dc7
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
