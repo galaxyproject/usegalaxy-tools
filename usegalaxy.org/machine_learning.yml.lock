@@ -250,3 +250,45 @@ tools:
   - eaddff553324
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
+- name: sklearn_to_categorical
+  owner: bgruening
+  revisions:
+  - f93f0cdbaf18
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: ml_visualization_ex
+  owner: bgruening
+  revisions:
+  - 4a229a7ad638
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_lightgbm
+  owner: bgruening
+  revisions:
+  - c48ffc96fe79
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_pca
+  owner: bgruening
+  revisions:
+  - 24c1cc2dd4a4
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: keras_train_and_eval
+  owner: bgruening
+  revisions:
+  - ead8f1822587
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: scipy_sparse
+  owner: bgruening
+  revisions:
+  - 92e09b827300
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: create_tool_recommendation_model
+  owner: bgruening
+  revisions:
+  - afec8c595124
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
