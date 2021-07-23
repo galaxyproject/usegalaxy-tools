@@ -8,6 +8,7 @@ tools:
   revisions:
   - 09efff9a5765
   - 14bd6d59650d
+  - 4a229a7ad638
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: plotly_parallel_coordinates_plot
@@ -176,6 +177,7 @@ tools:
   owner: iuc
   revisions:
   - f5fa293605ca
+  - 08780101bc36
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: jvarkit_wgscoverageplotter
@@ -206,6 +208,7 @@ tools:
   owner: iuc
   revisions:
   - 02b21260faf4
+  - 7c9417381ad5
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: pygenometracks
@@ -224,6 +227,7 @@ tools:
   owner: iuc
   revisions:
   - 73b8cb5bddcd
+  - 83c573f2e73c
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: krona_text
