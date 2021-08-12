@@ -12,3 +12,9 @@ tools:
   owner: iuc
 - name: spades
   owner: nml
+- name: meryl
+  owner: iuc
+- name: hifiasm
+  owner: bgruening
+- name: bionano_scaffold
+  owner: bgruening
