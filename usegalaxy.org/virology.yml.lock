@@ -30,6 +30,7 @@ tools:
 - name: ivar_removereads
   owner: iuc
   revisions:
+  - 28a6f1908fcc
   - 3d18f8c3c0f6
   - ee2beb764a7b
   - 75c279fa403a
@@ -39,6 +40,7 @@ tools:
 - name: ivar_trim
   owner: iuc
   revisions:
+  - 397e5f0eb3ef
   - 5d6ed46cc101
   - db536ad45f28
   - cf65217ad61c
