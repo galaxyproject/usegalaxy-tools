@@ -6,6 +6,7 @@ tools:
 - name: data_manager_selection_background
   owner: iuc
   revisions:
+  - 0bd1cd5eac51
   - bb5794942b5e
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
