@@ -25,5 +25,6 @@ tools:
   owner: iuc
   revisions:
   - 1e62c28ba91d
+  - 0d243f458b53
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
