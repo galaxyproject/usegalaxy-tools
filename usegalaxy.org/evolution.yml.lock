@@ -22,12 +22,14 @@ tools:
   - c1d53e95327f
   - 524d31add34a
   - 973a28be3b7f
+  - f58a10e2e46d
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: tn93
   owner: iuc
   revisions:
   - ccebde0e2d61
+  - 9d793e88e15f
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: tn93_filter
@@ -46,5 +48,6 @@ tools:
   owner: iuc
   revisions:
   - bdaadfd0c843
+  - 84849140a3bc
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution

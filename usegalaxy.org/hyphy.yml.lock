@@ -21,6 +21,7 @@ tools:
   - ad0af446d496
   - c78f3d7dd1db
   - cce7b18495e4
+  - '113854308427'
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_annotate
@@ -29,6 +30,7 @@ tools:
   - f7810488bd92
   - a88848771d2d
   - df56795c3d89
+  - 68cd2d8e3840
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_bgm
@@ -49,6 +51,7 @@ tools:
   - c669c8f7c6f6
   - cd9063b57f8b
   - 91006eb8b84e
+  - 194108d6da22
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_busted
@@ -68,6 +71,7 @@ tools:
   - 7bed09107277
   - cde38657e82c
   - 98ee8ba908d6
+  - cfbb255acb43
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_cfel
@@ -75,6 +79,7 @@ tools:
   revisions:
   - fb833dd994f2
   - 3d4ea0544af1
+  - 643be54bef90
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_conv
@@ -83,6 +88,7 @@ tools:
   - f6e7b5955712
   - 9ce3d6d4bd0e
   - c1d24ff838c8
+  - 6569d04885e5
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_fade
@@ -103,6 +109,7 @@ tools:
   - c630f400742f
   - e7be036f1616
   - a4398cfa8792
+  - fccaa7ba05fd
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_fel
@@ -123,6 +130,7 @@ tools:
   - bab5041d177e
   - 9862c57d02a6
   - af7490b6329b
+  - 09afc9104fc8
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_fubar
@@ -143,6 +151,7 @@ tools:
   - 9d2714133deb
   - ff1e9dd7ad13
   - 47145f568cd6
+  - b2096be81d82
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_gard
@@ -163,6 +172,7 @@ tools:
   - aa8cc71438cf
   - e75442c7f4da
   - 88c4aa435ded
+  - 053b20029378
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_meme
@@ -183,6 +193,7 @@ tools:
   - c5e1017b9232
   - d3b4e05f969b
   - 546f2f99b820
+  - d0f087aae1a3
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_prime
@@ -203,6 +214,7 @@ tools:
   - 8f66e659530b
   - e06961ac014b
   - acd9dfe3dec0
+  - b3b775a4ae1f
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_relax
@@ -223,6 +235,7 @@ tools:
   - 627443c1e5ba
   - 9158a34fc9c5
   - 6a6300b42803
+  - ed0f10a1db94
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_slac
@@ -243,6 +256,7 @@ tools:
   - aafe4a864d84
   - b82429e9c6a9
   - d6f4ff2aed07
+  - 82c77ba28d70
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_sm19
@@ -263,6 +277,7 @@ tools:
   - 6cf8d753e93e
   - c102811766ef
   - 23b9bd244670
+  - 86e10267b4cc
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_strike_ambigs
@@ -270,12 +285,14 @@ tools:
   revisions:
   - 4bf743518e41
   - 7c86ceaf523c
+  - 50554f806e16
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_summary
   owner: iuc
   revisions:
   - f304c108aa1f
+  - bd90215b7d15
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: sarscov2summary

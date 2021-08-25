@@ -39,6 +39,7 @@ tools:
   owner: iuc
   revisions:
   - 1c58de56d587
+  - 28587613264f
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: unipept

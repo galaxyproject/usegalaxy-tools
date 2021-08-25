@@ -8,6 +8,7 @@ tools:
   revisions:
   - 0921444c832d
   - 58c35179ebf0
+  - 708348a17fa1
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: edger
@@ -15,6 +16,7 @@ tools:
   revisions:
   - 334ce9b1bac5
   - 3d89af8a44f0
+  - 6e53e565fc6a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: hisat2
@@ -23,6 +25,7 @@ tools:
   - 0c16cad5e03b
   - fbf98f24097b
   - 26371a1df031
+  - 6c19daec423d
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: featurecounts
@@ -32,6 +35,7 @@ tools:
   - a37612abf7f9
   - f3a5f075498f
   - ea04b737afa0
+  - ce44c6f2ba38
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: dexseq
@@ -69,6 +73,7 @@ tools:
   revisions:
   - 60f888039fb2
   - 40985510cd98
+  - c971db6f0fe5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: kallisto_pseudo
@@ -76,6 +81,7 @@ tools:
   revisions:
   - 5ae5c312d718
   - 01247aaf0a10
+  - 87c11c05d238
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: sailfish
@@ -97,6 +103,7 @@ tools:
   - 0696db066a5b
   - 71bacea10eee
   - 6a3a025714d3
+  - d027d1f4984e
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: rgrnastar
@@ -108,6 +115,7 @@ tools:
   - d5659efd66aa
   - 7ed2edc1337f
   - c772497b2c32
+  - 44959aa06aeb
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: cummerbund
@@ -165,6 +173,7 @@ tools:
   owner: iuc
   revisions:
   - 31ea4992b948
+  - fba1660fb717
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: feelnc
@@ -217,6 +226,7 @@ tools:
   revisions:
   - c24765926774
   - fed9d0350d72
+  - d1f7fa5bb3cb
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: scpipe
@@ -242,6 +252,7 @@ tools:
   owner: iuc
   revisions:
   - 8b62f89924a7
+  - 141f65f7c7c8
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: transdecoder

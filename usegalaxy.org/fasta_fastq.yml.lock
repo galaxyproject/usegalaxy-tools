@@ -251,12 +251,14 @@ tools:
   owner: iuc
   revisions:
   - 9c620a950d3a
+  - 56022eb50bbd
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: filtlong
   owner: iuc
   revisions:
   - 8880fb74ef56
+  - a72af9de6bf5
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: pear
@@ -313,5 +315,6 @@ tools:
   owner: iuc
   revisions:
   - 6a675c3aa610
+  - 9fa7803d1c51
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ

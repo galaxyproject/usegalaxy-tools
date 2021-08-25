@@ -68,6 +68,7 @@ tools:
   owner: iuc
   revisions:
   - 02befcb391f5
+  - 654b3a274ed5
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastqe
@@ -75,5 +76,6 @@ tools:
   revisions:
   - a252d8415583
   - 819b8c1657d5
+  - ecb38e2798cd
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control

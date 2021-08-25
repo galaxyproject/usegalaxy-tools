@@ -94,6 +94,7 @@ tools:
   revisions:
   - 0de92f0b96ef
   - 584008e574b2
+  - bd46669113b9
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken_translate
@@ -159,6 +160,7 @@ tools:
   - 52a911972c02
   - fa11922f3d91
   - f947b4bb5107
+  - d60df8727f59
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_plotcomplexity
@@ -168,6 +170,7 @@ tools:
   - 498d57610fcd
   - 806fe614ca46
   - ac72310b038a
+  - 8daf4564ccda
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_assigntaxonomyaddspecies
@@ -177,6 +180,7 @@ tools:
   - 4d89978c6188
   - 79212a309499
   - 5b5a7af9fbb4
+  - 63f86089423e
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_removebimeradenovo
@@ -186,6 +190,7 @@ tools:
   - 7f8f0e9fcb37
   - b6dddf8c2e6f
   - 04144473e59e
+  - 7f3b59dee073
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_filterandtrim
@@ -195,6 +200,7 @@ tools:
   - 777f9846c56d
   - ca73bbac615a
   - f732237754fc
+  - a9f4a217dcd6
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_dada
@@ -204,6 +210,7 @@ tools:
   - 6b4ddc3b64bd
   - f79565b12646
   - 18a502a9d287
+  - 1c35dadbe76f
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_learnerrors
@@ -213,6 +220,7 @@ tools:
   - afdfa35a89d9
   - c48d42d65d2b
   - 8c202e741d68
+  - 04c15826a0b8
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_makesequencetable
@@ -222,6 +230,7 @@ tools:
   - 9ccec6ed8e82
   - bfd62e881837
   - 1c9b3bcd4261
+  - e96bbb9e24ea
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_mergepairs
@@ -231,6 +240,7 @@ tools:
   - 69900ffd3b8e
   - b1e55c248f17
   - 306a40d4bb8f
+  - 1d75bd0595e2
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_seqcounts
@@ -240,60 +250,70 @@ tools:
   - 7d28da5e9e27
   - f74c56549143
   - d943081510da
+  - 0a1224c4b781
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: bio_hansel
   owner: iuc
   revisions:
   - e3698ac146d7
+  - 4deefd708943
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_partition
   owner: iuc
   revisions:
   - e562293ee5ec
+  - b7429b53be2a
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_extract_partitions
   owner: iuc
   revisions:
   - 2c763fb18010
+  - 98b53d46e851
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_count_median
   owner: iuc
   revisions:
   - 77410799e8e9
+  - 06d1d91c67e5
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_filter_below_abundance_cutoff
   owner: iuc
   revisions:
   - 569001af897d
+  - b469ab47b490
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_normalize_by_median
   owner: iuc
   revisions:
   - 557cc16931f4
+  - e84073b420a8
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_abundance_distribution_single
   owner: iuc
   revisions:
   - 55109291a355
+  - c018a72b523e
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_filter_abundance
   owner: iuc
   revisions:
   - 8c6433857aa8
+  - 97f65399e30d
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_abundance_distribution
   owner: iuc
   revisions:
   - e0de12ae3fc2
+  - c0caca5af183
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: maxbin2
