@@ -23,9 +23,11 @@ fix-no-deps:
 	#@-shed-tools install --toolsfile $< --galaxy $(GALAXY_SERVER) --api_key $(GALAXY_API_KEY)
 
 
-update-trusted: ## Run the update script
+update-trusted: ## Run the update script for a subset of repos
 	@# Missing --without, so this updates all tools in the file.
 	find ./$(TOOLSET) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update-tool.py --owner $(OWNER)
 
+update-all: ## Run the update script for all repos
+	find ./$(TOOLSET) -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update-tool.py
 
-.PHONY: lint update-trusted help fix
+.PHONY: lint update-trusted update-all help fix
