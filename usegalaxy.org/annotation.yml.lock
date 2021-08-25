@@ -16,6 +16,7 @@ tools:
   revisions:
   - 4efdca267d51
   - b734db305578
+  - c2ef298da409
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: augustus
@@ -52,6 +53,7 @@ tools:
   - 4048d82f0c88
   - 602fb8e63aa7
   - cf13a1e03e5b
+  - 0d243f458b53
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: exonerate
@@ -147,6 +149,7 @@ tools:
   revisions:
   - 326f9c294b09
   - e408aa831db3
+  - 2e3535db1bfa
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: maker
@@ -154,6 +157,7 @@ tools:
   revisions:
   - 5e96efe6e6c6
   - d46d803ca6cc
+  - 3c1a01127868
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: mlst
@@ -213,18 +217,21 @@ tools:
   - 200c378d85f3
   - c2656b729ee9
   - 037a11682176
+  - ba6f87115e13
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tb_variant_filter
   owner: iuc
   revisions:
   - 3b1e7c170b10
+  - 40f0591deda0
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tbvcfreport
   owner: iuc
   revisions:
   - 02d81b994ef5
+  - adc0645b945c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tetyper

@@ -28,6 +28,7 @@ tools:
   owner: iuc
   revisions:
   - 6de3e77073ad
+  - dfefaf2bab95
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: idba_hybrid
@@ -70,6 +71,7 @@ tools:
   - 2dcd07f40204
   - 8b6d0d85252b
   - 8dee0218ac7d
+  - a7b889b90140
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pilon
@@ -134,6 +136,7 @@ tools:
   owner: iuc
   revisions:
   - 31fa26c0692b
+  - 5ae3496f9ca3
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: merqury
@@ -146,6 +149,7 @@ tools:
   owner: iuc
   revisions:
   - b2f674562a18
+  - 3169a38c2656
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: bionano_scaffold
@@ -170,6 +174,7 @@ tools:
   owner: iuc
   revisions:
   - 02831bf9e95f
+  - 8fef980d48b5
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pretext_snapshot
