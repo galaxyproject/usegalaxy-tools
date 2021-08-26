@@ -7,6 +7,7 @@ tools:
   owner: iuc
   revisions:
   - f5792425ea50
+  - b226e0c805a5
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: tabular_to_fasta
@@ -71,6 +72,7 @@ tools:
   owner: iuc
   revisions:
   - ee356d7a5518
+  - 5bd67e012d54
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_bam
@@ -78,6 +80,7 @@ tools:
   revisions:
   - 0f0cf480051b
   - 60ca8d013263
+  - e5340c09200a
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_bed
@@ -85,6 +88,7 @@ tools:
   revisions:
   - 91efc13d3ec1
   - cdbdce00f5f6
+  - f4a70882a71b
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_wig
@@ -92,6 +96,7 @@ tools:
   revisions:
   - e8d84292e510
   - 5f893ed3c5ed
+  - 282a658c6569
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_vcf
@@ -99,6 +104,7 @@ tools:
   revisions:
   - 97979c3d179f
   - b21851ddcc79
+  - 71730c177cdf
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_gff
@@ -106,6 +112,7 @@ tools:
   revisions:
   - 09c6a9e067f9
   - 88d180fb6d67
+  - 4d97434ea0fb
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: gfa_to_fa

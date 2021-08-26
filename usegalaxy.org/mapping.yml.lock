@@ -8,6 +8,7 @@ tools:
   revisions:
   - d8b6f0adaa79
   - f9b72a376ec9
+  - fb4975b507c6
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bowtie2
@@ -70,6 +71,7 @@ tools:
   owner: iuc
   revisions:
   - 29bdbc353f20
+  - b4e6819b25ef
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: minimap2
@@ -82,6 +84,7 @@ tools:
   - 77b2770508f6
   - f54f5baedfdd
   - 1f06dccdc5d1
+  - 09b53c1d4ab1
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: rna_starsolo

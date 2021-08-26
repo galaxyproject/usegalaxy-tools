@@ -236,6 +236,7 @@ tools:
   - 1262c96a9974
   - c4a9b38b435d
   - 23680a42e149
+  - 98d5499ead46
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: bcftools_call

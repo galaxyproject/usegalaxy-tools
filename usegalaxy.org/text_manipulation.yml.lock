@@ -19,6 +19,7 @@ tools:
   - 1aae04680c4b
   - b5d8e5475247
   - 44018dd6b447
+  - f29602ae449e
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: uniprot_rest_interface
@@ -55,6 +56,7 @@ tools:
   - 1aae04680c4b
   - b5d8e5475247
   - 44018dd6b447
+  - f29602ae449e
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: column_order_header_sort
@@ -98,6 +100,7 @@ tools:
   revisions:
   - 60ff16842fcd
   - dddadbbac949
+  - 93a3ce78ce55
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: regex_find_replace
@@ -120,6 +123,7 @@ tools:
   - 33d61c89fb8d
   - 2e8f945f7285
   - 83069b38aa85
+  - cf34c344508d
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: sqlite_to_tabular
@@ -129,6 +133,7 @@ tools:
   - f31bb1e5725d
   - dfe38b7c34ed
   - bce29ec10b78
+  - c29d2f80a066
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: concatenate_multiple_datasets
@@ -142,5 +147,6 @@ tools:
   revisions:
   - 9cc411a62277
   - 6544e4b87a4f
+  - 4d5aae46f850
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation

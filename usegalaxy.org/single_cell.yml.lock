@@ -104,6 +104,7 @@ tools:
   - cdf4443d5625
   - cfe1e6c28d95
   - 2c1200fba922
+  - a9caad671439
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_clustering
