@@ -24,7 +24,7 @@ tools:
 - name: duplex_family_size_distribution
   owner: iuc
   revisions:
-  - ec5a92514113
+  - 6cc65a11d922
   tool_panel_section_id: du_novo
   tool_panel_section_label: Du Novo
 - name: variant_analyzer
