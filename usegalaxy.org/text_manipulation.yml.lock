@@ -106,7 +106,6 @@ tools:
 - name: regex_find_replace
   owner: galaxyp
   revisions:
-  - 209b7c5ee9d7
   - ae8c4b2488e7
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
