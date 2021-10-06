@@ -9,6 +9,7 @@ tools:
   - d8b6f0adaa79
   - f9b72a376ec9
   - fb4975b507c6
+  - a287431cdf4f
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bowtie2
