@@ -59,6 +59,7 @@ tools:
   - 7fdb9d1591e2
   - e3d32471da11
   - cc05793bb896
+  - 49121db48873
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: diamond
@@ -66,6 +67,7 @@ tools:
   revisions:
   - 62c9df8382c2
   - 64be1ac21109
+  - 54f751e413f4
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: kallisto_quant
