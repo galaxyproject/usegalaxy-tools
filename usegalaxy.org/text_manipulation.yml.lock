@@ -144,8 +144,14 @@ tools:
 - name: filter_tabular
   owner: iuc
   revisions:
-  - 9cc411a62277
-  - 6544e4b87a4f
   - 4d5aae46f850
+  - 6544e4b87a4f
+  - 9cc411a62277
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: column_arrange_by_header
+  owner: bgruening
+  revisions:
+  - 6c6d26ff01ff
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
