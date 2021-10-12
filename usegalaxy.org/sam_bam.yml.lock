@@ -99,12 +99,6 @@ tools:
   - ac70bfaf1224
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
-- name: sam_merge
-  owner: devteam
-  revisions:
-  - 1977f1637890
-  tool_panel_section_id: sam_bam
-  tool_panel_section_label: SAM/BAM
 - name: pileup_interval
   owner: devteam
   revisions:

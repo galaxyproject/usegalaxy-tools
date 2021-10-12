@@ -30,8 +30,6 @@ tools:
   owner: devteam
 - name: filter_on_md
   owner: boris
-- name: sam_merge
-  owner: devteam
 - name: pileup_interval
   owner: devteam
 - name: pileup_parser
