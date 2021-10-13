@@ -62,3 +62,9 @@ tools:
   owner: ebi-gxa
 - name: anndata_ops
   owner: ebi-gxa
+- name: scanpy_parameter_iterator
+  owner: ebi-gxa
+- name: scanpy_read_10x
+  owner: ebi-gxa
+- name: scanpy_integrate_harmony
+  owner: ebi-gxa

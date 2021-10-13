@@ -146,77 +146,108 @@ tools:
   owner: ebi-gxa
   revisions:
   - 7fd39eb52f38
+  - 8ed4e80e8799
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_filter_genes
   owner: ebi-gxa
   revisions:
   - d82d999fa716
+  - 7143938df06e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalise_data
   owner: ebi-gxa
   revisions:
   - 3a4564b9d685
+  - 1e9616772e16
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_find_variable_genes
   owner: ebi-gxa
   revisions:
   - ae467daae2f7
+  - 82bd7bf93454
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_scale_data
   owner: ebi-gxa
   revisions:
   - 22f2957da902
+  - 2b6913c840bf
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_run_pca
   owner: ebi-gxa
   revisions:
   - 04bdc69f00d7
+  - c4f7fb2b1f70
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_compute_graph
   owner: ebi-gxa
   revisions:
   - 5ec3b715809c
+  - fcaa9048cdaf
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_run_tsne
   owner: ebi-gxa
   revisions:
   - fe727a9496ea
+  - a147dce191e9
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_run_umap
   owner: ebi-gxa
   revisions:
   - e31937baa330
+  - ad70b3552c99
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_find_cluster
   owner: ebi-gxa
   revisions:
   - 621d7d7a605f
+  - 8dc3d8941217
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_find_markers
   owner: ebi-gxa
   revisions:
   - 7042ce140caa
+  - a57c0538e56b
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_plot_embed
   owner: ebi-gxa
   revisions:
   - 9fafbfcdee0d
+  - a71086d2e55f
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_ops
   owner: ebi-gxa
   revisions:
   - 53a251c6d991
+  - 31e5e6d606ef
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_parameter_iterator
+  owner: ebi-gxa
+  revisions:
+  - 4e4420ed5292
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_read_10x
+  owner: ebi-gxa
+  revisions:
+  - 4d13979de6ee
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_integrate_harmony
+  owner: ebi-gxa
+  revisions:
+  - 5bea4f3c4edf
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
