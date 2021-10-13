@@ -73,6 +73,7 @@ tools:
   - 42126b414951
   - 42a174224817
   - 3a656a4a43ed
+  - fe3e8506112c
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: nextclade
@@ -80,5 +81,6 @@ tools:
   revisions:
   - 3b75d5285aff
   - b74b9a7b3e3b
+  - f6db3ce6ed1c
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
