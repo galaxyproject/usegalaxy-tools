@@ -68,3 +68,5 @@ tools:
   owner: ebi-gxa
 - name: scanpy_integrate_harmony
   owner: ebi-gxa
+- name: gtf2gene_list
+  owner: ebi-gxa
