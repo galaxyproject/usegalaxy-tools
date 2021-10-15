@@ -147,6 +147,7 @@ tools:
   revisions:
   - 7fd39eb52f38
   - 8ed4e80e8799
+  - ba64b91ed2b9
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_filter_genes
@@ -154,6 +155,7 @@ tools:
   revisions:
   - 7143938df06e
   - d82d999fa716
+  - a1698b43abeb
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalise_data
@@ -168,6 +170,7 @@ tools:
   revisions:
   - 82bd7bf93454
   - ae467daae2f7
+  - 5c62f39aab8f
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_scale_data
@@ -182,6 +185,7 @@ tools:
   revisions:
   - 04bdc69f00d7
   - c4f7fb2b1f70
+  - 988edd5fa902
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_compute_graph
@@ -189,6 +193,7 @@ tools:
   revisions:
   - 5ec3b715809c
   - fcaa9048cdaf
+  - 3cf0177ed87e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_run_tsne
@@ -196,6 +201,7 @@ tools:
   revisions:
   - a147dce191e9
   - fe727a9496ea
+  - 384cacc40611
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_run_umap
@@ -203,6 +209,7 @@ tools:
   revisions:
   - ad70b3552c99
   - e31937baa330
+  - abae3d11d920
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_find_cluster
@@ -210,6 +217,7 @@ tools:
   revisions:
   - 621d7d7a605f
   - 8dc3d8941217
+  - 15e8a4c60418
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_find_markers
@@ -217,6 +225,7 @@ tools:
   revisions:
   - 7042ce140caa
   - a57c0538e56b
+  - 615a46c220f0
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_plot_embed
@@ -237,18 +246,21 @@ tools:
   owner: ebi-gxa
   revisions:
   - 4e4420ed5292
+  - b9dd12ab0550
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_read_10x
   owner: ebi-gxa
   revisions:
   - 4d13979de6ee
+  - c8391a25dee3
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_integrate_harmony
   owner: ebi-gxa
   revisions:
   - 5bea4f3c4edf
+  - 2cef3539f420
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: gtf2gene_list
