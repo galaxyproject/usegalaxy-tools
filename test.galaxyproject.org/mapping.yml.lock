@@ -19,18 +19,21 @@ tools:
   owner: devteam
   revisions:
   - 01ac0a5fedc3
+  - 64f11cf59c6e
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bowtie2
   owner: devteam
   revisions:
   - 749c918495f7
+  - a6d65b0c67af
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: lastz
   owner: devteam
   revisions:
   - 0acd9701676b
+  - ac0ffffa649e
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
   tool_shed_url: testtoolshed.g2.bx.psu.edu
@@ -38,6 +41,7 @@ tools:
   owner: devteam
   revisions:
   - 03ca082aeb2e
+  - fbff957a3655
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: megablast_wrapper
