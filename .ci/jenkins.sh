@@ -20,7 +20,7 @@ GALAXY_TEMPLATE_DB="${GALAXY_TEMPLATE_DB_URL##*/}"
 # Need to run dev until 0.10.4
 #EPHEMERIS="git+https://github.com/galaxyproject/ephemeris.git"
 # Fix for not installing Conda deps: https://github.com/galaxyproject/ephemeris/pull/181
-EPHEMERIS="git+https://github.com/mvdbeek/ephemeris.giti@fix_option_parsing_and_tool_id_handling"
+EPHEMERIS="git+https://github.com/mvdbeek/ephemeris.git@fix_option_parsing_and_tool_id_handling"
 
 # Should be set by Jenkins, so the default here is for development
 : ${GIT_COMMIT:=$(git rev-parse HEAD)}
