@@ -274,11 +274,11 @@ function mount_overlay() {
     LOCAL_CVMFS_MOUNTED=true
     # Attempting to create files as root yields EPERM, even with allow_root/allow_other and user_allow_other
     # FIXME: unprivilged would be preferable but file creation inside docker fails with fuse-overlayfs
-    #log_exec fuse-overlayfs \
-    #    -o "lowerdir=${OVERLAYFS_LOWER},upperdir=${OVERLAYFS_UPPER},workdir=${OVERLAYFS_WORK},allow_root" \
-    #    "$OVERLAYFS_MOUNT"
-    log_exec sudo --preserve-env=JOB_NAME --preserve-env=WORKSPACE --preserve-env=BUILD_NUMBER \
-        /usr/local/sbin/jenkins-mount-overlayfs
+    log_exec fuse-overlayfs \
+        -o "lowerdir=${OVERLAYFS_LOWER},upperdir=${OVERLAYFS_UPPER},workdir=${OVERLAYFS_WORK},allow_root" \
+        "$OVERLAYFS_MOUNT"
+    #log_exec sudo --preserve-env=JOB_NAME --preserve-env=WORKSPACE --preserve-env=BUILD_NUMBER \
+    #    /usr/local/sbin/jenkins-mount-overlayfs
     LOCAL_OVERLAYFS_MOUNTED=true
 }
 
@@ -286,9 +286,9 @@ function mount_overlay() {
 function unmount_overlay() {
     log "Unmounting OverlayFS/CVMFS"
     if $LOCAL_OVERLAYFS_MOUNTED; then
-        #log_exec fusermount -u "$OVERLAYFS_MOUNT"
-        log_exec sudo --preserve-env=JOB_NAME --preserve-env=WORKSPACE --preserve-env=BUILD_NUMBER \
-            /usr/local/sbin/jenkins-umount-overlayfs
+        log_exec fusermount -u "$OVERLAYFS_MOUNT"
+        #log_exec sudo --preserve-env=JOB_NAME --preserve-env=WORKSPACE --preserve-env=BUILD_NUMBER \
+        #    /usr/local/sbin/jenkins-umount-overlayfs
         LOCAL_OVERLAYFS_MOUNTED=false
     fi
     log_exec fusermount -u "$OVERLAYFS_LOWER"
