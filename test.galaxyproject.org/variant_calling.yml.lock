@@ -1,11 +1,12 @@
-install_repository_dependencies: true
-install_resolver_dependencies: true
+install_repository_dependencies: false
+install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Variant Calling
 tools:
 - name: lofreq_alnqual
   owner: iuc
   revisions:
+  - 09d6e4693887
   - 606542a18f82
   - e0e2fd665102
   tool_panel_section_id: variant_calling
@@ -15,12 +16,14 @@ tools:
   revisions:
   - 31216d510164
   - 65432c3abf6c
+  - e1461b5c52a0
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_filter
   owner: iuc
   revisions:
   - 6f9ffff040ce
+  - 7dfca164d2e3
   - 950d1d49d678
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -28,6 +31,7 @@ tools:
   owner: iuc
   revisions:
   - 354b534eeab7
+  - 426d707dfc47
   - 5d6a078d30b0
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -35,6 +39,7 @@ tools:
   owner: iuc
   revisions:
   - 33a416e1659e
+  - aa35ee7f3ab2
   - af7e416d8176
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -57,6 +62,7 @@ tools:
   revisions:
   - 0aa87d97847f
   - 5bbf9eada9c2
+  - d220115f882b
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: snpeff
@@ -64,12 +70,14 @@ tools:
   revisions:
   - 74aebe30fb52
   - 8f92c2b26e6d
+  - cfcf33df7fc0
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: snpsift
   owner: iuc
   revisions:
   - 2b3e65a4252f
+  - 5fab4f81391d
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: samblaster
@@ -102,12 +110,14 @@ tools:
   owner: devteam
   revisions:
   - 156b60c1530f
+  - ef2c525bd8cd
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: naive_variant_caller
   owner: blankenberg
   revisions:
   - 07e71cf6c8ef
+  - 6be51647d31a
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: table_annovar

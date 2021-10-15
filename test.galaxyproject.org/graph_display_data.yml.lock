@@ -1,16 +1,8 @@
-install_repository_dependencies: true
-install_resolver_dependencies: true
+install_repository_dependencies: false
+install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Graph/Display Data
 tools:
-- name: ml_visualization_ex
-  owner: bgruening
-  revisions:
-  - 09efff9a5765
-  - 14bd6d59650d
-  - 4a229a7ad638
-  tool_panel_section_id: graph_display_data
-  tool_panel_section_label: Graph/Display Data
 - name: plotly_parallel_coordinates_plot
   owner: bgruening
   revisions:
@@ -61,6 +53,7 @@ tools:
   owner: iuc
   revisions:
   - 014a21767ac4
+  - 7f13dc906cb9
   - df7356989ac1
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
@@ -117,6 +110,7 @@ tools:
   owner: iuc
   revisions:
   - 94fe43e75ddc
+  - d8b1027d6ce0
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: export2graphlan
@@ -176,8 +170,8 @@ tools:
 - name: intervene
   owner: iuc
   revisions:
-  - f5fa293605ca
   - 08780101bc36
+  - f5fa293605ca
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: jvarkit_wgscoverageplotter

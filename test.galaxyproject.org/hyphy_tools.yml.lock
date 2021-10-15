@@ -1,17 +1,19 @@
-install_repository_dependencies: true
-install_resolver_dependencies: true
+install_repository_dependencies: false
+install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: HyPhy Methods
 tools:
 - name: hyphy_absrel
   owner: iuc
   revisions:
+  - 26de3a7b1cb9
   - c5533a61ea60
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_bgm
   owner: iuc
   revisions:
+  - a8ea0db2c606
   - fb142ad9b580
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
@@ -19,41 +21,48 @@ tools:
   owner: iuc
   revisions:
   - 4ff928db5592
+  - d723b65a4291
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_fade
   owner: iuc
   revisions:
   - 62971c58f0dc
+  - 96817f0fd28b
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_fel
   owner: iuc
   revisions:
+  - 2b1c3e81add3
   - 6400b683aced
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_fubar
   owner: iuc
   revisions:
+  - 099fc3ec12d2
   - da68d7067bf8
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_gard
   owner: iuc
   revisions:
+  - 45d39a499816
   - c96eee4ebe63
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_meme
   owner: iuc
   revisions:
+  - 45a2366d777e
   - 74b590fdc6a0
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_relax
   owner: iuc
   revisions:
+  - 3415a580926d
   - c62ddfa33ac5
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
@@ -61,11 +70,13 @@ tools:
   owner: iuc
   revisions:
   - 36a50b938d70
+  - c010cbc8ff3a
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods
 - name: hyphy_sm19
   owner: iuc
   revisions:
   - 1cd3060a8504
+  - 23b041c0d7d2
   tool_panel_section_id: hyphy_methods
   tool_panel_section_label: HyPhy Methods

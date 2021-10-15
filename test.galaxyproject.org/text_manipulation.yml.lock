@@ -1,11 +1,12 @@
-install_repository_dependencies: true
-install_resolver_dependencies: true
+install_repository_dependencies: false
+install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Text Manipulation
 tools:
 - name: column_maker
   owner: devteam
   revisions:
+  - 02026300aa45
   - 464b9305180e
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
@@ -13,24 +14,28 @@ tools:
   owner: bgruening
   revisions:
   - 0a8c6b61f0f4
+  - f46f0e4f75c4
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: query_tabular
   owner: iuc
   revisions:
   - 33d61c89fb8d
+  - cf34c344508d
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: sqlite_to_tabular
   owner: iuc
   revisions:
   - b722161a845a
+  - c29d2f80a066
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: uniprot_rest_interface
   owner: bgruening
   revisions:
   - 054483e27a35
+  - bfdc6a7ffd3a
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: datamash_reverse

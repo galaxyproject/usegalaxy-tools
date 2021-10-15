@@ -30,6 +30,7 @@ tools:
 - name: variant_analyzer
   owner: iuc
   revisions:
+  - 3f1dbd2c59bf
   - 8d29173d49a9
   tool_panel_section_id: du_novo
   tool_panel_section_label: Du Novo
