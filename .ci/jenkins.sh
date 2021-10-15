@@ -63,6 +63,7 @@ SHED_DATA_MANAGER_CONFIG=
 SSH_MASTER_SOCKET=
 WORKDIR=
 USER_UID="$(id -u)"
+USER_GID="$(id -g)"
 GALAXY_DATABASE_TMPDIR=
 GALAXY_SOURCE_TMPDIR=
 OVERLAYFS_UPPER=
@@ -274,11 +275,11 @@ function mount_overlay() {
     LOCAL_CVMFS_MOUNTED=true
     # Attempting to create files as root yields EPERM, even with allow_root/allow_other and user_allow_other
     # FIXME: unprivilged would be preferable but file creation inside docker fails with fuse-overlayfs
-    #log_exec fuse-overlayfs \
-    #    -o "lowerdir=${OVERLAYFS_LOWER},upperdir=${OVERLAYFS_UPPER},workdir=${OVERLAYFS_WORK},allow_root" \
-    #    "$OVERLAYFS_MOUNT"
-    log_exec sudo --preserve-env=JOB_NAME --preserve-env=WORKSPACE --preserve-env=BUILD_NUMBER \
-        /usr/local/sbin/jenkins-mount-overlayfs
+    log_exec fuse-overlayfs \
+        -o "lowerdir=${OVERLAYFS_LOWER},upperdir=${OVERLAYFS_UPPER},workdir=${OVERLAYFS_WORK},allow_root" \
+        "$OVERLAYFS_MOUNT"
+    #log_exec sudo --preserve-env=JOB_NAME --preserve-env=WORKSPACE --preserve-env=BUILD_NUMBER \
+    #    /usr/local/sbin/jenkins-mount-overlayfs
     LOCAL_OVERLAYFS_MOUNTED=true
 }
 
@@ -286,9 +287,9 @@ function mount_overlay() {
 function unmount_overlay() {
     log "Unmounting OverlayFS/CVMFS"
     if $LOCAL_OVERLAYFS_MOUNTED; then
-        #log_exec fusermount -u "$OVERLAYFS_MOUNT"
-        log_exec sudo --preserve-env=JOB_NAME --preserve-env=WORKSPACE --preserve-env=BUILD_NUMBER \
-            /usr/local/sbin/jenkins-umount-overlayfs
+        log_exec fusermount -u "$OVERLAYFS_MOUNT"
+        #log_exec sudo --preserve-env=JOB_NAME --preserve-env=WORKSPACE --preserve-env=BUILD_NUMBER \
+        #    /usr/local/sbin/jenkins-umount-overlayfs
         LOCAL_OVERLAYFS_MOUNTED=false
     fi
     log_exec fusermount -u "$OVERLAYFS_LOWER"
@@ -304,6 +305,7 @@ function start_ssh_control() {
     $USE_LOCAL_OVERLAYFS || port_forward_flag="-L 127.0.0.1:${LOCAL_PORT}:127.0.0.1:${REMOTE_PORT}"
     log_exec ssh -S "$SSH_MASTER_SOCKET" -M ${port_forward_flag:-} -Nfn -l "$REPO_USER" "$REPO_STRATUM0"
     USER_UID=$(exec_on id -u)
+    USER_GID=$(exec_on id -g)
     SSH_MASTER_UP=true
 }
 
@@ -440,21 +442,21 @@ function run_mounted_galaxy() {
     log "Installing packages"
     exec_on docker exec --user root "$PRECONFIGURE_CONTAINER_NAME" yum install -y python-virtualenv
     log "Installing dependencies"
-    exec_on docker exec --user "$USER_UID" --workdir /galaxy/server "$PRECONFIGURE_CONTAINER_NAME" virtualenv .venv
+    exec_on docker exec --user "${USER_UID}:${USER_GID}" --workdir /galaxy/server "$PRECONFIGURE_CONTAINER_NAME" virtualenv .venv
     # $HOME is set for pip cache (~/.cache), which is needed to build wheels
-    exec_on docker exec --user "$USER_UID" --workdir /galaxy/server -e "HOME=/galaxy/server/database" "$PRECONFIGURE_CONTAINER_NAME" ./.venv/bin/pip install --upgrade pip setuptools wheel
-    exec_on docker exec --user "$USER_UID" --workdir /galaxy/server -e "HOME=/galaxy/server/database" "$PRECONFIGURE_CONTAINER_NAME" ./.venv/bin/pip install -r requirements.txt
+    exec_on docker exec --user "${USER_UID}:${USER_GID}" --workdir /galaxy/server -e "HOME=/galaxy/server/database" "$PRECONFIGURE_CONTAINER_NAME" ./.venv/bin/pip install --upgrade pip setuptools wheel
+    exec_on docker exec --user "${USER_UID}:${USER_GID}" --workdir /galaxy/server -e "HOME=/galaxy/server/database" "$PRECONFIGURE_CONTAINER_NAME" ./.venv/bin/pip install -r requirements.txt
     commit_preconfigured_container
 
     log "Updating database"
-    exec_on docker run --rm --user "$USER_UID" --name="${CONTAINER_NAME}-setup" \
+    exec_on docker run --rm --user "${USER_UID}:${USER_GID}" --name="${CONTAINER_NAME}-setup" \
         -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
         -v "${GALAXY_SOURCE_TMPDIR}:/galaxy/server" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
         --workdir /galaxy/server \
         "$GALAXY_DOCKER_IMAGE" ./.venv/bin/python ./scripts/manage_db.py upgrade
     log "Starting Galaxy on Stratum 0"
-    exec_on docker run -d -p 127.0.0.1:${REMOTE_PORT}:8080 --user "$USER_UID" --name="${CONTAINER_NAME}" \
+    exec_on docker run -d -p 127.0.0.1:${REMOTE_PORT}:8080 --user "${USER_UID}:${USER_GID}" --name="${CONTAINER_NAME}" \
         -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
         -e "GALAXY_CONFIG_OVERRIDE_INTEGRATED_TOOL_PANEL_CONFIG=/tmp/integrated_tool_panel.xml" \
         -e "GALAXY_CONFIG_OVERRIDE_SHED_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIG}" \
@@ -480,13 +482,13 @@ function run_mounted_galaxy() {
 function run_cloudve_galaxy() {
     patch_cloudve_galaxy
     log "Updating database"
-    exec_on docker run --rm --user "$USER_UID" --name="${CONTAINER_NAME}-setup" \
+    exec_on docker run --rm --user "${USER_UID}:${USER_GID}" --name="${CONTAINER_NAME}-setup" \
         -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
         "$GALAXY_DOCKER_IMAGE" ./.venv/bin/python ./scripts/manage_db.py upgrade
     # we could just start the patch container and run Galaxy in it with `docker exec`, but then logs aren't captured
     log "Starting Galaxy on Stratum 0"
-    exec_on docker run -d -p 127.0.0.1:${REMOTE_PORT}:8080 --user "$USER_UID" --name="${CONTAINER_NAME}" \
+    exec_on docker run -d -p 127.0.0.1:${REMOTE_PORT}:8080 --user "${USER_UID}:${USER_GID}" --name="${CONTAINER_NAME}" \
         -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
         -e "GALAXY_CONFIG_OVERRIDE_INTEGRATED_TOOL_PANEL_CONFIG=/tmp/integrated_tool_panel.xml" \
         -e "GALAXY_CONFIG_OVERRIDE_SHED_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIG}" \
@@ -677,7 +679,7 @@ function post_install() {
     exec_on "find '$OVERLAYFS_UPPER' -perm -u+r -not -perm -o+r -not -type l -print0 | xargs -0 --no-run-if-empty chmod go+r"
     exec_on "find '$OVERLAYFS_UPPER' -perm -u+rx -not -perm -o+rx -not -type l -print0 | xargs -0 --no-run-if-empty chmod go+rx"
     if [ -n "$CONDA_PATH" ]; then
-        exec_on docker run --rm --user "$USER_UID" --name="${CONTAINER_NAME}" \
+        exec_on docker run --rm --user "${USER_UID}:${USER_GID}" --name="${CONTAINER_NAME}" \
             -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
             -v "${WORKDIR}/condarc:${CONDARC_MOUNT_PATH}" \
             "$GALAXY_DOCKER_IMAGE" ${CONDA_PATH}/bin/conda clean --tarballs --yes
