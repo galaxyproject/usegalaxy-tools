@@ -407,6 +407,7 @@ function prep_for_galaxy_run() {
     # Sets globals $GALAXY_DATABASE_TMPDIR $WORKDIR
     log "Copying configs to Stratum 0"
     WORKDIR=$(exec_on mktemp -d -t usegalaxy-tools.work.XXXXXX)
+    exec_on chmod 0755 "$WORKDIR"
     if [ -n "$GALAXY_TEMPLATE_DB_URL" ]; then
         log_exec curl -o ".ci/${GALAXY_TEMPLATE_DB}" "$GALAXY_TEMPLATE_DB_URL"
         copy_to ".ci/${GALAXY_TEMPLATE_DB}"
