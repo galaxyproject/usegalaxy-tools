@@ -397,6 +397,7 @@ function patch_cloudve_galaxy() {
     exec_on docker exec --user root "$PRECONFIGURE_CONTAINER_NAME" apt-get -q update
     exec_on docker exec --user root -e DEBIAN_FRONTEND=noninteractive "$PRECONFIGURE_CONTAINER_NAME" apt-get install -y patch
     log "Patching Galaxy"
+    exec_on docker exec --workdir /galaxy/server "$PRECONFIGURE_CONTAINER_NAME" ls -l /work
     exec_on docker exec --workdir /galaxy/server "$PRECONFIGURE_CONTAINER_NAME" patch -p1 -i "/work/$GALAXY_PATCH_FILE"
     commit_preconfigured_container
 }
