@@ -1,5 +1,5 @@
-install_repository_dependencies: true
-install_resolver_dependencies: true
+install_repository_dependencies: false
+install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: ChIP-seq
 tools:
@@ -13,12 +13,14 @@ tools:
   owner: iuc
   revisions:
   - d3ebbf39b1c5
+  - de7795890bc5
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: macs2
   owner: iuc
   revisions:
   - 644444825ef9
+  - 1ac88e46ee0f
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
   tool_shed_url: testtoolshed.g2.bx.psu.edu
@@ -32,6 +34,7 @@ tools:
   owner: iuc
   revisions:
   - 2365720de36d
+  - 79f505a25bb8
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: cwpair2
