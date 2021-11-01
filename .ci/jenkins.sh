@@ -33,13 +33,19 @@ EPHEMERIS="git+https://github.com/mvdbeek/ephemeris.git@fix_option_parsing_and_t
 # fuse-overlayfs to be installed on Jenkins workers.
 USE_LOCAL_OVERLAYFS=true
 
+# For testing against Singularity BioContainers in CVMFS
+SINGULARITY_REPO='singularity.galaxyproject.org'
+SINGULARITY_OPTIONS='--privileged -v /opt/singularity-3.7.1:/opt/singularity-3.7.1:ro -v /opt/singularity-3.7.1/bin/singularity:/usr/bin/singularity:ro -v /etc/localtime:/etc/localtime:ro'
+
 #
 # Development/debug options
 #
 
 # If $GALAXY_DOCKER_IMAGE is a CloudVE image, you can set this to a patch file in .ci/ that will be applied to Galaxy in
 # the image before Galaxy is run
-GALAXY_PATCH_FILE=
+# TODO: Remove with image >= 22.01
+#   https://github.com/galaxyproject/galaxy/pull/12524
+GALAXY_PATCH_FILE=dir-mtime.21.05.patch
 
 # If $GALAXY_DOCKER_IMAGE is centos*, you can set these to clone Galaxy at a specific revision and mount it in to the
 # container. Not fully tested because I was essentially using this to bisect for the bug, but Martin figured out what
@@ -73,21 +79,25 @@ OVERLAYFS_UPPER=
 OVERLAYFS_LOWER=
 OVERLAYFS_WORK=
 OVERLAYFS_MOUNT=
+SINGULARITY_CVMFS_MOUNT=
 
 CONDA_ENV_OPTION=
 CONDA_EXEC_OPTION=
+SINGULARITY_VOLUME_OPTION=
 
 SSH_MASTER_UP=false
 CVMFS_TRANSACTION_UP=false
 GALAXY_CONTAINER_UP=false
 LOCAL_CVMFS_MOUNTED=false
 LOCAL_OVERLAYFS_MOUNTED=false
+LOCAL_SINGULARITY_CVMFS_MOUNTED=false
 
 
 function trap_handler() {
     { set +x; } 2>/dev/null
     $GALAXY_CONTAINER_UP && stop_galaxy
     clean_preconfigured_container
+    $LOCAL_SINGULARITY_CVMFS_MOUNTED && unmount_singularity_cvmfs
     $LOCAL_CVMFS_MOUNTED && unmount_overlay
     # $LOCAL_OVERLAYFS_MOUNTED does not need to be checked here since if it's true, $LOCAL_CVMFS_MOUNTED must be true
     $CVMFS_TRANSACTION_UP && abort_transaction
@@ -237,10 +247,13 @@ function set_repo_vars() {
         OVERLAYFS_WORK="${WORKSPACE}/${BUILD_NUMBER}/work"
         OVERLAYFS_MOUNT="${WORKSPACE}/${BUILD_NUMBER}/mount"
         CVMFS_CACHE="${WORKSPACE}/${BUILD_NUMBER}/cvmfs-cache"
+        SINGULARITY_CVMFS_MOUNT="${WORKSPACE}/${BUILD_NUMBER}/singularity"
+        SINGULARITY_VOLUME_OPTION="-v ${SINGULARITY_CVMFS_MOUNT}:/cvmfs/${SINGULARITY_REPO}:ro"
     else
         OVERLAYFS_UPPER="/var/spool/cvmfs/${REPO}/scratch/current"
         OVERLAYFS_LOWER="/var/spool/cvmfs/${REPO}/rdonly"
         OVERLAYFS_MOUNT="/cvmfs/${REPO}"
+        SINGULARITY_VOLUME_OPTION="-v /cvmfs/${SINGULARITY_REPO}:/cvmfs/${SINGULARITY_REPO}:ro"
     fi
     if [ -n "$CONDA_PATH" ]; then
         CONDA_ENV_OPTION="GALAXY_CONFIG_CONDA_PREFIX=${CONDA_PATH}"
@@ -276,11 +289,11 @@ function mount_overlay() {
     log_exec mkdir -p "$OVERLAYFS_LOWER" "$OVERLAYFS_UPPER" "$OVERLAYFS_WORK" "$OVERLAYFS_MOUNT" "$CVMFS_CACHE"
     log_exec cvmfs2 -o config=.ci/cvmfs-fuse.conf,allow_root "$REPO" "$OVERLAYFS_LOWER"
     LOCAL_CVMFS_MOUNTED=true
-    # Attempting to create files as root yields EPERM, even with allow_root/allow_other and user_allow_other
-    # FIXME: unprivilged would be preferable but file creation inside docker fails with fuse-overlayfs
     log_exec fuse-overlayfs \
         -o "lowerdir=${OVERLAYFS_LOWER},upperdir=${OVERLAYFS_UPPER},workdir=${OVERLAYFS_WORK},allow_root" \
         "$OVERLAYFS_MOUNT"
+    # Attempting to create files as root yields EPERM, even with allow_root/allow_other and user_allow_other
+    # FIXME: unprivilged would be preferable but file creation inside docker fails with fuse-overlayfs
     #log_exec sudo --preserve-env=JOB_NAME --preserve-env=WORKSPACE --preserve-env=BUILD_NUMBER \
     #    /usr/local/sbin/jenkins-mount-overlayfs
     LOCAL_OVERLAYFS_MOUNTED=true
@@ -298,6 +311,21 @@ function unmount_overlay() {
     log_exec fusermount -u "$OVERLAYFS_LOWER"
     log_exec rm -rf "${WORKSPACE}/${BUILD_NUMBER}"
     LOCAL_CVMFS_MOUNTED=false
+}
+
+
+function mount_singularity_cvmfs() {
+    log "Mounting Singularity CVMFS"
+    log_exec mkdir -p "$SINGULARITY_CVMFS_MOUNT" "$CVMFS_CACHE"
+    log_exec cvmfs2 -o config=.ci/cvmfs-fuse.conf,allow_root "$SINGULARITY_REPO" "$SINGULARITY_CVMFS_MOUNT"
+    LOCAL_SINGULARITY_CVMFS_MOUNTED=true
+}
+
+
+function unmount_singularity_cvmfs() {
+    log "Unmounting Singularity CVMFS"
+    log_exec fusermount -u "$SINGULARITY_CVMFS_MOUNT"
+    LOCAL_SINGULARITY_CVMFS_MOUNTED=false
 }
 
 
@@ -493,6 +521,8 @@ function run_cloudve_galaxy() {
 
     patch_cloudve_galaxy
 
+    copy_to ".ci/job_conf.yml"
+
     if [ -n "$GALAXY_TEMPLATE_DB_URL" ]; then
         log "Updating database"
         exec_on docker run --rm --user "${USER_UID}:${USER_GID}" --name="${CONTAINER_NAME}-setup" \
@@ -510,6 +540,7 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_OVERRIDE_TOOL_SHEDS_CONFIG_FILE=/tool_sheds_conf.xml" \
         -e "GALAXY_CONFIG_OVERRIDE_SHED_TOOL_DATA_TABLE_CONFIG=${SHED_TOOL_DATA_TABLE_CONFIG}" \
         -e "GALAXY_CONFIG_OVERRIDE_SHED_DATA_MANAGER_CONFIG_FILE=${SHED_DATA_MANAGER_CONFIG}" \
+        -e "GALAXY_CONFIG_OVERRIDE_JOB_CONFIG_FILE=/job_conf.yml" \
         -e "GALAXY_CONFIG_TOOL_DATA_PATH=/tmp/tool-data" \
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
@@ -517,8 +548,11 @@ function run_cloudve_galaxy() {
         ${CONDA_EXEC_OPTION} \
         -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
         -v "${WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
+        -v "${WORKDIR}/job_conf.yml:/job_conf.yml" \
         -v "${WORKDIR}/condarc:${CONDARC_MOUNT_PATH}" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
+        ${SINGULARITY_VOLUME_OPTION} \
+        ${SINGULARITY_OPTIONS} \
         "$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --http :8080 \
             --virtualenv /galaxy/server/.venv --pythonpath /galaxy/server/lib \
             --master --offload-threads 2 --processes 1 --threads 4 --enable-threads \
@@ -643,19 +677,23 @@ function install_tools() {
             show_paths
             log_exit_error "Terminating build due to previous errors"
         }
-        #shed-tools install -v -a deadbeef -t "$tool_yaml" --test --test_json "${tool_yaml##*/}"-test.json || {
-        #    # TODO: test here if test failures should be ignored (but we can't separate test failures from install
-        #    # failures at the moment) and also we can't easily get the job stderr
-        #    [ "$TRAVIS_PULL_REQUEST" == "false" -a "$TRAVIS_BRANCH" == "master" ] || {
-        #        log_error "Tool install/test failed";
-        #        show_logs
-        #        show_paths
-        #        log_exit_error "Terminating build due to previous errors"
-        #    };
-        #}
     done
 }
 
+
+function test_tools() {
+    local tool_yaml
+    log "Testing tools"
+    # FIXME: this tests every tool in the section, which we obviously do not want to do
+    for tool_yaml in "${TOOL_YAMLS[@]}"; do
+        log "Testing tools in ${tool_yaml}"
+        shed-tools test -v -a deadbeef -t "$tool_yaml" --test_json "${tool_yaml##*/}"-test.json || {
+            log_error "Tool test failed"
+            show_logs
+            log_exit_error "Terminating build due to previous errors"
+        }
+    done
+}
 
 
 function check_for_repo_changes() {
@@ -722,6 +760,7 @@ function do_install_local() {
     wait_for_galaxy
     install_tools
     check_for_repo_changes
+    test_tools
     stop_galaxy
     clean_preconfigured_container
     post_install
@@ -743,6 +782,7 @@ function do_install_remote() {
     wait_for_galaxy
     install_tools
     check_for_repo_changes
+    test_tools
     stop_galaxy
     clean_preconfigured_container
     post_install

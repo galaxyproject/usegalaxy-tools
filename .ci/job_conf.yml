@@ -1,0 +1,32 @@
+---
+
+runners:
+  local:
+    load: galaxy.jobs.runners.local:LocalJobRunner
+    workers: 1
+
+execution:
+  default: singularity
+  environments:
+    local:
+      runner: local
+    singularity:
+      runner: local
+      outputs_to_working_directory: true
+      singularity_enabled: true
+      #singularity_volumes: ???
+      require_container: true
+      container_resolvers:
+        - cache_directory: /cvmfs/singularity.galaxyproject.org/all
+          cache_directory_cacher_type: dir_mtime
+          type: cached_mulled_singularity
+        - type: explicit_singularity
+      env:
+        - name: SINGULARITYENV_LC_ALL
+          value: C
+
+tools:
+  - id: upload1
+    environment: local
+  - id: __DATA_FETCH__
+    environment: local
