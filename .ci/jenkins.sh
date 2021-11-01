@@ -10,12 +10,15 @@ GALAXY_URL="http://127.0.0.1:${LOCAL_PORT}"
 SSH_MASTER_SOCKET_DIR="${HOME}/.cache/usegalaxy-tools"
 
 # Set to 'centos:7' and set GALAXY_GIT_* below to use a clone
-GALAXY_DOCKER_IMAGE='galaxy/galaxy-k8s:20.09'
+GALAXY_DOCKER_IMAGE='galaxy/galaxy-min:21.05'
 # Disable if using a locally built image e.g. for debugging
 GALAXY_DOCKER_IMAGE_PULL=true
 
-GALAXY_TEMPLATE_DB_URL='https://raw.githubusercontent.com/davebx/galaxyproject-sqlite/master/20.01.sqlite'
-GALAXY_TEMPLATE_DB="${GALAXY_TEMPLATE_DB_URL##*/}"
+#GALAXY_TEMPLATE_DB_URL='https://raw.githubusercontent.com/davebx/galaxyproject-sqlite/master/20.01.sqlite'
+#GALAXY_TEMPLATE_DB="${GALAXY_TEMPLATE_DB_URL##*/}"
+# Unset to use create_db.py, which is fast now that it doesn't migrate new DBs
+GALAXY_TEMPLATE_DB_URL=
+GALAXY_TEMPLATE_DB='galaxy.sqlite'
 
 # Need to run dev until 0.10.4
 #EPHEMERIS="git+https://github.com/galaxyproject/ephemeris.git"
@@ -375,12 +378,16 @@ function prep_for_galaxy_run() {
     # Sets globals $GALAXY_DATABASE_TMPDIR $WORKDIR
     log "Copying configs to Stratum 0"
     WORKDIR=$(exec_on mktemp -d -t usegalaxy-tools.work.XXXXXX)
-    log_exec curl -o ".ci/${GALAXY_TEMPLATE_DB}" "$GALAXY_TEMPLATE_DB_URL"
-    copy_to ".ci/${GALAXY_TEMPLATE_DB}"
+    if [ -n "$GALAXY_TEMPLATE_DB_URL" ]; then
+        log_exec curl -o ".ci/${GALAXY_TEMPLATE_DB}" "$GALAXY_TEMPLATE_DB_URL"
+        copy_to ".ci/${GALAXY_TEMPLATE_DB}"
+    fi
     copy_to ".ci/tool_sheds_conf.xml"
     copy_to ".ci/condarc"
     GALAXY_DATABASE_TMPDIR=$(exec_on mktemp -d -t usegalaxy-tools.database.XXXXXX)
-    exec_on mv "${WORKDIR}/${GALAXY_TEMPLATE_DB}" "${GALAXY_DATABASE_TMPDIR}"
+    if [ -n "$GALAXY_TEMPLATE_DB_URL" ]; then
+        exec_on mv "${WORKDIR}/${GALAXY_TEMPLATE_DB}" "${GALAXY_DATABASE_TMPDIR}"
+    fi
     if $GALAXY_DOCKER_IMAGE_PULL; then
         log "Fetching latest Galaxy image"
         exec_on docker pull "$GALAXY_DOCKER_IMAGE"
@@ -448,13 +455,16 @@ function run_mounted_galaxy() {
     exec_on docker exec --user "${USER_UID}:${USER_GID}" --workdir /galaxy/server -e "HOME=/galaxy/server/database" "$PRECONFIGURE_CONTAINER_NAME" ./.venv/bin/pip install -r requirements.txt
     commit_preconfigured_container
 
-    log "Updating database"
-    exec_on docker run --rm --user "${USER_UID}:${USER_GID}" --name="${CONTAINER_NAME}-setup" \
-        -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
-        -v "${GALAXY_SOURCE_TMPDIR}:/galaxy/server" \
-        -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
-        --workdir /galaxy/server \
-        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/python ./scripts/manage_db.py upgrade
+    if [ -n "$GALAXY_TEMPLATE_DB_URL" ]; then
+        log "Updating database"
+        exec_on docker run --rm --user "${USER_UID}:${USER_GID}" --name="${CONTAINER_NAME}-setup" \
+            -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
+            -v "${GALAXY_SOURCE_TMPDIR}:/galaxy/server" \
+            -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
+            --workdir /galaxy/server \
+            "$GALAXY_DOCKER_IMAGE" ./.venv/bin/python ./scripts/manage_db.py upgrade
+    fi
+
     log "Starting Galaxy on Stratum 0"
     exec_on docker run -d -p 127.0.0.1:${REMOTE_PORT}:8080 --user "${USER_UID}:${USER_GID}" --name="${CONTAINER_NAME}" \
         -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
@@ -480,12 +490,17 @@ function run_mounted_galaxy() {
 
 
 function run_cloudve_galaxy() {
+
     patch_cloudve_galaxy
-    log "Updating database"
-    exec_on docker run --rm --user "${USER_UID}:${USER_GID}" --name="${CONTAINER_NAME}-setup" \
-        -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
-        -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
-        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/python ./scripts/manage_db.py upgrade
+
+    if [ -n "$GALAXY_TEMPLATE_DB_URL" ]; then
+        log "Updating database"
+        exec_on docker run --rm --user "${USER_UID}:${USER_GID}" --name="${CONTAINER_NAME}-setup" \
+            -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
+            -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
+            "$GALAXY_DOCKER_IMAGE" ./.venv/bin/python ./scripts/manage_db.py upgrade
+    fi
+
     # we could just start the patch container and run Galaxy in it with `docker exec`, but then logs aren't captured
     log "Starting Galaxy on Stratum 0"
     exec_on docker run -d -p 127.0.0.1:${REMOTE_PORT}:8080 --user "${USER_UID}:${USER_GID}" --name="${CONTAINER_NAME}" \
