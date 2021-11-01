@@ -756,6 +756,7 @@ function copy_upper_to_stratum0() {
 
 function do_install_local() {
     mount_overlay
+    mount_singularity_cvmfs
     run_galaxy
     wait_for_galaxy
     install_tools
@@ -771,6 +772,7 @@ function do_install_local() {
         publish_transaction
         stop_ssh_control
     fi
+    unmount_singularity_cvmfs
     unmount_overlay
 }
 
