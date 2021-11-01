@@ -1,5 +1,7 @@
 # usegalaxy.* admins own everything
-*                           @galaxyproject/universe-admins
+#*                           @galaxyproject/universe-admins
+# Disable the above for now until such time as non-.org admins use this
+*                           @galaxyproject/tool-installers
 
 # Galaxy Project AU servers
 #usegalaxy.org.au*           @usegalaxy-au/...
