@@ -79,7 +79,7 @@ tools:
   revisions:
   - fb833dd994f2
   - 3d4ea0544af1
-  - 643be54bef90
+  - 7a86c37f66d1
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_conv
