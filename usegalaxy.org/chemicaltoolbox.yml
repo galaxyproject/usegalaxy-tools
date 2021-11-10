@@ -1,11 +1,28 @@
 tool_panel_section_label: ChemicalToolBox
-
 tools:
 - name: chemical_data_sources
   owner: bgruening
 - name: chemfp
   owner: bgruening
 - name: get_pdb
+  owner: bgruening
+- name: rdock_rbdock
+  owner: bgruening
+- name: rdock_rbcavity
+  owner: bgruening
+- name: rdock_sort_filter
+  owner: bgruening
+- name: sucos_docking_scoring
+  owner: bgruening
+- name: ctb_frankenstein_ligand
+  owner: bgruening
+- name: enumerate_charges
+  owner: bgruening
+- name: ctb_rdkit_descriptors
+  owner: bgruening
+- name: openbabel_compound_convert
+  owner: bgruening
+- name: get_online_data
   owner: bgruening
 - name: gmx_setup
   owner: chemteam
@@ -16,4 +33,20 @@ tools:
 - name: gmx_em
   owner: chemteam
 - name: gmx_sim
+  owner: chemteam
+- name: gmx_makendx
+  owner: chemteam
+- name: gmx_merge_topology_files
+  owner: chemteam
+- name: parmconv
+  owner: chemteam
+- name: md_converter
+  owner: chemteam
+- name: ambertools_acpype
+  owner: chemteam
+- name: biomd_neqgamma
+  owner: chemteam
+- name: ambertools_antechamber
+  owner: chemteam
+- name: mmpbsa_mmgbsa
   owner: chemteam
