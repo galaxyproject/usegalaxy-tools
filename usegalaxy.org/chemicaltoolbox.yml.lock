@@ -21,6 +21,60 @@ tools:
   - 538790c6c21b
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
+- name: rdock_rbdock
+  owner: bgruening
+  revisions:
+  - c362398df83b
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: rdock_rbcavity
+  owner: bgruening
+  revisions:
+  - 7e5c2e4bc227
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: rdock_sort_filter
+  owner: bgruening
+  revisions:
+  - d1ca4b45f615
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: sucos_docking_scoring
+  owner: bgruening
+  revisions:
+  - 4f1896782f7c
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: ctb_frankenstein_ligand
+  owner: bgruening
+  revisions:
+  - 7255688c77f3
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: enumerate_charges
+  owner: bgruening
+  revisions:
+  - bbbf5fb356dd
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: ctb_rdkit_descriptors
+  owner: bgruening
+  revisions:
+  - a1c53f0533b0
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: openbabel_compound_convert
+  owner: bgruening
+  revisions:
+  - e2c36f62e22f
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: get_online_data
+  owner: bgruening
+  revisions:
+  - 2538366eb8fb
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
 - name: gmx_setup
   owner: chemteam
   revisions:
@@ -49,5 +103,53 @@ tools:
   owner: chemteam
   revisions:
   - a97dcfc23b4b
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: gmx_makendx
+  owner: chemteam
+  revisions:
+  - 5f9f51642a24
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: gmx_merge_topology_files
+  owner: chemteam
+  revisions:
+  - 534ff13ea227
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: parmconv
+  owner: chemteam
+  revisions:
+  - 5a97cb53a456
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: md_converter
+  owner: chemteam
+  revisions:
+  - ba83f0923369
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: ambertools_acpype
+  owner: chemteam
+  revisions:
+  - a0c154146234
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: biomd_neqgamma
+  owner: chemteam
+  revisions:
+  - afcb925def69
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: ambertools_antechamber
+  owner: chemteam
+  revisions:
+  - 4fff93efc0f9
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: mmpbsa_mmgbsa
+  owner: chemteam
+  revisions:
+  - 45dc2555933c
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
