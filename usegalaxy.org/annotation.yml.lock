@@ -6,6 +6,7 @@ tools:
 - name: prokka
   owner: crs4
   revisions:
+  - 8a22554cdde2
   - bf68eb663bc3
   - eaee459f3d69
   - 111884f0d912
