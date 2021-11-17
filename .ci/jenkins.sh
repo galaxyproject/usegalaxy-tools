@@ -637,7 +637,9 @@ function install_tools() {
     log "Installing tools"
     for tool_yaml in "${TOOL_YAMLS[@]}"; do
         log "Installing tools in ${tool_yaml}"
-        log_exec shed-tools install -v -g "$GALAXY_URL" -a "$API_KEY" -t "$tool_yaml" || {
+        # FIXME: after https://github.com/galaxyproject/ephemeris/pull/181 is merged you would need to remove
+        # --skip_install_resolver_dependencies for install_resolver_dependencies in tools.yaml to work
+        log_exec shed-tools install --skip_install_resolver_dependencies -v -g "$GALAXY_URL" -a "$API_KEY" -t "$tool_yaml" || {
             log_error "Tool installation failed"
             show_logs
             show_paths
