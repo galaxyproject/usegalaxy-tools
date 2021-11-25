@@ -6,9 +6,9 @@ tools:
   owner: bgruening
 - name: get_pdb
   owner: bgruening
-- name: rdock_rbdock
+- name: rxdock_rbdock
   owner: bgruening
-- name: rdock_rbcavity
+- name: rxdock_rbcavity
   owner: bgruening
 - name: rdock_sort_filter
   owner: bgruening
