@@ -6,19 +6,19 @@ tools:
 - name: column_maker
   owner: devteam
   revisions:
-  - 427903d47026
+  - 02026300aa45
   - 13b6f0007d9e
+  - 427903d47026
   - 464b9305180e
   - 6e8d94597139
-  - 02026300aa45
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: annotatemyids
   owner: iuc
   revisions:
   - 1aae04680c4b
-  - b5d8e5475247
   - 44018dd6b447
+  - b5d8e5475247
   - f29602ae449e
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
@@ -54,8 +54,8 @@ tools:
   owner: iuc
   revisions:
   - 1aae04680c4b
-  - b5d8e5475247
   - 44018dd6b447
+  - b5d8e5475247
   - f29602ae449e
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
@@ -99,8 +99,8 @@ tools:
   owner: iuc
   revisions:
   - 60ff16842fcd
-  - dddadbbac949
   - 93a3ce78ce55
+  - dddadbbac949
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: regex_find_replace
@@ -119,8 +119,8 @@ tools:
   owner: iuc
   revisions:
   - 1ea4e668bf73
-  - 33d61c89fb8d
   - 2e8f945f7285
+  - 33d61c89fb8d
   - 83069b38aa85
   - cf34c344508d
   tool_panel_section_id: text_manipulation
@@ -129,10 +129,10 @@ tools:
   owner: iuc
   revisions:
   - 6e72fd26a9d3
-  - f31bb1e5725d
-  - dfe38b7c34ed
   - bce29ec10b78
   - c29d2f80a066
+  - dfe38b7c34ed
+  - f31bb1e5725d
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: concatenate_multiple_datasets
@@ -153,5 +153,11 @@ tools:
   owner: bgruening
   revisions:
   - 6c6d26ff01ff
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: add_line_to_file
+  owner: bgruening
+  revisions:
+  - 8e251055b1a9
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
