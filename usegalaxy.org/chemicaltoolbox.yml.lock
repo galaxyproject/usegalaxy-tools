@@ -21,16 +21,16 @@ tools:
   - 538790c6c21b
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
-- name: rdock_rbdock
+- name: rxdock_rbdock
   owner: bgruening
   revisions:
-  - c362398df83b
+  - b34d068c2782
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
-- name: rdock_rbcavity
+- name: rxdock_rbcavity
   owner: bgruening
   revisions:
-  - 7e5c2e4bc227
+  - 0848d3b1a46f
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: rdock_sort_filter
