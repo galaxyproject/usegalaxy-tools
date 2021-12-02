@@ -2,3 +2,5 @@ tool_panel_section_label: MiModD
 tools:
 - name: mimodd_main
   owner: wolma
+- name: mimodd_aln
+  owner: wolma

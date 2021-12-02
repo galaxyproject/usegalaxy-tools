@@ -9,3 +9,9 @@ tools:
   - bfcd121b99bf
   tool_panel_section_id: mimodd
   tool_panel_section_label: MiModD
+- name: mimodd_aln
+  owner: wolma
+  revisions:
+  - dee617b27094
+  tool_panel_section_id: mimodd
+  tool_panel_section_label: MiModD
