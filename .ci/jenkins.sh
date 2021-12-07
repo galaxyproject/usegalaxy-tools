@@ -295,6 +295,10 @@ function unmount_overlay() {
         #    /usr/local/sbin/jenkins-umount-overlayfs
         LOCAL_OVERLAYFS_MOUNTED=false
     fi
+    # DEBUG: what is holding this?
+    log_exec fuser -v "$OVERLAYFS_LOWER" || true
+    # Attempt to kill anything still accessing lower so unmount doesn't fail
+    log_exec fuser -v -k "$OVERLAYFS_LOWER" || true
     log_exec fusermount -u "$OVERLAYFS_LOWER"
     log_exec rm -rf "${WORKSPACE}/${BUILD_NUMBER}"
     LOCAL_CVMFS_MOUNTED=false
