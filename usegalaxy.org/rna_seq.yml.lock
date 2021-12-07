@@ -327,6 +327,7 @@ tools:
   revisions:
   - 6fd16fad465d
   - 4383070d29ed
+  - 2b093007fab9
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: tximport
