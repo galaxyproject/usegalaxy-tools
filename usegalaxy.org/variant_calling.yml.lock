@@ -23,6 +23,7 @@ tools:
   revisions:
   - 268d162b9c49
   - 74aebe30fb52
+  - cfcf33df7fc0
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: naive_variant_caller
@@ -36,6 +37,7 @@ tools:
   revisions:
   - 2e497a770bca
   - 2b3e65a4252f
+  - 5fab4f81391d
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: freebayes
@@ -158,6 +160,7 @@ tools:
   revisions:
   - 71dfde92fd57
   - c39113e2ae34
+  - ebcd8649c621
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: bcftools_plugin_frameshifts
@@ -165,6 +168,7 @@ tools:
   revisions:
   - 48ac4d611e92
   - eb22990a2be9
+  - c0b17fc737d4
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: exomedepth
@@ -180,6 +184,7 @@ tools:
   - 3be27a9a7313
   - fd2d6e035c3f
   - 1cea23583655
+  - 53ce8be43212
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: mixcr_analyze
@@ -198,12 +203,14 @@ tools:
   owner: iuc
   revisions:
   - 0bc56f894766
+  - 9f8dbbbc0267
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: varscan_mpileup
   owner: iuc
   revisions:
   - e3f170cc4f95
+  - db94eadb92c1
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: varscan_somatic
@@ -211,6 +218,7 @@ tools:
   revisions:
   - 4e97191a1ff7
   - a57606054bd7
+  - cf8ffc79db67
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: snpsift_dbnsfp

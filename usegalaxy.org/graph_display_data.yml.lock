@@ -69,6 +69,7 @@ tools:
   - df7356989ac1
   - e6cbe3190642
   - fd59d783248a
+  - 290a11559985
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: venn_list
@@ -124,6 +125,7 @@ tools:
   owner: iuc
   revisions:
   - 94fe43e75ddc
+  - b9e31c5c01c7
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: export2graphlan
@@ -143,6 +145,7 @@ tools:
   revisions:
   - a4d83ba2a1bc
   - de002ba2b849
+  - d3a9e32672ec
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_histogram
@@ -150,6 +153,7 @@ tools:
   revisions:
   - 497d700a5229
   - 536078949ae4
+  - 355a82227003
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_pca
@@ -157,6 +161,7 @@ tools:
   revisions:
   - 1b9406a1a769
   - 90928b255abb
+  - fcb6a19960c6
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_point
@@ -165,6 +170,7 @@ tools:
   - 87908c76ca8d
   - 9cec81e1b90e
   - a36551483a8f
+  - 1acf88921176
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_violin
@@ -172,6 +178,7 @@ tools:
   revisions:
   - 637cf21db396
   - d8305f18060e
+  - e44775efb2dc
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: graphlan
@@ -223,6 +230,7 @@ tools:
   owner: iuc
   revisions:
   - 7c9417381ad5
+  - 44c66e8d21e6
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: pygenometracks

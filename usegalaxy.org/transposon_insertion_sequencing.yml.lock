@@ -8,35 +8,41 @@ tools:
   revisions:
   - 58234d95978d
   - 103bd59b3e33
+  - 625d5ea9f3c7
   tool_panel_section_id: transposon_insertion_sequencing
   tool_panel_section_label: Transposon Insertion Sequencing
 - name: gff_to_prot
   owner: iuc
   revisions:
   - 2aea122fbd25
+  - 07d7991bf205
   tool_panel_section_id: transposon_insertion_sequencing
   tool_panel_section_label: Transposon Insertion Sequencing
 - name: transit_resampling
   owner: iuc
   revisions:
   - ad4d42fabf32
+  - 885459e1c83b
   tool_panel_section_id: transposon_insertion_sequencing
   tool_panel_section_label: Transposon Insertion Sequencing
 - name: transit_hmm
   owner: iuc
   revisions:
   - 532a84f0de1e
+  - 7db455b6434b
   tool_panel_section_id: transposon_insertion_sequencing
   tool_panel_section_label: Transposon Insertion Sequencing
 - name: transit_gumbel
   owner: iuc
   revisions:
   - f50807720df1
+  - 8fc50fe60127
   tool_panel_section_id: transposon_insertion_sequencing
   tool_panel_section_label: Transposon Insertion Sequencing
 - name: transit_tn5gaps
   owner: iuc
   revisions:
   - 4aaabd55eab8
+  - 3f5fc4b09496
   tool_panel_section_id: transposon_insertion_sequencing
   tool_panel_section_label: Transposon Insertion Sequencing

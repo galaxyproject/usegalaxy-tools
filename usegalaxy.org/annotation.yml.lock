@@ -55,6 +55,7 @@ tools:
   - 602fb8e63aa7
   - cf13a1e03e5b
   - 0d243f458b53
+  - 46ae58b1d792
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: exonerate
@@ -173,6 +174,7 @@ tools:
   revisions:
   - bdb752f3c6bb
   - 97a43bcbf44d
+  - ce795616bd9c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: repeat_masker
@@ -211,6 +213,7 @@ tools:
   revisions:
   - 95ea8d97abb4
   - 37b5e1f0b544
+  - dd0cd2319ae5
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tbprofiler
@@ -220,6 +223,7 @@ tools:
   - c2656b729ee9
   - 037a11682176
   - ba6f87115e13
+  - 809dfc93d593
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tb_variant_filter
@@ -227,6 +231,7 @@ tools:
   revisions:
   - 3b1e7c170b10
   - 40f0591deda0
+  - e7aff4a85df5
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tbvcfreport
@@ -241,6 +246,7 @@ tools:
   revisions:
   - 36093854bfc7
   - 8bc80c2a15b3
+  - edcf603bedfd
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: transtermhp

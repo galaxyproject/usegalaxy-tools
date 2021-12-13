@@ -8,6 +8,7 @@ tools:
   revisions:
   - f5792425ea50
   - b226e0c805a5
+  - 359e043a285c
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: tabular_to_fasta
@@ -81,6 +82,7 @@ tools:
   - 0f0cf480051b
   - 60ca8d013263
   - e5340c09200a
+  - e13f565068d6
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_bed
@@ -105,6 +107,7 @@ tools:
   - 97979c3d179f
   - b21851ddcc79
   - 71730c177cdf
+  - 6e96c77f5824
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_gff

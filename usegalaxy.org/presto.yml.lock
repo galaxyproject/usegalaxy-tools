@@ -18,6 +18,7 @@ tools:
   - 097b44ff88db
   - ef917c03493c
   - 967b96c6005a
+  - faba8f53524e
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_partition
@@ -25,6 +26,7 @@ tools:
   revisions:
   - 0b103d43a2c7
   - 824d24bfe8dd
+  - 620f3b0a1430
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_parselog
@@ -32,6 +34,7 @@ tools:
   revisions:
   - 488cd05be723
   - fc1fd003bc80
+  - fd8f1ac582bd
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_parseheaders
@@ -39,6 +42,7 @@ tools:
   revisions:
   - 90315cb06d06
   - 1ed5b0772f98
+  - 4049467b8bb8
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_pairseq
@@ -46,6 +50,7 @@ tools:
   revisions:
   - f47efbc66fad
   - 7bdff30820bf
+  - 49e7407445c3
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_maskprimers
@@ -53,6 +58,7 @@ tools:
   revisions:
   - 14e648d05cce
   - 36ad790eda96
+  - 98b0b4c22e69
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_filterseq
@@ -60,6 +66,7 @@ tools:
   revisions:
   - 7b102129b1e8
   - 33a09d40751f
+  - 196b83ac37f2
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_collapseseq
@@ -67,6 +74,7 @@ tools:
   revisions:
   - d1a1b738c119
   - 3364fd7073ca
+  - c60bd515e46d
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_buildconsensus
@@ -74,6 +82,7 @@ tools:
   revisions:
   - 7c7df98db5a9
   - 5b059629cce0
+  - 1844a3d2c887
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_assemblepairs
@@ -81,6 +90,7 @@ tools:
   revisions:
   - 44c980933450
   - 0af48f0b7eb8
+  - 540fcbdac82e
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_alignsets
@@ -88,5 +98,6 @@ tools:
   revisions:
   - 40102188d44e
   - fa4cf8d895f4
+  - 0b4bd722367d
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO

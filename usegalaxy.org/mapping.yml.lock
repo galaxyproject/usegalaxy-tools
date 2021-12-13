@@ -10,6 +10,7 @@ tools:
   - f9b72a376ec9
   - fb4975b507c6
   - a287431cdf4f
+  - a07a2d9ddd42
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bowtie2
@@ -73,6 +74,7 @@ tools:
   revisions:
   - 29bdbc353f20
   - b4e6819b25ef
+  - 6da3972210ee
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: minimap2
@@ -86,6 +88,7 @@ tools:
   - f54f5baedfdd
   - 1f06dccdc5d1
   - 09b53c1d4ab1
+  - c0c2d0941de8
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: rna_starsolo
@@ -95,5 +98,6 @@ tools:
   - e403d27e8f24
   - ec9cbd6b9a49
   - a6fba3d92531
+  - eec9494fdafa
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping

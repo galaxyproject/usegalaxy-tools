@@ -27,6 +27,7 @@ tools:
   - bf675f34b056
   - f7985e0479b9
   - 75c93c70d094
+  - 9a913cdee30e
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastq_stats
@@ -70,5 +71,6 @@ tools:
   - a252d8415583
   - 819b8c1657d5
   - ecb38e2798cd
+  - 89d299153577
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control

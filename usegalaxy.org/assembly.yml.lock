@@ -16,6 +16,7 @@ tools:
   revisions:
   - 59db8ea8c845
   - ebb0dcdb621a
+  - 7594365c546b
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: trinity_psc
@@ -72,6 +73,7 @@ tools:
   - 8b6d0d85252b
   - 8dee0218ac7d
   - a7b889b90140
+  - 80d1250bd5fd
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pilon
@@ -86,6 +88,7 @@ tools:
   - 03fd468e158f
   - 9e58ff014088
   - a8a278849c18
+  - 1035adb112c0
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: shovill
@@ -108,6 +111,7 @@ tools:
   - 067592b6b312
   - 94fe43e75ddc
   - b2860df42e16
+  - b9e31c5c01c7
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: racon
@@ -130,6 +134,7 @@ tools:
   - 29151e779524
   - cf13a1e03e5b
   - 76d4cbefff85
+  - a315c25dc813
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: meryl
@@ -137,12 +142,14 @@ tools:
   revisions:
   - 31fa26c0692b
   - 5ae3496f9ca3
+  - eadfd71dde37
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: merqury
   owner: iuc
   revisions:
   - 9d79beb19ac3
+  - 39edec572bae
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: genomescope
@@ -162,12 +169,14 @@ tools:
   owner: iuc
   revisions:
   - eca6296a091a
+  - 25ca5d73aedf
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: salsa
   owner: iuc
   revisions:
   - ba7b0f11e470
+  - f77f7a7f3b83
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pretext_map
@@ -175,11 +184,13 @@ tools:
   revisions:
   - 02831bf9e95f
   - 8fef980d48b5
+  - 2b16ba799da9
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pretext_snapshot
   owner: iuc
   revisions:
   - 7c9417381ad5
+  - 44c66e8d21e6
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
