@@ -60,3 +60,7 @@ tools:
   owner: iuc
 - name: snpsift_genesets
   owner: iuc
+- name: sniffles
+  owner: iuc
+- name: jasminesv
+  owner: iuc
