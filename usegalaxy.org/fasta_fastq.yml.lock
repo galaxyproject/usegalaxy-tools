@@ -253,6 +253,7 @@ tools:
   revisions:
   - 9c620a950d3a
   - 56022eb50bbd
+  - 0dbb995c7d35
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: filtlong
@@ -285,6 +286,7 @@ tools:
   revisions:
   - 276b4111b253
   - 8250ea3a1501
+  - a535cf1e5da4
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: splitfasta
@@ -317,5 +319,6 @@ tools:
   revisions:
   - 6a675c3aa610
   - 9fa7803d1c51
+  - f3759eec3018
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ

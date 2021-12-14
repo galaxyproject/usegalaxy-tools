@@ -9,6 +9,7 @@ tools:
   - 3f0dd362b755
   - 57e5d9382f36
   - 9dd5373f6a5a
+  - e7242484929c
   tool_panel_section_id: motif
   tool_panel_section_label: Motif
 - name: meme_fimo
@@ -16,6 +17,7 @@ tools:
   revisions:
   - 0c5239d1aa65
   - c1a9a297ba8b
+  - d7a6ea1e3b9d
   tool_panel_section_id: motif
   tool_panel_section_label: Motif
 - name: weblogo3
@@ -28,11 +30,13 @@ tools:
   owner: iuc
   revisions:
   - ff2f53a32d0e
+  - 164067a66a5c
   tool_panel_section_id: motif
   tool_panel_section_label: Motif
 - name: meme_chip
   owner: iuc
   revisions:
   - 091a9d638d78
+  - cc100e0f61f4
   tool_panel_section_id: motif
   tool_panel_section_label: Motif

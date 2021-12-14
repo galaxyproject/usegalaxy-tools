@@ -158,18 +158,21 @@ tools:
   owner: iuc
   revisions:
   - 44de678a44c4
+  - 2ee8dc1aeda9
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_fastx
   owner: iuc
   revisions:
   - a8d69aee190e
+  - 720217c23995
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_fixmate
   owner: iuc
   revisions:
   - bc0cc7bfbfe9
+  - 595ae1ba934a
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_markdup
@@ -177,12 +180,14 @@ tools:
   revisions:
   - 83b8e36e9cbe
   - a312a0fdaf31
+  - d0a568e1904b
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_merge
   owner: iuc
   revisions:
   - 740ce0a18f0d
+  - 8890e2d4c068
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_phase
@@ -198,6 +203,7 @@ tools:
   - bf328cec6a42
   - ff313de5f7f4
   - b72793637686
+  - c370440f901e
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: qualimap_multi_bamqc

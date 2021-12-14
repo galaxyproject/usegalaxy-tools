@@ -24,6 +24,7 @@ tools:
   - 524d31add34a
   - 973a28be3b7f
   - b8476e82ac20
+  - 9b892d7f82cc
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: tn93
