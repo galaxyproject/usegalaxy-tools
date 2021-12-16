@@ -75,6 +75,7 @@ tools:
   - 3a656a4a43ed
   - fe3e8506112c
   - 36912871ccdc
+  - ca0d8cf80567
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: nextclade
