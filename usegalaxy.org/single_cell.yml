@@ -70,3 +70,17 @@ tools:
   owner: ebi-gxa
 - name: gtf2gene_list
   owner: ebi-gxa
+- name: alevin
+  owner: bgruening
+- name: droplet_barcode_plot
+  owner: ebi-gxa
+- name: salmon_kallisto_mtx_to_10x
+  owner: ebi-gxa
+- name: dropletutils_read_10x
+  owner: ebi-gxa
+- name: dropletutils_empty_drops
+  owner: ebi-gxa
+- name: sceasy_convert
+  owner: ebi-gxa
+- name: retrieve_scxa
+  owner: ebi-gxa
