@@ -16,5 +16,3 @@ tools:
   owner: devteam
 - name: cuffdiff
   owner: devteam
-- name: gffread
-  owner: devteam

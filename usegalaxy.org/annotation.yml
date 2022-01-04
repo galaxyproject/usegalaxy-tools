@@ -70,5 +70,3 @@ tools:
   owner: iuc
 - name: transtermhp
   owner: iuc
-- name: gffread
-  owner: iuc
