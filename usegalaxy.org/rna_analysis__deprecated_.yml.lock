@@ -57,10 +57,3 @@ tools:
   - af3e173cad7f
   tool_panel_section_id: rna_analysis__deprecated_
   tool_panel_section_label: RNA Analysis (deprecated)
-- name: gffread
-  owner: devteam
-  revisions:
-  - 4dea02886337
-  - 69e0806b63a4
-  tool_panel_section_id: rna_analysis__deprecated_
-  tool_panel_section_label: RNA Analysis (deprecated)
