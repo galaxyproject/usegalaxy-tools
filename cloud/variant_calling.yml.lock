@@ -69,7 +69,7 @@ tools:
   - 2e497a770bca
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
-  - name: sniffles
+- name: sniffles
   owner: iuc
   revisions:
   - 93c4b04a0769
