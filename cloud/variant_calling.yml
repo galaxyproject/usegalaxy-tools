@@ -20,3 +20,7 @@ tools:
   owner: iuc
 - name: snpsift
   owner: iuc
+- name: sniffles
+  owner: iuc
+- name: jasminesv
+  owner: iuc
