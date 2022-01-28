@@ -176,6 +176,7 @@ tools:
   revisions:
   - 084bbd8ba7b8
   - 949f01671246
+  - cd7e644cae1d
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: short_reads_trim_seq
