@@ -19,6 +19,7 @@ tools:
   owner: iuc
   revisions:
   - 4542035c1075
+  - a6e57ff585c0
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: volcanoplot
