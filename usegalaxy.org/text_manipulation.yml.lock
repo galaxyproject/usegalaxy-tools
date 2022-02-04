@@ -26,6 +26,7 @@ tools:
   owner: bgruening
   revisions:
   - 054483e27a35
+  - bfdc6a7ffd3a
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: add_input_name_as_column
@@ -48,6 +49,7 @@ tools:
   - 9ff72e942410
   - ddf54b12c295
   - fb4ff3c42cd3
+  - f46f0e4f75c4
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: annotatemyids
@@ -114,6 +116,7 @@ tools:
   owner: bgruening
   revisions:
   - b60f2452580e
+  - 37a53100b67e
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: query_tabular

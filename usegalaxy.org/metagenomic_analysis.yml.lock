@@ -16,6 +16,7 @@ tools:
   revisions:
   - 62c9df8382c2
   - 64be1ac21109
+  - f921014aba5a
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: vsearch
@@ -104,6 +105,7 @@ tools:
   revisions:
   - 9a5be5b1a5c9
   - 9bdcba262627
+  - bc3e90fd13be
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken_filter

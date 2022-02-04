@@ -25,6 +25,7 @@ tools:
   revisions:
   - ca6d970d931c
   - 09855551d713
+  - 28433faa6e42
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: augustus_training
@@ -32,6 +33,7 @@ tools:
   revisions:
   - 6519ebe25019
   - 7be22100e5e1
+  - dc027fa56d55
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: bp_genbank2gff3
@@ -144,6 +146,7 @@ tools:
   - d7540a923c7b
   - 438f65cb1d14
   - 72aade318318
+  - 3f987772e283
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: maker_map_ids
@@ -184,6 +187,7 @@ tools:
   - d7540a923c7b
   - 438f65cb1d14
   - 72aade318318
+  - 3f987772e283
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: roary
@@ -214,6 +218,7 @@ tools:
   - 95ea8d97abb4
   - 37b5e1f0b544
   - dd0cd2319ae5
+  - 32c11a4b5dbf
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tbprofiler

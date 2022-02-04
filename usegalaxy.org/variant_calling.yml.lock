@@ -45,6 +45,7 @@ tools:
   revisions:
   - 156b60c1530f
   - ef2c525bd8cd
+  - 04fa42777df9
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: table_annovar
@@ -161,6 +162,7 @@ tools:
   - 71dfde92fd57
   - c39113e2ae34
   - ebcd8649c621
+  - 87aa2e0a126e
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: bcftools_plugin_frameshifts
@@ -169,6 +171,7 @@ tools:
   - 48ac4d611e92
   - eb22990a2be9
   - c0b17fc737d4
+  - 77877eec9e8b
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: exomedepth

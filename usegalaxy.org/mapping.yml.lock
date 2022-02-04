@@ -20,6 +20,7 @@ tools:
   - 749c918495f7
   - c3dd1aeb7d07
   - 09b2cdb7ace5
+  - cd659e8cc5fa
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: lastz
@@ -27,6 +28,7 @@ tools:
   revisions:
   - 2ff111fac1d7
   - e7f19d6a9af8
+  - 3e1ea2facca6
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bwa
@@ -75,6 +77,7 @@ tools:
   - 29bdbc353f20
   - b4e6819b25ef
   - 6da3972210ee
+  - 62f5fab76dfb
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: minimap2
@@ -89,6 +92,7 @@ tools:
   - 1f06dccdc5d1
   - 09b53c1d4ab1
   - c0c2d0941de8
+  - 11a0d50a54e6
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: rna_starsolo

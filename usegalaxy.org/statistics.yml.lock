@@ -187,6 +187,7 @@ tools:
   owner: bgruening
   revisions:
   - 92e09b827300
+  - e6893a4bcb7b
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: create_tool_recommendation_model

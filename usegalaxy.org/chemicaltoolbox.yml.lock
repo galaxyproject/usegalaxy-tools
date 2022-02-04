@@ -13,6 +13,7 @@ tools:
   owner: bgruening
   revisions:
   - 43a9e7d9b24f
+  - 3b14765c22ee
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: get_pdb
@@ -55,12 +56,14 @@ tools:
   owner: bgruening
   revisions:
   - bbbf5fb356dd
+  - 67ee76f0e497
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: ctb_rdkit_descriptors
   owner: bgruening
   revisions:
   - a1c53f0533b0
+  - 0993ac4f4a23
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_compound_convert

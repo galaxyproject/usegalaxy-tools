@@ -121,6 +121,7 @@ tools:
   - 7e014059a88d
   - a4b734cd253b
   - c4f39bf4a068
+  - f911a64454fb
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_filtnormconf
@@ -129,6 +130,7 @@ tools:
   - 43c146e25a43
   - 7608d5faee41
   - d45f092caf24
+  - c891d8b33ede
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_inspectclusters
@@ -137,6 +139,7 @@ tools:
   - 37a47c4fd84d
   - 41f34e925bd5
   - be4646256624
+  - 2b0d3e2f402a
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_inspecttrajectory
@@ -145,6 +148,7 @@ tools:
   - 69018f285aa3
   - c8434a623268
   - 3478133d0f6f
+  - df8e4e54d367
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_trajectory
@@ -153,6 +157,7 @@ tools:
   - 44b935f2271b
   - 72979cac22b2
   - e93b008c637a
+  - c92d0f9338c5
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_filter_cells
@@ -286,6 +291,7 @@ tools:
   owner: bgruening
   revisions:
   - 04b494623f8e
+  - e4c01dcece8b
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: droplet_barcode_plot

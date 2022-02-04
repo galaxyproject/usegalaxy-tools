@@ -160,5 +160,6 @@ tools:
   owner: bgruening
   revisions:
   - 3ee0ef312022
+  - 276f5d8712d5
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore

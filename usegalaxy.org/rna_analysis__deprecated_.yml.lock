@@ -48,6 +48,7 @@ tools:
   revisions:
   - cf747d1bd79a
   - 6a6717a5f421
+  - 86285ddd4512
   tool_panel_section_id: rna_analysis__deprecated_
   tool_panel_section_label: RNA Analysis (deprecated)
 - name: cuffdiff
@@ -55,5 +56,6 @@ tools:
   revisions:
   - d3ae7d9c2202
   - af3e173cad7f
+  - 43221aef70e2
   tool_panel_section_id: rna_analysis__deprecated_
   tool_panel_section_label: RNA Analysis (deprecated)

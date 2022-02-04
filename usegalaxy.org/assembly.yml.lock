@@ -89,6 +89,7 @@ tools:
   - 9e58ff014088
   - a8a278849c18
   - 1035adb112c0
+  - ef69617ecb42
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: shovill
@@ -97,6 +98,7 @@ tools:
   - 83ead2be47b2
   - 8d1af5db538d
   - d9f6a00b6db7
+  - 2a9baa0c4316
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades
@@ -118,6 +120,7 @@ tools:
   owner: bgruening
   revisions:
   - aa39b19ca11e
+  - 7c847ec300b8
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: hifiasm
@@ -126,6 +129,7 @@ tools:
   - 6505bd37670d
   - bf0a4667e3ce
   - 9ef6920c3089
+  - 045c7c3d8e59
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: purge_dups
@@ -163,6 +167,7 @@ tools:
   owner: bgruening
   revisions:
   - 96cacb31d571
+  - a7f16f24e9a1
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: bellerophon

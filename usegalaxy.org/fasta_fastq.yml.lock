@@ -31,6 +31,7 @@ tools:
   revisions:
   - 1d8fe9bc4cb0
   - dbf9c561ef29
+  - 65b93b623c77
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_trimmer
@@ -52,6 +53,7 @@ tools:
   revisions:
   - 736b8f6ee456
   - b8658f852bc7
+  - cb1e251cac37
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_quality_filter
@@ -280,6 +282,7 @@ tools:
   owner: iuc
   revisions:
   - 71f649c23021
+  - bf04bd405d5b
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: umi_tools_count

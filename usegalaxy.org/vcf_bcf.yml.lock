@@ -36,6 +36,7 @@ tools:
   revisions:
   - 5b7120c66efc
   - f0580efedada
+  - dd44c3f416c3
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfrandomsample
@@ -119,6 +120,7 @@ tools:
   revisions:
   - 2968c6916579
   - 5e850c85ba32
+  - aa8e8c96ca06
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfbreakcreatemulti
@@ -189,6 +191,7 @@ tools:
   - ed3cfc7d2836
   - bdfdf5f6e950
   - 8aa9d9b14bcd
+  - f272b8ba0983
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: bcftools_query
@@ -379,6 +382,7 @@ tools:
   - b781fa08aa3c
   - 4813f99d81b7
   - 28b35180900b
+  - d8dddb51e831
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: bcftools_plugin_setgt
@@ -424,6 +428,7 @@ tools:
   - da6fc9f4a367
   - c077f71d351f
   - ff9e769ccd6c
+  - 67e2bd1c4579
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: bcftools_convert_to_vcf
