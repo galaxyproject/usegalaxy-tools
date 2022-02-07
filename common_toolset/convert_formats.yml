@@ -18,3 +18,6 @@ tools:
   owner: devteam
 - name: idpquery
   owner: galaxyp
+- name: compress_workflow
+  owner: iuc
+  
