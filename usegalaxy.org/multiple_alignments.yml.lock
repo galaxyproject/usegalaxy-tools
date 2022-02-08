@@ -30,6 +30,7 @@ tools:
   revisions:
   - aaefa93c2dd2
   - c5908940967d
+  - f1a5908ea2cb
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: clustalw
