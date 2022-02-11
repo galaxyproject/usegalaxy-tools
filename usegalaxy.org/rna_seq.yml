@@ -88,3 +88,9 @@ tools:
   owner: iuc
 - name: tximport
   owner: iuc
+- name: mirdeep2_mapper
+  owner: rnateam
+- name: mirdeep2_quantifier
+  owner: rnateam
+- name: mirdeep2
+  owner: rnateam
