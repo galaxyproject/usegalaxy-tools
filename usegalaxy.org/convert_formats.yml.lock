@@ -173,3 +173,5 @@ tools:
   owner: iuc
   revisions:
   - 09ea79f9f260
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
