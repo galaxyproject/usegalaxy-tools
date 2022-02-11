@@ -44,3 +44,5 @@ tools:
   owner: galaxyp
 - name: gffread
   owner: devteam
+- name: compress_file
+  owner: iuc

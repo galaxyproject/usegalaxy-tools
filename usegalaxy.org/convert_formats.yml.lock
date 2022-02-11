@@ -6,9 +6,9 @@ tools:
 - name: bioext_bam2msa
   owner: iuc
   revisions:
-  - f5792425ea50
-  - b226e0c805a5
   - 359e043a285c
+  - b226e0c805a5
+  - f5792425ea50
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: tabular_to_fasta
@@ -72,8 +72,8 @@ tools:
 - name: bax2bam
   owner: iuc
   revisions:
-  - ee356d7a5518
   - 5bd67e012d54
+  - ee356d7a5518
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_bam
@@ -81,8 +81,8 @@ tools:
   revisions:
   - 0f0cf480051b
   - 60ca8d013263
-  - e5340c09200a
   - e13f565068d6
+  - e5340c09200a
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_bed
@@ -96,34 +96,34 @@ tools:
 - name: crossmap_wig
   owner: iuc
   revisions:
-  - e8d84292e510
-  - 5f893ed3c5ed
   - 282a658c6569
+  - 5f893ed3c5ed
+  - e8d84292e510
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_vcf
   owner: iuc
   revisions:
+  - 6e96c77f5824
+  - 71730c177cdf
   - 97979c3d179f
   - b21851ddcc79
-  - 71730c177cdf
-  - 6e96c77f5824
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_gff
   owner: iuc
   revisions:
   - 09c6a9e067f9
-  - 88d180fb6d67
   - 4d97434ea0fb
+  - 88d180fb6d67
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: gfa_to_fa
   owner: iuc
   revisions:
-  - e33c82b63727
   - 49d6f8ef63b3
   - 8e9d604e92f4
+  - e33c82b63727
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: gtftobed12
@@ -164,8 +164,12 @@ tools:
 - name: gffread
   owner: devteam
   revisions:
+  - 154d00cbbf2d
   - 4dea02886337
   - 69e0806b63a4
-  - 154d00cbbf2d
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
+- name: compress_file
+  owner: iuc
+  revisions:
+  - 09ea79f9f260
