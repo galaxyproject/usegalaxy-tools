@@ -104,15 +104,14 @@ tools:
 - name: spades
   owner: nml
   revisions:
-  - d159735a6a9f
+  - b8c00ce5dfa0
   - 7897763d14ec
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades_rnaviralspades
   owner: iuc
   revisions:
-  - b8c00ce5dfa0
-  - 7897763d14ec
+  - d159735a6a9f
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades_metaplasmidspades
