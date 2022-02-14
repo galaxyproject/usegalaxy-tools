@@ -255,3 +255,87 @@ tools:
   - 012171ba9fce
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: funannotate_clean
+  owner: iuc
+  revisions:
+  - a230ea445788
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: funannotate_sort
+  owner: iuc
+  revisions:
+  - b3cf4684e9c7
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: funannotate_predict
+  owner: iuc
+  revisions:
+  - 2bba2ff070d9
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: funannotate_compare
+  owner: iuc
+  revisions:
+  - 563a19373357
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: funannotate_annotate
+  owner: iuc
+  revisions:
+  - 14f588312c56
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: data_manager_funannotate
+  owner: iuc
+  revisions:
+  - 0cadd0a04412
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: data_manager_eggnog_mapper_abspath
+  owner: galaxyp
+  revisions:
+  - fcb8bdd124f4
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: eggnog_mapper
+  owner: galaxyp
+  revisions:
+  - 63662ae295d6
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: interproscan
+  owner: bgruening
+  revisions:
+  - c55643c3d813
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: data_manager_interproscan
+  owner: iuc
+  revisions:
+  - 7776cb18fdf8
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: aegean_canongff3
+  owner: iuc
+  revisions:
+  - 3f438bf5475d
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: aegean_locuspocus
+  owner: iuc
+  revisions:
+  - c4ac24510b55
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: aegean_parseval
+  owner: iuc
+  revisions:
+  - 1b52f0c8ad7f
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: aegean_gaeval
+  owner: iuc
+  revisions:
+  - 1dd7adc21b6d
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation

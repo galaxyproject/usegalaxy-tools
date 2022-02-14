@@ -70,3 +70,31 @@ tools:
   owner: iuc
 - name: transtermhp
   owner: iuc
+- name: funannotate_clean
+  owner: iuc
+- name: funannotate_sort
+  owner: iuc
+- name: funannotate_predict
+  owner: iuc
+- name: funannotate_compare
+  owner: iuc
+- name: funannotate_annotate
+  owner: iuc
+- name: data_manager_funannotate
+  owner: iuc
+- name: data_manager_eggnog_mapper_abspath
+  owner: galaxyp
+- name: eggnog_mapper
+  owner: galaxyp
+- name: interproscan
+  owner: bgruening
+- name: data_manager_interproscan
+  owner: iuc
+- name: aegean_canongff3
+  owner: iuc
+- name: aegean_locuspocus
+  owner: iuc
+- name: aegean_parseval
+  owner: iuc
+- name: aegean_gaeval
+  owner: iuc
