@@ -2,8 +2,6 @@ tool_panel_section_label: Du Novo
 tools:
 - name: dunovo
   owner: nick
-- name: duplex
-  owner: nick
 - name: sequence_content_trimmer
   owner: nick
 - name: duplex_family_size_distribution
