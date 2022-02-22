@@ -9,12 +9,6 @@ tools:
   - 9dc43bf7d1db
   tool_panel_section_id: du_novo
   tool_panel_section_label: Du Novo
-- name: duplex
-  owner: nick
-  revisions:
-  - 9a0bee12b583
-  tool_panel_section_id: du_novo
-  tool_panel_section_label: Du Novo
 - name: sequence_content_trimmer
   owner: nick
   revisions:
