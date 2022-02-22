@@ -7,6 +7,7 @@ tools:
   owner: nick
   revisions:
   - 9dc43bf7d1db
+  - 0f8e0dc73d1d
   tool_panel_section_id: du_novo
   tool_panel_section_label: Du Novo
 - name: sequence_content_trimmer
