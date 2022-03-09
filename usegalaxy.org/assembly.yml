@@ -24,6 +24,18 @@ tools:
   owner: iuc
 - name: rnaspades
   owner: iuc
+- name: spades_rnaviralspades
+  owner: iuc
+- name: spades_metaplasmidspades
+  owner: iuc
+- name: spades_coronaspades
+  owner: iuc
+- name: spades_biosyntheticspades
+  owner: iuc
+- name: spades_plasmidspades
+  owner: iuc
+- name: spades_metaviralspades
+  owner: iuc
 - name: shovill
   owner: iuc
 - name: spades
