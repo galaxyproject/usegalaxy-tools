@@ -3,6 +3,12 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: Graph/Display Data
 tools:
+- name: circos
+  owner: iuc
+  revisions:
+  - 290a11559985
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
 - name: ml_visualization_ex
   owner: bgruening
   revisions:
