@@ -162,3 +162,9 @@ tools:
   - 3ee0ef312022
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
+- name: pycoqc
+  owner: iuc
+  revisions:
+  - 3a2f2e24c37e
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
