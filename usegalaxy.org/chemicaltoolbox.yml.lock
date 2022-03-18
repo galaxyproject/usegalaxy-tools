@@ -117,6 +117,12 @@ tools:
   - 534ff13ea227
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
+- name: gmx_energy
+  owner: chemteam
+  revisions:
+  - 0920286a2d41
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
 - name: parmconv
   owner: chemteam
   revisions:
