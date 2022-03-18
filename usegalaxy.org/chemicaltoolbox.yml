@@ -38,6 +38,8 @@ tools:
   owner: chemteam
 - name: gmx_merge_topology_files
   owner: chemteam
+- name: gmx_energy
+  owner: chemteam
 - name: parmconv
   owner: chemteam
 - name: md_converter
