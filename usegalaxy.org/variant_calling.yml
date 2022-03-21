@@ -64,3 +64,7 @@ tools:
   owner: iuc
 - name: jasminesv
   owner: iuc
+- name: strelka_germline
+  owner: iuc
+- name: strelka_somatic
+  owner: iuc
