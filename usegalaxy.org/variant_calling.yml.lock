@@ -35,8 +35,8 @@ tools:
 - name: snpsift
   owner: iuc
   revisions:
-  - 2e497a770bca
   - 2b3e65a4252f
+  - 2e497a770bca
   - 5fab4f81391d
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -167,8 +167,8 @@ tools:
   owner: iuc
   revisions:
   - 48ac4d611e92
-  - eb22990a2be9
   - c0b17fc737d4
+  - eb22990a2be9
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: exomedepth
@@ -180,11 +180,11 @@ tools:
 - name: gatk4_mutect2
   owner: iuc
   revisions:
+  - 1cea23583655
   - 287c4af133e6
   - 3be27a9a7313
-  - fd2d6e035c3f
-  - 1cea23583655
   - 53ce8be43212
+  - fd2d6e035c3f
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: mixcr_analyze
@@ -209,8 +209,8 @@ tools:
 - name: varscan_mpileup
   owner: iuc
   revisions:
-  - e3f170cc4f95
   - db94eadb92c1
+  - e3f170cc4f95
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: varscan_somatic
@@ -243,5 +243,17 @@ tools:
   owner: iuc
   revisions:
   - 2b62154e39c8
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: strelka_germline
+  owner: iuc
+  revisions:
+  - 19481653a22f
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: strelka_somatic
+  owner: iuc
+  revisions:
+  - edbdbc64b397
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
