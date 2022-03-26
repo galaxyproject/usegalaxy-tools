@@ -31,6 +31,7 @@ tools:
   revisions:
   - 1d8fe9bc4cb0
   - dbf9c561ef29
+  - 65b93b623c77
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_trimmer
@@ -65,6 +66,7 @@ tools:
   owner: iuc
   revisions:
   - f088370d2a3c
+  - e3ba567abdf5
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_renamer
@@ -262,6 +264,7 @@ tools:
   revisions:
   - 8880fb74ef56
   - a72af9de6bf5
+  - 41b2ad601cf0
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: pear
@@ -280,6 +283,7 @@ tools:
   owner: iuc
   revisions:
   - 71f649c23021
+  - bf04bd405d5b
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: umi_tools_count
