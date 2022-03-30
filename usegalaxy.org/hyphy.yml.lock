@@ -6,6 +6,7 @@ tools:
 - name: hyphy_absrel
   owner: iuc
   revisions:
+  - 212c958f6cee
   - 5f2ca10db92a
   - 9275e81b5590
   - d033ffc1c161
@@ -28,6 +29,7 @@ tools:
 - name: hyphy_annotate
   owner: iuc
   revisions:
+  - e6009f23582c
   - f7810488bd92
   - a88848771d2d
   - df56795c3d89
@@ -38,6 +40,7 @@ tools:
 - name: hyphy_bgm
   owner: iuc
   revisions:
+  - 5b6b8b08f1a9
   - d1c977aee228
   - d88bbb287923
   - ede53272264e
@@ -60,6 +63,7 @@ tools:
 - name: hyphy_busted
   owner: iuc
   revisions:
+  - e931e69b5a80
   - 70fab57f3c05
   - e2f03a50aace
   - 12bc58a60606
@@ -81,6 +85,7 @@ tools:
 - name: hyphy_cfel
   owner: iuc
   revisions:
+  - 5b63871000c9
   - fb833dd994f2
   - 3d4ea0544af1
   - 643be54bef90
@@ -90,6 +95,7 @@ tools:
 - name: hyphy_conv
   owner: iuc
   revisions:
+  - 3ea647006f17
   - f6e7b5955712
   - 9ce3d6d4bd0e
   - c1d24ff838c8
@@ -100,6 +106,7 @@ tools:
 - name: hyphy_fade
   owner: iuc
   revisions:
+  - eb23ebaf69d2
   - 5e8d0e777033
   - 17ac281a46d9
   - 270763dcdfb4
@@ -122,6 +129,7 @@ tools:
 - name: hyphy_fel
   owner: iuc
   revisions:
+  - 8a6ef85b934d
   - 8276bb2adea5
   - 389fd0e51bcb
   - 86ea61f31779
@@ -144,6 +152,7 @@ tools:
 - name: hyphy_fubar
   owner: iuc
   revisions:
+  - 55a45d4c31dc
   - cd41e7a4d35f
   - c5ef306c2041
   - 271afda54a6d
@@ -166,6 +175,7 @@ tools:
 - name: hyphy_gard
   owner: iuc
   revisions:
+  - 26834f8534f9
   - 1fb98a84e86d
   - a0731e81e0c2
   - 02b8758214b0
@@ -188,6 +198,7 @@ tools:
 - name: hyphy_meme
   owner: iuc
   revisions:
+  - 5d8389d684bf
   - e0763df98352
   - 2f07f5b4e47b
   - 6433eab14244
@@ -210,6 +221,7 @@ tools:
 - name: hyphy_prime
   owner: iuc
   revisions:
+  - f207757f9ca2
   - 6d29207a32c5
   - 296f6bc03fa6
   - bdcfaa985c16
@@ -232,6 +244,7 @@ tools:
 - name: hyphy_relax
   owner: iuc
   revisions:
+  - 49885a825dc1
   - a4c5dc437558
   - 801547975424
   - 7cd99ec269ee
@@ -254,6 +267,7 @@ tools:
 - name: hyphy_slac
   owner: iuc
   revisions:
+  - 365e33adf3a4
   - 0c6724c345d9
   - ec499ddce7a9
   - a2e3319aca46
@@ -276,6 +290,7 @@ tools:
 - name: hyphy_sm19
   owner: iuc
   revisions:
+  - 00b4cf477625
   - 36e40d93e8a3
   - f1261376fd4b
   - 4636d51b049c
@@ -298,6 +313,7 @@ tools:
 - name: hyphy_strike_ambigs
   owner: iuc
   revisions:
+  - 193dcaef2169
   - 4bf743518e41
   - 7c86ceaf523c
   - 50554f806e16
@@ -307,6 +323,7 @@ tools:
 - name: hyphy_summary
   owner: iuc
   revisions:
+  - 81b23515db14
   - f304c108aa1f
   - bd90215b7d15
   - 11dd1a96ffe9
