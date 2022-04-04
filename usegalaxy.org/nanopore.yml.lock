@@ -159,6 +159,9 @@ tools:
 - name: flye
   owner: bgruening
   revisions:
+  - 276f5d8712d5
+  - 0284be52bfcf
+  - de24438c9988
   - 3ee0ef312022
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
