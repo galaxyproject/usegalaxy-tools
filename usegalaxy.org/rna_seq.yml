@@ -84,6 +84,8 @@ tools:
   owner: iuc
 - name: trinity_filter_low_expr_transcripts
   owner: iuc
+- name: trinity_gene_to_trans_map
+  owner: iuc
 - name: trinotate
   owner: iuc
 - name: tximport
