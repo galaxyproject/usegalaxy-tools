@@ -144,6 +144,8 @@ tools:
   - d7540a923c7b
   - 438f65cb1d14
   - 72aade318318
+  - 39b40a9a6296
+  - 3f987772e283
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: maker_map_ids
