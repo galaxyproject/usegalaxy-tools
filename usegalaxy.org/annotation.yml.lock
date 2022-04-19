@@ -255,3 +255,21 @@ tools:
   - 012171ba9fce
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: find_nested_alt_orfs
+  owner: iuc
+  revisions:
+  - 14f4c7a8a962
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: bicodon_counts_from_fasta
+  owner: iuc
+  revisions:
+  - e13169dca7c8
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: codon_freq_from_bicodons
+  owner: iuc
+  revisions:
+  - cc5a776acd47
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
