@@ -22,6 +22,7 @@ tools:
   owner: iuc
   revisions:
   - c47a0a93ffd2
+  - 6c829a430475
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ebi_metagenomics_run_downloader
