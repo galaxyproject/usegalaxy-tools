@@ -50,7 +50,7 @@ tools:
 - name: table_annovar
   owner: devteam
   revisions:
-  - 08b003ee9db7
+  - d4e292ddda05
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: mutate_snp_codon
