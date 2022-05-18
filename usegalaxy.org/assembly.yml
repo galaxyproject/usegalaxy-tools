@@ -64,3 +64,5 @@ tools:
   owner: iuc
 - name: pretext_snapshot
   owner: iuc
+- name: gfastats
+  owner: bgruening

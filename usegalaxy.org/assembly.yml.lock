@@ -240,3 +240,10 @@ tools:
   - 44c66e8d21e6
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: gfastats
+  owner: bgruening
+  revisions:
+  - 5799092ffdff
+  - 2b8b4cacb83d
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
