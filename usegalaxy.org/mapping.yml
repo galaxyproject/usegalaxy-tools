@@ -24,3 +24,5 @@ tools:
   owner: iuc
 - name: rna_starsolo
   owner: iuc
+- name: bwa_mem2
+  owner: iuc
