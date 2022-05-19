@@ -75,3 +75,9 @@ tools:
   - 89d299153577
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
+- name: fastq_info
+  owner: bgruening
+  revisions:
+  - 7a821cd57b43
+  tool_panel_section_id: fastq_quality_control
+  tool_panel_section_label: FASTQ Quality Control
