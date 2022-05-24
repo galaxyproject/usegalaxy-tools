@@ -15,9 +15,10 @@ tools:
   owner: iuc
   revisions:
   - 59db8ea8c845
-  - ebb0dcdb621a
+  - 675488238c96
   - 7594365c546b
   - 875d0f36d66f
+  - ebb0dcdb621a
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: trinity_psc
@@ -57,9 +58,9 @@ tools:
 - name: megahit
   owner: iuc
   revisions:
+  - 14ddfc8ffb93
   - 7518ee87b53d
   - de387b2b2803
-  - 14ddfc8ffb93
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: metaspades
@@ -73,10 +74,10 @@ tools:
   owner: iuc
   revisions:
   - 2dcd07f40204
+  - 80d1250bd5fd
   - 8b6d0d85252b
   - 8dee0218ac7d
   - a7b889b90140
-  - 80d1250bd5fd
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pilon
@@ -89,43 +90,31 @@ tools:
   owner: iuc
   revisions:
   - 03fd468e158f
-  - 9e58ff014088
-  - a8a278849c18
   - 1035adb112c0
   - 53c2bc8c2ae3
-  tool_panel_section_id: assembly
-  tool_panel_section_label: Assembly
-- name: shovill
-  owner: iuc
-  revisions:
-  - 83ead2be47b2
-  - 8d1af5db538d
-  - d9f6a00b6db7
-  - 2a9baa0c4316
-  tool_panel_section_id: assembly
-  tool_panel_section_label: Assembly
-- name: spades
-  owner: nml
-  revisions:
-  - b8c00ce5dfa0
-  - 7897763d14ec
+  - 9e58ff014088
+  - a8a278849c18
+  - e122f9101584
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades_rnaviralspades
   owner: iuc
   revisions:
+  - b65a43f70b99
   - d159735a6a9f
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades_metaplasmidspades
   owner: iuc
   revisions:
+  - 6b5a5842531e
   - b8002c3f7141
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades_coronaspades
   owner: iuc
   revisions:
+  - ad8b536d1caa
   - d6e617c4e338
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -133,18 +122,37 @@ tools:
   owner: iuc
   revisions:
   - 7490b213baa9
+  - 904bf932cf78
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades_plasmidspades
   owner: iuc
   revisions:
   - 340bc17f49cf
+  - 85fb02c43042
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades_metaviralspades
   owner: iuc
   revisions:
   - 2a10645aeadd
+  - 9de69775f512
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: shovill
+  owner: iuc
+  revisions:
+  - 2a9baa0c4316
+  - 83ead2be47b2
+  - 8d1af5db538d
+  - d9f6a00b6db7
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: spades
+  owner: nml
+  revisions:
+  - 7897763d14ec
+  - b8c00ce5dfa0
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: bandage
@@ -159,26 +167,26 @@ tools:
 - name: racon
   owner: bgruening
   revisions:
-  - aa39b19ca11e
   - 7c847ec300b8
+  - aa39b19ca11e
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: hifiasm
   owner: bgruening
   revisions:
-  - 6505bd37670d
-  - bf0a4667e3ce
-  - 9ef6920c3089
   - 045c7c3d8e59
+  - 6505bd37670d
+  - 9ef6920c3089
+  - bf0a4667e3ce
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: purge_dups
   owner: iuc
   revisions:
   - 29151e779524
-  - cf13a1e03e5b
   - 76d4cbefff85
   - a315c25dc813
+  - cf13a1e03e5b
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: meryl
@@ -186,40 +194,43 @@ tools:
   revisions:
   - 31fa26c0692b
   - 5ae3496f9ca3
+  - 9cd178127b19
   - eadfd71dde37
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: merqury
   owner: iuc
   revisions:
-  - 9d79beb19ac3
   - 39edec572bae
+  - 589078edd230
+  - 9d79beb19ac3
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: genomescope
   owner: iuc
   revisions:
-  - b2f674562a18
   - 3169a38c2656
+  - b2f674562a18
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: bionano_scaffold
   owner: bgruening
   revisions:
-  - 96cacb31d571
   - 5258e18bbe23
+  - 96cacb31d571
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: bellerophon
   owner: iuc
   revisions:
-  - eca6296a091a
   - 25ca5d73aedf
+  - eca6296a091a
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: salsa
   owner: iuc
   revisions:
+  - 9a22227bb6d0
   - ba7b0f11e470
   - f77f7a7f3b83
   tool_panel_section_id: assembly
@@ -228,22 +239,22 @@ tools:
   owner: iuc
   revisions:
   - 02831bf9e95f
-  - 8fef980d48b5
   - 2b16ba799da9
+  - 8fef980d48b5
   - dfb8a4497339
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pretext_snapshot
   owner: iuc
   revisions:
-  - 7c9417381ad5
   - 44c66e8d21e6
+  - 7c9417381ad5
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: gfastats
   owner: bgruening
   revisions:
-  - 5799092ffdff
   - 2b8b4cacb83d
+  - 5799092ffdff
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
