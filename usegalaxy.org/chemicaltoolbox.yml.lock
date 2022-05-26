@@ -90,30 +90,35 @@ tools:
 - name: gmx_solvate
   owner: chemteam
   revisions:
+  - 8ad46f918541
   - 598e0078040b
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_em
   owner: chemteam
   revisions:
+  - 59c662ca4211
   - 1b46398cc8ca
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_sim
   owner: chemteam
   revisions:
+  - 525ca7c8065f
   - b7cebf442209
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_makendx
   owner: chemteam
   revisions:
+  - 5f9f51642a24
   - 9acc0fc74373
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_merge_topology_files
   owner: chemteam
   revisions:
+  - 534ff13ea227
   - 04abdf96978b
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
@@ -138,6 +143,7 @@ tools:
 - name: ambertools_acpype
   owner: chemteam
   revisions:
+  - a0c154146234
   - 095ad4d096d1
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
@@ -150,6 +156,7 @@ tools:
 - name: ambertools_antechamber
   owner: chemteam
   revisions:
+  - 4fff93efc0f9
   - 8a839e6a1e3e
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
