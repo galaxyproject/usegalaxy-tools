@@ -16,6 +16,7 @@ tools:
   revisions:
   - 62c9df8382c2
   - 64be1ac21109
+  - 1e3323a44643
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: vsearch

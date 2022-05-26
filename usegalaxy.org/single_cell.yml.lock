@@ -286,6 +286,7 @@ tools:
   owner: bgruening
   revisions:
   - 04b494623f8e
+  - e4c01dcece8b
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: droplet_barcode_plot

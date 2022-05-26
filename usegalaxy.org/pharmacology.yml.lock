@@ -7,5 +7,6 @@ tools:
   owner: bgruening
   revisions:
   - d67642a21a1d
+  - 891283e0ee89
   tool_panel_section_id: pharmacology
   tool_panel_section_label: Pharmacology

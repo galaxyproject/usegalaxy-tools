@@ -72,6 +72,7 @@ tools:
   - 54f751e413f4
   - 62c9df8382c2
   - 64be1ac21109
+  - 1e3323a44643
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: kallisto_quant
