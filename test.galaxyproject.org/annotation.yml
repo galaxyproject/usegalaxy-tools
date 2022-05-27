@@ -8,3 +8,5 @@ tools:
   owner: bgruening
 - name: busco
   owner: iuc
+- name: maker
+  owner: iuc
