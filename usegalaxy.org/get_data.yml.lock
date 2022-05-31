@@ -8,14 +8,21 @@ tools:
   revisions:
   - 248f85ff0733
   - 653e89d73fc4
+  - 69ebb7f46e45
   - 7068f48d0ef9
+  - 83c7d564b128
   - 964579f93c54
   - aad3885b3216
   - c441583adae5
-  - f5ea3ce9b9b0
   - e08a7ad4378b
-  - 69ebb7f46e45
-  - 83c7d564b128
+  - f5ea3ce9b9b0
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+- name: ncbi_datasets
+  owner: iuc
+  revisions:
+  - c47a0a93ffd2
+  - 6c829a430475
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ebi_metagenomics_run_downloader

@@ -1,0 +1,12 @@
+install_repository_dependencies: true
+install_resolver_dependencies: true
+install_tool_dependencies: false
+tool_panel_section_label: Pharmacology
+tools:
+- name: pharmcat
+  owner: bgruening
+  revisions:
+  - d67642a21a1d
+  - 891283e0ee89
+  tool_panel_section_id: pharmacology
+  tool_panel_section_label: Pharmacology

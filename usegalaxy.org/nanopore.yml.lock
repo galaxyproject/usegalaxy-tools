@@ -160,5 +160,16 @@ tools:
   owner: bgruening
   revisions:
   - 3ee0ef312022
+  - de24438c9988
+  - 0284be52bfcf
+  - 8d4f03b5fe9d
+  - e27815e82dd4
+  - 276f5d8712d5
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: pycoqc
+  owner: iuc
+  revisions:
+  - 3a2f2e24c37e
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
