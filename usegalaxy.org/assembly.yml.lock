@@ -126,6 +126,10 @@ tools:
   - 6505bd37670d
   - bf0a4667e3ce
   - 9ef6920c3089
+  - 3f7be05a1597
+  - 045c7c3d8e59
+  - 5bec28269d95
+  - 366a11d316a7
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: purge_dups
