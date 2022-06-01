@@ -278,3 +278,13 @@ tools:
   - cc5a776acd47
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: antismash
+  owner: bgruening
+  revisions:
+  - 5db064bbb3be
+  - 593bb8f5488b
+  - 3f0077c88c16
+  - 5784e268efca
+  - e78e25d3b4bd
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation

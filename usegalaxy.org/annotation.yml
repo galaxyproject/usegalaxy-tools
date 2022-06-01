@@ -76,3 +76,5 @@ tools:
   owner: iuc
 - name: codon_freq_from_bicodons
   owner: iuc
+- name: antismash
+  owner: bgruening
