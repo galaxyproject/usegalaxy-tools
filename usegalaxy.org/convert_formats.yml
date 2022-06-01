@@ -42,3 +42,7 @@ tools:
   owner: galaxyp
 - name: mz_to_sqlite
   owner: galaxyp
+- name: gffread
+  owner: devteam
+- name: compress_file
+  owner: iuc

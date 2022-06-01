@@ -75,6 +75,7 @@ tools:
   - 29bdbc353f20
   - b4e6819b25ef
   - 6da3972210ee
+  - 62f5fab76dfb
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: minimap2
@@ -89,6 +90,7 @@ tools:
   - 1f06dccdc5d1
   - 09b53c1d4ab1
   - c0c2d0941de8
+  - 11a0d50a54e6
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: rna_starsolo
@@ -99,5 +101,12 @@ tools:
   - ec9cbd6b9a49
   - a6fba3d92531
   - eec9494fdafa
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: bwa_mem2
+  owner: iuc
+  revisions:
+  - 88bcfaea2fb6
+  - b4a22d90cce9
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
