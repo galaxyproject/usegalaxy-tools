@@ -143,6 +143,8 @@ tools:
   - 31fa26c0692b
   - 5ae3496f9ca3
   - eadfd71dde37
+  - 9cd178127b19
+  - 29dabd8db6f2
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: merqury
