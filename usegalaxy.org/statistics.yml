@@ -61,7 +61,7 @@ tools:
 - name: seq_composition
   owner: peterjc
 - name: seqcomplexity
-  owner: iuc 
+  owner: iuc
 - name: scipy_sparse
   owner: bgruening
 - name: create_tool_recommendation_model
