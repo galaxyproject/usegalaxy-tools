@@ -183,6 +183,12 @@ tools:
   - 13be788233da
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
+- name: seqcomplexity
+  owner: iuc
+  revisions:
+  - f14a21f3d5b1
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
 - name: scipy_sparse
   owner: bgruening
   revisions:
