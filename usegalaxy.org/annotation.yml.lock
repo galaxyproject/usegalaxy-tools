@@ -25,6 +25,7 @@ tools:
   revisions:
   - ca6d970d931c
   - 09855551d713
+  - 28433faa6e42
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: augustus_training
@@ -32,6 +33,7 @@ tools:
   revisions:
   - 6519ebe25019
   - 7be22100e5e1
+  - dc027fa56d55
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: bp_genbank2gff3
@@ -144,6 +146,8 @@ tools:
   - d7540a923c7b
   - 438f65cb1d14
   - 72aade318318
+  - 39b40a9a6296
+  - 3f987772e283
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: maker_map_ids
@@ -184,6 +188,7 @@ tools:
   - d7540a923c7b
   - 438f65cb1d14
   - 72aade318318
+  - 3f987772e283
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: roary
@@ -253,5 +258,33 @@ tools:
   owner: iuc
   revisions:
   - 012171ba9fce
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: find_nested_alt_orfs
+  owner: iuc
+  revisions:
+  - 14f4c7a8a962
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: bicodon_counts_from_fasta
+  owner: iuc
+  revisions:
+  - e13169dca7c8
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: codon_freq_from_bicodons
+  owner: iuc
+  revisions:
+  - cc5a776acd47
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: antismash
+  owner: bgruening
+  revisions:
+  - 5db064bbb3be
+  - 593bb8f5488b
+  - 3f0077c88c16
+  - 5784e268efca
+  - e78e25d3b4bd
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

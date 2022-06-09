@@ -161,3 +161,17 @@ tools:
   - f5c632894818
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
+- name: gffread
+  owner: devteam
+  revisions:
+  - 4dea02886337
+  - 69e0806b63a4
+  - 154d00cbbf2d
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: compress_file
+  owner: iuc
+  revisions:
+  - 09ea79f9f260
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats

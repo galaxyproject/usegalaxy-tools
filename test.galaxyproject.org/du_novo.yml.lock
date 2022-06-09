@@ -19,6 +19,7 @@ tools:
   owner: nick
   revisions:
   - 7f170cb06e2e
+  - 464aee13e2df
   tool_panel_section_id: du_novo
   tool_panel_section_label: Du Novo
 - name: duplex_family_size_distribution

@@ -30,3 +30,5 @@ tools:
   owner: devteam
 - name: genrich
   owner: iuc
+- name: seacr
+  owner: iuc

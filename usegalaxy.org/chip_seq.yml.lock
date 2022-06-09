@@ -50,6 +50,7 @@ tools:
   owner: bgruening
   revisions:
   - 194e3f2c1d86
+  - 163688bb8f73
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: tag_pileup_frequency
@@ -96,5 +97,11 @@ tools:
   owner: iuc
   revisions:
   - 8353f3cc03db
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
+- name: seacr
+  owner: iuc
+  revisions:
+  - 66b7657f0bd6
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq

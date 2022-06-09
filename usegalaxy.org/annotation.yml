@@ -70,3 +70,11 @@ tools:
   owner: iuc
 - name: transtermhp
   owner: iuc
+- name: find_nested_alt_orfs
+  owner: iuc
+- name: bicodon_counts_from_fasta
+  owner: iuc
+- name: codon_freq_from_bicodons
+  owner: iuc
+- name: antismash
+  owner: bgruening

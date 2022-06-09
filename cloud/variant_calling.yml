@@ -1,5 +1,7 @@
 tool_panel_section_label: Variant Calling
 tools:
+- name: snpfreqplot
+  owner: iuc
 - name: lofreq_call
   owner: iuc
 - name: lofreq_viterbi
@@ -19,4 +21,8 @@ tools:
 - name: snpeff
   owner: iuc
 - name: snpsift
+  owner: iuc
+- name: sniffles
+  owner: iuc
+- name: jasminesv
   owner: iuc
