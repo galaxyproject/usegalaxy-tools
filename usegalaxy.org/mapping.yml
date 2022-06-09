@@ -26,3 +26,5 @@ tools:
   owner: iuc
 - name: bwa_mem2
   owner: iuc
+- name: pileometh
+  owner: bgruening

@@ -110,3 +110,11 @@ tools:
   - b4a22d90cce9
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: pileometh
+  owner: bgruening
+  revisions:
+  - 15df15127c18
+  - 183cb55b1729
+  - d6787bab7b11
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
