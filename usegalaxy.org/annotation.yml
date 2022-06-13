@@ -78,3 +78,5 @@ tools:
   owner: iuc
 - name: antismash
   owner: bgruening
+- name: orfipy
+  owner: iuc
