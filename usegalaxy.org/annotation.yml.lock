@@ -58,6 +58,8 @@ tools:
   - cf13a1e03e5b
   - 0d243f458b53
   - 46ae58b1d792
+  - e4bd1e99bacf
+  - 41030a6c03b7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: exonerate
