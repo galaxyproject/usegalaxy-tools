@@ -57,3 +57,15 @@ tools:
   - 084bbd8ba7b8
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
+- name: umi_tools_count
+  owner: iuc
+  revisions:
+  - 8250ea3a1501
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: umi_tools_extract
+  owner: iuc
+  revisions:
+  - 6a675c3aa610
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ

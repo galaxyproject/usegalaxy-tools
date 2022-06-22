@@ -93,6 +93,12 @@ tools:
   - fa662ca7ae7f
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
+- name: droplet_barcode_plot
+  owner: ebi-gxa
+  revisions:
+  - 8f605643ccfd
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
 - name: raceid_inspectclusters
   owner: iuc
   revisions:
@@ -217,6 +223,42 @@ tools:
   owner: iuc
   revisions:
   - bf2017df9837
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_read_10x
+  owner: ebi-gxa
+  revisions:
+  - d92e6f12b790
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: gtf2gene_list
+  owner: ebi-gxa
+  revisions:
+  - 1a642de6db01
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: salmon_kallisto_mtx_to_10x
+  owner: ebi-gxa
+  revisions:
+  - 88f5a0a6a818
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: sceasy_convert
+  owner: ebi-gxa
+  revisions:
+  - f62bc418173f
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: anndata_ops
+  owner: ebi-gxa
+  revisions:
+  - 54f1212d26ac
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: retrieve_scxa
+  owner: ebi-gxa
+  revisions:
+  - 72b6e1747e37
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_parameter_iterator

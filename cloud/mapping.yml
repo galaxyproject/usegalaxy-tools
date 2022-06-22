@@ -10,3 +10,7 @@ tools:
   owner: iuc
 - name: lastz
   owner: devteam
+- name: rgrnastar
+  owner: iuc
+- name: rna_starsolo
+  owner: iuc

@@ -18,3 +18,5 @@ tools:
   owner: iuc
 - name: stringtie
   owner: iuc
+- name: featurecounts
+  owner: iuc

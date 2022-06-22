@@ -33,3 +33,15 @@ tools:
   - e7f19d6a9af8
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: rgrnastar
+  owner: iuc
+  revisions:
+  - c772497b2c32
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: rna_starsolo
+  owner: iuc
+  revisions:
+  - eec9494fdafa
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
