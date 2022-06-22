@@ -8,6 +8,7 @@ tools:
   revisions:
   - 75c93c70d094
   - 9a913cdee30e
+  - df99138d2776
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastp
