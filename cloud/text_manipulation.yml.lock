@@ -67,6 +67,7 @@ tools:
   owner: bgruening
   revisions:
   - ddf54b12c295
+  - 9ff72e942410
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: reshape2_melt

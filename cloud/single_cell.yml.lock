@@ -45,7 +45,6 @@ tools:
   owner: iuc
   revisions:
   - 55e35e9203cf
-  - ae1e5d9d8972
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_export
@@ -57,7 +56,6 @@ tools:
 - name: anndata_manipulate
   owner: iuc
   revisions:
-  - 8db95f488f0f
   - 9bd945a03d7b
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -70,8 +68,8 @@ tools:
 - name: anndata_inspect
   owner: iuc
   revisions:
-  - 383dcb0500f9
   - 688357ad5e61
+  - 286a24ac079c
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: modify_loom
@@ -84,6 +82,7 @@ tools:
   owner: iuc
   revisions:
   - a9caad671439
+  - 2c1200fba922
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: dropletutils_read_10x
@@ -115,6 +114,7 @@ tools:
   owner: iuc
   revisions:
   - c891d8b33ede
+  - 43c146e25a43
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_clustering
@@ -206,7 +206,6 @@ tools:
 - name: scanpy_cluster_reduce_dimension
   owner: iuc
   revisions:
-  - 35bc2eb568ed
   - aaa5da8e73a9
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -214,7 +213,6 @@ tools:
   owner: iuc
   revisions:
   - b409c2486353
-  - f87ed6503715
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_inspect
@@ -226,21 +224,19 @@ tools:
 - name: scanpy_normalize
   owner: iuc
   revisions:
-  - 5342ce58cd1e
   - ab55fe8030b6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_plot
   owner: iuc
   revisions:
-  - 6adf98e782f3
   - aa0c474463c2
+  - a8f865950ac4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_remove_confounders
   owner: iuc
   revisions:
-  - 80d4e2cac903
   - bf2017df9837
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
