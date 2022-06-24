@@ -67,6 +67,7 @@ tools:
   owner: bgruening
   revisions:
   - e2c36f62e22f
+  - b59c91adeac1
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: get_online_data
@@ -79,12 +80,14 @@ tools:
   owner: chemteam
   revisions:
   - a66c193fafdb
+  - ed736e6eee39
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_editconf
   owner: chemteam
   revisions:
   - b9e25ec471eb
+  - 79cfd9ead848
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_solvate
@@ -92,6 +95,7 @@ tools:
   revisions:
   - 8ad46f918541
   - 598e0078040b
+  - 7568ae18908a
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_em
@@ -138,6 +142,7 @@ tools:
   owner: chemteam
   revisions:
   - d7ec25187599
+  - ba83f0923369
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: ambertools_acpype
@@ -632,6 +637,7 @@ tools:
   owner: iuc
   revisions:
   - ef2ad746b589
+  - 43798b4caee0
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: vmd_hbonds
