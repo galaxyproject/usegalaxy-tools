@@ -8,5 +8,6 @@ tools:
   revisions:
   - 7d34178f2812
   - a1f0b3f4b781
+  - 1aac2a13842a
   tool_panel_section_id: picard
   tool_panel_section_label: Picard

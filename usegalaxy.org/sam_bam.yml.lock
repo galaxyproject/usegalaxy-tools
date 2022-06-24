@@ -181,6 +181,7 @@ tools:
   - 83b8e36e9cbe
   - a312a0fdaf31
   - d0a568e1904b
+  - 887e02a45734
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_merge
@@ -188,6 +189,7 @@ tools:
   revisions:
   - 740ce0a18f0d
   - 8890e2d4c068
+  - b40e2d865d52
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_phase
@@ -204,6 +206,7 @@ tools:
   - ff313de5f7f4
   - b72793637686
   - c370440f901e
+  - 0dbf49c414ae
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: qualimap_multi_bamqc
