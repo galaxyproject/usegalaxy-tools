@@ -25,5 +25,6 @@ tools:
   owner: iuc
   revisions:
   - 071084070619
+  - 58228a4d58fe
   tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations

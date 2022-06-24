@@ -18,3 +18,7 @@ tools:
   owner: iuc
 - name: trim_galore
   owner: bgruening
+- name: umi_tools_count
+  owner: iuc
+- name: umi_tools_extract
+  owner: iuc

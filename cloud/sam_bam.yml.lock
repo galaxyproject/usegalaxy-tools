@@ -97,6 +97,7 @@ tools:
   owner: devteam
   revisions:
   - 145f6d74ff5e
+  - 24c5d43cb545
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_split
@@ -157,6 +158,7 @@ tools:
   owner: devteam
   revisions:
   - cb20f99fd45b
+  - bd735cae4ce6
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: sam_to_bam

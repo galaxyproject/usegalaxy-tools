@@ -57,3 +57,10 @@ tools:
   - 1ebd14235b92
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
+- name: featurecounts
+  owner: iuc
+  revisions:
+  - 38b6d12edc68
+  - f3a5f075498f
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
