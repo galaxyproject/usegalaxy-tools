@@ -279,3 +279,9 @@ tools:
   - d87433f2a54d
   tool_panel_section_id: assembly
   tool_panel_section_label: assembly
+- name: smudgeplot
+  owner: iuc
+  revisions:
+  - 24e471d13fe9
+  tool_panel_section_id: assembly
+  tool_panel_section_label: assembly

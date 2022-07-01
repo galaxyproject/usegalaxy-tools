@@ -68,3 +68,5 @@ tools:
   owner: bgruening
 - name: yahs
   owner: iuc
+- name: smudgeplot
+  owner: iuc
