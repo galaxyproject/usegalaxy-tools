@@ -280,7 +280,7 @@ tools:
   tool_panel_section_id: assembly
   tool_panel_section_label: assembly
 - name: smudgeplot
-  owner: iuc
+  owner: galaxy-australia
   revisions:
   - 24e471d13fe9
   tool_panel_section_id: assembly
