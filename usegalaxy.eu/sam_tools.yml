@@ -1,5 +1,7 @@
 tool_panel_section_label: SAM Tools
 tools:
+- name: samtools_ampliconclip
+  owner: iuc
 - name: pileup_parser
   owner: devteam
 - name: sam2interval

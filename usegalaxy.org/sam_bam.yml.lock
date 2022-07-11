@@ -3,6 +3,12 @@ install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: SAM/BAM
 tools:
+- name: samtools_ampliconclip
+  owner: iuc
+  revisions:
+  - a941babb9268
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
 - name: samtools_sort
   owner: devteam
   revisions:
