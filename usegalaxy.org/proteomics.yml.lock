@@ -10,6 +10,7 @@ tools:
   - f35bb9d0c93e
   - 7fdd9119cc4f
   - 1beff3ddce58
+  - 3ec27b4cee7c
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: custom_pro_db
