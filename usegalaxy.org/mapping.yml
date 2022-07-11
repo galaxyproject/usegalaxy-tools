@@ -28,3 +28,5 @@ tools:
   owner: iuc
 - name: pileometh
   owner: bgruening
+- name: bbtools_bbmap
+  owner: iuc

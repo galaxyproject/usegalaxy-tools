@@ -118,3 +118,9 @@ tools:
   - d6787bab7b11
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: bbtools_bbmap
+  owner: iuc
+  revisions:
+  - 858a65b52cf9
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
