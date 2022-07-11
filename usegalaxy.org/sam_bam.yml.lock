@@ -229,3 +229,9 @@ tools:
   - 047a20d4258f
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
+- name: samtools_ampliconclip
+  owner: iuc
+  revisions:
+  - a941babb9268
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM

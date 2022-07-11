@@ -66,3 +66,5 @@ tools:
   owner: iuc
 - name: bamutil_clip_overlap
   owner: iuc
+- name: samtools_ampliconclip
+  owner: iuc
