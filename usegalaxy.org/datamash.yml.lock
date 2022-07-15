@@ -6,7 +6,7 @@ tools:
 - name: datamash_ops
   owner: iuc
   revisions:
-  - 562f3c677828
+  - 746e8e4bf929
   tool_panel_section_id: datamash
   tool_panel_section_label: Datamash
 - name: datamash_transpose
