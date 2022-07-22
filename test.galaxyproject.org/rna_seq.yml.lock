@@ -13,6 +13,7 @@ tools:
   owner: iuc
   revisions:
   - 850f3679b9b4
+  - 4074fc1940e2
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: hisat2
