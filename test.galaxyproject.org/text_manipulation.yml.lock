@@ -6,6 +6,7 @@ tools:
 - name: column_maker
   owner: devteam
   revisions:
+  - 6595517c2dd8
   - 464b9305180e
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
