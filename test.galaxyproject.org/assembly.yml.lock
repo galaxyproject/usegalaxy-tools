@@ -16,6 +16,7 @@ tools:
   owner: iuc
   revisions:
   - 0834c823d4b9
+  - 3061c8b029e5
   - 59db8ea8c845
   - ebb0dcdb621a
   tool_panel_section_id: assembly
@@ -35,9 +36,10 @@ tools:
 - name: trinity
   owner: iuc
   revisions:
-  - c9cfec002f71
-  - d84caa5a98ad
   - 5b60313a6ce7
+  - c9cfec002f71
+  - d2bc35f3d1c5
+  - d84caa5a98ad
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades
@@ -50,18 +52,21 @@ tools:
 - name: meryl
   owner: iuc
   revisions:
+  - 29dabd8db6f2
   - 5ae3496f9ca3
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: hifiasm
   owner: bgruening
   revisions:
+  - 366a11d316a7
   - 9ef6920c3089
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: bionano_scaffold
   owner: bgruening
   revisions:
+  - 5258e18bbe23
   - 96cacb31d571
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
