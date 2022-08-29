@@ -124,3 +124,10 @@ tools:
   - 858a65b52cf9
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: metilene
+  owner: rnateam
+  revisions:
+  - cd253831a014
+  - 37abd09a0ae6
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping

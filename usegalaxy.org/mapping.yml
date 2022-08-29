@@ -30,3 +30,5 @@ tools:
   owner: bgruening
 - name: bbtools_bbmap
   owner: iuc
+- name: metilene
+  owner: rnateam
