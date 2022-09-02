@@ -12,14 +12,14 @@ tools:
 - name: cutadapt
   owner: lparsons
   revisions:
+  - 02c5a84971c8
+  - 288f97432497
   - 49370cb85f0f
   - 660cffd8d92a
-  - e4691e1589d3
-  - f5fdf41c08b8
-  - 288f97432497
   - c053d4cad713
   - c5e2e5902201
-  - 02c5a84971c8
+  - e4691e1589d3
+  - f5fdf41c08b8
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: flash
@@ -32,8 +32,8 @@ tools:
   owner: iuc
   revisions:
   - 1d8fe9bc4cb0
-  - dbf9c561ef29
   - 65b93b623c77
+  - dbf9c561ef29
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_trimmer
@@ -67,8 +67,8 @@ tools:
 - name: length_and_gc_content
   owner: iuc
   revisions:
-  - f088370d2a3c
   - e3ba567abdf5
+  - f088370d2a3c
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_renamer
@@ -256,17 +256,17 @@ tools:
 - name: fasta_stats
   owner: iuc
   revisions:
-  - 9c620a950d3a
-  - 56022eb50bbd
   - 0dbb995c7d35
+  - 56022eb50bbd
+  - 9c620a950d3a
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: filtlong
   owner: iuc
   revisions:
+  - 41b2ad601cf0
   - 8880fb74ef56
   - a72af9de6bf5
-  - 41b2ad601cf0
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: pear
@@ -327,5 +327,23 @@ tools:
   - 6a675c3aa610
   - 9fa7803d1c51
   - f3759eec3018
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: umi_tools_whitelist
+  owner: iuc
+  revisions:
+  - 953b4821b183
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: umi_tools_dedup
+  owner: iuc
+  revisions:
+  - f1d33e4c7bd8
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: umi_tools_group
+  owner: iuc
+  revisions:
+  - d6255614afd7
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
