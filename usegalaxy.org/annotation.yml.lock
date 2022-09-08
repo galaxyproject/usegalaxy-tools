@@ -296,3 +296,11 @@ tools:
   - c147914c9f02
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: sortmerna
+  owner: rnateam
+  revisions:
+  - 1eafcc450052
+  - 65c38d020fea
+  - eb35257d2e29
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation

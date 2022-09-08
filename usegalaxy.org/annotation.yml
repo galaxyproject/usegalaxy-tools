@@ -80,3 +80,5 @@ tools:
   owner: bgruening
 - name: orfipy
   owner: iuc
+- name: sortmerna
+  owner: rnateam
