@@ -37,6 +37,7 @@ tools:
   owner: devteam
   revisions:
   - d6694932c5e0
+  - d9c2b2fde6a3
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: msaboot
