@@ -60,17 +60,18 @@ tools:
   owner: iuc
   revisions:
   - ca7cb0eaad62
+  - '566197475670'
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: circos
   owner: iuc
   revisions:
+  - 290a11559985
   - 4b519282a05b
   - a64dc31ab7f2
   - df7356989ac1
   - e6cbe3190642
   - fd59d783248a
-  - 290a11559985
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: venn_list
@@ -82,8 +83,8 @@ tools:
 - name: ucsc_custom_track
   owner: devteam
   revisions:
-  - 760f588e8a26
   - 3d87079756e1
+  - 760f588e8a26
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: scatterplot
@@ -146,16 +147,16 @@ tools:
   owner: iuc
   revisions:
   - a4d83ba2a1bc
-  - de002ba2b849
   - d3a9e32672ec
+  - de002ba2b849
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_histogram
   owner: iuc
   revisions:
+  - 355a82227003
   - 497d700a5229
   - 536078949ae4
-  - 355a82227003
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_pca
@@ -169,10 +170,10 @@ tools:
 - name: ggplot2_point
   owner: iuc
   revisions:
+  - 1acf88921176
   - 87908c76ca8d
   - 9cec81e1b90e
   - a36551483a8f
-  - 1acf88921176
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_violin
@@ -200,6 +201,7 @@ tools:
   revisions:
   - 08780101bc36
   - f5fa293605ca
+  - 33b8c5eedc04
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: jvarkit_wgscoverageplotter
@@ -220,6 +222,7 @@ tools:
   revisions:
   - 03c13085aecc
   - bd99e8fbde97
+  - f1691de443a7
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: pe_histogram
@@ -231,8 +234,8 @@ tools:
 - name: pretext_snapshot
   owner: iuc
   revisions:
-  - 7c9417381ad5
   - 44c66e8d21e6
+  - 7c9417381ad5
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: pygenometracks
@@ -243,6 +246,7 @@ tools:
   - 4ac4e7083b7e
   - 5cec5fb749f0
   - eca03db4f612
+  - a1abfa420d9d
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: tsne
