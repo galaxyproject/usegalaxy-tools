@@ -82,3 +82,5 @@ tools:
   owner: iuc
 - name: sortmerna
   owner: rnateam
+- name: clinod
+  owner: peterjc
