@@ -10,6 +10,7 @@ tools:
   - 9e3e80cc4ad4
   - e9c1cdb9f9dc
   - f13d0498a199
+  - 6e26c9afd301
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: quast
@@ -18,6 +19,7 @@ tools:
   - 0834c823d4b9
   - 59db8ea8c845
   - ebb0dcdb621a
+  - 3061c8b029e5
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: prokka
@@ -38,6 +40,7 @@ tools:
   - c9cfec002f71
   - d84caa5a98ad
   - 5b60313a6ce7
+  - d2bc35f3d1c5
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades
@@ -51,17 +54,38 @@ tools:
   owner: iuc
   revisions:
   - 5ae3496f9ca3
+  - 29dabd8db6f2
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: hifiasm
   owner: bgruening
   revisions:
   - 9ef6920c3089
+  - 366a11d316a7
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: bionano_scaffold
   owner: bgruening
   revisions:
   - 96cacb31d571
+  - 5258e18bbe23
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: gfastats
+    owner: bgruening
+    revisions:
+    - 2b8b4cacb83d
+    - 3fba9c77550a
+    - 5799092ffdff
+    - 8ccbf07a5433
+    - ad1149b4f795
+    tool_panel_section_id: assembly
+    tool_panel_section_label: Assembly
+- name: yahs
+    owner: iuc
+    revisions:
+    - 39495e107274
+    - d87433f2a54d
+    - fc925f53cae7
+    tool_panel_section_id: assembly
+    tool_panel_section_label: Assembly

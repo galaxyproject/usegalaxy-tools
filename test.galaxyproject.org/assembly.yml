@@ -18,3 +18,7 @@ tools:
   owner: bgruening
 - name: bionano_scaffold
   owner: bgruening
+- name: gfastats
+  owner: bgruening
+- name: yahs
+  owner: iuc
