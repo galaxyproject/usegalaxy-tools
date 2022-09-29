@@ -7,6 +7,7 @@ tools:
   owner: iuc
   revisions:
   - 0a3a602cd1e3
+  - 6e26c9afd301
   - 88c240872a65
   - 9e3e80cc4ad4
   tool_panel_section_id: assembly
@@ -95,6 +96,7 @@ tools:
   revisions:
   - 03fd468e158f
   - 1035adb112c0
+  - 1d06c8b38e77
   - 53c2bc8c2ae3
   - 675ee1aa5952
   - 9e58ff014088
@@ -108,6 +110,7 @@ tools:
   - 48cf45a53456
   - b65a43f70b99
   - d159735a6a9f
+  - d5fb354f745d
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades_metaplasmidspades
@@ -116,11 +119,13 @@ tools:
   - 4a01e0d2892c
   - 6b5a5842531e
   - b8002c3f7141
+  - e5a3b75a271f
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades_coronaspades
   owner: iuc
   revisions:
+  - 34305b013402
   - ad8b536d1caa
   - d6e617c4e338
   - ff41a00a6745
@@ -129,6 +134,7 @@ tools:
 - name: spades_biosyntheticspades
   owner: iuc
   revisions:
+  - 051fd2db8a27
   - 7490b213baa9
   - 904bf932cf78
   - d89ced9439f3
@@ -137,6 +143,7 @@ tools:
 - name: spades_plasmidspades
   owner: iuc
   revisions:
+  - 1708851f8804
   - 340bc17f49cf
   - 75405f5e2cc5
   - 85fb02c43042
@@ -146,6 +153,7 @@ tools:
   owner: iuc
   revisions:
   - 2a10645aeadd
+  - 328aa71f0f3c
   - 9de69775f512
   - e060c3987513
   tool_panel_section_id: assembly
@@ -156,6 +164,7 @@ tools:
   - 2a9baa0c4316
   - 83ead2be47b2
   - 8d1af5db538d
+  - ad80238462c1
   - d9f6a00b6db7
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -284,6 +293,7 @@ tools:
 - name: yahs
   owner: iuc
   revisions:
+  - 39495e107274
   - d87433f2a54d
   - fc925f53cae7
   tool_panel_section_id: assembly
