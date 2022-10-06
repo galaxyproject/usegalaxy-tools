@@ -38,6 +38,7 @@ tools:
   revisions:
   - d6694932c5e0
   - d9c2b2fde6a3
+  - 4daabc25df00
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: msaboot
@@ -126,5 +127,6 @@ tools:
   - a0ffbc759ad8
   - 1c65ddbaeefa
   - 0c0288a9d92c
+  - 97476dfde728
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments

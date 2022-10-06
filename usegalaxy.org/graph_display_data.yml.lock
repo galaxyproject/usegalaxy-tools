@@ -247,6 +247,7 @@ tools:
   - 5cec5fb749f0
   - eca03db4f612
   - a1abfa420d9d
+  - 7dd841a32245
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: tsne

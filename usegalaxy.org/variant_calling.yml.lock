@@ -24,6 +24,7 @@ tools:
   - 268d162b9c49
   - 74aebe30fb52
   - cfcf33df7fc0
+  - 5c7b70713fb5
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: naive_variant_caller
@@ -45,6 +46,7 @@ tools:
   revisions:
   - 156b60c1530f
   - ef2c525bd8cd
+  - a5937157062f
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: table_annovar
@@ -102,6 +104,7 @@ tools:
   - 606542a18f82
   - e0e2fd665102
   - e61c9ac190ad
+  - 791f73caa0c8
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_call
@@ -114,6 +117,7 @@ tools:
   - 65432c3abf6c
   - dfadc322b065
   - e1461b5c52a0
+  - 4805fe3d8fda
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_filter
@@ -136,6 +140,7 @@ tools:
   - 5d6a078d30b0
   - c27549b9aa1f
   - f4473557ffc7
+  - 971e07ca4456
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_viterbi
@@ -161,6 +166,7 @@ tools:
   - 71dfde92fd57
   - c39113e2ae34
   - ebcd8649c621
+  - f88f74d5b1e9
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: bcftools_plugin_frameshifts
@@ -169,6 +175,7 @@ tools:
   - 48ac4d611e92
   - c0b17fc737d4
   - eb22990a2be9
+  - b40213125e88
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: exomedepth
@@ -185,6 +192,7 @@ tools:
   - 3be27a9a7313
   - 53ce8be43212
   - fd2d6e035c3f
+  - fb0bb7174530
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: mixcr_analyze

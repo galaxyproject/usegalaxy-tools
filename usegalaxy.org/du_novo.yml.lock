@@ -23,6 +23,7 @@ tools:
   - 7fc3c8704c05
   - ec5a92514113
   - 6cc65a11d922
+  - f85557b9707a
   tool_panel_section_id: du_novo
   tool_panel_section_label: Du Novo
 - name: variant_analyzer

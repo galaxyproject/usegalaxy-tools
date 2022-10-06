@@ -83,6 +83,7 @@ tools:
   - 60ca8d013263
   - e5340c09200a
   - e13f565068d6
+  - 158b5b2a164a
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_bed
@@ -91,6 +92,7 @@ tools:
   - 91efc13d3ec1
   - cdbdce00f5f6
   - f4a70882a71b
+  - ee86b27291b5
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_wig
@@ -99,6 +101,7 @@ tools:
   - e8d84292e510
   - 5f893ed3c5ed
   - 282a658c6569
+  - e72c320c17c1
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_vcf
@@ -108,6 +111,7 @@ tools:
   - b21851ddcc79
   - 71730c177cdf
   - 6e96c77f5824
+  - 18f7e96459d2
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_gff
@@ -116,6 +120,7 @@ tools:
   - 09c6a9e067f9
   - 88d180fb6d67
   - 4d97434ea0fb
+  - 42b239a32349
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: gfa_to_fa
@@ -138,6 +143,7 @@ tools:
   owner: iuc
   revisions:
   - 356dc923f8d3
+  - 8067dfa00ed2
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: bed_to_protein_map

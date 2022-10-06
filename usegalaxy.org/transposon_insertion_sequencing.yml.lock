@@ -9,6 +9,7 @@ tools:
   - 58234d95978d
   - 103bd59b3e33
   - 625d5ea9f3c7
+  - d1855ded740a
   tool_panel_section_id: transposon_insertion_sequencing
   tool_panel_section_label: Transposon Insertion Sequencing
 - name: gff_to_prot
