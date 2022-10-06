@@ -26,6 +26,7 @@ tools:
   owner: iuc
   revisions:
   - a27654fc4270
+  - 01a4ebf1f237
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastp
@@ -55,6 +56,7 @@ tools:
   revisions:
   - 736b8f6ee456
   - b8658f852bc7
+  - cb1e251cac37
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_quality_filter
@@ -133,6 +135,7 @@ tools:
   - 249c8393f2d4
   - 35e38452bb3f
   - 9bbe5b7ffa12
+  - e39cc71d3ed6
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_masker_by_quality
@@ -273,6 +276,7 @@ tools:
   owner: iuc
   revisions:
   - 2f804526f5fd
+  - b4c6f054210a
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: sickle

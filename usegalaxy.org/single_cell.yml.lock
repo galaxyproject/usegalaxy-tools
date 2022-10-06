@@ -72,6 +72,7 @@ tools:
   - 32c5c85cbc12
   - c0b037b12765
   - c5ac926c838f
+  - 0cb889db0910
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_import
@@ -81,6 +82,7 @@ tools:
   - ae1e5d9d8972
   - cfc3f5a57dc6
   - '499059586799'
+  - fb9e030ffae4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_inspect
@@ -89,6 +91,7 @@ tools:
   - 038e32885fec
   - 383dcb0500f9
   - 39e945f0b2c1
+  - ee98d611afc6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_manipulate
@@ -96,6 +99,7 @@ tools:
   revisions:
   - 43cb7b5a6fe7
   - 8db95f488f0f
+  - 3d748954434b
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: modify_loom
@@ -104,6 +108,7 @@ tools:
   - 59be31ac9dc3
   - 7784821452ac
   - eeab712b0b99
+  - 4b0adaa31c95
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: dropletutils
@@ -121,6 +126,7 @@ tools:
   - 7e014059a88d
   - a4b734cd253b
   - c4f39bf4a068
+  - 0bff0ee0683a
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_filtnormconf
@@ -129,6 +135,7 @@ tools:
   - 43c146e25a43
   - 7608d5faee41
   - d45f092caf24
+  - b83fbc90161e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_inspectclusters
@@ -137,6 +144,7 @@ tools:
   - 37a47c4fd84d
   - 41f34e925bd5
   - be4646256624
+  - f3eb2291da05
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_inspecttrajectory
@@ -145,6 +153,7 @@ tools:
   - 69018f285aa3
   - c8434a623268
   - 3478133d0f6f
+  - a6821f856a1e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_trajectory
@@ -153,6 +162,7 @@ tools:
   - 44b935f2271b
   - 72979cac22b2
   - e93b008c637a
+  - 2af7c5086a96
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_filter_cells

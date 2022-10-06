@@ -10,6 +10,7 @@ tools:
   - 58c35179ebf0
   - 708348a17fa1
   - e827f9aae031
+  - d6f5fa4ee473
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: edger
@@ -19,6 +20,7 @@ tools:
   - 3d89af8a44f0
   - 6e53e565fc6a
   - df0c8d0a5992
+  - f2843df56434
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: hisat2
@@ -28,6 +30,7 @@ tools:
   - 26371a1df031
   - 6c19daec423d
   - fbf98f24097b
+  - f4af63aaf57a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: featurecounts
@@ -46,6 +49,7 @@ tools:
   revisions:
   - 62adf13b86ea
   - 9fd8b69e6e68
+  - b47c006d90c5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: stringtie
@@ -55,6 +59,7 @@ tools:
   - 333a6e13b622
   - 76d290331481
   - eba36e001f45
+  - cef79931dda5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: salmon
@@ -102,6 +107,7 @@ tools:
   revisions:
   - 8b3e3657034e
   - ef2ad746b589
+  - 43798b4caee0
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: deseq2
@@ -112,6 +118,7 @@ tools:
   - 71bacea10eee
   - cd9874cb9019
   - d027d1f4984e
+  - 8fe98f7094de
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: rgrnastar
@@ -152,6 +159,7 @@ tools:
   revisions:
   - 6a6717a5f421
   - cf747d1bd79a
+  - 86285ddd4512
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: filter_transcripts_via_tracking
@@ -258,6 +266,7 @@ tools:
   - 7a5cd7987b03
   - 828324f3292f
   - c4db6ec33fec
+  - 8c28affc7c48
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: slamdunk
@@ -284,6 +293,7 @@ tools:
   - 55cf05b65ad5
   - ab87da55fe61
   - bbbb39ad9a7e
+  - eafea3083352
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_super_transcripts
@@ -293,6 +303,7 @@ tools:
   - 6723249ce1bd
   - 6f480aee5877
   - 9c545f1c1a4e
+  - bdede464821e
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity
@@ -303,6 +314,7 @@ tools:
   - 5b60313a6ce7
   - d84caa5a98ad
   - db1f362cca3e
+  - d2bc35f3d1c5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_gene_to_trans_map
@@ -318,6 +330,7 @@ tools:
   - 442e3696c634
   - 59fff1388bc2
   - 81a4697677e7
+  - bcc5f03f1900
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_contig_exn50_statistic
@@ -327,6 +340,7 @@ tools:
   - 62b05e565a45
   - b1e9a0355166
   - beafdd47f8cf
+  - be3f26533209
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_align_and_estimate_abundance
@@ -336,6 +350,7 @@ tools:
   - 56162e446004
   - 893655fa55f9
   - 983552d5822d
+  - c2b82a94493e
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_filter_low_expr_transcripts
@@ -345,6 +360,7 @@ tools:
   - 42c5172815f7
   - 42f93482524f
   - a5ec0e79a93a
+  - 1fdb25a8384d
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinotate

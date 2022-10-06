@@ -64,6 +64,7 @@ tools:
   revisions:
   - 02befcb391f5
   - 654b3a274ed5
+  - 1ee282794de3
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastqe

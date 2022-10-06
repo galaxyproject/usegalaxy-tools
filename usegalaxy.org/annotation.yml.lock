@@ -127,6 +127,7 @@ tools:
   owner: iuc
   revisions:
   - 637ec5d5368c
+  - 96e6283e4745
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: jcvi_gff_stats
@@ -158,6 +159,7 @@ tools:
   - 326f9c294b09
   - e408aa831db3
   - 2e3535db1bfa
+  - e906fa778440
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: maker
@@ -166,6 +168,7 @@ tools:
   - 5e96efe6e6c6
   - d46d803ca6cc
   - 3c1a01127868
+  - 370c210d9541
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: mlst
@@ -173,6 +176,7 @@ tools:
   revisions:
   - 1f5641a52664
   - ded48b36f3b7
+  - 31812e7a1315
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: progressivemauve
@@ -221,6 +225,7 @@ tools:
   - 95ea8d97abb4
   - 37b5e1f0b544
   - dd0cd2319ae5
+  - 2e92e1929cb1
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tbprofiler
@@ -231,6 +236,7 @@ tools:
   - 037a11682176
   - ba6f87115e13
   - 809dfc93d593
+  - ac8250086ac3
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tb_variant_filter
@@ -246,6 +252,7 @@ tools:
   revisions:
   - 02d81b994ef5
   - adc0645b945c
+  - 4934c0ac6197
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tetyper

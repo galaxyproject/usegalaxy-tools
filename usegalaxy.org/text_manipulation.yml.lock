@@ -21,6 +21,7 @@ tools:
   - 44018dd6b447
   - b5d8e5475247
   - f29602ae449e
+  - fe3ca740a485
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: uniprot_rest_interface
@@ -60,6 +61,7 @@ tools:
   - 44018dd6b447
   - b5d8e5475247
   - f29602ae449e
+  - fe3ca740a485
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: column_order_header_sort
@@ -72,6 +74,7 @@ tools:
   owner: iuc
   revisions:
   - 372967836e98
+  - 2040e4c2750a
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: gff3_rebase

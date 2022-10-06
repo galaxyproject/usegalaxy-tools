@@ -32,18 +32,21 @@ tools:
   revisions:
   - ccebde0e2d61
   - 9d793e88e15f
+  - b38f620a3628
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: tn93_filter
   owner: iuc
   revisions:
   - ba95715078c9
+  - cf50aeb956f2
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: tn93_cluster
   owner: iuc
   revisions:
   - af03f3398f03
+  - 112d80c9ccca
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: tn93_readreduce
@@ -51,5 +54,6 @@ tools:
   revisions:
   - bdaadfd0c843
   - 84849140a3bc
+  - 1d2ec0b0a0a7
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
