@@ -96,3 +96,5 @@ tools:
   owner: rnateam
 - name: mirdeep2
   owner: rnateam
+- name: cemitool
+  owner: iuc
