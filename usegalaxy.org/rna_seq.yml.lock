@@ -396,3 +396,9 @@ tools:
   - 6a17e1229b9f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
+- name: cemitool
+  owner: iuc
+  revisions:
+  - 3f9ff31c88bb
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
