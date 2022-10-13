@@ -288,6 +288,7 @@ tools:
   - 5799092ffdff
   - 8ccbf07a5433
   - ad1149b4f795
+  - 5127a713de83
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: yahs
