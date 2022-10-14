@@ -52,6 +52,7 @@ tools:
   - ddf54b12c295
   - fb4ff3c42cd3
   - f46f0e4f75c4
+  - d698c222f354
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: annotatemyids
@@ -121,6 +122,7 @@ tools:
   revisions:
   - b60f2452580e
   - 37a53100b67e
+  - ff2a81aa3f08
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: query_tabular

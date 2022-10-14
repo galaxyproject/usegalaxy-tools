@@ -195,6 +195,7 @@ tools:
   revisions:
   - 92e09b827300
   - e6893a4bcb7b
+  - 4efac966af2a
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: create_tool_recommendation_model

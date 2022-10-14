@@ -12,6 +12,7 @@ tools:
   - b237f27a8afc
   - ce00f1cccb03
   - 1e088aa741eb
+  - 29e4122c90de
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: keras_model_config
@@ -23,6 +24,7 @@ tools:
   - 94d91334c787
   - bedbda03c573
   - 2b8d85927742
+  - 8a794e6d3388
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: keras_model_builder
@@ -33,6 +35,7 @@ tools:
   - 9b6faa256f15
   - c51571d0a0b1
   - 5b35833076f0
+  - 772e0e89fc68
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: keras_batch_models
@@ -44,6 +47,7 @@ tools:
   - 508ce0649bec
   - 7f6079deac6f
   - 77c04469e8b8
+  - 03533fa14e77
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_stacking_ensemble_models
@@ -54,6 +58,7 @@ tools:
   - b78007bf1cb8
   - b8378d4791b7
   - d25127d5f4e0
+  - b94babda32e4
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_train_test_eval
@@ -65,6 +70,7 @@ tools:
   - e03a58b31c12
   - e23cfe4be9d4
   - 443471b0a27a
+  - 4d1637cac794
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_estimator_attributes
@@ -76,6 +82,7 @@ tools:
   - bd27a211182a
   - c9ddd20d25d0
   - 5ae00d2908f2
+  - d0352e8b4c10
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_model_validation
@@ -87,6 +94,7 @@ tools:
   - 887e0aaa482e
   - bfc7bdfcb423
   - 65f18ab91132
+  - 5d5d9cc554f9
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_svm_classifier
@@ -98,6 +106,7 @@ tools:
   - d2afc87db26b
   - f9639b488779
   - f458724cc317
+  - b7c3e9a3b954
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_sample_generator
@@ -109,6 +118,7 @@ tools:
   - b4ba9602a36e
   - db7eb7302fc9
   - 1fe020b2108f
+  - eb41d87cb1de
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_searchcv
@@ -120,6 +130,7 @@ tools:
   - a36a45cb96fa
   - e5a5ad882f1f
   - f0d2e8a3c575
+  - 301e07345c93
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_build_pipeline
@@ -131,6 +142,7 @@ tools:
   - 97dce66fe158
   - 9c3e1d3235c8
   - 3f25f37ee3db
+  - b1eda492f063
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_pairwise_metrics
@@ -142,6 +154,7 @@ tools:
   - 7366e5108e9f
   - f24deab884d0
   - 2a1afd3481ce
+  - b07416ec8d16
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_nn_classifier
@@ -153,6 +166,7 @@ tools:
   - aa83e7e3c398
   - cd02bf168d23
   - 309cc7c6af56
+  - 2c58b83c9bad
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_numeric_clustering
@@ -163,6 +177,7 @@ tools:
   - 73e7f1c76ece
   - ad7e0b4291ee
   - e13a7c05b3a4
+  - 7dd3fb35904f
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_ensemble
@@ -174,6 +189,7 @@ tools:
   - 841a6cc5fc58
   - d868914bce73
   - 407495139a09
+  - a07ab242b0b5
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_feature_selection
@@ -185,6 +201,7 @@ tools:
   - ae0fafb53c1d
   - c2cd3219543a
   - a7c667ff83fe
+  - 4483b84310ec
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_data_preprocess
@@ -196,6 +213,7 @@ tools:
   - 826c3e68e7a9
   - eb9da067ab26
   - add3c3a7c2b4
+  - 80074b842ebd
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_clf_metrics
@@ -207,6 +225,7 @@ tools:
   - c8547d3993c0
   - e54382561bd4
   - daaa56720686
+  - 0ee984c1cbd6
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_regression_metrics
@@ -218,6 +237,7 @@ tools:
   - 7d98dfb04d27
   - f04a2405f3fe
   - 6000c1589f33
+  - 5c9fb40ae174
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_discriminant_classifier
@@ -229,6 +249,7 @@ tools:
   - d3e99d3df1ca
   - e76f6dfea5c9
   - 1bd039aca44f
+  - 4335cec181ba
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_generalized_linear
@@ -240,6 +261,7 @@ tools:
   - 913bf1c4c7bb
   - 91c4e3331208
   - c9969328b42f
+  - dc4b5fd604a6
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_model_fit
@@ -251,6 +273,7 @@ tools:
   - fc2e64a27e90
   - fe4e36598917
   - fb17e19b62a4
+  - fc70bf5c3b58
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_train_test_split
@@ -262,6 +285,7 @@ tools:
   - ce2fd1edbc6e
   - e8639f65c883
   - 03611d7232f6
+  - 6e25381dad5c
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_fitted_model_eval
@@ -273,6 +297,7 @@ tools:
   - c374098d4f5c
   - eaddff553324
   - c2a7717d96ce
+  - c2e2aa55dd5c
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_to_categorical
@@ -280,6 +305,7 @@ tools:
   revisions:
   - f93f0cdbaf18
   - 612ca26c197d
+  - 14180f9c831e
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: ml_visualization_ex
@@ -287,6 +313,7 @@ tools:
   revisions:
   - 4a229a7ad638
   - e88c782a127d
+  - c80db5d6fd8c
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_lightgbm
@@ -294,6 +321,7 @@ tools:
   revisions:
   - c48ffc96fe79
   - 74f96ebc5554
+  - 27f8bd20a936
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_pca
@@ -301,6 +329,7 @@ tools:
   revisions:
   - 24c1cc2dd4a4
   - caf164dd0e18
+  - 3af626081467
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: keras_train_and_eval
@@ -308,6 +337,7 @@ tools:
   revisions:
   - ead8f1822587
   - 470aed90aa41
+  - e1317b5502fa
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: scipy_sparse
@@ -315,6 +345,7 @@ tools:
   revisions:
   - 92e09b827300
   - e6893a4bcb7b
+  - 4efac966af2a
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: create_tool_recommendation_model
