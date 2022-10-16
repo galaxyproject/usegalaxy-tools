@@ -108,6 +108,7 @@ tools:
   revisions:
   - 9a5be5b1a5c9
   - 9bdcba262627
+  - bc3e90fd13be
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken_filter
