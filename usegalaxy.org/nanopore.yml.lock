@@ -121,6 +121,7 @@ tools:
   - 0f5f4a208660
   - 222669c4afb6
   - cc36773a3681
+  - ec699520444c
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: medaka_consensus
@@ -134,6 +135,7 @@ tools:
   - fa11aa8103b2
   - b2aae698b9d3
   - d6cddc06aeae
+  - 682d1e2c8be4
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: medaka_variant_pipeline
@@ -160,6 +162,7 @@ tools:
   - 0e9e7fcdd543
   - 72b5e9dda577
   - cb34f00cc10f
+  - 79e9a869f40e
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: flye
