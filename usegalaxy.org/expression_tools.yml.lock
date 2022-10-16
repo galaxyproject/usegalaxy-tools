@@ -1,11 +1,16 @@
 install_repository_dependencies: false
-install_resolver_dependencies: true
+install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_id: expression_tools
 tools:
 - name: compose_text_param
   owner: iuc
   revisions:
-  - feb3acba1e0a
   - e188c9826e0f
+  - feb3acba1e0a
+  tool_panel_section_id: expression_tools
+- name: map_param_value
+  owner: iuc
+  revisions:
+  - 43d7b3642a30
   tool_panel_section_id: expression_tools
