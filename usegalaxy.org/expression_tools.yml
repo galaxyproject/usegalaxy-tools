@@ -2,3 +2,5 @@ tool_panel_section_id: expression_tools
 tools:
   - name: compose_text_param
     owner: iuc
+  - name: map_param_value
+    owner: iuc

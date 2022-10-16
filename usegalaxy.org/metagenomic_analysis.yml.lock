@@ -81,6 +81,7 @@ tools:
   owner: iuc
   revisions:
   - b11b3ac48bb9
+  - 27d65c78863c
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: biom_add_metadata
@@ -89,6 +90,7 @@ tools:
   - 28ad7ac9c193
   - e3cbd2287f63
   - a3b86937ead6
+  - 4a6ee918c13a
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: biom_convert
@@ -98,6 +100,7 @@ tools:
   - 584008e574b2
   - bd46669113b9
   - 54ccb7e1f49a
+  - 1b5fc03380d4
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken_translate
@@ -105,6 +108,7 @@ tools:
   revisions:
   - 9a5be5b1a5c9
   - 9bdcba262627
+  - bc3e90fd13be
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken_filter
@@ -329,6 +333,7 @@ tools:
   owner: iuc
   revisions:
   - 280386b252a5
+  - 45210df786b9
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: plasflow

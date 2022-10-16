@@ -115,6 +115,7 @@ tools:
   owner: galaxyp
   revisions:
   - ae8c4b2488e7
+  - 399da6b5ec21
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: split_file_on_column
