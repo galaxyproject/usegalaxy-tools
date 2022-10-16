@@ -64,7 +64,7 @@ In the commands below fill the `{server_name}` as appropriate (usegalaxy.org, te
 	- Edit the .yaml file to add name/owner/section
 - If you want a specific version:
 	- Edit the .yaml file to add name/owner/section
-	- Run `make fix` (or `make fix-no-deps` for non-Conda toolsets like `cloud`)
+	- Run `make fix-no-deps`
 	- Edit the .yaml.lock to correct the version number.
 - Open a pull request
 
