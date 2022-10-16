@@ -23,23 +23,27 @@ tools:
   owner: galaxyp
   revisions:
   - 073a2965e3b2
+  - a6282baa8c6f
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: peptide_genomic_coordinate
   owner: galaxyp
   revisions:
   - 5f49ffce52cb
+  - cb0378d2d487
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: maxquant
   owner: galaxyp
   revisions:
   - ea0a1d50c83f
+  - 1f39c833f65f
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: msstats
   owner: galaxyp
   revisions:
   - 8212e342e482
+  - 28434abe6c5c
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics

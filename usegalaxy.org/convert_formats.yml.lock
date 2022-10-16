@@ -165,6 +165,7 @@ tools:
   revisions:
   - e34bdac5b157
   - f5c632894818
+  - 8190f6083c0d
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: gffread
