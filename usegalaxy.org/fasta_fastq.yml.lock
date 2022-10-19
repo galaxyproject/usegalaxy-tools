@@ -20,6 +20,7 @@ tools:
   - c5e2e5902201
   - e4691e1589d3
   - f5fdf41c08b8
+  - 135b80fb1ac2
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: flash
