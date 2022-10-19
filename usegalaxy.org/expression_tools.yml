@@ -1,4 +1,4 @@
-tool_panel_section_id: expression_tools
+tool_panel_section_label: Expression Tools
 tools:
   - name: compose_text_param
     owner: iuc
