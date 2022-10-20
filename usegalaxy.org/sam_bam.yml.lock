@@ -258,3 +258,9 @@ tools:
   - 5f3ea90dc6ae
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
+- name: revertr2orientationinbam
+  owner: lldelisle
+  revisions:
+  - 21ddefab2e4f
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM

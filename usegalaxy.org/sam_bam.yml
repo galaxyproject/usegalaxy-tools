@@ -68,3 +68,5 @@ tools:
   owner: iuc
 - name: samtools_ampliconclip
   owner: iuc
+- name: revertr2orientationinbam
+  owner: lldelisle
