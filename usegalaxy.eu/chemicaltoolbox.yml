@@ -52,6 +52,10 @@ tools:
   owner: chemteam
 - name: gmx_npt
   owner: chemteam
+- name: gmx_rmsd
+  owner: chemteam
+- name: gmx_rmsf
+  owner: chemteam
 - name: openbabel
   owner: bgruening
 - name: osra
