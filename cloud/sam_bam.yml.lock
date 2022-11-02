@@ -61,18 +61,21 @@ tools:
   owner: devteam
   revisions:
   - b5c3b1856370
+  - 1e5880498f52
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_merge
   owner: iuc
   revisions:
   - 740ce0a18f0d
+  - 36677f429310
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_markdup
   owner: iuc
   revisions:
   - 83b8e36e9cbe
+  - b5527cc104ab
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_fixmate
@@ -122,6 +125,7 @@ tools:
   owner: devteam
   revisions:
   - 7a6034296ae9
+  - 7def34e6cf4d
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtool_filter2

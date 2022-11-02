@@ -6,8 +6,7 @@ tools:
 - name: sra_tools
   owner: iuc
   revisions:
-  - 69ebb7f46e45
-  - e08a7ad4378b
+  - 83c7d564b128
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_acc_download

@@ -31,6 +31,7 @@ tools:
   owner: iuc
   revisions:
   - 0921444c832d
+  - d6f5fa4ee473
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: edger
@@ -49,6 +50,7 @@ tools:
   owner: iuc
   revisions:
   - 26371a1df031
+  - f4af63aaf57a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: stringtie

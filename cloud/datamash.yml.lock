@@ -6,18 +6,18 @@ tools:
 - name: datamash_reverse
   owner: iuc
   revisions:
-  - 0f1724dd59d2
+  - f198773344e4
   tool_panel_section_id: datamash
   tool_panel_section_label: Datamash
 - name: datamash_transpose
   owner: iuc
   revisions:
-  - 22c2a1ac7ae3
+  - ac092723240d
   tool_panel_section_id: datamash
   tool_panel_section_label: Datamash
 - name: datamash_ops
   owner: iuc
   revisions:
-  - 562f3c677828
+  - 746e8e4bf929
   tool_panel_section_id: datamash
   tool_panel_section_label: Datamash

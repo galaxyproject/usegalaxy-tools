@@ -7,6 +7,7 @@ tools:
   owner: lparsons
   revisions:
   - 093678460093
+  - 135b80fb1ac2
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_filter
@@ -62,6 +63,7 @@ tools:
   revisions:
   - 8250ea3a1501
   - b557acca0b56
+  - a535cf1e5da4
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: umi_tools_extract
@@ -69,5 +71,12 @@ tools:
   revisions:
   - 6a675c3aa610
   - 99aea37a7ff7
+  - f3759eec3018
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: seq_filter_by_id
+  owner: peterjc
+  revisions:
+  - 141612f8c3e3
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ

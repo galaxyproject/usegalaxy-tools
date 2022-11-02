@@ -45,18 +45,21 @@ tools:
   owner: iuc
   revisions:
   - 55e35e9203cf
+  - fb9e030ffae4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_export
   owner: iuc
   revisions:
   - 707023fa62fe
+  - 0cb889db0910
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_manipulate
   owner: iuc
   revisions:
   - 9bd945a03d7b
+  - 3d748954434b
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: chromeister
@@ -70,6 +73,7 @@ tools:
   revisions:
   - 688357ad5e61
   - 286a24ac079c
+  - ee98d611afc6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: modify_loom
