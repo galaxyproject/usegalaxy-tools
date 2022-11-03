@@ -82,6 +82,7 @@ tools:
   - 24c5d43cb545
   - 47035d167365
   - 3a0efe14891f
+  - 1cc79f49b8d5
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_slice_bam
