@@ -96,6 +96,7 @@ tools:
   - 8ad46f918541
   - 598e0078040b
   - 7568ae18908a
+  - 61094e01eff9
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_em
