@@ -46,8 +46,6 @@ tools:
   owner: crs4
 - name: gatk4_mutect2
   owner: iuc
-- name: mixcr_analyze
-  owner: iuc
 - name: ococo
   owner: iuc
 - name: varscan_copynumber

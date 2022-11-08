@@ -195,12 +195,6 @@ tools:
   - fb0bb7174530
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
-- name: mixcr_analyze
-  owner: iuc
-  revisions:
-  - d38cfb922f95
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
 - name: ococo
   owner: iuc
   revisions:
