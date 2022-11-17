@@ -203,6 +203,7 @@ tools:
   revisions:
   - afec8c595124
   - 4f7e6612906b
+  - e94dc7945639
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: pandas_rolling_window

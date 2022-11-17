@@ -109,6 +109,7 @@ tools:
   - 60ff16842fcd
   - 93a3ce78ce55
   - dddadbbac949
+  - 3bf5661c0280
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: regex_find_replace

@@ -23,6 +23,7 @@ tools:
   revisions:
   - b79f6002b176
   - cfea1d6354db
+  - 1080e07a2233
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mafft
