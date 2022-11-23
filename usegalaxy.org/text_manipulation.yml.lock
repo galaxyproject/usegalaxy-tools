@@ -6,11 +6,11 @@ tools:
 - name: column_maker
   owner: devteam
   revisions:
-  - 6595517c2dd8
   - 02026300aa45
   - 13b6f0007d9e
   - 427903d47026
   - 464b9305180e
+  - 6595517c2dd8
   - 6e8d94597139
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
@@ -49,10 +49,10 @@ tools:
   revisions:
   - 0a8c6b61f0f4
   - 9ff72e942410
-  - ddf54b12c295
-  - fb4ff3c42cd3
-  - f46f0e4f75c4
   - d698c222f354
+  - ddf54b12c295
+  - f46f0e4f75c4
+  - fb4ff3c42cd3
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: annotatemyids
@@ -74,8 +74,8 @@ tools:
 - name: column_remove_by_header
   owner: iuc
   revisions:
-  - 372967836e98
   - 2040e4c2750a
+  - 372967836e98
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: gff3_rebase
@@ -114,15 +114,15 @@ tools:
 - name: regex_find_replace
   owner: galaxyp
   revisions:
-  - ae8c4b2488e7
   - 399da6b5ec21
+  - ae8c4b2488e7
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: split_file_on_column
   owner: bgruening
   revisions:
-  - b60f2452580e
   - 37a53100b67e
+  - b60f2452580e
   - ff2a81aa3f08
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
@@ -170,5 +170,11 @@ tools:
   owner: bgruening
   revisions:
   - 8e251055b1a9
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: add_value
+  owner: devteam
+  revisions:
+  - 745871c0b055
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
