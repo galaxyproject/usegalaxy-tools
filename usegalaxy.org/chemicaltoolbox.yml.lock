@@ -81,6 +81,7 @@ tools:
   revisions:
   - a66c193fafdb
   - ed736e6eee39
+  - 070e3ecc3fda
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_editconf
@@ -88,6 +89,7 @@ tools:
   revisions:
   - b9e25ec471eb
   - 79cfd9ead848
+  - 88076940fa94
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_solvate
@@ -97,6 +99,7 @@ tools:
   - 598e0078040b
   - 7568ae18908a
   - 61094e01eff9
+  - c4fbab8e03c5
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_em
@@ -104,6 +107,7 @@ tools:
   revisions:
   - 59c662ca4211
   - 1b46398cc8ca
+  - b46d4b4d995c
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_sim
@@ -111,6 +115,7 @@ tools:
   revisions:
   - 525ca7c8065f
   - b7cebf442209
+  - c0c9a5024177
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_makendx
@@ -118,6 +123,7 @@ tools:
   revisions:
   - 5f9f51642a24
   - 9acc0fc74373
+  - e3e536aa2633
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_merge_topology_files
@@ -125,12 +131,14 @@ tools:
   revisions:
   - 534ff13ea227
   - 04abdf96978b
+  - bc31d02be922
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_energy
   owner: chemteam
   revisions:
   - 593c63b5aff8
+  - f26afd1b7104
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: parmconv
@@ -182,24 +190,28 @@ tools:
   owner: chemteam
   revisions:
   - 42dfec375136
+  - 124c21408519
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_rg
   owner: chemteam
   revisions:
   - b01f3db44534
+  - 2b19cec3cca9
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_restraints
   owner: chemteam
   revisions:
   - 25b8272872c8
+  - 509aa136d4e3
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_trj
   owner: chemteam
   revisions:
   - 72459c3ea5f6
+  - 32052c6c3310
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: alphafold2

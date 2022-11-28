@@ -130,6 +130,7 @@ tools:
   revisions:
   - 94fe43e75ddc
   - b9e31c5c01c7
+  - 21e491ad532a
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: export2graphlan
@@ -203,6 +204,7 @@ tools:
   - 08780101bc36
   - f5fa293605ca
   - 33b8c5eedc04
+  - 21beb30956c2
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: jvarkit_wgscoverageplotter

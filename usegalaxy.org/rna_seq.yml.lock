@@ -60,6 +60,7 @@ tools:
   - 76d290331481
   - eba36e001f45
   - cef79931dda5
+  - 914cfcba0ec8
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: salmon
@@ -132,6 +133,7 @@ tools:
   - b9e04854e2bb
   - c772497b2c32
   - d5659efd66aa
+  - 980d2a2e1180
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: cummerbund
@@ -268,6 +270,7 @@ tools:
   - 828324f3292f
   - c4db6ec33fec
   - 8c28affc7c48
+  - 56242ff81c84
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: slamdunk

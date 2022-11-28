@@ -174,6 +174,7 @@ tools:
   - 8d4f03b5fe9d
   - e27815e82dd4
   - 276f5d8712d5
+  - cb8dfd28c16f
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: pycoqc
