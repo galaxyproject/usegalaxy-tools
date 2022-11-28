@@ -25,6 +25,7 @@ tools:
   - 74aebe30fb52
   - cfcf33df7fc0
   - 5c7b70713fb5
+  - 5b80f544c67f
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: naive_variant_caller
