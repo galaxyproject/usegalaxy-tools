@@ -271,6 +271,7 @@ tools:
   - c4db6ec33fec
   - 8c28affc7c48
   - 56242ff81c84
+  - c0fd285eb553
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: slamdunk
