@@ -1,0 +1,22 @@
+tool_panel_section_label: Epigenetics
+tools:
+- name: hicup_truncater
+  owner: bgruening
+- name: hicup_hicup
+  owner: bgruening
+- name: hicup_filter
+  owner: bgruening
+- name: hicup_digester
+  owner: bgruening
+- name: hicup_deduplicator
+  owner: bgruening
+- name: hicup_mapper
+  owner: bgruening
+- name: cooler_makebins
+  owner: lldelisle
+- name: cooler_csort_tabix
+  owner: lldelisle
+- name: cooler_cload_tabix
+  owner: lldelisle
+- name: cooler_balance
+  owner: lldelisle
