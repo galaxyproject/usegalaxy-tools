@@ -480,6 +480,7 @@ function run_mounted_galaxy() {
         -e "GALAXY_CONFIG_TOOL_DATA_PATH=/tmp/tool-data" \
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
+        -e "GALAXY_CONFIG_FILE=config/galaxy.yml.sample" \
         -e "${CONDA_ENV_OPTION}" \
         ${CONDA_EXEC_OPTION} \
         -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
@@ -488,7 +489,7 @@ function run_mounted_galaxy() {
         -v "${GALAXY_SOURCE_TMPDIR}:/galaxy/server" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
         --workdir /galaxy/server \
-        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --yaml config/galaxy.yml.sample
+        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/gunicorn 'galaxy.webapps.galaxy.fast_factory:factory()' --timeout 300 --pythonpath lib -k galaxy.webapps.galaxy.workers.Worker -b localhost:8080
     GALAXY_CONTAINER_UP=true
 }
 
@@ -517,23 +518,14 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_TOOL_DATA_PATH=/tmp/tool-data" \
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
+        -e "GALAXY_CONFIG_FILE=config/galaxy.yml.sample" \
         -e "${CONDA_ENV_OPTION}" \
         ${CONDA_EXEC_OPTION} \
         -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
         -v "${WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
         -v "${WORKDIR}/condarc:${CONDARC_MOUNT_PATH}" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
-        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --http :8080 \
-            --virtualenv /galaxy/server/.venv --pythonpath /galaxy/server/lib \
-            --master --offload-threads 2 --processes 1 --threads 4 --enable-threads \
-            --buffer-size 16384 --thunder-lock --die-on-term --py-call-osafterfork \
-            --module 'galaxy.webapps.galaxy.buildapp:uwsgi_app\(\)' \
-            --hook-master-start '"unix_signal:2 gracefully_kill_them_all"' \
-            --hook-master-start '"unix_signal:15 gracefully_kill_them_all"' \
-            --static-map '/static/style=/galaxy/server/static/style/blue' \
-            --static-map '/static=/galaxy/server/static' \
-            --set 'galaxy_config_file=/galaxy/server/config/galaxy.yml' \
-            --set 'galaxy_root=/galaxy/server'
+        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/gunicorn 'galaxy.webapps.galaxy.fast_factory:factory()' --timeout 300 --pythonpath lib -k galaxy.webapps.galaxy.workers.Worker -b localhost:8080
         #"$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --yaml config/galaxy.yml
         # TODO: double quoting above probably breaks non-local mode
     GALAXY_CONTAINER_UP=true
