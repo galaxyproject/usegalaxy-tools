@@ -12,6 +12,8 @@ tools:
   owner: bgruening
 - name: hicup_mapper
   owner: bgruening
+- name: hicup2juicer
+  owner: bgruening
 - name: cooler_makebins
   owner: lldelisle
 - name: cooler_csort_tabix

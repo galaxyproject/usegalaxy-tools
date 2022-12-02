@@ -39,6 +39,12 @@ tools:
   - 70427be35bf2
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
+- name: hicup2juicer
+  owner: bgruening
+  revisions:
+  - f8cb84c49623
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
 - name: cooler_makebins
   owner: lldelisle
   revisions:
