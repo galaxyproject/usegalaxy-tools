@@ -184,6 +184,7 @@ tools:
   owner: galaxyp
   revisions:
   - fc36cfd19834
+  - 4d2b77fd7a28
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_get_builtin_file

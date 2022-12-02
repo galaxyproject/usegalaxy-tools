@@ -153,6 +153,7 @@ tools:
   - d3a9e32672ec
   - de002ba2b849
   - 3d059e9c2fba
+  - da4c086cff5b
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_histogram
@@ -162,6 +163,7 @@ tools:
   - 497d700a5229
   - 536078949ae4
   - fb50ab943396
+  - 11869c5becd8
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_pca
@@ -171,6 +173,7 @@ tools:
   - 90928b255abb
   - fcb6a19960c6
   - 2bf238af068d
+  - 7f2ef7216cf8
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_point
@@ -181,6 +184,7 @@ tools:
   - 9cec81e1b90e
   - a36551483a8f
   - 299307abd804
+  - d0fc8b746d57
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_violin
@@ -190,6 +194,7 @@ tools:
   - d8305f18060e
   - e44775efb2dc
   - d6c41b454cc1
+  - 9c52a8130729
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: graphlan
