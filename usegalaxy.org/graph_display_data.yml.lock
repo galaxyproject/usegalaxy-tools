@@ -10,8 +10,8 @@ tools:
   - 222c02df5d55
   - 4a229a7ad638
   - c7655b5a94af
-  - e88c782a127d
   - c80db5d6fd8c
+  - e88c782a127d
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: plotly_parallel_coordinates_plot
@@ -60,8 +60,8 @@ tools:
 - name: ggplot2_heatmap2
   owner: iuc
   revisions:
-  - ca7cb0eaad62
   - '566197475670'
+  - ca7cb0eaad62
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: circos
@@ -128,9 +128,9 @@ tools:
 - name: bandage
   owner: iuc
   revisions:
+  - 21e491ad532a
   - 94fe43e75ddc
   - b9e31c5c01c7
-  - 21e491ad532a
   - ddddce450736
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
@@ -149,52 +149,57 @@ tools:
 - name: ggplot2_heatmap
   owner: iuc
   revisions:
+  - 10515715c940
+  - 3d059e9c2fba
   - a4d83ba2a1bc
   - d3a9e32672ec
-  - de002ba2b849
-  - 3d059e9c2fba
   - da4c086cff5b
+  - de002ba2b849
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_histogram
   owner: iuc
   revisions:
+  - 11869c5becd8
   - 355a82227003
   - 497d700a5229
   - 536078949ae4
+  - b0d96516e6a5
   - fb50ab943396
-  - 11869c5becd8
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_pca
   owner: iuc
   revisions:
   - 1b9406a1a769
-  - 90928b255abb
-  - fcb6a19960c6
   - 2bf238af068d
   - 7f2ef7216cf8
+  - 90928b255abb
+  - b1268b7544d3
+  - fcb6a19960c6
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_point
   owner: iuc
   revisions:
   - 1acf88921176
+  - 299307abd804
+  - 5fe1dc76176e
   - 87908c76ca8d
   - 9cec81e1b90e
   - a36551483a8f
-  - 299307abd804
   - d0fc8b746d57
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_violin
   owner: iuc
   revisions:
+  - 0e7290688b50
   - 637cf21db396
+  - 9c52a8130729
+  - d6c41b454cc1
   - d8305f18060e
   - e44775efb2dc
-  - d6c41b454cc1
-  - 9c52a8130729
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: graphlan
@@ -213,9 +218,9 @@ tools:
   owner: iuc
   revisions:
   - 08780101bc36
-  - f5fa293605ca
-  - 33b8c5eedc04
   - 21beb30956c2
+  - 33b8c5eedc04
+  - f5fa293605ca
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: jvarkit_wgscoverageplotter
@@ -259,9 +264,9 @@ tools:
   - 326a3db8d9d1
   - 4ac4e7083b7e
   - 5cec5fb749f0
-  - eca03db4f612
-  - a1abfa420d9d
   - 7dd841a32245
+  - a1abfa420d9d
+  - eca03db4f612
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: tsne
