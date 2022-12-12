@@ -321,3 +321,34 @@ tools:
   - 4863b1dbe8f0
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: read_it_and_keep
+  owner: iuc
+  revisions:
+  - 554aa2a63f04
+  - 1563b58905f4
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: freyja_demix
+  owner: iuc
+  revisions:
+  - fc6252e78d5b
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: freyja_aggregate_plot
+  owner: iuc
+  revisions:
+  - 0ceb9fb0f4ce
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: cooc_mutbamscan
+  owner: iuc
+  revisions:
+  - 373c1735d31f
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: cooc_tabmut
+  owner: iuc
+  revisions:
+  - 4be399803856
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation

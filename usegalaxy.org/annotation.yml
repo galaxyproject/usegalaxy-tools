@@ -84,3 +84,13 @@ tools:
   owner: rnateam
 - name: clinod
   owner: peterjc
+- name: read_it_and_keep
+  owner: iuc
+- name: freyja_demix
+  owner: iuc
+- name: freyja_aggregate_plot
+  owner: iuc
+- name: cooc_mutbamscan
+  owner: iuc
+- name: cooc_tabmut
+  owner: iuc
