@@ -70,6 +70,7 @@ tools:
   - 7fdb9d1591e2
   - cc05793bb896
   - e3d32471da11
+  - ebab418107f5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: diamond

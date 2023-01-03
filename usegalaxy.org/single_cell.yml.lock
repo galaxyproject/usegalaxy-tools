@@ -297,6 +297,7 @@ tools:
   revisions:
   - 04b494623f8e
   - e4c01dcece8b
+  - f2000bc73102
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: droplet_barcode_plot
