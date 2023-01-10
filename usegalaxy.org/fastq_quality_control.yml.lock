@@ -6,9 +6,9 @@ tools:
 - name: fastqc
   owner: devteam
   revisions:
+  - 3d0c7bdf12f5
   - e7b2202befea
   - ff9530579d1f
-  - 3d0c7bdf12f5
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: trimmomatic
@@ -24,11 +24,12 @@ tools:
   - 1c2db0054039
   - 3d93dd18d9f8
   - 5e33b465d8d5
+  - 75c93c70d094
+  - 9a913cdee30e
+  - abfd8a6544d7
   - b2f1f75d49c4
   - bf675f34b056
   - f7985e0479b9
-  - 75c93c70d094
-  - 9a913cdee30e
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastq_stats
@@ -63,17 +64,17 @@ tools:
   owner: iuc
   revisions:
   - 02befcb391f5
-  - 654b3a274ed5
   - 1ee282794de3
+  - 654b3a274ed5
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastqe
   owner: iuc
   revisions:
-  - a252d8415583
   - 819b8c1657d5
-  - ecb38e2798cd
   - 89d299153577
+  - a252d8415583
+  - ecb38e2798cd
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastq_info
