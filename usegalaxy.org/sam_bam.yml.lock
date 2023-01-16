@@ -151,6 +151,7 @@ tools:
   - 9676127a1ed2
   - e2c1b62e1db1
   - 0a7b0989fa09
+  - 96c9315b0e29
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bamtools
@@ -159,6 +160,7 @@ tools:
   - 04866f817daa
   - 4d343c1f606b
   - befc9dad4ca8
+  - ddb22028b552
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bamtools_filter
@@ -168,6 +170,7 @@ tools:
   - bd735cae4ce6
   - cb20f99fd45b
   - 1dfd95ee241e
+  - 108db6635177
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_depth
