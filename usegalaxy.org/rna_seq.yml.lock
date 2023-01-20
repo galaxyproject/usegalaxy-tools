@@ -200,9 +200,10 @@ tools:
 - name: feelnc
   owner: iuc
   revisions:
+  - 75427ceb32d1
   - 095162ba8e90
   - 67af24676bd6
-  - 75427ceb32d1
+  - 55daa4712413
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: heinz
