@@ -9,3 +9,9 @@ tools:
   - e56023008e36
   tool_panel_section_id: genome_diversity
   tool_panel_section_label: Genome Diversity
+- name: raxml
+  owner: iuc
+  revisions:
+  - ea30d3089354
+  tool_panel_section_id: genome_diversity
+  tool_panel_section_label: Genome Diversity
