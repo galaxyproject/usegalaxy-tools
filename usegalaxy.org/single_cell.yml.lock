@@ -171,6 +171,7 @@ tools:
   - 7fd39eb52f38
   - 8ed4e80e8799
   - ba64b91ed2b9
+  - e9283529cba1
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_filter_genes
@@ -179,6 +180,7 @@ tools:
   - 7143938df06e
   - d82d999fa716
   - a1698b43abeb
+  - 474a69c47184
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalise_data
@@ -186,6 +188,7 @@ tools:
   revisions:
   - 1e9616772e16
   - 3a4564b9d685
+  - 6b97ffba31da
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_find_variable_genes
@@ -194,6 +197,7 @@ tools:
   - 82bd7bf93454
   - ae467daae2f7
   - 5c62f39aab8f
+  - 2861ca3bfe4d
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_scale_data
@@ -201,6 +205,7 @@ tools:
   revisions:
   - 22f2957da902
   - 2b6913c840bf
+  - f86b2c3bc459
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_run_pca
@@ -209,6 +214,7 @@ tools:
   - 04bdc69f00d7
   - c4f7fb2b1f70
   - 988edd5fa902
+  - 59028945c857
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_compute_graph
@@ -217,6 +223,7 @@ tools:
   - 5ec3b715809c
   - fcaa9048cdaf
   - 3cf0177ed87e
+  - 6417cccad133
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_run_tsne
@@ -225,6 +232,7 @@ tools:
   - a147dce191e9
   - fe727a9496ea
   - 384cacc40611
+  - 181d61d2f3cd
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_run_umap
@@ -233,6 +241,7 @@ tools:
   - ad70b3552c99
   - e31937baa330
   - abae3d11d920
+  - bd4a244faeb8
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_find_cluster
@@ -241,6 +250,7 @@ tools:
   - 621d7d7a605f
   - 8dc3d8941217
   - 15e8a4c60418
+  - 2ccd9f9e2cd0
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_find_markers
@@ -249,6 +259,7 @@ tools:
   - 7042ce140caa
   - a57c0538e56b
   - 615a46c220f0
+  - 81c34e67f262
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_plot_embed
@@ -256,6 +267,7 @@ tools:
   revisions:
   - 9fafbfcdee0d
   - a71086d2e55f
+  - 35f6611fb8c3
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_ops
@@ -263,6 +275,7 @@ tools:
   revisions:
   - 31e5e6d606ef
   - 53a251c6d991
+  - 825dfd66e3fb
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_parameter_iterator
@@ -270,6 +283,7 @@ tools:
   revisions:
   - 4e4420ed5292
   - b9dd12ab0550
+  - a8c73996ac50
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_read_10x
@@ -277,6 +291,7 @@ tools:
   revisions:
   - 4d13979de6ee
   - c8391a25dee3
+  - 9afcfcd1d215
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_integrate_harmony
@@ -284,12 +299,14 @@ tools:
   revisions:
   - 5bea4f3c4edf
   - 2cef3539f420
+  - 3111bcf039dd
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: gtf2gene_list
   owner: ebi-gxa
   revisions:
   - 1a642de6db01
+  - 14b3f2a4523b
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: alevin
@@ -310,6 +327,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - e42c217a450f
+  - 88f5a0a6a818
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: dropletutils_read_10x
