@@ -62,6 +62,7 @@ tools:
   revisions:
   - '566197475670'
   - ca7cb0eaad62
+  - 53460afd5115
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: circos
@@ -189,6 +190,7 @@ tools:
   - 9cec81e1b90e
   - a36551483a8f
   - d0fc8b746d57
+  - 3b12bf9b4b87
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_violin
@@ -267,6 +269,7 @@ tools:
   - 7dd841a32245
   - a1abfa420d9d
   - eca03db4f612
+  - 14e7c35f3d00
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: tsne
