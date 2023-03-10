@@ -7,6 +7,7 @@ tools:
   owner: greg
   revisions:
   - 9c72c91d291f
+  - 4d73965d99a2
   tool_panel_section_id: planttribes
   tool_panel_section_label: PlantTribes
 - name: plant_tribes_gene_family_classifier
@@ -31,12 +32,14 @@ tools:
   owner: greg
   revisions:
   - c088c185f63f
+  - 13d2d138e0e2
   tool_panel_section_id: planttribes
   tool_panel_section_label: PlantTribes
 - name: plant_tribes_kaks_analysis
   owner: greg
   revisions:
   - 84615d553d44
+  - 2c46551274d6
   tool_panel_section_id: planttribes
   tool_panel_section_label: PlantTribes
 - name: plant_tribes_ks_distribution
