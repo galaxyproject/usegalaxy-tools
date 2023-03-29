@@ -17,8 +17,8 @@ tools:
   revisions:
   - 6c145a6868cc
   - 9d33775ec67d
-  - e4c99c83dfbf
   - c5d3684f7c4c
+  - e4c99c83dfbf
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_filter
@@ -26,8 +26,8 @@ tools:
   revisions:
   - 3c86f71498bc
   - 5511647110ff
-  - f87ed6503715
   - b409c2486353
+  - f87ed6503715
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalize
@@ -53,8 +53,8 @@ tools:
   revisions:
   - 35bc2eb568ed
   - 3e4e1cf73d98
-  - b2df381a6004
   - aaa5da8e73a9
+  - b2df381a6004
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_remove_confounders
@@ -62,26 +62,26 @@ tools:
   revisions:
   - 215733a383f2
   - 80d4e2cac903
-  - c2ef03559dc6
   - bf2017df9837
+  - c2ef03559dc6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_export
   owner: iuc
   revisions:
+  - 0cb889db0910
   - 32c5c85cbc12
   - c0b037b12765
   - c5ac926c838f
-  - 0cb889db0910
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_import
   owner: iuc
   revisions:
   - 00712416fdaa
+  - '499059586799'
   - ae1e5d9d8972
   - cfc3f5a57dc6
-  - '499059586799'
   - fb9e030ffae4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -97,18 +97,18 @@ tools:
 - name: anndata_manipulate
   owner: iuc
   revisions:
+  - 3d748954434b
   - 43cb7b5a6fe7
   - 8db95f488f0f
-  - 3d748954434b
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: modify_loom
   owner: iuc
   revisions:
+  - 4b0adaa31c95
   - 59be31ac9dc3
   - 7784821452ac
   - eeab712b0b99
-  - 4b0adaa31c95
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: dropletutils
@@ -123,10 +123,10 @@ tools:
 - name: raceid_clustering
   owner: iuc
   revisions:
+  - 0bff0ee0683a
   - 7e014059a88d
   - a4b734cd253b
   - c4f39bf4a068
-  - 0bff0ee0683a
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_filtnormconf
@@ -134,8 +134,8 @@ tools:
   revisions:
   - 43c146e25a43
   - 7608d5faee41
-  - d45f092caf24
   - b83fbc90161e
+  - d45f092caf24
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_inspectclusters
@@ -150,19 +150,19 @@ tools:
 - name: raceid_inspecttrajectory
   owner: iuc
   revisions:
-  - 69018f285aa3
-  - c8434a623268
   - 3478133d0f6f
+  - 69018f285aa3
   - a6821f856a1e
+  - c8434a623268
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_trajectory
   owner: iuc
   revisions:
+  - 2af7c5086a96
   - 44b935f2271b
   - 72979cac22b2
   - e93b008c637a
-  - 2af7c5086a96
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_filter_cells
@@ -177,10 +177,10 @@ tools:
 - name: scanpy_filter_genes
   owner: ebi-gxa
   revisions:
-  - 7143938df06e
-  - d82d999fa716
-  - a1698b43abeb
   - 474a69c47184
+  - 7143938df06e
+  - a1698b43abeb
+  - d82d999fa716
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalise_data
@@ -194,10 +194,10 @@ tools:
 - name: scanpy_find_variable_genes
   owner: ebi-gxa
   revisions:
+  - 2861ca3bfe4d
+  - 5c62f39aab8f
   - 82bd7bf93454
   - ae467daae2f7
-  - 5c62f39aab8f
-  - 2861ca3bfe4d
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_scale_data
@@ -212,62 +212,62 @@ tools:
   owner: ebi-gxa
   revisions:
   - 04bdc69f00d7
-  - c4f7fb2b1f70
-  - 988edd5fa902
   - 59028945c857
+  - 988edd5fa902
+  - c4f7fb2b1f70
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_compute_graph
   owner: ebi-gxa
   revisions:
-  - 5ec3b715809c
-  - fcaa9048cdaf
   - 3cf0177ed87e
+  - 5ec3b715809c
   - 6417cccad133
+  - fcaa9048cdaf
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_run_tsne
   owner: ebi-gxa
   revisions:
+  - 181d61d2f3cd
+  - 384cacc40611
   - a147dce191e9
   - fe727a9496ea
-  - 384cacc40611
-  - 181d61d2f3cd
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_run_umap
   owner: ebi-gxa
   revisions:
-  - ad70b3552c99
-  - e31937baa330
   - abae3d11d920
+  - ad70b3552c99
   - bd4a244faeb8
+  - e31937baa330
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_find_cluster
   owner: ebi-gxa
   revisions:
-  - 621d7d7a605f
-  - 8dc3d8941217
   - 15e8a4c60418
   - 2ccd9f9e2cd0
+  - 621d7d7a605f
+  - 8dc3d8941217
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_find_markers
   owner: ebi-gxa
   revisions:
-  - 7042ce140caa
-  - a57c0538e56b
   - 615a46c220f0
+  - 7042ce140caa
   - 81c34e67f262
+  - a57c0538e56b
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_plot_embed
   owner: ebi-gxa
   revisions:
+  - 35f6611fb8c3
   - 9fafbfcdee0d
   - a71086d2e55f
-  - 35f6611fb8c3
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_ops
@@ -282,31 +282,31 @@ tools:
   owner: ebi-gxa
   revisions:
   - 4e4420ed5292
-  - b9dd12ab0550
   - a8c73996ac50
+  - b9dd12ab0550
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_read_10x
   owner: ebi-gxa
   revisions:
   - 4d13979de6ee
-  - c8391a25dee3
   - 9afcfcd1d215
+  - c8391a25dee3
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_integrate_harmony
   owner: ebi-gxa
   revisions:
-  - 5bea4f3c4edf
   - 2cef3539f420
   - 3111bcf039dd
+  - 5bea4f3c4edf
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: gtf2gene_list
   owner: ebi-gxa
   revisions:
-  - 1a642de6db01
   - 14b3f2a4523b
+  - 1a642de6db01
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: alevin
@@ -326,8 +326,8 @@ tools:
 - name: salmon_kallisto_mtx_to_10x
   owner: ebi-gxa
   revisions:
-  - e42c217a450f
   - 88f5a0a6a818
+  - e42c217a450f
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: dropletutils_read_10x
@@ -352,5 +352,41 @@ tools:
   owner: ebi-gxa
   revisions:
   - 72b6e1747e37
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_regress_variable
+  owner: ebi-gxa
+  revisions:
+  - 1200b55768ce
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: music_construct_eset
+  owner: bgruening
+  revisions:
+  - 282819d09a4f
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: music_inspect_eset
+  owner: bgruening
+  revisions:
+  - 7705cc75ac18
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: music_manipulate_eset
+  owner: bgruening
+  revisions:
+  - 22232092be53
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: music_deconvolution
+  owner: bgruening
+  revisions:
+  - 2ba99a52bd44
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: music_compare
+  owner: bgruening
+  revisions:
+  - 4447ed460308
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
