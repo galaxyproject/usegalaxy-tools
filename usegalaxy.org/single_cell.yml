@@ -84,3 +84,15 @@ tools:
   owner: ebi-gxa
 - name: retrieve_scxa
   owner: ebi-gxa
+- name: scanpy_regress_variable
+  owner: ebi-gxa
+- name: music_construct_eset
+  owner: bgruening
+- name: music_inspect_eset
+  owner: bgruening
+- name: music_manipulate_eset
+  owner: bgruening
+- name: music_deconvolution
+  owner: bgruening
+- name: music_compare
+  owner: bgruening
