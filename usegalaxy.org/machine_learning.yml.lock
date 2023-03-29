@@ -356,3 +356,9 @@ tools:
   - e94dc7945639
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
+- name: chopin2
+  owner: iuc
+  revisions:
+  - d49893faf877
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
