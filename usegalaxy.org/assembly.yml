@@ -70,3 +70,5 @@ tools:
   owner: iuc
 - name: smudgeplot
   owner: galaxy-australia
+- name: velvet
+  owner: devteam
