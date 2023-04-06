@@ -1,5 +1,5 @@
-install_repository_dependencies: true
-install_resolver_dependencies: true
+install_repository_dependencies: false
+install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Variant Calling
 tools:
@@ -258,5 +258,11 @@ tools:
   owner: iuc
   revisions:
   - edbdbc64b397
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: deepvariant
+  owner: iuc
+  revisions:
+  - 98fe794d2ec0
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
