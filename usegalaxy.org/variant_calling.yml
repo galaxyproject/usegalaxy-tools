@@ -66,3 +66,5 @@ tools:
   owner: iuc
 - name: strelka_somatic
   owner: iuc
+- name: deepvariant
+  owner: iuc
