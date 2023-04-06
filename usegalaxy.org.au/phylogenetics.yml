@@ -1,8 +1,0 @@
-tool_panel_section_label: Phylogenetics
-tools:
-- name: raxml
-  owner: iuc
-- name: gubbins
-  owner: iuc
-- name: roary
-  owner: iuc
