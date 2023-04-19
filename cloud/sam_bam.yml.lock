@@ -163,6 +163,7 @@ tools:
   revisions:
   - cb20f99fd45b
   - bd735cae4ce6
+  - 108db6635177
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: sam_to_bam
@@ -193,5 +194,11 @@ tools:
   owner: devteam
   revisions:
   - 1977f1637890
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: revertR2orientationInBam
+  owner: lldelisle
+  revisions:
+  - 21ddefab2e4f
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
