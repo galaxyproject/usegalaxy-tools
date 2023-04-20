@@ -10,11 +10,14 @@ tools:
   - 9a913cdee30e
   - df99138d2776
   - abfd8a6544d7
+  - 5e33b465d8d5
+  - 1c2db0054039
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastp
   owner: iuc
   revisions:
+  - 65b93b623c77
   - dbf9c561ef29
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
@@ -23,6 +26,7 @@ tools:
   revisions:
   - 3d0c7bdf12f5
   - e7b2202befea
+  - 9da02be9c6cc
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: trimmomatic

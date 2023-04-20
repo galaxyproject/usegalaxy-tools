@@ -8,6 +8,8 @@ tools:
   revisions:
   - 093678460093
   - 135b80fb1ac2
+  - c5e2e5902201
+  - 660cffd8d92a
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_filter
@@ -78,5 +80,12 @@ tools:
   owner: peterjc
   revisions:
   - 141612f8c3e3
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: length_and_gc_content
+  owner: iuc
+  revisions:
+  - e3ba567abdf5
+  - f088370d2a3c
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ

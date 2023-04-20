@@ -62,5 +62,5 @@ tools:
   owner: boris
 - name: sam_merge
   owner: devteam
-- name: revertR2orientationInBam
+- name: revertr2orientationinbam
   owner: lldelisle
