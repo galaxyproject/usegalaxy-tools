@@ -20,3 +20,9 @@ tools:
   owner: iuc
 - name: featurecounts
   owner: iuc
+- name: cufflinks
+  owner: devteam
+- name: deg_annotate
+  owner: iuc
+- name: goseq
+  owner: iuc

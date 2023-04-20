@@ -12,7 +12,9 @@ tools:
 - name: datamash_transpose
   owner: iuc
   revisions:
+  - 374cb875d38a
   - ac092723240d
+  - 22c2a1ac7ae3
   tool_panel_section_id: datamash
   tool_panel_section_label: Datamash
 - name: datamash_ops

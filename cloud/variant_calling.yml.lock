@@ -6,13 +6,16 @@ tools:
 - name: snpfreqplot
   owner: iuc
   revisions:
+  - 3d0adeee3f2b
   - e362b3143cde
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_call
   owner: iuc
   revisions:
+  - 4805fe3d8fda
   - e1461b5c52a0
+  - 65432c3abf6c
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: lofreq_viterbi

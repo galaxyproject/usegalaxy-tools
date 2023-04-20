@@ -18,6 +18,7 @@ tools:
 - name: column_maker
   owner: devteam
   revisions:
+  - 6595517c2dd8
   - 02026300aa45
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
@@ -49,6 +50,7 @@ tools:
 - name: table_compute
   owner: iuc
   revisions:
+  - 3bf5661c0280
   - 60ff16842fcd
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
@@ -67,6 +69,7 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
+  - d698c222f354
   - ddf54b12c295
   - 9ff72e942410
   tool_panel_section_id: text_manipulation

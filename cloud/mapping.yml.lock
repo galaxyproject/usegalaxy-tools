@@ -18,6 +18,7 @@ tools:
 - name: bwa
   owner: devteam
   revisions:
+  - e188dc7a68e6
   - 3fe632431b68
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping

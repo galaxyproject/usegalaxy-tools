@@ -24,3 +24,5 @@ tools:
   owner: iuc
 - name: seq_filter_by_id
   owner: peterjc
+- name: length_and_gc_content
+  owner: iuc
