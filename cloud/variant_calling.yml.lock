@@ -45,7 +45,9 @@ tools:
 - name: freebayes
   owner: devteam
   revisions:
+  - a5937157062f
   - ef2c525bd8cd
+  - 156b60c1530f
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: snpsift_genesets
@@ -63,8 +65,10 @@ tools:
 - name: snpeff
   owner: iuc
   revisions:
+  - 5b80f544c67f
   - 74aebe30fb52
   - cfcf33df7fc0
+  - 68693743661e
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: snpsift

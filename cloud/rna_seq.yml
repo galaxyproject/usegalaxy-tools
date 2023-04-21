@@ -26,3 +26,7 @@ tools:
   owner: iuc
 - name: goseq
   owner: iuc
+- name: egsea
+  owner: iuc
+- name: fgsea
+  owner: iuc

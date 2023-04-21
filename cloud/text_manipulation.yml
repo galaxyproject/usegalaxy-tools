@@ -38,3 +38,5 @@ tools:
   owner: bgruening
 - name: diff
   owner: bgruening
+- name: merge_cols
+  owner: devteam
