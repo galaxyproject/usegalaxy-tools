@@ -1,0 +1,4 @@
+tool_panel_section_label: QIIME2
+tools:
+- name: suite_qiime2_core
+  owner: q2d2
