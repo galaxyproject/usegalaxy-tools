@@ -7,17 +7,20 @@ tools:
   owner: bgruening
   revisions:
   - 71278c4f1b2e
+  - cc413be789ea
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: hicup_hicup
   owner: bgruening
   revisions:
+  - 68fb19094f84
   - 852e1fac4802
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: hicup_filter
   owner: bgruening
   revisions:
+  - 2d4a34c00c67
   - 6c26354dabe0
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
@@ -25,11 +28,13 @@ tools:
   owner: bgruening
   revisions:
   - 8b1d0e4e8f22
+  - e79c38f1752c
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: hicup_deduplicator
   owner: bgruening
   revisions:
+  - 2107c2f7a5d7
   - 44b121185562
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
@@ -37,11 +42,13 @@ tools:
   owner: bgruening
   revisions:
   - 70427be35bf2
+  - be104dee2833
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: hicup2juicer
   owner: bgruening
   revisions:
+  - b4e7244246e2
   - f8cb84c49623
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
