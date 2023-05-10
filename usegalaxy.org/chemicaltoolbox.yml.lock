@@ -652,6 +652,7 @@ tools:
   revisions:
   - ef2ad746b589
   - 43798b4caee0
+  - 602de62d995b
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: vmd_hbonds

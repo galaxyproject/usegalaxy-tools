@@ -22,6 +22,7 @@ tools:
   - 7594365c546b
   - 875d0f36d66f
   - ebb0dcdb621a
+  - 72472698a2df
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: trinity_psc
@@ -305,6 +306,7 @@ tools:
   - 39495e107274
   - d87433f2a54d
   - fc925f53cae7
+  - 425e63adcc5d
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: smudgeplot

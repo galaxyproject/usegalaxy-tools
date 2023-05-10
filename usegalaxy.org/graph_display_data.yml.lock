@@ -74,6 +74,7 @@ tools:
   - df7356989ac1
   - e6cbe3190642
   - fd59d783248a
+  - c4bde687c846
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: venn_list
@@ -270,6 +271,7 @@ tools:
   - a1abfa420d9d
   - eca03db4f612
   - 14e7c35f3d00
+  - 360df4999907
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: tsne

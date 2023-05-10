@@ -42,6 +42,7 @@ tools:
   - ce44c6f2ba38
   - ea04b737afa0
   - f3a5f075498f
+  - 6f66ae7c5f7a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: dexseq
@@ -50,6 +51,7 @@ tools:
   - 62adf13b86ea
   - 9fd8b69e6e68
   - b47c006d90c5
+  - df929f257179
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: stringtie
@@ -61,6 +63,7 @@ tools:
   - eba36e001f45
   - cef79931dda5
   - 914cfcba0ec8
+  - ae618321f34a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: salmon
@@ -110,6 +113,7 @@ tools:
   - 8b3e3657034e
   - ef2ad746b589
   - 43798b4caee0
+  - 602de62d995b
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: deseq2
@@ -135,6 +139,7 @@ tools:
   - c772497b2c32
   - d5659efd66aa
   - 980d2a2e1180
+  - 3ea5a2a63fa2
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: cummerbund
@@ -156,6 +161,7 @@ tools:
   revisions:
   - 0f710191a66d
   - 3c97c841a443
+  - f99dd58de04f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: cuffmerge
@@ -251,6 +257,7 @@ tools:
   - c24765926774
   - d1f7fa5bb3cb
   - fed9d0350d72
+  - 3a083c78896e
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: scpipe
@@ -301,6 +308,7 @@ tools:
   - ab87da55fe61
   - bbbb39ad9a7e
   - eafea3083352
+  - c63338cf419f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_super_transcripts
@@ -311,6 +319,7 @@ tools:
   - 6f480aee5877
   - 9c545f1c1a4e
   - bdede464821e
+  - 3064aa8755a0
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity
@@ -322,12 +331,14 @@ tools:
   - d84caa5a98ad
   - db1f362cca3e
   - d2bc35f3d1c5
+  - 77cf519a812e
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_gene_to_trans_map
   owner: iuc
   revisions:
   - 964b7efe2639
+  - ba460ccf0006
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_abundance_estimates_to_matrix
@@ -338,6 +349,7 @@ tools:
   - 59fff1388bc2
   - 81a4697677e7
   - bcc5f03f1900
+  - a009c96c5c18
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_contig_exn50_statistic
@@ -348,6 +360,7 @@ tools:
   - b1e9a0355166
   - beafdd47f8cf
   - be3f26533209
+  - 41db7569b4ba
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_align_and_estimate_abundance
@@ -358,6 +371,7 @@ tools:
   - 893655fa55f9
   - 983552d5822d
   - c2b82a94493e
+  - 75f4e1859ed7
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_filter_low_expr_transcripts
@@ -368,6 +382,7 @@ tools:
   - 42f93482524f
   - a5ec0e79a93a
   - 1fdb25a8384d
+  - aa38fa8c5815
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinotate

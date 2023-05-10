@@ -60,6 +60,7 @@ tools:
   - 46ae58b1d792
   - e4bd1e99bacf
   - 41030a6c03b7
+  - 94170eee0ad8
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: exonerate
@@ -237,6 +238,7 @@ tools:
   - ba6f87115e13
   - 809dfc93d593
   - ac8250086ac3
+  - 2c68b0c38785
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tb_variant_filter
@@ -245,6 +247,7 @@ tools:
   - 3b1e7c170b10
   - 40f0591deda0
   - e7aff4a85df5
+  - ee4a90760848
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tbvcfreport

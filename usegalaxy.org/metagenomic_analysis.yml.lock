@@ -91,6 +91,7 @@ tools:
   - e3cbd2287f63
   - a3b86937ead6
   - 4a6ee918c13a
+  - 0b3c3ad92827
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: biom_convert
@@ -101,6 +102,7 @@ tools:
   - bd46669113b9
   - 54ccb7e1f49a
   - 1b5fc03380d4
+  - 72ed72122deb
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken_translate
@@ -134,30 +136,35 @@ tools:
   owner: iuc
   revisions:
   - 8dfc90f35aba
+  - acd9fe45eb81
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: cat_prepare
   owner: iuc
   revisions:
   - 8315b5cebb82
+  - a40bbd70b8b1
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: cat_contigs
   owner: iuc
   revisions:
   - c6c77d840993
+  - 7aebc0137f20
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: cat_summarise
   owner: iuc
   revisions:
   - 7f1aaa1932d8
+  - 388e6678fa98
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: cat_bins
   owner: iuc
   revisions:
   - 18676df0cb3a
+  - 31853794ace2
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_plotqualityprofile
@@ -340,6 +347,7 @@ tools:
   owner: iuc
   revisions:
   - bda6012394f7
+  - ea270d0ad0e6
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: valet

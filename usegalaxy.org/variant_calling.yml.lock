@@ -168,6 +168,7 @@ tools:
   - c39113e2ae34
   - ebcd8649c621
   - f88f74d5b1e9
+  - 36960e552ddc
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: bcftools_plugin_frameshifts
@@ -177,6 +178,7 @@ tools:
   - c0b17fc737d4
   - eb22990a2be9
   - b40213125e88
+  - 399b40b2bcab
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: exomedepth
@@ -264,5 +266,6 @@ tools:
   owner: iuc
   revisions:
   - 98fe794d2ec0
+  - 918c8b94c8d8
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
