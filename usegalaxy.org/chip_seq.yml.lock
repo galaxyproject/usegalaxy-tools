@@ -31,8 +31,8 @@ tools:
 - name: sicer
   owner: devteam
   revisions:
-  - 74c9214cc8e6
   - 5c2cc3b58c7d
+  - 74c9214cc8e6
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: ngsutils_bam_filter
@@ -50,8 +50,8 @@ tools:
 - name: diffbind
   owner: bgruening
   revisions:
-  - 194e3f2c1d86
   - 163688bb8f73
+  - 194e3f2c1d86
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: tag_pileup_frequency

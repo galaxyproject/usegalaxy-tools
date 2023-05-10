@@ -1,5 +1,5 @@
 install_repository_dependencies: true
-install_resolver_dependencies: false
+install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: ChemicalToolBox
 tools:
@@ -66,8 +66,8 @@ tools:
 - name: openbabel_compound_convert
   owner: bgruening
   revisions:
-  - e2c36f62e22f
   - b59c91adeac1
+  - e2c36f62e22f
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: get_online_data
@@ -79,34 +79,34 @@ tools:
 - name: gmx_setup
   owner: chemteam
   revisions:
+  - 070e3ecc3fda
   - a66c193fafdb
   - ed736e6eee39
-  - 070e3ecc3fda
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_editconf
   owner: chemteam
   revisions:
-  - b9e25ec471eb
   - 79cfd9ead848
   - 88076940fa94
+  - b9e25ec471eb
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_solvate
   owner: chemteam
   revisions:
-  - 8ad46f918541
   - 598e0078040b
-  - 7568ae18908a
   - 61094e01eff9
+  - 7568ae18908a
+  - 8ad46f918541
   - c4fbab8e03c5
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_em
   owner: chemteam
   revisions:
-  - 59c662ca4211
   - 1b46398cc8ca
+  - 59c662ca4211
   - b46d4b4d995c
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
@@ -129,8 +129,8 @@ tools:
 - name: gmx_merge_topology_files
   owner: chemteam
   revisions:
-  - 534ff13ea227
   - 04abdf96978b
+  - 534ff13ea227
   - bc31d02be922
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
@@ -150,15 +150,15 @@ tools:
 - name: md_converter
   owner: chemteam
   revisions:
-  - d7ec25187599
   - ba83f0923369
+  - d7ec25187599
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: ambertools_acpype
   owner: chemteam
   revisions:
-  - a0c154146234
   - 095ad4d096d1
+  - a0c154146234
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: biomd_neqgamma
@@ -183,22 +183,22 @@ tools:
 - name: openms_openpepxl
   owner: galaxyp
   revisions:
-  - fc36cfd19834
   - 4d2b77fd7a28
+  - fc36cfd19834
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_get_builtin_file
   owner: chemteam
   revisions:
-  - 42dfec375136
   - 124c21408519
+  - 42dfec375136
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_rg
   owner: chemteam
   revisions:
-  - b01f3db44534
   - 2b19cec3cca9
+  - b01f3db44534
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_restraints
@@ -211,8 +211,8 @@ tools:
 - name: gmx_trj
   owner: chemteam
   revisions:
-  - 72459c3ea5f6
   - 32052c6c3310
+  - 72459c3ea5f6
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: alphafold2
@@ -650,8 +650,9 @@ tools:
 - name: goseq
   owner: iuc
   revisions:
-  - ef2ad746b589
   - 43798b4caee0
+  - 602de62d995b
+  - ef2ad746b589
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: vmd_hbonds

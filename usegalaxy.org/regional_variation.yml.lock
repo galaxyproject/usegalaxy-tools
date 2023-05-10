@@ -24,8 +24,8 @@ tools:
 - name: substitutions
   owner: devteam
   revisions:
-  - c54f5d0bbb58
   - aca54f2b2151
+  - c54f5d0bbb58
   tool_panel_section_id: regional_variation
   tool_panel_section_label: Regional Variation
 - name: indels_3way

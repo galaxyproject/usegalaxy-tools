@@ -6,18 +6,18 @@ tools:
 - name: migmap
   owner: iuc
   revisions:
-  - 587fa797ede9
-  - 6ad9d48a512e
   - 29ec7b3a458b
   - 2c9f2a24f7a4
+  - 587fa797ede9
+  - 6ad9d48a512e
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: prestor_abseq3
   owner: iuc
   revisions:
   - 097b44ff88db
-  - ef917c03493c
   - 967b96c6005a
+  - ef917c03493c
   - faba8f53524e
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
@@ -25,8 +25,8 @@ tools:
   owner: iuc
   revisions:
   - 0b103d43a2c7
-  - 824d24bfe8dd
   - 620f3b0a1430
+  - 824d24bfe8dd
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_parselog
@@ -40,17 +40,17 @@ tools:
 - name: presto_parseheaders
   owner: iuc
   revisions:
-  - 90315cb06d06
   - 1ed5b0772f98
   - 4049467b8bb8
+  - 90315cb06d06
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_pairseq
   owner: iuc
   revisions:
-  - f47efbc66fad
-  - 7bdff30820bf
   - 49e7407445c3
+  - 7bdff30820bf
+  - f47efbc66fad
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_maskprimers
@@ -64,40 +64,40 @@ tools:
 - name: presto_filterseq
   owner: iuc
   revisions:
-  - 7b102129b1e8
-  - 33a09d40751f
   - 196b83ac37f2
+  - 33a09d40751f
+  - 7b102129b1e8
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_collapseseq
   owner: iuc
   revisions:
-  - d1a1b738c119
   - 3364fd7073ca
   - c60bd515e46d
+  - d1a1b738c119
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_buildconsensus
   owner: iuc
   revisions:
-  - 7c7df98db5a9
-  - 5b059629cce0
   - 1844a3d2c887
+  - 5b059629cce0
+  - 7c7df98db5a9
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_assemblepairs
   owner: iuc
   revisions:
-  - 44c980933450
   - 0af48f0b7eb8
+  - 44c980933450
   - 540fcbdac82e
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_alignsets
   owner: iuc
   revisions:
+  - 0b4bd722367d
   - 40102188d44e
   - fa4cf8d895f4
-  - 0b4bd722367d
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO

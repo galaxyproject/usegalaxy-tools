@@ -1,15 +1,15 @@
 install_repository_dependencies: true
-install_resolver_dependencies: false
+install_resolver_dependencies: true
 install_tool_dependencies: false
 tool_panel_section_label: Annotation
 tools:
 - name: prokka
   owner: crs4
   revisions:
+  - 111884f0d912
   - 8a22554cdde2
   - bf68eb663bc3
   - eaee459f3d69
-  - 111884f0d912
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: abricate
@@ -23,9 +23,9 @@ tools:
 - name: augustus
   owner: bgruening
   revisions:
-  - ca6d970d931c
   - 09855551d713
   - 28433faa6e42
+  - ca6d970d931c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: augustus_training
@@ -52,14 +52,15 @@ tools:
 - name: busco
   owner: iuc
   revisions:
+  - 0d243f458b53
   - 1e62c28ba91d
   - 4048d82f0c88
-  - 602fb8e63aa7
-  - cf13a1e03e5b
-  - 0d243f458b53
-  - 46ae58b1d792
-  - e4bd1e99bacf
   - 41030a6c03b7
+  - 46ae58b1d792
+  - 602fb8e63aa7
+  - 94170eee0ad8
+  - cf13a1e03e5b
+  - e4bd1e99bacf
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: exonerate
@@ -145,66 +146,67 @@ tools:
 - name: repeat_masker
   owner: bgruening
   revisions:
-  - ade773848c3d
-  - d7540a923c7b
-  - 438f65cb1d14
-  - 72aade318318
   - 39b40a9a6296
   - 3f987772e283
+  - 438f65cb1d14
+  - 72aade318318
+  - ade773848c3d
+  - d7540a923c7b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: maker_map_ids
   owner: iuc
   revisions:
+  - 2e3535db1bfa
   - 326f9c294b09
   - e408aa831db3
-  - 2e3535db1bfa
   - e906fa778440
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: maker
   owner: iuc
   revisions:
+  - 370c210d9541
+  - 3c1a01127868
   - 5e96efe6e6c6
   - d46d803ca6cc
-  - 3c1a01127868
-  - 370c210d9541
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: mlst
   owner: iuc
   revisions:
   - 1f5641a52664
-  - ded48b36f3b7
   - 31812e7a1315
+  - ded48b36f3b7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: progressivemauve
   owner: iuc
   revisions:
-  - bdb752f3c6bb
   - 97a43bcbf44d
+  - bdb752f3c6bb
   - ce795616bd9c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: repeat_masker
   owner: bgruening
   revisions:
-  - ade773848c3d
-  - d7540a923c7b
+  - 39b40a9a6296
+  - 3f987772e283
   - 438f65cb1d14
   - 72aade318318
-  - 3f987772e283
+  - ade773848c3d
+  - d7540a923c7b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: roary
   owner: iuc
   revisions:
-  - 91887494eb97
-  - 809e42326fc2
-  - dbe2b2204555
   - 15ac71df11a0
   - 78608ec02d62
+  - 809e42326fc2
+  - 91887494eb97
+  - dbe2b2204555
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: snap_training
@@ -222,21 +224,22 @@ tools:
 - name: spaln
   owner: iuc
   revisions:
-  - 95ea8d97abb4
-  - 37b5e1f0b544
-  - dd0cd2319ae5
   - 2e92e1929cb1
+  - 37b5e1f0b544
+  - 95ea8d97abb4
+  - dd0cd2319ae5
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tbprofiler
   owner: iuc
   revisions:
-  - 200c378d85f3
-  - c2656b729ee9
   - 037a11682176
-  - ba6f87115e13
+  - 200c378d85f3
+  - 2c68b0c38785
   - 809dfc93d593
   - ac8250086ac3
+  - ba6f87115e13
+  - c2656b729ee9
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tb_variant_filter
@@ -245,14 +248,15 @@ tools:
   - 3b1e7c170b10
   - 40f0591deda0
   - e7aff4a85df5
+  - ee4a90760848
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tbvcfreport
   owner: iuc
   revisions:
   - 02d81b994ef5
-  - adc0645b945c
   - 4934c0ac6197
+  - adc0645b945c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tetyper
@@ -294,15 +298,15 @@ tools:
   - 5784e268efca
   - 593bb8f5488b
   - 5db064bbb3be
-  - e78e25d3b4bd
   - bc88856eddab
+  - e78e25d3b4bd
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: orfipy
   owner: iuc
   revisions:
-  - c147914c9f02
   - 45d4d26e01b5
+  - c147914c9f02
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: sortmerna
@@ -316,16 +320,16 @@ tools:
 - name: clinod
   owner: peterjc
   revisions:
+  - 4863b1dbe8f0
   - 77cfe958b5ea
   - f61366a4a14e
-  - 4863b1dbe8f0
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: read_it_and_keep
   owner: iuc
   revisions:
-  - 554aa2a63f04
   - 1563b58905f4
+  - 554aa2a63f04
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: freyja_demix

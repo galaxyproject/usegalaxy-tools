@@ -7,6 +7,7 @@ tools:
   owner: iuc
   revisions:
   - 248f85ff0733
+  - 4df8de2d0e48
   - 653e89d73fc4
   - 69ebb7f46e45
   - 7068f48d0ef9
@@ -16,18 +17,6 @@ tools:
   - c441583adae5
   - e08a7ad4378b
   - f5ea3ce9b9b0
-  tool_panel_section_id: get_data
-  tool_panel_section_label: Get Data
-- name: ncbi_datasets
-  owner: iuc
-  revisions:
-  - c47a0a93ffd2
-  - 6c829a430475
-  - 5a2656cc84cb
-  - 0622d99c2619
-  - b2ae7186d41f
-  - 18eed8fa7f23
-  - a3395b1d871b
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ebi_metagenomics_run_downloader
@@ -60,7 +49,7 @@ tools:
   owner: galaxyp
   revisions:
   - 34758ab8aaa4
-  - 9aaa46d45472
   - 7863f1abcdda
+  - 9aaa46d45472
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data

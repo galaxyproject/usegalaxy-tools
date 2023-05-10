@@ -7,8 +7,8 @@ tools:
   owner: iuc
   revisions:
   - 020c78e91cc5
-  - f24a9ff28d3c
   - e25ee6bac872
+  - f24a9ff28d3c
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: maf_stats
@@ -21,9 +21,10 @@ tools:
 - name: interval2maf
   owner: iuc
   revisions:
+  - 1080e07a2233
+  - 7adddc6015c1
   - b79f6002b176
   - cfea1d6354db
-  - 1080e07a2233
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mafft
@@ -37,9 +38,9 @@ tools:
 - name: clustalw
   owner: devteam
   revisions:
+  - 4daabc25df00
   - d6694932c5e0
   - d9c2b2fde6a3
-  - 4daabc25df00
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: msaboot
@@ -60,45 +61,45 @@ tools:
 - name: mummer_mummer
   owner: iuc
   revisions:
-  - 48badcd29c5d
-  - fc143c06a842
   - 48823c9635a4
+  - 48badcd29c5d
   - bcd65de9725b
+  - fc143c06a842
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_dnadiff
   owner: iuc
   revisions:
   - 315c678562d2
-  - deacc6b40cc0
   - 60698466facd
   - c9685bc0407c
+  - deacc6b40cc0
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_show_coords
   owner: iuc
   revisions:
-  - b8e2c2f95d26
-  - f8734af48332
   - 959c1f8dae95
   - b4124df98b26
+  - b8e2c2f95d26
+  - f8734af48332
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_mummerplot
   owner: iuc
   revisions:
+  - 4fc0cb2ac8ae
   - c0cedc12fcc5
   - e8c60daa41e0
   - ebe3b0f84de9
-  - 4fc0cb2ac8ae
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_nucmer
   owner: iuc
   revisions:
   - 5b0b49b5421c
-  - a18fb4f826fc
   - 636b049e6141
+  - a18fb4f826fc
   - e18267f90096
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
@@ -111,8 +112,8 @@ tools:
 - name: sina
   owner: iuc
   revisions:
-  - 49b937f12aa4
   - 482052b30b78
+  - 49b937f12aa4
   - 56d7dc39eec8
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
@@ -120,14 +121,14 @@ tools:
   owner: iuc
   revisions:
   - 0243407479f1
+  - 0c0288a9d92c
   - 13a99f96d6cc
+  - 1c65ddbaeefa
   - 1e70671a90c6
   - 20bef04b5272
   - 60ed1c94f584
   - 8dc7708c3266
-  - a0ffbc759ad8
-  - 1c65ddbaeefa
-  - 0c0288a9d92c
   - 97476dfde728
+  - a0ffbc759ad8
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments

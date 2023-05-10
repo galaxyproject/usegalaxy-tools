@@ -13,6 +13,7 @@ tools:
   owner: lparsons
   revisions:
   - 02c5a84971c8
+  - 135b80fb1ac2
   - 288f97432497
   - 49370cb85f0f
   - 660cffd8d92a
@@ -20,14 +21,13 @@ tools:
   - c5e2e5902201
   - e4691e1589d3
   - f5fdf41c08b8
-  - 135b80fb1ac2
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: flash
   owner: iuc
   revisions:
-  - a27654fc4270
   - 01a4ebf1f237
+  - a27654fc4270
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastp

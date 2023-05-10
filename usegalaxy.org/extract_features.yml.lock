@@ -5,7 +5,7 @@ tools:
 - name: parse_mito_blast
   owner: iuc
   revisions:
-  - f172b1f77d6c
   - 3c9ad4adf8d2
+  - f172b1f77d6c
   tool_panel_section_id: extract_features
   tool_panel_section_label: Extract Features

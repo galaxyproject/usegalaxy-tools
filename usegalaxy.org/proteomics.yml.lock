@@ -6,11 +6,11 @@ tools:
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - 3634c90301af
-  - f35bb9d0c93e
-  - 7fdd9119cc4f
   - 1beff3ddce58
+  - 3634c90301af
   - 3ec27b4cee7c
+  - 7fdd9119cc4f
+  - f35bb9d0c93e
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: custom_pro_db
@@ -36,16 +36,16 @@ tools:
 - name: maxquant
   owner: galaxyp
   revisions:
-  - ea0a1d50c83f
-  - 1f39c833f65f
   - 163452d1e255
+  - 1f39c833f65f
   - 4d17fcdeb8ff
+  - ea0a1d50c83f
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: msstats
   owner: galaxyp
   revisions:
-  - 8212e342e482
   - 28434abe6c5c
+  - 8212e342e482
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
