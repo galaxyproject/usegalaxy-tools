@@ -311,9 +311,12 @@ tools:
 - name: ml_visualization_ex
   owner: bgruening
   revisions:
+  - 05143043ca13
+  - 222c02df5d55
   - 4a229a7ad638
-  - e88c782a127d
+  - c7655b5a94af
   - c80db5d6fd8c
+  - e88c782a127d
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_lightgbm
@@ -335,9 +338,10 @@ tools:
 - name: keras_train_and_eval
   owner: bgruening
   revisions:
-  - ead8f1822587
   - 470aed90aa41
   - e1317b5502fa
+  - ead8f1822587
+  - f1b9a42d6809
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: scipy_sparse

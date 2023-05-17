@@ -36,16 +36,18 @@ tools:
 - name: maxquant
   owner: galaxyp
   revisions:
-  - ea0a1d50c83f
-  - 1f39c833f65f
   - 163452d1e255
+  - 1f39c833f65f
   - 4d17fcdeb8ff
+  - ea0a1d50c83f
+  - f522c08e900c
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: msstats
   owner: galaxyp
   revisions:
-  - 8212e342e482
   - 28434abe6c5c
+  - 593839e1f2c3
+  - 8212e342e482
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics

@@ -403,6 +403,7 @@ tools:
 - name: mirdeep2_mapper
   owner: rnateam
   revisions:
+  - a8d24f4b6d95
   - dbbe92348c7a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq

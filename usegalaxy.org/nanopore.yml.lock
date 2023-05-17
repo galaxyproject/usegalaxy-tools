@@ -169,13 +169,13 @@ tools:
 - name: flye
   owner: bgruening
   revisions:
-  - 3ee0ef312022
-  - de24438c9988
   - 0284be52bfcf
-  - 8d4f03b5fe9d
-  - e27815e82dd4
   - 276f5d8712d5
+  - 3ee0ef312022
+  - 8d4f03b5fe9d
   - cb8dfd28c16f
+  - de24438c9988
+  - e27815e82dd4
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: pycoqc

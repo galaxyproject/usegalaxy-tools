@@ -13,14 +13,17 @@ tools:
   owner: lparsons
   revisions:
   - 02c5a84971c8
+  - 135b80fb1ac2
   - 288f97432497
+  - 44e2cc14f75b
   - 49370cb85f0f
+  - 4e5056fefd88
   - 660cffd8d92a
   - c053d4cad713
   - c5e2e5902201
+  - de6cebe3c043
   - e4691e1589d3
   - f5fdf41c08b8
-  - 135b80fb1ac2
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: flash
@@ -310,6 +313,7 @@ tools:
 - name: filter_by_fasta_ids
   owner: galaxyp
   revisions:
+  - 3c623e81be77
   - dff7df6fcab5
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ

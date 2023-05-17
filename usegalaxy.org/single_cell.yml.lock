@@ -355,12 +355,15 @@ tools:
   owner: bgruening
   revisions:
   - 282819d09a4f
+  - 2cfd0db49bbc
+  - 7ffaa0968da3
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_inspect_eset
   owner: bgruening
   revisions:
   - 7705cc75ac18
+  - 8c64a2da3869
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_manipulate_eset
@@ -373,6 +376,7 @@ tools:
   owner: bgruening
   revisions:
   - 2ba99a52bd44
+  - 56371b5a2da9
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_compare

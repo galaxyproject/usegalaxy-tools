@@ -107,6 +107,7 @@ tools:
 - name: regex_find_replace
   owner: galaxyp
   revisions:
+  - 209b7c5ee9d7
   - 399da6b5ec21
   - ae8c4b2488e7
   tool_panel_section_id: text_manipulation
@@ -148,6 +149,7 @@ tools:
 - name: filter_tabular
   owner: iuc
   revisions:
+  - 34d29339abab
   - 4d5aae46f850
   - 6544e4b87a4f
   - 9cc411a62277

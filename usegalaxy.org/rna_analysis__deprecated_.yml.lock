@@ -46,8 +46,8 @@ tools:
 - name: cuffmerge
   owner: devteam
   revisions:
-  - cf747d1bd79a
   - 6a6717a5f421
+  - cf747d1bd79a
   - 86285ddd4512
   tool_panel_section_id: rna_analysis__deprecated_
   tool_panel_section_label: RNA Analysis (deprecated)
