@@ -17,20 +17,20 @@ tools:
 - name: annotatemyids
   owner: iuc
   revisions:
+  - 133f36c29579
   - 1aae04680c4b
   - 44018dd6b447
   - b5d8e5475247
   - f29602ae449e
   - fe3ca740a485
-  - 133f36c29579
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: uniprot_rest_interface
   owner: bgruening
   revisions:
   - 054483e27a35
-  - bfdc6a7ffd3a
   - af5eccf83605
+  - bfdc6a7ffd3a
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: add_input_name_as_column
@@ -98,10 +98,10 @@ tools:
 - name: table_compute
   owner: iuc
   revisions:
+  - 3bf5661c0280
   - 60ff16842fcd
   - 93a3ce78ce55
   - dddadbbac949
-  - 3bf5661c0280
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: regex_find_replace

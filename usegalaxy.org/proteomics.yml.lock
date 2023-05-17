@@ -6,11 +6,11 @@ tools:
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - 3634c90301af
-  - f35bb9d0c93e
-  - 7fdd9119cc4f
   - 1beff3ddce58
+  - 3634c90301af
   - 3ec27b4cee7c
+  - 7fdd9119cc4f
+  - f35bb9d0c93e
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: custom_pro_db
@@ -49,5 +49,30 @@ tools:
   - 28434abe6c5c
   - 593839e1f2c3
   - 8212e342e482
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: eggnog_mapper
+  owner: galaxyp
+  revisions: []
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: encyclopedia_quantify
+  owner: galaxyp
+  revisions: []
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: encyclopedia_searchtolib
+  owner: galaxyp
+  revisions: []
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: encyclopedia_quantify
+  owner: galaxyp
+  revisions: []
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: encyclopedia_searchtolib
+  owner: galaxyp
+  revisions: []
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics

@@ -6,7 +6,7 @@ tools:
 - name: seqtk
   owner: iuc
   revisions:
-  - 58c8ece95b53
   - 3da72230c066
+  - 58c8ece95b53
   tool_panel_section_id: seqtk
   tool_panel_section_label: Seqtk

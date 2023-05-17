@@ -19,20 +19,20 @@ tools:
 - name: iqtree
   owner: iuc
   revisions:
-  - 563c3aa769f2
-  - c1d53e95327f
   - 524d31add34a
+  - 563c3aa769f2
   - 973a28be3b7f
-  - b8476e82ac20
   - 9b892d7f82cc
+  - b8476e82ac20
+  - c1d53e95327f
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: tn93
   owner: iuc
   revisions:
-  - ccebde0e2d61
   - 9d793e88e15f
   - b38f620a3628
+  - ccebde0e2d61
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: tn93_filter
@@ -45,15 +45,15 @@ tools:
 - name: tn93_cluster
   owner: iuc
   revisions:
-  - af03f3398f03
   - 112d80c9ccca
+  - af03f3398f03
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: tn93_readreduce
   owner: iuc
   revisions:
-  - bdaadfd0c843
-  - 84849140a3bc
   - 1d2ec0b0a0a7
+  - 84849140a3bc
+  - bdaadfd0c843
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution

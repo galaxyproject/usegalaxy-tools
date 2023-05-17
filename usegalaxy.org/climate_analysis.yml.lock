@@ -9,3 +9,13 @@ tools:
   - b525b88bc941
   tool_panel_section_id: climate_analysis
   tool_panel_section_label: Climate Analysis
+- name: climate_stripes
+  owner: climate
+  revisions: []
+  tool_panel_section_id: climate_analysis
+  tool_panel_section_label: Climate Analysis
+- name: c3s
+  owner: climate
+  revisions: []
+  tool_panel_section_id: climate_analysis
+  tool_panel_section_label: Climate Analysis
