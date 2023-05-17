@@ -2,6 +2,8 @@ tool_panel_section_label: Get Data
 tools:
 - name: sra_tools
   owner: iuc
+- name: ncbi_datasets
+  owner: iuc
 - name: ebi_metagenomics_run_downloader
   owner: iuc
 - name: ebi_search_rest_results
