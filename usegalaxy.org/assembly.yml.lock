@@ -22,6 +22,7 @@ tools:
   - 7594365c546b
   - 875d0f36d66f
   - ebb0dcdb621a
+  - 72472698a2df
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: trinity_psc
@@ -208,6 +209,7 @@ tools:
   - 9ef6920c3089
   - bf0a4667e3ce
   - f3c89da3af16
+  - 71740308d412
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: purge_dups
@@ -253,6 +255,7 @@ tools:
   - 5258e18bbe23
   - 96cacb31d571
   - faee8629b460
+  - 3371c5bdc17a
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: bellerophon
@@ -305,6 +308,7 @@ tools:
   - 39495e107274
   - d87433f2a54d
   - fc925f53cae7
+  - 425e63adcc5d
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: smudgeplot

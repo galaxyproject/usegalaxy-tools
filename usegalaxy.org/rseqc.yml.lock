@@ -7,5 +7,6 @@ tools:
   owner: nilesh
   revisions:
   - f437057e46f1
+  - 473382134e56
   tool_panel_section_id: rseqc
   tool_panel_section_label: RSeQC

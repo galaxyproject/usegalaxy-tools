@@ -16,6 +16,7 @@ tools:
   - c441583adae5
   - e08a7ad4378b
   - f5ea3ce9b9b0
+  - 4df8de2d0e48
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_datasets
@@ -28,6 +29,7 @@ tools:
   - b2ae7186d41f
   - 18eed8fa7f23
   - a3395b1d871b
+  - 1e188c9610c3
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ebi_metagenomics_run_downloader
