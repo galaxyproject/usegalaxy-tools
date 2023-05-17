@@ -362,3 +362,9 @@ tools:
   - da787fc8b740
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: vapor
+  owner: iuc
+  revisions:
+  - 244812f5bd1f
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis

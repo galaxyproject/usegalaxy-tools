@@ -68,3 +68,9 @@ tools:
   owner: iuc
 - name: deepvariant
   owner: iuc
+- name: ucsc_fatovcf
+  owner: iuc
+- name: snp_dists
+  owner: iuc
+- name: snp_sites
+  owner: iuc

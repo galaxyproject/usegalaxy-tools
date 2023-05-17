@@ -352,3 +352,9 @@ tools:
   - d6255614afd7
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
+- name: fasta_regex_finder
+  owner: mbernt
+  revisions:
+  - 9a811adb714f
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ

@@ -265,7 +265,25 @@ tools:
 - name: deepvariant
   owner: iuc
   revisions:
-  - 98fe794d2ec0
   - 918c8b94c8d8
+  - 98fe794d2ec0
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: ucsc_fatovcf
+  owner: iuc
+  revisions:
+  - 78df8fc2b3ab
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: snp_dists
+  owner: iuc
+  revisions:
+  - f78492521996
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: snp_sites
+  owner: iuc
+  revisions:
+  - 5804f786060d
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
