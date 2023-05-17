@@ -96,3 +96,5 @@ tools:
   owner: iuc
 - name: umi_tools_group
   owner: iuc
+- name: fasta_regex_finder
+  owner: mbernt
