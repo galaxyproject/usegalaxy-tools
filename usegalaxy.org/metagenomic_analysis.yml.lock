@@ -371,46 +371,55 @@ tools:
   tool_panel_section_label: Metagenomic Analysis
 - name: krakentools_kreport2krona
   owner: iuc
-  revisions: []
+  revisions:
+  - 88d274322340
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: humann_regroup_table
   owner: iuc
-  revisions: []
+  revisions:
+  - 79706f10d680
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: humann
   owner: iuc
-  revisions: []
+  revisions:
+  - 95bf7479d53c
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: humann_renorm_table
   owner: iuc
-  revisions: []
+  revisions:
+  - d7e9a3c41657
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: metaphlan
   owner: iuc
-  revisions: []
+  revisions:
+  - ec368db926f4
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: humann_unpack_pathways
   owner: iuc
-  revisions: []
+  revisions:
+  - 080ea153677c
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: humann_split_stratified_table
   owner: iuc
-  revisions: []
+  revisions:
+  - 64bc7acc22a9
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: humann_rename_table
   owner: iuc
-  revisions: []
+  revisions:
+  - 172920f67a84
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: combine_metaphlan2_humann2
   owner: bebatut
-  revisions: []
+  revisions:
+  - fdfb35745104
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis

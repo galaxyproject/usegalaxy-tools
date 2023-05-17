@@ -326,6 +326,7 @@ tools:
   tool_panel_section_label: Assembly
 - name: aegean_parseval
   owner: iuc
-  revisions: []
+  revisions:
+  - 1b52f0c8ad7f
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

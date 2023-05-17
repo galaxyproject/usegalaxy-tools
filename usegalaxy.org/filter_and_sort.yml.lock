@@ -5,6 +5,7 @@ tool_panel_section_label: Filter and Sort
 tools:
 - name: sample_seqs
   owner: peterjc
-  revisions: []
+  revisions:
+  - 7c40a1fbc82e
   tool_panel_section_id: filter_and_sort
   tool_panel_section_label: Filter and Sort

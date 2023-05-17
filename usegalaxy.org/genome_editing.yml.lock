@@ -5,16 +5,19 @@ tool_panel_section_label: Genome Editing
 tools:
 - name: mageck_mle
   owner: iuc
-  revisions: []
+  revisions:
+  - 26126538a86f
   tool_panel_section_id: genome_editing
   tool_panel_section_label: Genome Editing
 - name: mageck_test
   owner: iuc
-  revisions: []
+  revisions:
+  - 9b4f4533c9ee
   tool_panel_section_id: genome_editing
   tool_panel_section_label: Genome Editing
 - name: mageck_count
   owner: iuc
-  revisions: []
+  revisions:
+  - e329d44424d7
   tool_panel_section_id: genome_editing
   tool_panel_section_label: Genome Editing

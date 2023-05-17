@@ -5,46 +5,55 @@ tool_panel_section_label: Monocle3
 tools:
 - name: monocle3_create
   owner: ebi-gxa
-  revisions: []
+  revisions:
+  - ada68a9d0aec
   tool_panel_section_id: monocle3
   tool_panel_section_label: Monocle3
 - name: monocle3_partition
   owner: ebi-gxa
-  revisions: []
+  revisions:
+  - d98b4705eb4c
   tool_panel_section_id: monocle3
   tool_panel_section_label: Monocle3
 - name: monocle3_diffexp
   owner: ebi-gxa
-  revisions: []
+  revisions:
+  - d43a608d14ac
   tool_panel_section_id: monocle3
   tool_panel_section_label: Monocle3
 - name: monocle3_preprocess
   owner: ebi-gxa
-  revisions: []
+  revisions:
+  - c150370b514c
   tool_panel_section_id: monocle3
   tool_panel_section_label: Monocle3
 - name: monocle3_plotcells
   owner: ebi-gxa
-  revisions: []
+  revisions:
+  - 91980addce5e
   tool_panel_section_id: monocle3
   tool_panel_section_label: Monocle3
 - name: monocle3_reducedim
   owner: ebi-gxa
-  revisions: []
+  revisions:
+  - 8900e2a18603
   tool_panel_section_id: monocle3
   tool_panel_section_label: Monocle3
 - name: monocle3_learngraph
   owner: ebi-gxa
-  revisions: []
+  revisions:
+  - 5f877012f7af
   tool_panel_section_id: monocle3
   tool_panel_section_label: Monocle3
 - name: monocle3_topmarkers
   owner: ebi-gxa
-  revisions: []
+  revisions:
+  - a4ab4af54b1a
   tool_panel_section_id: monocle3
   tool_panel_section_label: Monocle3
 - name: monocle3_ordercells
   owner: ebi-gxa
-  revisions: []
+  revisions:
+  - 3e77dc421569
   tool_panel_section_id: monocle3
   tool_panel_section_label: Monocle3

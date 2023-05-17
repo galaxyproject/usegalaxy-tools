@@ -5,21 +5,25 @@ tool_panel_section_label: Apollo
 tools:
 - name: apollo_list_organism
   owner: gga
-  revisions: []
+  revisions:
+  - 2c749ed310da
   tool_panel_section_id: apollo
   tool_panel_section_label: Apollo
 - name: apollo_iframe
   owner: gga
-  revisions: []
+  revisions:
+  - f4e3f9480307
   tool_panel_section_id: apollo
   tool_panel_section_label: Apollo
 - name: apollo_create_account
   owner: gga
-  revisions: []
+  revisions:
+  - e80d29fd2a33
   tool_panel_section_id: apollo
   tool_panel_section_label: Apollo
 - name: apollo_create_or_update
   owner: gga
-  revisions: []
+  revisions:
+  - 4abaab60f9e1
   tool_panel_section_id: apollo
   tool_panel_section_label: Apollo
