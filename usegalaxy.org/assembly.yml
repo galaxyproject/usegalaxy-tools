@@ -72,3 +72,5 @@ tools:
   owner: galaxy-australia
 - name: velvet
   owner: devteam
+- name: aegean_parseval
+  owner: iuc

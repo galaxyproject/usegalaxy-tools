@@ -46,3 +46,9 @@ tools:
   owner: devteam
 - name: compress_file
   owner: iuc
+- name: graphicsmagick_image_montage
+  owner: bgruening
+- name: msconvert
+  owner: galaxyp
+- name: msconvert
+  owner: galaxyp

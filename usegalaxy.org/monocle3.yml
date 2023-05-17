@@ -1,0 +1,20 @@
+tool_panel_section_label: Monocle3
+tools:
+- name: monocle3_create
+  owner: ebi-gxa
+- name: monocle3_partition
+  owner: ebi-gxa
+- name: monocle3_diffexp
+  owner: ebi-gxa
+- name: monocle3_preprocess
+  owner: ebi-gxa
+- name: monocle3_plotcells
+  owner: ebi-gxa
+- name: monocle3_reducedim
+  owner: ebi-gxa
+- name: monocle3_learngraph
+  owner: ebi-gxa
+- name: monocle3_topmarkers
+  owner: ebi-gxa
+- name: monocle3_ordercells
+  owner: ebi-gxa

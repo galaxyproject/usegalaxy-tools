@@ -98,3 +98,5 @@ tools:
   owner: rnateam
 - name: cemitool
   owner: iuc
+- name: targetfinder
+  owner: rnateam

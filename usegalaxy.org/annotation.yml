@@ -92,3 +92,15 @@ tools:
   owner: iuc
 - name: cooc_tabmut
   owner: iuc
+- name: repeatmodeler
+  owner: csbl
+- name: red
+  owner: iuc
+- name: funannotate_compare
+  owner: iuc
+- name: funannotate_annotate
+  owner: iuc
+- name: funannotate_predict
+  owner: iuc
+- name: interproscan
+  owner: bgruening

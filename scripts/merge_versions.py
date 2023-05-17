@@ -47,7 +47,6 @@ def main():
         print(f"Processing input tools.yaml: {tools_yaml}")
     a = yaml.safe_load(open(tools_yaml, 'r'))
     tools = a['tools']
-    tools_already_seen_on_this_instance = []
     for tool in tools:
         tool_key = (tool['name'], tool['owner'])
         if tool_key in revisions:
