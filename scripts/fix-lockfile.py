@@ -96,7 +96,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--no-install-repository-dependencies', action='store_true', default=False,
                         help="Don't install TS repository dependencies")
-    parser.add_argument('--no-install-resolver-dependencies', action='store_true', default=False,
+    parser.add_argument('--no-install-resolver-dependencies', action='store_true', default=True,
                         help="Don't install tool dependencies via Galaxy dependency resolver (e.g. conda)")
     parser.add_argument('fn', type=argparse.FileType('r'), help="Tool.yaml file")
     args = parser.parse_args()
