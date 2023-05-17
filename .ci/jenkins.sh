@@ -22,8 +22,6 @@ GALAXY_TEMPLATE_DB='galaxy.sqlite'
 
 # Need to run dev until 0.10.4
 #EPHEMERIS="git+https://github.com/galaxyproject/ephemeris.git"
-# Fix for not installing Conda deps: https://github.com/galaxyproject/ephemeris/pull/181
-EPHEMERIS="git+https://github.com/mvdbeek/ephemeris.git@fix_option_parsing_and_tool_id_handling"
 
 # Should be set by Jenkins, so the default here is for development
 : ${GIT_COMMIT:=$(git rev-parse HEAD)}
@@ -637,7 +635,7 @@ function install_tools() {
     for tool_yaml in "${TOOL_YAMLS[@]}"; do
         log "Installing tools in ${tool_yaml}"
         # FIXME: after https://github.com/galaxyproject/ephemeris/pull/181 is merged you would need to remove
-        # --skip_install_resolver_dependencies for install_resolver_dependencies in tools.yaml to work
+        # --skip_install_resolver_dependencies for install_resolver_dependencies: true in tools.yaml to work
         log_exec shed-tools install --skip_install_resolver_dependencies -v -g "$GALAXY_URL" -a "$API_KEY" -t "$tool_yaml" || {
             log_error "Tool installation failed"
             show_logs
