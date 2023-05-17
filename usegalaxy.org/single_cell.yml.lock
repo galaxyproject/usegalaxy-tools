@@ -39,15 +39,6 @@ tools:
   - ab55fe8030b6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
-- name: scanpy_plot
-  owner: iuc
-  revisions:
-  - 6adf98e782f3
-  - 7647e5cd1b8b
-  - 9a169729c9f9
-  - aa0c474463c2
-  tool_panel_section_id: single_cell
-  tool_panel_section_label: Single-cell
 - name: scanpy_cluster_reduce_dimension
   owner: iuc
   revisions:
@@ -364,12 +355,15 @@ tools:
   owner: bgruening
   revisions:
   - 282819d09a4f
+  - 2cfd0db49bbc
+  - 7ffaa0968da3
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_inspect_eset
   owner: bgruening
   revisions:
   - 7705cc75ac18
+  - 8c64a2da3869
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_manipulate_eset
@@ -382,6 +376,7 @@ tools:
   owner: bgruening
   revisions:
   - 2ba99a52bd44
+  - 56371b5a2da9
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_compare

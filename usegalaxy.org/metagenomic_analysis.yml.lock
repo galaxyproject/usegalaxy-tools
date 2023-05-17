@@ -14,6 +14,7 @@ tools:
 - name: diamond
   owner: bgruening
   revisions:
+  - 54f751e413f4
   - 62c9df8382c2
   - 64be1ac21109
   - 1e3323a44643
@@ -61,8 +62,7 @@ tools:
 - name: taxonomy_krona_chart
   owner: crs4
   revisions:
-  - 1334cb4c6b68
-  - c9f8fef1df74
+  - e9005d1f3cfd
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: scikit_bio_diversity_beta_diversity
@@ -359,6 +359,7 @@ tools:
 - name: staramr
   owner: nml
   revisions:
+  - 2fd4d4c9c5c2
   - da787fc8b740
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis

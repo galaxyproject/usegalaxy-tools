@@ -80,20 +80,21 @@ tools:
 - name: pangolin
   owner: iuc
   revisions:
+  - 03ed9524dcd1
+  - 14ae456b8cc5
+  - 2fa9d4f1b48f
+  - 36912871ccdc
+  - 3a656a4a43ed
   - 42126b414951
   - 42a174224817
-  - 3a656a4a43ed
-  - fe3e8506112c
-  - 36912871ccdc
-  - ca0d8cf80567
   - 5f8727ff21e7
-  - 2fa9d4f1b48f
-  - abf6dbe8c9d7
-  - 14ae456b8cc5
   - 81804a978fc0
   - a2099fb98cdb
+  - abf6dbe8c9d7
+  - b6abccb1f25b
+  - ca0d8cf80567
   - ca337cce3888
-  - 03ed9524dcd1
+  - fe3e8506112c
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: nextclade

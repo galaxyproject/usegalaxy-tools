@@ -37,6 +37,7 @@ tools:
   revisions:
   - 17359b808b01
   - 1cfc579079a6
+  - 2bb2e07a7a21
   - 4542035c1075
   - 667e17248bfe
   - 6cd09d7b5f37
@@ -130,8 +131,10 @@ tools:
 - name: bandage
   owner: iuc
   revisions:
+  - 067592b6b312
   - 21e491ad532a
   - 94fe43e75ddc
+  - b2860df42e16
   - b9e31c5c01c7
   - ddddce450736
   tool_panel_section_id: graph_display_data
@@ -208,12 +211,14 @@ tools:
 - name: graphlan
   owner: iuc
   revisions:
+  - 8f62f666dcb6
   - a490b70e46fc
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: graphlan_annotate
   owner: iuc
   revisions:
+  - 5d6f8f0bef7c
   - cf1df6b2220a
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data

@@ -79,41 +79,51 @@ tools:
 - name: gmx_setup
   owner: chemteam
   revisions:
-  - a66c193fafdb
-  - ed736e6eee39
   - 070e3ecc3fda
+  - 2c349b027a01
+  - a66c193fafdb
+  - cac1886249a2
+  - ed736e6eee39
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_editconf
   owner: chemteam
   revisions:
-  - b9e25ec471eb
+  - 0fac8e2afc13
+  - 3b8a9d5ced85
   - 79cfd9ead848
   - 88076940fa94
+  - b9e25ec471eb
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_solvate
   owner: chemteam
   revisions:
-  - 8ad46f918541
+  - 1809414a9454
+  - 2c8ed1b52bf7
   - 598e0078040b
-  - 7568ae18908a
   - 61094e01eff9
+  - 7568ae18908a
+  - 8ad46f918541
   - c4fbab8e03c5
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_em
   owner: chemteam
   revisions:
-  - 59c662ca4211
   - 1b46398cc8ca
+  - 59c662ca4211
   - b46d4b4d995c
+  - eb6564a60136
+  - f5d979cb4b54
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_sim
   owner: chemteam
   revisions:
+  - 2e219a2d9327
   - 525ca7c8065f
+  - 73008ef1f487
   - b7cebf442209
   - c0c9a5024177
   tool_panel_section_id: chemicaltoolbox
@@ -129,15 +139,18 @@ tools:
 - name: gmx_merge_topology_files
   owner: chemteam
   revisions:
-  - 534ff13ea227
   - 04abdf96978b
+  - 319a28774da9
+  - 534ff13ea227
   - bc31d02be922
+  - d1d0efda35c0
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_energy
   owner: chemteam
   revisions:
   - 593c63b5aff8
+  - d2f955aea23a
   - f26afd1b7104
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
@@ -150,15 +163,18 @@ tools:
 - name: md_converter
   owner: chemteam
   revisions:
-  - d7ec25187599
+  - 79e8ab8f1e81
   - ba83f0923369
+  - d7ec25187599
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: ambertools_acpype
   owner: chemteam
   revisions:
-  - a0c154146234
   - 095ad4d096d1
+  - 6ca543ec1bf8
+  - a0c154146234
+  - f4230f116196
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: biomd_neqgamma
@@ -369,6 +385,7 @@ tools:
   owner: chemteam
   revisions:
   - 48d6a6eb438b
+  - 9a3a1f698fc6
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: mdanalysis_hbonds
@@ -650,6 +667,7 @@ tools:
 - name: goseq
   owner: iuc
   revisions:
+  - 8b3e3657034e
   - ef2ad746b589
   - 43798b4caee0
   - 602de62d995b
