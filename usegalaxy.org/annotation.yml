@@ -50,8 +50,6 @@ tools:
   owner: iuc
 - name: progressivemauve
   owner: iuc
-- name: repeat_masker
-  owner: bgruening
 - name: roary
   owner: iuc
 - name: snap_training

@@ -8,8 +8,6 @@ tools:
   owner: iuc
 - name: scanpy_normalize
   owner: iuc
-- name: scanpy_plot
-  owner: iuc
 - name: scanpy_cluster_reduce_dimension
   owner: iuc
 - name: scanpy_remove_confounders

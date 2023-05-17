@@ -189,17 +189,6 @@ tools:
   - ce795616bd9c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-- name: repeat_masker
-  owner: bgruening
-  revisions:
-  - ade773848c3d
-  - d7540a923c7b
-  - 438f65cb1d14
-  - 72aade318318
-  - 3f987772e283
-  - ba6d2c32f797
-  tool_panel_section_id: annotation
-  tool_panel_section_label: Annotation
 - name: roary
   owner: iuc
   revisions:

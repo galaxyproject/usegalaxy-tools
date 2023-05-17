@@ -39,15 +39,6 @@ tools:
   - ab55fe8030b6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
-- name: scanpy_plot
-  owner: iuc
-  revisions:
-  - 6adf98e782f3
-  - 7647e5cd1b8b
-  - 9a169729c9f9
-  - aa0c474463c2
-  tool_panel_section_id: single_cell
-  tool_panel_section_label: Single-cell
 - name: scanpy_cluster_reduce_dimension
   owner: iuc
   revisions:
