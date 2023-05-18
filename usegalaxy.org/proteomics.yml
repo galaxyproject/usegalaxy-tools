@@ -12,3 +12,9 @@ tools:
   owner: galaxyp
 - name: msstats
   owner: galaxyp
+- name: eggnog_mapper
+  owner: galaxyp
+- name: encyclopedia_quantify
+  owner: galaxyp
+- name: encyclopedia_searchtolib
+  owner: galaxyp

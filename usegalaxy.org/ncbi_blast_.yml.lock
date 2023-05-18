@@ -6,10 +6,10 @@ tools:
 - name: ncbi_blast_plus
   owner: devteam
   revisions:
+  - 0e3cf9594bb7
   - 2889433c7ae1
   - 5edc472ec434
   - e25d3acf6e68
-  - 0e3cf9594bb7
   tool_panel_section_id: ncbi_blast_
   tool_panel_section_label: NCBI BLAST+
 - name: kraken2

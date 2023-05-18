@@ -6,9 +6,9 @@ tools:
 - name: bioext_bam2msa
   owner: iuc
   revisions:
-  - f5792425ea50
-  - b226e0c805a5
   - 359e043a285c
+  - b226e0c805a5
+  - f5792425ea50
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: tabular_to_fasta
@@ -72,18 +72,18 @@ tools:
 - name: bax2bam
   owner: iuc
   revisions:
-  - ee356d7a5518
   - 5bd67e012d54
+  - ee356d7a5518
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_bam
   owner: iuc
   revisions:
   - 0f0cf480051b
-  - 60ca8d013263
-  - e5340c09200a
-  - e13f565068d6
   - 158b5b2a164a
+  - 60ca8d013263
+  - e13f565068d6
+  - e5340c09200a
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_bed
@@ -91,36 +91,36 @@ tools:
   revisions:
   - 91efc13d3ec1
   - cdbdce00f5f6
-  - f4a70882a71b
   - ee86b27291b5
+  - f4a70882a71b
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_wig
   owner: iuc
   revisions:
-  - e8d84292e510
-  - 5f893ed3c5ed
   - 282a658c6569
+  - 5f893ed3c5ed
   - e72c320c17c1
+  - e8d84292e510
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_vcf
   owner: iuc
   revisions:
+  - 18f7e96459d2
+  - 6e96c77f5824
+  - 71730c177cdf
   - 97979c3d179f
   - b21851ddcc79
-  - 71730c177cdf
-  - 6e96c77f5824
-  - 18f7e96459d2
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_gff
   owner: iuc
   revisions:
   - 09c6a9e067f9
-  - 88d180fb6d67
-  - 4d97434ea0fb
   - 42b239a32349
+  - 4d97434ea0fb
+  - 88d180fb6d67
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: gfa_to_fa
@@ -163,22 +163,35 @@ tools:
 - name: mz_to_sqlite
   owner: galaxyp
   revisions:
+  - 8190f6083c0d
   - e34bdac5b157
   - f5c632894818
-  - 8190f6083c0d
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: gffread
   owner: devteam
   revisions:
+  - 154d00cbbf2d
   - 4dea02886337
   - 69e0806b63a4
-  - 154d00cbbf2d
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: compress_file
   owner: iuc
   revisions:
   - 09ea79f9f260
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: graphicsmagick_image_montage
+  owner: bgruening
+  revisions:
+  - 39881709807e
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: msconvert
+  owner: galaxyp
+  revisions:
+  - 3cf310697624
+  - 6153e8ada1ee
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats

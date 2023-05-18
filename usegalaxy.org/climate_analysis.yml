@@ -2,3 +2,7 @@ tool_panel_section_label: Climate Analysis
 tools:
 - name: ctsm_fates
   owner: climate
+- name: climate_stripes
+  owner: climate
+- name: c3s
+  owner: climate

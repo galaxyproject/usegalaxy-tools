@@ -186,23 +186,23 @@ tools:
 - name: seqcomplexity
   owner: iuc
   revisions:
-  - f14a21f3d5b1
   - 054c3355458d
+  - f14a21f3d5b1
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: scipy_sparse
   owner: bgruening
   revisions:
+  - 4efac966af2a
   - 92e09b827300
   - e6893a4bcb7b
-  - 4efac966af2a
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: create_tool_recommendation_model
   owner: bgruening
   revisions:
-  - afec8c595124
   - 4f7e6612906b
+  - afec8c595124
   - e94dc7945639
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics

@@ -1,4 +1,5 @@
 GALAXY_SERVER := https://usegalaxy.*
+TOOLSET := usegalaxy.org
 
 
 help:

@@ -19,10 +19,10 @@ tools:
   - 3061c8b029e5
   - 59db8ea8c845
   - 675488238c96
+  - 72472698a2df
   - 7594365c546b
   - 875d0f36d66f
   - ebb0dcdb621a
-  - 72472698a2df
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: trinity_psc
@@ -207,10 +207,10 @@ tools:
   - 5bec28269d95
   - 5f625c63b8bc
   - 6505bd37670d
+  - 71740308d412
   - 9ef6920c3089
   - bf0a4667e3ce
   - f3c89da3af16
-  - 71740308d412
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: purge_dups
@@ -253,10 +253,10 @@ tools:
 - name: bionano_scaffold
   owner: bgruening
   revisions:
+  - 3371c5bdc17a
   - 5258e18bbe23
   - 96cacb31d571
   - faee8629b460
-  - 3371c5bdc17a
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: bellerophon
@@ -294,22 +294,22 @@ tools:
   owner: bgruening
   revisions:
   - 2b8b4cacb83d
+  - 3ef480892a9f
   - 3fba9c77550a
   - 5127a713de83
   - 5799092ffdff
   - 690c2caa367e
   - 8ccbf07a5433
   - ad1149b4f795
-  - 3ef480892a9f
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: yahs
   owner: iuc
   revisions:
   - 39495e107274
+  - 425e63adcc5d
   - d87433f2a54d
   - fc925f53cae7
-  - 425e63adcc5d
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: smudgeplot
@@ -322,5 +322,11 @@ tools:
   owner: devteam
   revisions:
   - 920677cd220f
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: aegean_parseval
+  owner: iuc
+  revisions:
+  - 1b52f0c8ad7f
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

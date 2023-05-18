@@ -66,8 +66,8 @@ tools:
 - name: openbabel_compound_convert
   owner: bgruening
   revisions:
-  - e2c36f62e22f
   - b59c91adeac1
+  - e2c36f62e22f
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: get_online_data
@@ -199,22 +199,22 @@ tools:
 - name: openms_openpepxl
   owner: galaxyp
   revisions:
-  - fc36cfd19834
   - 4d2b77fd7a28
+  - fc36cfd19834
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_get_builtin_file
   owner: chemteam
   revisions:
-  - 42dfec375136
   - 124c21408519
+  - 42dfec375136
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_rg
   owner: chemteam
   revisions:
-  - b01f3db44534
   - 2b19cec3cca9
+  - b01f3db44534
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_restraints
@@ -227,8 +227,8 @@ tools:
 - name: gmx_trj
   owner: chemteam
   revisions:
-  - 72459c3ea5f6
   - 32052c6c3310
+  - 72459c3ea5f6
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: alphafold2
@@ -667,10 +667,10 @@ tools:
 - name: goseq
   owner: iuc
   revisions:
-  - 8b3e3657034e
-  - ef2ad746b589
   - 43798b4caee0
   - 602de62d995b
+  - 8b3e3657034e
+  - ef2ad746b589
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: vmd_hbonds

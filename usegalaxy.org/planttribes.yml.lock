@@ -6,8 +6,8 @@ tools:
 - name: plant_tribes_assembly_post_processor
   owner: greg
   revisions:
-  - 9c72c91d291f
   - 4d73965d99a2
+  - 9c72c91d291f
   tool_panel_section_id: planttribes
   tool_panel_section_label: PlantTribes
 - name: plant_tribes_gene_family_classifier
@@ -31,15 +31,15 @@ tools:
 - name: plant_tribes_gene_family_phylogeny_builder
   owner: greg
   revisions:
-  - c088c185f63f
   - 13d2d138e0e2
+  - c088c185f63f
   tool_panel_section_id: planttribes
   tool_panel_section_label: PlantTribes
 - name: plant_tribes_kaks_analysis
   owner: greg
   revisions:
-  - 84615d553d44
   - 2c46551274d6
+  - 84615d553d44
   tool_panel_section_id: planttribes
   tool_panel_section_label: PlantTribes
 - name: plant_tribes_ks_distribution

@@ -13,15 +13,15 @@ tools:
 - name: hicup_hicup
   owner: bgruening
   revisions:
-  - 852e1fac4802
   - 68fb19094f84
+  - 852e1fac4802
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: hicup_filter
   owner: bgruening
   revisions:
-  - 6c26354dabe0
   - 2d4a34c00c67
+  - 6c26354dabe0
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: hicup_digester
@@ -34,8 +34,8 @@ tools:
 - name: hicup_deduplicator
   owner: bgruening
   revisions:
-  - 44b121185562
   - 2107c2f7a5d7
+  - 44b121185562
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: hicup_mapper
@@ -48,8 +48,8 @@ tools:
 - name: hicup2juicer
   owner: bgruening
   revisions:
-  - f8cb84c49623
   - b4e7244246e2
+  - f8cb84c49623
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: cooler_makebins

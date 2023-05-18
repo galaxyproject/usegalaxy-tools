@@ -1,0 +1,105 @@
+#!/usr/bin/env python
+#
+# given an input yaml and a toolset, find tools in sections on another server and add to toolset
+
+import yaml
+import glob
+import re
+import os
+import string
+import sys
+import argparse
+import requests
+
+def main():
+
+    VERSION = 0.1
+
+    parser = argparse.ArgumentParser(description="")
+    parser.add_argument("-t", "--tools", default="tools.yaml", help="Input tools.yaml")
+    parser.add_argument("-s", "--toolset", default="usegalaxy.org", help="The toolset dir to add versions to")
+    parser.add_argument("-l", "--leftovers-file", default="leftovers.yaml", help="The file to store leftover (unmatched) repos in.")
+    parser.add_argument("-g", "--galaxy-url", default="https://usegalaxy.eu", help="The Galaxy server to steal from")
+    parser.add_argument("--version", action='store_true')
+    parser.add_argument("--verbose", action='store_true')
+
+    args = parser.parse_args()
+
+    if args.version:
+        print("merge_versions.py version: %.1f" % VERSION)
+        return
+
+    tools_yaml = args.tools
+    toolset = args.toolset
+
+    section_files = glob.glob(os.path.join(args.toolset, "*.yml"))
+
+    other_tools = {}
+    other_labels = {}
+
+    url = f"{args.galaxy_url}/api/tools?in_panel=false"
+    if args.verbose:
+        print(f"Loading tools from: {url}")
+    for tool in requests.get(url).json():
+        if 'tool_shed_repository' not in tool:
+            continue
+        # this overwrites multi-tool repos but that's not a biggie
+        tool_key = (tool['tool_shed_repository']['name'], tool['tool_shed_repository']['owner'])
+        section_label = tool['panel_section_name']
+        section_id = ''.join(c if c in string.ascii_letters + string.digits else '_' for c in section_label).lower()
+        other_tools[tool_key] = section_id
+        other_labels[section_id] = section_label
+
+    existing = {}
+    leftover_tools = []
+    new = {}
+
+    for section_file in section_files:
+        if args.verbose:
+            print(f"Reading section file: {section_file}")
+        a = yaml.safe_load(open(section_file, 'r'))
+        tools = a['tools']
+        for tool in tools:
+            tool_key = (tool['name'], tool['owner'])
+            existing[tool_key] = section_file
+
+    if args.verbose:
+        print(f"Processing input tools.yaml: {tools_yaml}")
+    a = yaml.safe_load(open(tools_yaml, 'r'))
+    tools = a['tools']
+    for tool in tools:
+        tool_key = (tool['name'], tool['owner'])
+        if tool_key in existing:
+            continue
+        elif tool_key in other_tools:
+            try:
+                new[other_tools[tool_key]].append(tool_key)
+            except:
+                new[other_tools[tool_key]] = [tool_key]
+        else:
+            leftover_tools.append(tool)
+
+    print(f"Found sections for {len(new)} tools ({len(leftover_tools)} left over)")
+
+    for section, repos in new.items():
+        section_file = os.path.join(toolset, section + ".yml")
+        if not os.path.exists(section_file):
+            a = {'tool_panel_section_label': other_labels[section], 'tools': []}
+            if args.verbose:
+                print(f"Adding to new section file: {section_file}")
+        else:
+            a = yaml.safe_load(open(section_file, 'r'))
+            if args.verbose:
+                print(f"Adding to existing section file: {section_file}")
+        else:
+        tools = a['tools']
+        tools.extend({"name": t[0], "owner": t[1]} for t in repos)
+
+        with open(section_file, 'w') as out:
+            yaml.dump(a, out, default_flow_style=False)
+
+    with open(args.leftovers_file, 'w') as out:
+        yaml.dump({'tools': leftover_tools}, out, default_flow_style=False)
+
+if __name__ == "__main__":
+    main()

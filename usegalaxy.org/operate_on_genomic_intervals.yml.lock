@@ -27,8 +27,8 @@ tools:
 - name: join
   owner: devteam
   revisions:
-  - a10f49d9218a
   - 718d04143c31
+  - a10f49d9218a
   tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: intersect
@@ -76,8 +76,8 @@ tools:
 - name: flanking_features
   owner: devteam
   revisions:
-  - a09d13b108fd
   - 9f12b7e500f1
+  - a09d13b108fd
   tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
 - name: get_flanks
