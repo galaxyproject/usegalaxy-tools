@@ -70,6 +70,8 @@ def main():
     for tool in tools:
         tool_key = (tool['name'], tool['owner'])
         if tool_key in existing:
+            if args.verbose:
+                print(f"Skipping existing tool: {tool['owner']}/{tool['name']}")
             continue
         elif tool_key in other_tools:
             try:
@@ -91,7 +93,6 @@ def main():
             a = yaml.safe_load(open(section_file, 'r'))
             if args.verbose:
                 print(f"Adding to existing section file: {section_file}")
-        else:
         tools = a['tools']
         tools.extend({"name": t[0], "owner": t[1]} for t in repos)
 
