@@ -79,6 +79,7 @@ tools:
   - 29bdbc353f20
   - 62f5fab76dfb
   - 6da3972210ee
+  - a6ea26c1f225
   - b4e6819b25ef
   - d82648ad25a3
   tool_panel_section_id: mapping
@@ -123,6 +124,7 @@ tools:
   revisions:
   - 15df15127c18
   - 183cb55b1729
+  - 906db57d5d65
   - d6787bab7b11
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping

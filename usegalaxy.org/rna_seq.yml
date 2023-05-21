@@ -100,3 +100,17 @@ tools:
   owner: iuc
 - name: targetfinder
   owner: rnateam
+- name: chira_collapse
+  owner: iuc
+- name: chira_extract
+  owner: iuc
+- name: chira_map
+  owner: iuc
+- name: chira_merge
+  owner: iuc
+- name: chira_quantify
+  owner: iuc
+- name: blockbuster
+  owner: rnateam
+- name: blockclust
+  owner: rnateam

@@ -6,6 +6,7 @@ tools:
 - name: deeptools_plot_profile
   owner: bgruening
   revisions:
+  - aac8444d6681
   - c361b12d207a
   - d806504e96d9
   - e9429e484e25
@@ -107,6 +108,7 @@ tools:
   - c1bc6406b3bb
   - f305afa8ff0d
   - fb9cf9c97ec4
+  - fd1275e01605
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_compute_gc_bias

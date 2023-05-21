@@ -81,6 +81,7 @@ tools:
   revisions:
   - 070e3ecc3fda
   - 2c349b027a01
+  - 4da9ee404eab
   - a66c193fafdb
   - cac1886249a2
   - ed736e6eee39
@@ -94,12 +95,14 @@ tools:
   - 79cfd9ead848
   - 88076940fa94
   - b9e25ec471eb
+  - bfb65cb551d8
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_solvate
   owner: chemteam
   revisions:
   - 1809414a9454
+  - 27ea4e1a3f95
   - 2c8ed1b52bf7
   - 598e0078040b
   - 61094e01eff9
@@ -112,6 +115,7 @@ tools:
   owner: chemteam
   revisions:
   - 1b46398cc8ca
+  - 55918daa5651
   - 59c662ca4211
   - b46d4b4d995c
   - eb6564a60136
@@ -126,6 +130,7 @@ tools:
   - 73008ef1f487
   - b7cebf442209
   - c0c9a5024177
+  - f197e34c33a9
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gmx_makendx
@@ -386,6 +391,7 @@ tools:
   revisions:
   - 48d6a6eb438b
   - 9a3a1f698fc6
+  - ebeb72aa39a8
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: mdanalysis_hbonds
@@ -398,17 +404,20 @@ tools:
   owner: chemteam
   revisions:
   - be5eaea0b2d1
+  - d710c7f00ae6
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: mdanalysis_distance
   owner: chemteam
   revisions:
+  - 489b25966bb9
   - fd987ff06ceb
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: mdanalysis_dihedral
   owner: chemteam
   revisions:
+  - 554f60da9c8f
   - 976cfd44b921
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
@@ -422,6 +431,7 @@ tools:
   owner: chemteam
   revisions:
   - 49076afc90b1
+  - 49dac57d004a
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_spectrophore_search
@@ -688,6 +698,7 @@ tools:
 - name: bio3d_rmsf
   owner: chemteam
   revisions:
+  - 4354d92dc1aa
   - 6bcb804a54c3
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
@@ -695,12 +706,14 @@ tools:
   owner: chemteam
   revisions:
   - 24867ab16f36
+  - 994c509873db
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: bio3d_rmsd
   owner: chemteam
   revisions:
   - 77e28e1da9f4
+  - f871c9a8cb7c
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: bio3d_dccm

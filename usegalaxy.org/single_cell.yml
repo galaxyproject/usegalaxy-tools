@@ -94,3 +94,11 @@ tools:
   owner: bgruening
 - name: music_compare
   owner: bgruening
+- name: episcanpy_build_matrix
+  owner: iuc
+- name: episcanpy_preprocess
+  owner: iuc
+- name: sinto_barcode
+  owner: iuc
+- name: sinto_fragments
+  owner: iuc
