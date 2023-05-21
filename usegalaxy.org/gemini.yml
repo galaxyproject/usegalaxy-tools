@@ -1,0 +1,10 @@
+tool_panel_section_label: Gemini
+tools:
+- name: gemini_annotate
+  owner: iuc
+- name: gemini_inheritance
+  owner: iuc
+- name: gemini_load
+  owner: iuc
+- name: gemini_query
+  owner: iuc

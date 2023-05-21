@@ -1,0 +1,4 @@
+tool_panel_section_label: Biodiversity data exploration
+tools:
+- name: obisindicators
+  owner: ecology

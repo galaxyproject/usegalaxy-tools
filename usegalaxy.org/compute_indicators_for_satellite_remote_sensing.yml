@@ -1,0 +1,10 @@
+tool_panel_section_label: Compute indicators for satellite remote sensing
+tools:
+- name: srs_diversity_maps
+  owner: ecology
+- name: srs_global_indices
+  owner: ecology
+- name: srs_preprocess_s2
+  owner: ecology
+- name: srs_spectral_indices
+  owner: ecology
