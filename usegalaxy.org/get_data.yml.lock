@@ -68,6 +68,7 @@ tools:
   tool_panel_section_label: Get Data
 - name: ega_download_client
   owner: iuc
-  revisions: []
+  revisions:
+  - f9db47f68e5e
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data

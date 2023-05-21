@@ -5,21 +5,28 @@ tool_panel_section_label: Gemini
 tools:
 - name: gemini_annotate
   owner: iuc
-  revisions: []
+  revisions:
+  - cf0f0f05ba9f
+  - f2f3bc622a16
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_inheritance
   owner: iuc
-  revisions: []
+  revisions:
+  - 18d13111692b
+  - 2c68e29c3527
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_load
   owner: iuc
-  revisions: []
+  revisions:
+  - 2270a8b83c12
+  - 45296e47d565
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_query
   owner: iuc
-  revisions: []
+  revisions:
+  - da74170c55c7
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini

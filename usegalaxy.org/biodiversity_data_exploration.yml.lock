@@ -5,6 +5,7 @@ tool_panel_section_label: Biodiversity data exploration
 tools:
 - name: obisindicators
   owner: ecology
-  revisions: []
+  revisions:
+  - 4e7c1fb5e894
   tool_panel_section_id: biodiversity_data_exploration
   tool_panel_section_label: Biodiversity data exploration

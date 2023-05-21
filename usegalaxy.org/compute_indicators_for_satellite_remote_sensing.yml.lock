@@ -5,21 +5,25 @@ tool_panel_section_label: Compute indicators for satellite remote sensing
 tools:
 - name: srs_diversity_maps
   owner: ecology
-  revisions: []
+  revisions:
+  - 9adccd3da70c
   tool_panel_section_id: compute_indicators_for_satellite_remote_sensing
   tool_panel_section_label: Compute indicators for satellite remote sensing
 - name: srs_global_indices
   owner: ecology
-  revisions: []
+  revisions:
+  - 5cae678042ec
   tool_panel_section_id: compute_indicators_for_satellite_remote_sensing
   tool_panel_section_label: Compute indicators for satellite remote sensing
 - name: srs_preprocess_s2
   owner: ecology
-  revisions: []
+  revisions:
+  - 33a1e15f7252
   tool_panel_section_id: compute_indicators_for_satellite_remote_sensing
   tool_panel_section_label: Compute indicators for satellite remote sensing
 - name: srs_spectral_indices
   owner: ecology
-  revisions: []
+  revisions:
+  - b40aba3d9e5c
   tool_panel_section_id: compute_indicators_for_satellite_remote_sensing
   tool_panel_section_label: Compute indicators for satellite remote sensing
