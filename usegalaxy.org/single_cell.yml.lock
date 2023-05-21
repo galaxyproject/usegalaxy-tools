@@ -385,3 +385,23 @@ tools:
   - 4447ed460308
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
+- name: episcanpy_build_matrix
+  owner: iuc
+  revisions: []
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: episcanpy_preprocess
+  owner: iuc
+  revisions: []
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: sinto_barcode
+  owner: iuc
+  revisions: []
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: sinto_fragments
+  owner: iuc
+  revisions: []
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell

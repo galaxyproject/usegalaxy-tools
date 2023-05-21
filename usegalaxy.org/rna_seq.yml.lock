@@ -431,3 +431,38 @@ tools:
   - c9d56748fbde
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
+- name: chira_collapse
+  owner: iuc
+  revisions: []
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: chira_extract
+  owner: iuc
+  revisions: []
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: chira_map
+  owner: iuc
+  revisions: []
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: chira_merge
+  owner: iuc
+  revisions: []
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: chira_quantify
+  owner: iuc
+  revisions: []
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: blockbuster
+  owner: rnateam
+  revisions: []
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: blockclust
+  owner: rnateam
+  revisions: []
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq

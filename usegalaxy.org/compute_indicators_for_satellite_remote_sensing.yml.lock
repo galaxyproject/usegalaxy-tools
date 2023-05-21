@@ -1,0 +1,25 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tool_panel_section_label: Compute indicators for satellite remote sensing
+tools:
+- name: srs_diversity_maps
+  owner: ecology
+  revisions: []
+  tool_panel_section_id: compute_indicators_for_satellite_remote_sensing
+  tool_panel_section_label: Compute indicators for satellite remote sensing
+- name: srs_global_indices
+  owner: ecology
+  revisions: []
+  tool_panel_section_id: compute_indicators_for_satellite_remote_sensing
+  tool_panel_section_label: Compute indicators for satellite remote sensing
+- name: srs_preprocess_s2
+  owner: ecology
+  revisions: []
+  tool_panel_section_id: compute_indicators_for_satellite_remote_sensing
+  tool_panel_section_label: Compute indicators for satellite remote sensing
+- name: srs_spectral_indices
+  owner: ecology
+  revisions: []
+  tool_panel_section_id: compute_indicators_for_satellite_remote_sensing
+  tool_panel_section_label: Compute indicators for satellite remote sensing
