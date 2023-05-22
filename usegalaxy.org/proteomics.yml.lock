@@ -41,6 +41,7 @@ tools:
   - 4d17fcdeb8ff
   - ea0a1d50c83f
   - f522c08e900c
+  - 837224ad1694
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: msstats
@@ -50,6 +51,7 @@ tools:
   - 52ac6fde9a5b
   - 593839e1f2c3
   - 8212e342e482
+  - b7034eff0db1
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: eggnog_mapper
@@ -63,6 +65,7 @@ tools:
   revisions:
   - 1c5cbf8f79ce
   - 4081e4faa4ab
+  - 0fa397f4f40b
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: encyclopedia_searchtolib
@@ -70,5 +73,6 @@ tools:
   revisions:
   - 36880dfd9fa7
   - 62a718b76f62
+  - fb192dd6658a
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
