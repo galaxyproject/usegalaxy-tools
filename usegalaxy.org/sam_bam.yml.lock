@@ -173,6 +173,30 @@ tools:
   - cb20f99fd45b
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
+- name: bamtools_split_mapped
+  owner: iuc
+  revisions:
+  - 6dbef7ea2253
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: bamtools_split_paired
+  owner: iuc
+  revisions:
+  - 5325e44297b9
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: bamtools_split_ref
+  owner: iuc
+  revisions:
+  - 9b520009db81
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: bamtools_split_tag
+  owner: iuc
+  revisions:
+  - e30af4e78cd3
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
 - name: samtools_depth
   owner: iuc
   revisions:
