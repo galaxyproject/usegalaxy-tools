@@ -473,3 +473,9 @@ tools:
   - aab6cf87b40a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
+- name: isoformswitchanalyzer
+  owner: iuc
+  revisions:
+  - b3f292d9f35d
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq

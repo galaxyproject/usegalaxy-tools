@@ -114,3 +114,5 @@ tools:
   owner: rnateam
 - name: blockclust
   owner: rnateam
+- name: isoformswitchanalyzer
+  owner: iuc
