@@ -39,9 +39,9 @@ tools:
   - 163452d1e255
   - 1f39c833f65f
   - 4d17fcdeb8ff
+  - 837224ad1694
   - ea0a1d50c83f
   - f522c08e900c
-  - 837224ad1694
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: msstats
@@ -63,9 +63,9 @@ tools:
 - name: encyclopedia_quantify
   owner: galaxyp
   revisions:
+  - 0fa397f4f40b
   - 1c5cbf8f79ce
   - 4081e4faa4ab
-  - 0fa397f4f40b
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: encyclopedia_searchtolib
