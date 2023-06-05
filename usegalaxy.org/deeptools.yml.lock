@@ -10,6 +10,7 @@ tools:
   - c361b12d207a
   - d806504e96d9
   - e9429e484e25
+  - 10301d137111
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_bam_coverage
@@ -21,6 +22,7 @@ tools:
   - bb1e4f63e0e6
   - c2b4dd18f09d
   - fe7cc56090ea
+  - 2d2cf5c1ea8a
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_plot_pca
@@ -29,6 +31,7 @@ tools:
   - 69264da0ce77
   - 7784523d9743
   - aa200e4f3939
+  - 00d869ea03a1
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_plot_heatmap
@@ -38,6 +41,7 @@ tools:
   - 42cb23d80271
   - a4dfb122e52b
   - a7849312d328
+  - 25d830337d31
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_plot_fingerprint
@@ -46,6 +50,7 @@ tools:
   - 2da482e408b8
   - ca8a7f0ea872
   - d57251071381
+  - b88ebb3672a1
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_plot_enrichment
@@ -54,6 +59,7 @@ tools:
   - 88ce7fed1488
   - d9114ef1c8a5
   - e65d16fb2724
+  - c03c3384cd81
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_plot_coverage
@@ -62,6 +68,7 @@ tools:
   - 4e12ea27f788
   - 56bce3c82278
   - 7fda5607e777
+  - 9368fbc49c8b
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_plot_correlation
@@ -70,6 +77,7 @@ tools:
   - 32e451def88c
   - bd7db9e2f2cb
   - e44978659400
+  - 2c66e43f1c86
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_multi_bigwig_summary
@@ -78,6 +86,7 @@ tools:
   - 2f9e4843f480
   - 3c9f0c486cca
   - 459cfa861f0b
+  - d9ce4897dbb2
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_multi_bam_summary
@@ -86,6 +95,7 @@ tools:
   - 69a8621ca2f0
   - 78f405266706
   - b4e53394fced
+  - 1fcb7adc39b8
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_correct_gc_bias
@@ -94,6 +104,7 @@ tools:
   - 00a71ff7c06b
   - 2c37ce318bc3
   - c34d11ea4ba6
+  - 5bffaa8354a1
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_compute_matrix
@@ -109,6 +120,7 @@ tools:
   - f305afa8ff0d
   - fb9cf9c97ec4
   - fd1275e01605
+  - d9a637e83828
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_compute_gc_bias
@@ -117,6 +129,7 @@ tools:
   - 2bc10a9ca58b
   - 56d5b797ce84
   - b8858746dc1f
+  - 5be24eba848d
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_bigwig_compare
@@ -125,6 +138,7 @@ tools:
   - 26e7304d6737
   - 71aa86af6762
   - 7989c6ddf634
+  - 3d211717a775
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_bam_pe_fragmentsize
@@ -133,6 +147,7 @@ tools:
   - 1d848bc4585f
   - 3f9dc453c0e8
   - 62eb6d63f582
+  - 195e98217334
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_bam_compare
@@ -141,5 +156,12 @@ tools:
   - 268e91e540ee
   - c89b665b45e4
   - e821645ef8fc
+  - 29451af70c52
+  tool_panel_section_id: deeptools
+  tool_panel_section_label: deepTools
+- name: deeptools_bigwig_average
+  owner: bgruening
+  revisions:
+  - f6f246438eda
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
