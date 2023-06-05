@@ -159,3 +159,9 @@ tools:
   - e821645ef8fc
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
+- name: deeptools_bigwig_average
+  owner: bgruening
+  revisions:
+  - f6f246438eda
+  tool_panel_section_id: deeptools
+  tool_panel_section_label: deepTools
