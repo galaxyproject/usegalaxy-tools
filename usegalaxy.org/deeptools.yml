@@ -32,3 +32,5 @@ tools:
   owner: bgruening
 - name: deeptools_bam_compare
   owner: bgruening
+- name: deeptools_bigwig_average
+  owner: bgruening
