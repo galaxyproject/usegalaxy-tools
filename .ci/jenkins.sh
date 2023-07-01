@@ -10,7 +10,7 @@ GALAXY_URL="http://127.0.0.1:${LOCAL_PORT}"
 SSH_MASTER_SOCKET_DIR="${HOME}/.cache/usegalaxy-tools"
 
 # Set to 'centos:7' and set GALAXY_GIT_* below to use a clone
-GALAXY_DOCKER_IMAGE='galaxy/galaxy-min:22.05'
+GALAXY_DOCKER_IMAGE='galaxy/galaxy-min:23.0'
 # Disable if using a locally built image e.g. for debugging
 GALAXY_DOCKER_IMAGE_PULL=true
 
