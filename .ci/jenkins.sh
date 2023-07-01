@@ -10,7 +10,7 @@ GALAXY_URL="http://127.0.0.1:${LOCAL_PORT}"
 SSH_MASTER_SOCKET_DIR="${HOME}/.cache/usegalaxy-tools"
 
 # Set to 'centos:7' and set GALAXY_GIT_* below to use a clone
-GALAXY_DOCKER_IMAGE='galaxy/galaxy-min:22.05'
+GALAXY_DOCKER_IMAGE='galaxy/galaxy-min:23.0'
 # Disable if using a locally built image e.g. for debugging
 GALAXY_DOCKER_IMAGE_PULL=true
 
@@ -518,7 +518,7 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_TOOL_DATA_PATH=/tmp/tool-data" \
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
-        -e "GALAXY_CONFIG_FILE=config/galaxy.yml.sample" \
+        -e "GALAXY_CONFIG_FILE=/galaxy/server/lib/galaxy/config/sample/galaxy.yml.sample" \
         -e "${CONDA_ENV_OPTION}" \
         ${CONDA_EXEC_OPTION} \
         -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
