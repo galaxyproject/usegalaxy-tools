@@ -27,6 +27,7 @@ tools:
 - name: gemini_query
   owner: iuc
   revisions:
+  - 77a1e60fd1de
   - da74170c55c7
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
