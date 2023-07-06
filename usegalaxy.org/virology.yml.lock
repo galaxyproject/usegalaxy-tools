@@ -6,6 +6,7 @@ tools:
 - name: ivar_consensus
   owner: iuc
   revisions:
+  - 17f911830a8c
   - 5e668dc9f379
   - 731182d54f78
   - 78bbd17d0703
@@ -20,6 +21,7 @@ tools:
   revisions:
   - 0135f1d487a0
   - 096a5b0210cc
+  - 1ef5b6e3e09d
   - 2c47c138176e
   - 47a27906d750
   - 4abcfbc2e5b6
@@ -39,6 +41,7 @@ tools:
   - 28a6f1908fcc
   - 3d18f8c3c0f6
   - 43aac8d29685
+  - 69797fa273c3
   - 75c279fa403a
   - 8d36959b000d
   - ee29337f905c
@@ -49,6 +52,7 @@ tools:
 - name: ivar_trim
   owner: iuc
   revisions:
+  - 0893a1dbb807
   - 28e4bcbc86e7
   - 364f4ffec275
   - 397e5f0eb3ef
@@ -62,6 +66,7 @@ tools:
 - name: ivar_variants
   owner: iuc
   revisions:
+  - 045d6d00f606
   - 230b05597996
   - 252dfb042563
   - 3888bbe7a9ca

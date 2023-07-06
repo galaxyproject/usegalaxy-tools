@@ -89,6 +89,7 @@ tools:
   owner: iuc
   revisions:
   - 40985510cd98
+  - 4f9c4e6566e5
   - 60f888039fb2
   - c971db6f0fe5
   tool_panel_section_id: rna_seq
@@ -99,6 +100,7 @@ tools:
   - 01247aaf0a10
   - 5ae5c312d718
   - 87c11c05d238
+  - ce5d418183c5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: sailfish
@@ -434,18 +436,21 @@ tools:
 - name: chira_collapse
   owner: iuc
   revisions:
+  - 05996586c8b3
   - 2b2bfeda00d0
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: chira_extract
   owner: iuc
   revisions:
+  - 73d2b7a8d94b
   - e7ee3aadf1a5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: chira_map
   owner: iuc
   revisions:
+  - 7925dd016f53
   - 95ddee768b61
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -453,12 +458,14 @@ tools:
   owner: iuc
   revisions:
   - 6492560fe1b4
+  - 9930af9d17f8
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: chira_quantify
   owner: iuc
   revisions:
   - 06ac35533793
+  - 38d2b1f38992
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: blockbuster

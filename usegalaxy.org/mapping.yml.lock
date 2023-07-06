@@ -131,6 +131,7 @@ tools:
 - name: bbtools_bbmap
   owner: iuc
   revisions:
+  - 517464809c33
   - 858a65b52cf9
   - 9ed6579f52f3
   tool_panel_section_id: mapping
