@@ -385,3 +385,15 @@ tools:
   - 74810db257cc
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: pfamscan
+  owner: bgruening
+  revisions:
+  - 15cff34c2005
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: cpat
+  owner: bgruening
+  revisions:
+  - 8e9e228c54c4
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
