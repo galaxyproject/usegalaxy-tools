@@ -28,3 +28,15 @@ tools:
   owner: recetox
 - name: waveica
   owner: recetox
+- name: camera_annotate
+  owner: lecorguille
+- name: xcms_export_samplemetadata
+  owner: lecorguille
+- name: xcms_plot_chromatogram
+  owner: lecorguille
+- name: xcms_summary
+  owner: lecorguille
+- name: idchoice
+  owner: melpetera
+- name: intensity_checks
+  owner: melpetera

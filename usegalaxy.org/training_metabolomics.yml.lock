@@ -63,3 +63,31 @@ tools:
   owner: recetox
   revisions: b77023c41c76
   tool_panel_section_label: Metabolomics
+- name: camera_annotate
+  owner: lecorguille
+  revisions: 512c2b701d96
+  tool_panel_section_label: Metabolomics
+- name: msnbase_readmsdata
+  owner: lecorguille
+  revisions: 11ab2081bd4a
+  tool_panel_section_label: Metabolomics
+- name: xcms_export_samplemetadata
+  owner: lecorguille
+  revisions: 94eb263cfab4
+  tool_panel_section_label: Metabolomics
+- name: xcms_plot_chromatogram
+  owner: lecorguille
+  revisions: '024974037c4e'
+  tool_panel_section_label: Metabolomics
+- name: xcms_summary
+  owner: lecorguille
+  revisions: '018a9771de28'
+  tool_panel_section_label: Metabolomics
+- name: idchoice
+  owner: melpetera
+  revisions: bb19b1d15732
+  tool_panel_section_label: Metabolomics
+- name: intensity_checks
+  owner: melpetera
+  revisions: a31f3f802b2b
+  tool_panel_section_label: Metabolomics
