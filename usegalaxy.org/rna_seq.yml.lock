@@ -127,6 +127,7 @@ tools:
   - 8fe98f7094de
   - cd9874cb9019
   - d027d1f4984e
+  - 9a882d108833
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: rgrnastar
@@ -283,6 +284,7 @@ tools:
   - 8c28affc7c48
   - c0fd285eb553
   - c4db6ec33fec
+  - fab6ff46e019
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: slamdunk

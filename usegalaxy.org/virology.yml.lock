@@ -100,6 +100,7 @@ tools:
   - ca0d8cf80567
   - ca337cce3888
   - fe3e8506112c
+  - 2f1019071464
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: nextclade
