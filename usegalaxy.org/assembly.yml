@@ -74,3 +74,5 @@ tools:
   owner: devteam
 - name: aegean_parseval
   owner: iuc
+- name: mitohifi
+  owner: bgruening
