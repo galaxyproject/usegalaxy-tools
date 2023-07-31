@@ -330,3 +330,9 @@ tools:
   - 1b52f0c8ad7f
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: mitohifi
+  owner: bgruening
+  revisions:
+  - 99ddbf037d98
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
