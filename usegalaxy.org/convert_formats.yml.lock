@@ -43,6 +43,7 @@ tools:
   revisions:
   - 02a5f43cd5d1
   - e282bc27be9a
+  - 8979c288aefb
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: tabular_to_fastq
