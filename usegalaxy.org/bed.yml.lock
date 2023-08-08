@@ -15,3 +15,9 @@ tools:
   - fe5b4cb8356c
   tool_panel_section_id: bed
   tool_panel_section_label: BED
+- name: bedops_sortbed
+  owner: iuc
+  revisions:
+  - baeee32175e8
+  tool_panel_section_id: bed
+  tool_panel_section_label: BED
