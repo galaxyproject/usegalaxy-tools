@@ -46,6 +46,7 @@ tools:
   owner: devteam
   revisions:
   - 59003d0543cd
+  - cc0fd298cc17
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastx_nucleotides_distribution
@@ -53,6 +54,7 @@ tools:
   revisions:
   - 21796f46e0ba
   - ad116ae3f4d9
+  - b6b54ba71bd8
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastq_quality_boxplot
@@ -60,6 +62,7 @@ tools:
   revisions:
   - 3987db70a4b0
   - 7cf5b1d072b5
+  - 867ab348287d
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: prinseq
