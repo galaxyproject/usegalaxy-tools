@@ -239,6 +239,7 @@ tools:
   - 40f0591deda0
   - e7aff4a85df5
   - ee4a90760848
+  - 32f14a2723ec
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tbvcfreport
@@ -340,12 +341,14 @@ tools:
   owner: iuc
   revisions:
   - 373c1735d31f
+  - 9f1660129403
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: cooc_tabmut
   owner: iuc
   revisions:
   - 4be399803856
+  - 579538ff939d
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: repeatmodeler

@@ -7,6 +7,7 @@ tools:
   owner: rnateam
   revisions:
   - 1b9a9409831d
+  - 8bd92f2404dd
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: cwpair2
