@@ -53,25 +53,25 @@ tools:
   owner: devteam
   revisions:
   - 0c2907307ba4
-  - 6027ef51ef91
   - 177f0621c266
+  - 6027ef51ef91
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_clipper
   owner: devteam
   revisions:
   - 736b8f6ee456
+  - 90858c306551
   - b8658f852bc7
   - cb1e251cac37
-  - 90858c306551
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_quality_filter
   owner: devteam
   revisions:
+  - 64e9a6afdd0c
   - 7b4468117008
   - ce9cd02d5b88
-  - 64e9a6afdd0c
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: length_and_gc_content
@@ -92,23 +92,23 @@ tools:
 - name: fastx_barcode_splitter
   owner: devteam
   revisions:
-  - 4bedca26c133
   - 0b7ec11b3c7c
+  - 4bedca26c133
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_artifacts_filter
   owner: devteam
   revisions:
+  - 529bccd5e4a1
   - 567d5b3c52b1
   - d5e9e83cd3d8
-  - 529bccd5e4a1
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_quality_converter
   owner: devteam
   revisions:
-  - 54053ea6c77e
   - 045f0e1043f7
+  - 54053ea6c77e
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_paired_end_joiner
@@ -213,8 +213,8 @@ tools:
 - name: fastx_collapser
   owner: devteam
   revisions:
-  - 7ce1891db6f5
   - 07497255281e
+  - 7ce1891db6f5
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_trimmer
@@ -243,8 +243,8 @@ tools:
 - name: fasta_formatter
   owner: devteam
   revisions:
-  - 859422bcb689
   - 516b97a23d7e
+  - 859422bcb689
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fasta_filter_by_length

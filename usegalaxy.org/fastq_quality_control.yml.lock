@@ -7,9 +7,9 @@ tools:
   owner: devteam
   revisions:
   - 3d0c7bdf12f5
+  - 5ec9f6bceaee
   - e7b2202befea
   - ff9530579d1f
-  - 5ec9f6bceaee
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: trimmomatic

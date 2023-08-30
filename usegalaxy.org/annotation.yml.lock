@@ -235,11 +235,11 @@ tools:
 - name: tb_variant_filter
   owner: iuc
   revisions:
+  - 32f14a2723ec
   - 3b1e7c170b10
   - 40f0591deda0
   - e7aff4a85df5
   - ee4a90760848
-  - 32f14a2723ec
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: tbvcfreport
@@ -326,8 +326,8 @@ tools:
 - name: freyja_demix
   owner: iuc
   revisions:
-  - fc6252e78d5b
   - c0a0e79d7196
+  - fc6252e78d5b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: freyja_aggregate_plot
@@ -342,6 +342,7 @@ tools:
   revisions:
   - 373c1735d31f
   - 9f1660129403
+  - d58a57db7a96
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: cooc_tabmut
@@ -349,6 +350,7 @@ tools:
   revisions:
   - 4be399803856
   - 579538ff939d
+  - eeb5c054ecf8
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: repeatmodeler

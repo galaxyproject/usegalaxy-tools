@@ -69,12 +69,12 @@ tools:
 - name: salmon
   owner: bgruening
   revisions:
+  - 15cd64d7c58b
   - 49121db48873
   - 7fdb9d1591e2
   - cc05793bb896
   - e3d32471da11
   - ebab418107f5
-  - 15cd64d7c58b
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: diamond
@@ -126,9 +126,9 @@ tools:
   - 6a3a025714d3
   - 71bacea10eee
   - 8fe98f7094de
+  - 9a882d108833
   - cd9874cb9019
   - d027d1f4984e
-  - 9a882d108833
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: rgrnastar
@@ -309,12 +309,12 @@ tools:
   owner: iuc
   revisions:
   - 04936df18de3
+  - 24e94d84adc9
   - 55cf05b65ad5
   - ab87da55fe61
   - bbbb39ad9a7e
   - c63338cf419f
   - eafea3083352
-  - 24e94d84adc9
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_super_transcripts
@@ -322,11 +322,11 @@ tools:
   revisions:
   - 29472bde8854
   - 3064aa8755a0
+  - 5c1fc038df6b
   - 6723249ce1bd
   - 6f480aee5877
   - 9c545f1c1a4e
   - bdede464821e
-  - 5c1fc038df6b
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity
@@ -336,22 +336,22 @@ tools:
   - 3772d9a10f27
   - 5b60313a6ce7
   - 77cf519a812e
+  - 9fa24d5aac68
   - d2bc35f3d1c5
   - d84caa5a98ad
   - db1f362cca3e
-  - 9fa24d5aac68
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_abundance_estimates_to_matrix
   owner: iuc
   revisions:
   - 08326e2e82f1
+  - 400691c87530
   - 442e3696c634
   - 59fff1388bc2
   - 81a4697677e7
   - a009c96c5c18
   - bcc5f03f1900
-  - 400691c87530
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_contig_exn50_statistic
@@ -360,10 +360,10 @@ tools:
   - 3cdcd5753218
   - 41db7569b4ba
   - 62b05e565a45
+  - 870ac06dff8e
   - b1e9a0355166
   - be3f26533209
   - beafdd47f8cf
-  - 870ac06dff8e
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_align_and_estimate_abundance
@@ -374,8 +374,8 @@ tools:
   - 75f4e1859ed7
   - 893655fa55f9
   - 983552d5822d
-  - c2b82a94493e
   - b2bbe9a7f1b8
+  - c2b82a94493e
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_filter_low_expr_transcripts
@@ -385,17 +385,17 @@ tools:
   - 1fdb25a8384d
   - 42c5172815f7
   - 42f93482524f
+  - a35cba31d904
   - a5ec0e79a93a
   - aa38fa8c5815
-  - a35cba31d904
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_gene_to_trans_map
   owner: iuc
   revisions:
+  - 7c7fbf13aadd
   - 964b7efe2639
   - ba460ccf0006
-  - 7c7fbf13aadd
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinotate

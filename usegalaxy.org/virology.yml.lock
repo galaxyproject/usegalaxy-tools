@@ -87,6 +87,7 @@ tools:
   revisions:
   - 03ed9524dcd1
   - 14ae456b8cc5
+  - 2f1019071464
   - 2fa9d4f1b48f
   - 36912871ccdc
   - 3a656a4a43ed
@@ -100,7 +101,6 @@ tools:
   - ca0d8cf80567
   - ca337cce3888
   - fe3e8506112c
-  - 2f1019071464
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: nextclade
