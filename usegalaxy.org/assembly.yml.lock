@@ -193,6 +193,7 @@ tools:
   revisions:
   - 39bed8de8017
   - 7c847ec300b8
+  - 936f0b5e7fcc
   - a199cd7ac344
   - aa39b19ca11e
   - e100a765370e
@@ -236,11 +237,11 @@ tools:
 - name: merqury
   owner: iuc
   revisions:
+  - 09c589057ee8
   - 39edec572bae
   - 589078edd230
   - 9d79beb19ac3
   - f8113c25bc6b
-  - 09c589057ee8
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: genomescope

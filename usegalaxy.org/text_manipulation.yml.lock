@@ -20,11 +20,12 @@ tools:
   revisions:
   - 133f36c29579
   - 1aae04680c4b
+  - 3e1f6f6d557e
   - 44018dd6b447
   - b5d8e5475247
+  - cd2480f35935
   - f29602ae449e
   - fe3ca740a485
-  - 3e1f6f6d557e
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: uniprot_rest_interface

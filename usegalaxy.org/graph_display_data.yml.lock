@@ -9,10 +9,10 @@ tools:
   - 05143043ca13
   - 222c02df5d55
   - 4a229a7ad638
+  - 6fabdcde0214
   - c7655b5a94af
   - c80db5d6fd8c
   - e88c782a127d
-  - 6fabdcde0214
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: plotly_parallel_coordinates_plot
