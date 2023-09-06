@@ -56,11 +56,13 @@ tools:
   owner: lldelisle
   revisions:
   - c3dc51297bf8
+  - f67664a4e1d6
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: cooler_csort_tabix
   owner: lldelisle
   revisions:
+  - 5cb855a2dc9e
   - d56db0e1555d
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
@@ -68,11 +70,13 @@ tools:
   owner: lldelisle
   revisions:
   - 3ff6eeca667e
+  - c639f60ae76a
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: cooler_balance
   owner: lldelisle
   revisions:
   - 8f71aaf6e59d
+  - 9655af207032
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
