@@ -43,6 +43,7 @@ tools:
   - ce44c6f2ba38
   - ea04b737afa0
   - f3a5f075498f
+  - f9d49f5cb597
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: dexseq
