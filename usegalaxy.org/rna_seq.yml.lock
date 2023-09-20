@@ -342,6 +342,7 @@ tools:
   - d2bc35f3d1c5
   - d84caa5a98ad
   - db1f362cca3e
+  - 8f1c3df4dd49
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_abundance_estimates_to_matrix
@@ -354,6 +355,7 @@ tools:
   - 81a4697677e7
   - a009c96c5c18
   - bcc5f03f1900
+  - ba3720d7e68b
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_contig_exn50_statistic
@@ -378,6 +380,7 @@ tools:
   - 983552d5822d
   - b2bbe9a7f1b8
   - c2b82a94493e
+  - 2fb4ee002432
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_filter_low_expr_transcripts
