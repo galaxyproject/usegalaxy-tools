@@ -136,6 +136,7 @@ tools:
   - 33d61c89fb8d
   - 83069b38aa85
   - cf34c344508d
+  - 3a6b78c39dca
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: sqlite_to_tabular
@@ -146,6 +147,7 @@ tools:
   - c29d2f80a066
   - dfe38b7c34ed
   - f31bb1e5725d
+  - f768f6183386
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: concatenate_multiple_datasets
@@ -161,6 +163,7 @@ tools:
   - 4d5aae46f850
   - 6544e4b87a4f
   - 9cc411a62277
+  - 557ec8d7087d
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: column_arrange_by_header
