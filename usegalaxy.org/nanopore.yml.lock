@@ -121,6 +121,7 @@ tools:
   - aabb4e1c0b7b
   - cc36773a3681
   - e86fcef8ed91
+  - eb746fa6f514
   - ec699520444c
   - edf6d4003fad
   tool_panel_section_id: nanopore
@@ -129,6 +130,7 @@ tools:
   owner: iuc
   revisions:
   - 0413e62b757a
+  - 18505fe2bdb1
   - 22f6a0e7424f
   - 682d1e2c8be4
   - 84dcccebad3d
@@ -164,6 +166,7 @@ tools:
   - b35de691c42c
   - cb34f00cc10f
   - d915879a88bc
+  - fc8804320156
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: flye
@@ -182,5 +185,6 @@ tools:
   owner: iuc
   revisions:
   - 3a2f2e24c37e
+  - dc1500f42073
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
