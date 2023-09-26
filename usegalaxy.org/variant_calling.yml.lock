@@ -274,6 +274,7 @@ tools:
   owner: iuc
   revisions:
   - 78df8fc2b3ab
+  - d9965e143053
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: snp_dists

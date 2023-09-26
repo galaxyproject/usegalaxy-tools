@@ -90,9 +90,9 @@ tools:
   - 0b3c3ad92827
   - 28ad7ac9c193
   - 4a6ee918c13a
+  - 6ef0b5664c69
   - a3b86937ead6
   - e3cbd2287f63
-  - 6ef0b5664c69
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: biom_convert
@@ -355,6 +355,7 @@ tools:
 - name: maxbin2
   owner: mbernt
   revisions:
+  - 8a0473eb465e
   - cfd50144a871
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
