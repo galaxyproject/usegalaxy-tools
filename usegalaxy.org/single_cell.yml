@@ -102,3 +102,11 @@ tools:
   owner: iuc
 - name: sinto_fragments
   owner: iuc
+- name: baredsc_1d
+  owner: iuc
+- name: baredsc_2d
+  owner: iuc
+- name: baredsc_combine_1d
+  owner: iuc
+- name: baredsc_combine_2d
+  owner: iuc

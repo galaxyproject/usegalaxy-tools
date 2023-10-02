@@ -16,6 +16,7 @@ tools:
 - name: edger
   owner: iuc
   revisions:
+  - 0cb907a2a810
   - 334ce9b1bac5
   - 3d89af8a44f0
   - 6e53e565fc6a
