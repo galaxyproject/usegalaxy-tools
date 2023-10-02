@@ -410,3 +410,27 @@ tools:
   - 29e6bfb2cf49
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
+- name: baredsc_1d
+  owner: iuc
+  revisions:
+  - 02b1fe7aed76
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: baredsc_2d
+  owner: iuc
+  revisions:
+  - c29e7bb492bf
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: baredsc_combine_1d
+  owner: iuc
+  revisions:
+  - c32347702e12
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: baredsc_combine_2d
+  owner: iuc
+  revisions:
+  - 239193b96d72
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell

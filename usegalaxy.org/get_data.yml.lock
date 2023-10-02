@@ -73,6 +73,7 @@ tools:
 - name: ega_download_client
   owner: iuc
   revisions:
+  - 6cb20e130473
   - f9db47f68e5e
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
