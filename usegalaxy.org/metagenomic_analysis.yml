@@ -114,3 +114,7 @@ tools:
   owner: iuc
 - name: combine_metaphlan2_humann2
   owner: bebatut
+- name: mash
+  owner: iuc
+- name: mash_sketch
+  owner: iuc
