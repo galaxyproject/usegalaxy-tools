@@ -459,3 +459,15 @@ tools:
   - fdfb35745104
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: mash
+  owner: iuc
+  revisions:
+  - 86dec4abcea8
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: mash_sketch
+  owner: iuc
+  revisions:
+  - 43f9ca23c132
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
