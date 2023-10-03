@@ -125,6 +125,7 @@ tools:
 - name: kraken2tax
   owner: devteam
   revisions:
+  - 50bd98b3ae5a
   - f03c7ba8d8bc
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
