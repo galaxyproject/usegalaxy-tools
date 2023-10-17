@@ -406,3 +406,9 @@ tools:
   - 8e9e228c54c4
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: mitos2
+  owner: iuc
+  revisions:
+  - 033755194fe9
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
