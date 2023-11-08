@@ -303,7 +303,6 @@ tools:
 - name: sortmerna
   owner: rnateam
   revisions:
-  - 10b84b577117
   - 1eafcc450052
   - 65c38d020fea
   - eb35257d2e29
@@ -373,21 +372,18 @@ tools:
   revisions:
   - 30f08d74024f
   - a7ce2601500c
-  - e94187d661df
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: funannotate_annotate
   owner: iuc
   revisions:
   - 582fd74dc2a1
-  - 756376aeb1ae
   - 9feee7fc49a1
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: funannotate_predict
   owner: iuc
   revisions:
-  - 1bc5a03faf2e
   - 51b6ee65ef7f
   - f31125bb85ea
   tool_panel_section_id: annotation

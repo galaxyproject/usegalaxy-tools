@@ -16,7 +16,6 @@ tools:
 - name: edger
   owner: iuc
   revisions:
-  - 070900306913
   - 0cb907a2a810
   - 334ce9b1bac5
   - 3d89af8a44f0
@@ -88,7 +87,6 @@ tools:
   - 54f751e413f4
   - 62c9df8382c2
   - 64be1ac21109
-  - e8ac2b53f262
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: kallisto_quant
@@ -498,7 +496,6 @@ tools:
   owner: rnateam
   revisions:
   - aab6cf87b40a
-  - dbb6ee3179bc
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: isoformswitchanalyzer
