@@ -18,6 +18,7 @@ tools:
   - 54f751e413f4
   - 62c9df8382c2
   - 64be1ac21109
+  - e8ac2b53f262
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: vsearch
@@ -92,6 +93,7 @@ tools:
   - 4a6ee918c13a
   - 6ef0b5664c69
   - a3b86937ead6
+  - dad9da48a09a
   - e3cbd2287f63
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -103,6 +105,7 @@ tools:
   - 54ccb7e1f49a
   - 584008e574b2
   - 72ed72122deb
+  - a4db66553a61
   - bd46669113b9
   - e177a8ea0bf1
   tool_panel_section_id: metagenomic_analysis
@@ -356,6 +359,7 @@ tools:
 - name: maxbin2
   owner: mbernt
   revisions:
+  - 2bc40bfbcfb4
   - 8a0473eb465e
   - cfd50144a871
   tool_panel_section_id: metagenomic_analysis
