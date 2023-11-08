@@ -16,6 +16,7 @@ tools:
   revisions:
   - 0c84cce7b030
   - 5a92f4c476b5
+  - 87c1c223c704
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: interval2maf
@@ -30,6 +31,7 @@ tools:
 - name: mafft
   owner: rnateam
   revisions:
+  - 6f28e90db932
   - a65296ffb4a0
   - aaefa93c2dd2
   - c5908940967d
@@ -40,6 +42,7 @@ tools:
   owner: devteam
   revisions:
   - 4daabc25df00
+  - 5b097fde95dd
   - d6694932c5e0
   - d9c2b2fde6a3
   tool_panel_section_id: multiple_alignments
