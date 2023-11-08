@@ -10,6 +10,7 @@ tools:
   - 4317d3cb6cba
   - 4df8de2d0e48
   - 653e89d73fc4
+  - 6591f049cf7e
   - 69ebb7f46e45
   - 6ea73833cf67
   - 7068f48d0ef9
@@ -74,6 +75,7 @@ tools:
   owner: iuc
   revisions:
   - 6cb20e130473
+  - 7d87a9d58aa1
   - f9db47f68e5e
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data

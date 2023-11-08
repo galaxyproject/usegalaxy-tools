@@ -9,6 +9,7 @@ tools:
   - 0e3cf9594bb7
   - 2889433c7ae1
   - 5edc472ec434
+  - a52d2d93e595
   - e25d3acf6e68
   tool_panel_section_id: ncbi_blast_
   tool_panel_section_label: NCBI BLAST+
