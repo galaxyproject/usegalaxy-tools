@@ -27,7 +27,6 @@ tools:
   revisions:
   - 424aefbd7777
   - 640d3af5d833
-  - 86e2413cf3f8
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: sicer
