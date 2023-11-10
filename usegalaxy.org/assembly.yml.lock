@@ -168,6 +168,7 @@ tools:
   - 8d1af5db538d
   - ad80238462c1
   - d9f6a00b6db7
+  - ee17a294d3a3
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades
@@ -192,6 +193,7 @@ tools:
   owner: bgruening
   revisions:
   - 39bed8de8017
+  - 78c533842eeb
   - 7c847ec300b8
   - 936f0b5e7fcc
   - a199cd7ac344
@@ -203,6 +205,7 @@ tools:
   owner: bgruening
   revisions:
   - 045c7c3d8e59
+  - 0ee0c3089254
   - 366a11d316a7
   - 3f7be05a1597
   - 5bec28269d95
