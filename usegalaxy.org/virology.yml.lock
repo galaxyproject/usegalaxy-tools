@@ -6,7 +6,9 @@ tools:
 - name: ivar_consensus
   owner: iuc
   revisions:
+  - 1069f6db0a0e
   - 17f911830a8c
+  - 2d9926ce62be
   - 5e668dc9f379
   - 731182d54f78
   - 78bbd17d0703
@@ -61,6 +63,7 @@ tools:
   - c092052ed673
   - cf65217ad61c
   - db536ad45f28
+  - f0cc9cf99407
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_variants
@@ -73,6 +76,7 @@ tools:
   - 49236b03e4fd
   - 584beffa972b
   - aa9de8f20668
+  - aea7008fe1f1
   - f95f403841ad
   tool_panel_section_id: virology
   tool_panel_section_label: Virology

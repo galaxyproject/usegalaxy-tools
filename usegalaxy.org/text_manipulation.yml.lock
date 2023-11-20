@@ -185,3 +185,9 @@ tools:
   - 745871c0b055
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
+- name: concatenate_multiple_datasets
+  owner: artbio
+  revisions:
+  - 5b2cc63d7a21
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
