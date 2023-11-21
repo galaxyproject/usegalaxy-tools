@@ -54,6 +54,7 @@ tools:
   revisions:
   - 0d243f458b53
   - 1e62c28ba91d
+  - 2a5b8b9936bf
   - 4048d82f0c88
   - 41030a6c03b7
   - 46ae58b1d792
@@ -61,7 +62,6 @@ tools:
   - 94170eee0ad8
   - cf13a1e03e5b
   - e4bd1e99bacf
-  - 2a5b8b9936bf
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: exonerate
@@ -361,6 +361,7 @@ tools:
   owner: csbl
   revisions:
   - 8661b2607b7e
+  - fbe22cb3c869
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: red

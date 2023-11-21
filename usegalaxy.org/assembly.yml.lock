@@ -75,6 +75,7 @@ tools:
   revisions:
   - 05c394313b1c
   - e731ea24e48d
+  - fd128c111ab0
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: miniasm
@@ -174,6 +175,7 @@ tools:
 - name: spades
   owner: nml
   revisions:
+  - 33368fec3b70
   - 7897763d14ec
   - b8c00ce5dfa0
   tool_panel_section_id: assembly

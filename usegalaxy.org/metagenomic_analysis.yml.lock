@@ -388,6 +388,7 @@ tools:
   owner: nml
   revisions:
   - 2fd4d4c9c5c2
+  - 3b22de20bd4b
   - da787fc8b740
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
