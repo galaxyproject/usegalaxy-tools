@@ -78,10 +78,10 @@ tools:
   revisions:
   - 00712416fdaa
   - '499059586799'
+  - 93dd15e13e6a
   - ae1e5d9d8972
   - cfc3f5a57dc6
   - fb9e030ffae4
-  - 93dd15e13e6a
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_inspect
@@ -90,8 +90,8 @@ tools:
   - 038e32885fec
   - 383dcb0500f9
   - 39e945f0b2c1
-  - ee98d611afc6
   - 6f0d0c784f09
+  - ee98d611afc6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_manipulate
@@ -109,8 +109,8 @@ tools:
   - 4b0adaa31c95
   - 59be31ac9dc3
   - 7784821452ac
-  - eeab712b0b99
   - e98619de2776
+  - eeab712b0b99
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: dropletutils
