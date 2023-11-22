@@ -361,6 +361,7 @@ tools:
   owner: csbl
   revisions:
   - 8661b2607b7e
+  - fbe22cb3c869
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: red
