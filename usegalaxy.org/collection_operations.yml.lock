@@ -29,6 +29,7 @@ tools:
   revisions:
   - 0046692724f9
   - 6cbe2f30c2d7
+  - baabc30154cd
   - d57735dd27b0
   - e77b954f0da5
   tool_panel_section_id: collection_operations
