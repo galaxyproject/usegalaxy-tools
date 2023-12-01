@@ -67,6 +67,7 @@ tools:
   revisions:
   - 14ddfc8ffb93
   - 7518ee87b53d
+  - a96f3ad4e0d8
   - de387b2b2803
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
