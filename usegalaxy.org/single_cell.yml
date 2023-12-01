@@ -110,3 +110,7 @@ tools:
   owner: iuc
 - name: baredsc_combine_2d
   owner: iuc
+- name: cite_seq_count
+  owner: iuc
+- name: velocyto_cli
+  owner: iuc

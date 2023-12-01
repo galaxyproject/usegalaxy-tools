@@ -46,8 +46,9 @@ In the commands below fill the `{server_name}` as appropriate (usegalaxy.org, te
             1. Normalize the section label to an ID/filename with [this process](https://github.com/galaxyproject/usegalaxy-tools/issues/9#issuecomment-500847395)
             1. Create `{server_name}/<section_id>.yml` setting `tool_panel_section_label` from the section label obtained in previous step (see existing yml files for exact syntax)
             1. Continue with the steps below
-        1. Add the entry for the new tool to the section yml [example](https://github.com/galaxyproject/usegalaxy-tools/pull/86/files#diff-7de70f8620e8ba71104b398d57087611R25-R26)
-        1. Run `make TOOLSET={server_name} OWNER={repo_owner} update-trusted` for every owner in your yml file, then run `$ make TOOLSET={server_name} fix`, and then `$ git add <file>` only the updates that you care about.
+        1. Add the entry for the new tool to the section yml (only the yml, not the yml.lock) [example](https://github.com/galaxyproject/usegalaxy-tools/pull/86/files#diff-7de70f8620e8ba71104b398d57087611R25-R26)
+        1. Run `$ make TOOLSET={server_name} fix` (this will fill the yml.lock )
+        1. Then `$ git add <file>` only the updates that you care about.
     - **UPDATE REPO**
         1. Find the yml and yml.lock files with the repository entries. Add the changeset hash of repo's desired *installable revision* to the yml.lock file [example](https://github.com/galaxyproject/usegalaxy-tools/pull/80/files#diff-2e7bd27ec27fa6be24b5689cebc77defR62-R64)
         - Alternatively, run `make TOOLSET={server_name} OWNER={repo_owner} update-trusted` for every owner in your yml file, then run `$ make TOOLSET={server_name} fix`, and then `$ git add <file>` only the updates that you care about.
