@@ -455,3 +455,15 @@ tools:
   - ae969fdb8442
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
+- name: cite_seq_count
+  owner: iuc
+  revisions:
+  - 3df3d1b51110
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: velocyto_cli
+  owner: iuc
+  revisions:
+  - 883c33ef3372
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
