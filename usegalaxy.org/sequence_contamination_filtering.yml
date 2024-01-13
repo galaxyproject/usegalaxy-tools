@@ -1,0 +1,4 @@
+tool_panel_section_label: 'Sequence Contamination Filtering'
+tools:
+- name: ncbi_fcs_gx
+  owner: iuc
