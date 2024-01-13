@@ -477,3 +477,9 @@ tools:
   - 43f9ca23c132
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: metabat2
+  owner: iuc
+  revisions:
+  - eb50e7eca3dc
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
