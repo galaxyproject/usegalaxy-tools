@@ -118,3 +118,5 @@ tools:
   owner: iuc
 - name: mash_sketch
   owner: iuc
+- name: metabat2
+  owner: iuc
