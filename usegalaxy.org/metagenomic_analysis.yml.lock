@@ -483,3 +483,9 @@ tools:
   - eb50e7eca3dc
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: megahit_contig2fastg
+  owner: iuc
+  revisions:
+  - 4ec5b3777508
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
