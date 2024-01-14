@@ -120,3 +120,5 @@ tools:
   owner: iuc
 - name: metabat2
   owner: iuc
+- name: megahit_contig2fastg
+  owner: iuc
