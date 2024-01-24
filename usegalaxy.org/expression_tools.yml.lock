@@ -18,3 +18,9 @@ tools:
   - a01f088d0e5e
   tool_panel_section_id: expression_tools
   tool_panel_section_label: Expression Tools
+- name: pick_value
+  owner: iuc
+  revisions:
+  - b19e21af9c52
+  tool_panel_section_id: expression_tools
+  tool_panel_section_label: Expression Tools
