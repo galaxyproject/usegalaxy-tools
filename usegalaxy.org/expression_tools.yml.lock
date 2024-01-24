@@ -14,6 +14,7 @@ tools:
   owner: iuc
   revisions:
   - 43d7b3642a30
+  - 5ac8a4bf7a8d
   - a01f088d0e5e
   tool_panel_section_id: expression_tools
   tool_panel_section_label: Expression Tools

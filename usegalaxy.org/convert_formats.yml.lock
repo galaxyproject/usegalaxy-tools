@@ -174,6 +174,7 @@ tools:
   owner: devteam
   revisions:
   - 154d00cbbf2d
+  - 3e436657dcd0
   - 4dea02886337
   - 69e0806b63a4
   tool_panel_section_id: convert_formats
@@ -188,6 +189,7 @@ tools:
   owner: bgruening
   revisions:
   - 39881709807e
+  - 8dbc700cb940
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: msconvert

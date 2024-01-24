@@ -42,6 +42,7 @@ tools:
 - name: data_manager_sam_fasta_index_builder
   owner: devteam
   revisions:
+  - a256278e5bff
   - ad90c2da4f38
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
