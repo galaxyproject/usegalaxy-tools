@@ -54,6 +54,7 @@ tools:
   revisions:
   - 163688bb8f73
   - 194e3f2c1d86
+  - 2605cbdaa7d8
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: tag_pileup_frequency
