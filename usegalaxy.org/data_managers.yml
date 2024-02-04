@@ -30,3 +30,9 @@ tools:
   owner: devteam
 - name: data_manager_gemini_database_downloader
   owner: iuc
+- name: data_manager_build_kraken2_database
+  owner: iuc
+- name: data_manager_build_bracken_database
+  owner: iuc
+- name: data_manager_mapseq
+  owner: iuc
