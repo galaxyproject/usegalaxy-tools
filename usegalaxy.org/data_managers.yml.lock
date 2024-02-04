@@ -94,3 +94,21 @@ tools:
   - 27a6a256cd23
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
+- name: data_manager_build_kraken2_database
+  owner: iuc
+  revisions:
+  - e4b4837f06f5
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_build_bracken_database
+  owner: iuc
+  revisions:
+  - 5c8a23ccb14a
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_mapseq
+  owner: iuc
+  revisions:
+  - dbf2735e8480
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
