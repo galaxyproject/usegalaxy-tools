@@ -1,0 +1,14 @@
+tool_panel_section_label: BBTools
+tools:
+- name: bbtools_bbduk
+  owner: iuc
+- name: bbtools_bbmap
+  owner: iuc
+- name: bbtools_bbmerge
+  owner: iuc
+- name: bbtools_bbnorm
+  owner: iuc
+- name: bbtools_callvariants
+  owner: iuc
+- name: bbtools_tadpole
+  owner: iuc
