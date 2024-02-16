@@ -72,6 +72,8 @@ tools:
   owner: iuc
 - name: trinity_run_de_analysis
   owner: iuc
+- name: trinity_samples_qccheck
+  owner: iuc
 - name: trinity_super_transcripts
   owner: iuc
 - name: trinity
