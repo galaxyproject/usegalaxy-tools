@@ -93,9 +93,10 @@ tools:
   - e7812ca89033
   tool_panel_section_id: qiime2
   tool_panel_section_label: QIIME2
-- name: qiime2__deblur__denoise_16S
+- name: qiime2__deblur__denoise_16s
   owner: q2d2
-  revisions: []
+  revisions:
+  - b883cbea5623
   tool_panel_section_id: qiime2
   tool_panel_section_label: QIIME2
 - name: qiime2__deblur__denoise_other
