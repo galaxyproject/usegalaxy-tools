@@ -324,6 +324,12 @@ tools:
   - eafea3083352
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
+- name: trinity_samples_qccheck
+  owner: iuc
+  revisions:
+  - 04bb8bb7c198
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
 - name: trinity_super_transcripts
   owner: iuc
   revisions:
