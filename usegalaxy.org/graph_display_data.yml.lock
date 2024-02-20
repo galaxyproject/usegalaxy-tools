@@ -147,6 +147,7 @@ tools:
 - name: export2graphlan
   owner: iuc
   revisions:
+  - 635c90a27692
   - b16989c1e3a7
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
@@ -216,6 +217,7 @@ tools:
 - name: graphlan
   owner: iuc
   revisions:
+  - 6e8eb0c0d91f
   - 8f62f666dcb6
   - a490b70e46fc
   tool_panel_section_id: graph_display_data
@@ -224,6 +226,7 @@ tools:
   owner: iuc
   revisions:
   - 5d6f8f0bef7c
+  - 97e3b735ed22
   - cf1df6b2220a
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
@@ -268,6 +271,7 @@ tools:
   revisions:
   - 0a10fddd97d2
   - 44c66e8d21e6
+  - 6c571966cfb9
   - 7c9417381ad5
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
