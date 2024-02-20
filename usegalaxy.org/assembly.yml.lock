@@ -349,3 +349,13 @@ tools:
   - 99ddbf037d98
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: merqury
+  owner: iuc
+  revisions:
+  - 09c589057ee8
+  - 39edec572bae
+  - 589078edd230
+  - 9d79beb19ac3
+  - f8113c25bc6b
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly

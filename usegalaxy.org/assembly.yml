@@ -76,3 +76,5 @@ tools:
   owner: iuc
 - name: mitohifi
   owner: bgruening
+- name: merqury
+  owner: iuc
