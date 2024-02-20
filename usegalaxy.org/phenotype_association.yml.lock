@@ -36,7 +36,7 @@ tools:
 - name: plink
   owner: iuc
   revisions:
-  - 66b35562554d
+  - 2c0ac05fe240
   tool_panel_section_id: phenotype_association
   tool_panel_section_label: Phenotype Association
 - name: qq_manhattan
