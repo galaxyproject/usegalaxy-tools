@@ -75,6 +75,7 @@ tools:
   owner: iuc
   revisions:
   - 239ce9f24386
+  - b982a9ea939c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: fgsea
@@ -374,6 +375,7 @@ tools:
   owner: iuc
   revisions:
   - 30f08d74024f
+  - 57c6718cbfcc
   - a7ce2601500c
   - b69c46064ec7
   - e94187d661df
@@ -386,6 +388,7 @@ tools:
   - 582fd74dc2a1
   - 756376aeb1ae
   - 9feee7fc49a1
+  - d0336d67702b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: funannotate_predict
@@ -420,6 +423,7 @@ tools:
   revisions:
   - 033755194fe9
   - af3c1dc1d141
+  - b815ec682418
   - e95d52d295d7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

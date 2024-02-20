@@ -6,6 +6,7 @@ tools:
 - name: kraken2
   owner: iuc
   revisions:
+  - 20e2f64aa1fe
   - 328c607150ff
   - 4a9da2b6c2e3
   - e674066930b2
@@ -90,6 +91,7 @@ tools:
   revisions:
   - 0b3c3ad92827
   - 28ad7ac9c193
+  - 3b6f97e7094c
   - 4a6ee918c13a
   - 6ef0b5664c69
   - a3b86937ead6
@@ -100,6 +102,7 @@ tools:
 - name: biom_convert
   owner: iuc
   revisions:
+  - 091bb5922a82
   - 0de92f0b96ef
   - 1b5fc03380d4
   - 54ccb7e1f49a
@@ -141,6 +144,7 @@ tools:
 - name: cat_add_names
   owner: iuc
   revisions:
+  - 21bf2f07f3f3
   - 8dfc90f35aba
   - acd9fe45eb81
   tool_panel_section_id: metagenomic_analysis
@@ -148,6 +152,7 @@ tools:
 - name: cat_prepare
   owner: iuc
   revisions:
+  - 51906c8c692a
   - 8315b5cebb82
   - a40bbd70b8b1
   tool_panel_section_id: metagenomic_analysis
@@ -157,6 +162,7 @@ tools:
   revisions:
   - 7aebc0137f20
   - c6c77d840993
+  - f41dbb0b9ff8
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: cat_summarise
@@ -164,11 +170,13 @@ tools:
   revisions:
   - 388e6678fa98
   - 7f1aaa1932d8
+  - a8216def322b
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: cat_bins
   owner: iuc
   revisions:
+  - 0e63d03c8790
   - 18676df0cb3a
   - 31853794ace2
   tool_panel_section_id: metagenomic_analysis
@@ -434,6 +442,7 @@ tools:
   revisions:
   - 1a6cdf55390f
   - ec368db926f4
+  - fd69c607b43f
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: humann_unpack_pathways
