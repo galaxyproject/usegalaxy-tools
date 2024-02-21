@@ -360,3 +360,9 @@ tools:
   - 99ddbf037d98
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: rnaquast
+  owner: iuc
+  revisions:
+  - 8e66f695d859
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
