@@ -1,6 +1,0 @@
-tool_panel_section_label: Get Data
-tools:
-- name: sra_tools
-  owner: iuc
-- name: trinity_define_clusters_by_cutting_tree
-  owner: iuc

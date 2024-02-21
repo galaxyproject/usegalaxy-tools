@@ -18,3 +18,5 @@ tools:
   owner: iuc
 - name: fastqe
   owner: iuc
+- name: fastq_info
+  owner: bgruening

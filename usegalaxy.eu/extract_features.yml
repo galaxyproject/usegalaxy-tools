@@ -1,6 +1,0 @@
-tool_panel_section_label: Extract Features
-tools:
-- name: length_and_gc_content
-  owner: iuc
-- name: fraggenescan
-  owner: iuc

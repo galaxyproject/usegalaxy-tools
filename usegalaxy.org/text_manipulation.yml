@@ -12,8 +12,6 @@ tools:
   owner: bgruening
 - name: text_processing
   owner: bgruening
-- name: annotatemyids
-  owner: iuc
 - name: column_order_header_sort
   owner: iuc
 - name: column_remove_by_header
@@ -46,3 +44,7 @@ tools:
   owner: bgruening
 - name: diff
   owner: bgruening
+- name: add_value
+  owner: devteam
+- name: concatenate_multiple_datasets
+  owner: artbio

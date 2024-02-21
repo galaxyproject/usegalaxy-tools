@@ -1,0 +1,8 @@
+tool_panel_section_label: GEMINI
+tools:
+- name: gemini_load
+  owner: iuc
+- name: gemini_db_info
+  owner: iuc
+- name: gemini_query
+  owner: iuc

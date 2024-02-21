@@ -24,3 +24,11 @@ tools:
   owner: iuc
 - name: rna_starsolo
   owner: iuc
+- name: bwa_mem2
+  owner: iuc
+- name: pileometh
+  owner: bgruening
+- name: bbtools_bbmap
+  owner: iuc
+- name: metilene
+  owner: rnateam

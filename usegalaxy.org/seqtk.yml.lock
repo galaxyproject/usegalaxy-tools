@@ -1,12 +1,13 @@
 install_repository_dependencies: true
-install_resolver_dependencies: true
+install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Seqtk
 tools:
 - name: seqtk
   owner: iuc
   revisions:
-  - 58c8ece95b53
   - 3da72230c066
+  - 4b494533146a
+  - 58c8ece95b53
   tool_panel_section_id: seqtk
   tool_panel_section_label: Seqtk

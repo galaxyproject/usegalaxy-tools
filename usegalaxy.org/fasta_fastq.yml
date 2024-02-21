@@ -90,3 +90,11 @@ tools:
   owner: peterjc
 - name: umi_tools_extract
   owner: iuc
+- name: umi_tools_whitelist
+  owner: iuc
+- name: umi_tools_dedup
+  owner: iuc
+- name: umi_tools_group
+  owner: iuc
+- name: fasta_regex_finder
+  owner: mbernt

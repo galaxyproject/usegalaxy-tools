@@ -7,5 +7,6 @@ tools:
   owner: iuc
   revisions:
   - ce3c7f062223
+  - 07e8b80f278c
   tool_panel_section_id: bed
   tool_panel_section_label: BED

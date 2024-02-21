@@ -72,6 +72,8 @@ tools:
   owner: iuc
 - name: trinity_run_de_analysis
   owner: iuc
+- name: trinity_samples_qccheck
+  owner: iuc
 - name: trinity_super_transcripts
   owner: iuc
 - name: trinity
@@ -84,6 +86,8 @@ tools:
   owner: iuc
 - name: trinity_filter_low_expr_transcripts
   owner: iuc
+- name: trinity_gene_to_trans_map
+  owner: iuc
 - name: trinotate
   owner: iuc
 - name: tximport
@@ -94,3 +98,23 @@ tools:
   owner: rnateam
 - name: mirdeep2
   owner: rnateam
+- name: cemitool
+  owner: iuc
+- name: targetfinder
+  owner: rnateam
+- name: chira_collapse
+  owner: iuc
+- name: chira_extract
+  owner: iuc
+- name: chira_map
+  owner: iuc
+- name: chira_merge
+  owner: iuc
+- name: chira_quantify
+  owner: iuc
+- name: blockbuster
+  owner: rnateam
+- name: blockclust
+  owner: rnateam
+- name: isoformswitchanalyzer
+  owner: iuc

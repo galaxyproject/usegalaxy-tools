@@ -40,3 +40,5 @@ tools:
   owner: iuc
 - name: flye
   owner: bgruening
+- name: pycoqc
+  owner: iuc

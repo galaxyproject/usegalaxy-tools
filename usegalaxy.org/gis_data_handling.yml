@@ -4,3 +4,9 @@ tools:
   owner: ecology
 - name: xarray_select
   owner: ecology
+- name: xarray_netcdf2netcdf
+  owner: ecology
+- name: xarray_coords_info
+  owner: ecology
+- name: xarray_mapplot
+  owner: ecology

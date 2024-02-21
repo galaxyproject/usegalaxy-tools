@@ -1,4 +1,0 @@
-tool_panel_section_label: Proteomics
-tools:
-- name: protease_prediction
-  owner: bgruening

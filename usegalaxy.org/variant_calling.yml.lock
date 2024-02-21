@@ -1,5 +1,5 @@
 install_repository_dependencies: true
-install_resolver_dependencies: true
+install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Variant Calling
 tools:
@@ -22,7 +22,10 @@ tools:
   owner: iuc
   revisions:
   - 268d162b9c49
+  - 5b80f544c67f
+  - 5c7b70713fb5
   - 74aebe30fb52
+  - 9473cd297a76
   - cfcf33df7fc0
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -35,8 +38,8 @@ tools:
 - name: snpsift
   owner: iuc
   revisions:
-  - 2e497a770bca
   - 2b3e65a4252f
+  - 2e497a770bca
   - 5fab4f81391d
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -44,13 +47,14 @@ tools:
   owner: devteam
   revisions:
   - 156b60c1530f
+  - a5937157062f
   - ef2c525bd8cd
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: table_annovar
   owner: devteam
   revisions:
-  - 08b003ee9db7
+  - d4e292ddda05
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: mutate_snp_codon
@@ -90,6 +94,7 @@ tools:
   - 32f2211eeec3
   - 3fe8ef358d66
   - 5bbf9eada9c2
+  - c9a8ef2aa380
   - d220115f882b
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -100,6 +105,7 @@ tools:
   - 2953c43180c0
   - 435b157bed6d
   - 606542a18f82
+  - 791f73caa0c8
   - e0e2fd665102
   - e61c9ac190ad
   tool_panel_section_id: variant_calling
@@ -111,6 +117,7 @@ tools:
   - 074d44697036
   - 31216d510164
   - 3b4b2121842f
+  - 4805fe3d8fda
   - 65432c3abf6c
   - dfadc322b065
   - e1461b5c52a0
@@ -134,6 +141,7 @@ tools:
   - 354b534eeab7
   - 426d707dfc47
   - 5d6a078d30b0
+  - 971e07ca4456
   - c27549b9aa1f
   - f4473557ffc7
   tool_panel_section_id: variant_calling
@@ -158,17 +166,21 @@ tools:
 - name: bcftools_plugin_color_chrs
   owner: iuc
   revisions:
+  - 36960e552ddc
   - 71dfde92fd57
   - c39113e2ae34
   - ebcd8649c621
+  - f88f74d5b1e9
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: bcftools_plugin_frameshifts
   owner: iuc
   revisions:
+  - 399b40b2bcab
   - 48ac4d611e92
-  - eb22990a2be9
+  - b40213125e88
   - c0b17fc737d4
+  - eb22990a2be9
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: exomedepth
@@ -180,17 +192,12 @@ tools:
 - name: gatk4_mutect2
   owner: iuc
   revisions:
+  - 1cea23583655
   - 287c4af133e6
   - 3be27a9a7313
-  - fd2d6e035c3f
-  - 1cea23583655
   - 53ce8be43212
-  tool_panel_section_id: variant_calling
-  tool_panel_section_label: Variant Calling
-- name: mixcr_analyze
-  owner: iuc
-  revisions:
-  - d38cfb922f95
+  - fb0bb7174530
+  - fd2d6e035c3f
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: ococo
@@ -209,8 +216,8 @@ tools:
 - name: varscan_mpileup
   owner: iuc
   revisions:
-  - e3f170cc4f95
   - db94eadb92c1
+  - e3f170cc4f95
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: varscan_somatic
@@ -243,5 +250,43 @@ tools:
   owner: iuc
   revisions:
   - 2b62154e39c8
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: strelka_germline
+  owner: iuc
+  revisions:
+  - 19481653a22f
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: strelka_somatic
+  owner: iuc
+  revisions:
+  - edbdbc64b397
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: deepvariant
+  owner: iuc
+  revisions:
+  - 918c8b94c8d8
+  - 98fe794d2ec0
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: ucsc_fatovcf
+  owner: iuc
+  revisions:
+  - 78df8fc2b3ab
+  - d9965e143053
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: snp_dists
+  owner: iuc
+  revisions:
+  - f78492521996
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: snp_sites
+  owner: iuc
+  revisions:
+  - 5804f786060d
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling

@@ -1,0 +1,86 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tool_panel_section_label: Epigenetics
+tools:
+- name: hicup_truncater
+  owner: bgruening
+  revisions:
+  - 71278c4f1b2e
+  - cc413be789ea
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+- name: hicup_hicup
+  owner: bgruening
+  revisions:
+  - 68fb19094f84
+  - 852e1fac4802
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+- name: hicup_filter
+  owner: bgruening
+  revisions:
+  - 2d4a34c00c67
+  - 6c26354dabe0
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+- name: hicup_digester
+  owner: bgruening
+  revisions:
+  - 8b1d0e4e8f22
+  - e79c38f1752c
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+- name: hicup_deduplicator
+  owner: bgruening
+  revisions:
+  - 2107c2f7a5d7
+  - 44b121185562
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+- name: hicup_mapper
+  owner: bgruening
+  revisions:
+  - 70427be35bf2
+  - be104dee2833
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+- name: hicup2juicer
+  owner: bgruening
+  revisions:
+  - b4e7244246e2
+  - f8cb84c49623
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+- name: cooler_makebins
+  owner: lldelisle
+  revisions:
+  - c3dc51297bf8
+  - ebd2a52eb245
+  - f67664a4e1d6
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+- name: cooler_csort_tabix
+  owner: lldelisle
+  revisions:
+  - 5cb855a2dc9e
+  - 8c3cba559c99
+  - d56db0e1555d
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+- name: cooler_cload_tabix
+  owner: lldelisle
+  revisions:
+  - 0641e1c892c6
+  - 3ff6eeca667e
+  - c639f60ae76a
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
+- name: cooler_balance
+  owner: lldelisle
+  revisions:
+  - 8f71aaf6e59d
+  - 8f9fe0667b89
+  - 9655af207032
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics

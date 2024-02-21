@@ -46,8 +46,6 @@ tools:
   owner: crs4
 - name: gatk4_mutect2
   owner: iuc
-- name: mixcr_analyze
-  owner: iuc
 - name: ococo
   owner: iuc
 - name: varscan_copynumber
@@ -63,4 +61,16 @@ tools:
 - name: sniffles
   owner: iuc
 - name: jasminesv
+  owner: iuc
+- name: strelka_germline
+  owner: iuc
+- name: strelka_somatic
+  owner: iuc
+- name: deepvariant
+  owner: iuc
+- name: ucsc_fatovcf
+  owner: iuc
+- name: snp_dists
+  owner: iuc
+- name: snp_sites
   owner: iuc

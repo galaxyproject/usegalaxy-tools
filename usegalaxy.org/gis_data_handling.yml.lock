@@ -1,5 +1,5 @@
 install_repository_dependencies: true
-install_resolver_dependencies: true
+install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: GIS Data Handling
 tools:
@@ -13,5 +13,23 @@ tools:
   owner: ecology
   revisions:
   - 6baac361495b
+  tool_panel_section_id: gis_data_handling
+  tool_panel_section_label: GIS Data Handling
+- name: xarray_netcdf2netcdf
+  owner: ecology
+  revisions:
+  - 1a91e551f3a9
+  tool_panel_section_id: gis_data_handling
+  tool_panel_section_label: GIS Data Handling
+- name: xarray_coords_info
+  owner: ecology
+  revisions:
+  - 6015f30a7258
+  tool_panel_section_id: gis_data_handling
+  tool_panel_section_label: GIS Data Handling
+- name: xarray_mapplot
+  owner: ecology
+  revisions:
+  - d7479b6dfbe8
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling

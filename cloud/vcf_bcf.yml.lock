@@ -199,6 +199,7 @@ tools:
   owner: devteam
   revisions:
   - 57a16b310fe8
+  - f49b23b41a12
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: vcfannotate

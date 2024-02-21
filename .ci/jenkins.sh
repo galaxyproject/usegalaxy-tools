@@ -10,7 +10,7 @@ GALAXY_URL="http://127.0.0.1:${LOCAL_PORT}"
 SSH_MASTER_SOCKET_DIR="${HOME}/.cache/usegalaxy-tools"
 
 # Set to 'centos:7' and set GALAXY_GIT_* below to use a clone
-GALAXY_DOCKER_IMAGE='galaxy/galaxy-min:21.05'
+GALAXY_DOCKER_IMAGE='galaxy/galaxy-min:23.0'
 # Disable if using a locally built image e.g. for debugging
 GALAXY_DOCKER_IMAGE_PULL=true
 
@@ -22,8 +22,6 @@ GALAXY_TEMPLATE_DB='galaxy.sqlite'
 
 # Need to run dev until 0.10.4
 #EPHEMERIS="git+https://github.com/galaxyproject/ephemeris.git"
-# Fix for not installing Conda deps: https://github.com/galaxyproject/ephemeris/pull/181
-EPHEMERIS="git+https://github.com/mvdbeek/ephemeris.git@fix_option_parsing_and_tool_id_handling"
 
 # Should be set by Jenkins, so the default here is for development
 : ${GIT_COMMIT:=$(git rev-parse HEAD)}
@@ -474,12 +472,14 @@ function run_mounted_galaxy() {
         -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
         -e "GALAXY_CONFIG_OVERRIDE_INTEGRATED_TOOL_PANEL_CONFIG=/tmp/integrated_tool_panel.xml" \
         -e "GALAXY_CONFIG_OVERRIDE_SHED_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIG}" \
+        -e "GALAXY_CONFIG_OVERRIDE_MIGRATED_TOOLS_CONFIG=/abcdef" \
         -e "GALAXY_CONFIG_OVERRIDE_TOOL_SHEDS_CONFIG_FILE=/tool_sheds_conf.xml" \
         -e "GALAXY_CONFIG_OVERRIDE_SHED_TOOL_DATA_TABLE_CONFIG=${SHED_TOOL_DATA_TABLE_CONFIG}" \
         -e "GALAXY_CONFIG_OVERRIDE_SHED_DATA_MANAGER_CONFIG_FILE=${SHED_DATA_MANAGER_CONFIG}" \
         -e "GALAXY_CONFIG_TOOL_DATA_PATH=/tmp/tool-data" \
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
+        -e "GALAXY_CONFIG_FILE=config/galaxy.yml.sample" \
         -e "${CONDA_ENV_OPTION}" \
         ${CONDA_EXEC_OPTION} \
         -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
@@ -488,7 +488,7 @@ function run_mounted_galaxy() {
         -v "${GALAXY_SOURCE_TMPDIR}:/galaxy/server" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
         --workdir /galaxy/server \
-        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --yaml config/galaxy.yml.sample
+        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/gunicorn 'galaxy.webapps.galaxy.fast_factory:factory\(\)' --timeout 300 --pythonpath lib -k galaxy.webapps.galaxy.workers.Worker -b 0.0.0.0:8080
     GALAXY_CONTAINER_UP=true
 }
 
@@ -511,29 +511,22 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_OVERRIDE_DATABASE_CONNECTION=sqlite:////galaxy/server/database/${GALAXY_TEMPLATE_DB}" \
         -e "GALAXY_CONFIG_OVERRIDE_INTEGRATED_TOOL_PANEL_CONFIG=/tmp/integrated_tool_panel.xml" \
         -e "GALAXY_CONFIG_OVERRIDE_SHED_TOOL_CONFIG_FILE=${SHED_TOOL_CONFIG}" \
+        -e "GALAXY_CONFIG_OVERRIDE_MIGRATED_TOOLS_CONFIG=/abcdef" \
         -e "GALAXY_CONFIG_OVERRIDE_TOOL_SHEDS_CONFIG_FILE=/tool_sheds_conf.xml" \
         -e "GALAXY_CONFIG_OVERRIDE_SHED_TOOL_DATA_TABLE_CONFIG=${SHED_TOOL_DATA_TABLE_CONFIG}" \
         -e "GALAXY_CONFIG_OVERRIDE_SHED_DATA_MANAGER_CONFIG_FILE=${SHED_DATA_MANAGER_CONFIG}" \
         -e "GALAXY_CONFIG_TOOL_DATA_PATH=/tmp/tool-data" \
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
+        -e "GALAXY_CONFIG_FILE=/galaxy/server/lib/galaxy/config/sample/galaxy.yml.sample" \
         -e "${CONDA_ENV_OPTION}" \
         ${CONDA_EXEC_OPTION} \
         -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
         -v "${WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
         -v "${WORKDIR}/condarc:${CONDARC_MOUNT_PATH}" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
-        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --http :8080 \
-            --virtualenv /galaxy/server/.venv --pythonpath /galaxy/server/lib \
-            --master --offload-threads 2 --processes 1 --threads 4 --enable-threads \
-            --buffer-size 16384 --thunder-lock --die-on-term --py-call-osafterfork \
-            --module 'galaxy.webapps.galaxy.buildapp:uwsgi_app\(\)' \
-            --hook-master-start '"unix_signal:2 gracefully_kill_them_all"' \
-            --hook-master-start '"unix_signal:15 gracefully_kill_them_all"' \
-            --static-map '/static/style=/galaxy/server/static/style/blue' \
-            --static-map '/static=/galaxy/server/static' \
-            --set 'galaxy_config_file=/galaxy/server/config/galaxy.yml' \
-            --set 'galaxy_root=/galaxy/server'
+        --workdir /galaxy/server \
+        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/gunicorn 'galaxy.webapps.galaxy.fast_factory:factory\(\)' --timeout 300 --pythonpath lib -k galaxy.webapps.galaxy.workers.Worker -b 0.0.0.0:8080
         #"$GALAXY_DOCKER_IMAGE" ./.venv/bin/uwsgi --yaml config/galaxy.yml
         # TODO: double quoting above probably breaks non-local mode
     GALAXY_CONTAINER_UP=true
@@ -642,7 +635,7 @@ function install_tools() {
     for tool_yaml in "${TOOL_YAMLS[@]}"; do
         log "Installing tools in ${tool_yaml}"
         # FIXME: after https://github.com/galaxyproject/ephemeris/pull/181 is merged you would need to remove
-        # --skip_install_resolver_dependencies for install_resolver_dependencies in tools.yaml to work
+        # --skip_install_resolver_dependencies for install_resolver_dependencies: true in tools.yaml to work
         log_exec shed-tools install --skip_install_resolver_dependencies -v -g "$GALAXY_URL" -a "$API_KEY" -t "$tool_yaml" || {
             log_error "Tool installation failed"
             show_logs

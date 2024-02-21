@@ -1,0 +1,169 @@
+tool_panel_section_label: Single-cell
+tools:
+  - name: music_compare
+    owner: bgruening
+
+  - name: music_manipulate_eset
+    owner: bgruening
+
+  - name: music_inspect_eset
+    owner: bgruening
+
+  - name: music_deconvolution
+    owner: bgruening
+
+  - name: music_construct_eset
+    owner: bgruening
+
+  - name: 10x_bamtofastq
+    owner: bgruening
+
+  - name: anndata_import
+    owner: iuc
+
+  - name: anndata_export
+    owner: iuc
+
+  - name: anndata_manipulate
+    owner: iuc
+
+  - name: chromeister
+    owner: iuc
+
+  - name: anndata_inspect
+    owner: iuc
+
+  - name: modify_loom
+    owner: iuc
+
+  - name: dropletutils
+    owner: iuc
+
+  - name: dropletutils_read_10x
+    owner: ebi-gxa
+
+  - name: dropletutils_empty_drops
+    owner: ebi-gxa
+
+  - name: droplet_barcode_plot
+    owner: ebi-gxa
+
+  - name: raceid_inspectclusters
+    owner: iuc
+
+  - name: raceid_filtnormconf
+    owner: iuc
+
+  - name: raceid_clustering
+    owner: iuc
+
+  - name: raceid_trajectory
+    owner: iuc
+
+  - name: raceid_inspecttrajectory
+    owner: iuc
+
+  - name: alevin
+    owner: bgruening
+
+  - name: salmonquantmerge
+    owner: bgruening
+
+  - name: slice_image
+    owner: imgteam
+
+  - name: scater_create_qcmetric_ready_sce
+    owner: iuc
+
+  - name: scater_plot_tsne
+    owner: iuc
+
+  - name: scater_filter
+    owner: iuc
+
+  - name: scater_normalize
+    owner: iuc
+
+  - name: scater_plot_dist_scatter
+    owner: iuc
+
+  - name: scater_plot_exprs_freq
+    owner: iuc
+
+  - name: scater_plot_pca
+    owner: iuc
+
+  - name: scanpy_cluster_reduce_dimension
+    owner: iuc
+
+  - name: scanpy_filter
+    owner: iuc
+
+  - name: scanpy_inspect
+    owner: iuc
+
+  - name: scanpy_normalize
+    owner: iuc
+
+  - name: scanpy_plot
+    owner: iuc
+
+  - name: scanpy_remove_confounders
+    owner: iuc
+
+  - name: scanpy_read_10x
+    owner: ebi-gxa
+
+  - name: gtf2gene_list
+    owner: ebi-gxa
+
+  - name: salmon_kallisto_mtx_to_10x
+    owner: ebi-gxa
+
+  - name: sceasy_convert
+    owner: ebi-gxa
+
+  - name: anndata_ops
+    owner: ebi-gxa
+
+  - name: retrieve_scxa
+    owner: ebi-gxa
+
+  - name: scanpy_parameter_iterator
+    owner: ebi-gxa
+
+  - name: scanpy_filter_cells
+    owner: ebi-gxa
+
+  - name: scanpy_filter_genes
+    owner: ebi-gxa
+
+  - name: scanpy_normalise_data
+    owner: ebi-gxa
+
+  - name: scanpy_find_variable_genes
+    owner: ebi-gxa
+
+  - name: scanpy_scale_data
+    owner: ebi-gxa
+
+  - name: scanpy_run_pca
+    owner: ebi-gxa
+
+  - name: scanpy_compute_graph
+    owner: ebi-gxa
+
+  - name: scanpy_run_tsne
+    owner: ebi-gxa
+
+  - name: scanpy_run_umap
+    owner: ebi-gxa
+
+  - name: scanpy_find_cluster
+    owner: ebi-gxa
+
+  - name: scanpy_find_markers
+    owner: ebi-gxa
+
+  - name: scanpy_plot_embed
+    owner: ebi-gxa

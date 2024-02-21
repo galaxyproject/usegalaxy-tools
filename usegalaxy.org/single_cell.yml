@@ -8,8 +8,6 @@ tools:
   owner: iuc
 - name: scanpy_normalize
   owner: iuc
-- name: scanpy_plot
-  owner: iuc
 - name: scanpy_cluster_reduce_dimension
   owner: iuc
 - name: scanpy_remove_confounders
@@ -84,3 +82,35 @@ tools:
   owner: ebi-gxa
 - name: retrieve_scxa
   owner: ebi-gxa
+- name: scanpy_regress_variable
+  owner: ebi-gxa
+- name: music_construct_eset
+  owner: bgruening
+- name: music_inspect_eset
+  owner: bgruening
+- name: music_manipulate_eset
+  owner: bgruening
+- name: music_deconvolution
+  owner: bgruening
+- name: music_compare
+  owner: bgruening
+- name: episcanpy_build_matrix
+  owner: iuc
+- name: episcanpy_preprocess
+  owner: iuc
+- name: sinto_barcode
+  owner: iuc
+- name: sinto_fragments
+  owner: iuc
+- name: baredsc_1d
+  owner: iuc
+- name: baredsc_2d
+  owner: iuc
+- name: baredsc_combine_1d
+  owner: iuc
+- name: baredsc_combine_2d
+  owner: iuc
+- name: cite_seq_count
+  owner: iuc
+- name: velocyto_cli
+  owner: iuc

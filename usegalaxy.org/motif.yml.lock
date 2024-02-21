@@ -1,11 +1,12 @@
 install_repository_dependencies: true
-install_resolver_dependencies: true
+install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Motif
 tools:
 - name: meme_meme
   owner: iuc
   revisions:
+  - 19237efe98d1
   - 3f0dd362b755
   - 57e5d9382f36
   - 9dd5373f6a5a
@@ -17,6 +18,7 @@ tools:
   revisions:
   - 0c5239d1aa65
   - c1a9a297ba8b
+  - c5209f38700d
   - d7a6ea1e3b9d
   tool_panel_section_id: motif
   tool_panel_section_label: Motif
@@ -29,8 +31,9 @@ tools:
 - name: meme_psp_gen
   owner: iuc
   revisions:
-  - ff2f53a32d0e
   - 164067a66a5c
+  - 5f95d385a33c
+  - ff2f53a32d0e
   tool_panel_section_id: motif
   tool_panel_section_label: Motif
 - name: meme_chip

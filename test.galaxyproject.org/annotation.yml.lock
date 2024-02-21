@@ -6,15 +6,15 @@ tools:
 - name: prokka
   owner: crs4
   revisions:
-  - eaee459f3d69
   - d643e3b03500
+  - eaee459f3d69
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: augustus
   owner: bgruening
   revisions:
-  - b3f5d0879dab
   - 28433faa6e42
+  - b3f5d0879dab
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: augustus_training
@@ -27,7 +27,13 @@ tools:
 - name: busco
   owner: iuc
   revisions:
-  - 1e62c28ba91d
   - 0d243f458b53
+  - 1e62c28ba91d
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: maker
+  owner: iuc
+  revisions:
+  - a444254e9a57
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

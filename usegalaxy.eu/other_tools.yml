@@ -1,4 +1,0 @@
-tool_panel_section_label: Other Tools
-tools:
-- name: extract_genomic_dna
-  owner: iuc

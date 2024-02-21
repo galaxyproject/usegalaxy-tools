@@ -10,3 +10,7 @@ tools:
   owner: devteam
 - name: hgv_hilbertvis
   owner: devteam
+- name: plink
+  owner: iuc
+- name: qq_manhattan
+  owner: iuc

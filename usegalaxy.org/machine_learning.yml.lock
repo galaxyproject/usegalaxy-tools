@@ -1,14 +1,20 @@
 install_repository_dependencies: true
-install_resolver_dependencies: true
+install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Machine Learning
 tools:
 - name: model_prediction
   owner: bgruening
   revisions:
+  - 1e088aa741eb
+  - 25b46af53232
+  - 29e4122c90de
   - 60c726f5cc5e
   - 65820fb7257b
   - 83228baae3c5
+  - 948eca2af157
+  - 980bf31faa05
+  - 9991c4ddde14
   - b237f27a8afc
   - ce00f1cccb03
   tool_panel_section_id: machine_learning
@@ -18,9 +24,15 @@ tools:
   revisions:
   - 0c933465d70e
   - 2a853a2d2e72
+  - 2b8d85927742
   - 2d8478144bb2
+  - 4d81e3e2fb63
+  - 61a6132df9e0
+  - 8a794e6d3388
   - 94d91334c787
+  - b9906ce4756c
   - bedbda03c573
+  - f22a9297440f
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: keras_model_builder
@@ -28,18 +40,30 @@ tools:
   revisions:
   - 053570bac5ea
   - 1f0c955fabc7
+  - 20cd4269deb2
+  - 522137aaa9c4
+  - 5b35833076f0
+  - 66d7efc06000
+  - 772e0e89fc68
   - 9b6faa256f15
   - c51571d0a0b1
+  - f7ecdde4b201
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: keras_batch_models
   owner: bgruening
   revisions:
+  - 03533fa14e77
   - 0dc3027df8f4
+  - 305c1229ac99
   - 3814a92c1416
   - 4a5266c96889
   - 508ce0649bec
+  - 61b2d8f8811e
+  - 77c04469e8b8
   - 7f6079deac6f
+  - 9d77b259ef27
+  - a98b60c639af
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_stacking_ensemble_models
@@ -49,56 +73,88 @@ tools:
   - ae4b593c99f8
   - b78007bf1cb8
   - b8378d4791b7
+  - b94babda32e4
+  - d25127d5f4e0
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_train_test_eval
   owner: bgruening
   revisions:
   - 1b68acd5ac08
+  - 443471b0a27a
+  - 4d1637cac794
+  - 8b822484debc
+  - adf9f8d5ab9a
   - bde62c243b7e
   - caf7d2b71a48
+  - ddc4fe317a92
   - e03a58b31c12
   - e23cfe4be9d4
+  - f6ea9fc38223
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_estimator_attributes
   owner: bgruening
   revisions:
   - 07843f917990
+  - 30d21a6041f6
+  - 5a125d1ac9b9
+  - 5ae00d2908f2
   - 867caa39eaa4
   - 89deaf399ff7
+  - 9fda0b82f419
+  - adaf2457d6ec
   - bd27a211182a
   - c9ddd20d25d0
+  - d0352e8b4c10
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_model_validation
   owner: bgruening
   revisions:
   - 0474777be433
+  - 30f892a9b46d
   - 4b359039f09f
+  - 5d5d9cc554f9
+  - 61e76fb65daf
+  - 65f18ab91132
   - 805194c3cdfb
   - 887e0aaa482e
+  - 9dc28a4b6ca8
   - bfc7bdfcb423
+  - e06ab1e112cc
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_svm_classifier
   owner: bgruening
   revisions:
   - 02d2be90dedb
+  - 0630258dcf35
   - 14fa42b095c4
+  - 6d23883e0b94
   - 73d2ef652879
+  - 80852884053f
+  - b7c3e9a3b954
   - d2afc87db26b
+  - f458724cc317
   - f9639b488779
+  - fa9d6a4d95ad
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_sample_generator
   owner: bgruening
   revisions:
   - 0f460421b212
+  - 1fe020b2108f
   - 7068b5fcd623
+  - 7c2e71e4acf3
   - ab2c393080f9
+  - ab9977548806
   - b4ba9602a36e
   - db7eb7302fc9
+  - e99cccc3ca13
+  - eb41d87cb1de
+  - fed1850f01c3
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_searchcv
@@ -106,39 +162,63 @@ tools:
   revisions:
   - 103aaea17119
   - 1ae5dfd5ac17
+  - 1ddf415cb349
   - 25ab6b4e376e
+  - 301e07345c93
+  - 36e8d6d5d01b
+  - 7626ea9c2e1b
   - a36a45cb96fa
+  - d37a7f17e35d
   - e5a5ad882f1f
+  - f0d2e8a3c575
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_build_pipeline
   owner: bgruening
   revisions:
   - 0c74d3164ac8
+  - 118e230e85ce
+  - 3f25f37ee3db
+  - 4c4ec859c31a
   - 7388ffedf12c
+  - 7442b94d6a1e
   - 840f29aad145
+  - 9160cb4069c2
   - 97dce66fe158
   - 9c3e1d3235c8
+  - b1eda492f063
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_pairwise_metrics
   owner: bgruening
   revisions:
+  - 053e7f32d37e
   - 09bfbef3dd90
   - 1682b64aad9e
   - 226524df8c6c
+  - 2a1afd3481ce
   - 7366e5108e9f
+  - 7614281473da
+  - b07416ec8d16
+  - c84ab9ca4e5c
+  - e79200975daf
   - f24deab884d0
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_nn_classifier
   owner: bgruening
   revisions:
+  - 2c58b83c9bad
+  - 309cc7c6af56
   - 39ae3c043096
+  - 4db563e8d453
+  - 7ae443e6217d
   - 823ecc0bce45
+  - 8b1b2b91f8d0
   - 9871a634540f
   - aa83e7e3c398
   - cd02bf168d23
+  - d33d37f32e54
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_numeric_clustering
@@ -147,47 +227,77 @@ tools:
   - 1dd433d2c92c
   - 2d7c60aa6c62
   - 73e7f1c76ece
+  - 7dd3fb35904f
+  - 8eed73e8e04d
   - ad7e0b4291ee
+  - aeca97d9a214
+  - bb9fc9d46ea4
+  - e10e776f2109
+  - e13a7c05b3a4
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_ensemble
   owner: bgruening
   revisions:
+  - 060ca94ac049
+  - 1682df52c084
   - 1a53edc4b438
+  - 315f01a9d2c2
   - 3ab7af14f1b5
+  - 407495139a09
   - 4ecc0ce9d0a2
   - 841a6cc5fc58
+  - a07ab242b0b5
   - d868914bce73
+  - f3dfa4bdf87e
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_feature_selection
   owner: bgruening
   revisions:
   - 07b34d5284f6
+  - 4483b84310ec
+  - 5276bdb49315
   - 5773e98921fc
   - 6d21b03e00a1
+  - 74adae8d7b0f
+  - 96bb4c49e30e
+  - a7c667ff83fe
   - ae0fafb53c1d
   - c2cd3219543a
+  - d84b3a229a52
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_data_preprocess
   owner: bgruening
   revisions:
+  - 045faa05e712
   - 1b5cd2d16fb1
   - 1bef885255e0
   - 50b3e080cef0
+  - 6c030fe29722
+  - 761269451e98
+  - 80074b842ebd
   - 826c3e68e7a9
+  - a5c2ce4ea328
+  - add3c3a7c2b4
   - eb9da067ab26
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_clf_metrics
   owner: bgruening
   revisions:
+  - 0ee984c1cbd6
+  - 15bcf1a7543b
   - 55703205546f
+  - 6ffedbe712c0
+  - 80ca74b1cb36
   - adc6137e7c73
   - ae69f6918abe
   - c8547d3993c0
+  - daaa56720686
   - e54382561bd4
+  - e9821a426d75
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_regression_metrics
@@ -195,29 +305,47 @@ tools:
   revisions:
   - 146133e04fbc
   - 1e98dbb8d5bc
+  - 5c9fb40ae174
+  - 6000c1589f33
+  - 627be0156505
+  - 6db5c1dfb076
   - 70c5a9127f99
   - 7d98dfb04d27
+  - dc17e2878dc1
   - f04a2405f3fe
+  - f5dcb87fd14e
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_discriminant_classifier
   owner: bgruening
   revisions:
+  - 1bd039aca44f
   - 237ae72d58a3
   - 2d032cff49eb
+  - 4335cec181ba
+  - 6adef419e041
   - 7696d389675c
+  - 87cb9cb44d1f
+  - 893285b150f8
   - d3e99d3df1ca
   - e76f6dfea5c9
+  - fc48ce12454b
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_generalized_linear
   owner: bgruening
   revisions:
+  - 14f0ccc85505
   - 3e4a7684d402
   - 40f4447733b2
   - 63417d0acc72
   - 913bf1c4c7bb
   - 91c4e3331208
+  - 927586a18553
+  - c648d0716fb0
+  - c9969328b42f
+  - d4808d5b83da
+  - dc4b5fd604a6
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_model_fit
@@ -226,17 +354,28 @@ tools:
   - 17999807dc1b
   - 1c25f305db70
   - 734c66aa945a
+  - 8e447b95e6a8
+  - adb084b901cc
+  - f0ede473a7e8
+  - fb17e19b62a4
   - fc2e64a27e90
+  - fc70bf5c3b58
   - fe4e36598917
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_train_test_split
   owner: bgruening
   revisions:
+  - 03611d7232f6
   - 0985b0dd6f1a
   - 145208b3579d
   - 3312fb686ffb
+  - 33c564caa3c4
+  - 6e25381dad5c
+  - a2e3cf2f9f40
+  - b6f5443c4f58
   - ce2fd1edbc6e
+  - e10ffa9e0b90
   - e8639f65c883
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
@@ -244,51 +383,105 @@ tools:
   owner: bgruening
   revisions:
   - 044729657181
+  - 0926c2b1315f
+  - 22e73afd5206
   - 4a1cd790e323
   - 61fb99c55558
+  - bfc44324a773
+  - c2a7717d96ce
+  - c2e2aa55dd5c
   - c374098d4f5c
   - eaddff553324
+  - f73a2b68a37b
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_to_categorical
   owner: bgruening
   revisions:
+  - 14180f9c831e
+  - 2d53571c2f00
+  - 612ca26c197d
+  - 61634a87efc7
+  - a4f18bbb4eca
+  - caeb57858702
   - f93f0cdbaf18
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: ml_visualization_ex
   owner: bgruening
   revisions:
+  - 05143043ca13
+  - 1588f9076e32
+  - 222c02df5d55
   - 4a229a7ad638
+  - 6fabdcde0214
+  - 8334dc98c48e
+  - a536d2736c2d
+  - c7655b5a94af
+  - c80db5d6fd8c
+  - e88c782a127d
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_lightgbm
   owner: bgruening
   revisions:
+  - 27f8bd20a936
+  - 3045d322d4ac
+  - 74f96ebc5554
+  - 8e95b68b178b
+  - b7d104ede67e
   - c48ffc96fe79
+  - d562708bb095
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_pca
   owner: bgruening
   revisions:
+  - 03e0da430d44
   - 24c1cc2dd4a4
+  - 3af626081467
+  - 945a53c248de
+  - c17f3eacdb14
+  - caf164dd0e18
+  - f06ad033c114
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: keras_train_and_eval
   owner: bgruening
   revisions:
+  - 0af678661e20
+  - 2af1346e68c9
+  - 470aed90aa41
+  - 818f9b69d8a0
+  - e1317b5502fa
+  - e29894cdea47
   - ead8f1822587
+  - f1b9a42d6809
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: scipy_sparse
   owner: bgruening
   revisions:
+  - 42b513bed40b
+  - 4efac966af2a
+  - 6d1a9fae57eb
   - 92e09b827300
+  - 9f9cf31e3111
+  - b7e93c1deb3f
+  - e6893a4bcb7b
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: create_tool_recommendation_model
   owner: bgruening
   revisions:
+  - 4f7e6612906b
   - afec8c595124
+  - e94dc7945639
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: chopin2
+  owner: iuc
+  revisions:
+  - d49893faf877
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning

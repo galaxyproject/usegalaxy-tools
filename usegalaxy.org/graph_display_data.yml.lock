@@ -1,5 +1,5 @@
 install_repository_dependencies: true
-install_resolver_dependencies: true
+install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Graph/Display Data
 tools:
@@ -7,9 +7,15 @@ tools:
   owner: bgruening
   revisions:
   - 05143043ca13
+  - 1588f9076e32
   - 222c02df5d55
   - 4a229a7ad638
+  - 6fabdcde0214
+  - 8334dc98c48e
+  - a536d2736c2d
   - c7655b5a94af
+  - c80db5d6fd8c
+  - e88c782a127d
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: plotly_parallel_coordinates_plot
@@ -35,9 +41,11 @@ tools:
   revisions:
   - 17359b808b01
   - 1cfc579079a6
+  - 2bb2e07a7a21
   - 4542035c1075
   - 667e17248bfe
   - 6cd09d7b5f37
+  - 836d1aa3e89a
   - a6e57ff585c0
   - edb534491f92
   - fd5dbf0f732e
@@ -58,18 +66,21 @@ tools:
 - name: ggplot2_heatmap2
   owner: iuc
   revisions:
+  - 53460afd5115
+  - '566197475670'
   - ca7cb0eaad62
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: circos
   owner: iuc
   revisions:
+  - 290a11559985
   - 4b519282a05b
   - a64dc31ab7f2
+  - c4bde687c846
   - df7356989ac1
   - e6cbe3190642
   - fd59d783248a
-  - 290a11559985
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: venn_list
@@ -81,6 +92,7 @@ tools:
 - name: ucsc_custom_track
   owner: devteam
   revisions:
+  - 3d87079756e1
   - 760f588e8a26
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
@@ -124,13 +136,18 @@ tools:
 - name: bandage
   owner: iuc
   revisions:
+  - 067592b6b312
+  - 21e491ad532a
   - 94fe43e75ddc
+  - b2860df42e16
   - b9e31c5c01c7
+  - ddddce450736
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: export2graphlan
   owner: iuc
   revisions:
+  - 635c90a27692
   - b16989c1e3a7
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
@@ -143,40 +160,56 @@ tools:
 - name: ggplot2_heatmap
   owner: iuc
   revisions:
+  - 10515715c940
+  - 3d059e9c2fba
   - a4d83ba2a1bc
-  - de002ba2b849
   - d3a9e32672ec
+  - da4c086cff5b
+  - de002ba2b849
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_histogram
   owner: iuc
   revisions:
+  - 11869c5becd8
+  - 355a82227003
   - 497d700a5229
   - 536078949ae4
-  - 355a82227003
+  - b0d96516e6a5
+  - fb50ab943396
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_pca
   owner: iuc
   revisions:
   - 1b9406a1a769
+  - 2bf238af068d
+  - 7f2ef7216cf8
   - 90928b255abb
+  - b1268b7544d3
   - fcb6a19960c6
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_point
   owner: iuc
   revisions:
+  - 1acf88921176
+  - 299307abd804
+  - 3b12bf9b4b87
+  - 5fe1dc76176e
   - 87908c76ca8d
   - 9cec81e1b90e
   - a36551483a8f
-  - 1acf88921176
+  - d0fc8b746d57
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_violin
   owner: iuc
   revisions:
+  - 0e7290688b50
   - 637cf21db396
+  - 9c52a8130729
+  - d6c41b454cc1
   - d8305f18060e
   - e44775efb2dc
   tool_panel_section_id: graph_display_data
@@ -184,12 +217,16 @@ tools:
 - name: graphlan
   owner: iuc
   revisions:
+  - 6e8eb0c0d91f
+  - 8f62f666dcb6
   - a490b70e46fc
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: graphlan_annotate
   owner: iuc
   revisions:
+  - 5d6f8f0bef7c
+  - 97e3b735ed22
   - cf1df6b2220a
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
@@ -197,6 +234,8 @@ tools:
   owner: iuc
   revisions:
   - 08780101bc36
+  - 21beb30956c2
+  - 33b8c5eedc04
   - f5fa293605ca
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
@@ -218,6 +257,7 @@ tools:
   revisions:
   - 03c13085aecc
   - bd99e8fbde97
+  - f1691de443a7
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: pe_histogram
@@ -229,17 +269,24 @@ tools:
 - name: pretext_snapshot
   owner: iuc
   revisions:
-  - 7c9417381ad5
+  - 0a10fddd97d2
   - 44c66e8d21e6
+  - 6c571966cfb9
+  - 7c9417381ad5
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: pygenometracks
   owner: iuc
   revisions:
+  - 14e7c35f3d00
   - 2824d77cd8f8
   - 326a3db8d9d1
+  - 360df4999907
   - 4ac4e7083b7e
+  - 59fd173ac850
   - 5cec5fb749f0
+  - 7dd841a32245
+  - a1abfa420d9d
   - eca03db4f612
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data

@@ -24,6 +24,8 @@ tools:
 - name: deseq2
   owner: iuc
   revisions:
+  - 8fe98f7094de
+  - cd9874cb9019
   - 6a3a025714d3
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -31,6 +33,8 @@ tools:
   owner: iuc
   revisions:
   - 0921444c832d
+  - d6f5fa4ee473
+  - d5a940112511
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: edger
@@ -49,11 +53,52 @@ tools:
   owner: iuc
   revisions:
   - 26371a1df031
+  - f4af63aaf57a
+  - 61ee47027bd3
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: stringtie
   owner: iuc
   revisions:
   - 1ebd14235b92
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: featurecounts
+  owner: iuc
+  revisions:
+  - 38b6d12edc68
+  - f3a5f075498f
+  - 1759d845181e
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: cufflinks
+  owner: devteam
+  revisions:
+  - d080005cffe1
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: deg_annotate
+  owner: iuc
+  revisions:
+  - e98d4ab5b5bc
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: goseq
+  owner: iuc
+  revisions:
+  - 602de62d995b
+  - ef2ad746b589
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: egsea
+  owner: iuc
+  revisions:
+  - fba1660fb717
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: fgsea
+  owner: iuc
+  revisions:
+  - 17eb1e0d711f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq

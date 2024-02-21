@@ -12,12 +12,13 @@ tools:
 - name: query_tabular
   owner: iuc
   revisions:
-  - 83069b38aa85
+  - cf34c344508d
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: column_maker
   owner: devteam
   revisions:
+  - 6595517c2dd8
   - 02026300aa45
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
@@ -30,7 +31,10 @@ tools:
 - name: annotatemyids
   owner: iuc
   revisions:
+  - 133f36c29579
   - 44018dd6b447
+  - fe3ca740a485
+  - 1a125daea0d8
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: concatenate_multiple_datasets
@@ -48,6 +52,7 @@ tools:
 - name: table_compute
   owner: iuc
   revisions:
+  - 3bf5661c0280
   - 60ff16842fcd
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
@@ -66,7 +71,10 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
+  - d698c222f354
   - ddf54b12c295
+  - 9ff72e942410
+  - 74a8bef53a00
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: reshape2_melt
@@ -115,5 +123,12 @@ tools:
   owner: bgruening
   revisions:
   - 156d0908e232
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
+- name: merge_cols
+  owner: devteam
+  revisions:
+  - ae7843d06f8f
+  - f2aac0c5c60d
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation

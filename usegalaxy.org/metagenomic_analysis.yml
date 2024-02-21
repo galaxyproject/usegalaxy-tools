@@ -94,3 +94,31 @@ tools:
   owner: iuc
 - name: staramr
   owner: nml
+- name: vapor
+  owner: iuc
+- name: krakentools_kreport2krona
+  owner: iuc
+- name: humann_regroup_table
+  owner: iuc
+- name: humann
+  owner: iuc
+- name: humann_renorm_table
+  owner: iuc
+- name: metaphlan
+  owner: iuc
+- name: humann_unpack_pathways
+  owner: iuc
+- name: humann_split_stratified_table
+  owner: iuc
+- name: humann_rename_table
+  owner: iuc
+- name: combine_metaphlan2_humann2
+  owner: bebatut
+- name: mash
+  owner: iuc
+- name: mash_sketch
+  owner: iuc
+- name: metabat2
+  owner: iuc
+- name: megahit_contig2fastg
+  owner: iuc

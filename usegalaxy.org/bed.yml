@@ -2,3 +2,5 @@ tool_panel_section_label: BED
 tools:
 - name: bedtools
   owner: iuc
+- name: bedops_sortbed
+  owner: iuc

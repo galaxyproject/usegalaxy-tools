@@ -46,6 +46,14 @@ tools:
   owner: devteam
 - name: bamtools_filter
   owner: devteam
+- name: bamtools_split_mapped
+  owner: iuc
+- name: bamtools_split_paired
+  owner: iuc
+- name: bamtools_split_ref
+  owner: iuc
+- name: bamtools_split_tag
+  owner: iuc
 - name: samtools_depth
   owner: iuc
 - name: samtools_fastx
@@ -66,3 +74,7 @@ tools:
   owner: iuc
 - name: bamutil_clip_overlap
   owner: iuc
+- name: samtools_ampliconclip
+  owner: iuc
+- name: revertr2orientationinbam
+  owner: lldelisle

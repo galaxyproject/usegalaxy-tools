@@ -2,9 +2,15 @@ tool_panel_section_label: HyPhy
 tools:
 - name: hyphy_absrel
   owner: iuc
+- name: hyphy_annotate
+  owner: iuc
 - name: hyphy_bgm
   owner: iuc
 - name: hyphy_busted
+  owner: iuc
+- name: hyphy_cfel
+  owner: iuc
+- name: hyphy_conv
   owner: iuc
 - name: hyphy_fade
   owner: iuc
@@ -23,6 +29,8 @@ tools:
 - name: hyphy_slac
   owner: iuc
 - name: hyphy_sm19
+  owner: iuc
+- name: hyphy_strike_ambigs
   owner: iuc
 - name: hyphy_summary
   owner: iuc

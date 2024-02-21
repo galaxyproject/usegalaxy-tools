@@ -8,3 +8,7 @@ tools:
   owner: iuc
 - name: volcanoplot
   owner: iuc
+- name: pathview
+  owner: iuc
+- name: ggplot2_heatmap2
+  owner: iuc

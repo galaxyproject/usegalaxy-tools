@@ -50,8 +50,6 @@ tools:
   owner: iuc
 - name: progressivemauve
   owner: iuc
-- name: repeat_masker
-  owner: bgruening
 - name: roary
   owner: iuc
 - name: snap_training
@@ -69,4 +67,46 @@ tools:
 - name: tetyper
   owner: iuc
 - name: transtermhp
+  owner: iuc
+- name: find_nested_alt_orfs
+  owner: iuc
+- name: bicodon_counts_from_fasta
+  owner: iuc
+- name: codon_freq_from_bicodons
+  owner: iuc
+- name: antismash
+  owner: bgruening
+- name: orfipy
+  owner: iuc
+- name: sortmerna
+  owner: rnateam
+- name: clinod
+  owner: peterjc
+- name: read_it_and_keep
+  owner: iuc
+- name: freyja_demix
+  owner: iuc
+- name: freyja_aggregate_plot
+  owner: iuc
+- name: cooc_mutbamscan
+  owner: iuc
+- name: cooc_tabmut
+  owner: iuc
+- name: repeatmodeler
+  owner: csbl
+- name: red
+  owner: iuc
+- name: funannotate_compare
+  owner: iuc
+- name: funannotate_annotate
+  owner: iuc
+- name: funannotate_predict
+  owner: iuc
+- name: interproscan
+  owner: bgruening
+- name: pfamscan
+  owner: bgruening
+- name: cpat
+  owner: bgruening
+- name: mitos2
   owner: iuc

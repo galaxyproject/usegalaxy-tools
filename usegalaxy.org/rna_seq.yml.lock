@@ -1,5 +1,5 @@
 install_repository_dependencies: true
-install_resolver_dependencies: true
+install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: RNA-seq
 tools:
@@ -7,18 +7,25 @@ tools:
   owner: iuc
   revisions:
   - 0921444c832d
+  - 119b069fc845
   - 58c35179ebf0
   - 708348a17fa1
+  - d6f5fa4ee473
   - e827f9aae031
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: edger
   owner: iuc
   revisions:
+  - 070900306913
+  - 0cb907a2a810
   - 334ce9b1bac5
   - 3d89af8a44f0
+  - 5bf899c13979
   - 6e53e565fc6a
+  - a8305cf0c951
   - df0c8d0a5992
+  - f2843df56434
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: hisat2
@@ -27,6 +34,7 @@ tools:
   - 0c16cad5e03b
   - 26371a1df031
   - 6c19daec423d
+  - f4af63aaf57a
   - fbf98f24097b
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -34,11 +42,13 @@ tools:
   owner: iuc
   revisions:
   - 38b6d12edc68
+  - 6f66ae7c5f7a
   - 90d16db017d7
   - a37612abf7f9
   - ce44c6f2ba38
   - ea04b737afa0
   - f3a5f075498f
+  - f9d49f5cb597
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: dexseq
@@ -46,6 +56,8 @@ tools:
   revisions:
   - 62adf13b86ea
   - 9fd8b69e6e68
+  - b47c006d90c5
+  - df929f257179
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: stringtie
@@ -54,30 +66,38 @@ tools:
   - 1ebd14235b92
   - 333a6e13b622
   - 76d290331481
+  - 914cfcba0ec8
+  - ae618321f34a
+  - cef79931dda5
   - eba36e001f45
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: salmon
   owner: bgruening
   revisions:
+  - 15cd64d7c58b
   - 49121db48873
   - 7fdb9d1591e2
   - cc05793bb896
   - e3d32471da11
+  - ebab418107f5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: diamond
   owner: bgruening
   revisions:
+  - 1e3323a44643
   - 54f751e413f4
   - 62c9df8382c2
   - 64be1ac21109
+  - e8ac2b53f262
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: kallisto_quant
   owner: iuc
   revisions:
   - 40985510cd98
+  - 4f9c4e6566e5
   - 60f888039fb2
   - c971db6f0fe5
   tool_panel_section_id: rna_seq
@@ -88,6 +108,7 @@ tools:
   - 01247aaf0a10
   - 5ae5c312d718
   - 87c11c05d238
+  - ce5d418183c5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: sailfish
@@ -99,6 +120,8 @@ tools:
 - name: goseq
   owner: iuc
   revisions:
+  - 43798b4caee0
+  - 602de62d995b
   - 8b3e3657034e
   - ef2ad746b589
   tool_panel_section_id: rna_seq
@@ -109,6 +132,8 @@ tools:
   - 0696db066a5b
   - 6a3a025714d3
   - 71bacea10eee
+  - 8fe98f7094de
+  - 9a882d108833
   - cd9874cb9019
   - d027d1f4984e
   tool_panel_section_id: rna_seq
@@ -116,11 +141,15 @@ tools:
 - name: rgrnastar
   owner: iuc
   revisions:
+  - 3ea5a2a63fa2
   - 4074fc1940e2
   - 44959aa06aeb
   - 5ec75f5dae3c
+  - 79de45b5069b
   - 7ed2edc1337f
   - 850f3679b9b4
+  - 980d2a2e1180
+  - b0f2be869d6d
   - b9e04854e2bb
   - c772497b2c32
   - d5659efd66aa
@@ -137,6 +166,7 @@ tools:
   owner: lparsons
   revisions:
   - 67b0b160903a
+  - 916cb26bd9d3
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: gffcompare
@@ -144,12 +174,14 @@ tools:
   revisions:
   - 0f710191a66d
   - 3c97c841a443
+  - f99dd58de04f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: cuffmerge
   owner: devteam
   revisions:
   - 6a6717a5f421
+  - 86285ddd4512
   - cf747d1bd79a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -188,6 +220,7 @@ tools:
   owner: iuc
   revisions:
   - 095162ba8e90
+  - 55daa4712413
   - 67af24676bd6
   - 75427ceb32d1
   tool_panel_section_id: rna_seq
@@ -234,6 +267,7 @@ tools:
 - name: ruvseq
   owner: iuc
   revisions:
+  - 3a083c78896e
   - c24765926774
   - d1f7fa5bb3cb
   - fed9d0350d72
@@ -253,10 +287,14 @@ tools:
   revisions:
   - 06ed31cf52ed
   - 4c139a9415d7
+  - 56242ff81c84
   - 764f076e9d52
   - 7a5cd7987b03
   - 828324f3292f
+  - 8c28affc7c48
+  - c0fd285eb553
   - c4db6ec33fec
+  - fab6ff46e019
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: slamdunk
@@ -280,18 +318,30 @@ tools:
   owner: iuc
   revisions:
   - 04936df18de3
+  - 24e94d84adc9
   - 55cf05b65ad5
   - ab87da55fe61
   - bbbb39ad9a7e
+  - c63338cf419f
+  - eafea3083352
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: trinity_samples_qccheck
+  owner: iuc
+  revisions:
+  - 04bb8bb7c198
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_super_transcripts
   owner: iuc
   revisions:
   - 29472bde8854
+  - 3064aa8755a0
+  - 5c1fc038df6b
   - 6723249ce1bd
   - 6f480aee5877
   - 9c545f1c1a4e
+  - bdede464821e
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity
@@ -300,6 +350,10 @@ tools:
   - 26d5493b20b6
   - 3772d9a10f27
   - 5b60313a6ce7
+  - 77cf519a812e
+  - 8f1c3df4dd49
+  - 9fa24d5aac68
+  - d2bc35f3d1c5
   - d84caa5a98ad
   - db1f362cca3e
   tool_panel_section_id: rna_seq
@@ -308,17 +362,24 @@ tools:
   owner: iuc
   revisions:
   - 08326e2e82f1
+  - 400691c87530
   - 442e3696c634
   - 59fff1388bc2
   - 81a4697677e7
+  - a009c96c5c18
+  - ba3720d7e68b
+  - bcc5f03f1900
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_contig_exn50_statistic
   owner: iuc
   revisions:
   - 3cdcd5753218
+  - 41db7569b4ba
   - 62b05e565a45
+  - 870ac06dff8e
   - b1e9a0355166
+  - be3f26533209
   - beafdd47f8cf
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -326,18 +387,33 @@ tools:
   owner: iuc
   revisions:
   - 00719b8004c9
+  - 2fb4ee002432
   - 56162e446004
+  - 75f4e1859ed7
   - 893655fa55f9
   - 983552d5822d
+  - b2bbe9a7f1b8
+  - c2b82a94493e
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_filter_low_expr_transcripts
   owner: iuc
   revisions:
   - 1007cdb58d91
+  - 1fdb25a8384d
   - 42c5172815f7
   - 42f93482524f
+  - a35cba31d904
   - a5ec0e79a93a
+  - aa38fa8c5815
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: trinity_gene_to_trans_map
+  owner: iuc
+  revisions:
+  - 7c7fbf13aadd
+  - 964b7efe2639
+  - ba460ccf0006
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinotate
@@ -358,6 +434,7 @@ tools:
 - name: mirdeep2_mapper
   owner: rnateam
   revisions:
+  - a8d24f4b6d95
   - dbbe92348c7a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -371,5 +448,72 @@ tools:
   owner: rnateam
   revisions:
   - 6a17e1229b9f
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: cemitool
+  owner: iuc
+  revisions:
+  - 3f9ff31c88bb
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: targetfinder
+  owner: rnateam
+  revisions:
+  - c9d56748fbde
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: chira_collapse
+  owner: iuc
+  revisions:
+  - 05996586c8b3
+  - 2b2bfeda00d0
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: chira_extract
+  owner: iuc
+  revisions:
+  - 73d2b7a8d94b
+  - e7ee3aadf1a5
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: chira_map
+  owner: iuc
+  revisions:
+  - 7925dd016f53
+  - 95ddee768b61
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: chira_merge
+  owner: iuc
+  revisions:
+  - 6492560fe1b4
+  - 9930af9d17f8
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: chira_quantify
+  owner: iuc
+  revisions:
+  - 06ac35533793
+  - 38d2b1f38992
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: blockbuster
+  owner: rnateam
+  revisions:
+  - 7c7ff7a3503f
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: blockclust
+  owner: rnateam
+  revisions:
+  - aab6cf87b40a
+  - dbb6ee3179bc
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: isoformswitchanalyzer
+  owner: iuc
+  revisions:
+  - 298d81e5e138
+  - b3f292d9f35d
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq

@@ -1,4 +1,0 @@
-tool_panel_section_label: RSeQC
-tools:
-- name: rseqc
-  owner: nilesh

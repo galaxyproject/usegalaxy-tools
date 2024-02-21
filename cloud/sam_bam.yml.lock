@@ -18,6 +18,8 @@ tools:
 - name: samtools_view
   owner: iuc
   revisions:
+  - 5826298f6a73
+  - 0dbf49c414ae
   - b72793637686
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
@@ -61,18 +63,21 @@ tools:
   owner: devteam
   revisions:
   - b5c3b1856370
+  - 1e5880498f52
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_merge
   owner: iuc
   revisions:
   - 740ce0a18f0d
+  - 36677f429310
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_markdup
   owner: iuc
   revisions:
   - 83b8e36e9cbe
+  - b5527cc104ab
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_fixmate
@@ -97,6 +102,7 @@ tools:
   owner: devteam
   revisions:
   - 145f6d74ff5e
+  - 24c5d43cb545
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_split
@@ -121,6 +127,8 @@ tools:
   owner: devteam
   revisions:
   - 7a6034296ae9
+  - 7def34e6cf4d
+  - 811fc2d75ad4
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtool_filter2
@@ -157,6 +165,8 @@ tools:
   owner: devteam
   revisions:
   - cb20f99fd45b
+  - bd735cae4ce6
+  - 108db6635177
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: sam_to_bam
@@ -187,5 +197,11 @@ tools:
   owner: devteam
   revisions:
   - 1977f1637890
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: revertr2orientationinbam
+  owner: lldelisle
+  revisions:
+  - 21ddefab2e4f
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
