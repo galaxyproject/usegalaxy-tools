@@ -20,3 +20,5 @@ tools:
     owner: guerler
   - name: ffindex_dbkit_merge
     owner: guerler
+  - name: dbkit
+    owner: guerler
