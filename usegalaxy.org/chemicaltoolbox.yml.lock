@@ -782,3 +782,15 @@ tools:
   - 473a07404e83
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
+- name: gmx_rmsd
+  owner: chemteam
+  revisions:
+  - e8e3636338c8
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: gmx_rmsf
+  owner: chemteam
+  revisions:
+  - f261fded9631
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox

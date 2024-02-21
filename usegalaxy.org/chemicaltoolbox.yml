@@ -240,3 +240,7 @@ tools:
   owner: bgruening
 - name: openmg
   owner: bgruening
+- name: gmx_rmsd
+  owner: chemteam
+- name: gmx_rmsf
+  owner: chemteam
