@@ -178,6 +178,12 @@ tools:
   - 8e251055b1a9
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
+- name: diff
+  owner: bgruening
+  revisions:
+  - 156d0908e232
+  tool_panel_section_id: text_manipulation
+  tool_panel_section_label: Text Manipulation
 - name: add_value
   owner: devteam
   revisions:

@@ -42,6 +42,8 @@ tools:
   owner: bgruening
 - name: add_line_to_file
   owner: bgruening
+- name: diff
+  owner: bgruening
 - name: add_value
   owner: devteam
 - name: concatenate_multiple_datasets
