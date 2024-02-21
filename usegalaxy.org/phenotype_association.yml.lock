@@ -33,3 +33,15 @@ tools:
   - e1a9ad05dced
   tool_panel_section_id: phenotype_association
   tool_panel_section_label: Phenotype Association
+- name: plink
+  owner: iuc
+  revisions:
+  - 2c0ac05fe240
+  tool_panel_section_id: phenotype_association
+  tool_panel_section_label: Phenotype Association
+- name: qq_manhattan
+  owner: iuc
+  revisions:
+  - 7a8a21c5a57f
+  tool_panel_section_id: phenotype_association
+  tool_panel_section_label: Phenotype Association
