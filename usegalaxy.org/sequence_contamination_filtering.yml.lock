@@ -9,3 +9,9 @@ tools:
   - 3cdb96f2855d
   tool_panel_section_id: sequence_contamination_filtering
   tool_panel_section_label: Sequence Contamination Filtering
+- name: ncbi_fcs_adaptor
+  owner: richard-burhans
+  revisions:
+  - d55ad8533d58
+  tool_panel_section_id: sequence_contamination_filtering
+  tool_panel_section_label: Sequence Contamination Filtering
