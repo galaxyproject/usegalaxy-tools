@@ -50,3 +50,5 @@ tools:
   owner: bgruening
 - name: msconvert
   owner: galaxyp
+- name: ucsc_wigtobigwig
+  owner: iuc
