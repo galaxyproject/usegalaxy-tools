@@ -52,3 +52,5 @@ tools:
   owner: galaxyp
 - name: ucsc_wigtobigwig
   owner: iuc
+- name: bam2fastx
+  owner: iuc
