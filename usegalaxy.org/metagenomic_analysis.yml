@@ -122,3 +122,5 @@ tools:
   owner: iuc
 - name: megahit_contig2fastg
   owner: iuc
+- name: metabat2_jgi_summarize_bam_contig_depths
+  owner: iuc
