@@ -313,6 +313,12 @@ tools:
   - 7c9417381ad5
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: pretext_graph
+  owner: iuc
+  revisions:
+  - 75b4a2298714
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
 - name: gfastats
   owner: bgruening
   revisions:

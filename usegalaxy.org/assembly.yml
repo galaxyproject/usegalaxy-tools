@@ -64,6 +64,8 @@ tools:
   owner: iuc
 - name: pretext_snapshot
   owner: iuc
+- name: pretext_graph
+  owner: iuc
 - name: gfastats
   owner: bgruening
 - name: yahs
