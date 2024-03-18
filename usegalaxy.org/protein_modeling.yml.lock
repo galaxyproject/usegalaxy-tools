@@ -63,3 +63,9 @@ tools:
   - 37b77aabeb3e
   tool_panel_section_id: protein_modeling
   tool_panel_section_label: Protein Modeling
+- name: dbkit
+  owner: guerler
+  revisions:
+  - 184b00847620
+  tool_panel_section_id: protein_modeling
+  tool_panel_section_label: Protein Modeling
