@@ -26,6 +26,7 @@ tools:
   - cd2480f35935
   - f29602ae449e
   - fe3ca740a485
+  - a79ee60b6926
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: uniprot_rest_interface
@@ -62,6 +63,7 @@ tools:
   - e39fceb6ab85
   - f46f0e4f75c4
   - fb4ff3c42cd3
+  - 12615d397df7
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: column_order_header_sort

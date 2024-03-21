@@ -172,6 +172,7 @@ tools:
   - 4d343c1f606b
   - befc9dad4ca8
   - ddb22028b552
+  - 970e6333f07e
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bamtools_filter
@@ -182,30 +183,35 @@ tools:
   - 4fe8a75334c8
   - bd735cae4ce6
   - cb20f99fd45b
+  - 993b19f20c76
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bamtools_split_mapped
   owner: iuc
   revisions:
   - 6dbef7ea2253
+  - fa7b5520ae53
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bamtools_split_paired
   owner: iuc
   revisions:
   - 5325e44297b9
+  - 75d5afa09972
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bamtools_split_ref
   owner: iuc
   revisions:
   - 9b520009db81
+  - 9b8feb118f9e
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bamtools_split_tag
   owner: iuc
   revisions:
   - e30af4e78cd3
+  - e9b9c489aacc
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_depth

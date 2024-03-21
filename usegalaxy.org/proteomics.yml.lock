@@ -43,6 +43,7 @@ tools:
   - 8934bc76bb52
   - ea0a1d50c83f
   - f522c08e900c
+  - 9c52362ae7bb
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: msstats
@@ -53,6 +54,7 @@ tools:
   - 593839e1f2c3
   - 8212e342e482
   - b7034eff0db1
+  - de7593c29499
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: eggnog_mapper

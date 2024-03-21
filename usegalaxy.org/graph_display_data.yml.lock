@@ -69,6 +69,7 @@ tools:
   - 53460afd5115
   - '566197475670'
   - ca7cb0eaad62
+  - 374e9062d874
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: circos
@@ -288,6 +289,7 @@ tools:
   - 7dd841a32245
   - a1abfa420d9d
   - eca03db4f612
+  - 36b848d5f3ec
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: tsne

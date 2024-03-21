@@ -12,6 +12,7 @@ tools:
   - 9a169729c9f9
   - 9b0cdb8cf6be
   - aa0c474463c2
+  - 6f5349dd5c49
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_inspect
@@ -23,6 +24,7 @@ tools:
   - 9d33775ec67d
   - c5d3684f7c4c
   - e4c99c83dfbf
+  - 5c3ebe2adc77
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_filter
@@ -34,6 +36,7 @@ tools:
   - a03ff8633507
   - b409c2486353
   - f87ed6503715
+  - 277313130da5
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalize
@@ -45,6 +48,7 @@ tools:
   - a407e7f8bdc1
   - ab55fe8030b6
   - c9cb76cf8d6c
+  - 7b9fafe32c86
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_cluster_reduce_dimension
@@ -56,6 +60,7 @@ tools:
   - aaa5da8e73a9
   - b2df381a6004
   - edec35114f72
+  - 6f83f8fd381f
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_remove_confounders
@@ -67,6 +72,7 @@ tools:
   - 80d4e2cac903
   - bf2017df9837
   - c2ef03559dc6
+  - d18e7a6e5cd4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_export
@@ -324,6 +330,7 @@ tools:
   - e32b215b7c04
   - e4c01dcece8b
   - f2000bc73102
+  - c9944a2600f1
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: droplet_barcode_plot

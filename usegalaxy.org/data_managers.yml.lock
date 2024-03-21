@@ -104,6 +104,7 @@ tools:
   owner: iuc
   revisions:
   - 5c8a23ccb14a
+  - 84cc0dc92b0c
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_mapseq
