@@ -88,6 +88,7 @@ tools:
   - 8b6d0d85252b
   - 8dee0218ac7d
   - a7b889b90140
+  - b799a615995d
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pilon

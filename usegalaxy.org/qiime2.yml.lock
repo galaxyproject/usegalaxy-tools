@@ -961,11 +961,13 @@ tools:
   owner: q2d2
   revisions:
   - ddff0f6d5740
+  - f47ed6c69f5d
   tool_panel_section_id: qiime2
   tool_panel_section_label: QIIME2
 - name: qiime2_core__tools__import
   owner: q2d2
   revisions:
+  - 10447a4b0cc3
   - 18c6b2b6740f
   tool_panel_section_id: qiime2
   tool_panel_section_label: QIIME2

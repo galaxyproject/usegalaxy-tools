@@ -12,6 +12,7 @@ tools:
   - a52d2d93e595
   - d999e774072a
   - e25d3acf6e68
+  - cbf3f518b668
   tool_panel_section_id: ncbi_blast_
   tool_panel_section_label: NCBI BLAST+
 - name: kraken2

@@ -33,18 +33,21 @@ tools:
   owner: iuc
   revisions:
   - b0d5976540e3
+  - af1211ed6c8e
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: vegan_fisher_alpha
   owner: iuc
   revisions:
   - f9966e11885b
+  - 0148e5cf20b2
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: vegan_diversity
   owner: iuc
   revisions:
   - a2c047a2c380
+  - a1b80a746054
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken_report
@@ -52,6 +55,7 @@ tools:
   revisions:
   - 1902d3de4a4f
   - 6c09bed3444f
+  - 1c677354ab18
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken
@@ -59,6 +63,7 @@ tools:
   revisions:
   - 8ba2174315aa
   - aec58624706f
+  - 766d5f63b0f4
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: taxonomy_krona_chart
@@ -84,6 +89,7 @@ tools:
   revisions:
   - 27d65c78863c
   - b11b3ac48bb9
+  - bfae8da6082c
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: biom_add_metadata
@@ -97,6 +103,7 @@ tools:
   - a3b86937ead6
   - dad9da48a09a
   - e3cbd2287f63
+  - ab9350a8ab4d
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: biom_convert
@@ -111,6 +118,7 @@ tools:
   - a4db66553a61
   - bd46669113b9
   - e177a8ea0bf1
+  - d4d4e9febf5c
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken_translate
@@ -119,6 +127,7 @@ tools:
   - 9a5be5b1a5c9
   - 9bdcba262627
   - bc3e90fd13be
+  - 8cebdc74a48f
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken_filter
@@ -126,6 +135,7 @@ tools:
   revisions:
   - 3d6570bffdb1
   - 5bee9adae474
+  - 67236d921e83
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken2tax
@@ -378,6 +388,7 @@ tools:
   revisions:
   - 280386b252a5
   - 45210df786b9
+  - cef64c36c89e
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: plasflow
@@ -385,6 +396,7 @@ tools:
   revisions:
   - bda6012394f7
   - ea270d0ad0e6
+  - 1d2a91ab28b7
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: valet
