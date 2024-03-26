@@ -6,10 +6,10 @@ tools:
 - name: bioext_bam2msa
   owner: iuc
   revisions:
+  - 27673f5b5343
   - 359e043a285c
   - b226e0c805a5
   - f5792425ea50
-  - 27673f5b5343
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: tabular_to_fasta
@@ -166,10 +166,10 @@ tools:
 - name: mz_to_sqlite
   owner: galaxyp
   revisions:
+  - 705821bf30d2
   - 8190f6083c0d
   - e34bdac5b157
   - f5c632894818
-  - 705821bf30d2
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: gffread
@@ -190,9 +190,9 @@ tools:
 - name: graphicsmagick_image_montage
   owner: bgruening
   revisions:
+  - 391a19477a12
   - 39881709807e
   - 8dbc700cb940
-  - 391a19477a12
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: msconvert
@@ -211,6 +211,6 @@ tools:
 - name: bam2fastx
   owner: iuc
   revisions:
-  - 61a6b93ee6e1
+  - 7f7f2ee03430
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
