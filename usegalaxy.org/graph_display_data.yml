@@ -74,3 +74,5 @@ tools:
   owner: iuc
 - name: krona_text
   owner: saskia-hiltemann
+- name: jbrowse2
+  owner: fubar
