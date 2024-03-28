@@ -22,11 +22,11 @@ tools:
   - 1aae04680c4b
   - 3e1f6f6d557e
   - 44018dd6b447
+  - a79ee60b6926
   - b5d8e5475247
   - cd2480f35935
   - f29602ae449e
   - fe3ca740a485
-  - a79ee60b6926
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: uniprot_rest_interface
@@ -55,6 +55,7 @@ tools:
   owner: bgruening
   revisions:
   - 0a8c6b61f0f4
+  - 12615d397df7
   - 20344ce0c811
   - 60edf2f8c28f
   - 9ff72e942410
@@ -63,7 +64,7 @@ tools:
   - e39fceb6ab85
   - f46f0e4f75c4
   - fb4ff3c42cd3
-  - 12615d397df7
+  - fbf99087e067
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: column_order_header_sort
