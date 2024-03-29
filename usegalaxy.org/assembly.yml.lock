@@ -316,7 +316,7 @@ tools:
 - name: pretext_graph
   owner: iuc
   revisions:
-  - 75b4a2298714
+  - eca7d3a0c5f2
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: gfastats
