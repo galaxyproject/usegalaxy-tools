@@ -41,9 +41,9 @@ tools:
   - 4d17fcdeb8ff
   - 837224ad1694
   - 8934bc76bb52
+  - 9c52362ae7bb
   - ea0a1d50c83f
   - f522c08e900c
-  - 9c52362ae7bb
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: msstats
@@ -120,5 +120,17 @@ tools:
   owner: galaxyp
   revisions:
   - 819ed5aae76f
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: colabfold_msa
+  owner: iuc
+  revisions:
+  - 941f89a0c552
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: colabfold_alphafold
+  owner: iuc
+  revisions:
+  - 5f7a01f8ea28
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
