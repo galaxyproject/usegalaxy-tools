@@ -170,9 +170,9 @@ tools:
   revisions:
   - 04866f817daa
   - 4d343c1f606b
+  - 970e6333f07e
   - befc9dad4ca8
   - ddb22028b552
-  - 970e6333f07e
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bamtools_filter
@@ -181,9 +181,9 @@ tools:
   - 108db6635177
   - 1dfd95ee241e
   - 4fe8a75334c8
+  - 993b19f20c76
   - bd735cae4ce6
   - cb20f99fd45b
-  - 993b19f20c76
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: bamtools_split_mapped

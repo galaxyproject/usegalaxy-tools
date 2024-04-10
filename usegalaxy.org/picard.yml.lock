@@ -7,11 +7,11 @@ tools:
   owner: devteam
   revisions:
   - 1aac2a13842a
+  - 3f254c5ced1d
   - 585027e65f3b
   - 7d34178f2812
   - a1f0b3f4b781
   - b502c227b5e6
   - f9242e01365a
-  - 3f254c5ced1d
   tool_panel_section_id: picard
   tool_panel_section_label: Picard

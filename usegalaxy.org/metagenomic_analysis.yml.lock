@@ -32,38 +32,38 @@ tools:
 - name: vegan_rarefaction
   owner: iuc
   revisions:
-  - b0d5976540e3
   - af1211ed6c8e
+  - b0d5976540e3
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: vegan_fisher_alpha
   owner: iuc
   revisions:
-  - f9966e11885b
   - 0148e5cf20b2
+  - f9966e11885b
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: vegan_diversity
   owner: iuc
   revisions:
-  - a2c047a2c380
   - a1b80a746054
+  - a2c047a2c380
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken_report
   owner: devteam
   revisions:
   - 1902d3de4a4f
-  - 6c09bed3444f
   - 1c677354ab18
+  - 6c09bed3444f
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken
   owner: devteam
   revisions:
+  - 766d5f63b0f4
   - 8ba2174315aa
   - aec58624706f
-  - 766d5f63b0f4
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: taxonomy_krona_chart
@@ -101,9 +101,9 @@ tools:
   - 4a6ee918c13a
   - 6ef0b5664c69
   - a3b86937ead6
+  - ab9350a8ab4d
   - dad9da48a09a
   - e3cbd2287f63
-  - ab9350a8ab4d
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: biom_convert
@@ -117,17 +117,17 @@ tools:
   - 72ed72122deb
   - a4db66553a61
   - bd46669113b9
-  - e177a8ea0bf1
   - d4d4e9febf5c
+  - e177a8ea0bf1
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken_translate
   owner: devteam
   revisions:
+  - 8cebdc74a48f
   - 9a5be5b1a5c9
   - 9bdcba262627
   - bc3e90fd13be
-  - 8cebdc74a48f
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kraken_filter
@@ -394,9 +394,9 @@ tools:
 - name: plasflow
   owner: iuc
   revisions:
+  - 1d2a91ab28b7
   - bda6012394f7
   - ea270d0ad0e6
-  - 1d2a91ab28b7
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: valet

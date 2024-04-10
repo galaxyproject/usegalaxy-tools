@@ -66,10 +66,10 @@ tools:
 - name: ggplot2_heatmap2
   owner: iuc
   revisions:
+  - 374e9062d874
   - 53460afd5115
   - '566197475670'
   - ca7cb0eaad62
-  - 374e9062d874
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: circos
@@ -283,13 +283,13 @@ tools:
   - 2824d77cd8f8
   - 326a3db8d9d1
   - 360df4999907
+  - 36b848d5f3ec
   - 4ac4e7083b7e
   - 59fd173ac850
   - 5cec5fb749f0
   - 7dd841a32245
   - a1abfa420d9d
   - eca03db4f612
-  - 36b848d5f3ec
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: tsne

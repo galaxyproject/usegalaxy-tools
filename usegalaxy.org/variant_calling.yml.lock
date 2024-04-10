@@ -267,9 +267,9 @@ tools:
 - name: deepvariant
   owner: iuc
   revisions:
+  - 63b68fe4af85
   - 918c8b94c8d8
   - 98fe794d2ec0
-  - 63b68fe4af85
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: ucsc_fatovcf
