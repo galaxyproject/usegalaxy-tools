@@ -420,14 +420,15 @@ tools:
 - name: cpat
   owner: bgruening
   revisions:
-  - 8e9e228c54c4
   - 1ac12c0cc7a0
+  - 8e9e228c54c4
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: mitos2
   owner: iuc
   revisions:
   - 033755194fe9
+  - 73b018c57e96
   - af3c1dc1d141
   - b815ec682418
   - e95d52d295d7

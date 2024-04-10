@@ -190,6 +190,7 @@ tools:
 - name: graphicsmagick_image_montage
   owner: bgruening
   revisions:
+  - 31dfed0f0eed
   - 391a19477a12
   - 39881709807e
   - 8dbc700cb940
@@ -199,6 +200,7 @@ tools:
   owner: galaxyp
   revisions:
   - 3cf310697624
+  - 545054b15d7c
   - 6153e8ada1ee
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
