@@ -652,7 +652,6 @@ function install_tools() {
         #        log_exit_error "Terminating build due to previous errors"
         #    };
         #}
-        show_logs
     done
 }
 
