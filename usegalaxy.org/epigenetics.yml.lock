@@ -55,6 +55,7 @@ tools:
 - name: cooler_makebins
   owner: lldelisle
   revisions:
+  - 3df254580b06
   - c3dc51297bf8
   - ebd2a52eb245
   - f67664a4e1d6
@@ -63,6 +64,7 @@ tools:
 - name: cooler_csort_tabix
   owner: lldelisle
   revisions:
+  - 026950a1853c
   - 5cb855a2dc9e
   - 8c3cba559c99
   - d56db0e1555d
@@ -72,6 +74,7 @@ tools:
   owner: lldelisle
   revisions:
   - 0641e1c892c6
+  - 168e86e96afa
   - 3ff6eeca667e
   - c639f60ae76a
   tool_panel_section_id: epigenetics
@@ -82,5 +85,6 @@ tools:
   - 8f71aaf6e59d
   - 8f9fe0667b89
   - 9655af207032
+  - b387933e4d3d
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics

@@ -6,6 +6,7 @@ tools:
 - name: sra_tools
   owner: iuc
   revisions:
+  - 1ec814014652
   - 248f85ff0733
   - 4317d3cb6cba
   - 4df8de2d0e48
@@ -18,11 +19,11 @@ tools:
   - 83c7d564b128
   - 964579f93c54
   - aad3885b3216
+  - ba931a59dd59
   - c441583adae5
   - e08a7ad4378b
   - e407b9da183a
   - f5ea3ce9b9b0
-  - 1ec814014652
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_datasets
@@ -30,6 +31,7 @@ tools:
   revisions:
   - 0622d99c2619
   - 18eed8fa7f23
+  - 198c75abbf55
   - 1e188c9610c3
   - 5a2656cc84cb
   - 6c829a430475
@@ -37,7 +39,6 @@ tools:
   - a3395b1d871b
   - b2ae7186d41f
   - c47a0a93ffd2
-  - 198c75abbf55
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ebi_metagenomics_run_downloader
@@ -69,10 +70,10 @@ tools:
 - name: unipept
   owner: galaxyp
   revisions:
+  - 21a560af5913
   - 34758ab8aaa4
   - 7863f1abcdda
   - 9aaa46d45472
-  - 21a560af5913
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ega_download_client

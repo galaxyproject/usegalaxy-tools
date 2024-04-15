@@ -99,9 +99,10 @@ tools:
   revisions:
   - 0f1c34698076
   - 645159bcee2d
+  - 7b379e98b9a9
+  - a02b8b3f5a0c
   - a3c4fe6f49ab
   - edbb6c5028f5
-  - 7b379e98b9a9
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: porechop
@@ -175,12 +176,12 @@ tools:
   revisions:
   - 0284be52bfcf
   - 276f5d8712d5
+  - 291923e6f276
   - 3ee0ef312022
   - 8d4f03b5fe9d
   - cb8dfd28c16f
   - de24438c9988
   - e27815e82dd4
-  - 291923e6f276
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: pycoqc

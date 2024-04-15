@@ -34,9 +34,9 @@ tools:
   - 6f28e90db932
   - a65296ffb4a0
   - aaefa93c2dd2
+  - bf28a8cff401
   - c5908940967d
   - f1a5908ea2cb
-  - bf28a8cff401
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: clustalw
@@ -60,8 +60,8 @@ tools:
   - 502018997bae
   - abe34706eddf
   - b3acbb3a6af0
-  - fbca557a4847
   - e8fdceffea4c
+  - fbca557a4847
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_mummer
@@ -69,19 +69,19 @@ tools:
   revisions:
   - 48823c9635a4
   - 48badcd29c5d
+  - 57f042937ba7
   - bcd65de9725b
   - fc143c06a842
-  - 57f042937ba7
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_dnadiff
   owner: iuc
   revisions:
   - 315c678562d2
+  - 5561a1193611
   - 60698466facd
   - c9685bc0407c
   - deacc6b40cc0
-  - 5561a1193611
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_show_coords
@@ -90,8 +90,8 @@ tools:
   - 959c1f8dae95
   - b4124df98b26
   - b8e2c2f95d26
-  - f8734af48332
   - cf3c9489c088
+  - f8734af48332
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_mummerplot
@@ -109,9 +109,9 @@ tools:
   revisions:
   - 5b0b49b5421c
   - 636b049e6141
+  - 7cd7a55a678d
   - a18fb4f826fc
   - e18267f90096
-  - 7cd7a55a678d
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: pipelign

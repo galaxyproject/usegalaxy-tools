@@ -7,6 +7,7 @@ tools:
   owner: iuc
   revisions:
   - 17f911830a8c
+  - 40737febe339
   - 5e668dc9f379
   - 731182d54f78
   - 78bbd17d0703
@@ -14,7 +15,6 @@ tools:
   - d1459d85ff18
   - e319b5b65879
   - ede363a64152
-  - 40737febe339
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_filtervariants
@@ -27,8 +27,8 @@ tools:
   - 47a27906d750
   - 4abcfbc2e5b6
   - 51afc8a64951
-  - 7fe36019c073
   - 618297d23022
+  - 7fe36019c073
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_getmasked
@@ -46,10 +46,10 @@ tools:
   - 69797fa273c3
   - 75c279fa403a
   - 8d36959b000d
+  - a1c2aecd7a0d
   - ee29337f905c
   - ee2beb764a7b
   - f57ce5d5c997
-  - a1c2aecd7a0d
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_trim
@@ -61,16 +61,17 @@ tools:
   - 397e5f0eb3ef
   - 5671e1d3d5ee
   - 5d6ed46cc101
+  - 86a20ae274fc
   - c092052ed673
   - cf65217ad61c
   - db536ad45f28
-  - 86a20ae274fc
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_variants
   owner: iuc
   revisions:
   - 045d6d00f606
+  - 194e3ceee923
   - 230b05597996
   - 252dfb042563
   - 3888bbe7a9ca
@@ -78,7 +79,6 @@ tools:
   - 584beffa972b
   - aa9de8f20668
   - f95f403841ad
-  - 194e3ceee923
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: snpeff_sars_cov_2
@@ -100,6 +100,7 @@ tools:
   - 42a174224817
   - 5f8727ff21e7
   - 81804a978fc0
+  - 8ad84c5753ea
   - a2099fb98cdb
   - abf6dbe8c9d7
   - b6abccb1f25b
@@ -113,11 +114,11 @@ tools:
   revisions:
   - 128ba8da994f
   - 3b75d5285aff
+  - 4f6349228462
   - 51f5e7505c4b
   - 56b1a13d9680
   - b74b9a7b3e3b
   - f6db3ce6ed1c
   - feb40665d7cd
-  - 4f6349228462
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
