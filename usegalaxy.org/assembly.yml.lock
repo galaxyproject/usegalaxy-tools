@@ -257,6 +257,7 @@ tools:
   - 589078edd230
   - 9d79beb19ac3
   - d7edbc9c3a07
+  - eb7b00ec347d
   - f8113c25bc6b
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
