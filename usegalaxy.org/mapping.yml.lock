@@ -153,3 +153,9 @@ tools:
   - cd253831a014
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: segalign
+  owner: richard-burhans
+  revisions:
+  - 5c72425b7f1b
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping

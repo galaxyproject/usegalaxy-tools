@@ -32,3 +32,5 @@ tools:
   owner: iuc
 - name: metilene
   owner: rnateam
+- name: segalign
+  owner: richard-burhans
