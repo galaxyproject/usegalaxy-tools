@@ -1,0 +1,12 @@
+tool_panel_section_label: Machine Learning
+tools:
+- name: sklearn_build_pipeline
+  owner: bgruening
+- name: sklearn_searchcv
+  owner: bgruening
+- name: plotly_parallel_coordinates_plot
+  owner: bgruening
+- name: sklearn_ensemble
+  owner: bgruening
+- name: plotly_regression_performance_plots
+  owner: bgruening
