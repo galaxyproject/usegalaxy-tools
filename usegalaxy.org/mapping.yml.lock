@@ -156,6 +156,6 @@ tools:
 - name: segalign
   owner: richard-burhans
   revisions:
-  - 5c72425b7f1b
+  - 6f46cebc9ed8
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
