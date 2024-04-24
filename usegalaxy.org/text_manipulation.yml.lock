@@ -54,7 +54,6 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
-  - fbf99087e067
   - 0a8c6b61f0f4
   - 12615d397df7
   - 20344ce0c811
@@ -65,6 +64,7 @@ tools:
   - e39fceb6ab85
   - f46f0e4f75c4
   - fb4ff3c42cd3
+  - fbf99087e067
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: column_order_header_sort
