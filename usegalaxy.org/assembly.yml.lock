@@ -375,3 +375,33 @@ tools:
   - 8e66f695d859
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: pairtools_dedup
+  owner: iuc
+  revisions:
+  - 5412142130ad
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: pairtools_parse
+  owner: iuc
+  revisions:
+  - b0a1f128fa15
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: pairtools_sort
+  owner: iuc
+  revisions:
+  - 8cffb8fc34f0
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: pairtools_split
+  owner: iuc
+  revisions:
+  - 53d73d58e105
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: pairtools_stats
+  owner: iuc
+  revisions:
+  - 81fc1418fbfb
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
