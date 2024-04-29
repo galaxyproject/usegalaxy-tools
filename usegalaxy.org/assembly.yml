@@ -80,3 +80,13 @@ tools:
   owner: bgruening
 - name: rnaquast
   owner: iuc
+- name: pairtools_dedup
+  owner: iuc
+- name: pairtools_parse
+  owner: iuc
+- name: pairtools_sort
+  owner: iuc
+- name: pairtools_split
+  owner: iuc
+- name: pairtools_stats
+  owner: iuc
