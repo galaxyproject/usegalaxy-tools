@@ -517,3 +517,9 @@ tools:
   - ec045ca00b50
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: bracken
+  owner: iuc
+  revisions:
+  - 1d4bd12f01cf
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
