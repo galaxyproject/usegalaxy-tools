@@ -34,3 +34,5 @@ tools:
   owner: rnateam
 - name: segalign
   owner: richard-burhans
+- name: batched_lastz
+  owner: richard-burhans
