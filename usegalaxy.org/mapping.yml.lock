@@ -159,3 +159,9 @@ tools:
   - 75e15ba3b4c1
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: batched_lastz
+  owner: richard-burhans
+  revisions:
+  - 103538753e81
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
