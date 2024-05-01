@@ -162,6 +162,6 @@ tools:
 - name: batched_lastz
   owner: richard-burhans
   revisions:
-  - 103538753e81
+  - 007990f98551
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
