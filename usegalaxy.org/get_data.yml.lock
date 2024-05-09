@@ -24,6 +24,7 @@ tools:
   - e08a7ad4378b
   - e407b9da183a
   - f5ea3ce9b9b0
+  - f8054ea1c365
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_datasets
