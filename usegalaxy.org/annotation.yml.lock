@@ -431,6 +431,7 @@ tools:
   - 73b018c57e96
   - af3c1dc1d141
   - b815ec682418
+  - c8ac28e8ac44
   - e95d52d295d7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
