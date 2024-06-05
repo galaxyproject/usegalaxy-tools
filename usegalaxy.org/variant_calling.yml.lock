@@ -33,6 +33,7 @@ tools:
   owner: blankenberg
   revisions:
   - 07e71cf6c8ef
+  - 6be51647d31a
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: snpsift
@@ -187,6 +188,7 @@ tools:
   owner: crs4
   revisions:
   - 45af4a9748cf
+  - 5d60331757d3
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: gatk4_mutect2

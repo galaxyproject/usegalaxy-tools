@@ -7,11 +7,13 @@ tools:
   owner: climate
   revisions:
   - b525b88bc941
+  - efaa93ed5a79
   tool_panel_section_id: climate_analysis
   tool_panel_section_label: Climate Analysis
 - name: climate_stripes
   owner: climate
   revisions:
+  - abdc27e01dca
   - c6f2435d680b
   tool_panel_section_id: climate_analysis
   tool_panel_section_label: Climate Analysis
@@ -19,5 +21,6 @@ tools:
   owner: climate
   revisions:
   - 250554670f72
+  - bd153c794da1
   tool_panel_section_id: climate_analysis
   tool_panel_section_label: Climate Analysis
