@@ -239,6 +239,7 @@ tools:
 - name: alphafold2
   owner: galaxy-australia
   revisions:
+  - 2f7702fd0a4c
   - 5b85006245f3
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox

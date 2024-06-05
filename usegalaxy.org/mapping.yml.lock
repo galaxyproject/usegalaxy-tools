@@ -23,6 +23,7 @@ tools:
   - 0d4acadabb04
   - 749c918495f7
   - c3dd1aeb7d07
+  - d5ceb9f3c25b
   - f6877ad76b00
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
@@ -39,6 +40,7 @@ tools:
   owner: devteam
   revisions:
   - 01ac0a5fedc3
+  - 2477830927ec
   - 3fe632431b68
   - 64f11cf59c6e
   - e188dc7a68e6
@@ -84,6 +86,7 @@ tools:
   - 6da3972210ee
   - a6ea26c1f225
   - b4e6819b25ef
+  - cf1322aeb137
   - d82648ad25a3
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
@@ -140,6 +143,7 @@ tools:
   owner: iuc
   revisions:
   - 3171f7f52576
+  - 3f94a2e3d513
   - 517464809c33
   - 7f19559b8b55
   - 858a65b52cf9

@@ -76,6 +76,7 @@ tools:
   owner: nml
   revisions:
   - 05c394313b1c
+  - 99ecfdafc64f
   - e731ea24e48d
   - fd128c111ab0
   tool_panel_section_id: assembly
@@ -195,6 +196,7 @@ tools:
   - 33368fec3b70
   - 7897763d14ec
   - b8c00ce5dfa0
+  - d5887ace0dd4
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: bandage
@@ -387,6 +389,7 @@ tools:
   revisions:
   - 5412142130ad
   - 55a53b5e308d
+  - 56bb29747b4d
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pairtools_parse
@@ -394,6 +397,7 @@ tools:
   revisions:
   - 44cb74c154bc
   - b0a1f128fa15
+  - d3a7b17714c1
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pairtools_sort
@@ -401,12 +405,14 @@ tools:
   revisions:
   - 8cffb8fc34f0
   - 8ed44487c834
+  - fdd073110081
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pairtools_split
   owner: iuc
   revisions:
   - 060f0fed864e
+  - 39df08e91cdf
   - 53d73d58e105
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -415,5 +421,6 @@ tools:
   revisions:
   - 6cbca5661205
   - 81fc1418fbfb
+  - c20a07c9237b
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

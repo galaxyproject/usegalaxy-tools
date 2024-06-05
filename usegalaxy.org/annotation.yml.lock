@@ -229,6 +229,7 @@ tools:
   - 037a11682176
   - 200c378d85f3
   - 2c68b0c38785
+  - 4839e590cb26
   - 809dfc93d593
   - ac8250086ac3
   - ba6f87115e13
@@ -250,6 +251,7 @@ tools:
   owner: iuc
   revisions:
   - 02d81b994ef5
+  - 42818629ec4c
   - 4934c0ac6197
   - adc0645b945c
   tool_panel_section_id: annotation
@@ -303,6 +305,7 @@ tools:
   revisions:
   - 45d4d26e01b5
   - c147914c9f02
+  - f5114c60dc95
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: sortmerna
@@ -319,6 +322,7 @@ tools:
   revisions:
   - 4863b1dbe8f0
   - 77cfe958b5ea
+  - b6ea129299ea
   - f61366a4a14e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -365,6 +369,7 @@ tools:
 - name: repeatmodeler
   owner: csbl
   revisions:
+  - 4a172d211285
   - 8661b2607b7e
   - fbe22cb3c869
   tool_panel_section_id: annotation

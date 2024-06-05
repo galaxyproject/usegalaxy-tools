@@ -13,6 +13,7 @@ tools:
   - 9a169729c9f9
   - 9b0cdb8cf6be
   - aa0c474463c2
+  - f7446fd8d5e7
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_inspect
@@ -25,6 +26,7 @@ tools:
   - 9d33775ec67d
   - c5d3684f7c4c
   - e4c99c83dfbf
+  - f54f0f0598ad
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_filter
@@ -36,6 +38,7 @@ tools:
   - 5511647110ff
   - a03ff8633507
   - b409c2486353
+  - d636ce5cde16
   - f87ed6503715
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -49,6 +52,7 @@ tools:
   - a407e7f8bdc1
   - ab55fe8030b6
   - c9cb76cf8d6c
+  - d844935c906c
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_cluster_reduce_dimension
@@ -56,6 +60,7 @@ tools:
   revisions:
   - 35bc2eb568ed
   - 3e4e1cf73d98
+  - 4d8f983cd751
   - 6acb08931836
   - 6f83f8fd381f
   - aaa5da8e73a9
@@ -72,6 +77,7 @@ tools:
   - 80d4e2cac903
   - bf2017df9837
   - c2ef03559dc6
+  - c65fce500915
   - d18e7a6e5cd4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -185,6 +191,7 @@ tools:
   - 7fd39eb52f38
   - 8ed4e80e8799
   - ba64b91ed2b9
+  - bf1e0bdec1db
   - e9283529cba1
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -194,6 +201,7 @@ tools:
   - 474a69c47184
   - 7143938df06e
   - a1698b43abeb
+  - cc64914b0cf4
   - d82d999fa716
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -201,6 +209,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 1e9616772e16
+  - 3027cb62adbd
   - 3a4564b9d685
   - 6b97ffba31da
   tool_panel_section_id: single_cell
@@ -210,6 +219,7 @@ tools:
   revisions:
   - 2861ca3bfe4d
   - 5c62f39aab8f
+  - 64dd8bb151e1
   - 82bd7bf93454
   - ae467daae2f7
   tool_panel_section_id: single_cell
@@ -219,6 +229,7 @@ tools:
   revisions:
   - 22f2957da902
   - 2b6913c840bf
+  - 4cc9362782b4
   - f86b2c3bc459
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -226,6 +237,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 04bdc69f00d7
+  - 4428dba93375
   - 59028945c857
   - 988edd5fa902
   - c4f7fb2b1f70
@@ -234,6 +246,7 @@ tools:
 - name: scanpy_compute_graph
   owner: ebi-gxa
   revisions:
+  - 22bd5861706d
   - 3cf0177ed87e
   - 5ec3b715809c
   - 6417cccad133
@@ -246,6 +259,7 @@ tools:
   - 181d61d2f3cd
   - 384cacc40611
   - a147dce191e9
+  - abdb61e4afa3
   - fe727a9496ea
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -256,6 +270,7 @@ tools:
   - ad70b3552c99
   - bd4a244faeb8
   - e31937baa330
+  - ea91cfd0444e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_find_cluster
@@ -263,6 +278,7 @@ tools:
   revisions:
   - 15e8a4c60418
   - 2ccd9f9e2cd0
+  - 36735850e461
   - 621d7d7a605f
   - 8dc3d8941217
   tool_panel_section_id: single_cell
@@ -274,12 +290,14 @@ tools:
   - 7042ce140caa
   - 81c34e67f262
   - a57c0538e56b
+  - d8f5224005bb
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_plot_embed
   owner: ebi-gxa
   revisions:
   - 35f6611fb8c3
+  - 7d5c97823f8b
   - 9fafbfcdee0d
   - a71086d2e55f
   tool_panel_section_id: single_cell
@@ -290,12 +308,14 @@ tools:
   - 31e5e6d606ef
   - 53a251c6d991
   - 825dfd66e3fb
+  - a4774b7b2e85
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_parameter_iterator
   owner: ebi-gxa
   revisions:
   - 4e4420ed5292
+  - 73d43034c860
   - a8c73996ac50
   - b9dd12ab0550
   tool_panel_section_id: single_cell
@@ -303,6 +323,7 @@ tools:
 - name: scanpy_read_10x
   owner: ebi-gxa
   revisions:
+  - 078aa23c9374
   - 4d13979de6ee
   - 9afcfcd1d215
   - c8391a25dee3
@@ -314,6 +335,7 @@ tools:
   - 2cef3539f420
   - 3111bcf039dd
   - 5bea4f3c4edf
+  - c354af93f567
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: gtf2gene_list
@@ -373,6 +395,7 @@ tools:
 - name: scanpy_regress_variable
   owner: ebi-gxa
   revisions:
+  - 0bab2ae44e7a
   - 1200b55768ce
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
