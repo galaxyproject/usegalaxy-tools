@@ -30,3 +30,5 @@ tools:
   owner: iuc
 - name: kc_align
   owner: iuc
+- name: mashmap
+  owner: iuc
