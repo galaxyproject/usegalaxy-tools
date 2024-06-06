@@ -143,3 +143,9 @@ tools:
   - a0ffbc759ad8
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
+- name: mashmap
+  owner: iuc
+  revisions:
+  - a3a6b0b31f2d
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments

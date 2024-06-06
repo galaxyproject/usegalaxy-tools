@@ -440,3 +440,9 @@ tools:
   - e95d52d295d7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: windowmasker
+  owner: iuc
+  revisions:
+  - d90ae4a02efd
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
