@@ -302,6 +302,7 @@ tools:
 - name: volcanoplot
   owner: iuc
   revisions:
+  - 2f557f6abbfb
   - 73b8cb5bddcd
   - 83c573f2e73c
   - a363ba287b88
