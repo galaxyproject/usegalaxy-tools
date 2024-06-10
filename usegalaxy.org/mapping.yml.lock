@@ -175,3 +175,9 @@ tools:
   - a68e128cdb1a
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: winnowmap
+  owner: iuc
+  revisions:
+  - 35ea4a8b1ea6
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping

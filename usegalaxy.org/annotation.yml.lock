@@ -446,3 +446,15 @@ tools:
   - d90ae4a02efd
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: miniprot_index
+  owner: iuc
+  revisions:
+  - aeb4c76d007b
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: miniprot
+  owner: iuc
+  revisions:
+  - 6b20d051d0dc
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
