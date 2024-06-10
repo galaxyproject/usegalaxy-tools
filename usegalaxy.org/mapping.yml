@@ -36,3 +36,5 @@ tools:
   owner: richard-burhans
 - name: batched_lastz
   owner: richard-burhans
+- name: winnowmap
+  owner: iuc
