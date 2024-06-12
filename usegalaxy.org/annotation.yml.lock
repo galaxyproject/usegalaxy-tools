@@ -458,3 +458,9 @@ tools:
   - 6b20d051d0dc
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: amrfinderplus
+  owner: iuc
+  revisions:
+  - 7844dbe4f8e2
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
