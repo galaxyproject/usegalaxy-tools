@@ -535,3 +535,9 @@ tools:
   - 1d4bd12f01cf
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: recentrifuge
+  owner: iuc
+  revisions:
+  - 76bf12b928f4
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis

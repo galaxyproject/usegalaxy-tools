@@ -54,3 +54,7 @@ tools:
   owner: iuc
 - name: bam2fastx
   owner: iuc
+- name: tooldistillator
+  owner: iuc
+- name: tooldistillator_summarize
+  owner: iuc

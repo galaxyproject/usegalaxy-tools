@@ -126,3 +126,5 @@ tools:
   owner: iuc
 - name: bracken
   owner: iuc
+- name: recentrifuge
+  owner: iuc

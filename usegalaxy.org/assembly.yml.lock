@@ -424,3 +424,9 @@ tools:
   - c20a07c9237b
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: refseq_masher
+  owner: nml
+  revisions:
+  - 1ec42f033bb4
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
