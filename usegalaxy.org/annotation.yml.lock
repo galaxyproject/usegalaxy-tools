@@ -253,6 +253,7 @@ tools:
   - 02d81b994ef5
   - 42818629ec4c
   - 4934c0ac6197
+  - 9793bc5d741b
   - adc0645b945c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
