@@ -78,3 +78,5 @@ tools:
   owner: iuc
 - name: revertr2orientationinbam
   owner: lldelisle
+- name: mosdepth
+  owner: iuc
