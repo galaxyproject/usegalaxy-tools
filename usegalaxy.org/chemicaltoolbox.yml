@@ -244,3 +244,9 @@ tools:
   owner: chemteam
 - name: gmx_rmsf
   owner: chemteam
+- name: qiskit_xyz2pdb
+  owner: chemteam
+- name: pulchra
+  owner: chemteam
+- name: biopdb_align_and_rmsd
+  owner: chemteam
