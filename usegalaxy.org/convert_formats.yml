@@ -2,6 +2,8 @@ tool_panel_section_label: Convert Formats
 tools:
 - name: bioext_bam2msa
   owner: iuc
+- name: bbgbigwig
+  owner: iuc
 - name: tabular_to_fasta
   owner: devteam
 - name: fasta_to_tabular
