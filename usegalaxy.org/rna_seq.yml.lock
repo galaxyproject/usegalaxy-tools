@@ -522,3 +522,9 @@ tools:
   - b3f292d9f35d
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
+- name: brew3r_r
+  owner: iuc
+  revisions:
+  - 928a52b5c938
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
