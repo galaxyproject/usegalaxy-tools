@@ -12,6 +12,12 @@ tools:
   - f5792425ea50
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
+- name: bbgbigwig
+  owner: iuc
+  revisions:
+  - b95435276746
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
 - name: tabular_to_fasta
   owner: devteam
   revisions:
