@@ -68,6 +68,16 @@ tools:
   owner: ebi-gxa
 - name: gtf2gene_list
   owner: ebi-gxa
+- name: scanpy_run_fdg
+  owner: ebi-gxa
+- name: scanpy_run_diffmap
+  owner: ebi-gxa
+- name: scanpy_run_paga
+  owner: ebi-gxa
+- name: scanpy_run_dpt
+  owner: ebi-gxa
+- name: scanpy_plot_trajectory
+  owner: ebi-gxa
 - name: alevin
   owner: bgruening
 - name: droplet_barcode_plot

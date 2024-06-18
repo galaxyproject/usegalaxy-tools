@@ -345,6 +345,36 @@ tools:
   - 1a642de6db01
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
+- name: scanpy_run_fdg
+  owner: ebi-gxa
+  revisions:
+  - be019b069e31
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_run_diffmap
+  owner: ebi-gxa
+  revisions:
+  - 79cc06a557b0
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_run_paga
+  owner: ebi-gxa
+  revisions:
+  - b2768cae00a1
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_run_dpt
+  owner: ebi-gxa
+  revisions:
+  - 03921aa8b29c
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: scanpy_plot_trajectory
+  owner: ebi-gxa
+  revisions:
+  - cb1992d1804b
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
 - name: alevin
   owner: bgruening
   revisions:
