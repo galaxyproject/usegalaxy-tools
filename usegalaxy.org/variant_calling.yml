@@ -1,5 +1,7 @@
 tool_panel_section_label: Variant Calling
 tools:
+- name: clair3
+  owner: iuc
 - name: snpfreqplot
   owner: iuc
 - name: varscan_version_2

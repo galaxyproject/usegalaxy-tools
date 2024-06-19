@@ -1,5 +1,8 @@
 tool_panel_section_label: SAM/BAM
 tools:
+
+- name: samtools_coverage
+  owner: iuc
 - name: samtools_sort
   owner: devteam
 - name: samtools_mpileup
