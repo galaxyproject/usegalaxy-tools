@@ -6,6 +6,7 @@ tools:
 - name: plant_tribes_assembly_post_processor
   owner: greg
   revisions:
+  - 2c2ad8af0a4e
   - 4d73965d99a2
   - 9c72c91d291f
   tool_panel_section_id: planttribes
@@ -25,6 +26,7 @@ tools:
 - name: plant_tribes_gene_family_aligner
   owner: greg
   revisions:
+  - 1c5a484fc06f
   - 79ea0eef1942
   tool_panel_section_id: planttribes
   tool_panel_section_label: PlantTribes
