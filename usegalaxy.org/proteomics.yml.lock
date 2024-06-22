@@ -83,6 +83,7 @@ tools:
 - name: openms_decoydatabase
   owner: galaxyp
   revisions:
+  - 06cca574e337
   - 25529df60a81
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
@@ -90,23 +91,27 @@ tools:
   owner: galaxyp
   revisions:
   - 9876bda3ec53
+  - c9b2a5022d9e
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: openms_msgfplusadapter
   owner: galaxyp
   revisions:
+  - 810779f0cf49
   - f5ec766d80cf
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: openms_peptideindexer
   owner: galaxyp
   revisions:
+  - 0693b186f39e
   - d6aca689dd48
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: openms_falsediscoveryrate
   owner: galaxyp
   revisions:
+  - 4138acdeedfb
   - 6ccbf9a2072c
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
@@ -114,11 +119,13 @@ tools:
   owner: galaxyp
   revisions:
   - adca857b4884
+  - ea02403ff738
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: openms_metaprosip
   owner: galaxyp
   revisions:
+  - 5f72a8fa935d
   - 819ed5aae76f
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics

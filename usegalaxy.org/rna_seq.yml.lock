@@ -525,6 +525,7 @@ tools:
 - name: brew3r_r
   owner: iuc
   revisions:
+  - 3198f52bffaa
   - 928a52b5c938
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq

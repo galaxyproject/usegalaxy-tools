@@ -204,6 +204,7 @@ tools:
 - name: openms_openpepxl
   owner: galaxyp
   revisions:
+  - 10d8b43176a9
   - 4d2b77fd7a28
   - fc36cfd19834
   tool_panel_section_id: chemicaltoolbox

@@ -332,6 +332,7 @@ tools:
 - name: khmer_partition
   owner: iuc
   revisions:
+  - 5a0fa29951ae
   - b7429b53be2a
   - e562293ee5ec
   tool_panel_section_id: metagenomic_analysis
@@ -341,6 +342,7 @@ tools:
   revisions:
   - 2c763fb18010
   - 98b53d46e851
+  - adb3dd5a899f
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_count_median
@@ -348,11 +350,13 @@ tools:
   revisions:
   - 06d1d91c67e5
   - 77410799e8e9
+  - b3d513c7093e
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_filter_below_abundance_cutoff
   owner: iuc
   revisions:
+  - 19607c740d19
   - 569001af897d
   - b469ab47b490
   tool_panel_section_id: metagenomic_analysis
@@ -361,12 +365,14 @@ tools:
   owner: iuc
   revisions:
   - 557cc16931f4
+  - b1fe2ef3d244
   - e84073b420a8
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_abundance_distribution_single
   owner: iuc
   revisions:
+  - 385a965c6f87
   - 55109291a355
   - c018a72b523e
   tool_panel_section_id: metagenomic_analysis
@@ -376,11 +382,13 @@ tools:
   revisions:
   - 8c6433857aa8
   - 97f65399e30d
+  - b86562b4f3fd
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: khmer_abundance_distribution
   owner: iuc
   revisions:
+  - 7624945cacd3
   - c0caca5af183
   - e0de12ae3fc2
   tool_panel_section_id: metagenomic_analysis
