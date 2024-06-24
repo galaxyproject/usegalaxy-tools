@@ -118,3 +118,5 @@ tools:
   owner: iuc
 - name: amrfinderplus
   owner: iuc
+- name: compleasm
+  owner: iuc
