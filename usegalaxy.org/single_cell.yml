@@ -124,3 +124,13 @@ tools:
   owner: iuc
 - name: velocyto_cli
   owner: iuc
+- name: gsc_scran_normalize
+  owner: artbio
+- name: snapatac2_clustering
+  owner: iuc
+- name: snapatac2_peaks_and_motif
+  owner: iuc
+- name: snapatac2_plotting
+  owner: iuc
+- name: snapatac2_preprocessing
+  owner: iuc

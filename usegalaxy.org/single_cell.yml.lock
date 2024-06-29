@@ -536,3 +536,33 @@ tools:
   - 90e95e9ee190
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
+- name: gsc_scran_normalize
+  owner: artbio
+  revisions:
+  - 6864acb21714
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: snapatac2_clustering
+  owner: iuc
+  revisions:
+  - 8f8bef61fd0b
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: snapatac2_peaks_and_motif
+  owner: iuc
+  revisions:
+  - 588c811fdd48
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: snapatac2_plotting
+  owner: iuc
+  revisions:
+  - fecf9664c885
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: snapatac2_preprocessing
+  owner: iuc
+  revisions:
+  - cec3e76eaf05
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
