@@ -388,6 +388,7 @@ tools:
 - name: funannotate_compare
   owner: iuc
   revisions:
+  - 0418d28136de
   - 30f08d74024f
   - 57c6718cbfcc
   - a7ce2601500c
@@ -401,6 +402,7 @@ tools:
   - 3bbe70fef6df
   - 582fd74dc2a1
   - 756376aeb1ae
+  - 9c15ca7e764e
   - 9feee7fc49a1
   - d0336d67702b
   tool_panel_section_id: annotation
@@ -409,6 +411,7 @@ tools:
   owner: iuc
   revisions:
   - 1bc5a03faf2e
+  - 4b96ced19f75
   - 51b6ee65ef7f
   - f31125bb85ea
   - f77d7b685bb3
