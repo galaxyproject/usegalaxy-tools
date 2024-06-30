@@ -1,5 +1,7 @@
 tool_panel_section_label: Metagenomic Analysis
 tools:
+- name: krakentools_extract_kraken_reads
+  owner: iuc
 - name: kraken2
   owner: iuc
 - name: diamond
