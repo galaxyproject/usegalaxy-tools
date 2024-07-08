@@ -7,6 +7,7 @@ tools:
   owner: perssond
   revisions:
   - 3a916c4e9f5f
+  - e11d5fafd0cc
   tool_panel_section_id: spatial
   tool_panel_section_label: Spatial
 - name: cell_intensity_processing
@@ -30,6 +31,7 @@ tools:
 - name: squidpy
   owner: goeckslab
   revisions:
+  - 11ea000ad53f
   - d30ef0613122
   tool_panel_section_id: spatial
   tool_panel_section_label: Spatial
