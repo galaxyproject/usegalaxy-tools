@@ -28,6 +28,7 @@ tools:
   - de6cebe3c043
   - e4691e1589d3
   - f5fdf41c08b8
+  - fe74900d6dc7
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: flash
@@ -345,6 +346,7 @@ tools:
   owner: peterjc
   revisions:
   - 141612f8c3e3
+  - 85ef5f5a0562
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: umi_tools_extract

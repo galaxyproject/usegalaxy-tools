@@ -10,6 +10,7 @@ tools:
   - 248f85ff0733
   - 4317d3cb6cba
   - 4df8de2d0e48
+  - 516a54ddf218
   - 653e89d73fc4
   - 6591f049cf7e
   - 69ebb7f46e45
@@ -24,6 +25,7 @@ tools:
   - e08a7ad4378b
   - e407b9da183a
   - f5ea3ce9b9b0
+  - f8054ea1c365
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_datasets
@@ -37,6 +39,7 @@ tools:
   - 6c829a430475
   - 75acf92c8fd5
   - a3395b1d871b
+  - a6a475ed58cb
   - b2ae7186d41f
   - c47a0a93ffd2
   tool_panel_section_id: get_data

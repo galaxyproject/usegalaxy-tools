@@ -16,6 +16,7 @@ tools:
   owner: pjbriggs
   revisions:
   - 898b67846b47
+  - b9aaed85cbd1
   - d94aff5ee623
   - dfa082f84068
   tool_panel_section_id: fastq_quality_control

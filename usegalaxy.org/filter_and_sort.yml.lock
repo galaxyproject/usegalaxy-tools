@@ -7,5 +7,6 @@ tools:
   owner: peterjc
   revisions:
   - 7c40a1fbc82e
+  - bdaefd241921
   tool_panel_section_id: filter_and_sort
   tool_panel_section_label: Filter and Sort

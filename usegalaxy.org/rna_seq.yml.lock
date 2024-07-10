@@ -67,8 +67,10 @@ tools:
   - 1ebd14235b92
   - 333a6e13b622
   - 76d290331481
+  - 8eb8750070d4
   - 914cfcba0ec8
   - ae618321f34a
+  - cbf488da3b2c
   - cef79931dda5
   - eba36e001f45
   tool_panel_section_id: rna_seq
@@ -167,6 +169,7 @@ tools:
 - name: htseq_count
   owner: lparsons
   revisions:
+  - 4418229c501e
   - 67b0b160903a
   - 916cb26bd9d3
   tool_panel_section_id: rna_seq
@@ -517,5 +520,13 @@ tools:
   revisions:
   - 298d81e5e138
   - b3f292d9f35d
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: brew3r_r
+  owner: iuc
+  revisions:
+  - 05f8e9d1e8b8
+  - 3198f52bffaa
+  - 928a52b5c938
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq

@@ -110,3 +110,13 @@ tools:
   owner: bgruening
 - name: mitos2
   owner: iuc
+- name: windowmasker
+  owner: iuc
+- name: miniprot_index
+  owner: iuc
+- name: miniprot
+  owner: iuc
+- name: amrfinderplus
+  owner: iuc
+- name: compleasm
+  owner: iuc

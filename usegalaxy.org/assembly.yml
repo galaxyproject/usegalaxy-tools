@@ -90,3 +90,5 @@ tools:
   owner: iuc
 - name: pairtools_stats
   owner: iuc
+- name: refseq_masher
+  owner: nml

@@ -204,6 +204,7 @@ tools:
 - name: openms_openpepxl
   owner: galaxyp
   revisions:
+  - 10d8b43176a9
   - 4d2b77fd7a28
   - fc36cfd19834
   tool_panel_section_id: chemicaltoolbox
@@ -239,6 +240,7 @@ tools:
 - name: alphafold2
   owner: galaxy-australia
   revisions:
+  - 2f7702fd0a4c
   - 5b85006245f3
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
@@ -792,5 +794,23 @@ tools:
   owner: chemteam
   revisions:
   - f261fded9631
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: qiskit_xyz2pdb
+  owner: chemteam
+  revisions:
+  - 7372df4e8513
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: pulchra
+  owner: chemteam
+  revisions:
+  - 212ccef97a3a
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: biopdb_align_and_rmsd
+  owner: chemteam
+  revisions:
+  - 6352d6dd74e2
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox

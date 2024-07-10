@@ -317,3 +317,9 @@ tools:
   - 21ddefab2e4f
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
+- name: mosdepth
+  owner: iuc
+  revisions:
+  - 5854d0da92b4
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM

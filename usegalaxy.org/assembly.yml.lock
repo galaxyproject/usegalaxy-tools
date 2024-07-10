@@ -76,6 +76,7 @@ tools:
   owner: nml
   revisions:
   - 05c394313b1c
+  - 99ecfdafc64f
   - e731ea24e48d
   - fd128c111ab0
   tool_panel_section_id: assembly
@@ -105,6 +106,7 @@ tools:
   - 1d06c8b38e77
   - 28189050e437
   - 53c2bc8c2ae3
+  - 5fc94b3a4704
   - 675ee1aa5952
   - 9e58ff014088
   - a8a278849c18
@@ -115,6 +117,7 @@ tools:
   owner: iuc
   revisions:
   - 48cf45a53456
+  - 6357b127161e
   - b65a43f70b99
   - d159735a6a9f
   - d5fb354f745d
@@ -127,6 +130,7 @@ tools:
   - 037f9927c4ff
   - 4a01e0d2892c
   - 6b5a5842531e
+  - 7e27faaad80e
   - b8002c3f7141
   - e5a3b75a271f
   tool_panel_section_id: assembly
@@ -135,6 +139,7 @@ tools:
   owner: iuc
   revisions:
   - 34305b013402
+  - 655fa188c3cc
   - 9678993ca5bd
   - ad8b536d1caa
   - d6e617c4e338
@@ -148,6 +153,7 @@ tools:
   - 604782a8a53a
   - 7490b213baa9
   - 904bf932cf78
+  - c33a476f4001
   - d89ced9439f3
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -159,6 +165,7 @@ tools:
   - 75405f5e2cc5
   - 7bb235ff0746
   - 85fb02c43042
+  - 8cc856b935ee
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades_metaviralspades
@@ -167,6 +174,7 @@ tools:
   - 2a10645aeadd
   - 328aa71f0f3c
   - 5b26685e5d3b
+  - 7922870efcca
   - 9de69775f512
   - e060c3987513
   tool_panel_section_id: assembly
@@ -188,6 +196,7 @@ tools:
   - 33368fec3b70
   - 7897763d14ec
   - b8c00ce5dfa0
+  - d5887ace0dd4
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: bandage
@@ -379,29 +388,45 @@ tools:
   owner: iuc
   revisions:
   - 5412142130ad
+  - 55a53b5e308d
+  - 56bb29747b4d
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pairtools_parse
   owner: iuc
   revisions:
+  - 44cb74c154bc
   - b0a1f128fa15
+  - d3a7b17714c1
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pairtools_sort
   owner: iuc
   revisions:
   - 8cffb8fc34f0
+  - 8ed44487c834
+  - fdd073110081
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pairtools_split
   owner: iuc
   revisions:
+  - 060f0fed864e
+  - 39df08e91cdf
   - 53d73d58e105
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pairtools_stats
   owner: iuc
   revisions:
+  - 6cbca5661205
   - 81fc1418fbfb
+  - c20a07c9237b
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: refseq_masher
+  owner: nml
+  revisions:
+  - 1ec42f033bb4
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

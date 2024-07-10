@@ -8,8 +8,15 @@ tools:
   revisions:
   - 27673f5b5343
   - 359e043a285c
+  - 7ecb45126cd2
   - b226e0c805a5
   - f5792425ea50
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: bbgbigwig
+  owner: iuc
+  revisions:
+  - b95435276746
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: tabular_to_fasta
@@ -214,5 +221,19 @@ tools:
   owner: iuc
   revisions:
   - 7f7f2ee03430
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: tooldistillator
+  owner: iuc
+  revisions:
+  - 65a69de1e294
+  - a7387ce2a8ca
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: tooldistillator_summarize
+  owner: iuc
+  revisions:
+  - 6ff67d2860e1
+  - def7a82d23e1
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
