@@ -141,6 +141,7 @@ tools:
   - 3a6b78c39dca
   - 83069b38aa85
   - cf34c344508d
+  - cf4397560712
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: sqlite_to_tabular
@@ -149,6 +150,7 @@ tools:
   - 6e72fd26a9d3
   - bce29ec10b78
   - c29d2f80a066
+  - c4d18aa4ec4a
   - dfe38b7c34ed
   - f31bb1e5725d
   - f768f6183386
@@ -167,6 +169,7 @@ tools:
   - 4d5aae46f850
   - 557ec8d7087d
   - 6544e4b87a4f
+  - 90f657745fea
   - 9cc411a62277
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation

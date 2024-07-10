@@ -1,12 +1,4 @@
-# See documentation here:
-# https://blog.github.com/2017-07-06-introducing-code-owners/
-
-common_toolset/*             @Slugger70 @erasche @natefoo
-usegalaxy.eu/*               @erasche
-usegalaxy.org/*              @natefoo
-usegalaxy.org.au/*           @Slugger70
-usegalaxy.org.au-dev/*       @Slugger70
-usegalaxy.org.au-staging/*   @Slugger70
-scripts                      @erasche
+common_toolset/*             @natefoo
+usegalaxy.org/*              @natefoo @martenson
 
 # Order is important. The last matching pattern has the most precedence.

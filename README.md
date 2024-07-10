@@ -63,6 +63,7 @@ In the commands below fill the `{server_name}` as appropriate (usegalaxy.org, te
 
 - If you just want the latest version:
 	- Edit the .yaml file to add name/owner/section
+        - run `make fix`
 - If you want a specific version:
 	- Edit the .yaml file to add name/owner/section
 	- Run `make fix-no-deps`
