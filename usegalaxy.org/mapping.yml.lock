@@ -165,6 +165,7 @@ tools:
   - 08e987868f0f
   - 39c21be8f8b9
   - 75e15ba3b4c1
+  - ec709ce3d91b
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: batched_lastz
