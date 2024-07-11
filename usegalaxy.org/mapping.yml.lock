@@ -162,19 +162,19 @@ tools:
 - name: segalign
   owner: richard-burhans
   revisions:
-  - 08e987868f0f
   - 39c21be8f8b9
+  - 6c95c380bfa7
   - 75e15ba3b4c1
-  - ec709ce3d91b
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: batched_lastz
   owner: richard-burhans
   revisions:
   - 007990f98551
-  - 34d51e66256c
-  - 78c4cef2b5a9
+  - 103538753e81
+  - 78c4cef2b5a9 
   - a68e128cdb1a
+  - 34d51e66256c
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: winnowmap
