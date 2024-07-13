@@ -692,16 +692,17 @@ function post_install() {
     log "Running post-installation tasks"
     exec_on "find '$OVERLAYFS_UPPER' -perm -u+r -not -perm -o+r -not -type l -print0 | xargs -0 --no-run-if-empty chmod go+r"
     exec_on "find '$OVERLAYFS_UPPER' -perm -u+rx -not -perm -o+rx -not -type l -print0 | xargs -0 --no-run-if-empty chmod go+rx"
-    if [ -n "$CONDA_PATH" ]; then
-        exec_on docker run --rm --user "${USER_UID}:${USER_GID}" --name="${CONTAINER_NAME}" \
-            -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
-            -v "${WORKDIR}/condarc:${CONDARC_MOUNT_PATH}" \
-            "$GALAXY_DOCKER_IMAGE" ${CONDA_PATH}/bin/conda clean --tarballs --yes
-        # we're fixing the links for everything here not just the new stuff in $OVERLAYFS_UPPER
-        exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/activate' '_ENVPATH_/bin/activate'" || true
-        exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/deactivate' '_ENVPATH_/bin/deactivate'" || true
-        exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/conda' '_ENVPATH_/bin/conda'" || true
-    fi
+    # This is always a (slow) no-op now that we're not installing new conda deps
+    #if [ -n "$CONDA_PATH" ]; then
+    #    exec_on docker run --rm --user "${USER_UID}:${USER_GID}" --name="${CONTAINER_NAME}" \
+    #        -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
+    #        -v "${WORKDIR}/condarc:${CONDARC_MOUNT_PATH}" \
+    #        "$GALAXY_DOCKER_IMAGE" ${CONDA_PATH}/bin/conda clean --tarballs --yes
+    #    # we're fixing the links for everything here not just the new stuff in $OVERLAYFS_UPPER
+    #    exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/activate' '_ENVPATH_/bin/activate'" || true
+    #    exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/deactivate' '_ENVPATH_/bin/deactivate'" || true
+    #    exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/conda' '_ENVPATH_/bin/conda'" || true
+    #fi
     [ -n "${WORKDIR:-}" ] && exec_on rm -rf "$WORKDIR"
 }
 
