@@ -14,6 +14,7 @@ tools:
   owner: goeckslab
   revisions:
   - 5d541df02496
+  - 676f78636667
   tool_panel_section_id: spatial
   tool_panel_section_label: Spatial
 - name: s3segmenter

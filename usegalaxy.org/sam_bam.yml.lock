@@ -286,6 +286,7 @@ tools:
 - name: qualimap_multi_bamqc
   owner: iuc
   revisions:
+  - 17b35d23731f
   - e38af83df163
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
@@ -293,6 +294,7 @@ tools:
   owner: iuc
   revisions:
   - 19ece8afbaab
+  - 30a201c9c310
   - ac607906f10a
   - e7fd6754d093
   tool_panel_section_id: sam_bam

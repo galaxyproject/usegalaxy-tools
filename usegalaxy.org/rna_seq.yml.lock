@@ -260,12 +260,14 @@ tools:
 - name: qualimap_rnaseq
   owner: iuc
   revisions:
+  - 35e00077ba61
   - 43a1c3e1a4d0
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: qualimap_counts
   owner: iuc
   revisions:
+  - 72927fc9e9ed
   - d696cf0a9622
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
