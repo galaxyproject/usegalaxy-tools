@@ -102,6 +102,7 @@ tools:
   owner: iuc
   revisions:
   - 13851aefa67a
+  - 1e34d2e3d285
   - 539b008cfe1c
   - e4b4837f06f5
   tool_panel_section_id: data_managers
