@@ -128,3 +128,13 @@ tools:
   owner: iuc
 - name: recentrifuge
   owner: iuc
+- name: krakentools_extract_kraken_reads
+  owner: iuc
+- name: krakentools_kreport2mpa
+  owner: iuc
+- name: krakentools_beta_diversity
+  owner: iuc
+- name: krakentools_alpha_diversity
+  owner: iuc
+- name: krakentools_combine_kreports
+  owner: iuc
