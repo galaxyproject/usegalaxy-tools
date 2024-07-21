@@ -171,12 +171,14 @@ tools:
   - 71dfde92fd57
   - c39113e2ae34
   - ebcd8649c621
+  - ee85030e893d
   - f88f74d5b1e9
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: bcftools_plugin_frameshifts
   owner: iuc
   revisions:
+  - 2e303fcd3b0c
   - 399b40b2bcab
   - 48ac4d611e92
   - b40213125e88
