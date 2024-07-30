@@ -163,9 +163,9 @@ tools:
   owner: richard-burhans
   revisions:
   - 39c21be8f8b9
-  - 6c95c380bfa7
+  - 52a13f003b2d
   - 75e15ba3b4c1
-  - ae2cd39594eb
+  - d3f11ae6790c
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: batched_lastz
@@ -174,6 +174,7 @@ tools:
   - 007990f98551
   - 103538753e81
   - 34d51e66256c
+  - 4cd7884635c2
   - 78c4cef2b5a9
   - a68e128cdb1a
   tool_panel_section_id: mapping
