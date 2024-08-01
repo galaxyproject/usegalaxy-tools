@@ -1,5 +1,7 @@
 tool_panel_section_label: Assembly
 tools:
+- name: blobtoolkit
+  owner: bgruening
 - name: unicycler
   owner: iuc
 - name: quast
