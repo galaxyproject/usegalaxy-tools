@@ -242,6 +242,7 @@ tools:
   revisions:
   - 2f7702fd0a4c
   - 5b85006245f3
+  - 6ab1a261520a
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: gromacs_extract_topology

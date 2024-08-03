@@ -8,6 +8,7 @@ tools:
   revisions:
   - 6adf98e782f3
   - 6f5349dd5c49
+  - 70fa84e99463
   - 7647e5cd1b8b
   - 95777145cb92
   - 9a169729c9f9
@@ -25,6 +26,7 @@ tools:
   - 6c145a6868cc
   - 9d33775ec67d
   - c5d3684f7c4c
+  - ca086f24422f
   - e4c99c83dfbf
   - f54f0f0598ad
   tool_panel_section_id: single_cell
@@ -37,6 +39,7 @@ tools:
   - 3c86f71498bc
   - 5511647110ff
   - a03ff8633507
+  - aa0059118fb9
   - b409c2486353
   - d636ce5cde16
   - f87ed6503715
@@ -53,6 +56,7 @@ tools:
   - ab55fe8030b6
   - c9cb76cf8d6c
   - d844935c906c
+  - f3ad813a58a3
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_cluster_reduce_dimension
@@ -61,6 +65,7 @@ tools:
   - 35bc2eb568ed
   - 3e4e1cf73d98
   - 4d8f983cd751
+  - 64ff3ef24fae
   - 6acb08931836
   - 6f83f8fd381f
   - aaa5da8e73a9
@@ -79,6 +84,7 @@ tools:
   - c2ef03559dc6
   - c65fce500915
   - d18e7a6e5cd4
+  - e66884b1c1a5
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_export
@@ -548,12 +554,14 @@ tools:
   - 509baa4a2da0
   - 8f8bef61fd0b
   - 94ae400dde2f
+  - afb90d3485df
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: snapatac2_peaks_and_motif
   owner: iuc
   revisions:
   - 588c811fdd48
+  - 88192fe25375
   - b9013e0e2b00
   - f9647da40db3
   tool_panel_section_id: single_cell
@@ -561,6 +569,7 @@ tools:
 - name: snapatac2_plotting
   owner: iuc
   revisions:
+  - 370d45e0d1a8
   - c01f0a08ab43
   - fbf62973e556
   - fecf9664c885
@@ -572,5 +581,6 @@ tools:
   - 48d9421bf176
   - 4ecdea4cbea1
   - cec3e76eaf05
+  - fef8f61cb34c
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell

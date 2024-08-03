@@ -473,6 +473,7 @@ tools:
   revisions:
   - 1a6cdf55390f
   - 289b3807e80c
+  - b6897977d13e
   - ec368db926f4
   - fd69c607b43f
   tool_panel_section_id: metagenomic_analysis
@@ -541,6 +542,7 @@ tools:
 - name: bracken
   owner: iuc
   revisions:
+  - 0c7b6eb7e752
   - 1d4bd12f01cf
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -548,6 +550,7 @@ tools:
   owner: iuc
   revisions:
   - 76bf12b928f4
+  - d4fbfd31696c
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: krakentools_extract_kraken_reads
@@ -578,5 +581,6 @@ tools:
   owner: iuc
   revisions:
   - 073c867c5244
+  - 4960abe31b4d
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
