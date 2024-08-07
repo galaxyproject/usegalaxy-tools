@@ -1,0 +1,455 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tool_panel_section_label: Metabolomics
+tools:
+- name: assign_ri_from_comment
+  owner: recetox
+  revisions:
+  - 97ccdb1ba47c
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: biotransformer
+  owner: recetox
+  revisions:
+  - e5fcba090b10
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: gc_derivatization
+  owner: recetox
+  revisions:
+  - 600b391827e3
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: isolib
+  owner: recetox
+  revisions:
+  - 6b0fef8a77c0
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: matchms_add_key
+  owner: recetox
+  revisions:
+  - 1d10d32fa3b3
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: matchms_convert
+  owner: recetox
+  revisions:
+  - c990df6afc24
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: matchms_filtering
+  owner: recetox
+  revisions:
+  - 00e66c401366
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: matchms_fingerprint_similarity
+  owner: recetox
+  revisions:
+  - d7b517f2c5fe
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: matchms_formatter
+  owner: recetox
+  revisions:
+  - 9e3c83d2afc3
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: matchms_metadata_export
+  owner: recetox
+  revisions:
+  - b576ed720711
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: matchms_metadata_match
+  owner: recetox
+  revisions:
+  - 1d443ed476a1
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: matchms_metadata_merge
+  owner: recetox
+  revisions:
+  - 84ead993862c
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: matchms_networking
+  owner: recetox
+  revisions:
+  - 1d74ae228df3
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: matchms_remove_key
+  owner: recetox
+  revisions:
+  - 9d1b01d3fedd
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: matchms_remove_spectra
+  owner: recetox
+  revisions:
+  - fbe335d27d25
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: matchms_similarity
+  owner: recetox
+  revisions:
+  - 872d8040f713
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: matchms_spectral_similarity
+  owner: recetox
+  revisions:
+  - 7627b40601f6
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: matchms_split
+  owner: recetox
+  revisions:
+  - 500f473df7e4
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: matchms_subsetting
+  owner: recetox
+  revisions:
+  - 6d2f2c565431
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: msmetaenhancer
+  owner: recetox
+  revisions:
+  - b5467dead5b1
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: qcxms_neutral_run
+  owner: recetox
+  revisions:
+  - 8f465c0c3b6c
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: qcxms_production_run
+  owner: recetox
+  revisions:
+  - e97bfe7ac906
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: qcxms_getres
+  owner: recetox
+  revisions:
+  - 53dce0e49af7
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: ramclustr
+  owner: recetox
+  revisions:
+  - da7722f665f4
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: ramclustr_define_experiment
+  owner: recetox
+  revisions:
+  - f2c1d0bbb074
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: recetox_aplcms_generate_feature_table
+  owner: recetox
+  revisions:
+  - b3413f335327
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: recetox_aplcms_recover_weaker_signals
+  owner: recetox
+  revisions:
+  - d7f5878a98c3
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: recetox_aplcms_correct_time
+  owner: recetox
+  revisions:
+  - 9064aecc78a7
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: recetox_aplcms_compute_clusters
+  owner: recetox
+  revisions:
+  - f3a18e020cdd
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: recetox_aplcms_remove_noise
+  owner: recetox
+  revisions:
+  - ffbabefbd2e2
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: recetox_aplcms_merge_known_table
+  owner: recetox
+  revisions:
+  - 17a48d0a80f4
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: recetox_aplcms_compute_template
+  owner: recetox
+  revisions:
+  - dfebc82ba1f0
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: recetox_aplcms_align_features
+  owner: recetox
+  revisions:
+  - 79ad928a0dae
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: recetox_msfinder
+  owner: recetox
+  revisions:
+  - e7eff0c9baa3
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: recetox_xmsannotator_advanced
+  owner: recetox
+  revisions:
+  - 6b5dec818827
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: rename_annotated_feature
+  owner: recetox
+  revisions:
+  - 268fcec93d9c
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: rem_complex
+  owner: recetox
+  revisions:
+  - 60db8070a5c3
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: riassigner
+  owner: recetox
+  revisions:
+  - af25aa61c611
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: rmassbank
+  owner: recetox
+  revisions:
+  - 5a6bb93ec656
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: spec2vec_similarity
+  owner: recetox
+  revisions:
+  - 721a4e666191
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: spec2vec_training
+  owner: recetox
+  revisions:
+  - 9d917de87cca
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: use_theoretical_mz_annotations
+  owner: recetox
+  revisions:
+  - e0cac9994a72
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: waveica
+  owner: recetox
+  revisions:
+  - bf32ae95a06f
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: xcms_plot_raw
+  owner: workflow4metabolomics
+  revisions:
+  - 520448a32548
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: xcms_plot_eic
+  owner: workflow4metabolomics
+  revisions:
+  - 51015f22fcb7
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: xtb_molecular_optimization
+  owner: recetox
+  revisions:
+  - 6e1ef071fffc
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: camera_combinexsannos
+  owner: mmonsoor
+  revisions:
+  - 961089e21ae2
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: camera_annotate
+  owner: lecorguille
+  revisions:
+  - 4b9ab71be05e
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: msnbase_readmsdata
+  owner: lecorguille
+  revisions:
+  - 6de175c1f6ef
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: xcms_export_samplemetadata
+  owner: lecorguille
+  revisions:
+  - 4ea32e46b2d6
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: xcms_fillpeaks
+  owner: lecorguille
+  revisions:
+  - ec9aebabc1d2
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: xcms_group
+  owner: lecorguille
+  revisions:
+  - 71572faf938e
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: xcms_merge
+  owner: lecorguille
+  revisions:
+  - 6d475a389abc
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: xcms_plot_chromatogram
+  owner: lecorguille
+  revisions:
+  - c8bef8f6a1cb
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: xcms_refine
+  owner: workflow4metabolomics
+  revisions:
+  - 090b33a9981c
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: xcms_retcor
+  owner: lecorguille
+  revisions:
+  - d2b82d89f848
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: xcms_summary
+  owner: lecorguille
+  revisions:
+  - 444e3ed135e3
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: xcms_xcmsset
+  owner: lecorguille
+  revisions:
+  - 6550698fe60f
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: anova
+  owner: lecorguille
+  revisions:
+  - 102049093b7d
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: batchcorrection
+  owner: melpetera
+  revisions:
+  - 23314e1192d4
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: corr_table
+  owner: melpetera
+  revisions:
+  - 2173ad5e7750
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: checkformat
+  owner: ethevenot
+  revisions:
+  - e7c5811ec12f
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: heatmap
+  owner: ethevenot
+  revisions:
+  - b1667c118127
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: generic_filter
+  owner: melpetera
+  revisions:
+  - cfd7c4aa5c26
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: idchoice
+  owner: melpetera
+  revisions:
+  - bb19b1d15732
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: intensity_checks
+  owner: melpetera
+  revisions:
+  - ec75de7f1e08
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: multivariate
+  owner: ethevenot
+  revisions:
+  - 5526f8258e8a
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: qualitymetrics
+  owner: ethevenot
+  revisions:
+  - acdf51018708
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: tablemerge
+  owner: melpetera
+  revisions:
+  - e44c5246247a
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: transformation
+  owner: ethevenot
+  revisions:
+  - cc0e9eff0de2
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: withinvariation
+  owner: yguitton
+  revisions:
+  - 5086ad0c0992
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: w4mclassfilter
+  owner: eschen42
+  revisions:
+  - aae9fa9a7d4d
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: w4mcorcov
+  owner: eschen42
+  revisions:
+  - 90708fdbc22d
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: msconvert
+  owner: galaxyp
+  revisions:
+  - 545054b15d7c
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics
+- name: thermo_raw_file_converter
+  owner: galaxyp
+  revisions:
+  - 19e45916daf9
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics

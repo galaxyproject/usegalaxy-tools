@@ -1,0 +1,162 @@
+tool_panel_section_label: Metabolomics
+tools:
+    # RECETOX Tools
+  - name: assign_ri_from_comment
+    owner: recetox
+  - name: biotransformer
+    owner: recetox
+  - name: gc_derivatization
+    owner: recetox
+  - name: isolib
+    owner: recetox
+  - name: matchms_add_key
+    owner: recetox
+  - name: matchms_convert
+    owner: recetox
+  - name: matchms_filtering
+    owner: recetox
+  - name: matchms_fingerprint_similarity
+    owner: recetox
+  - name: matchms_formatter
+    owner: recetox
+  - name: matchms_metadata_export
+    owner: recetox
+  - name: matchms_metadata_match
+    owner: recetox
+  - name: matchms_metadata_merge
+    owner: recetox
+  - name: matchms_networking
+    owner: recetox
+  - name: matchms_remove_key
+    owner: recetox
+  - name: matchms_remove_spectra
+    owner: recetox 
+  - name: matchms_similarity
+    owner: recetox
+  - name: matchms_spectral_similarity
+    owner: recetox
+  - name: matchms_split
+    owner: recetox
+  - name: matchms_subsetting
+    owner: recetox
+  - name: msmetaenhancer
+    owner: recetox
+  - name: qcxms_neutral_run
+    owner: recetox
+  - name: qcxms_production_run
+    owner: recetox
+  - name: qcxms_getres
+    owner: recetox
+  - name: ramclustr
+    owner: recetox
+  - name: ramclustr_define_experiment
+    owner: recetox
+  - name: recetox_aplcms_generate_feature_table
+    owner: recetox
+  - name: recetox_aplcms_recover_weaker_signals
+    owner: recetox
+  - name: recetox_aplcms_correct_time
+    owner: recetox
+  - name: recetox_aplcms_compute_clusters
+    owner: recetox
+  - name: recetox_aplcms_remove_noise
+    owner: recetox
+  - name: recetox_aplcms_merge_known_table
+    owner: recetox
+  - name: recetox_aplcms_compute_template
+    owner: recetox
+  - name: recetox_aplcms_align_features
+    owner: recetox
+  - name: recetox_msfinder
+    owner: recetox
+  - name: recetox_xmsannotator_advanced
+    owner: recetox
+  - name: rename_annotated_feature
+    owner: recetox
+  - name: rem_complex
+    owner: recetox
+  - name: riassigner
+    owner: recetox
+  - name: rmassbank
+    owner: recetox
+  - name: spec2vec_similarity
+    owner: recetox
+  - name: spec2vec_training
+    owner: recetox
+  - name: use_theoretical_mz_annotations
+    owner: recetox
+  - name: waveica
+    owner: recetox
+  - name: xcms_plot_raw
+    owner: workflow4metabolomics
+  - name: xcms_plot_eic
+    owner: workflow4metabolomics
+  - name: xtb_molecular_optimization
+    owner: recetox
+
+    # W4M Tools
+    ## CAMERA
+  - name: camera_combinexsannos
+    owner: mmonsoor
+  - name: camera_annotate
+    owner: lecorguille
+
+    ## XCMS Suite
+  - name: msnbase_readmsdata
+    owner: lecorguille
+  - name: xcms_export_samplemetadata
+    owner: lecorguille
+  - name: xcms_fillpeaks
+    owner: lecorguille
+  - name: xcms_group
+    owner: lecorguille
+  - name: xcms_merge
+    owner: lecorguille
+  - name: xcms_plot_chromatogram
+    owner: lecorguille
+  - name: xcms_refine
+    owner: workflow4metabolomics
+  - name: xcms_retcor
+    owner: lecorguille
+  - name: xcms_summary
+    owner: lecorguille
+  - name: xcms_xcmsset
+    owner: lecorguille
+
+    ## Stats
+  - name: anova
+    owner: lecorguille
+  - name: batchcorrection
+    owner: melpetera
+  - name: corr_table
+    owner: melpetera
+  - name: checkformat
+    owner: ethevenot
+  - name: heatmap
+    owner: ethevenot
+  - name: generic_filter
+    owner: melpetera
+  - name: idchoice
+    owner: melpetera
+  - name: intensity_checks
+    owner: melpetera
+  - name: multivariate
+    owner: ethevenot
+  - name: qualitymetrics
+    owner: ethevenot
+  - name: tablemerge
+    owner: melpetera
+  - name: transformation
+    owner: ethevenot
+  - name: withinvariation
+    owner: yguitton
+  - name: w4mclassfilter
+    owner: eschen42
+  - name: w4mcorcov
+    owner: eschen42
+  
+  # Other
+  - name: msconvert
+    owner: galaxyp
+  - name: thermo_raw_file_converter
+    owner: galaxyp
