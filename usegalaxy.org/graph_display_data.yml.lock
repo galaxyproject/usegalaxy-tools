@@ -29,6 +29,7 @@ tools:
   revisions:
   - 1c5dcef5ce0f
   - 62e3a4e8c54c
+  - f234e2e59d76
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: plotly_regression_performance_plots
