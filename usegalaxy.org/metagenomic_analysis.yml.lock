@@ -471,6 +471,7 @@ tools:
 - name: metaphlan
   owner: iuc
   revisions:
+  - 1a037928504c
   - 1a6cdf55390f
   - 289b3807e80c
   - b6897977d13e
