@@ -433,7 +433,6 @@ tools:
   - 56556e1267de
   - 5660b21a0dbd
   - a0c219ecb5e7
-  - bf533509c5b6
   - ce9396ddcb2b
   - f65383c7ed49
   tool_panel_section_id: vcf_bcf

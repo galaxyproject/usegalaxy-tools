@@ -161,7 +161,6 @@ tools:
 - name: basil
   owner: iuc
   revisions:
-  - 77fc7640abc7
   - e6ef29001647
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
