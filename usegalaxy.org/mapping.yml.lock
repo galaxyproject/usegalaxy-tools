@@ -164,6 +164,7 @@ tools:
   revisions:
   - 39c21be8f8b9
   - 75e15ba3b4c1
+  - 860e1f6f3de4
   - cefa7625d6cb
   - d3f11ae6790c
   tool_panel_section_id: mapping
@@ -173,6 +174,7 @@ tools:
   revisions:
   - 007990f98551
   - 103538753e81
+  - 1ac663f6a344
   - 34d51e66256c
   - 4cd7884635c2
   - 78c4cef2b5a9

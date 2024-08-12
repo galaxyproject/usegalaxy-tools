@@ -6,6 +6,7 @@ tools:
 - name: fastqc
   owner: devteam
   revisions:
+  - 2c64fded1286
   - 3d0c7bdf12f5
   - 5ec9f6bceaee
   - e7b2202befea
