@@ -46,6 +46,8 @@ tools:
   owner: iuc
 - name: maker
   owner: iuc
+- name: microsatbed
+  owner: iuc
 - name: mlst
   owner: iuc
 - name: progressivemauve
