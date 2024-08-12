@@ -162,6 +162,7 @@ tools:
 - name: segalign
   owner: richard-burhans
   revisions:
+  - 25fa179d9d0a
   - 39c21be8f8b9
   - 75e15ba3b4c1
   - cefa7625d6cb
@@ -174,6 +175,7 @@ tools:
   - 007990f98551
   - 103538753e81
   - 34d51e66256c
+  - 3a67d287d19f
   - 4cd7884635c2
   - 78c4cef2b5a9
   - a68e128cdb1a
