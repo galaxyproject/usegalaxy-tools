@@ -7,6 +7,7 @@ tools:
   revisions:
   - 545054b15d7c
   - 6153e8ada1ee
+  - ab6c14374bc0
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: msnbase_readmsdata
