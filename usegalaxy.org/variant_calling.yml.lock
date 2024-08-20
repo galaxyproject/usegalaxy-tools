@@ -298,3 +298,21 @@ tools:
   - 5804f786060d
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
+- name: arriba
+  owner: iuc
+  revisions:
+  - 01ccd366690d
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: arriba_draw_fusions
+  owner: iuc
+  revisions:
+  - cf01dd6c6b1f
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: arriba_get_filters
+  owner: iuc
+  revisions:
+  - 703a2cb3fb38
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling

@@ -74,3 +74,9 @@ tools:
   owner: iuc
 - name: snp_sites
   owner: iuc
+- name: arriba
+  owner: iuc
+- name: arriba_draw_fusions
+  owner: iuc
+- name: arriba_get_filters
+  owner: iuc
