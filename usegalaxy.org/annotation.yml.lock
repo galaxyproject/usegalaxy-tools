@@ -191,6 +191,12 @@ tools:
   - ded48b36f3b7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: ncbi_egapx
+  owner: richard-burhans
+  revisions:
+  - 7c72d5c7e449
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
 - name: progressivemauve
   owner: iuc
   revisions:
