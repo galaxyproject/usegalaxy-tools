@@ -133,11 +133,13 @@ tools:
   owner: iuc
   revisions:
   - 941f89a0c552
+  - 6fbd935575ce
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: colabfold_alphafold
   owner: iuc
   revisions:
   - 5f7a01f8ea28
+  - 9d65257c56de
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
