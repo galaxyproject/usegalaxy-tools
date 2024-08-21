@@ -50,6 +50,8 @@ tools:
   owner: iuc
 - name: mlst
   owner: iuc
+- name: ncbi_egapx
+  owner: richard-burhans
 - name: progressivemauve
   owner: iuc
 - name: roary
