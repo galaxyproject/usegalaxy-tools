@@ -461,6 +461,7 @@ tools:
   owner: iuc
   revisions:
   - 3f9ff31c88bb
+  - 9d93999d9028
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: targetfinder

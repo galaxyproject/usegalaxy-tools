@@ -6,6 +6,7 @@ tools:
 - name: scanpy_plot
   owner: iuc
   revisions:
+  - 1072ce66b426
   - 6adf98e782f3
   - 6f5349dd5c49
   - 70fa84e99463
@@ -25,6 +26,7 @@ tools:
   - 6bd82ed14acd
   - 6c145a6868cc
   - 9d33775ec67d
+  - c0a80a16560f
   - c5d3684f7c4c
   - ca086f24422f
   - e4c99c83dfbf
@@ -38,6 +40,7 @@ tools:
   - 2d02d9702d3a
   - 3c86f71498bc
   - 5511647110ff
+  - 72a6bebab2a5
   - a03ff8633507
   - aa0059118fb9
   - b409c2486353
@@ -52,6 +55,7 @@ tools:
   - 5342ce58cd1e
   - 7b9fafe32c86
   - 94c19fb1281c
+  - 9f354c7c8c92
   - a407e7f8bdc1
   - ab55fe8030b6
   - c9cb76cf8d6c
@@ -71,6 +75,7 @@ tools:
   - aaa5da8e73a9
   - b2df381a6004
   - edec35114f72
+  - f9353ee6a0d4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_remove_confounders
@@ -80,6 +85,7 @@ tools:
   - 458e8f43a775
   - 73ab2ac53d06
   - 80d4e2cac903
+  - a39040ae0a38
   - bf2017df9837
   - c2ef03559dc6
   - c65fce500915
