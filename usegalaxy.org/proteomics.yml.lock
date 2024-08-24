@@ -132,8 +132,8 @@ tools:
 - name: colabfold_msa
   owner: iuc
   revisions:
-  - 941f89a0c552
   - 6fbd935575ce
+  - 941f89a0c552
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: colabfold_alphafold
