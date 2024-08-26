@@ -19,6 +19,7 @@ tools:
 - name: iqtree
   owner: iuc
   revisions:
+  - 0878b7fd5260
   - 111bd54f6bc4
   - 24d024316465
   - 524d31add34a
