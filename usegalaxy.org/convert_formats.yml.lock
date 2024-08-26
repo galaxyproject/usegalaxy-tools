@@ -239,3 +239,15 @@ tools:
   - def7a82d23e1
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
+- name: ucsc_maftoaxt
+  owner: iuc
+  revisions:
+  - 3a4256d4f079
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: ucsc_fatovcf
+  owner: iuc
+  revisions:
+  - d9965e143053
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats

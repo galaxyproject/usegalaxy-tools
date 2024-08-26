@@ -192,3 +192,15 @@ tools:
   - 35ea4a8b1ea6
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: ucsc_axtchain
+  owner: iuc
+  revisions:
+  - ac3bae00a350
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: ucsc_chainsort
+  owner: iuc
+  revisions:
+  - fff37ce2d95d
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
