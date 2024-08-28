@@ -36,3 +36,5 @@ tools:
   owner: iuc
 - name: colabfold_alphafold
   owner: iuc
+- name: validate_fasta_database
+  owner: galaxyp
