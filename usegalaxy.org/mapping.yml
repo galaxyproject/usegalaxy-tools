@@ -42,3 +42,5 @@ tools:
   owner: iuc
 - name: ucsc_chainsort
   owner: iuc
+- name: ucsc_chainprenet
+  owner: iuc

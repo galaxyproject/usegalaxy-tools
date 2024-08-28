@@ -204,3 +204,9 @@ tools:
   - fff37ce2d95d
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: ucsc_chainprenet
+  owner: iuc
+  revisions:
+  - fa0a3a618a57
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
