@@ -32,6 +32,8 @@ tools:
   owner: iuc
 - name: metilene
   owner: rnateam
+- name: kegalign
+  owner: richard-burhans
 - name: segalign
   owner: richard-burhans
 - name: batched_lastz
