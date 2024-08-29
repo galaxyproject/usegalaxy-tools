@@ -62,5 +62,7 @@ tools:
   owner: iuc
 - name: ucsc_maftoaxt
   owner: iuc
+- name: ucsc_axttomaf
+  owner: iuc
 - name: ucsc_fatovcf
   owner: iuc
