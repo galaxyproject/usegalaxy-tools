@@ -62,8 +62,6 @@ tools:
   owner: chemteam
 - name: gmx_trj
   owner: chemteam
-- name: alphafold2
-  owner: galaxy-australia
 - name: gromacs_extract_topology
   owner: chemteam
 - name: tleap
