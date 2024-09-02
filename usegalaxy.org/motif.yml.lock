@@ -9,6 +9,7 @@ tools:
   - 19237efe98d1
   - 3f0dd362b755
   - 57e5d9382f36
+  - 7ce0fe11b411
   - 9dd5373f6a5a
   - e7242484929c
   tool_panel_section_id: motif
@@ -16,6 +17,7 @@ tools:
 - name: meme_fimo
   owner: iuc
   revisions:
+  - 01f5d04846c4
   - 0c5239d1aa65
   - c1a9a297ba8b
   - c5209f38700d
@@ -32,6 +34,7 @@ tools:
   owner: iuc
   revisions:
   - 164067a66a5c
+  - 47e7ae719765
   - 5f95d385a33c
   - ff2f53a32d0e
   tool_panel_section_id: motif
