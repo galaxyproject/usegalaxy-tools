@@ -149,3 +149,9 @@ tools:
   - ef46866326ef
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
+- name: validate_fasta_database
+  owner: galaxyp
+  revisions:
+  - 9c246c2e24ad
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics

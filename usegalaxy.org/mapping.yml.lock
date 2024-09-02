@@ -161,6 +161,12 @@ tools:
   - cd253831a014
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: kegalign
+  owner: richard-burhans
+  revisions:
+  - 371e4e21d5de
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
 - name: segalign
   owner: richard-burhans
   revisions:
@@ -181,6 +187,7 @@ tools:
   - 1aee697ec0fc
   - 34d51e66256c
   - 3a67d287d19f
+  - 43e72105f473
   - 4cd7884635c2
   - 78c4cef2b5a9
   - a68e128cdb1a
@@ -204,5 +211,17 @@ tools:
   owner: iuc
   revisions:
   - fff37ce2d95d
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: ucsc_chainprenet
+  owner: iuc
+  revisions:
+  - fa0a3a618a57
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: ucsc_chainnet
+  owner: iuc
+  revisions:
+  - 3a213e01bc7f
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping

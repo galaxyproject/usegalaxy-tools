@@ -32,6 +32,8 @@ tools:
   owner: iuc
 - name: metilene
   owner: rnateam
+- name: kegalign
+  owner: richard-burhans
 - name: segalign
   owner: richard-burhans
 - name: batched_lastz
@@ -41,4 +43,8 @@ tools:
 - name: ucsc_axtchain
   owner: iuc
 - name: ucsc_chainsort
+  owner: iuc
+- name: ucsc_chainprenet
+  owner: iuc
+- name: ucsc_chainnet
   owner: iuc

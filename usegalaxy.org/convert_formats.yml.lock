@@ -245,6 +245,12 @@ tools:
   - 3a4256d4f079
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
+- name: ucsc_axttomaf
+  owner: iuc
+  revisions:
+  - 8990ed3ff747
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
 - name: ucsc_fatovcf
   owner: iuc
   revisions:
