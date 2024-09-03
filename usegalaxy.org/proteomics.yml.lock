@@ -143,6 +143,12 @@ tools:
   - 9d65257c56de
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
+- name: fragpipe
+  owner: galaxyp
+  revisions:
+  - ef46866326ef
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
 - name: validate_fasta_database
   owner: galaxyp
   revisions:
