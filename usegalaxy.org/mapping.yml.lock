@@ -219,9 +219,3 @@ tools:
   - fa0a3a618a57
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
-- name: ucsc_chainnet
-  owner: iuc
-  revisions:
-  - 3a213e01bc7f
-  tool_panel_section_id: mapping
-  tool_panel_section_label: Mapping
