@@ -46,5 +46,3 @@ tools:
   owner: iuc
 - name: ucsc_chainprenet
   owner: iuc
-- name: ucsc_chainnet
-  owner: iuc
