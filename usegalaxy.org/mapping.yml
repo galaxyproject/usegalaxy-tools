@@ -48,3 +48,5 @@ tools:
   owner: iuc
 - name: ucsc_chainnet
   owner: iuc
+- name: ucsc_netsyntenic
+  owner: iuc
