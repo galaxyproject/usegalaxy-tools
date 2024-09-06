@@ -121,3 +121,15 @@ tools:
   - dbf2735e8480
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
+- name: data_manager_bakta
+  owner: iuc
+  revisions:
+  - 97b1b5ad1cda
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_build_amrfinderplus
+  owner: iuc
+  revisions:
+  - a5921c09b7b7
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
