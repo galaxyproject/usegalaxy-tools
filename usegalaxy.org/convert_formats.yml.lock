@@ -8,6 +8,7 @@ tools:
   revisions:
   - 27673f5b5343
   - 359e043a285c
+  - 767943cd85bf
   - 7ecb45126cd2
   - b226e0c805a5
   - f5792425ea50
@@ -92,6 +93,7 @@ tools:
   - 0f0cf480051b
   - 158b5b2a164a
   - 60ca8d013263
+  - 6ee334657360
   - e13f565068d6
   - e5340c09200a
   tool_panel_section_id: convert_formats
@@ -99,6 +101,7 @@ tools:
 - name: crossmap_bed
   owner: iuc
   revisions:
+  - 50b7875a49d0
   - 91efc13d3ec1
   - cdbdce00f5f6
   - ee86b27291b5
@@ -112,6 +115,7 @@ tools:
   - 5f893ed3c5ed
   - e72c320c17c1
   - e8d84292e510
+  - f7229c8445da
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_vcf
@@ -122,6 +126,7 @@ tools:
   - 71730c177cdf
   - 97979c3d179f
   - b21851ddcc79
+  - d4965adac10c
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_gff
@@ -130,6 +135,7 @@ tools:
   - 09c6a9e067f9
   - 42b239a32349
   - 4d97434ea0fb
+  - 75a08e10cc76
   - 88d180fb6d67
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
