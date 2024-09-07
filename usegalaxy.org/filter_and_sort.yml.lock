@@ -3,16 +3,16 @@ install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Filter and Sort
 tools:
+- name: bigwig_outlier_bed
+  owner: iuc
+  revisions:
+  - 61946b8bd43b
+  tool_panel_section_id: filter_and_sort
+  tool_panel_section_label: Filter and Sort
 - name: sample_seqs
   owner: peterjc
   revisions:
   - 7c40a1fbc82e
   - bdaefd241921
-  tool_panel_section_id: filter_and_sort
-  tool_panel_section_label: Filter and Sort
-- name: bigwig_outlier_bed
-  owner: iuc
-  revisions:
-  - 61946b8bd43b
   tool_panel_section_id: filter_and_sort
   tool_panel_section_label: Filter and Sort
