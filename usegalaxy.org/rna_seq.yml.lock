@@ -24,6 +24,7 @@ tools:
   - 5bf899c13979
   - 6e53e565fc6a
   - a8305cf0c951
+  - ae2aad0a6d50
   - df0c8d0a5992
   - f2843df56434
   tool_panel_section_id: rna_seq
