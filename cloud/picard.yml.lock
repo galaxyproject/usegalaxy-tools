@@ -6,8 +6,9 @@ tools:
 - name: picard
   owner: devteam
   revisions:
-  - b502c227b5e6
+  - 3f254c5ced1d
   - a1f0b3f4b781
+  - b502c227b5e6
   - b9fbec5ac6b2
   tool_panel_section_id: picard
   tool_panel_section_label: Picard

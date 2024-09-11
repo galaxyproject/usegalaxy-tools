@@ -167,3 +167,6 @@ tools:
 
   - name: scanpy_plot_embed
     owner: ebi-gxa
+
+  - name: cite_seq_count
+    owner: iuc

@@ -6,10 +6,13 @@ tools:
 - name: map_param_value
   owner: iuc
   revisions:
+  - 5ac8a4bf7a8d
   - a01f088d0e5e
+  tool_panel_section_id: expression_tools
   tool_panel_section_label: Expression Tools
 - name: compose_text_param
   owner: iuc
   revisions:
   - e188c9826e0f
+  tool_panel_section_id: expression_tools
   tool_panel_section_label: Expression Tools

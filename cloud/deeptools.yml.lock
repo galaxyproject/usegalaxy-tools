@@ -7,17 +7,20 @@ tools:
   owner: bgruening
   revisions:
   - 514fa53b5efb
+  - a60c359ec43c
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_plot_heatmap
   owner: bgruening
   revisions:
   - a4dfb122e52b
+  - e4c7985d4585
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_bam_compare
   owner: bgruening
   revisions:
+  - c929a006727f
   - e821645ef8fc
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
@@ -25,17 +28,20 @@ tools:
   owner: bgruening
   revisions:
   - 62eb6d63f582
+  - c06951d10364
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_bigwig_compare
   owner: bgruening
   revisions:
+  - 07418a30ed01
   - 26e7304d6737
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_compute_gc_bias
   owner: bgruening
   revisions:
+  - 26983857c91a
   - 2bc10a9ca58b
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
@@ -43,17 +49,20 @@ tools:
   owner: bgruening
   revisions:
   - 2c37ce318bc3
+  - e479c7ca5570
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_multi_bam_summary
   owner: bgruening
   revisions:
+  - 01fb6a7654e6
   - 78f405266706
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_multi_bigwig_summary
   owner: bgruening
   revisions:
+  - 137c4beed34b
   - 3c9f0c486cca
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
@@ -61,17 +70,20 @@ tools:
   owner: bgruening
   revisions:
   - 32e451def88c
+  - bad3ca889618
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_plot_coverage
   owner: bgruening
   revisions:
+  - 231994413f89
   - 56bce3c82278
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_plot_enrichment
   owner: bgruening
   revisions:
+  - 4431f39ede55
   - e65d16fb2724
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
@@ -79,23 +91,27 @@ tools:
   owner: bgruening
   revisions:
   - 2da482e408b8
+  - 4ed32329e0ed
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_plot_pca
   owner: bgruening
   revisions:
+  - 443d9a9d6d11
   - 69264da0ce77
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_bam_coverage
   owner: bgruening
   revisions:
+  - 0e49b109abc2
   - bb1e4f63e0e6
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools
 - name: deeptools_plot_profile
   owner: bgruening
   revisions:
+  - 6662b1a8d326
   - c361b12d207a
   tool_panel_section_id: deeptools
   tool_panel_section_label: deepTools

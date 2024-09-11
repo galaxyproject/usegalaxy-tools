@@ -12,6 +12,7 @@ tools:
 - name: split_file_to_collection
   owner: bgruening
   revisions:
+  - 2dae863c8f42
   - 6cbe2f30c2d7
   tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations
@@ -25,6 +26,13 @@ tools:
   owner: iuc
   revisions:
   - 071084070619
+  - 3ddd99c7efee
   - 58228a4d58fe
+  tool_panel_section_id: collection_operations
+  tool_panel_section_label: Collection Operations
+- name: pick_value
+  owner: iuc
+  revisions:
+  - b19e21af9c52
   tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations

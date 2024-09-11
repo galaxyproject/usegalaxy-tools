@@ -6,6 +6,7 @@ tools:
 - name: minimap2
   owner: iuc
   revisions:
+  - 5cc34c3f440d
   - f54f5baedfdd
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
@@ -13,39 +14,47 @@ tools:
   owner: devteam
   revisions:
   - 09b2cdb7ace5
+  - d5ceb9f3c25b
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bwa
   owner: devteam
   revisions:
-  - e188dc7a68e6
+  - 2477830927ec
   - 3fe632431b68
+  - e188dc7a68e6
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bwameth
   owner: iuc
   revisions:
   - 29bdbc353f20
+  - cf1322aeb137
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: lastz
   owner: devteam
   revisions:
+  - 37b497aa133f
   - e7f19d6a9af8
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: rgrnastar
   owner: iuc
   revisions:
-  - c772497b2c32
   - 2055c2667eb3
+  - 4014de1b6daf
   - 980d2a2e1180
+  - b0f2be869d6d
+  - c772497b2c32
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: rna_starsolo
   owner: iuc
   revisions:
-  - eec9494fdafa
+  - 42ce70172b72
+  - 45795f582ae9
   - 79b885ce78d7
+  - eec9494fdafa
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping

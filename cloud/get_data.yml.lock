@@ -7,11 +7,13 @@ tools:
   owner: iuc
   revisions:
   - 83c7d564b128
+  - 8848455c0270
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
 - name: ncbi_acc_download
   owner: iuc
   revisions:
   - 1c58de56d587
+  - e063168e0a81
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
