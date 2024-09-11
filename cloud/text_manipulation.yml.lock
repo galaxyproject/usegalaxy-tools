@@ -7,34 +7,39 @@ tools:
   owner: iuc
   revisions:
   - 6544e4b87a4f
+  - 90f657745fea
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: query_tabular
   owner: iuc
   revisions:
   - cf34c344508d
+  - cf4397560712
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: column_maker
   owner: devteam
   revisions:
-  - 6595517c2dd8
   - 02026300aa45
+  - 6595517c2dd8
+  - aff5135563c6
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: sqlite_to_tabular
   owner: iuc
   revisions:
   - bce29ec10b78
+  - c4d18aa4ec4a
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: annotatemyids
   owner: iuc
   revisions:
   - 133f36c29579
-  - 44018dd6b447
-  - fe3ca740a485
   - 1a125daea0d8
+  - 44018dd6b447
+  - a79ee60b6926
+  - fe3ca740a485
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: concatenate_multiple_datasets
@@ -46,6 +51,7 @@ tools:
 - name: regex_find_replace
   owner: galaxyp
   revisions:
+  - 503bcd6ebe4b
   - ae8c4b2488e7
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
@@ -60,6 +66,7 @@ tools:
   owner: bgruening
   revisions:
   - 37a53100b67e
+  - ff2a81aa3f08
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: add_input_name_as_column
@@ -71,10 +78,12 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
+  - 74a8bef53a00
+  - 86755160afbf
+  - 9ff72e942410
   - d698c222f354
   - ddf54b12c295
-  - 9ff72e942410
-  - 74a8bef53a00
+  - fbf99087e067
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: reshape2_melt
@@ -99,11 +108,13 @@ tools:
   owner: iuc
   revisions:
   - 238981ed43b7
+  - f7ad5e69aa60
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: column_remove_by_header
   owner: iuc
   revisions:
+  - 2040e4c2750a
   - 372967836e98
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation

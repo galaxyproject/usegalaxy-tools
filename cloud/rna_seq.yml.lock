@@ -7,40 +7,46 @@ tools:
   owner: bgruening
   revisions:
   - cc05793bb896
+  - f4d5237a84f6
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: kallisto_pseudo
   owner: iuc
   revisions:
   - 5ae5c312d718
+  - ce5d418183c5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: kallisto_quant
   owner: iuc
   revisions:
+  - 4f9c4e6566e5
   - 60f888039fb2
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: deseq2
   owner: iuc
   revisions:
-  - 8fe98f7094de
-  - cd9874cb9019
   - 6a3a025714d3
+  - 8fe98f7094de
+  - 9a882d108833
+  - cd9874cb9019
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: limma_voom
   owner: iuc
   revisions:
   - 0921444c832d
-  - d6f5fa4ee473
+  - 119b069fc845
   - d5a940112511
+  - d6f5fa4ee473
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: edger
   owner: iuc
   revisions:
   - 334ce9b1bac5
+  - ae2aad0a6d50
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: sailfish
@@ -53,22 +59,24 @@ tools:
   owner: iuc
   revisions:
   - 26371a1df031
-  - f4af63aaf57a
   - 61ee47027bd3
+  - f4af63aaf57a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: stringtie
   owner: iuc
   revisions:
   - 1ebd14235b92
+  - cbf488da3b2c
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: featurecounts
   owner: iuc
   revisions:
+  - 1759d845181e
   - 38b6d12edc68
   - f3a5f075498f
-  - 1759d845181e
+  - f9d49f5cb597
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: cufflinks
@@ -100,5 +108,11 @@ tools:
   owner: iuc
   revisions:
   - 17eb1e0d711f
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: brew3r_r
+  owner: iuc
+  revisions:
+  - 05f8e9d1e8b8
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq

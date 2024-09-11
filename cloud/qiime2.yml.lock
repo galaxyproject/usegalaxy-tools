@@ -1,4 +1,4 @@
-install_repository_dependencies: true
+install_repository_dependencies: false
 install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: QIIME2
@@ -7,4 +7,5 @@ tools:
   owner: q2d2
   revisions:
   - 3f011fac899d
+  tool_panel_section_id: qiime2
   tool_panel_section_label: QIIME2

@@ -8,8 +8,10 @@ tools:
   revisions:
   - 093678460093
   - 135b80fb1ac2
-  - c5e2e5902201
+  - 5eb7e84243f2
   - 660cffd8d92a
+  - aa784cb3810d
+  - c5e2e5902201
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_filter
@@ -51,6 +53,7 @@ tools:
 - name: flash
   owner: iuc
   revisions:
+  - 01a4ebf1f237
   - a27654fc4270
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -58,14 +61,15 @@ tools:
   owner: bgruening
   revisions:
   - 084bbd8ba7b8
+  - cd7e644cae1d
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: umi_tools_count
   owner: iuc
   revisions:
   - 8250ea3a1501
-  - b557acca0b56
   - a535cf1e5da4
+  - b557acca0b56
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: umi_tools_extract

@@ -7,4 +7,5 @@ tools:
   owner: iuc
   revisions:
   - b026dae67fba
+  tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats

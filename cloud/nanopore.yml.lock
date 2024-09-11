@@ -7,11 +7,13 @@ tools:
   owner: iuc
   revisions:
   - 43815fa60f3a
+  - eb746fa6f514
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: flye
   owner: bgruening
   revisions:
+  - 3e4f8642c77e
   - 3ee0ef312022
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
@@ -19,23 +21,27 @@ tools:
   owner: iuc
   revisions:
   - a7228a7ea146
+  - fc8804320156
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: medaka_variant_pipeline
   owner: iuc
   revisions:
+  - 1d62240feff3
   - 336b3def9b2b
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: medaka_consensus
   owner: iuc
   revisions:
+  - 18505fe2bdb1
   - db25ec99c3ea
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: nanoplot
   owner: iuc
   revisions:
+  - a38bdcec9e4c
   - edbb6c5028f5
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
@@ -78,6 +84,7 @@ tools:
 - name: porechop
   owner: iuc
   revisions:
+  - 543cbeef3949
   - 93d623d9979c
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore

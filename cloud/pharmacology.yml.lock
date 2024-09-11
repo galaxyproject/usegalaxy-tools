@@ -6,6 +6,7 @@ tools:
 - name: pharmcat
   owner: bgruening
   revisions:
+  - 891283e0ee89
   - d67642a21a1d
   tool_panel_section_id: pharmacology
   tool_panel_section_label: Pharmacology

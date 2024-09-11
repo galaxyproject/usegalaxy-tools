@@ -8,3 +8,5 @@ tools:
   owner: iuc
 - name: racon
   owner: bgruening
+- name: gfastats
+  owner: bgruening
