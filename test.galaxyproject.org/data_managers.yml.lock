@@ -14,6 +14,8 @@ tools:
   revisions:
   - 10ac95ec81d9
   - e4f07770b340
+  - 0bd1cd5eac51
+  - bb5794942b5e
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_build_kraken2_database
@@ -158,17 +160,5 @@ tools:
   owner: galaxyp
   revisions:
   - 9ee512decde8
-  tool_panel_section_id: data_managers
-  tool_panel_section_label: Data Managers
-- name: data_manager_bakta
-  owner: iuc
-  revisions:
-  - 97b1b5ad1cda
-  tool_panel_section_id: data_managers
-  tool_panel_section_label: Data Managers
-- name: data_manager_build_amrfinderplus
-  owner: iuc
-  revisions:
-  - a5921c09b7b7
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
