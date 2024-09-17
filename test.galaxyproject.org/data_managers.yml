@@ -52,7 +52,3 @@ tools:
   owner: iuc
 - name: custom_pro_db_annotation_data_manager
   owner: galaxyp
-- name: data_manager_bakta
-  owner: iuc
-- name: data_manager_build_amrfinderplus
-  owner: iuc
