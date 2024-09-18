@@ -181,6 +181,7 @@ tools:
   owner: iuc
   revisions:
   - 3f6e5c701945
+  - 8c8299e553ec
   - dddd7ef63469
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -197,7 +198,6 @@ tools:
   revisions:
   - 3a8a37414e56
   - 7c72d5c7e449
-  - 3a8a37414e56
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: progressivemauve
