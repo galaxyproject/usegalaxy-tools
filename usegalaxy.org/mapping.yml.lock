@@ -233,3 +233,9 @@ tools:
   - d2039064b27d
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: ucsc_netfilter
+  owner: iuc
+  revisions:
+  - 128ec4c44111
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
