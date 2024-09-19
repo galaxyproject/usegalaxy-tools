@@ -6,6 +6,7 @@ tools:
 - name: scanpy_plot
   owner: iuc
   revisions:
+  - 0185bd174ea0
   - 1072ce66b426
   - 6adf98e782f3
   - 6f5349dd5c49
@@ -29,6 +30,7 @@ tools:
   - c0a80a16560f
   - c5d3684f7c4c
   - ca086f24422f
+  - d1cd8c147809
   - e4c99c83dfbf
   - f54f0f0598ad
   tool_panel_section_id: single_cell
@@ -41,6 +43,7 @@ tools:
   - 3c86f71498bc
   - 5511647110ff
   - 72a6bebab2a5
+  - 8cb783c81905
   - a03ff8633507
   - aa0059118fb9
   - b409c2486353
@@ -53,6 +56,7 @@ tools:
   revisions:
   - 51d945eab1e1
   - 5342ce58cd1e
+  - 56c0d4acef02
   - 7b9fafe32c86
   - 94c19fb1281c
   - 9f354c7c8c92
@@ -67,6 +71,7 @@ tools:
   owner: iuc
   revisions:
   - 35bc2eb568ed
+  - 38db3fef7aad
   - 3e4e1cf73d98
   - 4d8f983cd751
   - 64ff3ef24fae
@@ -85,6 +90,7 @@ tools:
   - 458e8f43a775
   - 73ab2ac53d06
   - 80d4e2cac903
+  - 9fb627495ec2
   - a39040ae0a38
   - bf2017df9837
   - c2ef03559dc6
@@ -100,6 +106,7 @@ tools:
   - 32c5c85cbc12
   - c0b037b12765
   - c5ac926c838f
+  - cfaf5a405371
   - e1c3c2f2a834
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -111,6 +118,7 @@ tools:
   - 93dd15e13e6a
   - ae1e5d9d8972
   - cfc3f5a57dc6
+  - d330b3082107
   - fb9e030ffae4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -118,6 +126,7 @@ tools:
   owner: iuc
   revisions:
   - 038e32885fec
+  - 0bf7fddf90c7
   - 383dcb0500f9
   - 39e945f0b2c1
   - 6f0d0c784f09
@@ -129,6 +138,7 @@ tools:
   revisions:
   - 3d748954434b
   - 43cb7b5a6fe7
+  - 7e8c677a7b71
   - 8db95f488f0f
   - ed4996a16f7f
   tool_panel_section_id: single_cell
@@ -136,6 +146,7 @@ tools:
 - name: modify_loom
   owner: iuc
   revisions:
+  - 0f1aaff9b22d
   - 4b0adaa31c95
   - 59be31ac9dc3
   - 7784821452ac

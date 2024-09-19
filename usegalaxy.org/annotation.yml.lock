@@ -181,6 +181,7 @@ tools:
   owner: iuc
   revisions:
   - 3f6e5c701945
+  - 5f8efb080f49
   - 8c8299e553ec
   - dddd7ef63469
   tool_panel_section_id: annotation
