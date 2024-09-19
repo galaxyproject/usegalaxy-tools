@@ -50,3 +50,5 @@ tools:
   owner: iuc
 - name: ucsc_netsyntenic
   owner: iuc
+- name: ucsc_netfilter
+  owner: iuc
