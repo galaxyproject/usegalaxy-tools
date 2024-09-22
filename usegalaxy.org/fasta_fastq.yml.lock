@@ -317,6 +317,7 @@ tools:
   revisions:
   - 71f649c23021
   - bf04bd405d5b
+  - d3f58a0dc09d
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: umi_tools_count
