@@ -159,6 +159,7 @@ tools:
   owner: iuc
   revisions:
   - 356dc923f8d3
+  - 3c6f9e8a4c17
   - 8067dfa00ed2
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -222,6 +223,7 @@ tools:
 - name: ucsc_wigtobigwig
   owner: iuc
   revisions:
+  - 98704d357ede
   - a2f83a375bf2
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -249,17 +251,20 @@ tools:
   owner: iuc
   revisions:
   - 3a4256d4f079
+  - a6540beef35f
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: ucsc_axttomaf
   owner: iuc
   revisions:
   - 8990ed3ff747
+  - f063c97a7f8f
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: ucsc_fatovcf
   owner: iuc
   revisions:
+  - 3c19c84fbce2
   - d9965e143053
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
