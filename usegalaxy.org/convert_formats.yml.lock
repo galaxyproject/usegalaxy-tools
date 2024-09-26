@@ -257,6 +257,7 @@ tools:
 - name: ucsc_axttomaf
   owner: iuc
   revisions:
+  - 31a442afee19
   - 8990ed3ff747
   - f063c97a7f8f
   tool_panel_section_id: convert_formats
