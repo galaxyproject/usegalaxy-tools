@@ -206,6 +206,7 @@ tools:
 - name: ucsc_axtchain
   owner: iuc
   revisions:
+  - 05afdd33dac7
   - 54a6fb045aea
   - ac3bae00a350
   tool_panel_section_id: mapping

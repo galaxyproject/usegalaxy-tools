@@ -252,6 +252,7 @@ tools:
 - name: sniffles
   owner: iuc
   revisions:
+  - 09f5c6f3088a
   - 93c4b04a0769
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -305,11 +306,13 @@ tools:
   owner: iuc
   revisions:
   - 01ccd366690d
+  - 45c2ec061cf9
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: arriba_draw_fusions
   owner: iuc
   revisions:
+  - 7acb00fc980a
   - cf01dd6c6b1f
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -317,5 +320,6 @@ tools:
   owner: iuc
   revisions:
   - 703a2cb3fb38
+  - 7a5a2d28c539
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
