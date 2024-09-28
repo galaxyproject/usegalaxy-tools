@@ -20,6 +20,7 @@ tools:
 - name: c3s
   owner: climate
   revisions:
+  - 21e8386cf36f
   - 250554670f72
   - bd153c794da1
   tool_panel_section_id: climate_analysis
