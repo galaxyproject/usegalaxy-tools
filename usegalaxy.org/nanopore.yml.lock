@@ -7,12 +7,14 @@ tools:
   owner: iuc
   revisions:
   - 64a83664b814
+  - c5c5a3e84989
   - ca22d8497db5
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_winner
   owner: iuc
   revisions:
+  - 6d93709247c7
   - 79c1ac92f31b
   - 9d8f41103cc6
   tool_panel_section_id: nanopore
@@ -20,6 +22,7 @@ tools:
 - name: poretools_times
   owner: iuc
   revisions:
+  - '107124859931'
   - 960be5e0b47e
   - e5072f0d3772
   tool_panel_section_id: nanopore
@@ -28,6 +31,7 @@ tools:
   owner: iuc
   revisions:
   - 2cb2feb94f0e
+  - 5f5f1da94d7f
   - 7f0b324de883
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
@@ -36,11 +40,13 @@ tools:
   revisions:
   - 4b17acf9b6ab
   - ae4c8446ce30
+  - c1cbe2575d32
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_squiggle
   owner: iuc
   revisions:
+  - 26e6c9362b7b
   - 34553d0caa5e
   - ce8af9373061
   tool_panel_section_id: nanopore
@@ -50,18 +56,21 @@ tools:
   revisions:
   - 2e22ebec211a
   - 4fe6b96aff72
+  - 626b6c2be5c2
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_qualdist
   owner: iuc
   revisions:
   - 44111014e7c1
+  - 72dfdbfab3cc
   - ae9060e764b5
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_occupancy
   owner: iuc
   revisions:
+  - 0433aad600e9
   - 336791b5665f
   - 338d15b8d6fb
   tool_panel_section_id: nanopore
@@ -70,6 +79,7 @@ tools:
   owner: iuc
   revisions:
   - 3ae7ccba16cf
+  - 5c4fa65f5733
   - a57b6350fd5d
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
@@ -78,11 +88,13 @@ tools:
   revisions:
   - 47936349f3e9
   - 5a82eb9e1b89
+  - d1805f9c4c82
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_extract
   owner: iuc
   revisions:
+  - 08064da7b7fb
   - 7593f94691fb
   - 7e4f1ed70187
   tool_panel_section_id: nanopore
@@ -92,6 +104,7 @@ tools:
   revisions:
   - 1d835c691480
   - 28d7819c312f
+  - daf8518d243a
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: nanoplot
