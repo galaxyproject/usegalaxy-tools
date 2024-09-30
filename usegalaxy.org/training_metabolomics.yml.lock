@@ -114,6 +114,7 @@ tools:
 - name: camera_annotate
   owner: lecorguille
   revisions:
+  - 3d63a762954a
   - 4b9ab71be05e
   - 512c2b701d96
   tool_panel_section_id: metabolomics

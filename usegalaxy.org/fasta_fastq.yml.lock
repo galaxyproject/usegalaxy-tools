@@ -325,6 +325,7 @@ tools:
   revisions:
   - 276b4111b253
   - 8250ea3a1501
+  - 9570563fb686
   - a535cf1e5da4
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -358,6 +359,7 @@ tools:
 - name: umi_tools_extract
   owner: iuc
   revisions:
+  - 015cf18f4a15
   - 6a675c3aa610
   - 9fa7803d1c51
   - f3759eec3018
@@ -366,18 +368,21 @@ tools:
 - name: umi_tools_whitelist
   owner: iuc
   revisions:
+  - 4c8a1c7d3608
   - 953b4821b183
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: umi_tools_dedup
   owner: iuc
   revisions:
+  - 04e09969d376
   - f1d33e4c7bd8
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: umi_tools_group
   owner: iuc
   revisions:
+  - 257be15474a7
   - d6255614afd7
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ

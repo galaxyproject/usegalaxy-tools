@@ -24,6 +24,7 @@ tools:
   - 268d162b9c49
   - 5b80f544c67f
   - 5c7b70713fb5
+  - 6322be79bd8e
   - 74aebe30fb52
   - 9473cd297a76
   - cfcf33df7fc0
@@ -253,6 +254,7 @@ tools:
   owner: iuc
   revisions:
   - 09f5c6f3088a
+  - 43fffeed243f
   - 93c4b04a0769
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling

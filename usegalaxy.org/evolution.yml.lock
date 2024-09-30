@@ -34,6 +34,7 @@ tools:
 - name: tn93
   owner: iuc
   revisions:
+  - 2fd21f5b16bc
   - 9d793e88e15f
   - b38f620a3628
   - ccebde0e2d61
@@ -42,6 +43,7 @@ tools:
 - name: tn93_filter
   owner: iuc
   revisions:
+  - 1aa73004ba9b
   - ba95715078c9
   - cf50aeb956f2
   tool_panel_section_id: evolution
@@ -51,6 +53,7 @@ tools:
   revisions:
   - 112d80c9ccca
   - af03f3398f03
+  - eb6f0ec5b95e
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: tn93_readreduce
@@ -59,6 +62,7 @@ tools:
   - 1d2ec0b0a0a7
   - 84849140a3bc
   - bdaadfd0c843
+  - c176164dc8a5
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: tasmanian_mismatch
