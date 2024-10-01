@@ -558,6 +558,7 @@ tools:
 - name: recentrifuge
   owner: iuc
   revisions:
+  - 591175c0f051
   - 76bf12b928f4
   - d4fbfd31696c
   tool_panel_section_id: metagenomic_analysis

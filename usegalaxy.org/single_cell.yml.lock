@@ -501,12 +501,14 @@ tools:
 - name: sinto_barcode
   owner: iuc
   revisions:
+  - d0f56ac6bb60
   - d1b34ac42b8f
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: sinto_fragments
   owner: iuc
   revisions:
+  - 03a04f48b922
   - 29e6bfb2cf49
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell

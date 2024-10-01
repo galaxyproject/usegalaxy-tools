@@ -436,6 +436,7 @@ tools:
 - name: tximport
   owner: iuc
   revisions:
+  - 0bcc35b10569
   - 1906cb429215
   - 206a71a69161
   tool_panel_section_id: rna_seq
