@@ -180,6 +180,7 @@ tools:
   owner: iuc
   revisions:
   - 0f710191a66d
+  - 3c5e024a18cf
   - 3c97c841a443
   - f99dd58de04f
   tool_panel_section_id: rna_seq
@@ -534,5 +535,6 @@ tools:
   - 05f8e9d1e8b8
   - 3198f52bffaa
   - 928a52b5c938
+  - d3b0390f325f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq

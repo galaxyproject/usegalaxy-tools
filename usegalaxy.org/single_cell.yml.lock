@@ -8,6 +8,7 @@ tools:
   revisions:
   - 0185bd174ea0
   - 1072ce66b426
+  - 40812a65a78b
   - 6adf98e782f3
   - 6f5349dd5c49
   - 70fa84e99463
@@ -23,6 +24,7 @@ tools:
   owner: iuc
   revisions:
   - 3081ff5c84a3
+  - 4338bf96809e
   - 5c3ebe2adc77
   - 6bd82ed14acd
   - 6c145a6868cc
@@ -49,11 +51,13 @@ tools:
   - b409c2486353
   - d636ce5cde16
   - f87ed6503715
+  - fc0321c000a3
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalize
   owner: iuc
   revisions:
+  - 146ae5d70b47
   - 51d945eab1e1
   - 5342ce58cd1e
   - 56c0d4acef02
@@ -79,6 +83,7 @@ tools:
   - 6f83f8fd381f
   - aaa5da8e73a9
   - b2df381a6004
+  - cb43c5d3acd3
   - edec35114f72
   - f9353ee6a0d4
   tool_panel_section_id: single_cell
@@ -97,6 +102,7 @@ tools:
   - c65fce500915
   - d18e7a6e5cd4
   - e66884b1c1a5
+  - fe8f16c594ec
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_export

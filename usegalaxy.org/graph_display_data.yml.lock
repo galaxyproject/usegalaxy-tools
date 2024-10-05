@@ -271,6 +271,7 @@ tools:
 - name: pe_histogram
   owner: iuc
   revisions:
+  - 594b85e4237a
   - bd1416eea1f0
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
@@ -324,6 +325,7 @@ tools:
   owner: fubar
   revisions:
   - 0e592dcaeb7f
+  - 137e08517410
   - 2fff478aca4b
   - 4aec47f872b3
   - 56f9a6e0fe80
