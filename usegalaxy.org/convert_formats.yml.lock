@@ -61,6 +61,7 @@ tools:
   revisions:
   - 2dcfbbf9071a
   - 68f57cc8fad0
+  - 78fb18899c99
   - b8cdc0507586
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -70,11 +71,13 @@ tools:
   - 297962e79f39
   - 4844c1810c16
   - a64c24430f5e
+  - ac3fed111eb6
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: fastq_to_tabular
   owner: devteam
   revisions:
+  - 43807a65369f
   - 4b347702c4aa
   - 614a63f14adf
   - ccf4e1d1fcbe

@@ -94,3 +94,5 @@ tools:
   owner: iuc
 - name: refseq_masher
   owner: nml
+- name: nextdenovo
+  owner: bgruening

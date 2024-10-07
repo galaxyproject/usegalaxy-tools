@@ -444,3 +444,9 @@ tools:
   - 1ec42f033bb4
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: nextdenovo
+  owner: bgruening
+  revisions:
+  - 733eab97b979
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly

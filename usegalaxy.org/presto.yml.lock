@@ -17,6 +17,7 @@ tools:
   revisions:
   - 097b44ff88db
   - 967b96c6005a
+  - aa3554e51549
   - ef917c03493c
   - faba8f53524e
   tool_panel_section_id: presto
@@ -25,6 +26,7 @@ tools:
   owner: iuc
   revisions:
   - 0b103d43a2c7
+  - 1f3ae16f3655
   - 620f3b0a1430
   - 824d24bfe8dd
   tool_panel_section_id: presto
@@ -33,6 +35,7 @@ tools:
   owner: iuc
   revisions:
   - 488cd05be723
+  - 7f93403bc705
   - fc1fd003bc80
   - fd8f1ac582bd
   tool_panel_section_id: presto
@@ -43,6 +46,7 @@ tools:
   - 1ed5b0772f98
   - 4049467b8bb8
   - 90315cb06d06
+  - de864d852bce
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_pairseq
@@ -50,6 +54,7 @@ tools:
   revisions:
   - 49e7407445c3
   - 7bdff30820bf
+  - eed465eb14a3
   - f47efbc66fad
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
@@ -59,6 +64,7 @@ tools:
   - 14e648d05cce
   - 36ad790eda96
   - 98b0b4c22e69
+  - df0797c61790
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_filterseq
@@ -66,6 +72,7 @@ tools:
   revisions:
   - 196b83ac37f2
   - 33a09d40751f
+  - 4a4e086f6e38
   - 7b102129b1e8
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
@@ -73,6 +80,7 @@ tools:
   owner: iuc
   revisions:
   - 3364fd7073ca
+  - 852e7ca7f7de
   - c60bd515e46d
   - d1a1b738c119
   tool_panel_section_id: presto
@@ -83,6 +91,7 @@ tools:
   - 1844a3d2c887
   - 5b059629cce0
   - 7c7df98db5a9
+  - ef31bdd0c9ed
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_assemblepairs
@@ -91,6 +100,7 @@ tools:
   - 0af48f0b7eb8
   - 44c980933450
   - 540fcbdac82e
+  - af855eb44091
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_alignsets
@@ -98,6 +108,7 @@ tools:
   revisions:
   - 0b4bd722367d
   - 40102188d44e
+  - b401018e0614
   - fa4cf8d895f4
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO

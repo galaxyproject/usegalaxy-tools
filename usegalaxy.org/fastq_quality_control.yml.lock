@@ -43,6 +43,7 @@ tools:
   - b1cea1b2fcd0
   - e2cf940128d5
   - f0e7deab6518
+  - f86c27295151
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastx_quality_statistics
