@@ -96,3 +96,17 @@ tools:
   owner: nml
 - name: nextdenovo
   owner: bgruening
+- name: meryl_arithmetic_kmers
+  owner: iuc
+- name: meryl_count_kmers
+  owner: iuc
+- name: meryl_filter_kmers
+  owner: iuc
+- name: meryl_groups_kmers
+  owner: iuc
+- name: meryl_histogram_kmers
+  owner: iuc
+- name: meryl_print
+  owner: iuc
+- name: meryl_trio_mode
+  owner: iuc
