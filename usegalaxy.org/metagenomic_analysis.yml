@@ -138,3 +138,11 @@ tools:
   owner: iuc
 - name: krakentools_combine_kreports
   owner: iuc
+- name: phyloseq_from_dada2
+  owner: iuc
+- name: phyloseq_from_biom
+  owner: iuc
+- name: phyloseq_plot_ordination
+  owner: iuc
+- name: phyloseq_plot_richness
+  owner: iuc
