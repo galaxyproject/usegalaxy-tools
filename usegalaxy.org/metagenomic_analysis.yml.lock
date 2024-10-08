@@ -1,4 +1,4 @@
-install_repository_dependencies: true
+install_repository_dependencies: false
 install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Metagenomic Analysis
@@ -600,5 +600,29 @@ tools:
   revisions:
   - 073c867c5244
   - 4960abe31b4d
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: phyloseq_from_dada2
+  owner: iuc
+  revisions:
+  - 87064cb77a52
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: phyloseq_from_biom
+  owner: iuc
+  revisions:
+  - c0101c72b8af
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: phyloseq_plot_ordination
+  owner: iuc
+  revisions:
+  - dfe800a3faaf
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: phyloseq_plot_richness
+  owner: iuc
+  revisions:
+  - fb7c4bbe8994
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
