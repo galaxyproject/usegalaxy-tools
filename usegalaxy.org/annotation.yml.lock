@@ -529,3 +529,9 @@ tools:
   - 4a7f4b0cc0a3
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: agat
+  owner: bgruening
+  revisions:
+  - e7449b2c14bf
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
