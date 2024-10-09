@@ -9,6 +9,7 @@ tools:
   - 3cdb96f2855d
   - 49f8eae39606
   - c228e49365c4
+  - ed1ef564da41
   tool_panel_section_id: sequence_contamination_filtering
   tool_panel_section_label: Sequence Contamination Filtering
 - name: ncbi_fcs_adaptor
