@@ -188,6 +188,7 @@ tools:
 - name: cuffmerge
   owner: devteam
   revisions:
+  - 22cf48ad7b16
   - 6a6717a5f421
   - 86285ddd4512
   - cf747d1bd79a

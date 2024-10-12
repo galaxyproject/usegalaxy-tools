@@ -18,6 +18,7 @@ tools:
 - name: cuffcompare
   owner: devteam
   revisions:
+  - ad5d061fbdf2
   - e66b9b5b8580
   - f648e5180e40
   tool_panel_section_id: rna_analysis__deprecated_
@@ -25,6 +26,7 @@ tools:
 - name: cufflinks
   owner: devteam
   revisions:
+  - 6926716bbfb5
   - d080005cffe1
   - e04dbae2abe0
   tool_panel_section_id: rna_analysis__deprecated_
@@ -34,11 +36,13 @@ tools:
   revisions:
   - 679d93c99757
   - 6dc45faebc1d
+  - 93148c05136f
   tool_panel_section_id: rna_analysis__deprecated_
   tool_panel_section_label: RNA Analysis (deprecated)
 - name: cuffnorm
   owner: devteam
   revisions:
+  - 28b94cfbfdb9
   - 9a854107dbb2
   - f5b2ee725d34
   tool_panel_section_id: rna_analysis__deprecated_
@@ -46,6 +50,7 @@ tools:
 - name: cuffmerge
   owner: devteam
   revisions:
+  - 22cf48ad7b16
   - 6a6717a5f421
   - 86285ddd4512
   - cf747d1bd79a
@@ -55,6 +60,7 @@ tools:
   owner: devteam
   revisions:
   - 43221aef70e2
+  - a85acc5199c7
   - af3e173cad7f
   - d3ae7d9c2202
   tool_panel_section_id: rna_analysis__deprecated_

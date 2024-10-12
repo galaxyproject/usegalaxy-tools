@@ -201,6 +201,7 @@ tools:
   revisions:
   - 3a8a37414e56
   - 7c72d5c7e449
+  - 908c494fa84e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: progressivemauve
@@ -359,6 +360,7 @@ tools:
 - name: freyja_demix
   owner: iuc
   revisions:
+  - 53b22b7dff19
   - c0a0e79d7196
   - fc6252e78d5b
   tool_panel_section_id: annotation
@@ -368,6 +370,7 @@ tools:
   revisions:
   - 0ceb9fb0f4ce
   - 1f89eeba299a
+  - 948903a8555d
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: cooc_mutbamscan
