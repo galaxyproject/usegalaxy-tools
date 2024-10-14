@@ -199,6 +199,7 @@ tools:
 - name: ncbi_egapx
   owner: richard-burhans
   revisions:
+  - 28ab345ebab3
   - 3a8a37414e56
   - 7c72d5c7e449
   - 908c494fa84e
