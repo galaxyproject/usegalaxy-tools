@@ -373,12 +373,6 @@ tools:
   - 24e471d13fe9
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
-- name: velvet
-  owner: devteam
-  revisions:
-  - 920677cd220f
-  tool_panel_section_id: assembly
-  tool_panel_section_label: Assembly
 - name: aegean_parseval
   owner: iuc
   revisions:

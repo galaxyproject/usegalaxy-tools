@@ -74,8 +74,6 @@ tools:
   owner: iuc
 - name: smudgeplot
   owner: galaxy-australia
-- name: velvet
-  owner: devteam
 - name: aegean_parseval
   owner: iuc
 - name: mitohifi
