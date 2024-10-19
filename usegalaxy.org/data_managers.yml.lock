@@ -104,6 +104,7 @@ tools:
   - 13851aefa67a
   - 1e34d2e3d285
   - 539b008cfe1c
+  - 90b4d4f0a3a4
   - e4b4837f06f5
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
