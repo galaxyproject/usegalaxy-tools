@@ -146,3 +146,5 @@ tools:
   owner: iuc
 - name: phyloseq_plot_richness
   owner: iuc
+- name: gtdbtk_classify_wf
+  owner: iuc

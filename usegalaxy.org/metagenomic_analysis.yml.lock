@@ -627,3 +627,9 @@ tools:
   - fb7c4bbe8994
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: gtdbtk_classify_wf
+  owner: iuc
+  revisions:
+  - 4d9445dff47b
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
