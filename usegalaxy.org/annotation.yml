@@ -52,6 +52,8 @@ tools:
   owner: iuc
 - name: ncbi_egapx
   owner: richard-burhans
+- name: optitype
+  owner: iuc
 - name: progressivemauve
   owner: iuc
 - name: roary
