@@ -40,3 +40,11 @@ tools:
   owner: galaxyp
 - name: validate_fasta_database
   owner: galaxyp
+- name: pepquery
+  owner: galaxyp
+- name: pepquery2
+  owner: galaxyp
+- name: pepquery2_show_sets
+  owner: galaxyp
+- name: pepquery2_index
+  owner: galaxyp

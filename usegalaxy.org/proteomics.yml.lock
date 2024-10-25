@@ -156,3 +156,27 @@ tools:
   - 9c246c2e24ad
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
+- name: pepquery
+  owner: galaxyp
+  revisions:
+  - 962599ac5406
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: pepquery2
+  owner: galaxyp
+  revisions:
+  - c32806a80862
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: pepquery2_show_sets
+  owner: galaxyp
+  revisions:
+  - d39a43a076fc
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: pepquery2_index
+  owner: galaxyp
+  revisions:
+  - c56ca72c129e
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
