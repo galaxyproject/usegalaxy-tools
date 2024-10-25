@@ -16,3 +16,5 @@ tools:
   owner: galaxyp
 - name: ega_download_client
   owner: iuc
+- name: iedb_api
+  owner: iuc

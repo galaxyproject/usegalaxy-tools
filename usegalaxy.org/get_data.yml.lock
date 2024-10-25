@@ -88,3 +88,9 @@ tools:
   - f9db47f68e5e
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
+- name: iedb_api
+  owner: iuc
+  revisions:
+  - 7ed6dda64a81
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
