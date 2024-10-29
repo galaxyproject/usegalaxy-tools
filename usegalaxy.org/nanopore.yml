@@ -42,3 +42,5 @@ tools:
   owner: bgruening
 - name: pycoqc
   owner: iuc
+- name: clair3
+  owner: iuc

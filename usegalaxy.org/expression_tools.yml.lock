@@ -24,3 +24,9 @@ tools:
   - b19e21af9c52
   tool_panel_section_id: expression_tools
   tool_panel_section_label: Expression Tools
+- name: calculate_numeric_param
+  owner: iuc
+  revisions:
+  - 0e586762f97b
+  tool_panel_section_id: expression_tools
+  tool_panel_section_label: Expression Tools

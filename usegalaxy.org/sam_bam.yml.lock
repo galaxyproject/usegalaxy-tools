@@ -340,3 +340,9 @@ tools:
   - 5854d0da92b4
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
+- name: samtools_coverage
+  owner: iuc
+  revisions:
+  - c4ff13d2aab3
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM

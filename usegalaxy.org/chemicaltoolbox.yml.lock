@@ -55,12 +55,14 @@ tools:
   owner: bgruening
   revisions:
   - 67ee76f0e497
+  - bbbf5fb356dd
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: ctb_rdkit_descriptors
   owner: bgruening
   revisions:
   - 0993ac4f4a23
+  - a1c53f0533b0
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
 - name: openbabel_compound_convert
@@ -81,6 +83,7 @@ tools:
   owner: chemteam
   revisions:
   - 070e3ecc3fda
+  - 1d4dd4f908d4
   - 2c349b027a01
   - 4da9ee404eab
   - a66c193fafdb
@@ -148,6 +151,7 @@ tools:
   - 04abdf96978b
   - 319a28774da9
   - 534ff13ea227
+  - 9389cd867cf2
   - bc31d02be922
   - d1d0efda35c0
   tool_panel_section_id: chemicaltoolbox

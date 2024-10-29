@@ -136,3 +136,7 @@ tools:
   owner: iuc
 - name: agat
   owner: bgruening
+- name: helixer
+  owner: genouest
+- name: omark
+  owner: iuc
