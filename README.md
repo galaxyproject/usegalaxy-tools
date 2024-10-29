@@ -76,7 +76,7 @@ Use `make TOOLSET=<toolset_dir> <target>` to limit a make action to a specific t
 
 ```console
 $ make TOOLSET=usegalaxy.org lint
-find ./usegalaxy.org -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/fix-lockfile.py
+find ./usegalaxy.org -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/fix_lockfile.py
 find ./usegalaxy.org -name '*.yml' | grep '^\./[^/]*/' | xargs -n 1 -P 8 -I{} pykwalify -d '{}' -s .schema.yml
  INFO - validation.valid
  INFO - validation.valid
