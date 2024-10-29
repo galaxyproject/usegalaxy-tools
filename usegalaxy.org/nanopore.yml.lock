@@ -152,6 +152,7 @@ tools:
   - 84dcccebad3d
   - b2aae698b9d3
   - d6cddc06aeae
+  - db25ec99c3ea
   - eb1f4ba66dc6
   - fa11aa8103b2
   - fbf007713188
@@ -206,5 +207,11 @@ tools:
   - 3a2f2e24c37e
   - dc1500f42073
   - fae03f3d4bf7
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: clair3
+  owner: iuc
+  revisions:
+  - 3843a30053ee
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore

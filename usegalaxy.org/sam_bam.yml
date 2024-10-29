@@ -80,3 +80,5 @@ tools:
   owner: lldelisle
 - name: mosdepth
   owner: iuc
+- name: samtools_coverage
+  owner: iuc

@@ -15,6 +15,7 @@ tools:
 - name: abricate
   owner: iuc
   revisions:
+  - 3f3e247c053d
   - 4efdca267d51
   - b734db305578
   - c2ef298da409
@@ -550,5 +551,17 @@ tools:
   revisions:
   - d6ede73082da
   - e7449b2c14bf
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: helixer
+  owner: genouest
+  revisions:
+  - c2fc4ac35199
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: omark
+  owner: iuc
+  revisions:
+  - 6f570ba54b41
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

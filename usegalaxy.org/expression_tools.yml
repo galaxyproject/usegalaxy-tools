@@ -1,8 +1,10 @@
 tool_panel_section_label: Expression Tools
 tools:
-  - name: compose_text_param
-    owner: iuc
-  - name: map_param_value
-    owner: iuc
-  - name: pick_value
-    owner: iuc
+- name: compose_text_param
+  owner: iuc
+- name: map_param_value
+  owner: iuc
+- name: pick_value
+  owner: iuc
+- name: calculate_numeric_param
+  owner: iuc

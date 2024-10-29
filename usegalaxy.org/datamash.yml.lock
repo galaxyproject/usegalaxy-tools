@@ -8,6 +8,7 @@ tools:
   revisions:
   - 2f3c6f2dcf39
   - 4c07ddedc198
+  - 562f3c677828
   - 746e8e4bf929
   tool_panel_section_id: datamash
   tool_panel_section_label: Datamash
