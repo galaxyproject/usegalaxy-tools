@@ -55,7 +55,7 @@ def update_file(fn, install_repository_dependencies, install_resolver_dependenci
         new_tool = {
             'name': tool['name'],
             'owner': tool['owner'],
-            'revisions': sorted(list(set(revisions))),  # Cast to list for yaml serialization
+            'revisions': sorted(list(set(map(str, revisions)))),  # Cast to list for yaml serialization
         }
 
         if 'tool_shed_url' in tool:
