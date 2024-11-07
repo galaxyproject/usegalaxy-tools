@@ -74,6 +74,7 @@ tools:
   owner: iuc
   revisions:
   - 1759d845181e
+  - 1b851f87fbe0
   - 38b6d12edc68
   - f3a5f075498f
   - f9d49f5cb597
@@ -82,6 +83,7 @@ tools:
 - name: cufflinks
   owner: devteam
   revisions:
+  - 6926716bbfb5
   - d080005cffe1
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -114,6 +116,7 @@ tools:
   owner: iuc
   revisions:
   - 05f8e9d1e8b8
+  - d3b0390f325f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: seurat

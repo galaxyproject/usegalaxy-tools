@@ -17,6 +17,7 @@ tools:
 - name: fastq_filter
   owner: devteam
   revisions:
+  - '144275714590'
   - 81a9090d6df3
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -24,23 +25,27 @@ tools:
   owner: devteam
   revisions:
   - 47e5dbc3e790
+  - e9f8633db0a2
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_manipulation
   owner: devteam
   revisions:
   - 5b87038565bb
+  - e30352e889fe
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fasta_compute_length
   owner: devteam
   revisions:
+  - 5cbde03c1103
   - 7d37cfda8e00
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_paired_end_deinterlacer
   owner: devteam
   revisions:
+  - 523c2aff0376
   - f3936d0632cb
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -48,6 +53,7 @@ tools:
   owner: devteam
   revisions:
   - 2ccb8dcabddc
+  - b41c2c1bcfbf
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: flash
@@ -67,6 +73,7 @@ tools:
 - name: umi_tools_count
   owner: iuc
   revisions:
+  - 71ad4a56c40c
   - 8250ea3a1501
   - a535cf1e5da4
   - b557acca0b56
@@ -76,6 +83,7 @@ tools:
   owner: iuc
   revisions:
   - 6a675c3aa610
+  - 7a7e33d28f62
   - 99aea37a7ff7
   - f3759eec3018
   tool_panel_section_id: fasta_fastq
@@ -84,6 +92,7 @@ tools:
   owner: peterjc
   revisions:
   - 141612f8c3e3
+  - 85ef5f5a0562
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: length_and_gc_content
