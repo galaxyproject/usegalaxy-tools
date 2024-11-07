@@ -116,3 +116,15 @@ tools:
   - 05f8e9d1e8b8
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
+- name: seurat
+  owner: iuc
+  revisions:
+  - fab6ff46e019
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: dexseq
+  owner: iuc
+  revisions:
+  - 9a7c5b6d8f1e
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq

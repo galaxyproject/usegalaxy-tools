@@ -13,8 +13,8 @@ tools:
 - name: circos
   owner: iuc
   revisions:
-  - df7356989ac1
   - c4bde687c846
+  - df7356989ac1
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: jbrowse
@@ -27,9 +27,9 @@ tools:
 - name: volcanoplot
   owner: iuc
   revisions:
-  - 83c573f2e73c
-  - 73b8cb5bddcd
   - 2f557f6abbfb
+  - 73b8cb5bddcd
+  - 83c573f2e73c
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: pathview
@@ -42,9 +42,9 @@ tools:
 - name: ggplot2_heatmap2
   owner: iuc
   revisions:
-  - 53460afd5115
-  - 566197475670
-  - 4955e9bb96d1
   - 374e9062d874
+  - 4955e9bb96d1
+  - 53460afd5115
+  - '566197475670'
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data

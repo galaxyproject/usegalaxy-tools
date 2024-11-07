@@ -412,5 +412,5 @@ tools:
   owner: iuc
   revisions:
   - 3df3d1b51110
-  tool_panel_section_label: single_cell
+  tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell

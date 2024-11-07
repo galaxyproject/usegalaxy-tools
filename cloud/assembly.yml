@@ -10,3 +10,5 @@ tools:
   owner: bgruening
 - name: gfastats
   owner: bgruening
+- name: quast
+  owner: iuc

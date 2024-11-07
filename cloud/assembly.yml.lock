@@ -36,3 +36,9 @@ tools:
   - 3ef480892a9f
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: quast
+  owner: iuc
+  revisions:
+  - 72472698a2df
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
