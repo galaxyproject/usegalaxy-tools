@@ -6,6 +6,6 @@ tools:
 - name: chatanalysis
   owner: goeckslab
   revisions:
-  - be4bfd3e9342
+  - 7b33a7a006c7
   tool_panel_section_id: chat_with_your_data
   tool_panel_section_label: Chat with Your Data
