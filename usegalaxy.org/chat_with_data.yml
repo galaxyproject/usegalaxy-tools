@@ -1,4 +1,4 @@
-tool_panel_section_label: Chat with Your Data
+tool_panel_section_label: Interactive Tools
 tools:
 - name: chatanalysis
   owner: goeckslab

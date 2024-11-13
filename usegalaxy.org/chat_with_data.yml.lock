@@ -7,5 +7,5 @@ tools:
   owner: goeckslab
   revisions:
   - 7b33a7a006c7
-  tool_panel_section_id: chat_with_your_data
-  tool_panel_section_label: Chat with Your Data
+  tool_panel_section_id: interactive_tools
+  tool_panel_section_label: Interactive Tools
