@@ -21,6 +21,7 @@ tools:
   - 65b93b623c77
   - d60c3f704da0
   - dbf9c561ef29
+  - dbfc505896e9
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastqc
@@ -35,6 +36,7 @@ tools:
 - name: trimmomatic
   owner: pjbriggs
   revisions:
+  - b9aaed85cbd1
   - d94aff5ee623
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control

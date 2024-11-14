@@ -327,6 +327,7 @@ tools:
   owner: devteam
   revisions:
   - dd44c3f416c3
+  - ee60203e68d9
   - f0580efedada
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
@@ -351,6 +352,7 @@ tools:
 - name: vcffilter
   owner: devteam
   revisions:
+  - 4bdc111b2470
   - fa24bf0598f4
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF

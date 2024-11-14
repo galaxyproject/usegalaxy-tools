@@ -15,6 +15,7 @@ tools:
   revisions:
   - 4805fe3d8fda
   - 65432c3abf6c
+  - b11e8e9c23bf
   - e1461b5c52a0
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -48,6 +49,7 @@ tools:
   owner: devteam
   revisions:
   - 156b60c1530f
+  - 3e954e7125bf
   - a5937157062f
   - ef2c525bd8cd
   tool_panel_section_id: variant_calling
@@ -71,6 +73,7 @@ tools:
   - 68693743661e
   - 74aebe30fb52
   - 9473cd297a76
+  - ca2b512e8d7c
   - cfcf33df7fc0
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -84,6 +87,7 @@ tools:
 - name: sniffles
   owner: iuc
   revisions:
+  - 43fffeed243f
   - 93c4b04a0769
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -91,5 +95,16 @@ tools:
   owner: iuc
   revisions:
   - 2b62154e39c8
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: snpeff
+  owner: iuc
+  revisions:
+  - 5b80f544c67f
+  - 68693743661e
+  - 74aebe30fb52
+  - 9473cd297a76
+  - ca2b512e8d7c
+  - cfcf33df7fc0
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling

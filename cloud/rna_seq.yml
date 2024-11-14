@@ -32,3 +32,7 @@ tools:
   owner: iuc
 - name: brew3r_r
   owner: iuc
+- name: seurat
+  owner: iuc
+- name: dexseq
+  owner: iuc
