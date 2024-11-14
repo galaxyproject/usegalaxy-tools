@@ -148,3 +148,25 @@ tools:
   owner: iuc
 - name: gtdbtk_classify_wf
   owner: iuc
+- name: das_tool
+  owner: iuc
+- name: checkm_analyze
+  owner: iuc
+- name: checkm_lineage_wf
+  owner: iuc
+- name: checkm_lineage_set
+  owner: iuc
+- name: checkm_plot
+  owner: iuc
+- name: checkm_qa
+  owner: iuc
+- name: checkm_taxonomy_wf
+  owner: iuc
+- name: checkm_taxon_set
+  owner: iuc
+- name: checkm_tetra
+  owner: iuc
+- name: checkm_tree
+  owner: iuc
+- name: checkm_tree_qa
+  owner: iuc
