@@ -205,6 +205,7 @@ tools:
   - 7c72d5c7e449
   - 7fa335454224
   - 908c494fa84e
+  - 9ec3ffd77b6b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: optitype
