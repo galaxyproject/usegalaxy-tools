@@ -170,3 +170,9 @@ tools:
   owner: iuc
 - name: checkm_tree_qa
   owner: iuc
+- name: ampvis2_load
+  owner: iuc
+- name: mapseq
+  owner: iuc
+- name: mgnify_seqprep
+  owner: bgruening

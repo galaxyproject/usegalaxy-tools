@@ -1,0 +1,6 @@
+tool_panel_section_label: RNA Analysis
+tools:
+- name: cmsearch_deoverlap
+  owner: rnateam
+- name: infernal
+  owner: bgruening

@@ -699,3 +699,23 @@ tools:
   - 36ea6d5441c3
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: ampvis2_load
+  owner: iuc
+  revisions:
+  - 3481feabc54e
+  - 738474880da8
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: mapseq
+  owner: iuc
+  revisions:
+  - 30e275ed0442
+  - f1d1dafc836d
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: mgnify_seqprep
+  owner: bgruening
+  revisions:
+  - 76ea9d4604bc
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
