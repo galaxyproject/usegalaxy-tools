@@ -105,6 +105,7 @@ tools:
   - a39040ae0a38
   - bf2017df9837
   - c2ef03559dc6
+  - c5541bfb8feb
   - c65fce500915
   - d18e7a6e5cd4
   - e66884b1c1a5
@@ -116,6 +117,7 @@ tools:
   revisions:
   - 0cb889db0910
   - 32c5c85cbc12
+  - 7a6655aa6eb2
   - c0b037b12765
   - c5ac926c838f
   - cfaf5a405371
@@ -127,6 +129,7 @@ tools:
   revisions:
   - 00712416fdaa
   - '499059586799'
+  - 6f143dfe902a
   - 93dd15e13e6a
   - ae1e5d9d8972
   - cfc3f5a57dc6
@@ -139,6 +142,7 @@ tools:
   revisions:
   - 038e32885fec
   - 0bf7fddf90c7
+  - 14c576ea6148
   - 383dcb0500f9
   - 39e945f0b2c1
   - 6f0d0c784f09
@@ -152,6 +156,7 @@ tools:
   - 43cb7b5a6fe7
   - 7e8c677a7b71
   - 8db95f488f0f
+  - c4209ea387d4
   - ed4996a16f7f
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -162,6 +167,7 @@ tools:
   - 4b0adaa31c95
   - 59be31ac9dc3
   - 7784821452ac
+  - db575b4c8b22
   - e98619de2776
   - eeab712b0b99
   tool_panel_section_id: single_cell
@@ -179,6 +185,7 @@ tools:
   owner: iuc
   revisions:
   - 0bff0ee0683a
+  - 49776718ae90
   - 7e014059a88d
   - a4b734cd253b
   - c4f39bf4a068
@@ -189,6 +196,7 @@ tools:
   revisions:
   - 43c146e25a43
   - 7608d5faee41
+  - 8b917923f7d4
   - b83fbc90161e
   - d45f092caf24
   tool_panel_section_id: single_cell
@@ -199,6 +207,7 @@ tools:
   - 37a47c4fd84d
   - 41f34e925bd5
   - be4646256624
+  - c7ddb719554d
   - f3eb2291da05
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -207,6 +216,7 @@ tools:
   revisions:
   - 3478133d0f6f
   - 69018f285aa3
+  - 6e90c8adf84f
   - a6821f856a1e
   - c8434a623268
   tool_panel_section_id: single_cell
@@ -215,6 +225,7 @@ tools:
   owner: iuc
   revisions:
   - 2af7c5086a96
+  - 2bfd55b87af3
   - 44b935f2271b
   - 72979cac22b2
   - e93b008c637a
@@ -414,6 +425,7 @@ tools:
   owner: bgruening
   revisions:
   - 04b494623f8e
+  - b0fe3e482cb7
   - c9944a2600f1
   - e32b215b7c04
   - e4c01dcece8b
@@ -469,6 +481,7 @@ tools:
   revisions:
   - 282819d09a4f
   - 2cfd0db49bbc
+  - 48f0fb3061b1
   - 7ffaa0968da3
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -477,12 +490,14 @@ tools:
   revisions:
   - 7705cc75ac18
   - 8c64a2da3869
+  - fde4c972e7c5
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_manipulate_eset
   owner: bgruening
   revisions:
   - 22232092be53
+  - b5185a4f5209
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_deconvolution
@@ -490,12 +505,14 @@ tools:
   revisions:
   - 2ba99a52bd44
   - 56371b5a2da9
+  - 8cd2ecfa2e61
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_compare
   owner: bgruening
   revisions:
   - 4447ed460308
+  - d817b3807562
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: episcanpy_build_matrix
@@ -515,6 +532,7 @@ tools:
   revisions:
   - d0f56ac6bb60
   - d1b34ac42b8f
+  - fb61eb03e313
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: sinto_fragments
@@ -522,6 +540,7 @@ tools:
   revisions:
   - 03a04f48b922
   - 29e6bfb2cf49
+  - 6f66f523a9b7
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: baredsc_1d
@@ -577,6 +596,7 @@ tools:
   owner: artbio
   revisions:
   - 6864acb21714
+  - cc768b0f41cf
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: snapatac2_clustering
@@ -586,12 +606,14 @@ tools:
   - 8f8bef61fd0b
   - 94ae400dde2f
   - afb90d3485df
+  - d3ea0ba3d066
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: snapatac2_peaks_and_motif
   owner: iuc
   revisions:
   - 588c811fdd48
+  - 64fa083411f1
   - 88192fe25375
   - b9013e0e2b00
   - f9647da40db3
@@ -600,6 +622,7 @@ tools:
 - name: snapatac2_plotting
   owner: iuc
   revisions:
+  - 05bd4db20227
   - 370d45e0d1a8
   - c01f0a08ab43
   - fbf62973e556
@@ -611,6 +634,7 @@ tools:
   revisions:
   - 48d9421bf176
   - 4ecdea4cbea1
+  - c5c94e01a1b5
   - cec3e76eaf05
   - fef8f61cb34c
   tool_panel_section_id: single_cell

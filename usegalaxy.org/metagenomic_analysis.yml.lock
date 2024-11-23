@@ -450,6 +450,7 @@ tools:
 - name: krakentools_kreport2krona
   owner: iuc
   revisions:
+  - 02bbace216f2
   - 2deaada69b14
   - 88d274322340
   tool_panel_section_id: metagenomic_analysis
@@ -575,6 +576,7 @@ tools:
 - name: krakentools_extract_kraken_reads
   owner: iuc
   revisions:
+  - 4bf1e2701504
   - f329328da134
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -582,17 +584,20 @@ tools:
   owner: iuc
   revisions:
   - bb96a1e6583d
+  - d33cf727ed94
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: krakentools_beta_diversity
   owner: iuc
   revisions:
+  - 4505d7643673
   - c254d75b8b67
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: krakentools_alpha_diversity
   owner: iuc
   revisions:
+  - 78b69342c280
   - bab112ba9d62
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -600,6 +605,7 @@ tools:
   owner: iuc
   revisions:
   - 073c867c5244
+  - 3d2cffa2c4ab
   - 4960abe31b4d
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis

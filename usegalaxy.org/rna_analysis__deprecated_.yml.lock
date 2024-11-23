@@ -50,6 +50,7 @@ tools:
 - name: cuffmerge
   owner: devteam
   revisions:
+  - 04adc9db1581
   - 22cf48ad7b16
   - 6a6717a5f421
   - 86285ddd4512

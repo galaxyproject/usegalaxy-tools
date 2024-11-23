@@ -66,6 +66,7 @@ tools:
   - 94170eee0ad8
   - cf13a1e03e5b
   - e4bd1e99bacf
+  - e5c372c91e46
   - ea8146ee148f
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -206,6 +207,7 @@ tools:
   - 7fa335454224
   - 908c494fa84e
   - 9ec3ffd77b6b
+  - e0de8669b340
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: optitype
@@ -269,6 +271,7 @@ tools:
   - 4839e590cb26
   - 51dd22484644
   - 809dfc93d593
+  - 8cb134b8c1a5
   - ac8250086ac3
   - ba6f87115e13
   - c2656b729ee9
@@ -378,6 +381,7 @@ tools:
   revisions:
   - 53b22b7dff19
   - c0a0e79d7196
+  - c5f2ce99da69
   - fc6252e78d5b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -386,6 +390,7 @@ tools:
   revisions:
   - 0ceb9fb0f4ce
   - 1f89eeba299a
+  - 54acd5139cab
   - 948903a8555d
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
