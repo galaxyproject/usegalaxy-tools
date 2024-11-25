@@ -13,6 +13,7 @@ tools:
   owner: bgruening
   revisions:
   - 1d74ed49cf41
+  - 3711f654044e
   - c9e29ac5d099
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis

@@ -6,6 +6,7 @@ tools:
 - name: blobtoolkit
   owner: bgruening
   revisions:
+  - '392811378515'
   - 53dd00a4ab68
   - 8c2167481e72
   tool_panel_section_id: assembly
@@ -32,6 +33,7 @@ tools:
   - 72472698a2df
   - 7594365c546b
   - 875d0f36d66f
+  - a3b35edea53a
   - ebb0dcdb621a
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -239,6 +241,7 @@ tools:
   - 284a1cb82b61
   - 366a11d316a7
   - 3f7be05a1597
+  - 5161f204ba63
   - 5bec28269d95
   - 5f625c63b8bc
   - 6505bd37670d
@@ -323,6 +326,7 @@ tools:
   - 511e5e3cd55e
   - 79b48f02db49
   - 8fef980d48b5
+  - c6cec5ab35c1
   - dfb8a4497339
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -330,6 +334,7 @@ tools:
   owner: iuc
   revisions:
   - 0a10fddd97d2
+  - 26f2fe7e53a1
   - 44c66e8d21e6
   - 6c571966cfb9
   - 7c9417381ad5
@@ -355,6 +360,7 @@ tools:
   - 6ec1b853c8fd
   - 8ccbf07a5433
   - ad1149b4f795
+  - f4a3eff8ab85
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: yahs
