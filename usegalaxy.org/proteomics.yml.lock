@@ -180,3 +180,15 @@ tools:
   - c56ca72c129e
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
+- name: msstatstmt
+  owner: galaxyp
+  revisions:
+  - bd1535813cfe
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
+- name: metanovo
+  owner: galaxyp
+  revisions:
+  - d6dcd3173bdf
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics

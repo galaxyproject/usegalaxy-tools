@@ -639,3 +639,9 @@ tools:
   - fef8f61cb34c
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
+- name: decoupler_pseudobulk
+  owner: ebi-gxa
+  revisions:
+  - ef054892d47f
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell

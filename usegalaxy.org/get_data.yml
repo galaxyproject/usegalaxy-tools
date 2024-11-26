@@ -18,3 +18,7 @@ tools:
   owner: iuc
 - name: iedb_api
   owner: iuc
+- name: dbbuilder
+  owner: galaxyp
+- name: uniprotxml_downloader
+  owner: galaxyp
