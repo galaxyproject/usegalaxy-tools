@@ -119,6 +119,7 @@ tools:
   - 3d63a762954a
   - 4b9ab71be05e
   - 512c2b701d96
+  - 75a1b3f7bacc
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_export_samplemetadata
