@@ -94,3 +94,15 @@ tools:
   - 7ed6dda64a81
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
+- name: dbbuilder
+  owner: galaxyp
+  revisions:
+  - 983bf725dfc2
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+- name: uniprotxml_downloader
+  owner: galaxyp
+  revisions:
+  - a371252a2cf6
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
