@@ -494,3 +494,9 @@ tools:
   - 47e9001da01b
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: halfdeep
+  owner: iuc
+  revisions:
+  - 607d5e33c4c2
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
