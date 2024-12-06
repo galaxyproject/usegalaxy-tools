@@ -108,3 +108,5 @@ tools:
   owner: iuc
 - name: meryl_trio_mode
   owner: iuc
+- name: halfdeep
+  owner: iuc
