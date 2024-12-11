@@ -3,6 +3,18 @@ install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Machine Learning
 tools:
+- name: pycaret_compare
+  owner: goeckslab
+  revisions:
+  - 915447b14520
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: pycaret_predict
+  owner: goeckslab
+  revisions:
+  - 1f20fe57fdee
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
 - name: model_prediction
   owner: bgruening
   revisions:
