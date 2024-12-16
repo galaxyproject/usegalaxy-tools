@@ -8,12 +8,14 @@ tools:
   revisions:
   - 915447b14520
   - f6def1b90150
+  - 009b18a75dc3
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: pycaret_predict
   owner: goeckslab
   revisions:
   - 1f20fe57fdee
+  - 4a7df9abe4c4
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: model_prediction
