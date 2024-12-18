@@ -1,5 +1,9 @@
 tool_panel_section_label: Machine Learning
 tools:
+- name: pycaret_compare
+  owner: goeckslab
+- name: pycaret_predict
+  owner: goeckslab
 - name: model_prediction
   owner: bgruening
 - name: keras_model_config
