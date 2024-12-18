@@ -1,0 +1,39 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tool_panel_section_label: Spatial Omics
+tools:
+- name: basic_illumination
+  owner: perssond
+  revisions:
+  - 7ee5b6f7533e
+  - acc6f509968c
+  tool_panel_section_id: spatial_omics
+  tool_panel_section_label: Spatial Omics
+- name: ashlar
+  owner: perssond
+  revisions:
+  - 33ab2058c6d9
+  - ef68bc2a4dbc
+  tool_panel_section_id: spatial_omics
+  tool_panel_section_label: Spatial Omics
+- name: coreograph
+  owner: perssond
+  revisions:
+  - ee92746d141a
+  tool_panel_section_id: spatial_omics
+  tool_panel_section_label: Spatial Omics
+- name: mesmer
+  owner: goeckslab
+  revisions:
+  - 187918c47051
+  - 2675ff99a53b
+  tool_panel_section_id: spatial_omics
+  tool_panel_section_label: Spatial Omics
+- name: quantification
+  owner: perssond
+  revisions:
+  - 3a916c4e9f5f
+  - e11d5fafd0cc
+  tool_panel_section_id: spatial_omics
+  tool_panel_section_label: Spatial Omics
