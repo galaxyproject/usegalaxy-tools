@@ -12,8 +12,8 @@ tools:
 - name: mafft
   owner: rnateam
   revisions:
-  - c5908940967d
   - aaefa93c2dd2
+  - c5908940967d
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: clustalw
@@ -25,8 +25,8 @@ tools:
 - name: kc_align
   owner: iuc
   revisions:
-  - 1c65ddbaeefa
   - 04b13fc809ac
   - 0c0288a9d92c
+  - 1c65ddbaeefa
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
