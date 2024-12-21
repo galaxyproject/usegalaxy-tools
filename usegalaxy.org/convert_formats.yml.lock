@@ -277,6 +277,7 @@ tools:
   owner: iuc
   revisions:
   - 3c19c84fbce2
+  - a40dd4fd3096
   - d9965e143053
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
