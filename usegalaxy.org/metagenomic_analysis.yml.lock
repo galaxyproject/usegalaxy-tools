@@ -222,6 +222,7 @@ tools:
   owner: iuc
   revisions:
   - 1c9715cef808
+  - 3a89c3f99f3d
   - 4d89978c6188
   - 5b5a7af9fbb4
   - 63f86089423e
@@ -236,6 +237,7 @@ tools:
   revisions:
   - 04144473e59e
   - 073608a50ac3
+  - 1770d188f72d
   - 1bc3657cd694
   - 5b752525bd6f
   - 7136e9ab70db
@@ -437,6 +439,7 @@ tools:
   owner: nml
   revisions:
   - 2fd4d4c9c5c2
+  - 3548a93b39c1
   - 3b22de20bd4b
   - da787fc8b740
   tool_panel_section_id: metagenomic_analysis
@@ -613,23 +616,27 @@ tools:
   owner: iuc
   revisions:
   - 87064cb77a52
+  - d1c93a32cb25
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: phyloseq_from_biom
   owner: iuc
   revisions:
+  - b6a38f6222af
   - c0101c72b8af
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: phyloseq_plot_ordination
   owner: iuc
   revisions:
+  - 5007bc8a3d90
   - dfe800a3faaf
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: phyloseq_plot_richness
   owner: iuc
   revisions:
+  - '817853857084'
   - fb7c4bbe8994
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis

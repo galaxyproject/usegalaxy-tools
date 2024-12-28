@@ -191,6 +191,7 @@ tools:
 - name: diff
   owner: bgruening
   revisions:
+  - 10ef1bf99074
   - 156d0908e232
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
