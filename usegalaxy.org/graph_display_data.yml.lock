@@ -315,6 +315,7 @@ tools:
   - 2f557f6abbfb
   - 73b8cb5bddcd
   - 83c573f2e73c
+  - 99ace6c1ff57
   - a363ba287b88
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
@@ -329,6 +330,7 @@ tools:
   revisions:
   - 0e592dcaeb7f
   - 137e08517410
+  - 21bb464c1d53
   - 2fff478aca4b
   - 49f3d3878413
   - 4aec47f872b3

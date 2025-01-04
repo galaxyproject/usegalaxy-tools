@@ -25,6 +25,7 @@ tools:
   owner: bgruening
   revisions:
   - 09855551d713
+  - 0fc0f9cf035a
   - 28433faa6e42
   - bd0e53f3a891
   - ca6d970d931c
@@ -35,6 +36,7 @@ tools:
   revisions:
   - 6519ebe25019
   - 7be22100e5e1
+  - aada0deea587
   - dc027fa56d55
   - f1e653756174
   tool_panel_section_id: annotation
@@ -295,6 +297,7 @@ tools:
 - name: tetyper
   owner: iuc
   revisions:
+  - 2b21643ce8d7
   - 36093854bfc7
   - 8bc80c2a15b3
   - edcf603bedfd
