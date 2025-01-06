@@ -404,6 +404,7 @@ tools:
 - name: pairtools_dedup
   owner: iuc
   revisions:
+  - 0bc216235d4c
   - 5412142130ad
   - 55a53b5e308d
   - 56bb29747b4d
@@ -413,6 +414,7 @@ tools:
   owner: iuc
   revisions:
   - 44cb74c154bc
+  - 678f10bb377e
   - b0a1f128fa15
   - d3a7b17714c1
   tool_panel_section_id: assembly
@@ -420,6 +422,7 @@ tools:
 - name: pairtools_sort
   owner: iuc
   revisions:
+  - 50d926b3f13d
   - 8cffb8fc34f0
   - 8ed44487c834
   - fdd073110081
@@ -431,12 +434,14 @@ tools:
   - 060f0fed864e
   - 39df08e91cdf
   - 53d73d58e105
+  - c46d1454f3a1
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pairtools_stats
   owner: iuc
   revisions:
   - 6cbca5661205
+  - 7f71687c8146
   - 81fc1418fbfb
   - c20a07c9237b
   tool_panel_section_id: assembly
@@ -499,5 +504,6 @@ tools:
   owner: iuc
   revisions:
   - 607d5e33c4c2
+  - ab8373ba3830
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
