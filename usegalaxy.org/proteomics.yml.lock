@@ -147,6 +147,7 @@ tools:
   owner: galaxyp
   revisions:
   - da9ebef968bd
+  - e969a182e3cb
   - ef46866326ef
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
