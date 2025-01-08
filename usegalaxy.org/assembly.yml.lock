@@ -507,3 +507,21 @@ tools:
   - ab8373ba3830
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: fastk_fastk
+  owner: iuc
+  revisions:
+  - 34245579d255
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: fastk_histex
+  owner: iuc
+  revisions:
+  - b897c5daf0ce
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: fastk_logex
+  owner: iuc
+  revisions:
+  - 73ddd200456a
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
