@@ -22,3 +22,5 @@ tools:
   owner: galaxyp
 - name: uniprotxml_downloader
   owner: galaxyp
+- name: fastq_dl
+  owner: iuc
