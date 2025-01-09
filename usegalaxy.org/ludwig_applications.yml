@@ -1,14 +1,18 @@
 tool_panel_section_label: Machine Learning
 tools:
-- name: ludwig_evaluate 
-  owner: paulo_lyra_jr
-- name: ludwig_experiment 
-  owner: paulo_lyra_jr
-- name: ludwig_hyperot 
-  owner: paulo_lyra_jr
-- name: ludwig_predict 
-  owner: paulo_lyra_jr
-- name: ludwig_renderconfig 
-  owner: paulo_lyra_jr
-- name: ludwig_train
-  owner: paulo_lyra_jr
+  - name: ludwig_train
+    owner: goeckslab
+  - name: ludwig_hyperopt
+    owner: goeckslab
+  - name: ludwig_visualize
+    owner: goeckslab
+  - name: ludwig_predict
+    owner: goeckslab
+  - name: ludwig_experiment
+    owner: goeckslab
+  - name: ludwig_render_config
+    owner: goeckslab
+  - name: ludwig_evaluate
+    owner: goeckslab
+  - name: ludwig_config_generator
+    owner: goeckslab
