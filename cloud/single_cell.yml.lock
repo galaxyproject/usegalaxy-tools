@@ -7,12 +7,14 @@ tools:
   owner: bgruening
   revisions:
   - 4447ed460308
+  - d817b3807562
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_manipulate_eset
   owner: bgruening
   revisions:
   - 22232092be53
+  - b5185a4f5209
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_inspect_eset
@@ -20,12 +22,14 @@ tools:
   revisions:
   - 2fed32b5aa02
   - 7705cc75ac18
+  - fde4c972e7c5
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_deconvolution
   owner: bgruening
   revisions:
   - 2ba99a52bd44
+  - 8cd2ecfa2e61
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: music_construct_eset
@@ -33,6 +37,7 @@ tools:
   revisions:
   - 282819d09a4f
   - 2cfd0db49bbc
+  - 48f0fb3061b1
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: 10x_bamtofastq
@@ -46,6 +51,7 @@ tools:
   revisions:
   - 55e35e9203cf
   - 93dd15e13e6a
+  - d330b3082107
   - fb9e030ffae4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -54,6 +60,7 @@ tools:
   revisions:
   - 0cb889db0910
   - 707023fa62fe
+  - cfaf5a405371
   - e1c3c2f2a834
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -61,6 +68,7 @@ tools:
   owner: iuc
   revisions:
   - 3d748954434b
+  - 7e8c677a7b71
   - 9bd945a03d7b
   - ed4996a16f7f
   tool_panel_section_id: single_cell
@@ -75,6 +83,7 @@ tools:
 - name: anndata_inspect
   owner: iuc
   revisions:
+  - 0bf7fddf90c7
   - 286a24ac079c
   - 688357ad5e61
   - 6f0d0c784f09
@@ -85,6 +94,7 @@ tools:
   owner: iuc
   revisions:
   - 05631436cdf1
+  - 0f1aaff9b22d
   - e98619de2776
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -118,6 +128,7 @@ tools:
   revisions:
   - 2b0d3e2f402a
   - 41f34e925bd5
+  - c7ddb719554d
   - f3eb2291da05
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -125,6 +136,7 @@ tools:
   owner: iuc
   revisions:
   - 43c146e25a43
+  - 8b917923f7d4
   - b83fbc90161e
   - c891d8b33ede
   tool_panel_section_id: single_cell
@@ -133,6 +145,7 @@ tools:
   owner: iuc
   revisions:
   - 0bff0ee0683a
+  - 49776718ae90
   - a4b734cd253b
   - f911a64454fb
   tool_panel_section_id: single_cell
@@ -141,6 +154,7 @@ tools:
   owner: iuc
   revisions:
   - 2af7c5086a96
+  - 2bfd55b87af3
   - 72979cac22b2
   - c92d0f9338c5
   tool_panel_section_id: single_cell
@@ -148,6 +162,7 @@ tools:
 - name: raceid_inspecttrajectory
   owner: iuc
   revisions:
+  - 6e90c8adf84f
   - a6821f856a1e
   - c8434a623268
   - df8e4e54d367
@@ -157,6 +172,7 @@ tools:
   owner: bgruening
   revisions:
   - 04b494623f8e
+  - b0fe3e482cb7
   - c9944a2600f1
   - e4c01dcece8b
   tool_panel_section_id: single_cell
@@ -172,6 +188,7 @@ tools:
   owner: imgteam
   revisions:
   - 8856a7c85e4c
+  - a72590196440
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scater_create_qcmetric_ready_sce
@@ -223,6 +240,7 @@ tools:
 - name: scanpy_cluster_reduce_dimension
   owner: iuc
   revisions:
+  - 8983e7a04ba7
   - aaa5da8e73a9
   - f9353ee6a0d4
   tool_panel_section_id: single_cell
@@ -230,6 +248,7 @@ tools:
 - name: scanpy_filter
   owner: iuc
   revisions:
+  - 64388be6d510
   - 72a6bebab2a5
   - b409c2486353
   tool_panel_section_id: single_cell
@@ -239,11 +258,13 @@ tools:
   revisions:
   - c0a80a16560f
   - c5d3684f7c4c
+  - d86cb2ce311b
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_normalize
   owner: iuc
   revisions:
+  - 4bda4412b8c2
   - 9f354c7c8c92
   - ab55fe8030b6
   tool_panel_section_id: single_cell
@@ -252,6 +273,7 @@ tools:
   owner: iuc
   revisions:
   - 1072ce66b426
+  - 62acdd96d4a0
   - a8f865950ac4
   - aa0c474463c2
   tool_panel_section_id: single_cell
@@ -261,6 +283,7 @@ tools:
   revisions:
   - a39040ae0a38
   - bf2017df9837
+  - c5541bfb8feb
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_read_10x
@@ -412,5 +435,5 @@ tools:
   owner: iuc
   revisions:
   - 3df3d1b51110
-  tool_panel_section_label: single_cell
+  tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell

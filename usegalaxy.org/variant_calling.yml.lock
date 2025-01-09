@@ -27,8 +27,9 @@ tools:
   - 6322be79bd8e
   - 74aebe30fb52
   - 9473cd297a76
-  - cfcf33df7fc0
+  - c7275bd8b4d6
   - ca2b512e8d7c
+  - cfcf33df7fc0
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: naive_variant_caller
@@ -259,6 +260,7 @@ tools:
   - 09f5c6f3088a
   - 43fffeed243f
   - 93c4b04a0769
+  - ceff2f6a5368
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: jasminesv
@@ -292,6 +294,7 @@ tools:
   revisions:
   - 3c19c84fbce2
   - 78df8fc2b3ab
+  - a40dd4fd3096
   - d9965e143053
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling

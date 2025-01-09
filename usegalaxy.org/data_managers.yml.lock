@@ -6,18 +6,21 @@ tools:
 - name: data_manager_fetch_genome_dbkeys_all_fasta
   owner: devteam
   revisions:
+  - 4a82d1157b14
   - 4d3eff1bc421
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_bowtie2_index_builder
   owner: devteam
   revisions:
+  - 39865c64a4e1
   - 9dd107db92c2
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_bwa_mem_index_builder
   owner: devteam
   revisions:
+  - 0a87b85d9911
   - 9e993022c762
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
@@ -44,6 +47,7 @@ tools:
   revisions:
   - a256278e5bff
   - ad90c2da4f38
+  - defd3e9ddd2d
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_hisat2_index_builder
@@ -55,6 +59,7 @@ tools:
 - name: data_manager_star_index_builder
   owner: iuc
   revisions:
+  - 71c994a11f71
   - d63c1442407f
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
@@ -62,6 +67,7 @@ tools:
   owner: iuc
   revisions:
   - 39a922d01b0d
+  - 9c91b5015dd3
   - cb157f55b4fd
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
@@ -104,8 +110,10 @@ tools:
   - 13851aefa67a
   - 1e34d2e3d285
   - 539b008cfe1c
+  - 8c533e19b697
   - 90b4d4f0a3a4
   - e4b4837f06f5
+  - e9ee4d074d5d
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_build_bracken_database
@@ -118,6 +126,7 @@ tools:
 - name: data_manager_mapseq
   owner: iuc
   revisions:
+  - 19ef193d1316
   - 23511530b8fd
   - 4cd97cc67061
   - dbf2735e8480

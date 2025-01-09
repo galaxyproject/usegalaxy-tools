@@ -70,6 +70,7 @@ tools:
   - 00e66c401366
   - 07cac38cbd29
   - 357df6c47d92
+  - 83c4b4359ac4
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: matchms_formatter
@@ -78,6 +79,7 @@ tools:
   - 6501d0287dcd
   - 715fe77be601
   - 9e3c83d2afc3
+  - a5a5b147da70
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: ramclustr
@@ -117,6 +119,7 @@ tools:
   - 3d63a762954a
   - 4b9ab71be05e
   - 512c2b701d96
+  - 75a1b3f7bacc
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_export_samplemetadata

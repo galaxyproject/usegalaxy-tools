@@ -197,6 +197,7 @@ tools:
   - 3ee0ef312022
   - 8d4f03b5fe9d
   - cb8dfd28c16f
+  - cd11366d92cf
   - de24438c9988
   - e27815e82dd4
   tool_panel_section_id: nanopore
@@ -213,5 +214,6 @@ tools:
   owner: iuc
   revisions:
   - 3843a30053ee
+  - 63e02ef6e153
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore

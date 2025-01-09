@@ -165,6 +165,7 @@ tools:
   - 356dc923f8d3
   - 3c6f9e8a4c17
   - 8067dfa00ed2
+  - e9bbe2f71784
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: bed_to_protein_map
@@ -229,11 +230,13 @@ tools:
   revisions:
   - 98704d357ede
   - a2f83a375bf2
+  - fa49730d1d4b
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: bam2fastx
   owner: iuc
   revisions:
+  - 0bfdf46e5e31
   - 7f7f2ee03430
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -274,6 +277,7 @@ tools:
   owner: iuc
   revisions:
   - 3c19c84fbce2
+  - a40dd4fd3096
   - d9965e143053
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats

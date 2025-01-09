@@ -14,6 +14,7 @@ tools:
   owner: nml
   revisions:
   - b8c00ce5dfa0
+  - d5887ace0dd4
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: miniasm
@@ -34,5 +35,12 @@ tools:
   owner: bgruening
   revisions:
   - 3ef480892a9f
+  - f4a3eff8ab85
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: quast
+  owner: iuc
+  revisions:
+  - 72472698a2df
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

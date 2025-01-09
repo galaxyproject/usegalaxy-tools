@@ -42,7 +42,9 @@ tools:
 - name: featurecounts
   owner: iuc
   revisions:
+  - 1b851f87fbe0
   - 38b6d12edc68
+  - 5dbff3a5845a
   - 6f66ae7c5f7a
   - 90d16db017d7
   - a37612abf7f9
@@ -150,6 +152,7 @@ tools:
   - 4014de1b6daf
   - 4074fc1940e2
   - 44959aa06aeb
+  - 53255f6eecfc
   - 5ec75f5dae3c
   - 79de45b5069b
   - 7ed2edc1337f
@@ -188,6 +191,7 @@ tools:
 - name: cuffmerge
   owner: devteam
   revisions:
+  - 04adc9db1581
   - 22cf48ad7b16
   - 6a6717a5f421
   - 86285ddd4512

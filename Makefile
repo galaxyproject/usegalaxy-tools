@@ -9,6 +9,10 @@ lint: ## Lint all yaml files
 	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/fix_lockfile.py
 	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 -I{} pykwalify -d '{}' -s .schema.yml
 
+lint-no-deps:
+	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/fix_lockfile.py --no-install-repository-dependencies --no-install-resolver-dependencies
+	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 -I{} pykwalify -d '{}' -s .schema.yml
+
 fix: ## Fix all lockfiles and add any missing revisions
 	@# Generates the lockfile or updates it if it is missing tools
 	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/fix_lockfile.py
@@ -16,7 +20,7 @@ fix: ## Fix all lockfiles and add any missing revisions
 	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update_tool.py --without
 
 fix-no-deps:
-	find ./$(TOOLSET) -name '*.yml'! -path .//.schema.yml  | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/fix_lockfile.py --no-install-repository-dependencies --no-install-resolver-dependencies
+	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml  | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/fix_lockfile.py --no-install-repository-dependencies --no-install-resolver-dependencies
 	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update_tool.py --without
 
 #install:
