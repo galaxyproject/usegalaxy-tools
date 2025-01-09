@@ -4,38 +4,51 @@ install_tool_dependencies: false
 tool_panel_section_label: Machine Learning
 tools:
 - name: ludwig_evaluate
-  owner: paulo_lyra_jr
+  owner: goeckslab
   revisions:
-  - 02546eba65f5
+  - 70a4d910f09a
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: ludwig_experiment
-  owner: paulo_lyra_jr
+  owner: goeckslab
   revisions:
-  - 478b7c00b0d4
+  - 78e6686a218e
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: ludwig_hyperot
-  owner: paulo_lyra_jr
+  owner: goeckslab
   revisions:
-  - 7d43ec4097ed
+  - 84f32596712d
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: ludwig_predict
-  owner: paulo_lyra_jr
+  owner: goeckslab
   revisions:
-  - 4390bb52559e
+  - 0a7b83ddda17
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
-- name: ludwig_renderconfig
-  owner: paulo_lyra_jr
+- name: ludwig_render_config
+  owner: goeckslab
   revisions:
-  - 362a0047f7ab
+  - ed8a9ea5bc73
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: ludwig_train
-  owner: paulo_lyra_jr
+  owner: goeckslab
   revisions:
-  - bcd536d6b7ef
+  - f0be10937f5c
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
+- name: ludwig_visualize
+  owner: goeckslab
+  revisions:
+  - dceb8493730d
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: ludwig_config_generator
+  owner: goeckslab
+  revisions:
+  - 183adfc24076
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+
