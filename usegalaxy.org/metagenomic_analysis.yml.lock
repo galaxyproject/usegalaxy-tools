@@ -712,6 +712,12 @@ tools:
   - 36ea6d5441c3
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: checkm2
+  owner: iuc
+  revisions:
+  - 0f5f7fa9c08f
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
 - name: ampvis2_load
   owner: iuc
   revisions:

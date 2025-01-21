@@ -170,6 +170,8 @@ tools:
   owner: iuc
 - name: checkm_tree_qa
   owner: iuc
+- name: checkm2
+  owner: iuc
 - name: ampvis2_load
   owner: iuc
 - name: mapseq
