@@ -207,6 +207,7 @@ tools:
   - 5c322fda4344
   - 6611881d27ce
   - 67b793424b0c
+  - 8ada50a892fa
   - a77f693df58c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
