@@ -28,6 +28,7 @@ tools:
   owner: iuc
   revisions:
   - 2f557f6abbfb
+  - 5e08a1e22dbc
   - 73b8cb5bddcd
   - 83c573f2e73c
   tool_panel_section_id: graph_display_data
@@ -43,6 +44,7 @@ tools:
   owner: iuc
   revisions:
   - 374e9062d874
+  - 48b42ee61bc5
   - 4955e9bb96d1
   - 51c6ccaace7e
   - 53460afd5115

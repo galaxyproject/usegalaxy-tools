@@ -35,6 +35,7 @@ tools:
   owner: bgruening
   revisions:
   - 3ef480892a9f
+  - 764f2516d837
   - f4a3eff8ab85
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -42,5 +43,6 @@ tools:
   owner: iuc
   revisions:
   - 72472698a2df
+  - a3b35edea53a
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

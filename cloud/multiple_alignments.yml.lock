@@ -8,11 +8,13 @@ tools:
   revisions:
   - 636b049e6141
   - 7cd7a55a678d
+  - fcad5e09a99d
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_mummerplot
   owner: iuc
   revisions:
+  - 0c37cb9102d0
   - ebe3b0f84de9
   - fb43e8887350
   tool_panel_section_id: multiple_alignments
@@ -22,11 +24,13 @@ tools:
   revisions:
   - 959c1f8dae95
   - cf3c9489c088
+  - e832875e5d5a
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_dnadiff
   owner: iuc
   revisions:
+  - 4122b2fb7964
   - 5561a1193611
   - 60698466facd
   tool_panel_section_id: multiple_alignments
@@ -34,6 +38,7 @@ tools:
 - name: mummer_mummer
   owner: iuc
   revisions:
+  - 2f4d9668d3b4
   - 48823c9635a4
   - 57f042937ba7
   tool_panel_section_id: multiple_alignments
@@ -41,6 +46,7 @@ tools:
 - name: mummer_delta_filter
   owner: iuc
   revisions:
+  - 2ab1e0e1c32e
   - b3acbb3a6af0
   - e8fdceffea4c
   tool_panel_section_id: multiple_alignments
