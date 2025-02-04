@@ -16,6 +16,7 @@ tools:
   - 1f0769f0b56b
   - 3e4f8642c77e
   - 3ee0ef312022
+  - cd11366d92cf
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: medaka_consensus_pipeline
@@ -63,6 +64,7 @@ tools:
 - name: poretools_occupancy
   owner: iuc
   revisions:
+  - 0433aad600e9
   - 338d15b8d6fb
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
