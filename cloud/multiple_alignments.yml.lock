@@ -6,6 +6,7 @@ tools:
 - name: mummer_nucmer
   owner: iuc
   revisions:
+  - 27fff8d3793e
   - 636b049e6141
   - 7cd7a55a678d
   tool_panel_section_id: multiple_alignments
@@ -13,6 +14,7 @@ tools:
 - name: mummer_mummerplot
   owner: iuc
   revisions:
+  - 029a793f39b6
   - ebe3b0f84de9
   - fb43e8887350
   tool_panel_section_id: multiple_alignments
@@ -20,6 +22,7 @@ tools:
 - name: mummer_show_coords
   owner: iuc
   revisions:
+  - 4c89814871e8
   - 959c1f8dae95
   - cf3c9489c088
   tool_panel_section_id: multiple_alignments
@@ -27,6 +30,7 @@ tools:
 - name: mummer_dnadiff
   owner: iuc
   revisions:
+  - 29662f643859
   - 5561a1193611
   - 60698466facd
   tool_panel_section_id: multiple_alignments
@@ -36,11 +40,13 @@ tools:
   revisions:
   - 48823c9635a4
   - 57f042937ba7
+  - b7bc272143fb
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mummer_delta_filter
   owner: iuc
   revisions:
+  - 5c7e6ef78006
   - b3acbb3a6af0
   - e8fdceffea4c
   tool_panel_section_id: multiple_alignments

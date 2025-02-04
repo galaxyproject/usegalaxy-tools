@@ -73,6 +73,7 @@ tools:
 - name: umi_tools_count
   owner: iuc
   revisions:
+  - 437d5c72f2e3
   - 71ad4a56c40c
   - 8250ea3a1501
   - a535cf1e5da4
@@ -82,6 +83,7 @@ tools:
 - name: umi_tools_extract
   owner: iuc
   revisions:
+  - 14ba4366aca4
   - 6a675c3aa610
   - 7a7e33d28f62
   - 99aea37a7ff7
