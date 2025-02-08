@@ -18,6 +18,7 @@ tools:
   revisions:
   - 1e3323a44643
   - 54f751e413f4
+  - 60f307965815
   - 62c9df8382c2
   - 64be1ac21109
   - e8ac2b53f262
@@ -547,6 +548,7 @@ tools:
   owner: iuc
   revisions:
   - eb50e7eca3dc
+  - f375b4f6ef57
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: megahit_contig2fastg
@@ -558,6 +560,7 @@ tools:
 - name: metabat2_jgi_summarize_bam_contig_depths
   owner: iuc
   revisions:
+  - 00e3b4ef7e0c
   - ec045ca00b50
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -615,6 +618,7 @@ tools:
 - name: phyloseq_from_dada2
   owner: iuc
   revisions:
+  - 0b9d4ec77c4f
   - 87064cb77a52
   - d1c93a32cb25
   tool_panel_section_id: metagenomic_analysis
@@ -622,6 +626,7 @@ tools:
 - name: phyloseq_from_biom
   owner: iuc
   revisions:
+  - 847f433f202b
   - b6a38f6222af
   - c0101c72b8af
   tool_panel_section_id: metagenomic_analysis
@@ -630,6 +635,7 @@ tools:
   owner: iuc
   revisions:
   - 5007bc8a3d90
+  - bbd9d1022144
   - dfe800a3faaf
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -637,6 +643,7 @@ tools:
   owner: iuc
   revisions:
   - '817853857084'
+  - d6cbeb48294d
   - fb7c4bbe8994
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
