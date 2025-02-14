@@ -133,3 +133,9 @@ tools:
   - dbf2735e8480
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
+- name: data_manager_fetch_plasmidfinder
+  owner: iuc
+  revisions:
+  - 8a3955d56000
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
