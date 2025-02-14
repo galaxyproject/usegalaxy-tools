@@ -516,7 +516,7 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_OVERRIDE_SHED_TOOL_DATA_TABLE_CONFIG=${SHED_TOOL_DATA_TABLE_CONFIG}" \
         -e "GALAXY_CONFIG_OVERRIDE_SHED_DATA_MANAGER_CONFIG_FILE=${SHED_DATA_MANAGER_CONFIG}" \
         -e "GALAXY_CONFIG_OVERRIDE_INTERACTIVETOOLS_ENABLE=true" \
-        -e "GALAXY_CONFIG_TOOL_DATA_PATH=/tmp/tool-data" \
+        -e "GALAXY_CONFIG_TOOL_DATA_PATH=/galaxy/server/config/mutable" \
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
         -e "GALAXY_CONFIG_FILE=/galaxy/server/lib/galaxy/config/sample/galaxy.yml.sample" \
