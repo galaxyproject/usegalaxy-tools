@@ -101,6 +101,7 @@ tools:
   - 3f4d6399997b
   - 53c0b7a1a0c3
   - 5cc34c3f440d
+  - 66367287b4e6
   - 77b2770508f6
   - 8c6cd2650d1f
   - 92678fcb1a5f
@@ -146,6 +147,7 @@ tools:
 - name: bbtools_bbmap
   owner: iuc
   revisions:
+  - 20ab37575227
   - 3171f7f52576
   - 3f94a2e3d513
   - 456d8ebb6a28

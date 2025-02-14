@@ -521,6 +521,7 @@ tools:
 - name: compleasm
   owner: iuc
   revisions:
+  - 7109a27a11db
   - 8f20a5b9b282
   - cfec9601b25d
   tool_panel_section_id: annotation

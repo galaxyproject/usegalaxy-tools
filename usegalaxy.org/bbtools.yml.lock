@@ -9,6 +9,7 @@ tools:
   - 0840ba83860c
   - 159b04e36791
   - 1c427e24fb79
+  - 55e500606bbe
   - 7beb76ffbc0f
   - bf0cb5dd02f2
   - d1f62024a08b
@@ -18,6 +19,7 @@ tools:
 - name: bbtools_bbmap
   owner: iuc
   revisions:
+  - 20ab37575227
   - 3171f7f52576
   - 3f94a2e3d513
   - 456d8ebb6a28
@@ -30,6 +32,7 @@ tools:
 - name: bbtools_bbmerge
   owner: iuc
   revisions:
+  - 08b2f8e6846d
   - 1af48f9cc27b
   - 1bb2b5b52030
   - 5d8b93c0731f
@@ -46,6 +49,7 @@ tools:
   - 1baa4ad1ac2f
   - 1ef267476a17
   - 3fc12917bbdb
+  - 5f047a0d4c2e
   - 770bceda7785
   - a9329b77db78
   - e607b61a68ad
@@ -58,6 +62,7 @@ tools:
   - 66b138a2e74c
   - 7e041c120b96
   - adec76ebc868
+  - b4279a293312
   - df9743790176
   - ee407fae3ccd
   - f36a69c3729a
@@ -69,6 +74,7 @@ tools:
   - 0ddf147d1897
   - 20aef74d20a1
   - 654c9da47f74
+  - 7ad0f4bfa923
   - cbc75076778f
   - ce13b4678f18
   - e4fb34b79770

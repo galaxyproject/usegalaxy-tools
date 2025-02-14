@@ -112,6 +112,7 @@ tools:
   revisions:
   - 6f134426c2b0
   - cdb9e89e2970
+  - d0b9dd19e919
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: mummer
@@ -313,6 +314,7 @@ tools:
   owner: iuc
   revisions:
   - 2f557f6abbfb
+  - 5e08a1e22dbc
   - 73b8cb5bddcd
   - 83c573f2e73c
   - 99ace6c1ff57
