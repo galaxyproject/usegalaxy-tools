@@ -26,6 +26,7 @@ tools:
   - aa784cb3810d
   - b1c926deaa2d
   - c053d4cad713
+  - c0b2c2e39c9c
   - c5e2e5902201
   - de6cebe3c043
   - e4691e1589d3
@@ -43,6 +44,7 @@ tools:
 - name: fastp
   owner: iuc
   revisions:
+  - 10678d49d39e
   - 1d8fe9bc4cb0
   - 65b93b623c77
   - a626e8c0e1ba
@@ -323,6 +325,7 @@ tools:
   owner: iuc
   revisions:
   - 6756c87dc2d4
+  - 9108bd9450cb
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: ucsc_fasplit
@@ -337,6 +340,7 @@ tools:
   owner: iuc
   revisions:
   - 276b4111b253
+  - 437d5c72f2e3
   - 71ad4a56c40c
   - 8250ea3a1501
   - 9570563fb686
@@ -375,6 +379,7 @@ tools:
   owner: iuc
   revisions:
   - 015cf18f4a15
+  - 14ba4366aca4
   - 6a675c3aa610
   - 7a7e33d28f62
   - 9fa7803d1c51
@@ -384,6 +389,7 @@ tools:
 - name: umi_tools_whitelist
   owner: iuc
   revisions:
+  - 382326c1b1e1
   - 4c8a1c7d3608
   - 953b4821b183
   - e4e12f0b3af1
@@ -393,6 +399,7 @@ tools:
   owner: iuc
   revisions:
   - 04e09969d376
+  - 9cd1c2f5d90e
   - c5a2ee07c4e1
   - f1d33e4c7bd8
   tool_panel_section_id: fasta_fastq
@@ -402,6 +409,7 @@ tools:
   revisions:
   - 257be15474a7
   - 428735be9764
+  - 7f3b9b5db85c
   - d6255614afd7
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
