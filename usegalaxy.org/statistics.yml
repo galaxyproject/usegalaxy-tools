@@ -68,3 +68,5 @@ tools:
   owner: bgruening
 - name: pandas_rolling_window
   owner: bgruening
+- name: rdeval
+  owner: richard-burhans
