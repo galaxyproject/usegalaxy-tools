@@ -34,6 +34,7 @@ tools:
   - abfd8a6544d7
   - b2f1f75d49c4
   - bf675f34b056
+  - d2aaac19f42f
   - f7985e0479b9
   - f7e2f1eb3a16
   tool_panel_section_id: fastq_quality_control
