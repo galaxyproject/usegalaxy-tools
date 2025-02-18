@@ -217,3 +217,10 @@ tools:
   - a06f7b5c4dc7
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
+- name: rdeval
+  owner: richard-burhans
+  revisions:
+  - 700ce3b8068f
+  - 853c32c31a6c
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics

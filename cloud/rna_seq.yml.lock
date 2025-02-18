@@ -76,6 +76,7 @@ tools:
   - 1759d845181e
   - 1b851f87fbe0
   - 38b6d12edc68
+  - 5dbff3a5845a
   - f3a5f075498f
   - f9d49f5cb597
   tool_panel_section_id: rna_seq
@@ -128,6 +129,7 @@ tools:
 - name: dexseq
   owner: iuc
   revisions:
+  - 74ec758e63a4
   - 9a7c5b6d8f1e
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq

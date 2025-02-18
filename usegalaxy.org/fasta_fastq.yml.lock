@@ -26,6 +26,7 @@ tools:
   - aa784cb3810d
   - b1c926deaa2d
   - c053d4cad713
+  - c0b2c2e39c9c
   - c5e2e5902201
   - de6cebe3c043
   - e4691e1589d3
@@ -347,6 +348,7 @@ tools:
   owner: rnateam
   revisions:
   - 733ca84b21ee
+  - 7521d865e770
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: filter_by_fasta_ids

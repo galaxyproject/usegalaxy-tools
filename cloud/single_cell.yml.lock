@@ -49,6 +49,7 @@ tools:
 - name: anndata_import
   owner: iuc
   revisions:
+  - 13cf83ced60c
   - 55e35e9203cf
   - 93dd15e13e6a
   - d330b3082107
@@ -60,6 +61,7 @@ tools:
   revisions:
   - 0cb889db0910
   - 707023fa62fe
+  - 83609ef746e9
   - cfaf5a405371
   - e1c3c2f2a834
   tool_panel_section_id: single_cell
@@ -70,6 +72,7 @@ tools:
   - 3d748954434b
   - 7e8c677a7b71
   - 9bd945a03d7b
+  - d1e49c3c0aa2
   - ed4996a16f7f
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -85,6 +88,7 @@ tools:
   revisions:
   - 0bf7fddf90c7
   - 286a24ac079c
+  - 33c0081e16c6
   - 688357ad5e61
   - 6f0d0c784f09
   - ee98d611afc6
@@ -95,6 +99,7 @@ tools:
   revisions:
   - 05631436cdf1
   - 0f1aaff9b22d
+  - a7b951572609
   - e98619de2776
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -248,6 +253,7 @@ tools:
 - name: scanpy_filter
   owner: iuc
   revisions:
+  - 5b3c1679d29b
   - 64388be6d510
   - 72a6bebab2a5
   - b409c2486353

@@ -1,0 +1,135 @@
+install_repository_dependencies: false
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tool_panel_section_label: Data Managers
+tools:
+- name: data_manager_fetch_genome_dbkeys_all_fasta
+  owner: devteam
+  revisions:
+  - 4a82d1157b14
+  - 4d3eff1bc421
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_bowtie2_index_builder
+  owner: devteam
+  revisions:
+  - 39865c64a4e1
+  - 9dd107db92c2
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_bwa_mem_index_builder
+  owner: devteam
+  revisions:
+  - 0a87b85d9911
+  - 9e993022c762
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_hisat_index_builder
+  owner: devteam
+  revisions:
+  - ba11fef120cd
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_twobit_builder
+  owner: devteam
+  revisions:
+  - 94a50db37d1a
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_picard_index_builder
+  owner: devteam
+  revisions:
+  - 7124d2c14e4b
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_sam_fasta_index_builder
+  owner: devteam
+  revisions:
+  - a256278e5bff
+  - ad90c2da4f38
+  - defd3e9ddd2d
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_hisat2_index_builder
+  owner: iuc
+  revisions:
+  - d74c740bdb25
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_star_index_builder
+  owner: iuc
+  revisions:
+  - 71c994a11f71
+  - d63c1442407f
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_bowtie_index_builder
+  owner: iuc
+  revisions:
+  - 39a922d01b0d
+  - 9c91b5015dd3
+  - cb157f55b4fd
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_kallisto_index_builder
+  owner: iuc
+  revisions:
+  - 15c2fc266540
+  - 4c7ebbad42cf
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_snpeff
+  owner: iuc
+  revisions:
+  - def511e8e005
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_plant_tribes_scaffolds_downloader
+  owner: iuc
+  revisions:
+  - 1550b1741780
+  - 898b956719ee
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_fetch_ncbi_taxonomy
+  owner: devteam
+  revisions:
+  - 34a5799a65fa
+  - 6dd9e00dea95
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_gemini_database_downloader
+  owner: iuc
+  revisions:
+  - 27a6a256cd23
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_build_kraken2_database
+  owner: iuc
+  revisions:
+  - 13851aefa67a
+  - 1e34d2e3d285
+  - 201eff2131d6
+  - 539b008cfe1c
+  - 8c533e19b697
+  - 90b4d4f0a3a4
+  - e4b4837f06f5
+  - e9ee4d074d5d
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_build_bracken_database
+  owner: iuc
+  revisions:
+  - 5c8a23ccb14a
+  - 84cc0dc92b0c
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_mapseq
+  owner: iuc
+  revisions:
+  - 19ef193d1316
+  - 23511530b8fd
+  - 4cd97cc67061
+  - dbf2735e8480
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
