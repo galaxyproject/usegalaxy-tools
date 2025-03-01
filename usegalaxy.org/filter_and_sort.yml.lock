@@ -9,6 +9,7 @@ tools:
   - 00b3da7776a0
   - 2488bcddaf14
   - 61946b8bd43b
+  - 96a3c972424f
   - bae6cba73e32
   tool_panel_section_id: filter_and_sort
   tool_panel_section_label: Filter and Sort

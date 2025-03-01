@@ -15,6 +15,7 @@ tools:
   revisions:
   - 11ab2081bd4a
   - 12def6edac2f
+  - 35b6fe4d481c
   - 6de175c1f6ef
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -22,6 +23,7 @@ tools:
   owner: lecorguille
   revisions:
   - 26d77e9ceb49
+  - a8d866a71ba1
   - bb9ee352fce0
   - ec9aebabc1d2
   tool_panel_section_id: metabolomics
@@ -30,6 +32,7 @@ tools:
   owner: lecorguille
   revisions:
   - 2b676d5eb848
+  - 3820e3f3b1cb
   - 71572faf938e
   - d45a786cbc40
   tool_panel_section_id: metabolomics
@@ -40,11 +43,13 @@ tools:
   - 58b5a4b6e1da
   - 5bd125a3f3b0
   - 6d475a389abc
+  - ae28a753a6f8
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_retcor
   owner: lecorguille
   revisions:
+  - 33c0ca93f3ee
   - 8242376d9f35
   - aa252eec9229
   - d2b82d89f848
@@ -53,6 +58,7 @@ tools:
 - name: xcms_xcmsset
   owner: lecorguille
   revisions:
+  - 3990a65b45a4
   - 6550698fe60f
   - b02d1992a43a
   - f5d51091cf84
@@ -128,6 +134,7 @@ tools:
   - 4ea32e46b2d6
   - 94eb263cfab4
   - cdab04a1d1d7
+  - e13c7bc91c63
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_plot_chromatogram
@@ -135,6 +142,7 @@ tools:
   revisions:
   - 024974037c4e
   - 8846a03995d3
+  - 9291271ec4d9
   - c8bef8f6a1cb
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -142,6 +150,7 @@ tools:
   owner: lecorguille
   revisions:
   - 018a9771de28
+  - 1ae878634ab3
   - 2a2850fdf29e
   - 444e3ed135e3
   tool_panel_section_id: metabolomics

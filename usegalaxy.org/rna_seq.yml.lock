@@ -58,6 +58,7 @@ tools:
   owner: iuc
   revisions:
   - 62adf13b86ea
+  - 74ec758e63a4
   - 9a7c5b6d8f1e
   - 9fd8b69e6e68
   - b47c006d90c5
@@ -95,6 +96,7 @@ tools:
   revisions:
   - 1e3323a44643
   - 54f751e413f4
+  - 60f307965815
   - 62c9df8382c2
   - 64be1ac21109
   - e8ac2b53f262
@@ -470,6 +472,7 @@ tools:
   owner: iuc
   revisions:
   - 3f9ff31c88bb
+  - 51a3b375b7b8
   - 9d93999d9028
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
