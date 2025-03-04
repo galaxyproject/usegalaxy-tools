@@ -80,6 +80,7 @@ tools:
   - 14ddfc8ffb93
   - 7518ee87b53d
   - a96f3ad4e0d8
+  - ab208c87d973
   - de387b2b2803
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -511,11 +512,13 @@ tools:
   owner: iuc
   revisions:
   - 34245579d255
+  - 8779f4d2d04d
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: fastk_histex
   owner: iuc
   revisions:
+  - 3e5642ac5620
   - b897c5daf0ce
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -523,5 +526,6 @@ tools:
   owner: iuc
   revisions:
   - 73ddd200456a
+  - ec82f2b95e89
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

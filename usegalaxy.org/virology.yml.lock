@@ -7,6 +7,7 @@ tools:
   owner: iuc
   revisions:
   - 17f911830a8c
+  - 196d126cd016
   - 3a72fede57ce
   - 40737febe339
   - 5e668dc9f379
@@ -30,6 +31,7 @@ tools:
   - 51afc8a64951
   - 618297d23022
   - 7fe36019c073
+  - d328d99d7396
   - fcbeda41d0ac
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
@@ -49,6 +51,7 @@ tools:
   - 69797fa273c3
   - 75c279fa403a
   - 8d36959b000d
+  - 9f4805c61d29
   - a1c2aecd7a0d
   - ee29337f905c
   - ee2beb764a7b
@@ -67,6 +70,7 @@ tools:
   - 86a20ae274fc
   - a250929be21b
   - c092052ed673
+  - c9ef01b1cfba
   - cf65217ad61c
   - db536ad45f28
   tool_panel_section_id: virology
@@ -79,6 +83,7 @@ tools:
   - 230b05597996
   - 252dfb042563
   - 3888bbe7a9ca
+  - 41c7ba073a9b
   - 49236b03e4fd
   - 584beffa972b
   - aa9de8f20668
