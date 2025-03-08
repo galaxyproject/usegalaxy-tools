@@ -250,3 +250,9 @@ tools:
   - 728e3b913fbe
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: ucsc_chainantirepeat
+  owner: iuc
+  revisions:
+  - 91674d4623a8
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping

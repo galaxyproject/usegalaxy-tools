@@ -52,3 +52,6 @@ tools:
   owner: iuc
 - name: ucsc_netfilter
   owner: iuc
+- name: ucsc_chainantirepeat
+  owner: iuc
+
