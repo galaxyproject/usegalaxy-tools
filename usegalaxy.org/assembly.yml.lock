@@ -88,6 +88,7 @@ tools:
   owner: nml
   revisions:
   - 05c394313b1c
+  - 9638ba70882c
   - 99ecfdafc64f
   - e731ea24e48d
   - fd128c111ab0
@@ -118,6 +119,7 @@ tools:
   - 1d06c8b38e77
   - 28189050e437
   - 53c2bc8c2ae3
+  - 59be68ba26c2
   - 5fc94b3a4704
   - 675ee1aa5952
   - 9e58ff014088
@@ -133,6 +135,7 @@ tools:
   - b65a43f70b99
   - d159735a6a9f
   - d5fb354f745d
+  - dc5d1a54054b
   - de1260f8a300
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -144,6 +147,7 @@ tools:
   - 6b5a5842531e
   - 7e27faaad80e
   - b8002c3f7141
+  - c8097e741b13
   - e5a3b75a271f
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -151,6 +155,7 @@ tools:
   owner: iuc
   revisions:
   - 34305b013402
+  - 4ae660dd1fb6
   - 655fa188c3cc
   - 9678993ca5bd
   - ad8b536d1caa
@@ -165,6 +170,7 @@ tools:
   - 604782a8a53a
   - 7490b213baa9
   - 904bf932cf78
+  - a5d68876c44e
   - c33a476f4001
   - d89ced9439f3
   tool_panel_section_id: assembly
@@ -174,6 +180,7 @@ tools:
   revisions:
   - 1708851f8804
   - 340bc17f49cf
+  - 5be72b7648fa
   - 75405f5e2cc5
   - 7bb235ff0746
   - 85fb02c43042
@@ -189,6 +196,7 @@ tools:
   - 7922870efcca
   - 9de69775f512
   - e060c3987513
+  - ea83ac535a1f
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: shovill
@@ -206,6 +214,7 @@ tools:
   owner: nml
   revisions:
   - 33368fec3b70
+  - 65d1598a9256
   - 7897763d14ec
   - b8c00ce5dfa0
   - d5887ace0dd4
@@ -352,6 +361,7 @@ tools:
 - name: gfastats
   owner: bgruening
   revisions:
+  - 0393c0415171
   - 2b8b4cacb83d
   - 3ef480892a9f
   - 3fba9c77550a
@@ -520,6 +530,7 @@ tools:
   revisions:
   - 3e5642ac5620
   - b897c5daf0ce
+  - e1954bd8bde9
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: fastk_logex
