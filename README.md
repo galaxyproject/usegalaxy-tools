@@ -1,17 +1,18 @@
 # usegalaxy.\* tools
 
-This repository maintains toolset for the https://usegalaxy.org Galaxy instance. Using this anyone can request installation of a new tool.
+This repository maintains the toolset for the https://usegalaxy.org Galaxy instance. Using this anyone can request installation of a new tool.
 Additionally this repository can be used to outfit your own Galaxy with the same toolset.
 
-[Requesting a new tool](#requesting-a-new-tool)
-[Loading tools in your Galaxy](#loading-tools-in-your-galaxy)
+- [Requesting a new tool](#requesting-a-new-tool)
+- [Loading tools in your Galaxy](#loading-tools-in-your-galaxy)
 
 ## Setup
 
-- `yaml` files contain the names of Tool Shed repositories to install and are **manually** curated
-- `yaml.lock` files are **automatically** generated
+- `yaml` files contain the names of Tool Shed tools/repositories to install and are **manually** curated
+- `yaml.lock` files are **automatically** generated and contain the list of revisions (read "tool versions") to include
 - All tools are automatically updated with the latest version periodically
-- Use the provided `requirements.txt` to install dependences needed for the `make` targets
+- Use the provided `requirements.txt` to install dependencies needed for the `make` targets
+- The terms "tools" and "repositories" are used interchangeably in this readme. There is a difference, but it is not needed to be understood for using these scripts.
 
 ## Requesting a new tool
 
@@ -19,12 +20,11 @@ Additionally this repository can be used to outfit your own Galaxy with the same
 In the commands below fill the `{server_name}` as appropriate (usegalaxy.org, test.galaxyproject.org)
 
 1. Fork and clone [usegalaxy-tools](https://github.com/galaxyproject/usegalaxy-tools)
-1. Create/activate a virtualenv and `pip install -r requirements.txt`
-1. You are either installing a new repo or updating existing repo
-1. If this is a new a section without an existing yml file create a new one like this:
+1. Create/activate a virtualenv and install Python requirements with `pip install -r requirements.txt`
+1. If this is a new a section without an existing yml file create a new one:
     1. Determine the desired section label
     1. Normalize the section label to an ID/filename with [this process](https://github.com/galaxyproject/usegalaxy-tools/issues/9#issuecomment-500847395)
-    1. Create `{server_name}/<section_id>.yml` setting `tool_panel_section_label` from the section label obtained in previous step (see existing yml files for exact syntax)
+    1. Create `{server_name}/<section_id>.yml` setting `tool_panel_section_label` from the section label obtained in previous step (see existing yml files for the exact syntax)
     1. Continue with the steps below
 1. Add the entry for the new tool to the section yml (only the yml, not the yml.lock) [example](https://github.com/galaxyproject/usegalaxy-tools/pull/86/files#diff-7de70f8620e8ba71104b398d57087611R25-R26)
 1. You either want the latest or a specific version
@@ -35,6 +35,7 @@ In the commands below fill the `{server_name}` as appropriate (usegalaxy.org, te
 	    1. Edit the .yaml.lock to correct the version number.
 1. Then `$ git add <file>` only the updates that you care about.
 1. Run `make TOOLSET={server_name} lint`
+    - Fix any issue that may arise and `git add` again
 1. Commit `{server_name}/<repo>.yaml{.lock}`
 1. Create a PR against the `master` branch of [usegalaxy-tools](https://github.com/galaxyproject/usegalaxy-tools)
     - Use PR labels as appropriate
