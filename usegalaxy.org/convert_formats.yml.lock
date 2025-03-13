@@ -219,6 +219,7 @@ tools:
 - name: msconvert
   owner: galaxyp
   revisions:
+  - 331a50e8fd2f
   - 3cf310697624
   - 545054b15d7c
   - 6153e8ada1ee
@@ -237,6 +238,7 @@ tools:
   owner: iuc
   revisions:
   - 0bfdf46e5e31
+  - 43fd2ba63c16
   - 7f7f2ee03430
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
