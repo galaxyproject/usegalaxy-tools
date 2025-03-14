@@ -15,6 +15,7 @@ tools:
   revisions:
   - 33ab2058c6d9
   - ef68bc2a4dbc
+  - 0b8423c7ee3e
   tool_panel_section_id: spatial_omics
   tool_panel_section_label: Spatial Omics
 - name: coreograph
