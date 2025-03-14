@@ -5,6 +5,7 @@ tools:
 - name: msconvert
   owner: galaxyp
   revisions:
+  - 331a50e8fd2f
   - 545054b15d7c
   - 6153e8ada1ee
   - ab6c14374bc0
