@@ -88,6 +88,7 @@ tools:
   owner: nml
   revisions:
   - 05c394313b1c
+  - 697c9156dafe
   - 9638ba70882c
   - 99ecfdafc64f
   - e731ea24e48d
@@ -114,6 +115,7 @@ tools:
 - name: rnaspades
   owner: iuc
   revisions:
+  - 001aa495b39a
   - 03fd468e158f
   - 1035adb112c0
   - 1d06c8b38e77
@@ -132,6 +134,7 @@ tools:
   revisions:
   - 48cf45a53456
   - 6357b127161e
+  - a9aa4115cb68
   - b65a43f70b99
   - d159735a6a9f
   - d5fb354f745d
@@ -147,6 +150,7 @@ tools:
   - 6b5a5842531e
   - 7e27faaad80e
   - b8002c3f7141
+  - c5c4fa59be65
   - c8097e741b13
   - e5a3b75a271f
   tool_panel_section_id: assembly
@@ -154,6 +158,7 @@ tools:
 - name: spades_coronaspades
   owner: iuc
   revisions:
+  - 152ff7d1817a
   - 34305b013402
   - 4ae660dd1fb6
   - 655fa188c3cc
@@ -168,6 +173,7 @@ tools:
   revisions:
   - 051fd2db8a27
   - 604782a8a53a
+  - 60b8f1668552
   - 7490b213baa9
   - 904bf932cf78
   - a5d68876c44e
@@ -185,6 +191,7 @@ tools:
   - 7bb235ff0746
   - 85fb02c43042
   - 8cc856b935ee
+  - b40b77418372
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades_metaviralspades
@@ -193,6 +200,7 @@ tools:
   - 2a10645aeadd
   - 328aa71f0f3c
   - 5b26685e5d3b
+  - 6766a94ef559
   - 7922870efcca
   - 9de69775f512
   - e060c3987513
@@ -216,6 +224,7 @@ tools:
   - 33368fec3b70
   - 65d1598a9256
   - 7897763d14ec
+  - b512435320e3
   - b8c00ce5dfa0
   - d5887ace0dd4
   tool_panel_section_id: assembly
@@ -248,6 +257,7 @@ tools:
   revisions:
   - 045c7c3d8e59
   - 0ee0c3089254
+  - 170061c052ad
   - 284a1cb82b61
   - 366a11d316a7
   - 3f7be05a1597
@@ -421,6 +431,7 @@ tools:
   - 5412142130ad
   - 55a53b5e308d
   - 56bb29747b4d
+  - c162f3c43442
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pairtools_parse
@@ -428,6 +439,7 @@ tools:
   revisions:
   - 44cb74c154bc
   - 678f10bb377e
+  - 963d674e438d
   - b0a1f128fa15
   - d3a7b17714c1
   tool_panel_section_id: assembly
@@ -436,6 +448,7 @@ tools:
   owner: iuc
   revisions:
   - 50d926b3f13d
+  - 5fd78abb0d81
   - 8cffb8fc34f0
   - 8ed44487c834
   - fdd073110081
@@ -447,6 +460,7 @@ tools:
   - 060f0fed864e
   - 39df08e91cdf
   - 53d73d58e105
+  - a7035be049e4
   - c46d1454f3a1
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -456,6 +470,7 @@ tools:
   - 6cbca5661205
   - 7f71687c8146
   - 81fc1418fbfb
+  - ade829d2ae3a
   - c20a07c9237b
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
