@@ -14,3 +14,11 @@ tools:
   owner: imgteam
 - name: count_objects
   owner: imgteam
+- name: rename_tiff_channels
+  owner: goeckslab
+- name: vitessce_spatial
+  owner: goeckslab
+- name: scimap_mcmicro_to_anndata
+  owner: goeckslab
+- name: scimap_phenotyping
+  owner: goeckslab
