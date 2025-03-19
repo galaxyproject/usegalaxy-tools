@@ -2,3 +2,4 @@ bioblend>=1.2.0
 ephemeris>=0.10.10
 pykwalify>=1.6.1
 PyYAML>=4.2
+setuptools>=76.1.0
