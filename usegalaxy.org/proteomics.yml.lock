@@ -10,6 +10,7 @@ tools:
   - 3634c90301af
   - 3ec27b4cee7c
   - 7fdd9119cc4f
+  - a6ff76e057fd
   - f35bb9d0c93e
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
