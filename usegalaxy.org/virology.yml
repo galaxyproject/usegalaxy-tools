@@ -18,3 +18,5 @@ tools:
   owner: iuc
 - name: nextclade
   owner: iuc
+- name: snipit
+  owner: iuc
