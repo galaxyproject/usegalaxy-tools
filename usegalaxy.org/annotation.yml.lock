@@ -203,6 +203,7 @@ tools:
 - name: ncbi_egapx
   owner: richard-burhans
   revisions:
+  - 1429b9638055
   - 21d4de0e41fc
   - 27b73b9f84c0
   - 5c322fda4344
