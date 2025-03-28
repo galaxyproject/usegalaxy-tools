@@ -201,7 +201,7 @@ tools:
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: ncbi_egapx
-  owner:  richard-burhans
+  owner: richard-burhans
   revisions:
   - 1429b9638055
   - 21d4de0e41fc
