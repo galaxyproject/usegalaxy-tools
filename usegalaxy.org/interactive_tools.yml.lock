@@ -7,6 +7,7 @@ tools:
   revisions:
   - 5c1018ad5eb3
   - 7b33a7a006c7
+  - dd4874a77f62
   - eaa8cead8adb
   tool_panel_section_id: interactive_tools
   tool_panel_section_label: Interactive Tools
