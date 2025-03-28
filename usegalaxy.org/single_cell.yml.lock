@@ -9,6 +9,7 @@ tools:
   - 0185bd174ea0
   - 1072ce66b426
   - 40812a65a78b
+  - 5a5468c0d26f
   - 62acdd96d4a0
   - 6adf98e782f3
   - 6f5349dd5c49
@@ -25,6 +26,7 @@ tools:
   owner: iuc
   revisions:
   - 3081ff5c84a3
+  - 3b5ef3b00cdd
   - 4338bf96809e
   - 5c3ebe2adc77
   - 6bd82ed14acd
@@ -46,6 +48,7 @@ tools:
   - 2d02d9702d3a
   - 3c86f71498bc
   - 5511647110ff
+  - 5813f9920877
   - 5b3c1679d29b
   - 64388be6d510
   - 72a6bebab2a5
@@ -62,6 +65,7 @@ tools:
   owner: iuc
   revisions:
   - 146ae5d70b47
+  - 4766556db52c
   - 4bda4412b8c2
   - 51d945eab1e1
   - 5342ce58cd1e
@@ -87,6 +91,7 @@ tools:
   - 6acb08931836
   - 6f83f8fd381f
   - 8983e7a04ba7
+  - a84a73471be7
   - aaa5da8e73a9
   - b2df381a6004
   - cb43c5d3acd3
@@ -98,6 +103,7 @@ tools:
   owner: iuc
   revisions:
   - 215733a383f2
+  - 458d4ab0f894
   - 458e8f43a775
   - 73ab2ac53d06
   - 80d4e2cac903

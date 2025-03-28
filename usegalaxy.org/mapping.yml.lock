@@ -42,6 +42,7 @@ tools:
   owner: devteam
   revisions:
   - 01ac0a5fedc3
+  - 1dfc975b48d5
   - 2477830927ec
   - 3fe632431b68
   - 64f11cf59c6e
@@ -133,6 +134,7 @@ tools:
   - 88bcfaea2fb6
   - b4a22d90cce9
   - bfaa0d22c2e4
+  - d459a463cb73
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: pileometh

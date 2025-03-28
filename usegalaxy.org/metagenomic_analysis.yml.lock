@@ -590,6 +590,7 @@ tools:
   - 591175c0f051
   - 612df2a5054f
   - 76bf12b928f4
+  - cfb53a01abc5
   - d4fbfd31696c
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -742,6 +743,7 @@ tools:
   owner: iuc
   revisions:
   - 0f5f7fa9c08f
+  - 66acaec9f386
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: ampvis2_load
