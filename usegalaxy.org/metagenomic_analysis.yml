@@ -178,3 +178,23 @@ tools:
   owner: iuc
 - name: mgnify_seqprep
   owner: bgruening
+- name: concoct_cut_up_fasta
+  owner: iuc
+- name: semibin
+  owner: iuc
+- name: concoct_coverage_table
+  owner: iuc
+- name: concoct
+  owner: iuc
+- name: concoct_merge_cut_up_clustering
+  owner: iuc
+- name: concoct_extract_fasta_bins
+  owner: iuc
+- name: fasta_to_contig2bin
+  owner: iuc
+- name: binette
+  owner: iuc
+- name: drep_dereplicate
+  owner: iuc
+- name: coverm_genome
+  owner: iuc
