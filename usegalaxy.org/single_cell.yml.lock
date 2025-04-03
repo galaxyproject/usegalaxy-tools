@@ -130,6 +130,7 @@ tools:
   - c5ac926c838f
   - cfaf5a405371
   - e1c3c2f2a834
+  - f843b9afd94e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_import
@@ -139,6 +140,7 @@ tools:
   - 13cf83ced60c
   - '499059586799'
   - 6f143dfe902a
+  - 923dcc644832
   - 93dd15e13e6a
   - ae1e5d9d8972
   - cfc3f5a57dc6
@@ -156,6 +158,7 @@ tools:
   - 383dcb0500f9
   - 39e945f0b2c1
   - 6f0d0c784f09
+  - afe044e6bc93
   - ee98d611afc6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -166,6 +169,7 @@ tools:
   - 43cb7b5a6fe7
   - 7e8c677a7b71
   - 8db95f488f0f
+  - be1fdce914c6
   - c4209ea387d4
   - d1e49c3c0aa2
   - ed4996a16f7f
@@ -179,6 +183,7 @@ tools:
   - 59be31ac9dc3
   - 7784821452ac
   - a7b951572609
+  - c822c5c1feef
   - db575b4c8b22
   - e98619de2776
   - eeab712b0b99
