@@ -90,6 +90,8 @@ tools:
   owner: ebi-gxa
 - name: sceasy_convert
   owner: ebi-gxa
+- name: sceasy_convert
+  owner: iuc
 - name: retrieve_scxa
   owner: ebi-gxa
 - name: scanpy_regress_variable
