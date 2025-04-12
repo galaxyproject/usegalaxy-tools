@@ -246,6 +246,7 @@ tools:
   owner: iuc
   revisions:
   - 65a69de1e294
+  - 66617be450bd
   - 8d6686664021
   - a7387ce2a8ca
   - ea93df4b3df2
@@ -254,6 +255,7 @@ tools:
 - name: tooldistillator_summarize
   owner: iuc
   revisions:
+  - 07d093aaf3b4
   - 24eec94e6dfc
   - 6ff67d2860e1
   - def7a82d23e1
