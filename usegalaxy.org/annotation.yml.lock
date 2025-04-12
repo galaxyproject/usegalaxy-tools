@@ -64,6 +64,7 @@ tools:
   - 4048d82f0c88
   - 41030a6c03b7
   - 46ae58b1d792
+  - 4e70d88adf2f
   - 602fb8e63aa7
   - 94170eee0ad8
   - cf13a1e03e5b
@@ -556,6 +557,7 @@ tools:
 - name: bakta
   owner: iuc
   revisions:
+  - 1942e86e2ee1
   - d77802fe76f7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
