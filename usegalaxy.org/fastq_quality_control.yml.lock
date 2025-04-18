@@ -13,6 +13,12 @@ tools:
   - ff9530579d1f
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
+- name: falco
+  owner: iuc
+  revisions:
+  - 959a14c1f2dd
+  tool_panel_section_id: fastq_quality_control
+  tool_panel_section_label: FASTQ Quality Control
 - name: trimmomatic
   owner: pjbriggs
   revisions:

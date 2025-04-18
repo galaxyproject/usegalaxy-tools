@@ -2,6 +2,8 @@ tool_panel_section_label: FASTQ Quality Control
 tools:
 - name: fastqc
   owner: devteam
+- name: falco
+  owner: iuc
 - name: trimmomatic
   owner: pjbriggs
 - name: multiqc
