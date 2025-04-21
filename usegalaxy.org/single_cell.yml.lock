@@ -480,6 +480,12 @@ tools:
   - f62bc418173f
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
+- name: sceasy_convert
+  owner: iuc
+  revisions:
+  - 5c9b16bdbd5e
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
 - name: retrieve_scxa
   owner: ebi-gxa
   revisions:
