@@ -131,11 +131,9 @@ tools:
 - name: bwa_mem2
   owner: iuc
   revisions:
-  - 88bcfaea2fb6
   - b4a22d90cce9
   - bec6ba059ded
   - bfaa0d22c2e4
-  - d459a463cb73
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: pileometh
