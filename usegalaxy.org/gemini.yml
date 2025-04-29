@@ -8,3 +8,5 @@ tools:
   owner: iuc
 - name: gemini_query
   owner: iuc
+- name: gemini_db_info
+  owner: iuc
