@@ -198,3 +198,5 @@ tools:
   owner: iuc
 - name: coverm_genome
   owner: iuc
+- name: coverm_contig
+  owner: iuc
