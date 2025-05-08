@@ -834,3 +834,13 @@ tools:
   - 73b667038f46
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: coverm_contig
+  owner: iuc
+  revisions: []
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: kraken_biom
+  owner: iuc
+  revisions: []
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
