@@ -138,3 +138,17 @@ tools:
   owner: iuc
 - name: decoupler_pseudobulk
   owner: ebi-gxa
+- name: seurat_clustering
+  owner: iuc
+- name: seurat_create
+  owner: iuc
+- name: seurat_data
+  owner: iuc
+- name: seurat_integrate
+  owner: iuc
+- name: seurat_plot
+  owner: iuc
+- name: seurat_preprocessing
+  owner: iuc
+- name: seurat_reduce_dimension
+  owner: iuc

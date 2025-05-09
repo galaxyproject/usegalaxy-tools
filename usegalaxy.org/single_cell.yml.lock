@@ -670,3 +670,45 @@ tools:
   - ef054892d47f
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
+- name: seurat_clustering
+  owner: iuc
+  revisions:
+  - 51eb02d9b17a
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: seurat_create
+  owner: iuc
+  revisions:
+  - af8bdeb89691
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: seurat_data
+  owner: iuc
+  revisions:
+  - 4ec52a83ec82
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: seurat_integrate
+  owner: iuc
+  revisions:
+  - 74fa68f4e579
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: seurat_plot
+  owner: iuc
+  revisions:
+  - fee4b4eb0ef5
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: seurat_preprocessing
+  owner: iuc
+  revisions:
+  - 6bccf5f85f92
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: seurat_reduce_dimension
+  owner: iuc
+  revisions:
+  - 46ed93e8da30
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
