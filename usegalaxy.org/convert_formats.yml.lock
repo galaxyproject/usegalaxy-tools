@@ -291,27 +291,3 @@ tools:
   - 55efc5c37c16
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
-- name: cnv_vcf2json
-  owner: iuc
-  revisions:
-  - 2691b8c12947
-  tool_panel_section_id: convert_formats
-  tool_panel_section_label: Convert Formats
-- name: beacon2_csv2xlsx
-  owner: iuc
-  revisions:
-  - 89cbbb7821b0
-  tool_panel_section_id: convert_formats
-  tool_panel_section_label: Convert Formats
-- name: beacon2_pxf2bff
-  owner: iuc
-  revisions:
-  - 23449c685168
-  tool_panel_section_id: convert_formats
-  tool_panel_section_label: Convert Formats
-- name: beacon2_vcf2bff
-  owner: iuc
-  revisions:
-  - ef90043ba759
-  tool_panel_section_id: convert_formats
-  tool_panel_section_label: Convert Formats

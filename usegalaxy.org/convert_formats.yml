@@ -68,11 +68,3 @@ tools:
   owner: iuc
 - name: ucsc_nettoaxt
   owner: iuc
-- name: cnv_vcf2json
-  owner: iuc
-- name: beacon2_csv2xlsx
-  owner: iuc
-- name: beacon2_pxf2bff
-  owner: iuc
-- name: beacon2_vcf2bff
-  owner: iuc
