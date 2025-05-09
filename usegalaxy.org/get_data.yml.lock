@@ -113,6 +113,7 @@ tools:
 - name: fastq_dl
   owner: iuc
   revisions:
+  - 3f1ee30e39e9
   - 5e7401777990
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
