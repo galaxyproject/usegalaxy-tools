@@ -144,3 +144,9 @@ tools:
   - 92b9fd5f1f9f
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
+- name: vibrant
+  owner: ufz
+  revisions:
+  - e087d0bccff4
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology

@@ -20,3 +20,6 @@ tools:
   owner: iuc
 - name: snipit
   owner: iuc
+- name: vibrant
+  owner: ufz
+
