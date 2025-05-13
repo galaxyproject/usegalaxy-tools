@@ -38,3 +38,5 @@ tools:
   owner: iuc
 - name: vibrant_build_database
   owner: ufz
+- name: checkv_build_database
+  owner: ufz

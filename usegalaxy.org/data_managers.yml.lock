@@ -137,5 +137,9 @@ tools:
   owner: ufz
   revisions:
   - e0faddfd9cf9
+- name: checkv_build_database
+  owner: ufz
+  revisions:
+  - 7e80c69020f7
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
