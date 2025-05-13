@@ -40,3 +40,5 @@ tools:
   owner: ufz
 - name: checkv_build_database
   owner: ufz
+- name: genomad_build_database
+  owner: ufz
