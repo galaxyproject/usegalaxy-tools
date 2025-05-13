@@ -846,3 +846,9 @@ tools:
   - a6f820992693
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: checkv_end_to_end
+  owner: ufz
+  revisions:
+  - e523d50513a4
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis

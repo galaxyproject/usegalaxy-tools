@@ -36,3 +36,6 @@ tools:
   owner: iuc
 - name: data_manager_mapseq
   owner: iuc
+- name: checkv_build_database
+  owner: ufz
+
