@@ -821,6 +821,12 @@ tools:
   - 7834132949bc
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: drep_compare
+  owner: iuc
+  revisions:
+  - f0334664a47b
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
 - name: drep_dereplicate
   owner: iuc
   revisions:

@@ -194,6 +194,8 @@ tools:
   owner: iuc
 - name: binette
   owner: iuc
+- name: drep_compare
+  owner: iuc
 - name: drep_dereplicate
   owner: iuc
 - name: coverm_genome
