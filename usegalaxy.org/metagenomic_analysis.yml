@@ -202,3 +202,6 @@ tools:
   owner: iuc
 - name: kraken_biom
   owner: iuc
+- name: genomad_end_to_end
+  owner: ufz
+
