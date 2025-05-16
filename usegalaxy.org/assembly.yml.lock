@@ -417,6 +417,7 @@ tools:
   owner: bgruening
   revisions:
   - 99ddbf037d98
+  - bfab6f5b449d
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: rnaquast
