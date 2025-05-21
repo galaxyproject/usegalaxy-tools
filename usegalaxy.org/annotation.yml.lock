@@ -513,6 +513,7 @@ tools:
 - name: miniprot_index
   owner: iuc
   revisions:
+  - 438287deae4b
   - aeb4c76d007b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
