@@ -52,6 +52,7 @@ tools:
   owner: devteam
   revisions:
   - 02a5f43cd5d1
+  - 191e43b329f6
   - 77b41c89d856
   - 8979c288aefb
   - e282bc27be9a
@@ -213,12 +214,14 @@ tools:
   - 391a19477a12
   - 39881709807e
   - 3e81299dfce3
+  - 601575b847c0
   - 8dbc700cb940
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: msconvert
   owner: galaxyp
   revisions:
+  - 28ffaaa5739f
   - 331a50e8fd2f
   - 3cf310697624
   - 545054b15d7c

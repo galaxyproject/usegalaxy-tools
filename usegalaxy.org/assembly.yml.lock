@@ -92,6 +92,7 @@ tools:
   - 9638ba70882c
   - 99ecfdafc64f
   - e731ea24e48d
+  - f192c2fbe13f
   - fd128c111ab0
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -122,6 +123,7 @@ tools:
   - 28189050e437
   - 53c2bc8c2ae3
   - 59be68ba26c2
+  - 5bd3f053c303
   - 5fc94b3a4704
   - 675ee1aa5952
   - 9e58ff014088
@@ -137,6 +139,7 @@ tools:
   - a9aa4115cb68
   - b65a43f70b99
   - d159735a6a9f
+  - d5645713603a
   - d5fb354f745d
   - dc5d1a54054b
   - de1260f8a300
@@ -153,12 +156,14 @@ tools:
   - c5c4fa59be65
   - c8097e741b13
   - e5a3b75a271f
+  - edac5e292b7f
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades_coronaspades
   owner: iuc
   revisions:
   - 152ff7d1817a
+  - 2cf8a2028ddc
   - 34305b013402
   - 4ae660dd1fb6
   - 655fa188c3cc
@@ -172,6 +177,7 @@ tools:
   owner: iuc
   revisions:
   - 051fd2db8a27
+  - 5e7a2a927b56
   - 604782a8a53a
   - 60b8f1668552
   - 7490b213baa9
@@ -186,6 +192,7 @@ tools:
   revisions:
   - 1708851f8804
   - 340bc17f49cf
+  - 388dbecbf03b
   - 5be72b7648fa
   - 75405f5e2cc5
   - 7bb235ff0746
@@ -205,6 +212,7 @@ tools:
   - 9de69775f512
   - e060c3987513
   - ea83ac535a1f
+  - ed32d95f436a
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: shovill
@@ -224,6 +232,7 @@ tools:
   - 33368fec3b70
   - 65d1598a9256
   - 7897763d14ec
+  - 822954de3f59
   - b512435320e3
   - b8c00ce5dfa0
   - d5887ace0dd4
@@ -555,6 +564,7 @@ tools:
 - name: fastk_logex
   owner: iuc
   revisions:
+  - 0cae005d8c4c
   - 73ddd200456a
   - ec82f2b95e89
   tool_panel_section_id: assembly
