@@ -34,6 +34,7 @@ tools:
 - name: binary2labelimage
   owner: imgteam
   revisions:
+  - 7f8102bdbfa1
   - 984358e43242
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
