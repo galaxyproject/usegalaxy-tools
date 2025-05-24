@@ -54,6 +54,7 @@ tools:
   - 1e1291983bc7
   - 3e954e7125bf
   - a5937157062f
+  - e698621cca1f
   - ef2c525bd8cd
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling

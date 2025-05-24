@@ -58,6 +58,7 @@ tools:
 - name: fastx_quality_statistics
   owner: devteam
   revisions:
+  - 48c943a0290a
   - 59003d0543cd
   - cc0fd298cc17
   tool_panel_section_id: fastq_quality_control
@@ -66,6 +67,7 @@ tools:
   owner: devteam
   revisions:
   - 21796f46e0ba
+  - 751878fa37e5
   - ad116ae3f4d9
   - b6b54ba71bd8
   tool_panel_section_id: fastq_quality_control
@@ -74,6 +76,7 @@ tools:
   owner: devteam
   revisions:
   - 3987db70a4b0
+  - 47df89f900a4
   - 7cf5b1d072b5
   - 867ab348287d
   tool_panel_section_id: fastq_quality_control

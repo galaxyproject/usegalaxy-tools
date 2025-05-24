@@ -674,6 +674,7 @@ tools:
 - name: gtdbtk_classify_wf
   owner: iuc
   revisions:
+  - 30a4bdf88e14
   - 4d9445dff47b
   - c30adf839acd
   tool_panel_section_id: metagenomic_analysis
@@ -833,6 +834,7 @@ tools:
   revisions:
   - 76b57044069d
   - d730086e1432
+  - f54e7b3da33c
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: coverm_genome
