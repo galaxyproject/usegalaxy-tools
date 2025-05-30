@@ -13,3 +13,9 @@ tools:
   - eaa8cead8adb
   tool_panel_section_id: interactive_tools
   tool_panel_section_label: Interactive Tools
+- name: interactive_tool_rstudio_bioconductor
+  owner: enis
+  revisions:
+  - 8f95c3031339
+  tool_panel_section_id: interactive_tools
+  tool_panel_section_label: Interactive Tools
