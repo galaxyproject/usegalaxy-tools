@@ -2,5 +2,5 @@ tool_panel_section_label: Interactive Tools
 tools:
 - name: chatanalysis
   owner: goeckslab
-- name: rstudio_bioconductor_it
+- name: interactive_tool_rstudio_bioconductor
   owner: enis
