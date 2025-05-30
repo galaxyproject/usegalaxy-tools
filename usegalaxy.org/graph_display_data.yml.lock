@@ -167,6 +167,7 @@ tools:
   owner: iuc
   revisions:
   - 10515715c940
+  - 15cebddc6dba
   - 1a72f938213e
   - 3d059e9c2fba
   - a4d83ba2a1bc
@@ -182,6 +183,7 @@ tools:
   - 355a82227003
   - 497d700a5229
   - 536078949ae4
+  - 6b9816a913de
   - 6fc8bab811da
   - b0d96516e6a5
   - fb50ab943396
@@ -191,6 +193,7 @@ tools:
   owner: iuc
   revisions:
   - 1b9406a1a769
+  - 1df3b30325dd
   - 2bf238af068d
   - 7f2ef7216cf8
   - 90928b255abb
@@ -211,6 +214,7 @@ tools:
   - 9cec81e1b90e
   - a36551483a8f
   - d0fc8b746d57
+  - f87634b12749
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_violin
@@ -219,6 +223,7 @@ tools:
   - 0e7290688b50
   - 17b666467c32
   - 637cf21db396
+  - 63d211052ffb
   - 9c52a8130729
   - d6c41b454cc1
   - d8305f18060e
@@ -313,6 +318,7 @@ tools:
 - name: volcanoplot
   owner: iuc
   revisions:
+  - 11c344627e52
   - 2f557f6abbfb
   - 5e08a1e22dbc
   - 73b8cb5bddcd

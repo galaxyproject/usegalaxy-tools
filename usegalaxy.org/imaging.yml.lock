@@ -34,6 +34,7 @@ tools:
 - name: binary2labelimage
   owner: imgteam
   revisions:
+  - 7f8102bdbfa1
   - 984358e43242
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
@@ -60,6 +61,7 @@ tools:
   owner: goeckslab
   revisions:
   - 068da7f7cd83
+  - 97be83fc3677
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: scimap_mcmicro_to_anndata
