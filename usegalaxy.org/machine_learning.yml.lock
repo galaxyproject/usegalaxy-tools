@@ -8,6 +8,7 @@ tools:
   revisions:
   - 009b18a75dc3
   - 02f7746e7772
+  - 4aa511539199
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: pycaret_predict
@@ -15,6 +16,7 @@ tools:
   revisions:
   - 0314dad38aaa
   - 4a7df9abe4c4
+  - ccd798db5abb
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: model_prediction
