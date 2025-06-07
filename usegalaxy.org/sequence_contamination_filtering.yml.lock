@@ -6,6 +6,7 @@ tools:
 - name: ncbi_fcs_gx
   owner: iuc
   revisions:
+  - 04036a60676b
   - 2559b7ce2114
   - 32d058f3462a
   - 3cdb96f2855d

@@ -584,6 +584,7 @@ tools:
 - name: omark
   owner: iuc
   revisions:
+  - 0291e0e81551
   - 6f570ba54b41
   - ceb52582a5b1
   tool_panel_section_id: annotation
