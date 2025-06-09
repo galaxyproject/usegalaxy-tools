@@ -22,3 +22,11 @@ tools:
   owner: goeckslab
 - name: scimap_phenotyping
   owner: goeckslab
+- name: squidpy_scatter
+  owner: goeckslab
+- name: squidpy_spatial
+  owner: goeckslab
+- name: backsub
+  owner: goeckslab
+- name: scimap_plotting
+  owner: goeckslab
