@@ -549,6 +549,12 @@ tools:
   - 7075b7a5441b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: icescreen
+  owner: iuc
+  revisions:
+  - cca2a89210ae
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
 - name: integron_finder
   owner: iuc
   revisions:
