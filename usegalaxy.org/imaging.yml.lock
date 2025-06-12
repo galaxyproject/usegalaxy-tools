@@ -69,11 +69,13 @@ tools:
   owner: goeckslab
   revisions:
   - 49c178651194
+  - b1ead1b7e0aa
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: scimap_phenotyping
   owner: goeckslab
   revisions:
+  - 37dc4f51e827
   - 88fca6e905be
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
@@ -98,6 +100,7 @@ tools:
 - name: scimap_plotting
   owner: goeckslab
   revisions:
+  - 05a8d9dea3df
   - ef73596d678a
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
