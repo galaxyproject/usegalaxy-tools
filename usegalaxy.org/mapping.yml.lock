@@ -122,6 +122,7 @@ tools:
   - 45795f582ae9
   - 5ef7ec16b04f
   - 79b885ce78d7
+  - a00cceb45700
   - a6fba3d92531
   - e403d27e8f24
   - ec9cbd6b9a49
@@ -134,6 +135,7 @@ tools:
   - b4a22d90cce9
   - bec6ba059ded
   - bfaa0d22c2e4
+  - d459a463cb73
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: pileometh

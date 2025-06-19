@@ -7,6 +7,7 @@ tools:
   owner: iuc
   revisions:
   - 20e2f64aa1fe
+  - 241a78eb2935
   - 328c607150ff
   - 4a9da2b6c2e3
   - cdee7158adf3
@@ -17,6 +18,7 @@ tools:
   owner: bgruening
   revisions:
   - 1e3323a44643
+  - 20d92dc4c6cb
   - 54f751e413f4
   - 60f307965815
   - 62c9df8382c2
@@ -589,6 +591,7 @@ tools:
   revisions:
   - 591175c0f051
   - 612df2a5054f
+  - 613ee22af97c
   - 76bf12b928f4
   - cfb53a01abc5
   - d4fbfd31696c
@@ -673,6 +676,7 @@ tools:
 - name: gtdbtk_classify_wf
   owner: iuc
   revisions:
+  - 30a4bdf88e14
   - 4d9445dff47b
   - c30adf839acd
   tool_panel_section_id: metagenomic_analysis
@@ -821,11 +825,18 @@ tools:
   - 7834132949bc
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: drep_compare
+  owner: iuc
+  revisions:
+  - f0334664a47b
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
 - name: drep_dereplicate
   owner: iuc
   revisions:
   - 76b57044069d
   - d730086e1432
+  - f54e7b3da33c
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: coverm_genome
@@ -844,5 +855,18 @@ tools:
   owner: iuc
   revisions:
   - a6f820992693
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: checkv_end_to_end
+  owner: ufz
+  revisions:
+  - e523d50513a4
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: genomad_end_to_end
+  owner: ufz
+  revisions:
+  - 26f5822743aa
+  - edb671f0661e
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis

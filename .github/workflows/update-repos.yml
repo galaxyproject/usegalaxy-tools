@@ -34,3 +34,5 @@ jobs:
         with:
             token: ${{ secrets.GITHUB_TOKEN }}
             title: Update all repos ${{ steps.date.outputs.date }}
+            branch: trusted-tool-updates
+            branch-suffix: timestamp

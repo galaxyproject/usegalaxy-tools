@@ -21,6 +21,7 @@ tools:
   owner: imgteam
   revisions:
   - 3df9f0a4bf34
+  - 50fa6150e340
   - 699a5e9146b3
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
@@ -34,6 +35,7 @@ tools:
 - name: binary2labelimage
   owner: imgteam
   revisions:
+  - 7f8102bdbfa1
   - 984358e43242
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
@@ -60,17 +62,45 @@ tools:
   owner: goeckslab
   revisions:
   - 068da7f7cd83
+  - 70c8be4d59e9
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: scimap_mcmicro_to_anndata
   owner: goeckslab
   revisions:
   - 49c178651194
+  - b1ead1b7e0aa
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: scimap_phenotyping
   owner: goeckslab
   revisions:
+  - 37dc4f51e827
   - 88fca6e905be
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: squidpy_scatter
+  owner: goeckslab
+  revisions:
+  - b84c324b58bd
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: squidpy_spatial
+  owner: goeckslab
+  revisions:
+  - 2a5036c29889
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: backsub
+  owner: goeckslab
+  revisions:
+  - bf9f98a7f936
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: scimap_plotting
+  owner: goeckslab
+  revisions:
+  - 05a8d9dea3df
+  - ef73596d678a
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging

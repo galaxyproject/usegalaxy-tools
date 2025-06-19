@@ -133,3 +133,22 @@ tools:
   - dbf2735e8480
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
+- name: vibrant_build_database
+  owner: ufz
+  revisions:
+  - e0faddfd9cf9
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: checkv_build_database
+  owner: ufz
+  revisions:
+  - 7e80c69020f7
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: genomad_build_database
+  owner: ufz
+  revisions:
+  - 34b729713d0c
+  - 75abfb03b635
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers

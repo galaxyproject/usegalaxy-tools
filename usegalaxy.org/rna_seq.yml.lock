@@ -43,6 +43,7 @@ tools:
   owner: iuc
   revisions:
   - 1b851f87fbe0
+  - 30f6985f0ac7
   - 38b6d12edc68
   - 5dbff3a5845a
   - 6f66ae7c5f7a
@@ -95,6 +96,7 @@ tools:
   owner: bgruening
   revisions:
   - 1e3323a44643
+  - 20d92dc4c6cb
   - 54f751e413f4
   - 60f307965815
   - 62c9df8382c2
@@ -164,6 +166,7 @@ tools:
   - b9e04854e2bb
   - c772497b2c32
   - d5659efd66aa
+  - de21b616f03a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: cummerbund
@@ -185,6 +188,7 @@ tools:
   owner: iuc
   revisions:
   - 0f710191a66d
+  - 31d5c8c3adde
   - 3c5e024a18cf
   - 3c97c841a443
   - f99dd58de04f

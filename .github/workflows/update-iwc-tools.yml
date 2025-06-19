@@ -36,3 +36,5 @@ jobs:
         with:
             token: ${{ secrets.GITHUB_TOKEN }}
             title: Install IWC tools ${{ steps.date.outputs.date }}
+            branch: iwc-update
+            branch-suffix: timestamp

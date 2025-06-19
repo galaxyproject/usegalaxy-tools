@@ -344,5 +344,6 @@ tools:
   owner: iuc
   revisions:
   - c4ff13d2aab3
+  - f4f7f632815d
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM

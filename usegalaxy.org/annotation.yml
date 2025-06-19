@@ -146,4 +146,5 @@ tools:
   owner: iuc
 - name: tapscan
   owner: bgruening
-  
+- name: staramr
+  owner: iuc
