@@ -225,6 +225,7 @@ tools:
 - name: deg_annotate
   owner: iuc
   revisions:
+  - e81fbbea6e8f
   - e98d4ab5b5bc
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq

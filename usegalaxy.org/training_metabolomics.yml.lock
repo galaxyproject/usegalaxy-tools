@@ -95,12 +95,14 @@ tools:
   revisions:
   - 2ec9253a647e
   - da7722f665f4
+  - f52181a205d3
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: ramclustr_define_experiment
   owner: recetox
   revisions:
   - 25625114618e
+  - ef3cbcdf5f5d
   - f2c1d0bbb074
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
