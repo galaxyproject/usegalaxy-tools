@@ -16,6 +16,7 @@ tools:
   revisions:
   - 0314dad38aaa
   - 4a7df9abe4c4
+  - afd0864d18b6
   - ccd798db5abb
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
