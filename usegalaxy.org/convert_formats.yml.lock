@@ -165,6 +165,7 @@ tools:
   revisions:
   - 356dc923f8d3
   - 3c6f9e8a4c17
+  - 6e1aa95afa75
   - 8067dfa00ed2
   - e9bbe2f71784
   tool_panel_section_id: convert_formats
@@ -287,6 +288,7 @@ tools:
   owner: iuc
   revisions:
   - 3c19c84fbce2
+  - 98c227b9be71
   - a40dd4fd3096
   - d9965e143053
   tool_panel_section_id: convert_formats

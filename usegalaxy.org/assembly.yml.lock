@@ -352,6 +352,7 @@ tools:
   owner: iuc
   revisions:
   - 02831bf9e95f
+  - 0346286a3b0a
   - 2b16ba799da9
   - 511e5e3cd55e
   - 79b48f02db49
@@ -368,6 +369,7 @@ tools:
   - 44c66e8d21e6
   - 6c571966cfb9
   - 7c9417381ad5
+  - 9ec9c22767c8
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pretext_graph
@@ -375,6 +377,7 @@ tools:
   revisions:
   - 408ece2e4647
   - 75b4a2298714
+  - 936a1edffce8
   - eca7d3a0c5f2
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -443,12 +446,14 @@ tools:
   - 5412142130ad
   - 55a53b5e308d
   - 56bb29747b4d
+  - 914533f3507e
   - c162f3c43442
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pairtools_parse
   owner: iuc
   revisions:
+  - 2131d908a798
   - 44cb74c154bc
   - 678f10bb377e
   - 963d674e438d
@@ -463,6 +468,7 @@ tools:
   - 5fd78abb0d81
   - 8cffb8fc34f0
   - 8ed44487c834
+  - f695bf165247
   - fdd073110081
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -474,11 +480,13 @@ tools:
   - 53d73d58e105
   - a7035be049e4
   - c46d1454f3a1
+  - f4b5f58b89bf
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pairtools_stats
   owner: iuc
   revisions:
+  - 3191d425e302
   - 6cbca5661205
   - 7f71687c8146
   - 81fc1418fbfb
