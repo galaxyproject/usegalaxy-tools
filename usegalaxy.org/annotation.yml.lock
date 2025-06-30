@@ -205,14 +205,15 @@ tools:
   owner: richard-burhans
   revisions:
   - 1429b9638055
+  - 192174c3b91b
   - 21d4de0e41fc
   - 27b73b9f84c0
+  - 304fe17cd5b3
+  - 5515f982baf6
   - 588b73318a45
-  - 5c322fda4344
-  - 6611881d27ce
-  - 67b793424b0c
-  - 8ada50a892fa
-  - a77f693df58c
+  - 5cf3344c8afc
+  - 96000184dd1e
+  - b0f07e3d6f07
   - ff65a73f5379
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
