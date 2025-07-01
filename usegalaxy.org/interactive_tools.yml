@@ -4,3 +4,5 @@ tools:
   owner: goeckslab
 - name: interactive_tool_rstudio_bioconductor
   owner: enis
+- name: physicell_studio
+  owner: rheiland
