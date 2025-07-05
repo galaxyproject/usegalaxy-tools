@@ -831,6 +831,7 @@ tools:
 - name: binette
   owner: iuc
   revisions:
+  - 15dba9749732
   - 1d97ddbc3464
   - 7834132949bc
   tool_panel_section_id: metagenomic_analysis
