@@ -6,7 +6,7 @@ tools:
 - name: image_learner
   owner: goeckslab
   revisions:
-  - 54b871dfc51e
+  - 2c3a3dfaf1a9
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: pycaret_compare
