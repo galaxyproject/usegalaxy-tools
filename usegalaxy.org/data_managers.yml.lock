@@ -148,6 +148,7 @@ tools:
 - name: genomad_build_database
   owner: ufz
   revisions:
+  - 34b729713d0c
   - 75abfb03b635
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers

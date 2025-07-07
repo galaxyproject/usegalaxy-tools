@@ -370,6 +370,7 @@ tools:
   revisions:
   - 31e5e6d606ef
   - 53a251c6d991
+  - 7ef2403a250d
   - 825dfd66e3fb
   - a4774b7b2e85
   tool_panel_section_id: single_cell
@@ -666,6 +667,7 @@ tools:
   owner: ebi-gxa
   revisions:
   - 09c833d9b03b
+  - 2557d7869e78
   - 508a93e34599
   - ef054892d47f
   tool_panel_section_id: single_cell

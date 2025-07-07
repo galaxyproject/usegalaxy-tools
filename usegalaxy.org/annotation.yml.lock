@@ -204,16 +204,8 @@ tools:
 - name: ncbi_egapx
   owner: richard-burhans
   revisions:
-  - 1429b9638055
-  - 21d4de0e41fc
-  - 27b73b9f84c0
-  - 588b73318a45
-  - 5c322fda4344
-  - 6611881d27ce
-  - 67b793424b0c
-  - 8ada50a892fa
-  - a77f693df58c
-  - ff65a73f5379
+  - 4f85da43b40c
+  - b0f07e3d6f07
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: optitype
@@ -584,6 +576,7 @@ tools:
 - name: omark
   owner: iuc
   revisions:
+  - 0291e0e81551
   - 6f570ba54b41
   - ceb52582a5b1
   tool_panel_section_id: annotation

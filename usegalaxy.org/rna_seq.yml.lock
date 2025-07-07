@@ -96,6 +96,7 @@ tools:
   owner: bgruening
   revisions:
   - 1e3323a44643
+  - 20d92dc4c6cb
   - 54f751e413f4
   - 60f307965815
   - 62c9df8382c2
@@ -165,6 +166,7 @@ tools:
   - b9e04854e2bb
   - c772497b2c32
   - d5659efd66aa
+  - de21b616f03a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: cummerbund
@@ -223,6 +225,7 @@ tools:
 - name: deg_annotate
   owner: iuc
   revisions:
+  - e81fbbea6e8f
   - e98d4ab5b5bc
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq

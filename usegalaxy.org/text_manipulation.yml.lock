@@ -65,6 +65,7 @@ tools:
   - 60edf2f8c28f
   - 86755160afbf
   - 9ff72e942410
+  - c41d78ae5fee
   - d698c222f354
   - ddf54b12c295
   - e39fceb6ab85
@@ -118,6 +119,7 @@ tools:
   - 56a8da1f2243
   - 60ff16842fcd
   - 93a3ce78ce55
+  - cd36d6e45e29
   - dddadbbac949
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
