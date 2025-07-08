@@ -208,4 +208,9 @@ tools:
   owner: ufz
 - name: genomad_end_to_end
   owner: ufz
-
+- name: phi_toolkit_report
+  owner: ufz
+- name: defense_finder
+  owner: rplanel
+- name: iphop_predict
+  owner: ufz
