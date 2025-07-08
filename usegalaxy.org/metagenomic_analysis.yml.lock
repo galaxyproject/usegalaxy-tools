@@ -893,3 +893,21 @@ tools:
   - 6c1ac7640090
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: phi_toolkit_report
+  owner: ufz
+  revisions:
+  - 315c2ed31af1
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: defense_finder
+  owner: rplanel
+  revisions:
+  - 71e221c4906c
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: iphop_predict
+  owner: ufz
+  revisions:
+  - d357350b6da0
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis

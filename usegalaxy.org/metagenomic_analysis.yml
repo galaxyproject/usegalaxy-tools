@@ -212,3 +212,9 @@ tools:
   owner: bgruening
 - name: sylph_profile
   owner: bgruening
+- name: phi_toolkit_report
+  owner: ufz
+- name: defense_finder
+  owner: rplanel
+- name: iphop_predict
+  owner: ufz
