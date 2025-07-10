@@ -220,6 +220,6 @@ tools:
 - name: rdeval
   owner: richard-burhans
   revisions:
-  - fdad714d7caf
+  - 37d67c252fed
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
