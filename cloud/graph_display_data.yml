@@ -12,3 +12,5 @@ tools:
   owner: iuc
 - name: ggplot2_heatmap2
   owner: iuc
+- name: pe_histogram
+  owner: iuc
