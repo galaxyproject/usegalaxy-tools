@@ -216,9 +216,5 @@ tools:
   owner: ufz
 - name: defense_finder
   owner: rplanel
-- name: data_manager_defense_finder
-  owner: rplanel
 - name: iphop_predict
-  owner: ufz
-- name: iphop_build_database
   owner: ufz

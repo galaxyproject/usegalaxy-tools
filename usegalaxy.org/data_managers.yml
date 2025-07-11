@@ -42,3 +42,7 @@ tools:
   owner: ufz
 - name: genomad_build_database
   owner: ufz
+- name: data_manager_defense_finder
+  owner: rplanel
+- name: iphop_build_database
+  owner: ufz

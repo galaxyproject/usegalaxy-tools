@@ -905,21 +905,9 @@ tools:
   - 71e221c4906c
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
-- name: data_manager_defense_finder
-  owner: rplanel
-  revisions:
-  - 502208b90cfe
-  tool_panel_section_id: metagenomic_analysis
-  tool_panel_section_label: Metagenomic Analysis
 - name: iphop_predict
   owner: ufz
   revisions:
   - d357350b6da0
-  tool_panel_section_id: metagenomic_analysis
-  tool_panel_section_label: Metagenomic Analysis
-- name: iphop_build_database
-  owner: ufz
-  revisions:
-  - 39dc692a9554
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis

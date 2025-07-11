@@ -152,3 +152,15 @@ tools:
   - 75abfb03b635
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
+- name: data_manager_defense_finder
+  owner: rplanel
+  revisions:
+  - 502208b90cfe
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: iphop_build_database
+  owner: ufz
+  revisions:
+  - 39dc692a9554
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
