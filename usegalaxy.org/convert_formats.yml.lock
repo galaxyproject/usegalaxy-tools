@@ -99,6 +99,7 @@ tools:
   - 158b5b2a164a
   - 60ca8d013263
   - 6ee334657360
+  - 908df9a9f86b
   - e13f565068d6
   - e5340c09200a
   tool_panel_section_id: convert_formats
@@ -108,6 +109,7 @@ tools:
   revisions:
   - 50b7875a49d0
   - 91efc13d3ec1
+  - b1c12a94db6f
   - cdbdce00f5f6
   - ee86b27291b5
   - f4a70882a71b
@@ -118,6 +120,7 @@ tools:
   revisions:
   - 282a658c6569
   - 5f893ed3c5ed
+  - 754f70dd85ae
   - e72c320c17c1
   - e8d84292e510
   - f7229c8445da
@@ -132,12 +135,14 @@ tools:
   - 97979c3d179f
   - b21851ddcc79
   - d4965adac10c
+  - d8649c4e4c3a
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: crossmap_gff
   owner: iuc
   revisions:
   - 09c6a9e067f9
+  - 0eb744382179
   - 42b239a32349
   - 4d97434ea0fb
   - 75a08e10cc76
@@ -165,6 +170,7 @@ tools:
   revisions:
   - 356dc923f8d3
   - 3c6f9e8a4c17
+  - 6e1aa95afa75
   - 8067dfa00ed2
   - e9bbe2f71784
   tool_panel_section_id: convert_formats
@@ -273,6 +279,7 @@ tools:
   revisions:
   - 3a4256d4f079
   - a6540beef35f
+  - bb486fb0103d
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: ucsc_axttomaf
@@ -280,6 +287,7 @@ tools:
   revisions:
   - 31a442afee19
   - 8990ed3ff747
+  - 92c81e03341c
   - f063c97a7f8f
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -287,6 +295,7 @@ tools:
   owner: iuc
   revisions:
   - 3c19c84fbce2
+  - 98c227b9be71
   - a40dd4fd3096
   - d9965e143053
   tool_panel_section_id: convert_formats
@@ -295,5 +304,6 @@ tools:
   owner: iuc
   revisions:
   - 55efc5c37c16
+  - d8807bae7b3f
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
