@@ -1,6 +1,6 @@
 tool_panel_section_label: Machine Learning
 tools:
-- name: tabular_learner
+- name: image_learner
   owner: goeckslab
 - name: pycaret_compare
   owner: goeckslab
