@@ -1,4 +1,4 @@
 common_toolset/*             @natefoo
-usegalaxy.org/*              @natefoo @martenson
+usegalaxy.org/*              @natefoo
 
 # Order is important. The last matching pattern has the most precedence.
