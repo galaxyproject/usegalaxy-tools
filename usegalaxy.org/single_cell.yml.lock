@@ -614,6 +614,7 @@ tools:
   revisions:
   - 883c33ef3372
   - 90e95e9ee190
+  - f66590d0d3af
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: gsc_scran_normalize
