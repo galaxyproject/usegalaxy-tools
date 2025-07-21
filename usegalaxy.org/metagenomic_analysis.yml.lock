@@ -880,3 +880,15 @@ tools:
   - edb671f0661e
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: sylph_query
+  owner: bgruening
+  revisions:
+  - d2a4c2cb8779
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: sylph_profile
+  owner: bgruening
+  revisions:
+  - 6c1ac7640090
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
