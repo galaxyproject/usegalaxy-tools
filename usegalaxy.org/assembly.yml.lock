@@ -444,6 +444,7 @@ tools:
   - 55a53b5e308d
   - 56bb29747b4d
   - c162f3c43442
+  - 914533f3507e
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pairtools_parse
