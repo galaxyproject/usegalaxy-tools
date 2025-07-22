@@ -298,6 +298,7 @@ tools:
   revisions:
   - 3c19c84fbce2
   - 78df8fc2b3ab
+  - 98c227b9be71
   - a40dd4fd3096
   - d9965e143053
   tool_panel_section_id: variant_calling
