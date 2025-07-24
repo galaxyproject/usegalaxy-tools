@@ -79,11 +79,13 @@ tools:
   - 07cac38cbd29
   - 357df6c47d92
   - 83c4b4359ac4
+  - a6583110825c
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: matchms_formatter
   owner: recetox
   revisions:
+  - 604131c54f97
   - 6501d0287dcd
   - 715fe77be601
   - 9e3c83d2afc3
@@ -120,6 +122,7 @@ tools:
   - 071a424241ec
   - 1a2aeb8137bf
   - 6fc9f6dbcef5
+  - 821062fc5782
   - b77023c41c76
   - bf32ae95a06f
   tool_panel_section_id: metabolomics
@@ -169,6 +172,7 @@ tools:
 - name: intensity_checks
   owner: melpetera
   revisions:
+  - 2e580585782e
   - a31f3f802b2b
   - ec75de7f1e08
   tool_panel_section_id: metabolomics
