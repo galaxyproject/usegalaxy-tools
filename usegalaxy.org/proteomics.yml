@@ -52,3 +52,5 @@ tools:
   owner: galaxyp
 - name: metanovo
   owner: galaxyp
+- name: reactome_cli
+  owner: paul_wolfe
