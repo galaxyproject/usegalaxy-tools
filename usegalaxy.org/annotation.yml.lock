@@ -27,6 +27,7 @@ tools:
   - 09855551d713
   - 0fc0f9cf035a
   - 28433faa6e42
+  - 534814b64234
   - bd0e53f3a891
   - ca6d970d931c
   tool_panel_section_id: annotation
@@ -34,6 +35,7 @@ tools:
 - name: augustus_training
   owner: bgruening
   revisions:
+  - 2fdc599f2814
   - 6519ebe25019
   - 7be22100e5e1
   - aada0deea587
@@ -205,6 +207,7 @@ tools:
   owner: richard-burhans
   revisions:
   - 4f85da43b40c
+  - b095c69eab5b
   - b0f07e3d6f07
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -268,6 +271,7 @@ tools:
   - 2c68b0c38785
   - 4839e590cb26
   - 51dd22484644
+  - 60a1dad331ec
   - 809dfc93d593
   - 8cb134b8c1a5
   - ac8250086ac3
@@ -507,11 +511,13 @@ tools:
   revisions:
   - 438287deae4b
   - aeb4c76d007b
+  - e64445f727cd
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: miniprot
   owner: iuc
   revisions:
+  - 20d725740701
   - 6b20d051d0dc
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -532,6 +538,7 @@ tools:
 - name: isescan
   owner: iuc
   revisions:
+  - 81539b9ae80a
   - 9e776e7fab4f
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

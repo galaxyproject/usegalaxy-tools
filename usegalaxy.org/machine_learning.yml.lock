@@ -7,6 +7,7 @@ tools:
   owner: goeckslab
   revisions:
   - 2c3a3dfaf1a9
+  - 09904b1f61f5
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: pycaret_compare
@@ -24,6 +25,8 @@ tools:
   - 4a7df9abe4c4
   - afd0864d18b6
   - ccd798db5abb
+  - f4cb41f458fd
+  - 1aed7d47c5ec
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: model_prediction
