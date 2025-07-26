@@ -386,6 +386,7 @@ tools:
   - c0a0e79d7196
   - c5f2ce99da69
   - e7a2086a0f03
+  - e9f497a660d6
   - fc6252e78d5b
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -394,6 +395,7 @@ tools:
   revisions:
   - 0ceb9fb0f4ce
   - 1f89eeba299a
+  - 3d9253661554
   - 54acd5139cab
   - 640c0b8cc8bf
   - 948903a8555d
