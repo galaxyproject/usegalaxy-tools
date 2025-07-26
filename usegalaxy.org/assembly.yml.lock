@@ -447,9 +447,9 @@ tools:
   - 5412142130ad
   - 55a53b5e308d
   - 56bb29747b4d
+  - 608ea80cccba
   - 914533f3507e
   - c162f3c43442
-  - 914533f3507e
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pairtools_parse
@@ -458,6 +458,7 @@ tools:
   - 2131d908a798
   - 44cb74c154bc
   - 678f10bb377e
+  - 729197476fc1
   - 963d674e438d
   - b0a1f128fa15
   - d3a7b17714c1
@@ -470,6 +471,7 @@ tools:
   - 5fd78abb0d81
   - 8cffb8fc34f0
   - 8ed44487c834
+  - c1c1d894dd3a
   - f695bf165247
   - fdd073110081
   tool_panel_section_id: assembly
@@ -478,6 +480,7 @@ tools:
   owner: iuc
   revisions:
   - 060f0fed864e
+  - 0fb51c6f2e37
   - 39df08e91cdf
   - 53d73d58e105
   - a7035be049e4
@@ -494,6 +497,7 @@ tools:
   - 81fc1418fbfb
   - ade829d2ae3a
   - c20a07c9237b
+  - cfeb5205eacc
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: refseq_masher

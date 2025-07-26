@@ -6,6 +6,7 @@ tools:
 - name: tabular_learner
   owner: goeckslab
   revisions:
+  - 11fdac5affb3
   - 209b663a4f62
   - f6a65e05d6ec
   tool_panel_section_id: machine_learning
@@ -22,6 +23,7 @@ tools:
   owner: goeckslab
   revisions:
   - 0314dad38aaa
+  - 1aed7d47c5ec
   - 4a7df9abe4c4
   - afd0864d18b6
   - ccd798db5abb

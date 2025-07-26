@@ -370,6 +370,7 @@ tools:
   owner: iuc
   revisions:
   - 5854d0da92b4
+  - b1a8d09e5a82
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_coverage
