@@ -209,6 +209,7 @@ tools:
   - 4f85da43b40c
   - b095c69eab5b
   - b0f07e3d6f07
+  - d129c3d0e920
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: optitype
