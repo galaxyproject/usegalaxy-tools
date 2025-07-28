@@ -73,6 +73,7 @@ tools:
 - name: tasmanian_mismatch
   owner: iuc
   revisions:
+  - 98f2b5dfdaa9
   - b15fbf90db53
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution

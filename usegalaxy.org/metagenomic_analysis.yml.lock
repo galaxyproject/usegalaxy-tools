@@ -831,6 +831,7 @@ tools:
 - name: binette
   owner: iuc
   revisions:
+  - 15dba9749732
   - 1d97ddbc3464
   - 7834132949bc
   tool_panel_section_id: metagenomic_analysis
@@ -878,5 +879,17 @@ tools:
   revisions:
   - 26f5822743aa
   - edb671f0661e
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: sylph_query
+  owner: bgruening
+  revisions:
+  - d2a4c2cb8779
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: sylph_profile
+  owner: bgruening
+  revisions:
+  - 6c1ac7640090
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
