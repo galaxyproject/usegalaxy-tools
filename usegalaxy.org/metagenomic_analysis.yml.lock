@@ -796,6 +796,7 @@ tools:
   revisions:
   - 99ff9221182c
   - b5a7583b8db0
+  - bcb50c148f4b
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: concoct_coverage_table
@@ -897,6 +898,7 @@ tools:
   owner: ufz
   revisions:
   - 315c2ed31af1
+  - 3a7f73d638ba
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: defense_finder
