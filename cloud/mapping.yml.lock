@@ -8,6 +8,7 @@ tools:
   revisions:
   - 5cc34c3f440d
   - 66367287b4e6
+  - 6945cd53bd2d
   - f54f5baedfdd
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
@@ -21,6 +22,7 @@ tools:
 - name: bwa
   owner: devteam
   revisions:
+  - 1dfc975b48d5
   - 2477830927ec
   - 3fe632431b68
   - e188dc7a68e6
@@ -30,6 +32,7 @@ tools:
   owner: iuc
   revisions:
   - 29bdbc353f20
+  - b6b87635cf29
   - cf1322aeb137
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
@@ -49,6 +52,7 @@ tools:
   - 980d2a2e1180
   - b0f2be869d6d
   - c772497b2c32
+  - de21b616f03a
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: rna_starsolo
@@ -58,6 +62,7 @@ tools:
   - 42ce70172b72
   - 45795f582ae9
   - 79b885ce78d7
+  - a00cceb45700
   - eec9494fdafa
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping

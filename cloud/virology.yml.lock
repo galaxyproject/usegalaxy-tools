@@ -6,6 +6,7 @@ tools:
 - name: ivar_trim
   owner: iuc
   revisions:
+  - 6606a8c97889
   - a250929be21b
   - db536ad45f28
   tool_panel_section_id: virology
@@ -14,6 +15,7 @@ tools:
   owner: iuc
   revisions:
   - 5dc33613c288
+  - dec59e6af429
   - ee2beb764a7b
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
@@ -26,6 +28,7 @@ tools:
 - name: ivar_consensus
   owner: iuc
   revisions:
+  - 1c5448133894
   - 3a72fede57ce
   - 78bbd17d0703
   tool_panel_section_id: virology
@@ -33,6 +36,7 @@ tools:
 - name: ivar_filtervariants
   owner: iuc
   revisions:
+  - 161e04f498db
   - 7fe36019c073
   - fcbeda41d0ac
   tool_panel_section_id: virology
@@ -46,6 +50,7 @@ tools:
 - name: ivar_variants
   owner: iuc
   revisions:
+  - 5e5dfc9e71e2
   - abbc8041e8ec
   - f95f403841ad
   tool_panel_section_id: virology
