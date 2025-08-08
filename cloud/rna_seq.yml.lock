@@ -75,6 +75,7 @@ tools:
   revisions:
   - 1759d845181e
   - 1b851f87fbe0
+  - 30f6985f0ac7
   - 38b6d12edc68
   - 5dbff3a5845a
   - f3a5f075498f
@@ -91,6 +92,7 @@ tools:
 - name: deg_annotate
   owner: iuc
   revisions:
+  - e81fbbea6e8f
   - e98d4ab5b5bc
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq

@@ -13,6 +13,7 @@ tools:
 - name: spades
   owner: nml
   revisions:
+  - 822954de3f59
   - b8c00ce5dfa0
   - d5887ace0dd4
   tool_panel_section_id: assembly
@@ -35,6 +36,7 @@ tools:
   owner: bgruening
   revisions:
   - 3ef480892a9f
+  - 59150c883ed5
   - 764f2516d837
   - f4a3eff8ab85
   tool_panel_section_id: assembly
