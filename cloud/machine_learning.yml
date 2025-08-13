@@ -10,3 +10,5 @@ tools:
   owner: bgruening
 - name: plotly_regression_performance_plots
   owner: bgruening
+- name: tabular_learner
+  owner: goeckslab

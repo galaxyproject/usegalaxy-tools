@@ -37,3 +37,9 @@ tools:
   - 389227fa1864
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
+- name: tabular_learner
+  owner: goeckslab
+  revisions:
+  - 4bd75b45a7a1
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
