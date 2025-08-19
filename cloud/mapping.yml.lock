@@ -33,6 +33,7 @@ tools:
   revisions:
   - 29bdbc353f20
   - b6b87635cf29
+  - b7ce99273d62
   - cf1322aeb137
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
