@@ -12,3 +12,5 @@ tools:
   owner: bgruening
 - name: tabular_learner
   owner: goeckslab
+- name: image_learner
+  owner: goeckslab

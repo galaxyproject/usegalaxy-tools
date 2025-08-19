@@ -43,3 +43,9 @@ tools:
   - 4bd75b45a7a1
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
+- name: image_learner
+  owner: goeckslab
+  revisions:
+  - 85e6f4b2ad18
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
