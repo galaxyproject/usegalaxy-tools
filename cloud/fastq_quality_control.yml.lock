@@ -20,6 +20,7 @@ tools:
 - name: fastp
   owner: iuc
   revisions:
+  - 1c183b0a6cfd
   - 281054a26e41
   - 350c736075eb
   - 65b93b623c77
