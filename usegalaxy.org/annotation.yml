@@ -150,3 +150,11 @@ tools:
   owner: bgruening
 - name: staramr
   owner: iuc
+- name: ppanggolin_all
+  owner: iuc
+- name: ppanggolin_msa
+  owner: iuc
+- name: ppanggolin_projection
+  owner: iuc
+- name: ppanggolin_rarefaction
+  owner: iuc
