@@ -14,3 +14,7 @@ tools:
   owner: goeckslab
 - name: image_learner
   owner: goeckslab
+- name: ludwig_config_generator
+  owner: goeckslab
+- name: ludwig_experiment
+  owner: goeckslab
