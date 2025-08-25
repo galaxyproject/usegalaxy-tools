@@ -583,3 +583,9 @@ tools:
   - ec82f2b95e89
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: ragtag
+  owner: iuc
+  revisions:
+  - b3c3217c0cbc
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
