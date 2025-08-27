@@ -444,6 +444,7 @@ tools:
   owner: iuc
   revisions:
   - 0bc216235d4c
+  - 41faa653d86c
   - 5412142130ad
   - 55a53b5e308d
   - 56bb29747b4d
@@ -461,6 +462,7 @@ tools:
   - 729197476fc1
   - 963d674e438d
   - b0a1f128fa15
+  - bfb00f8fec97
   - d3a7b17714c1
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -469,6 +471,7 @@ tools:
   revisions:
   - 50d926b3f13d
   - 5fd78abb0d81
+  - 880d2519963f
   - 8cffb8fc34f0
   - 8ed44487c834
   - c1c1d894dd3a
@@ -483,6 +486,7 @@ tools:
   - 0fb51c6f2e37
   - 39df08e91cdf
   - 53d73d58e105
+  - 7a125af14644
   - a7035be049e4
   - c46d1454f3a1
   - f4b5f58b89bf
@@ -498,6 +502,7 @@ tools:
   - ade829d2ae3a
   - c20a07c9237b
   - cfeb5205eacc
+  - d08c53f6425b
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: refseq_masher
