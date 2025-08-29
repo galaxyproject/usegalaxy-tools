@@ -61,12 +61,6 @@ tools:
   - 42d5e40fcd0b
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
-- name: gdcwebapp
-  owner: iuc
-  revisions:
-  - 7709b8ca3296
-  tool_panel_section_id: get_data
-  tool_panel_section_label: Get Data
 - name: ncbi_acc_download
   owner: iuc
   revisions:
