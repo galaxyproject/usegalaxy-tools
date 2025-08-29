@@ -911,3 +911,9 @@ tools:
   - d357350b6da0
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: kmetashot
+  owner: lmansi
+  revisions:
+  - 50024f0c2536
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
