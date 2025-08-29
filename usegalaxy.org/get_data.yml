@@ -8,8 +8,6 @@ tools:
   owner: iuc
 - name: ebi_search_rest_results
   owner: iuc
-- name: gdcwebapp
-  owner: iuc
 - name: ncbi_acc_download
   owner: iuc
 - name: unipept
