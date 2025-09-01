@@ -911,3 +911,28 @@ tools:
   - d357350b6da0
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: cami_amber_add
+  owner: iuc
+  revisions:
+  - b0dbddc7a288
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: cami_amber_convert
+  owner: iuc
+  revisions:
+  - fac3911ad3b6
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: cami_amber_convert
+  owner: iuc
+  revisions:
+  - 848594e0be6a
+  - fac3911ad3b6
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: cami_amber
+  owner: iuc
+  revisions:
+  - 2e7b727a0e05
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
