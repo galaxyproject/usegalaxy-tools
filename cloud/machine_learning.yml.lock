@@ -48,17 +48,20 @@ tools:
   owner: goeckslab
   revisions:
   - 85e6f4b2ad18
+  - 9e912fce264c
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: ludwig_config_generator
   owner: goeckslab
   revisions:
   - 36c5fcc49286
+  - d13ba033cb84
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: ludwig_experiment
   owner: goeckslab
   revisions:
   - 78b1e3921576
+  - ec99e53e91d6
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
