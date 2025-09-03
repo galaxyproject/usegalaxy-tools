@@ -936,3 +936,15 @@ tools:
   - 2e7b727a0e05
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: biobox_add_taxid
+  owner: iuc
+  revisions:
+  - 7a9dd5efc076
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: gtdb_to_taxdump
+  owner: iuc
+  revisions:
+  - 102852801457
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
