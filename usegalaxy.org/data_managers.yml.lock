@@ -14,6 +14,7 @@ tools:
   owner: devteam
   revisions:
   - 39865c64a4e1
+  - 6754002631cd
   - 9dd107db92c2
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
@@ -21,6 +22,7 @@ tools:
   owner: devteam
   revisions:
   - 0a87b85d9911
+  - 966d4de7bf2d
   - 9e993022c762
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
@@ -54,6 +56,7 @@ tools:
   owner: iuc
   revisions:
   - d74c740bdb25
+  - e4f36467bb51
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_star_index_builder
@@ -68,6 +71,7 @@ tools:
   revisions:
   - 39a922d01b0d
   - 9c91b5015dd3
+  - b3f54bd230de
   - cb157f55b4fd
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
