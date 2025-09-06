@@ -110,6 +110,7 @@ tools:
 - name: nanoplot
   owner: iuc
   revisions:
+  - 025139097795
   - 0f1c34698076
   - 2a9afed42353
   - 645159bcee2d
