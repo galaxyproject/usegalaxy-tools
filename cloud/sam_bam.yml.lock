@@ -21,6 +21,7 @@ tools:
   revisions:
   - 0dbf49c414ae
   - 32dc5f781059
+  - 48bbbcb692ce
   - 5826298f6a73
   - b72793637686
   - c370440f901e
@@ -29,6 +30,7 @@ tools:
 - name: samtools_reheader
   owner: devteam
   revisions:
+  - 2899e5b8c52a
   - 30388d878f81
   - 85e38b31e8b3
   tool_panel_section_id: sam_bam
@@ -43,6 +45,7 @@ tools:
   owner: devteam
   revisions:
   - 4d343c1f606b
+  - 8eb649e67987
   - 970e6333f07e
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
@@ -78,12 +81,14 @@ tools:
   revisions:
   - 36677f429310
   - 740ce0a18f0d
+  - a7617eb92baf
   - cae2794d2deb
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_markdup
   owner: iuc
   revisions:
+  - 229ba92a3b55
   - 40fa6c240105
   - 83b8e36e9cbe
   - b5527cc104ab
@@ -93,12 +98,14 @@ tools:
   owner: iuc
   revisions:
   - bc0cc7bfbfe9
+  - c05afbeaf42d
   - d2df79922531
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_fastx
   owner: iuc
   revisions:
+  - 9038311ed624
   - a8d69aee190e
   - b906586a6596
   tool_panel_section_id: sam_bam
@@ -107,6 +114,7 @@ tools:
   owner: iuc
   revisions:
   - 44de678a44c4
+  - '772919943459'
   - 971dc85e9441
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
@@ -114,6 +122,7 @@ tools:
   owner: devteam
   revisions:
   - 145f6d74ff5e
+  - 1ed8ed887035
   - 24c5d43cb545
   - 541082d03bef
   tool_panel_section_id: sam_bam
@@ -128,6 +137,7 @@ tools:
 - name: samtools_bedcov
   owner: devteam
   revisions:
+  - 09652022e285
   - 6856f8a01905
   - 9149ad20699a
   tool_panel_section_id: sam_bam
@@ -136,12 +146,14 @@ tools:
   owner: devteam
   revisions:
   - 06dc50b7b711
+  - 22c2ab33cec9
   - 26b4f9f98aca
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_idxstats
   owner: devteam
   revisions:
+  - 5c25c98e2a88
   - 7a6034296ae9
   - 7def34e6cf4d
   - 811fc2d75ad4
@@ -158,6 +170,7 @@ tools:
   owner: devteam
   revisions:
   - 22970df7a40e
+  - 3ed3e1146308
   - fefd89ab563c
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
@@ -166,11 +179,13 @@ tools:
   revisions:
   - d54a4df48867
   - e613c1ad4c4c
+  - f2f2650aeade
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_mpileup
   owner: devteam
   revisions:
+  - 7df230bec125
   - b61f5d6a7f25
   - fa7ad9b89f4a
   tool_panel_section_id: sam_bam
@@ -179,6 +194,7 @@ tools:
   owner: devteam
   revisions:
   - 3c661e57a88f
+  - 69aa7277b44c
   - 88eedb4abea0
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
@@ -186,6 +202,7 @@ tools:
   owner: devteam
   revisions:
   - 108db6635177
+  - 62e4d6cdbaa7
   - 993b19f20c76
   - bd735cae4ce6
   - cb20f99fd45b
@@ -195,6 +212,7 @@ tools:
   owner: devteam
   revisions:
   - 0e60e2dd20af
+  - 72b8a3614802
   - cf1ffd88f895
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
@@ -202,6 +220,7 @@ tools:
   owner: devteam
   revisions:
   - a4a10c7924d1
+  - adc4ed59d82b
   - b8beef827165
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM

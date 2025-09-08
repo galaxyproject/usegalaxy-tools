@@ -212,3 +212,21 @@ tools:
   owner: bgruening
 - name: sylph_profile
   owner: bgruening
+- name: phi_toolkit_report
+  owner: ufz
+- name: defense_finder
+  owner: rplanel
+- name: iphop_predict
+  owner: ufz
+- name: cami_amber_add
+  owner: iuc
+- name: cami_amber_convert
+  owner: iuc
+- name: cami_amber_convert
+  owner: iuc
+- name: cami_amber
+  owner: iuc
+- name: biobox_add_taxid
+  owner: iuc
+- name: gtdb_to_taxdump
+  owner: iuc

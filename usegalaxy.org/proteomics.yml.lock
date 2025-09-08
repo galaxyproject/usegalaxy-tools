@@ -196,3 +196,9 @@ tools:
   - d6dcd3173bdf
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
+- name: reactome_cli
+  owner: paul_wolfe
+  revisions:
+  - d965cc86f7f5
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics

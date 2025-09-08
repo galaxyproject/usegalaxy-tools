@@ -132,6 +132,8 @@ tools:
   owner: iuc
 - name: plasmidfinder
   owner: iuc
+- name: icescreen
+  owner: iuc
 - name: integron_finder
   owner: iuc
 - name: bakta

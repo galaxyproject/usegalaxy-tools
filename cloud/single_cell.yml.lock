@@ -51,6 +51,7 @@ tools:
   revisions:
   - 13cf83ced60c
   - 55e35e9203cf
+  - 923dcc644832
   - 93dd15e13e6a
   - d330b3082107
   - fb9e030ffae4
@@ -64,6 +65,7 @@ tools:
   - 83609ef746e9
   - cfaf5a405371
   - e1c3c2f2a834
+  - f843b9afd94e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_manipulate
@@ -72,6 +74,7 @@ tools:
   - 3d748954434b
   - 7e8c677a7b71
   - 9bd945a03d7b
+  - be1fdce914c6
   - d1e49c3c0aa2
   - ed4996a16f7f
   tool_panel_section_id: single_cell
@@ -91,6 +94,7 @@ tools:
   - 33c0081e16c6
   - 688357ad5e61
   - 6f0d0c784f09
+  - afe044e6bc93
   - ee98d611afc6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -100,6 +104,7 @@ tools:
   - 05631436cdf1
   - 0f1aaff9b22d
   - a7b951572609
+  - c822c5c1feef
   - e98619de2776
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -246,6 +251,7 @@ tools:
   owner: iuc
   revisions:
   - 8983e7a04ba7
+  - a84a73471be7
   - aaa5da8e73a9
   - f9353ee6a0d4
   tool_panel_section_id: single_cell
@@ -253,6 +259,7 @@ tools:
 - name: scanpy_filter
   owner: iuc
   revisions:
+  - 5813f9920877
   - 5b3c1679d29b
   - 64388be6d510
   - 72a6bebab2a5
@@ -262,6 +269,7 @@ tools:
 - name: scanpy_inspect
   owner: iuc
   revisions:
+  - 3b5ef3b00cdd
   - c0a80a16560f
   - c5d3684f7c4c
   - d86cb2ce311b
@@ -270,6 +278,7 @@ tools:
 - name: scanpy_normalize
   owner: iuc
   revisions:
+  - 4766556db52c
   - 4bda4412b8c2
   - 9f354c7c8c92
   - ab55fe8030b6
@@ -279,6 +288,7 @@ tools:
   owner: iuc
   revisions:
   - 1072ce66b426
+  - 5a5468c0d26f
   - 62acdd96d4a0
   - a8f865950ac4
   - aa0c474463c2
@@ -287,6 +297,7 @@ tools:
 - name: scanpy_remove_confounders
   owner: iuc
   revisions:
+  - 458d4ab0f894
   - a39040ae0a38
   - bf2017df9837
   - c5541bfb8feb
@@ -325,6 +336,7 @@ tools:
   revisions:
   - 54f1212d26ac
   - 6aa025ea64d3
+  - 7ef2403a250d
   - a4774b7b2e85
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
