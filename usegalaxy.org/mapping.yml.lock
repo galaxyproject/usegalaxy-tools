@@ -206,6 +206,7 @@ tools:
   - a68e128cdb1a
   - aa5586d83ae3
   - d10e7502aba8
+  - f6090d2a5722
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: winnowmap
