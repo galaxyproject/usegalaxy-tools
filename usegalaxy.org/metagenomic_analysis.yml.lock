@@ -968,5 +968,9 @@ tools:
   owner: iuc
   revisions:
   - '102852801457'
+- name: kmetashot
+  owner: lmansi
+  revisions:
+  - 50024f0c2536
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis

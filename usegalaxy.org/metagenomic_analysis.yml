@@ -230,3 +230,5 @@ tools:
   owner: iuc
 - name: gtdb_to_taxdump
   owner: iuc
+- name: kmetashot
+  owner: lmansi
