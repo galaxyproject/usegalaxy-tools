@@ -970,3 +970,9 @@ tools:
   - '102852801457'
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: name2taxid
+  owner: iuc
+  revisions:
+  - 954448bad930
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
