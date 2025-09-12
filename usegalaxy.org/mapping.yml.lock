@@ -89,6 +89,7 @@ tools:
   - 6da3972210ee
   - a6ea26c1f225
   - b4e6819b25ef
+  - b7ce99273d62
   - cf1322aeb137
   - d82648ad25a3
   tool_panel_section_id: mapping
@@ -103,6 +104,7 @@ tools:
   - 53c0b7a1a0c3
   - 5cc34c3f440d
   - 66367287b4e6
+  - 6945cd53bd2d
   - 77b2770508f6
   - 8c6cd2650d1f
   - 92678fcb1a5f
@@ -174,6 +176,7 @@ tools:
 - name: kegalign
   owner: richard-burhans
   revisions:
+  - 090cbf2cb339
   - 371e4e21d5de
   - 544ea81a6914
   tool_panel_section_id: mapping
@@ -201,9 +204,11 @@ tools:
   - 43e72105f473
   - 4cd7884635c2
   - 78c4cef2b5a9
+  - 79182c2a8c80
   - a68e128cdb1a
   - aa5586d83ae3
   - d10e7502aba8
+  - f6090d2a5722
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: winnowmap

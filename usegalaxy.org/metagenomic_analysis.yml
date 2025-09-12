@@ -218,5 +218,17 @@ tools:
   owner: rplanel
 - name: iphop_predict
   owner: ufz
+- name: cami_amber_add
+  owner: iuc
+- name: cami_amber_convert
+  owner: iuc
+- name: cami_amber_convert
+  owner: iuc
+- name: cami_amber
+  owner: iuc
+- name: biobox_add_taxid
+  owner: iuc
+- name: gtdb_to_taxdump
+  owner: iuc
 - name: kmetashot
   owner: lmansi
