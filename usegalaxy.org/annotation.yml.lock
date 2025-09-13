@@ -607,5 +607,6 @@ tools:
   owner: iuc
   revisions:
   - 59d308975e63
+  - 6d5c8a6ceea0
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
