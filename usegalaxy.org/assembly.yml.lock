@@ -440,7 +440,7 @@ tools:
   - f73ab5187eed
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
-- name: pairtools_dedup
+- name: pairtools_dedup 
   owner: iuc
   revisions:
   - 0bc216235d4c
