@@ -176,6 +176,7 @@ tools:
 - name: kegalign
   owner: richard-burhans
   revisions:
+  - 090cbf2cb339
   - 371e4e21d5de
   - 544ea81a6914
   tool_panel_section_id: mapping
@@ -203,6 +204,7 @@ tools:
   - 43e72105f473
   - 4cd7884635c2
   - 78c4cef2b5a9
+  - 79182c2a8c80
   - a68e128cdb1a
   - aa5586d83ae3
   - d10e7502aba8

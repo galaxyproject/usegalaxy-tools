@@ -445,6 +445,7 @@ tools:
   revisions:
   - 0bc216235d4c
   - 41faa653d86c
+  - 52c601d961b6
   - 5412142130ad
   - 55a53b5e308d
   - 56bb29747b4d
@@ -463,6 +464,7 @@ tools:
   - 678f10bb377e
   - 729197476fc1
   - 963d674e438d
+  - 987ed7d8e152
   - b0a1f128fa15
   - bfb00f8fec97
   - d3a7b17714c1
@@ -476,6 +478,7 @@ tools:
   - 880d2519963f
   - 8cffb8fc34f0
   - 8ed44487c834
+  - a04537c14c07
   - c1c1d894dd3a
   - ceeb94f87ba6
   - f695bf165247
@@ -491,6 +494,7 @@ tools:
   - 53d73d58e105
   - 74369eb1765b
   - 7a125af14644
+  - 9bbff7ee1077
   - a7035be049e4
   - c46d1454f3a1
   - f4b5f58b89bf
@@ -499,6 +503,7 @@ tools:
 - name: pairtools_stats
   owner: iuc
   revisions:
+  - 0c303ccc6cd5
   - 3191d425e302
   - 6cbca5661205
   - 7f71687c8146
@@ -591,5 +596,11 @@ tools:
   - 0cae005d8c4c
   - 73ddd200456a
   - ec82f2b95e89
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: ragtag
+  owner: iuc
+  revisions:
+  - b3c3217c0cbc
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

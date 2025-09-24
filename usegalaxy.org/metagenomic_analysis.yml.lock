@@ -562,6 +562,12 @@ tools:
   - 43f9ca23c132
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: mash_dist
+  owner: iuc
+  revisions:
+  - 10cf5017bf01
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
 - name: metabat2
   owner: iuc
   revisions:
@@ -968,5 +974,11 @@ tools:
   owner: iuc
   revisions:
   - '102852801457'
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: name2taxid
+  owner: iuc
+  revisions:
+  - 954448bad930
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
