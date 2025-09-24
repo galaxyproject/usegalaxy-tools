@@ -553,12 +553,14 @@ tools:
 - name: mash
   owner: iuc
   revisions:
+  - 23d6489e2604
   - 86dec4abcea8
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: mash_sketch
   owner: iuc
   revisions:
+  - 3852f36e3154
   - 43f9ca23c132
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -566,6 +568,13 @@ tools:
   owner: iuc
   revisions:
   - 10cf5017bf01
+  - 8249e5aa200c
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: mash_paste
+  owner: iuc
+  revisions:
+  - 3b275e1a1581
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: metabat2
