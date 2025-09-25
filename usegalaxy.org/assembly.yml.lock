@@ -444,6 +444,7 @@ tools:
   owner: iuc
   revisions:
   - 0bc216235d4c
+  - 3d1d241ceff2
   - 41faa653d86c
   - 52c601d961b6
   - 5412142130ad
@@ -465,6 +466,7 @@ tools:
   - 729197476fc1
   - 963d674e438d
   - 987ed7d8e152
+  - a5876cca7b05
   - b0a1f128fa15
   - bfb00f8fec97
   - d3a7b17714c1
@@ -480,6 +482,7 @@ tools:
   - 8ed44487c834
   - a04537c14c07
   - c1c1d894dd3a
+  - cbc4a0eb290a
   - ceeb94f87ba6
   - f695bf165247
   - fdd073110081
@@ -491,6 +494,7 @@ tools:
   - 060f0fed864e
   - 0fb51c6f2e37
   - 39df08e91cdf
+  - 3b91601ad5df
   - 53d73d58e105
   - 74369eb1765b
   - 7a125af14644
@@ -512,6 +516,7 @@ tools:
   - c20a07c9237b
   - cfeb5205eacc
   - d08c53f6425b
+  - f767a51f75f7
   - fa6ff550886a
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

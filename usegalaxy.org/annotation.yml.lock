@@ -536,6 +536,7 @@ tools:
   - 7109a27a11db
   - 8f20a5b9b282
   - cfec9601b25d
+  - fc7334661489
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: isescan
