@@ -173,6 +173,12 @@ tools:
   - 8ec3dfde378b
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
+- name: seqkit_split2
+  owner: iuc
+  revisions:
+  - c19015f577a5
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
 - name: fastq_paired_end_splitter
   owner: devteam
   revisions:
