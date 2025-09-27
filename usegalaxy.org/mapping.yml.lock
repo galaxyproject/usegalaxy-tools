@@ -27,6 +27,7 @@ tools:
   - c3dd1aeb7d07
   - d5ceb9f3c25b
   - f6877ad76b00
+  - f76cbb84d67f
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: lastz
