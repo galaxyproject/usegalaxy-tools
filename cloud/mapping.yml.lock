@@ -17,6 +17,7 @@ tools:
   revisions:
   - 09b2cdb7ace5
   - d5ceb9f3c25b
+  - f76cbb84d67f
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: bwa
