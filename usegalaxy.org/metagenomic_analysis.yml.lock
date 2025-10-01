@@ -571,6 +571,12 @@ tools:
   - 8249e5aa200c
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: mash_paste
+  owner: iuc
+  revisions:
+  - 8f32dcfde5d9
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
 - name: metabat2
   owner: iuc
   revisions:
