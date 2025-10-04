@@ -306,6 +306,7 @@ tools:
   - 59fd173ac850
   - 5cec5fb749f0
   - 7dd841a32245
+  - 86d0ebe09628
   - a1abfa420d9d
   - eca03db4f612
   tool_panel_section_id: graph_display_data
@@ -326,6 +327,7 @@ tools:
   - 83c573f2e73c
   - 99ace6c1ff57
   - a363ba287b88
+  - cfb0595f9842
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: krona_text
@@ -347,6 +349,7 @@ tools:
   - 69c6ea16c148
   - 74074746ccd8
   - 878c27dfea9d
+  - 93fdd696c281
   - af482048ca1a
   - b1260bca5fdc
   - b55199c56abd
