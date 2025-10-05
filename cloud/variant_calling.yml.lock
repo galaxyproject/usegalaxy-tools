@@ -70,6 +70,7 @@ tools:
 - name: snpeff
   owner: iuc
   revisions:
+  - 3aae4f16ac9e
   - 5b80f544c67f
   - 68693743661e
   - 74aebe30fb52
@@ -103,6 +104,7 @@ tools:
 - name: snpeff
   owner: iuc
   revisions:
+  - 3aae4f16ac9e
   - 5b80f544c67f
   - 68693743661e
   - 74aebe30fb52
