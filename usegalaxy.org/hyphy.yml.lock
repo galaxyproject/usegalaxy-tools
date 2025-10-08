@@ -18,6 +18,7 @@ tools:
   - 81e66674859e
   - '841557158611'
   - 8834daeb9892
+  - 8db8d509d51b
   - 9275e81b5590
   - a6619171428e
   - ad0af446d496
@@ -32,6 +33,7 @@ tools:
   owner: iuc
   revisions:
   - 2318841ec191
+  - 5b4fd931a989
   - 68cd2d8e3840
   - 91cf1290ba6f
   - a88848771d2d
@@ -55,6 +57,7 @@ tools:
   - 7fd2d1451728
   - 91006eb8b84e
   - a54340ea0866
+  - ab9d1d5d5e29
   - ac0b16f873f7
   - c669c8f7c6f6
   - cd9063b57f8b
@@ -73,6 +76,7 @@ tools:
   - 12bc58a60606
   - 2228dcc23dd9
   - 35df756079a3
+  - 5da8672e89a3
   - 6647e04e92a7
   - 686a8b41d09c
   - 6acfd47732d1
@@ -98,6 +102,7 @@ tools:
   - 643be54bef90
   - 6960dd62c983
   - 91679ca1480d
+  - be3e39ccb02b
   - fb833dd994f2
   - fcabcc150d21
   tool_panel_section_id: hyphy
@@ -110,6 +115,7 @@ tools:
   - 6569d04885e5
   - 6761212b7f1d
   - 9ce3d6d4bd0e
+  - b30255d232d2
   - beeeed9665ea
   - c1d24ff838c8
   - f6e7b5955712
@@ -135,6 +141,7 @@ tools:
   - c257fa0a98a7
   - c630f400742f
   - cf51d3630757
+  - e05a908455f4
   - e7be036f1616
   - eb23ebaf69d2
   - fccaa7ba05fd
@@ -162,6 +169,7 @@ tools:
   - d968c5dddfeb
   - e961403fdba3
   - ec783806a5c3
+  - ef2129a50a13
   - fc50c4bac0a3
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
@@ -175,6 +183,7 @@ tools:
   - 55a45d4c31dc
   - 600647840e87
   - 658ad6851b71
+  - 6bc07d6011c0
   - 6e72195b364a
   - 73833ae53fbb
   - 77ff2a3d93fa
@@ -207,6 +216,7 @@ tools:
   - 83f146502c0f
   - 88c4aa435ded
   - 8d8e1285fdea
+  - 9127799ac97e
   - a0731e81e0c2
   - a185b079b095
   - aa8cc71438cf
@@ -225,6 +235,7 @@ tools:
   - 5d8389d684bf
   - 5fd8dc04d6af
   - 6433eab14244
+  - 7852b50fabb7
   - 82a3221ca3aa
   - a114682b2788
   - a4bf56abff97
@@ -262,6 +273,7 @@ tools:
   - bdcfaa985c16
   - dc774be95f6c
   - e06961ac014b
+  - e0d7277ae941
   - f207757f9ca2
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
@@ -288,6 +300,7 @@ tools:
   - b8bdfac5a326
   - ba548f24669a
   - ed0f10a1db94
+  - fba248cbd49e
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_slac
@@ -296,6 +309,7 @@ tools:
   - 08449da86cdf
   - 0b4ee5db66ca
   - 0c6724c345d9
+  - 1122d1a1ff67
   - 1467fb7e162d
   - 24742f335426
   - 2753a5c7597a
@@ -330,6 +344,7 @@ tools:
   - 466217f0aa76
   - 5c2640980c0a
   - 638942ba8e37
+  - 6971ee03a002
   - 6cf8d753e93e
   - 77d74f012ecc
   - 86e10267b4cc
@@ -349,6 +364,7 @@ tools:
   - 50554f806e16
   - 7c86ceaf523c
   - dc8875a13914
+  - ea698cd7e086
   - f5bbd4b34541
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
