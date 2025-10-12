@@ -14,6 +14,7 @@ tools:
   - a7e081ceb76a
   - abfd8a6544d7
   - df99138d2776
+  - e4dd4c0622f6
   - f7e2f1eb3a16
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
