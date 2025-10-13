@@ -32,3 +32,15 @@ tools:
   owner: iuc
 - name: mashmap
   owner: iuc
+- name: ucsc_mafaddirows
+  owner: iuc
+- name: ucsc_mafcoverage
+  owner: iuc
+- name: ucsc_maffetch
+  owner: iuc
+- name: ucsc_maffilter
+  owner: iuc
+- name: ucsc_maffrags
+  owner: iuc
+- name: ucsc_maftoaxt
+  owner: iuc

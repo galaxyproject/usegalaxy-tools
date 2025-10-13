@@ -49,3 +49,9 @@ tools:
   - cc100e0f61f4
   tool_panel_section_id: motif
   tool_panel_section_label: Motif
+- name: longdust
+  owner: iuc
+  revisions:
+  - 650f9c6000c5
+  tool_panel_section_id: motif
+  tool_panel_section_label: Motif
