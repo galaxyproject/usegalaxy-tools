@@ -44,6 +44,7 @@ tools:
 - name: quast
   owner: iuc
   revisions:
+  - 1b1cf0c96501
   - 72472698a2df
   - a3b35edea53a
   tool_panel_section_id: assembly

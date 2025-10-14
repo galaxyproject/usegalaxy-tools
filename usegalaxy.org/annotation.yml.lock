@@ -69,6 +69,7 @@ tools:
   - 4e70d88adf2f
   - 602fb8e63aa7
   - 94170eee0ad8
+  - c5a90fa4b8dd
   - cf13a1e03e5b
   - e4bd1e99bacf
   - e5c372c91e46
@@ -384,6 +385,7 @@ tools:
   owner: iuc
   revisions:
   - 53b22b7dff19
+  - 945b31d82638
   - c0a0e79d7196
   - c5f2ce99da69
   - e7a2086a0f03
@@ -400,6 +402,7 @@ tools:
   - 54acd5139cab
   - 640c0b8cc8bf
   - 948903a8555d
+  - d0632d8bac6a
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: cooc_mutbamscan

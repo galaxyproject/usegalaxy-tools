@@ -422,6 +422,7 @@ tools:
 - name: maxbin2
   owner: mbernt
   revisions:
+  - 0917b2d6010d
   - 2bc40bfbcfb4
   - 8a0473eb465e
   - 9da9706f7ca9
@@ -702,6 +703,8 @@ tools:
   revisions:
   - 30a4bdf88e14
   - 4d9445dff47b
+  - 53691cc6af0f
+  - 53a019316350
   - c30adf839acd
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -795,6 +798,7 @@ tools:
   owner: iuc
   revisions:
   - 0f5f7fa9c08f
+  - 304ac5b49dea
   - 66acaec9f386
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis

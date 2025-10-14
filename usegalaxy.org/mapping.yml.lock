@@ -27,6 +27,7 @@ tools:
   - c3dd1aeb7d07
   - d5ceb9f3c25b
   - f6877ad76b00
+  - f76cbb84d67f
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: lastz
@@ -179,6 +180,7 @@ tools:
   - 090cbf2cb339
   - 371e4e21d5de
   - 544ea81a6914
+  - c64bee2dc319
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: segalign
