@@ -34,8 +34,10 @@ tools:
   owner: devteam
 - name: fastq_join
   owner: lparsons
-- name: seqkit_split2
+- name: seqkit_grep
   owner: iuc
+- name: seqkit_split2
+  owner: iuc  
 - name: fastq_paired_end_splitter
   owner: devteam
 - name: fastq_masker_by_quality
