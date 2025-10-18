@@ -27,6 +27,7 @@ tools:
   - ae2aad0a6d50
   - df0c8d0a5992
   - f2843df56434
+  - fd9902d118e5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: hisat2
