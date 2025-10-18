@@ -3,6 +3,12 @@ install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Machine Learning
 tools:
+- name: image_learner
+  owner: goeckslab
+  revisions:
+  - c5150cceab47
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
 - name: tabular_learner
   owner: goeckslab
   revisions:
