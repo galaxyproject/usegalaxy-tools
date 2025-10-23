@@ -578,7 +578,7 @@ tools:
 - name: mash_paste
   owner: iuc
   revisions:
-  - 0c0fda064eb
+  - e0c0fda064eb
   - 8f32dcfde5d9
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
