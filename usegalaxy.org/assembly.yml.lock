@@ -27,6 +27,7 @@ tools:
 - name: quast
   owner: iuc
   revisions:
+  - 1b1cf0c96501
   - 3061c8b029e5
   - 59db8ea8c845
   - 675488238c96
