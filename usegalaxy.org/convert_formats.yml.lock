@@ -11,6 +11,7 @@ tools:
   - 767943cd85bf
   - 7ecb45126cd2
   - b226e0c805a5
+  - f287fbd75138
   - f5792425ea50
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
