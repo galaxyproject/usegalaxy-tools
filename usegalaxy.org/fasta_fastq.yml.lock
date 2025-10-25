@@ -60,6 +60,7 @@ tools:
   - dbf9c561ef29
   - dbfc505896e9
   - e25816738ef3
+  - f875da9d433c
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_trimmer
