@@ -1,0 +1,64 @@
+tool_panel_section_label: Uncategorized
+tools:
+- name: concatenate_multiple_datasets
+  owner: artbio
+  revisions:
+  - 5b1b635232ed
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: scimap_mcmicro_to_anndata
+  owner: goeckslab
+  revisions:
+  - b1ead1b7e0aa
+  - 49c178651194
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: scimap_phenotyping
+  owner: goeckslab
+  revisions:
+  - 37dc4f51e827
+  - 88fca6e905be
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: backsub
+  owner: goeckslab
+  revisions:
+  - bf9f98a7f936
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: scimap_plotting
+  owner: goeckslab
+  revisions:
+  - 05a8d9dea3df
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: mgnify_seqprep
+  owner: bgruening
+  revisions:
+  - 76ea9d4604bc
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: ncbi_fcs_adaptor
+  owner: richard-burhans
+  revisions:
+  - d55ad8533d58
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: mash_paste
+  owner: iuc
+  revisions:
+  - 8f32dcfde5d9
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: mash_dist
+  owner: iuc
+  revisions:
+  - 8249e5aa200c
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: rdeval
+  owner: richard-burhans
+  revisions:
+  - 37d67c252fed
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: imagemagick_image_montage
+  owner: bgruening
+  revisions:
+  - 506a90ab5581
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: imagemagick_image_montage
+  owner: bgruening
+  revisions:
+  - 506a90ab5581
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
