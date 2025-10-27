@@ -1,0 +1,4 @@
+tool_panel_section_label: Genome Diversity
+tools:
+- name: fasttree
+  owner: iuc

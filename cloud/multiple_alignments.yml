@@ -12,3 +12,9 @@ tools:
   owner: iuc
 - name: mummer_delta_filter
   owner: iuc
+- name: clustalw
+  owner: devteam
+- name: clustalw
+  owner: devteam
+- name: mafft
+  owner: rnateam
