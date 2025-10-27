@@ -1,4 +1,4 @@
-install_repository_dependencies: false
+install_repository_dependencies: true
 install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Assembly
@@ -30,6 +30,7 @@ tools:
   revisions:
   - 78c533842eeb
   - a199cd7ac344
+  - e100a765370e
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: gfastats
@@ -47,5 +48,121 @@ tools:
   - 1b1cf0c96501
   - 72472698a2df
   - a3b35edea53a
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: megahit
+  owner: iuc
+  revisions:
+  - ab208c87d973
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: metaspades
+  owner: nml
+  revisions:
+  - f192c2fbe13f
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: mitohifi
+  owner: bgruening
+  revisions:
+  - bfab6f5b449d
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: merqury
+  owner: iuc
+  revisions:
+  - eb7b00ec347d
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: meryl_count_kmers
+  owner: iuc
+  revisions:
+  - bb6774c6aeaf
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: meryl
+  owner: iuc
+  revisions:
+  - 29dabd8db6f2
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: meryl_groups_kmers
+  owner: iuc
+  revisions:
+  - c4758f3bf36e
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: meryl_histogram_kmers
+  owner: iuc
+  revisions:
+  - 9a0227fa7521
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: hifiasm
+  owner: bgruening
+  revisions:
+  - 5d365d5cbe9d
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: bionano_scaffold
+  owner: bgruening
+  revisions:
+  - 3371c5bdc17a
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: pretext_map
+  owner: iuc
+  revisions:
+  - 0346286a3b0a
+  - c6cec5ab35c1
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: pretext_graph
+  owner: iuc
+  revisions:
+  - 408ece2e4647
+  - 936a1edffce8
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: purge_dups
+  owner: iuc
+  revisions:
+  - e9bd16ba5ebd
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: purge_dups
+  owner: iuc
+  revisions:
+  - e9bd16ba5ebd
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: genomescope
+  owner: iuc
+  revisions:
+  - 460fad600dce
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: yahs
+  owner: iuc
+  revisions:
+  - 6756b34312cd
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: pairtools_parse
+  owner: iuc
+  revisions:
+  - a5876cca7b05
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: pairtools_dedup
+  owner: iuc
+  revisions:
+  - 3d1d241ceff2
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: shovill
+  owner: iuc
+  revisions:
+  - ee17a294d3a3
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

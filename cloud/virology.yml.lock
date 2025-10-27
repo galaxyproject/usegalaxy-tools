@@ -1,4 +1,4 @@
-install_repository_dependencies: false
+install_repository_dependencies: true
 install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Virology
@@ -6,14 +6,18 @@ tools:
 - name: ivar_trim
   owner: iuc
   revisions:
+  - 0893a1dbb807
   - 6606a8c97889
+  - 7bd020da0ce5
   - a250929be21b
+  - c092052ed673
   - db536ad45f28
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_removereads
   owner: iuc
   revisions:
+  - 55a7867809f4
   - 5dc33613c288
   - dec59e6af429
   - ee2beb764a7b
@@ -28,7 +32,9 @@ tools:
 - name: ivar_consensus
   owner: iuc
   revisions:
+  - 17f911830a8c
   - 1c5448133894
+  - 253935875d96
   - 3a72fede57ce
   - 78bbd17d0703
   tool_panel_section_id: virology
@@ -50,8 +56,23 @@ tools:
 - name: ivar_variants
   owner: iuc
   revisions:
+  - 045d6d00f606
+  - 1ef68546d37f
   - 5e5dfc9e71e2
   - abbc8041e8ec
   - f95f403841ad
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+- name: vapor
+  owner: iuc
+  revisions:
+  - 21e09ba992b8
+  - 244812f5bd1f
+  tool_panel_section_id: virology
+  tool_panel_section_label: Virology
+- name: snipit
+  owner: iuc
+  revisions:
+  - 877e80114d25
   tool_panel_section_id: virology
   tool_panel_section_label: Virology

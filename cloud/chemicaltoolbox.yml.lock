@@ -1,0 +1,169 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tool_panel_section_label: ChemicalToolBox
+tools:
+- name: openbabel_compound_convert
+  owner: bgruening
+  revisions:
+  - 4242b4d68e9c
+  - e2c36f62e22f
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: ctb_rdkit_descriptors
+  owner: bgruening
+  revisions:
+  - 0993ac4f4a23
+  - a1c53f0533b0
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: gmx_setup
+  owner: chemteam
+  revisions:
+  - 070e3ecc3fda
+  - 1d4dd4f908d4
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: ambertools_antechamber
+  owner: chemteam
+  revisions:
+  - 4fff93efc0f9
+  - 8a839e6a1e3e
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: ambertools_acpype
+  owner: chemteam
+  revisions:
+  - 095ad4d096d1
+  - a0c154146234
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: gmx_merge_topology_files
+  owner: chemteam
+  revisions:
+  - 9389cd867cf2
+  - bc31d02be922
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: ctb_frankenstein_ligand
+  owner: bgruening
+  revisions:
+  - 7255688c77f3
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: enumerate_charges
+  owner: bgruening
+  revisions:
+  - 67ee76f0e497
+  - bbbf5fb356dd
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: rxdock_rbcavity
+  owner: bgruening
+  revisions:
+  - 0848d3b1a46f
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: rxdock_rbdock
+  owner: bgruening
+  revisions:
+  - b34d068c2782
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: sucos_docking_scoring
+  owner: bgruening
+  revisions:
+  - 4f1896782f7c
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: rdock_sort_filter
+  owner: bgruening
+  revisions:
+  - d1ca4b45f615
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: gmx_editconf
+  owner: chemteam
+  revisions:
+  - 88076940fa94
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: gmx_solvate
+  owner: chemteam
+  revisions:
+  - c4fbab8e03c5
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: gmx_em
+  owner: chemteam
+  revisions:
+  - b46d4b4d995c
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: parmconv
+  owner: chemteam
+  revisions:
+  - 6d0677a148fe
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: gmx_sim
+  owner: chemteam
+  revisions:
+  - c0c9a5024177
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: md_converter
+  owner: chemteam
+  revisions:
+  - ba83f0923369
+  - d7ec25187599
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: mmpbsa_mmgbsa
+  owner: chemteam
+  revisions:
+  - 608098b3668d
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: get_online_data
+  owner: bgruening
+  revisions:
+  - 2538366eb8fb
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: gmx_makendx
+  owner: chemteam
+  revisions:
+  - e3e536aa2633
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: gmx_sim
+  owner: chemteam
+  revisions:
+  - c0c9a5024177
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: biomd_neqgamma
+  owner: chemteam
+  revisions:
+  - afcb925def69
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: qcxms_neutral_run
+  owner: recetox
+  revisions:
+  - 475bbef634d4
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: qcxms_production_run
+  owner: recetox
+  revisions:
+  - cbe34f060712
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: qcxms_getres
+  owner: recetox
+  revisions:
+  - 0109f244d25a
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox

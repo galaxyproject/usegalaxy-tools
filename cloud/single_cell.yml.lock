@@ -1,4 +1,4 @@
-install_repository_dependencies: false
+install_repository_dependencies: true
 install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Single-cell
@@ -250,6 +250,7 @@ tools:
 - name: scanpy_cluster_reduce_dimension
   owner: iuc
   revisions:
+  - 38db3fef7aad
   - 8983e7a04ba7
   - a84a73471be7
   - aaa5da8e73a9
@@ -263,6 +264,7 @@ tools:
   - 5b3c1679d29b
   - 64388be6d510
   - 72a6bebab2a5
+  - 8cb783c81905
   - b409c2486353
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -280,6 +282,7 @@ tools:
   revisions:
   - 4766556db52c
   - 4bda4412b8c2
+  - 56c0d4acef02
   - 9f354c7c8c92
   - ab55fe8030b6
   tool_panel_section_id: single_cell
@@ -287,6 +290,7 @@ tools:
 - name: scanpy_plot
   owner: iuc
   revisions:
+  - 0185bd174ea0
   - 1072ce66b426
   - 5a5468c0d26f
   - 62acdd96d4a0
@@ -298,6 +302,7 @@ tools:
   owner: iuc
   revisions:
   - 458d4ab0f894
+  - 9fb627495ec2
   - a39040ae0a38
   - bf2017df9837
   - c5541bfb8feb
@@ -453,5 +458,36 @@ tools:
   owner: iuc
   revisions:
   - 3df3d1b51110
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: baredsc_1d
+  owner: iuc
+  revisions:
+  - 769d815e4b0d
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: baredsc_combine_1d
+  owner: iuc
+  revisions:
+  - 5b7c81b35b89
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: baredsc_2d
+  owner: iuc
+  revisions:
+  - a90f8efe08b4
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: baredsc_combine_2d
+  owner: iuc
+  revisions:
+  - 02fc39c8610d
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: velocyto_cli
+  owner: iuc
+  revisions:
+  - 90e95e9ee190
+  - f66590d0d3af
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell

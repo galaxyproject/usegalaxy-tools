@@ -1,4 +1,4 @@
-install_repository_dependencies: false
+install_repository_dependencies: true
 install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Mapping
@@ -9,6 +9,8 @@ tools:
   - 5cc34c3f440d
   - 66367287b4e6
   - 6945cd53bd2d
+  - 8c6cd2650d1f
+  - be1d967337e4
   - f54f5baedfdd
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
@@ -26,6 +28,7 @@ tools:
   - 1dfc975b48d5
   - 2477830927ec
   - 3fe632431b68
+  - 64f11cf59c6e
   - e188dc7a68e6
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
@@ -66,5 +69,12 @@ tools:
   - 79b885ce78d7
   - a00cceb45700
   - eec9494fdafa
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: bwa_mem2
+  owner: iuc
+  revisions:
+  - af91699b8d4c
+  - bec6ba059ded
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping

@@ -1,0 +1,222 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tool_panel_section_label: Metagenomic Analysis
+tools:
+- name: checkm2
+  owner: iuc
+  revisions:
+  - 304ac5b49dea
+  - 66acaec9f386
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: kraken2
+  owner: iuc
+  revisions:
+  - 20e2f64aa1fe
+  - 241a78eb2935
+  - e150ae930235
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: bracken
+  owner: iuc
+  revisions:
+  - 4d350ac5148e
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: recentrifuge
+  owner: iuc
+  revisions:
+  - 613ee22af97c
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: concoct_cut_up_fasta
+  owner: iuc
+  revisions:
+  - 4d8bc5dd9e95
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: semibin
+  owner: iuc
+  revisions:
+  - b5a7583b8db0
+  - fdb13ee4be38
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: concoct_coverage_table
+  owner: iuc
+  revisions:
+  - fd31cd168efc
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: metabat2_jgi_summarize_bam_contig_depths
+  owner: iuc
+  revisions:
+  - 00e3b4ef7e0c
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: concoct
+  owner: iuc
+  revisions:
+  - eae7ee167917
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: maxbin2
+  owner: mbernt
+  revisions:
+  - 0917b2d6010d
+  - 9da9706f7ca9
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: metabat2
+  owner: iuc
+  revisions:
+  - f375b4f6ef57
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: concoct_merge_cut_up_clustering
+  owner: iuc
+  revisions:
+  - 20ccec4a2c38
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: concoct_extract_fasta_bins
+  owner: iuc
+  revisions:
+  - 8b1b09fcd8b7
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: fasta_to_contig2bin
+  owner: iuc
+  revisions:
+  - fb2bed0eb02f
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: binette
+  owner: iuc
+  revisions:
+  - 15dba9749732
+  - 1d97ddbc3464
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: drep_dereplicate
+  owner: iuc
+  revisions:
+  - f54e7b3da33c
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: gtdbtk_classify_wf
+  owner: iuc
+  revisions:
+  - 30a4bdf88e14
+  - 53a019316350
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: checkm_lineage_wf
+  owner: iuc
+  revisions:
+  - 8345d273ba82
+  - c3735bcc9cb8
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: coverm_genome
+  owner: iuc
+  revisions:
+  - 73b667038f46
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: krakentools_kreport2krona
+  owner: iuc
+  revisions:
+  - 05e78a90e02d
+  - 2deaada69b14
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: taxonomy_krona_chart
+  owner: crs4
+  revisions:
+  - e9005d1f3cfd
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: krakentools_extract_kraken_reads
+  owner: iuc
+  revisions:
+  - 3b1963f729cb
+  - f329328da134
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: ampvis2_load
+  owner: iuc
+  revisions:
+  - 5029fd9d572e
+  - 738474880da8
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: mapseq
+  owner: iuc
+  revisions:
+  - 30e275ed0442
+  - f1d1dafc836d
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_plotqualityprofile
+  owner: iuc
+  revisions:
+  - 4e469b758915
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_filterandtrim
+  owner: iuc
+  revisions:
+  - 00e0347751b1
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_learnerrors
+  owner: iuc
+  revisions:
+  - a14a18a47c36
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_dada
+  owner: iuc
+  revisions:
+  - b35a5e8ff0fe
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_mergepairs
+  owner: iuc
+  revisions:
+  - 646c58820267
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_makesequencetable
+  owner: iuc
+  revisions:
+  - ebd632e95aae
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_removebimeradenovo
+  owner: iuc
+  revisions:
+  - efe26de231ec
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_seqcounts
+  owner: iuc
+  revisions:
+  - 390bc2645138
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_assigntaxonomyaddspecies
+  owner: iuc
+  revisions:
+  - 705d26fbea02
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: mash_sketch
+  owner: iuc
+  revisions:
+  - 3852f36e3154
+  - 9de5319ad2db
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
