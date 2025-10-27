@@ -43,7 +43,7 @@ def add_repos(workflow_path, toolset, uncategorized_file):
     for section_file in section_files:
         fix_lockfile(
             section_file,
-            install_repository_dependencies=True,
+            install_repository_dependencies=False,
             install_resolver_dependencies=False,
         )
         update_file(section_file, without=True)
