@@ -1,0 +1,4 @@
+tool_panel_section_label: GraphClust
+tools:
+- name: infernal
+  owner: bgruening
