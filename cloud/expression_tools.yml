@@ -1,0 +1,4 @@
+tool_panel_section_label: Expression Tools
+tools:
+- name: calculate_numeric_param
+  owner: iuc
