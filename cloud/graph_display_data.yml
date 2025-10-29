@@ -14,3 +14,23 @@ tools:
   owner: iuc
 - name: pe_histogram
   owner: iuc
+- name: bandage
+  owner: iuc
+- name: ggplot2_heatmap
+  owner: iuc
+- name: newick_utils
+  owner: iuc
+- name: newick_utils
+  owner: iuc
+- name: pretext_snapshot
+  owner: iuc
+- name: pretext_snapshot
+  owner: iuc
+- name: ggplot2_point
+  owner: iuc
+- name: ggplot2_point
+  owner: iuc
+- name: ggplot2_point
+  owner: iuc
+- name: bandage
+  owner: iuc
