@@ -1,0 +1,12 @@
+tool_panel_section_label: Spatial Omics
+tools:
+- name: basic_illumination
+  owner: perssond
+- name: ashlar
+  owner: perssond
+- name: coreograph
+  owner: perssond
+- name: mesmer
+  owner: goeckslab
+- name: quantification
+  owner: perssond
