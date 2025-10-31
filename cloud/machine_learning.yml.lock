@@ -51,6 +51,7 @@ tools:
   - 85e6f4b2ad18
   - 9e912fce264c
   - b0d893d04d4c
+  - c5150cceab47
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: ludwig_config_generator

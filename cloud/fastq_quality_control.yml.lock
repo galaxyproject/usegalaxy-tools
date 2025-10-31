@@ -29,6 +29,7 @@ tools:
   - d60c3f704da0
   - dbf9c561ef29
   - dbfc505896e9
+  - f875da9d433c
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control
 - name: fastqc
