@@ -1,0 +1,30 @@
+tool_panel_section_label: Proteomics
+tools:
+- name: maxquant
+  owner: galaxyp
+- name: peptideshaker
+  owner: galaxyp
+- name: unipept
+  owner: galaxyp
+- name: msstatstmt
+  owner: galaxyp
+- name: pepquery2
+  owner: galaxyp
+- name: metanovo
+  owner: galaxyp
+- name: openms_decoydatabase
+  owner: galaxyp
+- name: openms_featurefindermultiplex
+  owner: galaxyp
+- name: openms_msgfplusadapter
+  owner: galaxyp
+- name: openms_peptideindexer
+  owner: galaxyp
+- name: openms_falsediscoveryrate
+  owner: galaxyp
+- name: openms_idmapper
+  owner: galaxyp
+- name: openms_metaprosip
+  owner: galaxyp
+- name: eggnog_mapper
+  owner: galaxyp
