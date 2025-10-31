@@ -40,3 +40,5 @@ tools:
   owner: iuc
 - name: poretools_extract
   owner: iuc
+- name: clair3
+  owner: iuc

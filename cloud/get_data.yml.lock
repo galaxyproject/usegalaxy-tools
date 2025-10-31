@@ -6,6 +6,7 @@ tools:
 - name: sra_tools
   owner: iuc
   revisions:
+  - 516a54ddf218
   - 83c7d564b128
   - 8848455c0270
   tool_panel_section_id: get_data
@@ -15,5 +16,23 @@ tools:
   revisions:
   - 1c58de56d587
   - e063168e0a81
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+- name: fastq_dl
+  owner: iuc
+  revisions:
+  - 3f1ee30e39e9
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+- name: dbbuilder
+  owner: galaxyp
+  revisions:
+  - 983bf725dfc2
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+- name: uniprotxml_downloader
+  owner: galaxyp
+  revisions:
+  - 4ddc8da62671
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
