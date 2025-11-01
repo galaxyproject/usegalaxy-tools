@@ -6,6 +6,7 @@ tools:
 - name: collapse_collections
   owner: nml
   revisions:
+  - 830961c48e42
   - 90981f86000f
   tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations
@@ -14,6 +15,7 @@ tools:
   revisions:
   - 2dae863c8f42
   - 6cbe2f30c2d7
+  - baabc30154cd
   tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations
 - name: collection_element_identifiers

@@ -1,0 +1,4 @@
+tool_panel_section_label: EMBOSS
+tools:
+- name: emboss_5
+  owner: devteam
