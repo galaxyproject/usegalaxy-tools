@@ -21,5 +21,6 @@ tools:
   owner: bgruening
   revisions:
   - 5c7e14cbff16
+  - 704eca42732d
   tool_panel_section_id: image_manipulation
   tool_panel_section_label: Image Manipulation
