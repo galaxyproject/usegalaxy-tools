@@ -1,0 +1,17 @@
+install_repository_dependencies: false
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tool_panel_section_label: RNA Analysis
+tools:
+- name: cmsearch_deoverlap
+  owner: rnateam
+  revisions:
+  - 874ad23526a0
+  tool_panel_section_id: rna_analysis
+  tool_panel_section_label: RNA Analysis
+- name: feelnc
+  owner: iuc
+  revisions:
+  - 55daa4712413
+  tool_panel_section_id: rna_analysis
+  tool_panel_section_label: RNA Analysis
