@@ -6,6 +6,7 @@ tools:
 - name: salmon
   owner: bgruening
   revisions:
+  - 30d90b851d3c
   - cc05793bb896
   - f4d5237a84f6
   tool_panel_section_id: rna_seq
@@ -47,6 +48,7 @@ tools:
   revisions:
   - 334ce9b1bac5
   - ae2aad0a6d50
+  - fd9902d118e5
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: sailfish
