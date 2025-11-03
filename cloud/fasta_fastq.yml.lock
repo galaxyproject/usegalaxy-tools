@@ -11,6 +11,7 @@ tools:
   - 5eb7e84243f2
   - 660cffd8d92a
   - 80766b36005d
+  - 8e264b67a8c0
   - aa784cb3810d
   - c5e2e5902201
   tool_panel_section_id: fasta_fastq

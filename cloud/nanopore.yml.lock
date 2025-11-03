@@ -6,6 +6,7 @@ tools:
 - name: medaka_variant
   owner: iuc
   revisions:
+  - 16fc9856b20a
   - 43815fa60f3a
   - eb746fa6f514
   tool_panel_section_id: nanopore
@@ -24,6 +25,7 @@ tools:
   owner: iuc
   revisions:
   - a7228a7ea146
+  - d9b6a4615626
   - fc8804320156
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
@@ -39,6 +41,7 @@ tools:
   revisions:
   - 18505fe2bdb1
   - db25ec99c3ea
+  - fc1f197b33ec
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: nanoplot
