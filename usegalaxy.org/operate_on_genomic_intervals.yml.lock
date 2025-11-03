@@ -34,7 +34,6 @@ tools:
 - name: intersect
   owner: devteam
   revisions:
-  - 5b3c6135a982
   - 69c10b56f46d
   tool_panel_section_id: operate_on_genomic_intervals
   tool_panel_section_label: Operate on Genomic Intervals
