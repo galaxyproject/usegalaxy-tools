@@ -1,0 +1,82 @@
+install_repository_dependencies: false
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tool_panel_section_label: Imaging
+tools:
+- name: 2d_simple_filter
+  owner: imgteam
+  revisions:
+  - d51310ab328a
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: 2d_histogram_equalization
+  owner: imgteam
+  revisions:
+  - b1c2c210813c
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: 2d_auto_threshold
+  owner: imgteam
+  revisions:
+  - 50fa6150e340
+  - 699a5e9146b3
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: bfconvert
+  owner: imgteam
+  revisions:
+  - fcadded98e61
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: binary2labelimage
+  owner: imgteam
+  revisions:
+  - 7f8102bdbfa1
+  - 984358e43242
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: overlay_images
+  owner: imgteam
+  revisions:
+  - ca362a9bfa20
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: count_objects
+  owner: imgteam
+  revisions:
+  - b58447a2eed2
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: rename_tiff_channels
+  owner: goeckslab
+  revisions:
+  - 4763362914f4
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: vitessce_spatial
+  owner: goeckslab
+  revisions:
+  - 068da7f7cd83
+  - 70c8be4d59e9
+  - cab38f254824
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: squidpy_scatter
+  owner: goeckslab
+  revisions:
+  - b84c324b58bd
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: squidpy_spatial
+  owner: goeckslab
+  revisions:
+  - 2a5036c29889
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: imagemagick_image_montage
+  owner: bgruening
+  revisions:
+  - 506a90ab5581
+  - 65703c06c1f6
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
