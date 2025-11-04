@@ -70,7 +70,11 @@ def steal_section(repo_dict, toolset: str, leftovers_file: str, galaxy_url: str,
             if verbose:
                 print(f"Adding to existing section file: {section_file}")
         tools = a['tools']
-        tools.extend({"name": t[0], "owner": t[1]} for t in repos)
+        # Get existing tool keys to avoid duplicates
+        existing_tools = {(tool['name'], tool['owner']) for tool in tools}
+        # Only add tools that don't already exist in this section file
+        new_tools = [{"name": t[0], "owner": t[1]} for t in repos if t not in existing_tools]
+        tools.extend(new_tools)
 
         with open(section_file, 'w') as out:
             yaml.dump(a, out, default_flow_style=False)
