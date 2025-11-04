@@ -49,21 +49,49 @@ def add_repos(workflow_path, toolset, uncategorized_file):
         update_file(section_file, without=True)
     lock_files = glob.glob(f"{toolset}/*.yml.lock")
     lock_file_contents = {}
-    repo_name_owner_entries = defaultdict(lambda: defaultdict(dict))
+    repo_name_owner_entries = defaultdict(lambda: defaultdict(lambda: {"revisions": []}))
+
+    # Load all lock files and deduplicate entries by (owner, name)
     for lock_file in lock_files:
         with open(lock_file) as lock_file_fh:
             lock_contents = yaml.safe_load(lock_file_fh)
             lock_file_contents[lock_file] = lock_contents
+
+            # Deduplicate tools by merging entries with same owner/name
             for repo in lock_contents["tools"]:
-                repo_name_owner_entries[repo["owner"]][repo["name"]] = repo
+                key = (repo["owner"], repo["name"])
+                if key not in repo_name_owner_entries[repo["owner"]]:
+                    # First occurrence - store the full entry
+                    repo_name_owner_entries[repo["owner"]][repo["name"]] = repo.copy()
+                else:
+                    # Duplicate found - merge revisions
+                    existing_entry = repo_name_owner_entries[repo["owner"]][repo["name"]]
+                    existing_entry["revisions"].extend(repo.get("revisions", []))
+
+    # Add revisions from workflow repos
     for workflow_repo in repo_list:
-        lock_file_entry = repo_name_owner_entries[workflow_repo["owner"]][
-            workflow_repo["name"]
-        ]
-        lock_file_entry["revisions"] = sorted(
-            list(set(lock_file_entry["revisions"] + workflow_repo["revisions"]))
-        )
+        if workflow_repo["name"] in repo_name_owner_entries[workflow_repo["owner"]]:
+            lock_file_entry = repo_name_owner_entries[workflow_repo["owner"]][workflow_repo["name"]]
+            lock_file_entry["revisions"] = sorted(
+                list(set(lock_file_entry["revisions"] + workflow_repo["revisions"]))
+            )
+
+    # Rebuild lock files with deduplicated tools
     for lock_file, entries in lock_file_contents.items():
+        # Create deduplicated tools list from the merged entries
+        deduplicated_tools = []
+        seen = set()
+        for tool in entries["tools"]:
+            key = (tool["owner"], tool["name"])
+            if key not in seen:
+                seen.add(key)
+                deduplicated_tool = repo_name_owner_entries[tool["owner"]][tool["name"]]
+                # Ensure revisions are unique and sorted
+                deduplicated_tool["revisions"] = sorted(list(set(deduplicated_tool["revisions"])))
+                deduplicated_tools.append(deduplicated_tool)
+
+        entries["tools"] = deduplicated_tools
+
         with open(lock_file, "w") as lock_file_fh:
             yaml.safe_dump(json.loads(json.dumps(entries)), stream=lock_file_fh)
 
