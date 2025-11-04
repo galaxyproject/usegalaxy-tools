@@ -1,0 +1,4 @@
+tool_panel_section_label: Evolution
+tools:
+- name: iqtree
+  owner: iuc

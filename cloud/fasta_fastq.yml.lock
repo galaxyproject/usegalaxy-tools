@@ -109,3 +109,59 @@ tools:
   - f088370d2a3c
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
+- name: prinseq
+  owner: iuc
+  revisions:
+  - 1ee282794de3
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: fastqtofasta
+  owner: devteam
+  revisions:
+  - ac3fed111eb6
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: fasta_formatter
+  owner: devteam
+  revisions:
+  - 516b97a23d7e
+  - e773f1eb16cf
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: fasta_merge_files_and_filter_unique_sequences
+  owner: galaxyp
+  revisions:
+  - f546e7278f04
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: seqtk
+  owner: iuc
+  revisions:
+  - 8511b6d85fc7
+  - a019807f4e67
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: fasta_filter_by_length
+  owner: devteam
+  revisions:
+  - 8cacfcf96a52
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: ncbi_fcs_gx
+  owner: iuc
+  revisions:
+  - 5fe428757fab
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: rdeval
+  owner: richard-burhans
+  revisions:
+  - 37d67c252fed
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: fasta_stats
+  owner: iuc
+  revisions:
+  - 0dbb995c7d35
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ

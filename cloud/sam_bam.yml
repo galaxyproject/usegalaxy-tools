@@ -64,3 +64,9 @@ tools:
   owner: devteam
 - name: revertr2orientationinbam
   owner: lldelisle
+- name: bamtools_split_mapped
+  owner: iuc
+- name: samtools_coverage
+  owner: iuc
+- name: bamtools_split_ref
+  owner: iuc
