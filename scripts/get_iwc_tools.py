@@ -49,46 +49,53 @@ def add_repos(workflow_path, toolset, uncategorized_file):
         update_file(section_file, without=True)
     lock_files = glob.glob(f"{toolset}/*.yml.lock")
     lock_file_contents = {}
-    repo_name_owner_entries = defaultdict(lambda: defaultdict(lambda: {"revisions": []}))
+    # Keep a global lookup to find which lock file contains each tool
+    global_tool_lookup = {}  # (owner, name) -> lock_file
 
-    # Load all lock files and deduplicate entries by (owner, name)
+    # Load all lock files
     for lock_file in lock_files:
         with open(lock_file) as lock_file_fh:
             lock_contents = yaml.safe_load(lock_file_fh)
             lock_file_contents[lock_file] = lock_contents
 
-            # Deduplicate tools by merging entries with same owner/name
+            # Build global lookup for finding tools
             for repo in lock_contents["tools"]:
                 key = (repo["owner"], repo["name"])
-                if key not in repo_name_owner_entries[repo["owner"]]:
-                    # First occurrence - store the full entry
-                    repo_name_owner_entries[repo["owner"]][repo["name"]] = repo.copy()
-                else:
-                    # Duplicate found - merge revisions
-                    existing_entry = repo_name_owner_entries[repo["owner"]][repo["name"]]
-                    existing_entry["revisions"].extend(repo.get("revisions", []))
+                if key not in global_tool_lookup:
+                    global_tool_lookup[key] = lock_file
 
-    # Add revisions from workflow repos
+    # Add revisions from workflow repos to the appropriate lock files
     for workflow_repo in repo_list:
-        if workflow_repo["name"] in repo_name_owner_entries[workflow_repo["owner"]]:
-            lock_file_entry = repo_name_owner_entries[workflow_repo["owner"]][workflow_repo["name"]]
-            lock_file_entry["revisions"] = sorted(
-                list(set(lock_file_entry["revisions"] + workflow_repo["revisions"]))
-            )
+        key = (workflow_repo["owner"], workflow_repo["name"])
+        if key in global_tool_lookup:
+            lock_file = global_tool_lookup[key]
+            lock_contents = lock_file_contents[lock_file]
+            # Find the tool in this specific lock file and add revisions
+            for repo in lock_contents["tools"]:
+                if repo["owner"] == workflow_repo["owner"] and repo["name"] == workflow_repo["name"]:
+                    repo["revisions"] = sorted(
+                        list(set(repo.get("revisions", []) + workflow_repo["revisions"]))
+                    )
+                    break
 
-    # Rebuild lock files with deduplicated tools
+    # Deduplicate tools within each lock file separately
     for lock_file, entries in lock_file_contents.items():
-        # Create deduplicated tools list from the merged entries
+        # Create deduplicated tools list for this specific file
+        tool_map = {}
         deduplicated_tools = []
-        seen = set()
+
         for tool in entries["tools"]:
             key = (tool["owner"], tool["name"])
-            if key not in seen:
-                seen.add(key)
-                deduplicated_tool = repo_name_owner_entries[tool["owner"]][tool["name"]]
-                # Ensure revisions are unique and sorted
-                deduplicated_tool["revisions"] = sorted(list(set(deduplicated_tool["revisions"])))
-                deduplicated_tools.append(deduplicated_tool)
+            if key not in tool_map:
+                # First occurrence in this file
+                tool_map[key] = tool
+                deduplicated_tools.append(tool)
+            else:
+                # Duplicate in this file - merge revisions
+                existing_tool = tool_map[key]
+                existing_tool["revisions"] = sorted(
+                    list(set(existing_tool.get("revisions", []) + tool.get("revisions", [])))
+                )
 
         entries["tools"] = deduplicated_tools
 
