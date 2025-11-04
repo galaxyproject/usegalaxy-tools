@@ -6,6 +6,7 @@ tools:
 - name: medaka_variant
   owner: iuc
   revisions:
+  - 0f5f4a208660
   - 16fc9856b20a
   - 43815fa60f3a
   - eb746fa6f514
@@ -18,12 +19,14 @@ tools:
   - 3e4f8642c77e
   - 3ee0ef312022
   - 643e0ff70be5
+  - cb8dfd28c16f
   - cd11366d92cf
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: medaka_consensus_pipeline
   owner: iuc
   revisions:
+  - 79e9a869f40e
   - a7228a7ea146
   - d9b6a4615626
   - fc8804320156
@@ -49,6 +52,7 @@ tools:
   revisions:
   - 025139097795
   - 2a9afed42353
+  - a02b8b3f5a0c
   - a38bdcec9e4c
   - edbb6c5028f5
   tool_panel_section_id: nanopore
@@ -150,5 +154,11 @@ tools:
   revisions:
   - 08064da7b7fb
   - 7e4f1ed70187
+  tool_panel_section_id: nanopore
+  tool_panel_section_label: Nanopore
+- name: clair3
+  owner: iuc
+  revisions:
+  - c9218b9dc7f0
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
