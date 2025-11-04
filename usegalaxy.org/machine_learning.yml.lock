@@ -459,8 +459,8 @@ tools:
   - c7655b5a94af
   - c80db5d6fd8c
   - e88c782a127d
-  tool_panel_section_id: machine_learning
-  tool_panel_section_label: Machine Learning
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
 - name: sklearn_lightgbm
   owner: bgruening
   revisions:
@@ -508,16 +508,16 @@ tools:
   - 9f9cf31e3111
   - b7e93c1deb3f
   - e6893a4bcb7b
-  tool_panel_section_id: machine_learning
-  tool_panel_section_label: Machine Learning
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
 - name: create_tool_recommendation_model
   owner: bgruening
   revisions:
   - 4f7e6612906b
   - afec8c595124
   - e94dc7945639
-  tool_panel_section_id: machine_learning
-  tool_panel_section_label: Machine Learning
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
 - name: chopin2
   owner: iuc
   revisions:

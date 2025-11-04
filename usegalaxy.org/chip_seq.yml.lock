@@ -70,14 +70,14 @@ tools:
   revisions:
   - 594b85e4237a
   - bd1416eea1f0
-  tool_panel_section_id: chip_seq
-  tool_panel_section_label: ChIP-seq
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
 - name: fasta_nucleotide_color_plot
   owner: iuc
   revisions:
   - e4b5401adcec
-  tool_panel_section_id: chip_seq
-  tool_panel_section_label: ChIP-seq
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
 - name: resize_coordinate_window
   owner: iuc
   revisions:

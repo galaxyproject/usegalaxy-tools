@@ -26,5 +26,5 @@ tools:
   - cdee7158adf3
   - e150ae930235
   - e674066930b2
-  tool_panel_section_id: ncbi_blast_
-  tool_panel_section_label: NCBI BLAST+
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis

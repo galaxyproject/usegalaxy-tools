@@ -248,8 +248,8 @@ tools:
   - b2860df42e16
   - b9e31c5c01c7
   - ddddce450736
-  tool_panel_section_id: assembly
-  tool_panel_section_label: Assembly
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
 - name: racon
   owner: bgruening
   revisions:
@@ -371,8 +371,8 @@ tools:
   - 6c571966cfb9
   - 7c9417381ad5
   - 9ec9c22767c8
-  tool_panel_section_id: assembly
-  tool_panel_section_label: Assembly
+  tool_panel_section_id: graph_display_data
+  tool_panel_section_label: Graph/Display Data
 - name: pretext_graph
   owner: iuc
   revisions:

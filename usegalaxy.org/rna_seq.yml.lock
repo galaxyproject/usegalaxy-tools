@@ -103,8 +103,8 @@ tools:
   - 64be1ac21109
   - 8b8a3f793f0f
   - e8ac2b53f262
-  tool_panel_section_id: rna_seq
-  tool_panel_section_label: RNA-seq
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
 - name: kallisto_quant
   owner: iuc
   revisions:
@@ -136,8 +136,8 @@ tools:
   - 602de62d995b
   - 8b3e3657034e
   - ef2ad746b589
-  tool_panel_section_id: rna_seq
-  tool_panel_section_label: RNA-seq
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
 - name: deseq2
   owner: iuc
   revisions:
@@ -205,8 +205,8 @@ tools:
   - 6a6717a5f421
   - 86285ddd4512
   - cf747d1bd79a
-  tool_panel_section_id: rna_seq
-  tool_panel_section_label: RNA-seq
+  tool_panel_section_id: rna_analysis__deprecated_
+  tool_panel_section_label: RNA Analysis (deprecated)
 - name: filter_transcripts_via_tracking
   owner: devteam
   revisions:

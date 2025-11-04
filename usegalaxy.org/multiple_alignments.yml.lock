@@ -191,6 +191,8 @@ tools:
 - name: ucsc_maftoaxt
   owner: iuc
   revisions:
+  - 3a4256d4f079
+  - a6540beef35f
   - bb486fb0103d
-  tool_panel_section_id: multiple_alignments
-  tool_panel_section_label: Multiple Alignments
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats

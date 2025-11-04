@@ -20,5 +20,5 @@ tools:
   revisions:
   - 6864acb21714
   - cc768b0f41cf
-  tool_panel_section_id: import_manipulate_sc_data
-  tool_panel_section_label: Import/manipulate sc data
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
