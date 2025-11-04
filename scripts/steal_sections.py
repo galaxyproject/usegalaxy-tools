@@ -72,8 +72,10 @@ def steal_section(repo_dict, toolset: str, leftovers_file: str, galaxy_url: str,
         tools = a['tools']
         # Get existing tool keys to avoid duplicates
         existing_tools = {(tool['name'], tool['owner']) for tool in tools}
+        # Deduplicate repos list (same tool may appear in multiple workflows)
+        unique_repos = list(dict.fromkeys(repos))  # Preserves order while removing duplicates
         # Only add tools that don't already exist in this section file
-        new_tools = [{"name": t[0], "owner": t[1]} for t in repos if t not in existing_tools]
+        new_tools = [{"name": t[0], "owner": t[1]} for t in unique_repos if t not in existing_tools]
         tools.extend(new_tools)
 
         with open(section_file, 'w') as out:
