@@ -80,10 +80,10 @@ def steal_section(repo_dict, toolset: str, leftovers_file: str, galaxy_url: str,
             yaml.dump(a, out, default_flow_style=False)
 
     if leftover_tools:
-        # Remove tool_panel_section_label from individual tools since it should be at root level
+        # Keep only name and owner fields to match the standard .yml format
         cleaned_tools = []
         for tool in leftover_tools:
-            cleaned_tool = {k: v for k, v in tool.items() if k != 'tool_panel_section_label'}
+            cleaned_tool = {'name': tool['name'], 'owner': tool['owner']}
             cleaned_tools.append(cleaned_tool)
 
         with open(leftovers_file, 'w') as out:
