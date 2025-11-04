@@ -4,3 +4,9 @@ tools:
   owner: iuc
 - name: ncbi_acc_download
   owner: iuc
+- name: fastq_dl
+  owner: iuc
+- name: dbbuilder
+  owner: galaxyp
+- name: uniprotxml_downloader
+  owner: galaxyp

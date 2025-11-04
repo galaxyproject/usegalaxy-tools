@@ -1,0 +1,12 @@
+install_repository_dependencies: false
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tool_panel_section_label: Evolution
+tools:
+- name: iqtree
+  owner: iuc
+  revisions:
+  - 18a61a9c1601
+  - 6bbd30d58cf4
+  tool_panel_section_id: evolution
+  tool_panel_section_label: Evolution
