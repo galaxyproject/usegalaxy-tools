@@ -1,0 +1,6 @@
+tool_panel_section_label: Phylogenetics
+tools:
+- name: pangolin
+  owner: iuc
+- name: nextclade
+  owner: iuc
