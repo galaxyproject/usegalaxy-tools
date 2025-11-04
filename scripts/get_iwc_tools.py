@@ -81,21 +81,28 @@ def add_repos(workflow_path, toolset, uncategorized_file):
     # Deduplicate tools within each lock file separately
     for lock_file, entries in lock_file_contents.items():
         # Create deduplicated tools list for this specific file
-        tool_map = {}
-        deduplicated_tools = []
+        tool_map = {}  # key: (owner, name) -> value: merged tool dict
 
         for tool in entries["tools"]:
             key = (tool["owner"], tool["name"])
             if key not in tool_map:
-                # First occurrence in this file
+                # First occurrence in this file - store it
                 tool_map[key] = tool
-                deduplicated_tools.append(tool)
             else:
-                # Duplicate in this file - merge revisions
+                # Duplicate in this file - merge revisions into first occurrence
                 existing_tool = tool_map[key]
                 existing_tool["revisions"] = sorted(
                     list(set(existing_tool.get("revisions", []) + tool.get("revisions", [])))
                 )
+
+        # Rebuild the tools list from the deduplicated map, preserving original order
+        deduplicated_tools = []
+        seen = set()
+        for tool in entries["tools"]:
+            key = (tool["owner"], tool["name"])
+            if key not in seen:
+                seen.add(key)
+                deduplicated_tools.append(tool_map[key])
 
         entries["tools"] = deduplicated_tools
 
