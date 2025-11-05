@@ -1,0 +1,14 @@
+tool_panel_section_label: Uncategorized
+tools:
+- name: concatenate_multiple_datasets
+  owner: artbio
+- name: scimap_mcmicro_to_anndata
+  owner: goeckslab
+- name: scimap_phenotyping
+  owner: goeckslab
+- name: backsub
+  owner: goeckslab
+- name: scimap_plotting
+  owner: goeckslab
+- name: mgnify_seqprep
+  owner: bgruening

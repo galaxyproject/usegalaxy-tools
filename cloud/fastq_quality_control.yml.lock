@@ -21,11 +21,15 @@ tools:
 - name: fastp
   owner: iuc
   revisions:
+  - 10678d49d39e
   - 1c183b0a6cfd
+  - 25c59c0ceb55
   - 281054a26e41
+  - 3432a0e49b86
   - 350c736075eb
   - 65b93b623c77
   - a626e8c0e1ba
+  - c59d48774d03
   - d60c3f704da0
   - dbf9c561ef29
   - dbfc505896e9
@@ -37,6 +41,7 @@ tools:
   revisions:
   - 2c64fded1286
   - 3d0c7bdf12f5
+  - 5ec9f6bceaee
   - 9da02be9c6cc
   - e7b2202befea
   tool_panel_section_id: fastq_quality_control
