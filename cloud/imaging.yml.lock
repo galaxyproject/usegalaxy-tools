@@ -80,3 +80,29 @@ tools:
   - 65703c06c1f6
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
+- name: scimap_mcmicro_to_anndata
+  owner: goeckslab
+  revisions:
+  - 49c178651194
+  - b1ead1b7e0aa
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: scimap_phenotyping
+  owner: goeckslab
+  revisions:
+  - 37dc4f51e827
+  - 88fca6e905be
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: backsub
+  owner: goeckslab
+  revisions:
+  - bf9f98a7f936
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: scimap_plotting
+  owner: goeckslab
+  revisions:
+  - 05a8d9dea3df
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging

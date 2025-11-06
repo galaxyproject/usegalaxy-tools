@@ -231,3 +231,9 @@ tools:
   - c932095af671
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: mgnify_seqprep
+  owner: bgruening
+  revisions:
+  - 76ea9d4604bc
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis

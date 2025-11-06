@@ -72,3 +72,5 @@ tools:
   owner: iuc
 - name: mash_dist
   owner: iuc
+- name: mgnify_seqprep
+  owner: bgruening
