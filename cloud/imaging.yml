@@ -1,0 +1,26 @@
+tool_panel_section_label: Imaging
+tools:
+- name: 2d_simple_filter
+  owner: imgteam
+- name: 2d_histogram_equalization
+  owner: imgteam
+- name: 2d_auto_threshold
+  owner: imgteam
+- name: bfconvert
+  owner: imgteam
+- name: binary2labelimage
+  owner: imgteam
+- name: overlay_images
+  owner: imgteam
+- name: count_objects
+  owner: imgteam
+- name: rename_tiff_channels
+  owner: goeckslab
+- name: vitessce_spatial
+  owner: goeckslab
+- name: squidpy_scatter
+  owner: goeckslab
+- name: squidpy_spatial
+  owner: goeckslab
+- name: imagemagick_image_montage
+  owner: bgruening
