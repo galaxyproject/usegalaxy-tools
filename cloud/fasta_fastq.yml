@@ -26,3 +26,21 @@ tools:
   owner: peterjc
 - name: length_and_gc_content
   owner: iuc
+- name: prinseq
+  owner: iuc
+- name: fastqtofasta
+  owner: devteam
+- name: fasta_formatter
+  owner: devteam
+- name: fasta_merge_files_and_filter_unique_sequences
+  owner: galaxyp
+- name: seqtk
+  owner: iuc
+- name: fasta_filter_by_length
+  owner: devteam
+- name: ncbi_fcs_gx
+  owner: iuc
+- name: rdeval
+  owner: richard-burhans
+- name: fasta_stats
+  owner: iuc
