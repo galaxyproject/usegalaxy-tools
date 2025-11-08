@@ -1,4 +1,4 @@
-install_repository_dependencies: false
+install_repository_dependencies: true
 install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: HiCExplorer
@@ -37,6 +37,33 @@ tools:
   - '920526260066'
   - b9ab56aecd18
   - f47ac4a0b337
+  tool_panel_section_id: hicexplorer
+  tool_panel_section_label: HiCExplorer
+- name: hicexplorer_chicqualitycontrol
+  owner: bgruening
+  revisions:
+  - 9ea228a9afc8
+  - a63e9713c39d
+  - b892fa1fcaec
+  - f6a169b5e43b
+  tool_panel_section_id: hicexplorer
+  tool_panel_section_label: HiCExplorer
+- name: hicexplorer_chicsignificantinteractions
+  owner: bgruening
+  revisions:
+  - 45a386d18509
+  - 640e0e45518a
+  - f8320df1866b
+  - ff1af7bac1cb
+  tool_panel_section_id: hicexplorer
+  tool_panel_section_label: HiCExplorer
+- name: hicexplorer_chicviewpoint
+  owner: bgruening
+  revisions:
+  - 37125838e360
+  - 40fee49bc6c3
+  - c4ed35f4f77f
+  - f881c94fb3b3
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_chicqualitycontrol

@@ -1,4 +1,4 @@
-install_repository_dependencies: false
+install_repository_dependencies: true
 install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Text Manipulation
@@ -46,6 +46,7 @@ tools:
   revisions:
   - 06061aa49527
   - 3284b72eef56
+  - 8061668d0868
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: replace_column_by_key_value_file
