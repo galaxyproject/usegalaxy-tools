@@ -12,6 +12,7 @@ tools:
 - name: tooldistillator
   owner: iuc
   revisions:
+  - 9f1c8dc0253e
   - a5ef8d31c40e
   - c6b5c2975e51
   tool_panel_section_id: convert_formats
@@ -21,6 +22,7 @@ tools:
   revisions:
   - 3d0223265277
   - a4506449c300
+  - f4f71128f097
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: fasta_to_tabular
