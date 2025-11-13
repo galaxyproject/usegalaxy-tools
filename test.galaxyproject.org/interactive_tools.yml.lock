@@ -12,6 +12,7 @@ tools:
 - name: physicell_studio
   owner: rheiland
   revisions:
+  - 5989a0537c47
   - b670740cf3f7
   tool_panel_section_id: interactive_tools
   tool_panel_section_label: Interactive Tools
