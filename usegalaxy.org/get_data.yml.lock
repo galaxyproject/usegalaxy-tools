@@ -1,4 +1,4 @@
-install_repository_dependencies: false
+install_repository_dependencies: true
 install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Get Data
@@ -76,6 +76,7 @@ tools:
   - 21a560af5913
   - 2e297d531259
   - 34758ab8aaa4
+  - 4edfc76f8a29
   - 7863f1abcdda
   - 9aaa46d45472
   tool_panel_section_id: get_data
@@ -91,6 +92,7 @@ tools:
 - name: iedb_api
   owner: iuc
   revisions:
+  - 1911ec100221
   - 7ed6dda64a81
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
@@ -111,6 +113,7 @@ tools:
   owner: iuc
   revisions:
   - 3f1ee30e39e9
+  - 41635d6d4738
   - 5e7401777990
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
