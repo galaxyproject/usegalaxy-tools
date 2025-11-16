@@ -6,6 +6,7 @@ tools:
 - name: cmsearch_deoverlap
   owner: rnateam
   revisions:
+  - 42c5bf8ed1b0
   - 874ad23526a0
   tool_panel_section_id: rna_analysis
   tool_panel_section_label: RNA Analysis

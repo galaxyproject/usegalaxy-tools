@@ -157,6 +157,7 @@ tools:
   owner: richard-burhans
   revisions:
   - 37d67c252fed
+  - aef1eea2058c
   - f109ce5dbfe2
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ

@@ -78,6 +78,7 @@ tools:
   owner: iuc
   revisions:
   - bb6774c6aeaf
+  - e893b7452150
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: meryl
@@ -90,12 +91,14 @@ tools:
   owner: iuc
   revisions:
   - c4758f3bf36e
+  - cc8029eca6e9
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: meryl_histogram_kmers
   owner: iuc
   revisions:
   - 9a0227fa7521
+  - fa86bf923473
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: hifiasm
