@@ -115,6 +115,7 @@ tools:
   - 1e34d2e3d285
   - 201eff2131d6
   - 539b008cfe1c
+  - 54871a78828e
   - 8c533e19b697
   - 90b4d4f0a3a4
   - e4b4837f06f5
@@ -124,6 +125,7 @@ tools:
 - name: data_manager_build_bracken_database
   owner: iuc
   revisions:
+  - 174a754bd3b6
   - 5c8a23ccb14a
   - 84cc0dc92b0c
   tool_panel_section_id: data_managers

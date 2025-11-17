@@ -26,5 +26,6 @@ tools:
   owner: rheiland
   revisions:
   - b670740cf3f7
+  - dd051f391a2c
   tool_panel_section_id: interactive_tools
   tool_panel_section_label: Interactive Tools
