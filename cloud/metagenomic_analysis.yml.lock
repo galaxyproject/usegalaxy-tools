@@ -129,6 +129,7 @@ tools:
 - name: krakentools_kreport2krona
   owner: iuc
   revisions:
+  - 02bbace216f2
   - 05e78a90e02d
   - 2deaada69b14
   tool_panel_section_id: metagenomic_analysis
@@ -236,5 +237,11 @@ tools:
   owner: bgruening
   revisions:
   - 76ea9d4604bc
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: coverm_contig
+  owner: iuc
+  revisions:
+  - 28d740f2c0b0
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis

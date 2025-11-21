@@ -130,3 +130,10 @@ tools:
   - 5526f8258e8a
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
+- name: table_pandas_rename_column
+  owner: recetox
+  revisions:
+  - 3f54cd56a65e
+  - 8537763e4713
+  tool_panel_section_id: metabolomics
+  tool_panel_section_label: Metabolomics

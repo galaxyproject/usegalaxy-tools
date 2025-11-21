@@ -44,3 +44,5 @@ tools:
   owner: richard-burhans
 - name: fasta_stats
   owner: iuc
+- name: seqkit_translate
+  owner: iuc

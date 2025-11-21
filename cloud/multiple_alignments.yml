@@ -16,3 +16,5 @@ tools:
   owner: devteam
 - name: mafft
   owner: rnateam
+- name: mmseqs2_easy_linclust_clustering
+  owner: iuc

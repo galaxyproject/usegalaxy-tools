@@ -166,3 +166,10 @@ tools:
   - 0dbb995c7d35
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
+- name: seqkit_translate
+  owner: iuc
+  revisions:
+  - 0e0b003c711f
+  - d35d114c26a7
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
