@@ -98,6 +98,7 @@ tools:
 - name: data_manager_fetch_ncbi_taxonomy
   owner: devteam
   revisions:
+  - 2649aece3781
   - 34a5799a65fa
   - 6dd9e00dea95
   tool_panel_section_id: data_managers
