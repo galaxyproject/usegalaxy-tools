@@ -74,3 +74,5 @@ tools:
   owner: iuc
 - name: mgnify_seqprep
   owner: bgruening
+- name: coverm_contig
+  owner: iuc

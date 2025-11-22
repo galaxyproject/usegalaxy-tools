@@ -42,3 +42,5 @@ tools:
   owner: yguitton
 - name: multivariate
   owner: ethevenot
+- name: table_pandas_rename_column
+  owner: recetox

@@ -36,3 +36,9 @@ tools:
   owner: iuc
 - name: interproscan
   owner: bgruening
+- name: prodigal
+  owner: iuc
+- name: argnorm
+  owner: iuc
+- name: mmseqs2_taxonomy_assignment
+  owner: iuc
