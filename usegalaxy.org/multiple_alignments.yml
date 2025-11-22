@@ -44,3 +44,5 @@ tools:
   owner: iuc
 - name: ucsc_maftoaxt
   owner: iuc
+- name: mmseqs2_easy_linclust_clustering
+  owner: iuc
