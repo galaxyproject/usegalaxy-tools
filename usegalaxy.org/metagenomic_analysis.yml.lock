@@ -882,6 +882,7 @@ tools:
   - 1d97ddbc3464
   - 37ab2cfedac4
   - 7834132949bc
+  - 9053a39d7994
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: drep_compare
