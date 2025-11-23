@@ -98,6 +98,7 @@ tools:
   - 15dba9749732
   - 1d97ddbc3464
   - 37ab2cfedac4
+  - 9053a39d7994
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: drep_dereplicate
@@ -151,6 +152,7 @@ tools:
   revisions:
   - 5029fd9d572e
   - 738474880da8
+  - 9b3e1acc3ad0
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: mapseq
