@@ -37,7 +37,7 @@ tools:
 - name: seqkit_grep
   owner: iuc
 - name: seqkit_split2
-  owner: iuc  
+  owner: iuc
 - name: fastq_paired_end_splitter
   owner: devteam
 - name: fastq_masker_by_quality
@@ -102,3 +102,5 @@ tools:
   owner: iuc
 - name: fasta_regex_finder
   owner: mbernt
+- name: seqkit_translate
+  owner: iuc
