@@ -49,6 +49,7 @@ tools:
 - name: image_learner
   owner: goeckslab
   revisions:
+  - 1a9c42974a5a
   - 85e6f4b2ad18
   - 9e912fce264c
   - b0d893d04d4c
@@ -59,6 +60,7 @@ tools:
   owner: goeckslab
   revisions:
   - 36c5fcc49286
+  - b7ed0e483e4d
   - d13ba033cb84
   - ec4b9244f930
   tool_panel_section_id: machine_learning
@@ -66,6 +68,7 @@ tools:
 - name: ludwig_experiment
   owner: goeckslab
   revisions:
+  - 0ee0bc6736a2
   - 4d0d8859a0f2
   - 78b1e3921576
   - ec99e53e91d6
