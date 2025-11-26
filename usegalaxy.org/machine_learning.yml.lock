@@ -20,6 +20,7 @@ tools:
   - ba45bc057d70
   - e7dd78077b72
   - f6a65e05d6ec
+  - 49f73a3c12f3
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: pycaret_compare
@@ -43,6 +44,7 @@ tools:
   - e674b9e946fb
   - f07850192bc2
   - f4cb41f458fd
+  - 7d78a6afc958
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: model_prediction
