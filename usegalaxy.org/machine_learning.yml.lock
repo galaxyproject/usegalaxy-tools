@@ -6,8 +6,8 @@ tools:
 - name: image_learner
   owner: goeckslab
   revisions:
-  - 1a9c42974a5a
   - c5150cceab47
+  - 94cd9ac4a9b1
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: tabular_learner
