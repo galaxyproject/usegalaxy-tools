@@ -8,6 +8,7 @@ tools:
   revisions:
   - 94cd9ac4a9b1
   - c5150cceab47
+  - d17e3a1b8659
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: tabular_learner
@@ -15,6 +16,7 @@ tools:
   revisions:
   - 0afd970bd8ae
   - 11fdac5affb3
+  - 15707141e7da
   - 209b663a4f62
   - 49f73a3c12f3
   - 4bd75b45a7a1
@@ -38,6 +40,7 @@ tools:
   - 1aed7d47c5ec
   - 4a7df9abe4c4
   - 4eca9d109de1
+  - 4fee4504646e
   - 7d78a6afc958
   - afd0864d18b6
   - ccd798db5abb

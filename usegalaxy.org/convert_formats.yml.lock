@@ -73,6 +73,7 @@ tools:
   revisions:
   - 297962e79f39
   - 4844c1810c16
+  - 4a3e93647a4e
   - a64c24430f5e
   - ac3fed111eb6
   tool_panel_section_id: convert_formats

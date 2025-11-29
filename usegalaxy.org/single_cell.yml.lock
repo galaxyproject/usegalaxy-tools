@@ -632,12 +632,14 @@ tools:
   - 8f8bef61fd0b
   - 94ae400dde2f
   - afb90d3485df
+  - d258720d9a42
   - d3ea0ba3d066
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: snapatac2_peaks_and_motif
   owner: iuc
   revisions:
+  - 02a7162fc510
   - 588c811fdd48
   - 64fa083411f1
   - 88192fe25375
@@ -649,6 +651,7 @@ tools:
   owner: iuc
   revisions:
   - 05bd4db20227
+  - 1ac4a5f05f33
   - 370d45e0d1a8
   - c01f0a08ab43
   - fbf62973e556
@@ -658,6 +661,7 @@ tools:
 - name: snapatac2_preprocessing
   owner: iuc
   revisions:
+  - 20c4011e1458
   - 48d9421bf176
   - 4ecdea4cbea1
   - c5c94e01a1b5
