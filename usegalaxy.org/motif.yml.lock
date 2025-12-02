@@ -53,5 +53,6 @@ tools:
   owner: iuc
   revisions:
   - 650f9c6000c5
+  - a8abbac3023f
   tool_panel_section_id: motif
   tool_panel_section_label: Motif
