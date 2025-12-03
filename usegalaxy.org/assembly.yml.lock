@@ -625,6 +625,5 @@ tools:
   owner: iuc
   revisions:
   - 6c1cfce7c2eb
-  - f0c2922aeb30
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
