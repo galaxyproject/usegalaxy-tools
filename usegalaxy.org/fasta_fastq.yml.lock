@@ -181,12 +181,14 @@ tools:
 - name: seqkit_grep
   owner: iuc
   revisions:
+  - 8bb1d9180ce7
   - df49645c6f6d
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: seqkit_split2
   owner: iuc
   revisions:
+  - 22a535d54360
   - 911de3a36b31
   - c19015f577a5
   tool_panel_section_id: fasta_fastq
@@ -470,6 +472,7 @@ tools:
   owner: iuc
   revisions:
   - 0e0b003c711f
+  - c669e8550c46
   - d35d114c26a7
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
