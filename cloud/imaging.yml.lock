@@ -38,6 +38,7 @@ tools:
 - name: overlay_images
   owner: imgteam
   revisions:
+  - 66fe62b96281
   - ca362a9bfa20
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging

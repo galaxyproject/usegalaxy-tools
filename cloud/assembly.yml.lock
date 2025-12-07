@@ -138,6 +138,7 @@ tools:
 - name: genomescope
   owner: iuc
   revisions:
+  - 0bace381c9fd
   - 460fad600dce
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
