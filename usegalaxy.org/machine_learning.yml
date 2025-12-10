@@ -1,5 +1,7 @@
 tool_panel_section_label: Machine Learning
 tools:
+- name: multimodal_learner
+  owner: goeckslab
 - name: image_learner
   owner: goeckslab
 - name: tabular_learner
