@@ -34,6 +34,13 @@ tools:
   - 0696db066a5b
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
+- name: deseq2
+  owner: iuc
+  revisions:
+  - 1cb33de18af5
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: length_and_gc_content
   owner: iuc
   revisions:
