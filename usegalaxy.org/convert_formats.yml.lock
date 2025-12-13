@@ -18,6 +18,7 @@ tools:
 - name: bbgbigwig
   owner: iuc
   revisions:
+  - 2d24e59a351a
   - b95435276746
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -223,6 +224,7 @@ tools:
   - 39881709807e
   - 3e81299dfce3
   - 601575b847c0
+  - 77f67ddd89d6
   - 8dbc700cb940
   - ab55af10f1ff
   tool_panel_section_id: convert_formats

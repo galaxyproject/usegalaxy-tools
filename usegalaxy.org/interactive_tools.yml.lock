@@ -21,6 +21,7 @@ tools:
   revisions:
   - 63832a9e4d58
   - 8f95c3031339
+  - a0b7364f35df
   tool_panel_section_id: interactive_tools
   tool_panel_section_label: Interactive Tools
 - name: physicell_studio

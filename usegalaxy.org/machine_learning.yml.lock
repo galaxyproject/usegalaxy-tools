@@ -16,6 +16,7 @@ tools:
   - 94cd9ac4a9b1
   - c5150cceab47
   - d17e3a1b8659
+  - db9be962dc13
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: tabular_learner
@@ -28,6 +29,7 @@ tools:
   - 49f73a3c12f3
   - 4bd75b45a7a1
   - ba45bc057d70
+  - bf0df21a1ea3
   - e7dd78077b72
   - f6a65e05d6ec
   tool_panel_section_id: machine_learning
@@ -50,6 +52,7 @@ tools:
   - 4fee4504646e
   - 7d78a6afc958
   - afd0864d18b6
+  - c5c324ac29fc
   - ccd798db5abb
   - e2a6fed32d54
   - e674b9e946fb

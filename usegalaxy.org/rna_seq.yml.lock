@@ -105,6 +105,7 @@ tools:
   - 62c9df8382c2
   - 64be1ac21109
   - 8b8a3f793f0f
+  - 9553180705b7
   - e8ac2b53f262
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
