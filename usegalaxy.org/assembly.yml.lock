@@ -280,6 +280,7 @@ tools:
   - 9ef6920c3089
   - bf0a4667e3ce
   - df25d4fb79b7
+  - e5e767089163
   - f3c89da3af16
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -318,6 +319,7 @@ tools:
   owner: iuc
   revisions:
   - 01210c4e9144
+  - 0bace381c9fd
   - 3169a38c2656
   - 460fad600dce
   - b2f674562a18
