@@ -15,6 +15,7 @@ tools:
   revisions:
   - 20e2f64aa1fe
   - 241a78eb2935
+  - cbe396d9773e
   - e150ae930235
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -110,6 +111,7 @@ tools:
 - name: gtdbtk_classify_wf
   owner: iuc
   revisions:
+  - 28bc8c01b193
   - 30a4bdf88e14
   - 53a019316350
   tool_panel_section_id: metagenomic_analysis
