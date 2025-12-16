@@ -6,6 +6,7 @@ tools:
 - name: 2d_simple_filter
   owner: imgteam
   revisions:
+  - 1b7e67168732
   - d51310ab328a
   - f70b215d155c
   tool_panel_section_id: imaging
