@@ -4,3 +4,4 @@ tools:
   owner: enis
 - name: physicell_studio
   owner: rheiland
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
