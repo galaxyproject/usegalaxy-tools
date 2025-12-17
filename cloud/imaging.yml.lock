@@ -108,3 +108,22 @@ tools:
   - 05a8d9dea3df
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
+- name: spot_detection_2d
+  owner: imgteam
+  revisions:
+  - d78372040976
+  - e8c9e104e109
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: points_association_nn
+  owner: imgteam
+  revisions:
+  - f3fad67af22c
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: curve_fitting
+  owner: imgteam
+  revisions:
+  - 2dc244356765
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging

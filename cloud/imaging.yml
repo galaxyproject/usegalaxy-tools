@@ -32,3 +32,9 @@ tools:
   owner: goeckslab
 - name: scimap_plotting
   owner: goeckslab
+- name: spot_detection_2d
+  owner: imgteam
+- name: points_association_nn
+  owner: imgteam
+- name: curve_fitting
+  owner: imgteam
