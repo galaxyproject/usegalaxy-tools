@@ -26,5 +26,3 @@ tools:
   owner: iuc
 - name: jasminesv
   owner: iuc
-- name: snpeff
-  owner: iuc
