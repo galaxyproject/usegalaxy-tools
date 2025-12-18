@@ -923,3 +923,47 @@ tools:
   - 14515a211bd9
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: cami_amber_add
+  owner: iuc
+  revisions:
+  - b0dbddc7a288
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: cami_amber_convert
+  owner: iuc
+  revisions:
+  - 848594e0be6a
+  - fac3911ad3b6
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: cami_amber_convert
+  owner: iuc
+  revisions:
+  - 848594e0be6a
+  - fac3911ad3b6
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: cami_amber
+  owner: iuc
+  revisions:
+  - 2e7b727a0e05
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: biobox_add_taxid
+  owner: iuc
+  revisions:
+  - 7a9dd5efc076
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: gtdb_to_taxdump
+  owner: iuc
+  revisions:
+  - '102852801457'
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: name2taxid
+  owner: iuc
+  revisions:
+  - 954448bad930
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
