@@ -1,4 +1,4 @@
-install_repository_dependencies: true
+install_repository_dependencies: false
 install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Assembly
@@ -27,6 +27,7 @@ tools:
 - name: quast
   owner: iuc
   revisions:
+  - 1b1cf0c96501
   - 3061c8b029e5
   - 59db8ea8c845
   - 675488238c96
@@ -317,6 +318,7 @@ tools:
   owner: iuc
   revisions:
   - 01210c4e9144
+  - 0bace381c9fd
   - 3169a38c2656
   - 460fad600dce
   - b2f674562a18
@@ -357,6 +359,7 @@ tools:
   - 511e5e3cd55e
   - 79b48f02db49
   - 8fef980d48b5
+  - 9c942221e135
   - c6cec5ab35c1
   - dfb8a4497339
   tool_panel_section_id: assembly
@@ -365,6 +368,7 @@ tools:
   owner: iuc
   revisions:
   - 0a10fddd97d2
+  - 0cc7a80463b9
   - 26f2fe7e53a1
   - 44c66e8d21e6
   - 6c571966cfb9
@@ -375,6 +379,7 @@ tools:
 - name: pretext_graph
   owner: iuc
   revisions:
+  - 36ce83a739f2
   - 408ece2e4647
   - 75b4a2298714
   - 936a1edffce8
@@ -406,6 +411,7 @@ tools:
   revisions:
   - 39495e107274
   - 425e63adcc5d
+  - 6756b34312cd
   - d87433f2a54d
   - fc925f53cae7
   - ff4031bfaa22
@@ -444,10 +450,14 @@ tools:
   owner: iuc
   revisions:
   - 0bc216235d4c
+  - 3d1d241ceff2
+  - 41faa653d86c
+  - 52c601d961b6
   - 5412142130ad
   - 55a53b5e308d
   - 56bb29747b4d
   - 608ea80cccba
+  - 7a2b37ae4a50
   - 914533f3507e
   - c162f3c43442
   tool_panel_section_id: assembly
@@ -455,12 +465,16 @@ tools:
 - name: pairtools_parse
   owner: iuc
   revisions:
+  - 11149c89ee4f
   - 2131d908a798
   - 44cb74c154bc
   - 678f10bb377e
   - 729197476fc1
   - 963d674e438d
+  - 987ed7d8e152
+  - a5876cca7b05
   - b0a1f128fa15
+  - bfb00f8fec97
   - d3a7b17714c1
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -469,9 +483,13 @@ tools:
   revisions:
   - 50d926b3f13d
   - 5fd78abb0d81
+  - 880d2519963f
   - 8cffb8fc34f0
   - 8ed44487c834
+  - a04537c14c07
   - c1c1d894dd3a
+  - cbc4a0eb290a
+  - ceeb94f87ba6
   - f695bf165247
   - fdd073110081
   tool_panel_section_id: assembly
@@ -482,7 +500,11 @@ tools:
   - 060f0fed864e
   - 0fb51c6f2e37
   - 39df08e91cdf
+  - 3b91601ad5df
   - 53d73d58e105
+  - 74369eb1765b
+  - 7a125af14644
+  - 9bbff7ee1077
   - a7035be049e4
   - c46d1454f3a1
   - f4b5f58b89bf
@@ -491,6 +513,7 @@ tools:
 - name: pairtools_stats
   owner: iuc
   revisions:
+  - 0c303ccc6cd5
   - 3191d425e302
   - 6cbca5661205
   - 7f71687c8146
@@ -498,6 +521,9 @@ tools:
   - ade829d2ae3a
   - c20a07c9237b
   - cfeb5205eacc
+  - d08c53f6425b
+  - f767a51f75f7
+  - fa6ff550886a
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: refseq_masher
@@ -516,17 +542,20 @@ tools:
   owner: iuc
   revisions:
   - 8d594609538e
+  - ee4f9a0cb72a
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: meryl_count_kmers
   owner: iuc
   revisions:
   - bb6774c6aeaf
+  - e893b7452150
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: meryl_filter_kmers
   owner: iuc
   revisions:
+  - 06c0a042a61d
   - fa43288f637c
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -534,23 +563,27 @@ tools:
   owner: iuc
   revisions:
   - c4758f3bf36e
+  - cc8029eca6e9
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: meryl_histogram_kmers
   owner: iuc
   revisions:
   - 9a0227fa7521
+  - fa86bf923473
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: meryl_print
   owner: iuc
   revisions:
   - 4ffdd07cc5b6
+  - 9c3c7a147412
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: meryl_trio_mode
   owner: iuc
   revisions:
+  - 416dff497d49
   - 47e9001da01b
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -581,5 +614,11 @@ tools:
   - 0cae005d8c4c
   - 73ddd200456a
   - ec82f2b95e89
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: ragtag
+  owner: iuc
+  revisions:
+  - b3c3217c0cbc
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

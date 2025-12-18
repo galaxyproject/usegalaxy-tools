@@ -1,0 +1,12 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tool_panel_section_label: Lexicmap
+tools:
+- name: lexicmap
+  owner: iuc
+  revisions:
+  - cefde4c7f92e
+  - d1a30eb26392
+  tool_panel_section_id: lexicmap
+  tool_panel_section_label: Lexicmap

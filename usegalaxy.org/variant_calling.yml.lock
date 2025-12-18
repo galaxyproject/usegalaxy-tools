@@ -1,4 +1,4 @@
-install_repository_dependencies: true
+install_repository_dependencies: false
 install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Variant Calling
@@ -22,6 +22,7 @@ tools:
   owner: iuc
   revisions:
   - 268d162b9c49
+  - 3aae4f16ac9e
   - 5b80f544c67f
   - 5c7b70713fb5
   - 6322be79bd8e
@@ -50,6 +51,7 @@ tools:
 - name: freebayes
   owner: devteam
   revisions:
+  - 0d8581534009
   - 156b60c1530f
   - 1e1291983bc7
   - 3e954e7125bf
@@ -182,6 +184,7 @@ tools:
   - 51d28b4d3a04
   - 71dfde92fd57
   - 7d9166ecd10f
+  - 845a7025ba81
   - c39113e2ae34
   - ebcd8649c621
   - ee85030e893d
@@ -193,6 +196,7 @@ tools:
   revisions:
   - 2e303fcd3b0c
   - 399b40b2bcab
+  - 3c6952a2b0e4
   - 48ac4d611e92
   - abd806291372
   - b03c0b3e67a6
@@ -320,6 +324,7 @@ tools:
   owner: iuc
   revisions:
   - 01ccd366690d
+  - 0da0b2dc624c
   - 45c2ec061cf9
   - 6535dd4a4064
   tool_panel_section_id: variant_calling
@@ -329,6 +334,7 @@ tools:
   revisions:
   - 24271361028f
   - 7acb00fc980a
+  - a2c1c52a7e47
   - cf01dd6c6b1f
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -338,5 +344,6 @@ tools:
   - 6d1f577b3e47
   - 703a2cb3fb38
   - 7a5a2d28c539
+  - 88e27e10b1ed
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
