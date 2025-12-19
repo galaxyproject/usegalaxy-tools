@@ -118,3 +118,5 @@ tools:
   owner: iuc
 - name: ragtag
   owner: iuc
+- name: teloscope
+  owner: iuc

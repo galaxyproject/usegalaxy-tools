@@ -624,3 +624,9 @@ tools:
   - b3c3217c0cbc
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: teloscope
+  owner: iuc
+  revisions:
+  - 6c1cfce7c2eb
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
