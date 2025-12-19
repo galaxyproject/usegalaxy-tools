@@ -51,3 +51,22 @@ tools:
   - e8fdceffea4c
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
+- name: clustalw
+  owner: devteam
+  revisions:
+  - 5b097fde95dd
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: mafft
+  owner: rnateam
+  revisions:
+  - 0a507f4bd19a
+  - 1233363389c1
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: mmseqs2_easy_linclust_clustering
+  owner: iuc
+  revisions:
+  - b174c3405549
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments

@@ -118,6 +118,10 @@ tools:
   owner: iuc
 - name: mash_sketch
   owner: iuc
+- name: mash_dist
+  owner: iuc
+- name: mash_paste
+  owner: iuc
 - name: metabat2
   owner: iuc
 - name: megahit_contig2fastg
