@@ -7,6 +7,7 @@ tools:
   owner: imgteam
   revisions:
   - 1b7e67168732
+  - 6fecb8056a80
   - d51310ab328a
   - f70b215d155c
   tool_panel_section_id: imaging
@@ -45,6 +46,7 @@ tools:
   revisions:
   - 37662cbf44b8
   - 66fe62b96281
+  - bc4cf90cfc3b
   - ca362a9bfa20
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging

@@ -7,6 +7,7 @@ tools:
   owner: goeckslab
   revisions:
   - 375c36923da1
+  - a92f200d296e
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: image_learner
@@ -15,6 +16,7 @@ tools:
   - 8729f69e9207
   - 94cd9ac4a9b1
   - bbf30253c99f
+  - c460abae83eb
   - c5150cceab47
   - d17e3a1b8659
   tool_panel_section_id: machine_learning
