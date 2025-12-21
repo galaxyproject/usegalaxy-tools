@@ -164,6 +164,7 @@ tools:
 - name: shovill
   owner: iuc
   revisions:
+  - 331109486d58
   - ee17a294d3a3
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
