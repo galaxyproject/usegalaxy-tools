@@ -977,13 +977,6 @@ tools:
   - fac3911ad3b6
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
-- name: cami_amber_convert
-  owner: iuc
-  revisions:
-  - 848594e0be6a
-  - fac3911ad3b6
-  tool_panel_section_id: metagenomic_analysis
-  tool_panel_section_label: Metagenomic Analysis
 - name: cami_amber
   owner: iuc
   revisions:
