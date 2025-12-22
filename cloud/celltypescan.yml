@@ -1,0 +1,4 @@
+tool_panel_section_label: CellTypeScan
+tools:
+- name: decoupler_pseudobulk
+  owner: ebi-gxa

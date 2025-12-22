@@ -1,4 +1,4 @@
-install_repository_dependencies: true
+install_repository_dependencies: false
 install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Convert Formats
@@ -11,12 +11,14 @@ tools:
   - 767943cd85bf
   - 7ecb45126cd2
   - b226e0c805a5
+  - f287fbd75138
   - f5792425ea50
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: bbgbigwig
   owner: iuc
   revisions:
+  - 2d24e59a351a
   - b95435276746
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -72,6 +74,7 @@ tools:
   revisions:
   - 297962e79f39
   - 4844c1810c16
+  - 4a3e93647a4e
   - a64c24430f5e
   - ac3fed111eb6
   tool_panel_section_id: convert_formats
@@ -221,6 +224,7 @@ tools:
   - 39881709807e
   - 3e81299dfce3
   - 601575b847c0
+  - 77f67ddd89d6
   - 8dbc700cb940
   - ab55af10f1ff
   tool_panel_section_id: convert_formats
@@ -259,7 +263,9 @@ tools:
   - 65a69de1e294
   - 66617be450bd
   - 8d6686664021
+  - 9f1c8dc0253e
   - a7387ce2a8ca
+  - bbdc53e9b559
   - c6b5c2975e51
   - dfd6fa2637ba
   - ea93df4b3df2
@@ -273,8 +279,10 @@ tools:
   - 30a8447539e4
   - 3d0223265277
   - 6ff67d2860e1
+  - bbbcee71e70e
   - def7a82d23e1
   - f3233d395549
+  - f4f71128f097
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: ucsc_maftoaxt

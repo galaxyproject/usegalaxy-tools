@@ -1,13 +1,36 @@
-install_repository_dependencies: true
+install_repository_dependencies: false
 install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Machine Learning
 tools:
+- name: multimodal_learner
+  owner: goeckslab
+  revisions:
+  - 375c36923da1
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: image_learner
+  owner: goeckslab
+  revisions:
+  - 8729f69e9207
+  - 94cd9ac4a9b1
+  - bbf30253c99f
+  - c5150cceab47
+  - d17e3a1b8659
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
 - name: tabular_learner
   owner: goeckslab
   revisions:
+  - 0afd970bd8ae
   - 11fdac5affb3
+  - 15707141e7da
   - 209b663a4f62
+  - 49f73a3c12f3
+  - 4bd75b45a7a1
+  - ba45bc057d70
+  - bf0df21a1ea3
+  - e7dd78077b72
   - f6a65e05d6ec
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
@@ -25,8 +48,15 @@ tools:
   - 0314dad38aaa
   - 1aed7d47c5ec
   - 4a7df9abe4c4
+  - 4eca9d109de1
+  - 4fee4504646e
+  - 7d78a6afc958
   - afd0864d18b6
+  - c5c324ac29fc
   - ccd798db5abb
+  - e2a6fed32d54
+  - e674b9e946fb
+  - f07850192bc2
   - f4cb41f458fd
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning

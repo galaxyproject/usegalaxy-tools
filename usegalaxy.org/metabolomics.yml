@@ -22,3 +22,5 @@ tools:
   owner: recetox
 - name: mfassignr_mfassign
   owner: recetox
+- name: table_pandas_rename_column
+  owner: recetox

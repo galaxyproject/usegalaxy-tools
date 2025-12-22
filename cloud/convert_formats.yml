@@ -2,3 +2,21 @@ tool_panel_section_label: Convert Formats
 tools:
 - name: gtftobed12
   owner: iuc
+- name: tooldistillator
+  owner: iuc
+- name: tooldistillator_summarize
+  owner: iuc
+- name: fasta_to_tabular
+  owner: devteam
+- name: tabular_to_fasta
+  owner: devteam
+- name: graphicsmagick_image_montage
+  owner: bgruening
+- name: biom_convert
+  owner: iuc
+- name: msconvert
+  owner: galaxyp
+- name: compress_file
+  owner: iuc
+- name: gffread
+  owner: devteam

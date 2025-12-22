@@ -94,7 +94,7 @@ def update_file(fn, install_repository_dependencies, install_resolver_dependenci
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--no-install-repository-dependencies', action='store_true', default=False,
+    parser.add_argument('--no-install-repository-dependencies', action='store_true', default=True,
                         help="Don't install TS repository dependencies")
     parser.add_argument('--no-install-resolver-dependencies', action='store_true', default=True,
                         help="Don't install tool dependencies via Galaxy dependency resolver (e.g. conda)")

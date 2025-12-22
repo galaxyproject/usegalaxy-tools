@@ -118,6 +118,10 @@ tools:
   owner: iuc
 - name: mash_sketch
   owner: iuc
+- name: mash_dist
+  owner: iuc
+- name: mash_paste
+  owner: iuc
 - name: metabat2
   owner: iuc
 - name: megahit_contig2fastg
@@ -221,4 +225,18 @@ tools:
 -name: metasbt_index
   owner: iuc
 - name: metasbt_profile
+  owner: iuc
+- name: cami_amber_add
+  owner: iuc
+- name: cami_amber_convert
+  owner: iuc
+- name: cami_amber_convert
+  owner: iuc
+- name: cami_amber
+  owner: iuc
+- name: biobox_add_taxid
+  owner: iuc
+- name: gtdb_to_taxdump
+  owner: iuc
+- name: name2taxid
   owner: iuc
