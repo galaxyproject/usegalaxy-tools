@@ -222,7 +222,7 @@ tools:
   owner: rplanel
 - name: iphop_predict
   owner: ufz
--name: metasbt_index
+- name: metasbt_index
   owner: iuc
 - name: metasbt_profile
   owner: iuc
