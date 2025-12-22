@@ -222,6 +222,10 @@ tools:
   owner: rplanel
 - name: iphop_predict
   owner: ufz
+- name: metasbt_index
+  owner: iuc
+- name: metasbt_profile
+  owner: iuc
 - name: cami_amber_add
   owner: iuc
 - name: cami_amber_convert

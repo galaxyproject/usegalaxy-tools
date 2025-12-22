@@ -964,6 +964,18 @@ tools:
   - d357350b6da0
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: metasbt_index
+  owner: iuc
+  revisions:
+  - dff5f0dd17eb
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: metasbt_profile
+  owner: iuc
+  revisions:
+  - 14515a211bd9
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
 - name: cami_amber_add
   owner: iuc
   revisions:
