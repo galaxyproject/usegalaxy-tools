@@ -56,6 +56,7 @@ tools:
   - 9e912fce264c
   - b0d893d04d4c
   - bbf30253c99f
+  - c460abae83eb
   - c5150cceab47
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
