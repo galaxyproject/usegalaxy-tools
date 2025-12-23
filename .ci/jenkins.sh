@@ -236,7 +236,7 @@ function set_repo_vars() {
         OVERLAYFS_UPPER="${WORKSPACE}/${BUILD_NUMBER}/upper"
         OVERLAYFS_WORK="${WORKSPACE}/${BUILD_NUMBER}/work"
         OVERLAYFS_MOUNT="${WORKSPACE}/${BUILD_NUMBER}/mount"
-        CVMFS_CACHE="${WORKSPACE}/${BUILD_NUMBER}/cvmfs-cache"
+        CVMFS_CACHE="${WORKSPACE}/cvmfs-cache"
     else
         OVERLAYFS_UPPER="/var/spool/cvmfs/${REPO}/scratch/current"
         OVERLAYFS_LOWER="/var/spool/cvmfs/${REPO}/rdonly"
