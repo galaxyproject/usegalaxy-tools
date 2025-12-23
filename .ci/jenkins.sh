@@ -31,6 +31,9 @@ GALAXY_TEMPLATE_DB='galaxy.sqlite'
 # fuse-overlayfs to be installed on Jenkins workers.
 USE_LOCAL_OVERLAYFS=true
 
+# Parent dir of the persistent CVMFS cache
+JENKINS_ROOT=/data/jenkins
+
 #
 # Development/debug options
 #
@@ -236,7 +239,8 @@ function set_repo_vars() {
         OVERLAYFS_UPPER="${WORKSPACE}/${BUILD_NUMBER}/upper"
         OVERLAYFS_WORK="${WORKSPACE}/${BUILD_NUMBER}/work"
         OVERLAYFS_MOUNT="${WORKSPACE}/${BUILD_NUMBER}/mount"
-        CVMFS_CACHE="${WORKSPACE}/cvmfs-cache"
+        CVMFS_CACHE="${JENKINS_ROOT}/cvmfs-cache"
+        CVMFS_SOCKETS="${WORKSPACE}/${BUILD_NUMBER}/cvmfs-sockets"
     else
         OVERLAYFS_UPPER="/var/spool/cvmfs/${REPO}/scratch/current"
         OVERLAYFS_LOWER="/var/spool/cvmfs/${REPO}/rdonly"
@@ -272,7 +276,7 @@ function setup_ephemeris() {
 
 function verify_cvmfs_revision() {
     log "Verifying that CVMFS Client and Stratum 0 are in sync"
-    local cvmfs_io_sock="${CVMFS_CACHE}/${REPO}/cvmfs_io.${REPO}"
+    local cvmfs_io_sock="${CVMFS_SOCKETS}/${REPO}/cvmfs_io.${REPO}"
     local stratum0_published_url="http://${REPO_STRATUM0}/cvmfs/${REPO}/.cvmfspublished"
     local client_rev=-1
     local stratum0_rev=0
@@ -298,7 +302,7 @@ function verify_cvmfs_revision() {
 function mount_overlay() {
     log "Mounting OverlayFS/CVMFS"
     log_debug "\$JOB_NAME: ${JOB_NAME}, \$WORKSPACE: ${WORKSPACE}, \$BUILD_NUMBER: ${BUILD_NUMBER}"
-    log_exec mkdir -p "$OVERLAYFS_LOWER" "$OVERLAYFS_UPPER" "$OVERLAYFS_WORK" "$OVERLAYFS_MOUNT" "$CVMFS_CACHE"
+    log_exec mkdir -p "$OVERLAYFS_LOWER" "$OVERLAYFS_UPPER" "$OVERLAYFS_WORK" "$OVERLAYFS_MOUNT" "$CVMFS_CACHE" "$CVMFS_SOCKETS"
     log_exec cvmfs2 -o config=.ci/cvmfs-fuse.conf,allow_root "$REPO" "$OVERLAYFS_LOWER"
     LOCAL_CVMFS_MOUNTED=true
     verify_cvmfs_revision
