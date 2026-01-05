@@ -276,7 +276,7 @@ function setup_ephemeris() {
 
 function verify_cvmfs_revision() {
     log "Verifying that CVMFS Client and Stratum 0 are in sync"
-    local cvmfs_io_sock="${CVMFS_SOCKETS}/${REPO}/cvmfs_io.${REPO}"
+    local cvmfs_io_sock="${CVMFS_CACHE}/${REPO}/cvmfs_io.${REPO}"
     local stratum0_published_url="http://${REPO_STRATUM0}/cvmfs/${REPO}/.cvmfspublished"
     local client_rev=-1
     local stratum0_rev=0
