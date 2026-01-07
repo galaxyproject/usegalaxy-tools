@@ -1,0 +1,4 @@
+tool_panel_section_label: Kinase Activity Inference
+tools:
+- name: kstar_calculate
+  owner: naegle_lab
