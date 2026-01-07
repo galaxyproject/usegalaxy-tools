@@ -10,6 +10,7 @@ tools:
   - 241a78eb2935
   - 328c607150ff
   - 4a9da2b6c2e3
+  - cbe396d9773e
   - cdee7158adf3
   - e150ae930235
   - e674066930b2
@@ -26,6 +27,7 @@ tools:
   - 62c9df8382c2
   - 64be1ac21109
   - 8b8a3f793f0f
+  - 9553180705b7
   - e8ac2b53f262
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -208,6 +210,7 @@ tools:
   - a58e4a43f49c
   - cae017b76acb
   - d60df8727f59
+  - e7c2674e01fe
   - f947b4bb5107
   - fa11922f3d91
   tool_panel_section_id: metagenomic_analysis
@@ -216,6 +219,7 @@ tools:
   owner: iuc
   revisions:
   - 1728e5ee871a
+  - 224abe7c80ed
   - 32c9ea835770
   - 498d57610fcd
   - 555ccac8a4c5
@@ -239,6 +243,7 @@ tools:
   - 76d3d2b10738
   - 79212a309499
   - 7c2100246a2f
+  - 9f306361a58e
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_removebimeradenovo
@@ -248,6 +253,7 @@ tools:
   - 073608a50ac3
   - 1770d188f72d
   - 1bc3657cd694
+  - 4efeb75704c8
   - 5b752525bd6f
   - 7136e9ab70db
   - 7f3b59dee073
@@ -266,6 +272,7 @@ tools:
   - a9f4a217dcd6
   - addaf9d22850
   - ca73bbac615a
+  - e8768ddeba32
   - e8fba04706d3
   - f732237754fc
   tool_panel_section_id: metagenomic_analysis
@@ -277,6 +284,7 @@ tools:
   - 18a502a9d287
   - 1c35dadbe76f
   - 2222f08c8316
+  - 47198090501e
   - 6b4ddc3b64bd
   - 84fd33a60b35
   - 96336c6a2bb7
@@ -296,6 +304,7 @@ tools:
   - a14a18a47c36
   - afdfa35a89d9
   - c48d42d65d2b
+  - dd6572434618
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_makesequencetable
@@ -305,6 +314,7 @@ tools:
   - 43c99742158b
   - 75c8945b0da2
   - 8470de786d47
+  - 88677f452aea
   - 99c6929236fa
   - 9ccec6ed8e82
   - bfd62e881837
@@ -317,6 +327,7 @@ tools:
   revisions:
   - 0b884b080bb6
   - 1d75bd0595e2
+  - 273b8a00c8a2
   - 306a40d4bb8f
   - 35176674168c
   - 5c865a382933
@@ -331,6 +342,7 @@ tools:
   revisions:
   - 0a1224c4b781
   - 19299bb1c6af
+  - 213a3fda0b91
   - 390bc2645138
   - 4cc834cce4fb
   - 7d28da5e9e27
@@ -707,10 +719,12 @@ tools:
 - name: gtdbtk_classify_wf
   owner: iuc
   revisions:
+  - 28bc8c01b193
   - 30a4bdf88e14
   - 4d9445dff47b
   - 53691cc6af0f
   - 53a019316350
+  - 97b1540b4830
   - c30adf839acd
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -961,10 +975,29 @@ tools:
   - d357350b6da0
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: metasbt_index
+  owner: iuc
+  revisions:
+  - dff5f0dd17eb
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: metasbt_profile
+  owner: iuc
+  revisions:
+  - 14515a211bd9
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
 - name: cami_amber_add
   owner: iuc
   revisions:
   - b0dbddc7a288
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: cami_amber_convert
+  owner: iuc
+  revisions:
+  - 848594e0be6a
+  - fac3911ad3b6
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: cami_amber_convert

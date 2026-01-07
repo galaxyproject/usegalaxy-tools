@@ -500,6 +500,7 @@ tools:
   owner: iuc
   revisions:
   - 033755194fe9
+  - 59c8717f6925
   - 73b018c57e96
   - af3c1dc1d141
   - b815ec682418
@@ -632,5 +633,11 @@ tools:
   owner: iuc
   revisions:
   - 876d26806584
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: braker3
+  owner: genouest
+  revisions:
+  - 0be6820e3268
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

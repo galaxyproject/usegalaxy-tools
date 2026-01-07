@@ -156,3 +156,5 @@ tools:
   owner: iuc
 - name: mmseqs2_taxonomy_assignment
   owner: iuc
+- name: braker3
+  owner: genouest

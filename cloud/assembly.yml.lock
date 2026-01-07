@@ -105,6 +105,7 @@ tools:
   owner: bgruening
   revisions:
   - 5d365d5cbe9d
+  - e5e767089163
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: bionano_scaffold
@@ -138,6 +139,7 @@ tools:
 - name: genomescope
   owner: iuc
   revisions:
+  - 0bace381c9fd
   - 460fad600dce
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -162,6 +164,7 @@ tools:
 - name: shovill
   owner: iuc
   revisions:
+  - 331109486d58
   - ee17a294d3a3
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

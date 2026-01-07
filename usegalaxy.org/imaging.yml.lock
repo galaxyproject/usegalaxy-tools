@@ -6,6 +6,9 @@ tools:
 - name: 2d_simple_filter
   owner: imgteam
   revisions:
+  - 1b7e67168732
+  - 59e9798010ce
+  - 6fecb8056a80
   - d51310ab328a
   - f70b215d155c
   tool_panel_section_id: imaging
@@ -20,6 +23,7 @@ tools:
 - name: 2d_auto_threshold
   owner: imgteam
   revisions:
+  - 2ee04d2ebdcf
   - 3df9f0a4bf34
   - 50fa6150e340
   - 699a5e9146b3
@@ -35,6 +39,7 @@ tools:
 - name: binary2labelimage
   owner: imgteam
   revisions:
+  - 364e235bf378
   - 7f8102bdbfa1
   - 984358e43242
   tool_panel_section_id: imaging
@@ -44,6 +49,7 @@ tools:
   revisions:
   - 37662cbf44b8
   - 66fe62b96281
+  - bc4cf90cfc3b
   - ca362a9bfa20
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
@@ -104,5 +110,24 @@ tools:
   revisions:
   - 05a8d9dea3df
   - ef73596d678a
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: spot_detection_2d
+  owner: imgteam
+  revisions:
+  - d78372040976
+  - e8c9e104e109
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: points_association_nn
+  owner: imgteam
+  revisions:
+  - f3fad67af22c
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: curve_fitting
+  owner: imgteam
+  revisions:
+  - 2dc244356765
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging

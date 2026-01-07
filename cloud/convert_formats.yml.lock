@@ -42,6 +42,7 @@ tools:
   owner: bgruening
   revisions:
   - 601575b847c0
+  - 77f67ddd89d6
   - ab55af10f1ff
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
