@@ -624,6 +624,22 @@ tools:
   - b3c3217c0cbc
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: vgp_chromosome_assignment
+  owner: iuc
+  revisions:
+  - 9b52f4e2093b
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: vgp_sak_generation
+  owner: iuc
+  revisions:
+  - c09d0f41b196
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: vgp_split_agp
+  owner: iuc
+  revisions:
+  - fc30c955f2ac
 - name: teloscope
   owner: iuc
   revisions:
