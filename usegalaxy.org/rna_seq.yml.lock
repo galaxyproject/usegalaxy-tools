@@ -560,3 +560,9 @@ tools:
   - d3b0390f325f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
+- name: ngsderive_strandedness
+  owner: iuc
+  revisions:
+  - bb8409cb3005
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq

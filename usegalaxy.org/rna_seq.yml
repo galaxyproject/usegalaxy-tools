@@ -120,3 +120,5 @@ tools:
   owner: iuc
 - name: brew3r_r
   owner: iuc
+- name: ngsderive_strandedness
+  owner: iuc
