@@ -278,3 +278,9 @@ tools:
   - 9f2d2c96a189
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: ucsc_netchainsubset
+  owner: iuc
+  revisions:
+  - 794cf52edccc
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
