@@ -640,6 +640,8 @@ tools:
   owner: iuc
   revisions:
   - fc30c955f2ac
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
 - name: teloscope
   owner: iuc
   revisions:
