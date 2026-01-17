@@ -401,6 +401,7 @@ tools:
   revisions:
   - 733ca84b21ee
   - 7521d865e770
+  - d5c640895ed6
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: filter_by_fasta_ids
