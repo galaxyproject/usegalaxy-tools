@@ -84,6 +84,7 @@ tools:
   revisions:
   - 506a90ab5581
   - 65703c06c1f6
+  - fc43cdc81408
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: scimap_mcmicro_to_anndata
