@@ -8,6 +8,7 @@ tools:
   revisions:
   - 09bbf4f2d180
   - 3c62b046bc3d
+  - 9bb86931b7b1
   tool_panel_section_id: image_manipulation
   tool_panel_section_label: Image Manipulation
 - name: imagemagick_image_montage
@@ -15,11 +16,13 @@ tools:
   revisions:
   - 506a90ab5581
   - 65703c06c1f6
+  - fc43cdc81408
   tool_panel_section_id: image_manipulation
   tool_panel_section_label: Image Manipulation
 - name: imagemagick_image_compare
   owner: bgruening
   revisions:
+  - 12eee3d3877e
   - 5c7e14cbff16
   - 704eca42732d
   tool_panel_section_id: image_manipulation

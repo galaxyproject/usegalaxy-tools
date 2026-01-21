@@ -161,6 +161,7 @@ tools:
 - name: ucsc_mafaddirows
   owner: iuc
   revisions:
+  - 0c8a176cd7ca
   - 86d5452a28fb
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
@@ -168,24 +169,28 @@ tools:
   owner: iuc
   revisions:
   - 2b1884fdb849
+  - 7ca2e72f9194
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: ucsc_maffetch
   owner: iuc
   revisions:
   - 3b8eea04d99d
+  - 8060cd2f5983
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: ucsc_maffilter
   owner: iuc
   revisions:
   - 31fbaa675b6b
+  - fb6c3ba3a084
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: ucsc_maffrags
   owner: iuc
   revisions:
   - 0a4c5ab34cf1
+  - 5481c3cfacc3
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: ucsc_maftoaxt

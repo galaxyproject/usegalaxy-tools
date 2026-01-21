@@ -6,6 +6,7 @@ tools:
 - name: multimodal_learner
   owner: goeckslab
   revisions:
+  - 25bb80df7c0c
   - 375c36923da1
   - a92f200d296e
   tool_panel_section_id: machine_learning
@@ -19,11 +20,13 @@ tools:
   - c460abae83eb
   - c5150cceab47
   - d17e3a1b8659
+  - d5c582cf74bc
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: tabular_learner
   owner: goeckslab
   revisions:
+  - 01e7c5481f13
   - 0afd970bd8ae
   - 11fdac5affb3
   - 15707141e7da
@@ -60,6 +63,7 @@ tools:
   - e2a6fed32d54
   - e674b9e946fb
   - f07850192bc2
+  - f2877a8b54e4
   - f4cb41f458fd
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
