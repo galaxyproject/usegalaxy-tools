@@ -44,3 +44,5 @@ tools:
   owner: iuc
 - name: braker3
   owner: genouest
+- name: coreprofiler_allele_calling
+  owner: iuc
