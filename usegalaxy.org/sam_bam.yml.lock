@@ -404,3 +404,9 @@ tools:
   - f4f7f632815d
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
+- name: suite_sambamba
+  owner: bgruening
+  revisions:
+  - 7710d7b5b8ba
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM

@@ -82,3 +82,6 @@ tools:
   owner: iuc
 - name: samtools_coverage
   owner: iuc
+- name: suite_sambamba
+  owner: bgruening
+
