@@ -549,6 +549,7 @@ tools:
   revisions:
   - 298d81e5e138
   - b3f292d9f35d
+  - d3377a16d881
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: brew3r_r
