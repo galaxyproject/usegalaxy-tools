@@ -140,3 +140,9 @@ tools:
   - 0be6820e3268
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: coreprofiler_allele_calling
+  owner: iuc
+  revisions:
+  - b781bb77a985
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
