@@ -9,6 +9,7 @@ tools:
   - 25bb80df7c0c
   - 375c36923da1
   - a92f200d296e
+  - de753cf07008
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: image_learner
