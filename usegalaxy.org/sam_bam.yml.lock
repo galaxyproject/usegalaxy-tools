@@ -404,3 +404,27 @@ tools:
   - f4f7f632815d
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
+- name: sambamba_sort
+  owner: bgruening
+  revisions:
+  - 6aa99e436263
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: sambamba_merge
+  owner: bgruening
+  revisions:
+  - 66a7ee77d7e3
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: sambamba_markdup
+  owner: bgruening
+  revisions:
+  - a348429b6fec
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: sambamba_flagstat
+  owner: bgruening
+  revisions:
+  - cfd6e76541ff
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM

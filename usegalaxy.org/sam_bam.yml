@@ -82,3 +82,12 @@ tools:
   owner: iuc
 - name: samtools_coverage
   owner: iuc
+- name: sambamba_sort
+  owner: bgruening
+- name: sambamba_merge
+  owner: bgruening
+- name: sambamba_markdup
+  owner: bgruening
+- name: sambamba_flagstat
+  owner: bgruening
+
