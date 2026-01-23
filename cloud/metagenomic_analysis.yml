@@ -76,3 +76,5 @@ tools:
   owner: bgruening
 - name: coverm_contig
   owner: iuc
+- name: sylph_profile
+  owner: bgruening
