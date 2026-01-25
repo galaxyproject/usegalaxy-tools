@@ -647,3 +647,15 @@ tools:
   - b781bb77a985
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: deeparg_short_reads
+  owner: iuc
+  revisions:
+  - 854b7c026a7e
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: groot
+  owner: iuc
+  revisions:
+  - 4d5cf5a423d5
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
