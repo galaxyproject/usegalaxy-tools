@@ -291,6 +291,7 @@ tools:
   - 29151e779524
   - 76d4cbefff85
   - a315c25dc813
+  - bded6226d503
   - e9bd16ba5ebd
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -628,18 +629,21 @@ tools:
 - name: vgp_chromosome_assignment
   owner: iuc
   revisions:
+  - 8926e6cd9071
   - 9b52f4e2093b
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: vgp_sak_generation
   owner: iuc
   revisions:
+  - 8fbdd799f24c
   - c09d0f41b196
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: vgp_split_agp
   owner: iuc
   revisions:
+  - da61829dc3be
   - fc30c955f2ac
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
