@@ -22,3 +22,5 @@ tools:
   owner: galaxyp
 - name: fastq_dl
   owner: iuc
+- name: pysradb_search
+  owner: iuc
