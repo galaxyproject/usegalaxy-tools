@@ -56,3 +56,5 @@ tools:
   owner: iuc
 - name: ucsc_netchainsubset
   owner: iuc
+- name: ucsc_chainswap
+  owner: iuc
