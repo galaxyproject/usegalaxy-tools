@@ -292,6 +292,7 @@ tools:
   - 76d4cbefff85
   - a315c25dc813
   - e9bd16ba5ebd
+  - bded6226d503
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: meryl
@@ -629,18 +630,21 @@ tools:
   owner: iuc
   revisions:
   - 9b52f4e2093b
+  - 8926e6cd9071
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: vgp_sak_generation
   owner: iuc
   revisions:
   - c09d0f41b196
+  - 8fbdd799f24c
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: vgp_split_agp
   owner: iuc
   revisions:
   - fc30c955f2ac
+  - da61829dc3be
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: teloscope
