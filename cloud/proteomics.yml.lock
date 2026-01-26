@@ -87,6 +87,7 @@ tools:
 - name: eggnog_mapper
   owner: galaxyp
   revisions:
+  - 02439eb2b37d
   - d9c3016f7283
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics

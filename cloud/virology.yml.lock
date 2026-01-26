@@ -73,6 +73,7 @@ tools:
 - name: snipit
   owner: iuc
   revisions:
+  - 290071465e6e
   - 877e80114d25
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
