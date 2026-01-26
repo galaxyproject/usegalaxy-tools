@@ -120,3 +120,9 @@ tools:
   - 5e7401777990
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
+- name: pysradb_search
+  owner: iuc
+  revisions:
+  - b91e1e70f3a1
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
