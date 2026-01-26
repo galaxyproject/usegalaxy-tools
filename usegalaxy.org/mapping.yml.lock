@@ -285,3 +285,9 @@ tools:
   - 794cf52edccc
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: ucsc_chainswap
+  owner: iuc
+  revisions:
+  - 6a7085c7777e
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
