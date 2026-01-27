@@ -6,6 +6,7 @@ tools:
 - name: lexicmap
   owner: iuc
   revisions:
+  - f0e5afff062b
   - cefde4c7f92e
   - d1a30eb26392
   tool_panel_section_id: lexicmap
