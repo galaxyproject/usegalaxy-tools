@@ -12,6 +12,7 @@ tools:
   - 975512caae22
   - a92f200d296e
   - de753cf07008
+  - ed2fefc8d892
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: image_learner
