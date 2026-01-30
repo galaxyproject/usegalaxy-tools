@@ -16,9 +16,32 @@ def section_label_to_id(label):
     return ''.join(map(section_id_chr, label))
 
 
+def deduplicate_tools(tools):
+    """Remove duplicate tools with same (name, owner) combination, keeping first occurrence."""
+    seen = set()
+    deduped = []
+    for tool in tools:
+        key = (tool['name'], tool['owner'])
+        if key not in seen:
+            seen.add(key)
+            deduped.append(tool)
+        else:
+            logging.warning('Dropping duplicate tool: %s/%s', tool['owner'], tool['name'])
+    return deduped
+
+
 def update_file(fn, install_repository_dependencies, install_resolver_dependencies):
     with open(fn, 'r') as handle:
         unlocked = yaml.safe_load(handle)
+
+    # Deduplicate tools in the source yml file
+    original_count = len(unlocked['tools'])
+    unlocked['tools'] = deduplicate_tools(unlocked['tools'])
+    if len(unlocked['tools']) < original_count:
+        logging.info('Removed %d duplicate(s) from %s', original_count - len(unlocked['tools']), fn)
+        with open(fn, 'w') as handle:
+            yaml.dump(unlocked, handle, default_flow_style=False)
+
     # If a lock file exists, load it from that file
     if os.path.exists(fn + '.lock'):
         with open(fn + '.lock', 'r') as handle:
@@ -26,6 +49,10 @@ def update_file(fn, install_repository_dependencies, install_resolver_dependenci
     else:
         # Otherwise just clone the "unlocked" list.
         locked = copy.deepcopy(unlocked)
+
+    # Deduplicate tools in the lock file as well
+    if 'tools' in locked:
+        locked['tools'] = deduplicate_tools(locked['tools'])
 
     # We will place entries in a cleaned lockfile, removing defunct entries, etc.
     clean_lockfile = copy.deepcopy(locked)
