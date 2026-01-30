@@ -14,12 +14,6 @@ tools:
   owner: bgruening
 - name: hicexplorer_chicviewpoint
   owner: bgruening
-- name: hicexplorer_chicqualitycontrol
-  owner: bgruening
-- name: hicexplorer_chicsignificantinteractions
-  owner: bgruening
-- name: hicexplorer_chicviewpoint
-  owner: bgruening
 - name: hicexplorer_chicviewpointbackgroundmodel
   owner: bgruening
 - name: hicexplorer_hicadjustmatrix

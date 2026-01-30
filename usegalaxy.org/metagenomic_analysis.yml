@@ -230,8 +230,6 @@ tools:
   owner: iuc
 - name: cami_amber_convert
   owner: iuc
-- name: cami_amber_convert
-  owner: iuc
 - name: cami_amber
   owner: iuc
 - name: biobox_add_taxid
