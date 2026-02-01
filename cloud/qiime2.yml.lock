@@ -7,6 +7,7 @@ tools:
   owner: q2d2
   revisions:
   - 1dfccc639d50
+  - 2721424d7a53
   - 3f011fac899d
   - 84bcab7cf87e
   tool_panel_section_id: qiime2
