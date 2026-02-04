@@ -1,0 +1,4 @@
+tool_panel_section_label: Filter and Sort
+tools:
+- name: filter_by_fasta_ids
+  owner: galaxyp
