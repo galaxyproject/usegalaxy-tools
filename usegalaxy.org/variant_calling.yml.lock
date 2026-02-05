@@ -347,3 +347,255 @@ tools:
   - 88e27e10b1ed
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
+- name: control_freec
+  owner: iuc
+  revisions:
+  - f923c54a17ee
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_access
+  owner: iuc
+  revisions:
+  - ee93e2047dc1
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_antitarget
+  owner: iuc
+  revisions:
+  - f1b016247826
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_autobin
+  owner: iuc
+  revisions:
+  - 33ceac9ae827
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_batch
+  owner: iuc
+  revisions:
+  - 80dc747a394d
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_breaks
+  owner: iuc
+  revisions:
+  - d889cf77ec0d
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_call
+  owner: iuc
+  revisions:
+  - 79b2add55e02
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_coverage
+  owner: iuc
+  revisions:
+  - 9410f163f2e7
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_diagram
+  owner: iuc
+  revisions:
+  - 8f642a41cd94
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_export_bed
+  owner: iuc
+  revisions:
+  - 944f92089b9a
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_export_cdt
+  owner: iuc
+  revisions:
+  - 21a1d65e26ba
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_export_jtv
+  owner: iuc
+  revisions:
+  - 6617cb1fcbcc
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_export_nexus_basic
+  owner: iuc
+  revisions:
+  - b1e27c68c067
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_export_nexus_ogt
+  owner: iuc
+  revisions:
+  - 5b8288d21d5e
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_export_seg
+  owner: iuc
+  revisions:
+  - 40918fee953b
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_theta
+  owner: iuc
+  revisions:
+  - b9688f52a18f
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_export_vcf
+  owner: iuc
+  revisions:
+  - d50130b48076
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_fix
+  owner: iuc
+  revisions:
+  - aa3fa1c29ccf
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_genemetrics
+  owner: iuc
+  revisions:
+  - aafd56f1b0f7
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_heatmap
+  owner: iuc
+  revisions:
+  - 41a25bd96ec6
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_reference
+  owner: iuc
+  revisions:
+  - 403825b9349a
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_scatter
+  owner: iuc
+  revisions:
+  - 64960243c9e1
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_segment
+  owner: iuc
+  revisions:
+  - bdd0e8e05933
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_segmetrics
+  owner: iuc
+  revisions:
+  - 046b04fc7284
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_sex
+  owner: iuc
+  revisions:
+  - 9f300faccb88
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_target
+  owner: iuc
+  revisions:
+  - 8e75b2d61784
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnv_vcf2json
+  owner: iuc
+  revisions:
+  - 2691b8c12947
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: beacon2_csv2xlsx
+  owner: iuc
+  revisions:
+  - 89cbbb7821b0
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: beacon2_pxf2bff
+  owner: iuc
+  revisions:
+  - 23449c685168
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: beacon2_vcf2bff
+  owner: iuc
+  revisions:
+  - ef90043ba759
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: beacon2_biosamples
+  owner: iuc
+  revisions:
+  - 7e8a31232cdb
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: beacon2_cohorts
+  owner: iuc
+  revisions:
+  - 64718ff8785c
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: beacon2_datasets
+  owner: iuc
+  revisions:
+  - 5cab12440f5e
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: beacon2_individuals
+  owner: iuc
+  revisions:
+  - 3033822b7bb0
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: beacon2_runs
+  owner: iuc
+  revisions:
+  - b960f8955623
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: beacon2_analyses
+  owner: iuc
+  revisions:
+  - a74015edaebc
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: beacon2_bracket
+  owner: iuc
+  revisions:
+  - f23a3c49ea2a
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: beacon2_cnv
+  owner: iuc
+  revisions:
+  - a95f1deb185d
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: beacon2_gene
+  owner: iuc
+  revisions:
+  - 435b858a0e57
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: beacon2_import
+  owner: iuc
+  revisions:
+  - 20c4a135a4d8
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: beacon2_range
+  owner: iuc
+  revisions:
+  - 519108bc5e2a
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: beacon2_sequence
+  owner: iuc
+  revisions:
+  - 7e55788f45c5
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
