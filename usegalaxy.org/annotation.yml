@@ -164,3 +164,33 @@ tools:
   owner: iuc
 - name: groot
   owner: iuc
+- name: aragorn_trna
+  owner: bgruening
+- name: orthofinder_onlygroups
+  owner: iuc
+- name: liftoff
+  owner: iuc
+- name: hmmer_alimask
+  owner: iuc
+- name: hmmer_hmmalign
+  owner: iuc
+- name: hmmer_hmmbuild
+  owner: iuc
+- name: hmmer_hmmconvert
+  owner: iuc
+- name: hmmer_hmmemit
+  owner: iuc
+- name: hmmer_hmmfetch
+  owner: iuc
+- name: hmmer_hmmscan
+  owner: iuc
+- name: hmmer_hmmsearch
+  owner: iuc
+- name: hmmer_jackhmmer
+  owner: iuc
+- name: hmmer_nhmmer
+  owner: iuc
+- name: hmmer_nhmmscan
+  owner: iuc
+- name: hmmer_phmmer
+  owner: iuc

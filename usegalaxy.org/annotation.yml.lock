@@ -660,3 +660,93 @@ tools:
   - 4d5cf5a423d5
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: aragorn_trna
+  owner: bgruening
+  revisions:
+  - 3293904c967c
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: orthofinder_onlygroups
+  owner: iuc
+  revisions:
+  - b6ec80429d54
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: liftoff
+  owner: iuc
+  revisions:
+  - 3693aa025049
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: hmmer_alimask
+  owner: iuc
+  revisions:
+  - e3e5f208e93c
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: hmmer_hmmalign
+  owner: iuc
+  revisions:
+  - 71863d3bf721
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: hmmer_hmmbuild
+  owner: iuc
+  revisions:
+  - 4b996c837ec8
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: hmmer_hmmconvert
+  owner: iuc
+  revisions:
+  - a9dace1a1e36
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: hmmer_hmmemit
+  owner: iuc
+  revisions:
+  - be03abdc6451
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: hmmer_hmmfetch
+  owner: iuc
+  revisions:
+  - 34b09461bf87
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: hmmer_hmmscan
+  owner: iuc
+  revisions:
+  - 4a54e4c9188b
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: hmmer_hmmsearch
+  owner: iuc
+  revisions:
+  - df7a52791be9
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: hmmer_jackhmmer
+  owner: iuc
+  revisions:
+  - 9fdeca68a6b5
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: hmmer_nhmmer
+  owner: iuc
+  revisions:
+  - 54b92ae4f75b
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: hmmer_nhmmscan
+  owner: iuc
+  revisions:
+  - fb1305d0d1c6
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: hmmer_phmmer
+  owner: iuc
+  revisions:
+  - 37bcc9fb0bb1
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
