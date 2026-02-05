@@ -283,6 +283,7 @@ tools:
   - df25d4fb79b7
   - e5e767089163
   - f3c89da3af16
+  - fafc9b2b1657
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: purge_dups
