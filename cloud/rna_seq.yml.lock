@@ -64,6 +64,7 @@ tools:
   revisions:
   - 26371a1df031
   - 61ee47027bd3
+  - b12d81af0291
   - f4af63aaf57a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq

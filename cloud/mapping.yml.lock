@@ -47,6 +47,7 @@ tools:
   revisions:
   - 37b497aa133f
   - 48d39ee9eb30
+  - bf107d23242b
   - e7f19d6a9af8
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
