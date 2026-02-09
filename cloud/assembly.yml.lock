@@ -107,6 +107,7 @@ tools:
   revisions:
   - 5d365d5cbe9d
   - e5e767089163
+  - fafc9b2b1657
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: bionano_scaffold
