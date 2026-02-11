@@ -18,3 +18,5 @@ tools:
   owner: bgruening
 - name: bionano_scaffold
   owner: bgruening
+- name: kmindex
+  owner: iuc

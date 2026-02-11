@@ -70,3 +70,9 @@ tools:
   - 96cacb31d571
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: kmindex
+  owner: iuc
+  revisions:
+  - e41fb9110baf
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
