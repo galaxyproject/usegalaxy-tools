@@ -1026,3 +1026,9 @@ tools:
   - 954448bad930
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: rgi
+  owner: card
+  revisions:
+  - 84bd24ac33fd
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
