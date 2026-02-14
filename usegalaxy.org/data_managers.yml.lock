@@ -169,5 +169,6 @@ tools:
   owner: ufz
   revisions:
   - 39dc692a9554
+  - 4cc25c2b1d0b
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers

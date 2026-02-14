@@ -6,6 +6,7 @@ tools:
 - name: telogator
   owner: iuc
   revisions:
+  - 4d30dc5744ba
   - b1f4b94fe2aa
   tool_panel_section_id: telogator
   tool_panel_section_label: Telogator
