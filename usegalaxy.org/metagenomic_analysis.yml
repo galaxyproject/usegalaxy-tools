@@ -238,3 +238,5 @@ tools:
   owner: iuc
 - name: name2taxid
   owner: iuc
+- name: rgi
+  owner: card
