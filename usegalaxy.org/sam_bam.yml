@@ -68,6 +68,8 @@ tools:
   owner: devteam
 - name: samtools_view
   owner: iuc
+- name: samtools_collate
+  owner: iuc
 - name: qualimap_multi_bamqc
   owner: iuc
 - name: qualimap_bamqc
@@ -90,4 +92,3 @@ tools:
   owner: bgruening
 - name: sambamba_flagstat
   owner: bgruening
-
