@@ -347,6 +347,12 @@ tools:
   - ff313de5f7f4
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
+- name: samtools_collate
+  owner: iuc
+  revisions:
+  - e7fa06931998
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
 - name: qualimap_multi_bamqc
   owner: iuc
   revisions:
@@ -428,10 +434,3 @@ tools:
   - cfd6e76541ff
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
-- name: samtools_collate
-  owner: iuc
-  revisions:
-  - e7fa06931998
-  tool_panel_section_id: sam_bam
-  tool_panel_section_label: SAM/BAM
-  
