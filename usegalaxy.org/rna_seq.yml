@@ -14,8 +14,6 @@ tools:
   owner: iuc
 - name: salmon
   owner: bgruening
-- name: diamond
-  owner: bgruening
 - name: kallisto_quant
   owner: iuc
 - name: kallisto_pseudo
