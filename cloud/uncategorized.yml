@@ -1,0 +1,4 @@
+tool_panel_section_label: Uncategorized
+tools:
+- name: teloscope
+  owner: iuc
