@@ -50,3 +50,5 @@ tools:
   owner: iuc
 - name: groot
   owner: iuc
+- name: teloscope
+  owner: iuc
