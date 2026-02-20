@@ -8,6 +8,7 @@ tools:
   revisions:
   - 107d3ba7024a
   - '113854308427'
+  - 1a53af0d39ec
   - 212c958f6cee
   - 3b8b5bde0bd9
   - 3f59ebfbfe3d
@@ -37,6 +38,7 @@ tools:
   - 68cd2d8e3840
   - 91cf1290ba6f
   - a88848771d2d
+  - dd0deea7ac09
   - df56795c3d89
   - e6009f23582c
   - f7810488bd92
@@ -52,6 +54,7 @@ tools:
   - 14e7ae9331cb
   - 194108d6da22
   - 35723f87964d
+  - 3ff0c5dac8e9
   - 4515f2f64e13
   - 5b6b8b08f1a9
   - 7fd2d1451728
@@ -92,6 +95,7 @@ tools:
   - e2f03a50aace
   - e908c4003bd8
   - e931e69b5a80
+  - ff8b64ab5bf7
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
 - name: hyphy_cfel
@@ -103,6 +107,7 @@ tools:
   - 6960dd62c983
   - 91679ca1480d
   - be3e39ccb02b
+  - d76dca762da3
   - fb833dd994f2
   - fcabcc150d21
   tool_panel_section_id: hyphy
@@ -115,6 +120,7 @@ tools:
   - 6569d04885e5
   - 6761212b7f1d
   - 9ce3d6d4bd0e
+  - a610ae9901fd
   - b30255d232d2
   - beeeed9665ea
   - c1d24ff838c8
@@ -136,6 +142,7 @@ tools:
   - a4398cfa8792
   - a73fff151e38
   - ac0dea1caeab
+  - ba558cf29c92
   - bf27b3df1a4f
   - c1244c2d8bbc
   - c257fa0a98a7
@@ -153,6 +160,7 @@ tools:
   - 09afc9104fc8
   - 31b7af192fd3
   - 389fd0e51bcb
+  - 481704c36d6d
   - 4926c55123d1
   - 8276bb2adea5
   - 8389039f7fbc
@@ -189,6 +197,7 @@ tools:
   - 77ff2a3d93fa
   - 80c9e5256a0d
   - 90e57f65ddd9
+  - 9c2cad287208
   - 9d2714133deb
   - a6da5885846e
   - af40a8b95f8d
@@ -217,6 +226,7 @@ tools:
   - 88c4aa435ded
   - 8d8e1285fdea
   - 9127799ac97e
+  - 9bbe8035be5d
   - a0731e81e0c2
   - a185b079b095
   - aa8cc71438cf
@@ -235,6 +245,7 @@ tools:
   - 5d8389d684bf
   - 5fd8dc04d6af
   - 6433eab14244
+  - 6e7f144046c0
   - 7852b50fabb7
   - 82a3221ca3aa
   - a114682b2788
@@ -265,6 +276,7 @@ tools:
   - 840b5fec0de9
   - 87f070db0de0
   - 8f66e659530b
+  - 987b688257a0
   - 9d83d1ab0330
   - 9f566d869e2f
   - a8f760e7c322
@@ -288,6 +300,7 @@ tools:
   - 49885a825dc1
   - 4d13ff4556da
   - 4e9485eb5e9d
+  - 592fb9353702
   - 5eb9d7217640
   - 627443c1e5ba
   - 63f85ef1a3d5
@@ -307,6 +320,7 @@ tools:
   owner: iuc
   revisions:
   - 08449da86cdf
+  - 0897635cc002
   - 0b4ee5db66ca
   - 0c6724c345d9
   - 1122d1a1ff67
@@ -333,6 +347,7 @@ tools:
   owner: iuc
   revisions:
   - 00b4cf477625
+  - 011f70f720ac
   - 051642420aec
   - 056a5b14721d
   - 1527f00ddf7f
@@ -363,6 +378,7 @@ tools:
   - 4bf743518e41
   - 50554f806e16
   - 7c86ceaf523c
+  - a60caeb3c453
   - dc8875a13914
   - ea698cd7e086
   - f5bbd4b34541

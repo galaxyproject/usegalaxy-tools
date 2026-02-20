@@ -17,6 +17,7 @@ tools:
   owner: imgteam
   revisions:
   - 77f7159d775a
+  - 99e0ef91ea5e
   - b1c2c210813c
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
@@ -33,6 +34,7 @@ tools:
   owner: imgteam
   revisions:
   - 85edbb7a436b
+  - fa8ce46a95bb
   - fcadded98e61
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
@@ -122,6 +124,7 @@ tools:
 - name: points_association_nn
   owner: imgteam
   revisions:
+  - 7b93ce5ec3ee
   - f3fad67af22c
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
@@ -129,5 +132,6 @@ tools:
   owner: imgteam
   revisions:
   - 2dc244356765
+  - 91dfd38a97ae
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
