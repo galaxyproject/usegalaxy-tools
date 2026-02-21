@@ -176,6 +176,7 @@ tools:
   - 67b0b160903a
   - 8f6836089479
   - 916cb26bd9d3
+  - fb117b3ee99a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: gffcompare

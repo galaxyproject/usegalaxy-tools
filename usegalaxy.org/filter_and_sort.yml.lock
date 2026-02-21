@@ -11,6 +11,7 @@ tools:
   - 61946b8bd43b
   - 96a3c972424f
   - bae6cba73e32
+  - e55bda1c8e20
   tool_panel_section_id: filter_and_sort
   tool_panel_section_label: Filter and Sort
 - name: sample_seqs
