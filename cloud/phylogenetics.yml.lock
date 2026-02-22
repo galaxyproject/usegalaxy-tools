@@ -9,6 +9,7 @@ tools:
   - 2f1019071464
   - c092a2f58013
   - c12c7d0e067b
+  - ef10c1e741c3
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: nextclade
