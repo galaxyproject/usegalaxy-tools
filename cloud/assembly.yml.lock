@@ -106,6 +106,7 @@ tools:
   owner: bgruening
   revisions:
   - 5d365d5cbe9d
+  - baf229b1fdfd
   - e5e767089163
   - fafc9b2b1657
   tool_panel_section_id: assembly
