@@ -329,6 +329,7 @@ tools:
   - 83c573f2e73c
   - 99ace6c1ff57
   - a363ba287b88
+  - c0b740d23adc
   - cfb0595f9842
   - e4790edb4299
   tool_panel_section_id: graph_display_data
