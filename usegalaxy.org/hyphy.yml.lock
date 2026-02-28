@@ -6,6 +6,7 @@ tools:
 - name: hyphy_absrel
   owner: iuc
   revisions:
+  - 106a316b5313
   - 107d3ba7024a
   - '113854308427'
   - 1a53af0d39ec
@@ -34,6 +35,7 @@ tools:
   owner: iuc
   revisions:
   - 2318841ec191
+  - 2dbd8f857b5f
   - 5b4fd931a989
   - 68cd2d8e3840
   - 91cf1290ba6f
@@ -56,6 +58,7 @@ tools:
   - 35723f87964d
   - 3ff0c5dac8e9
   - 4515f2f64e13
+  - 520104a6b886
   - 5b6b8b08f1a9
   - 7fd2d1451728
   - 91006eb8b84e
@@ -79,6 +82,7 @@ tools:
   - 12bc58a60606
   - 2228dcc23dd9
   - 35df756079a3
+  - 481f2f8f29ff
   - 5da8672e89a3
   - 6647e04e92a7
   - 686a8b41d09c
@@ -104,6 +108,7 @@ tools:
   - 3d4ea0544af1
   - 5b63871000c9
   - 643be54bef90
+  - 650313b854e1
   - 6960dd62c983
   - 91679ca1480d
   - be3e39ccb02b
@@ -124,6 +129,7 @@ tools:
   - b30255d232d2
   - beeeed9665ea
   - c1d24ff838c8
+  - c8276d759758
   - f6e7b5955712
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
@@ -135,6 +141,7 @@ tools:
   - 270763dcdfb4
   - 29515b569f8b
   - 3b8114109e84
+  - 497665e20de4
   - 5e8d0e777033
   - 751948c21000
   - 7c41611bf5b7
@@ -175,6 +182,7 @@ tools:
   - c32f3d3e8a92
   - ccf8f1712632
   - d968c5dddfeb
+  - dfe121410525
   - e961403fdba3
   - ec783806a5c3
   - ef2129a50a13
@@ -188,6 +196,7 @@ tools:
   - 271afda54a6d
   - 37f6c6344193
   - 47145f568cd6
+  - 4ef4f53dcc68
   - 55a45d4c31dc
   - 600647840e87
   - 658ad6851b71
@@ -221,6 +230,7 @@ tools:
   - 6223845127ea
   - 659517798cc4
   - 6a726db04d4b
+  - 724630cdd122
   - 7a2092844346
   - 83f146502c0f
   - 88c4aa435ded
@@ -238,6 +248,7 @@ tools:
 - name: hyphy_meme
   owner: iuc
   revisions:
+  - 0f4dc033df66
   - 2f07f5b4e47b
   - 36f47ae7dd8c
   - 3d1f153e2aa1
@@ -267,6 +278,7 @@ tools:
   revisions:
   - 0407236012e5
   - 296f6bc03fa6
+  - 3e41f675087f
   - 6d29207a32c5
   - 6fede7bd6c8f
   - 70aa4bada58d
@@ -300,6 +312,7 @@ tools:
   - 49885a825dc1
   - 4d13ff4556da
   - 4e9485eb5e9d
+  - 58240e4032d6
   - 592fb9353702
   - 5eb9d7217640
   - 627443c1e5ba
@@ -327,6 +340,7 @@ tools:
   - 1467fb7e162d
   - 24742f335426
   - 2753a5c7597a
+  - 307b6a9a520b
   - 365e33adf3a4
   - 4b63a5c3c6da
   - 4ddef72f7f21
@@ -364,6 +378,7 @@ tools:
   - 77d74f012ecc
   - 86e10267b4cc
   - 92ef8f2da655
+  - 9f71cd7b2554
   - a809f93e7e6d
   - c102811766ef
   - d52a803b2b5c
@@ -378,6 +393,7 @@ tools:
   - 4bf743518e41
   - 50554f806e16
   - 7c86ceaf523c
+  - 83421c6944a1
   - a60caeb3c453
   - dc8875a13914
   - ea698cd7e086
