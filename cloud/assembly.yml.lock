@@ -121,6 +121,7 @@ tools:
   owner: iuc
   revisions:
   - 0346286a3b0a
+  - 056f86469460
   - 9c942221e135
   - c6cec5ab35c1
   tool_panel_section_id: assembly
@@ -128,6 +129,7 @@ tools:
 - name: pretext_graph
   owner: iuc
   revisions:
+  - 1c2ebb81a211
   - 36ce83a739f2
   - 408ece2e4647
   - 936a1edffce8

@@ -20,6 +20,7 @@ tools:
 - name: hicup_hicup
   owner: bgruening
   revisions:
+  - 617966d60e1c
   - 68fb19094f84
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
@@ -27,6 +28,7 @@ tools:
   owner: bgruening
   revisions:
   - b4e7244246e2
+  - eb673920ee8d
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
 - name: cooler_csort_tabix

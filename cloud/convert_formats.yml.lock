@@ -12,6 +12,7 @@ tools:
 - name: tooldistillator
   owner: iuc
   revisions:
+  - 740e1702cb22
   - 9f1c8dc0253e
   - a5ef8d31c40e
   - c6b5c2975e51
@@ -22,6 +23,7 @@ tools:
   revisions:
   - 3d0223265277
   - a4506449c300
+  - e58dc53cb0c7
   - f4f71128f097
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
