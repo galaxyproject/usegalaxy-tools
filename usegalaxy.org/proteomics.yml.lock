@@ -210,3 +210,9 @@ tools:
   - d965cc86f7f5
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
+- name: kstar_calculate
+  owner: naegle_lab
+  revisions:
+  - 67dd6d0145a2
+  tool_panel_section_id: proteomics
+  tool_panel_section_label: Proteomics
