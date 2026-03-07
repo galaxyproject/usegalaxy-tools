@@ -294,6 +294,7 @@ tools:
   - 6c571966cfb9
   - 7c9417381ad5
   - 9ec9c22767c8
+  - ff02cf8f66f0
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: pygenometracks
