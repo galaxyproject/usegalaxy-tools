@@ -8,6 +8,7 @@ tools:
   revisions:
   - '392811378515'
   - 53dd00a4ab68
+  - 54a68f38cf3f
   - 8c2167481e72
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -360,6 +361,7 @@ tools:
   revisions:
   - 02831bf9e95f
   - 0346286a3b0a
+  - 056f86469460
   - 2b16ba799da9
   - 511e5e3cd55e
   - 79b48f02db49
@@ -379,11 +381,13 @@ tools:
   - 6c571966cfb9
   - 7c9417381ad5
   - 9ec9c22767c8
+  - ff02cf8f66f0
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: pretext_graph
   owner: iuc
   revisions:
+  - 1c2ebb81a211
   - 36ce83a739f2
   - 408ece2e4647
   - 75b4a2298714

@@ -18,6 +18,7 @@ tools:
   - 44e2cc14f75b
   - 49370cb85f0f
   - 4e5056fefd88
+  - 5d00fd7847eb
   - 5eb7e84243f2
   - 64172f1c1202
   - 660cffd8d92a
@@ -182,6 +183,7 @@ tools:
 - name: seqkit_grep
   owner: iuc
   revisions:
+  - 02c253504d9b
   - 8bb1d9180ce7
   - df49645c6f6d
   tool_panel_section_id: fasta_fastq
@@ -189,6 +191,7 @@ tools:
 - name: seqkit_split2
   owner: iuc
   revisions:
+  - 0c7fadfe52e2
   - 22a535d54360
   - 911de3a36b31
   - c19015f577a5
@@ -473,6 +476,7 @@ tools:
 - name: seqkit_translate
   owner: iuc
   revisions:
+  - 0d9d8de82304
   - 0e0b003c711f
   - c669e8550c46
   - d35d114c26a7
