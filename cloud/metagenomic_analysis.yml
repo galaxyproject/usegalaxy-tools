@@ -78,3 +78,15 @@ tools:
   owner: iuc
 - name: sylph_profile
   owner: bgruening
+- name: gtdb_to_taxdump
+  owner: iuc
+- name: name2taxid
+  owner: iuc
+- name: cami_amber_add
+  owner: iuc
+- name: das_tool
+  owner: iuc
+- name: cami_amber_convert
+  owner: iuc
+- name: cami_amber
+  owner: iuc
