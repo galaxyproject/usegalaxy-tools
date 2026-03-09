@@ -240,3 +240,7 @@ tools:
   owner: iuc
 - name: rgi
   owner: card
+- name: metamdbg_asm
+  owner: iuc
+- name: metamdbg_gfa
+  owner: iuc
