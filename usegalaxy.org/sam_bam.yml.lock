@@ -124,6 +124,7 @@ tools:
   - 47035d167365
   - 541082d03bef
   - 57934e90e27c
+  - 8fca6e1eac98
   - e221fe58c2f5
   - fed4aa48ba09
   tool_panel_section_id: sam_bam
@@ -313,6 +314,7 @@ tools:
   - b5527cc104ab
   - ce32171c6d44
   - d0a568e1904b
+  - ef678e1f70a2
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_merge
@@ -405,6 +407,7 @@ tools:
   revisions:
   - 2fe966f8532e
   - 5854d0da92b4
+  - ab04d9a08de8
   - b1a8d09e5a82
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM

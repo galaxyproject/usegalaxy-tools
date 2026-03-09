@@ -619,6 +619,7 @@ tools:
   - 59d308975e63
   - 6d5c8a6ceea0
   - eaa563bd535a
+  - f2625d1efadd
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: prodigal

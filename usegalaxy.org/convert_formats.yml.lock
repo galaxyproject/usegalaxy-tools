@@ -262,6 +262,7 @@ tools:
   revisions:
   - 65a69de1e294
   - 66617be450bd
+  - 740e1702cb22
   - 8d6686664021
   - 9f1c8dc0253e
   - a7387ce2a8ca
@@ -281,6 +282,7 @@ tools:
   - 6ff67d2860e1
   - bbbcee71e70e
   - def7a82d23e1
+  - e58dc53cb0c7
   - f3233d395549
   - f4f71128f097
   tool_panel_section_id: convert_formats
