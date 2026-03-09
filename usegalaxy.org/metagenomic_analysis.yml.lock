@@ -1048,3 +1048,15 @@ tools:
   - 84bd24ac33fd
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: metamdbg_asm
+  owner: iuc
+  revisions:
+  - 8a6cd1c7c6fa
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: metamdbg_gfa
+  owner: iuc
+  revisions:
+  - 939f503acbcf
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
