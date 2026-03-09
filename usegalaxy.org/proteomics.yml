@@ -54,3 +54,5 @@ tools:
   owner: galaxyp
 - name: reactome_cli
   owner: paul_wolfe
+- name: kstar_calculate
+  owner: naegle_lab
