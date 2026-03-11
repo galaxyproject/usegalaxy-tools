@@ -73,6 +73,7 @@ tools:
 - name: kmindex
   owner: iuc
   revisions:
+  - 2c9166b44b79
   - e41fb9110baf
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
