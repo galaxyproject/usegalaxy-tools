@@ -189,6 +189,7 @@ tools:
   owner: bgruening
   revisions:
   - 6c6d26ff01ff
+  - dcc6bb900eee
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: add_line_to_file
