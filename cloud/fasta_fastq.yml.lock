@@ -15,6 +15,7 @@ tools:
   - 8e264b67a8c0
   - aa784cb3810d
   - c5e2e5902201
+  - f6168dd17f82
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_filter
@@ -182,5 +183,11 @@ tools:
   - 0e0b003c711f
   - c669e8550c46
   - d35d114c26a7
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: ucsc_fasplit
+  owner: iuc
+  revisions:
+  - 1add611a6018
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
