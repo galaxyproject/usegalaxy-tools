@@ -46,3 +46,5 @@ tools:
   owner: iuc
 - name: mmseqs2_easy_linclust_clustering
   owner: iuc
+- name: cawlign
+  owner: iuc
