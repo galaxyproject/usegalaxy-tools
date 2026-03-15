@@ -6,6 +6,7 @@ tools:
 - name: sklearn_build_pipeline
   owner: bgruening
   revisions:
+  - 1ed23c988ff6
   - 4c4ec859c31a
   - 840f29aad145
   tool_panel_section_id: machine_learning
@@ -14,6 +15,7 @@ tools:
   owner: bgruening
   revisions:
   - 25ab6b4e376e
+  - 69c44aab684e
   - 7626ea9c2e1b
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
@@ -28,6 +30,7 @@ tools:
   owner: bgruening
   revisions:
   - 060ca94ac049
+  - 0b98933cf0f7
   - 1a53edc4b438
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
