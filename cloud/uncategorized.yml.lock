@@ -1,0 +1,29 @@
+install_repository_dependencies: false
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tool_panel_section_label: Uncategorized
+tools:
+- name: remove_terminal_stop_codons
+  owner: iuc
+  revisions:
+  - 0290a7285026
+  tool_panel_section_id: uncategorized
+  tool_panel_section_label: Uncategorized
+- name: cawlign
+  owner: iuc
+  revisions:
+  - 1cd8a25117c1
+  tool_panel_section_id: uncategorized
+  tool_panel_section_label: Uncategorized
+- name: hyphy_cln
+  owner: iuc
+  revisions:
+  - bf1ca3de3a76
+  tool_panel_section_id: uncategorized
+  tool_panel_section_label: Uncategorized
+- name: drhip
+  owner: iuc
+  revisions:
+  - dd2d60b55e0d
+  tool_panel_section_id: uncategorized
+  tool_panel_section_label: Uncategorized

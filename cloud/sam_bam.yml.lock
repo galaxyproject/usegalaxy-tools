@@ -99,6 +99,7 @@ tools:
   - 56fb540810ce
   - 83b8e36e9cbe
   - b5527cc104ab
+  - ef678e1f70a2
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
 - name: samtools_fixmate
