@@ -38,3 +38,9 @@ tools:
   owner: iuc
 - name: sarscov2formatter
   owner: iuc
+- name: remove_terminal_stop_codons
+  owner: iuc
+- name: hyphy_cln
+  owner: iuc
+- name: drhip
+  owner: iuc

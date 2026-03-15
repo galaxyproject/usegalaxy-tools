@@ -441,3 +441,21 @@ tools:
   - e3a7995dce75
   tool_panel_section_id: hyphy
   tool_panel_section_label: HyPhy
+- name: remove_terminal_stop_codons
+  owner: iuc
+  revisions:
+  - 0290a7285026
+  tool_panel_section_id: hyphy
+  tool_panel_section_label: HyPhy
+- name: hyphy_cln
+  owner: iuc
+  revisions:
+  - bf1ca3de3a76
+  tool_panel_section_id: hyphy
+  tool_panel_section_label: HyPhy
+- name: drhip
+  owner: iuc
+  revisions:
+  - dd2d60b55e0d
+  tool_panel_section_id: hyphy
+  tool_panel_section_label: HyPhy
