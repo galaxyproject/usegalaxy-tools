@@ -19,3 +19,45 @@ tools:
   - 4f6349228462
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
+- name: hyphy_relax
+  owner: iuc
+  revisions:
+  - 50551ca179d3
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphy_cfel
+  owner: iuc
+  revisions:
+  - 34d2e58b8a1f
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphy_meme
+  owner: iuc
+  revisions:
+  - 67fe4f52c1e5
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphy_prime
+  owner: iuc
+  revisions:
+  - 3791d6afec1e
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphy_busted
+  owner: iuc
+  revisions:
+  - 38ac249e5d69
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphy_fel
+  owner: iuc
+  revisions:
+  - b156ae1424fe
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphy_annotate
+  owner: iuc
+  revisions:
+  - 3629cc0115ac
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
