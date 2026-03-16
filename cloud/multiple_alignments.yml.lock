@@ -70,3 +70,9 @@ tools:
   - b174c3405549
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
+- name: cawlign
+  owner: iuc
+  revisions:
+  - 1cd8a25117c1
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments

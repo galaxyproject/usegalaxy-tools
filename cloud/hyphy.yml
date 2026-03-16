@@ -1,8 +1,6 @@
-tool_panel_section_label: Uncategorized
+tool_panel_section_label: HyPhy
 tools:
 - name: remove_terminal_stop_codons
-  owner: iuc
-- name: cawlign
   owner: iuc
 - name: hyphy_cln
   owner: iuc
