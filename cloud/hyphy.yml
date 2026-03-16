@@ -1,0 +1,8 @@
+tool_panel_section_label: HyPhy
+tools:
+- name: remove_terminal_stop_codons
+  owner: iuc
+- name: hyphy_cln
+  owner: iuc
+- name: drhip
+  owner: iuc
