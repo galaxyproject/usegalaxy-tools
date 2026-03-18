@@ -20,3 +20,5 @@ tools:
   owner: bgruening
 - name: kmindex
   owner: iuc
+- name: fastga
+  owner: iuc

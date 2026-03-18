@@ -655,3 +655,9 @@ tools:
   - 6c1cfce7c2eb
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: fastga
+  owner: iuc
+  revisions:
+  - 8f821f9b8567
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
