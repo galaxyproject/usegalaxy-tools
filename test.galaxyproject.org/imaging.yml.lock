@@ -20,24 +20,64 @@ tools:
 - name: vitessce_spatial
   owner: goeckslab
   revisions:
+  - 068da7f7cd83
   - 7cc457aa78b1
   - 9f60ef2d586e
-  - 068da7f7cd83
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: scimap_mcmicro_to_anndata
   owner: goeckslab
   revisions:
-  - 8ca435ec19be
   - 49c178651194
+  - 8ca435ec19be
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: scimap_phenotyping
   owner: goeckslab
   revisions:
-  - dcfcad35e847
   - 88fca6e905be
+  - dcfcad35e847
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
-  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+- name: omero_filter
+  owner: ufz
+  revisions:
+  - ca04c8d24335
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_get_id
+  owner: ufz
+  revisions:
+  - f8a09407d579
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_get_value
+  owner: ufz
+  revisions:
+  - d8c33fef01b9
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_import
+  owner: ufz
+  revisions:
+  - 22bdbaf3a21e
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_metadata_import
+  owner: ufz
+  revisions:
+  - b70f6440513c
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_roi_import
+  owner: ufz
+  revisions:
+  - 599c3dd808e6
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_dataset_to_plate
+  owner: ufz
+  revisions:
+  - 44f812171bc0
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging

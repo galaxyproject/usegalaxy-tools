@@ -10,3 +10,17 @@ tools:
   owner: goeckslab
 - name: scimap_phenotyping
   owner: goeckslab
+- name: omero_filter
+  owner: ufz
+- name: omero_get_id
+  owner: ufz
+- name: omero_get_value
+  owner: ufz
+- name: omero_import
+  owner: ufz
+- name: omero_metadata_import
+  owner: ufz
+- name: omero_roi_import
+  owner: ufz
+- name: omero_dataset_to_plate
+  owner: ufz
