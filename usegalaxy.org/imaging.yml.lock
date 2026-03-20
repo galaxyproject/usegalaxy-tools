@@ -779,3 +779,9 @@ tools:
   - 2852af87036d
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
+- name: idr_download_by_ids
+  owner: iuc
+  revisions:
+  - f92941d1a85e
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
