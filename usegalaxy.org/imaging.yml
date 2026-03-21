@@ -248,3 +248,5 @@ tools:
   owner: imgteam
 - name: crop_image
   owner: imgteam
+- name: idr_download_by_ids
+  owner: iuc
