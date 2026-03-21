@@ -130,6 +130,7 @@ tools:
   revisions:
   - 0cb889db0910
   - 32c5c85cbc12
+  - 4009b2de324d
   - 7a6655aa6eb2
   - 83609ef746e9
   - 8b9bf8b5157a
@@ -145,6 +146,7 @@ tools:
   revisions:
   - 00712416fdaa
   - 13cf83ced60c
+  - 3701d29f7105
   - '499059586799'
   - 6f143dfe902a
   - 923dcc644832
@@ -167,6 +169,7 @@ tools:
   - 39e945f0b2c1
   - 6f0d0c784f09
   - 9301df6f892d
+  - a54b3bac44aa
   - afe044e6bc93
   - ee98d611afc6
   tool_panel_section_id: single_cell
@@ -181,6 +184,7 @@ tools:
   - be1fdce914c6
   - c4209ea387d4
   - d1e49c3c0aa2
+  - d9948b3dd270
   - e6a8d5fdca85
   - ed4996a16f7f
   tool_panel_section_id: single_cell
@@ -192,6 +196,7 @@ tools:
   - 4b0adaa31c95
   - 4c9fa3c63d9e
   - 59be31ac9dc3
+  - 70228646a181
   - 7784821452ac
   - a7b951572609
   - c822c5c1feef

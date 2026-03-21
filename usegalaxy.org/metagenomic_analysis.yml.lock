@@ -208,6 +208,7 @@ tools:
   - 4e469b758915
   - 52a911972c02
   - 7b8cb2b02978
+  - a204f3983d22
   - a58e4a43f49c
   - cae017b76acb
   - d60df8727f59
@@ -221,6 +222,7 @@ tools:
   revisions:
   - 1728e5ee871a
   - 224abe7c80ed
+  - 2875d977c533
   - 32c9ea835770
   - 498d57610fcd
   - 555ccac8a4c5
@@ -245,6 +247,7 @@ tools:
   - 79212a309499
   - 7c2100246a2f
   - 9f306361a58e
+  - ce4bfce70e64
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_removebimeradenovo
@@ -256,6 +259,7 @@ tools:
   - 1bc3657cd694
   - 4efeb75704c8
   - 5b752525bd6f
+  - 6bd7c48ff6ed
   - 7136e9ab70db
   - 7f3b59dee073
   - 7f8f0e9fcb37
@@ -270,6 +274,7 @@ tools:
   - 23fc35093b11
   - 34e55239e68b
   - 777f9846c56d
+  - 81fc1ff02788
   - a9f4a217dcd6
   - addaf9d22850
   - ca73bbac615a
@@ -288,6 +293,7 @@ tools:
   - 47198090501e
   - 6b4ddc3b64bd
   - 84fd33a60b35
+  - 89d11e95a9b1
   - 96336c6a2bb7
   - b35a5e8ff0fe
   - f79565b12646
@@ -300,6 +306,7 @@ tools:
   - 0776d824d896
   - 39638e0aff59
   - 5fe3edf19b9c
+  - 68129ce1c59b
   - 75403243703a
   - 8c202e741d68
   - a14a18a47c36
@@ -311,6 +318,7 @@ tools:
 - name: dada2_makesequencetable
   owner: iuc
   revisions:
+  - 0b1ce4edabc7
   - 1c9b3bcd4261
   - 43c99742158b
   - 75c8945b0da2
@@ -336,6 +344,7 @@ tools:
   - 69900ffd3b8e
   - 84743da21318
   - b1e55c248f17
+  - c920e1400f98
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_seqcounts
@@ -348,6 +357,7 @@ tools:
   - 4cc834cce4fb
   - 7d28da5e9e27
   - 9058d8943303
+  - 9180d536e20d
   - a7817705348e
   - d943081510da
   - f74c56549143
@@ -471,6 +481,7 @@ tools:
   revisions:
   - 2fd4d4c9c5c2
   - 3548a93b39c1
+  - 3725f7f2be35
   - 3b22de20bd4b
   - da787fc8b740
   tool_panel_section_id: metagenomic_analysis
