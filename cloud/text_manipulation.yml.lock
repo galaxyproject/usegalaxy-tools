@@ -23,6 +23,7 @@ tools:
   revisions:
   - 02026300aa45
   - 427903d47026
+  - 61f9ddbc63ca
   - 6595517c2dd8
   - aff5135563c6
   tool_panel_section_id: text_manipulation
