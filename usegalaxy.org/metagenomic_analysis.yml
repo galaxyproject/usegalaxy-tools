@@ -244,3 +244,5 @@ tools:
   owner: iuc
 - name: metamdbg_gfa
   owner: iuc
+- name: kegg_pathways_completeness
+  owner: iuc
