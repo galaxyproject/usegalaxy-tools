@@ -222,6 +222,7 @@ tools:
 - name: rdeval
   owner: richard-burhans
   revisions:
+  - 058bb29e28ba
   - 37d67c252fed
   - aef1eea2058c
   - f0409baac2cd

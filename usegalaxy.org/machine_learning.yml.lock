@@ -6,6 +6,7 @@ tools:
 - name: multimodal_learner
   owner: goeckslab
   revisions:
+  - 00ca2dfe9254
   - 25bb80df7c0c
   - 3719606b94af
   - 375c36923da1
