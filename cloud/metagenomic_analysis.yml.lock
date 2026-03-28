@@ -312,3 +312,9 @@ tools:
   - 2e7b727a0e05
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: kegg_pathways_completeness
+  owner: iuc
+  revisions:
+  - 9933e2f91584
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
