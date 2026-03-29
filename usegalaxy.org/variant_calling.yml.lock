@@ -298,6 +298,7 @@ tools:
 - name: deepvariant
   owner: iuc
   revisions:
+  - 0a151b5f95e4
   - 1ad55977a040
   - 63b68fe4af85
   - 918c8b94c8d8
