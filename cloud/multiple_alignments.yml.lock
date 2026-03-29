@@ -67,6 +67,7 @@ tools:
 - name: mmseqs2_easy_linclust_clustering
   owner: iuc
   revisions:
+  - 1bc9b91a91fd
   - b174c3405549
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
