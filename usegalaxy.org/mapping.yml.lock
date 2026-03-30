@@ -187,6 +187,7 @@ tools:
   - 371e4e21d5de
   - 544ea81a6914
   - c64bee2dc319
+  - a7b120f452f2
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: segalign
