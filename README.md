@@ -64,3 +64,50 @@ In your destination you should set:
 <param id="singularity_enabled">true</param>
 <param id="singularity_volumes">$defaults</param>
 ```
+
+# Instructions for Tool Installers
+
+Before proceeding with deployment, ensure the following preconditions on a PR are met:
+
+- Tools can only be installed on one "toolset" (Galaxy instance) at a time, i.e., PRs installing to both `test.galaxyproject.org` and `usegalaxy.org` will fail.
+- Test loads both its own toolbox as well as Main's, so if the intent is to install a tool on both, it should simply be added to the `usegalaxy.org` toolset.
+- Tools installed to Main **must** be installed from the Main Tool Shed. Do not install tools on Main from the Test Tool Shed.
+- Do not install Data Managers on Test or Main, they are not usable on our CVMFS setup.
+- IUC-maintained tools (this includes `devteam` and some other repo owners) and other tools from trusted authors (e.g. `bgruening`) do not require independent review. Any other tool requires review from an experienced tool developer (which can be you, if you are one) to ensure there are no critical security, functionality, or performance bugs. These tools may also not have BioContainers available, which are required to function on Test and Main, unless the tool uses a `<container>` requirement to convert from Docker (not ideal).
+- Suites cannot be installed using their `suite_` repo. Each repo in the suite must be added individually.
+- The `install_*_dependencies` options at the top of the `.lock` files should all remain `false`.
+
+Once preconditions are met:
+
+1. Comment `@galaxybot test this` to test deployment.
+2. **Review the Jenkins test console output.** Just because it is green does not mean it succeeded. You are looking for two things:
+   1. **#### contents of OverlayFS upper mount (will be published)** contains (at least) `config/shed_tool_conf.xml` and `shed_tools/.../the_repos_you_installed`
+   2. **#### diff of shed_tool_conf.xml** contains the tools in the repos you installed
+3. Comment `galaxybot deploy this` to deploy. This will cause the **default** test on the PR to run again, and the details link for the test will be updated to a new Jenkins build.
+4. **Review the Jenkins deploy console output.** Just because it is green does not mean it succeeded.
+   1. Verify that the console output contains the same expected output as in the test deployment,
+   2. **Verify that publishing to CVMFS was successful** with this appearing toward the end of the console output:
+      ```
+      # Publishing transaction on main.galaxyproject.org
+      Waiting for upload of files before committing...
+      Committing file catalogs...
+      Swissknife Sync: Wait for all uploads to finish
+      Swissknife Sync: Exporting repository manifest
+      Statistics stored at: /var/spool/cvmfs/main.galaxyproject.org/stats.db
+      Tagging main.galaxyproject.org
+      Swissknife Sync: Processing changes...
+      Creating virtual snapshots
+      Waiting for upload of files before committing...
+      Committing file catalogs...
+      Swissknife Sync: Wait for all uploads to finish
+      Swissknife Sync: Exporting repository manifest
+      Statistics stored at: /var/spool/cvmfs/main.galaxyproject.org/stats.db
+      Flushing file system buffers
+      Signing new manifest
+      Remounting newly created repository revision
+      ```
+      Warnings about `[WARNING] 'shed_tools/.../.wh..opq' should be deleted, but was not found in repository.` can be safely ignored.
+5. Merge the PR **only after you have verified via Jenkins console output that the deployment succeeded.** If it failed, the only way to retry deployment after merge is to make a new PR with whitespace/order changes in the `.lock` file(s) modified in the original PR.
+6. If these are new tools and not just new versions of already installed tools, review whether the tool uses multiple cores (the presence of `${GALAXY_SLOTS:-N}` in `<command>`) and whether increased memory is required and PR changes to the TPV config in https://github.com/galaxyproject/usegalaxy-playbook/
+
+Only approved tool installers can install tools. Request Jenkins access and admission to the Github Team from project admins for approval.
