@@ -250,3 +250,17 @@ tools:
   owner: imgteam
 - name: idr_download_by_ids
   owner: iuc
+- name: omero_filter
+  owner: ufz
+- name: omero_get_id
+  owner: ufz
+- name: omero_get_value
+  owner: ufz
+- name: omero_import
+  owner: ufz
+- name: omero_metadata_import
+  owner: ufz
+- name: omero_roi_import
+  owner: ufz
+- name: omero_dataset_to_plate
+  owner: ufz

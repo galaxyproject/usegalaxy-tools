@@ -786,3 +786,45 @@ tools:
   - f92941d1a85e
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
+- name: omero_filter
+  owner: ufz
+  revisions:
+  - 048353b617ba
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_get_id
+  owner: ufz
+  revisions:
+  - 59f7f9164544
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_get_value
+  owner: ufz
+  revisions:
+  - a41878cb0a6e
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_import
+  owner: ufz
+  revisions:
+  - c36a954d0e59
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_metadata_import
+  owner: ufz
+  revisions:
+  - 4dcbcd213ee3
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_roi_import
+  owner: ufz
+  revisions:
+  - 44bd8be2c495
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_dataset_to_plate
+  owner: ufz
+  revisions:
+  - 86d6593f54d8
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
