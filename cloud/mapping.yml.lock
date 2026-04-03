@@ -6,6 +6,7 @@ tools:
 - name: minimap2
   owner: iuc
   revisions:
+  - 3faf9a2bf58d
   - 539de907fd99
   - 5cc34c3f440d
   - 66367287b4e6

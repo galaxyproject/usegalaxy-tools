@@ -9,12 +9,14 @@ tools:
   - 1ed23c988ff6
   - 4c4ec859c31a
   - 840f29aad145
+  - bc0117538945
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_searchcv
   owner: bgruening
   revisions:
   - 25ab6b4e376e
+  - 5023535e9f8b
   - 69c44aab684e
   - 7626ea9c2e1b
   tool_panel_section_id: machine_learning
@@ -32,6 +34,7 @@ tools:
   - 060ca94ac049
   - 0b98933cf0f7
   - 1a53edc4b438
+  - cab63604ca1d
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: plotly_regression_performance_plots
