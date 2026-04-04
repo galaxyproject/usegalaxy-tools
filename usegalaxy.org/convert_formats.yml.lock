@@ -237,6 +237,7 @@ tools:
   - 3cf310697624
   - 545054b15d7c
   - 6153e8ada1ee
+  - 8edfcbf32616
   - ab6c14374bc0
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
