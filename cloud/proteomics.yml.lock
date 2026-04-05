@@ -6,6 +6,7 @@ tools:
 - name: maxquant
   owner: galaxyp
   revisions:
+  - 022e886e8f94
   - 9c52362ae7bb
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
@@ -14,6 +15,7 @@ tools:
   revisions:
   - 3ec27b4cee7c
   - a6ff76e057fd
+  - c9b13d4069c8
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: unipept
