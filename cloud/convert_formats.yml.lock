@@ -59,6 +59,7 @@ tools:
   revisions:
   - 28ffaaa5739f
   - 6153e8ada1ee
+  - 8edfcbf32616
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: compress_file
