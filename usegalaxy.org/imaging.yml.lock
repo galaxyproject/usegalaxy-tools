@@ -399,6 +399,7 @@ tools:
 - name: image_info
   owner: imgteam
   revisions:
+  - e28851b24032
   - f8b4eada923c
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
@@ -773,6 +774,7 @@ tools:
   owner: imgteam
   revisions:
   - 390943df8a35
+  - 7191fd16988f
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: crop_image
