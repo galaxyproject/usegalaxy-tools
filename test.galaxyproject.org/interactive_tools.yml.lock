@@ -22,6 +22,7 @@ tools:
   revisions:
   - 4bf243935e55
   - e49f9612b0bf
+  - 8e88d3182260
   tool_panel_section_id: interactive_tools
   tool_panel_section_label: Interactive Tools
   tool_shed_url: testtoolshed.g2.bx.psu.edu
