@@ -20,6 +20,7 @@ tools:
   owner: bgruening
   revisions:
   - 0cdcf7e99b62
+  - 1196fc76fdc2
   - 1e3323a44643
   - 20d92dc4c6cb
   - 54f751e413f4
@@ -1075,6 +1076,7 @@ tools:
 - name: kegg_pathways_completeness
   owner: iuc
   revisions:
+  - 78990897aa94
   - 9933e2f91584
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
