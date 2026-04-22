@@ -29,9 +29,9 @@ tools:
   revisions:
   - 022a3b0c7777
   - 16d22d97a2b3
+  - 94cb50e04648
   - b670740cf3f7
   - dd051f391a2c
   - f91d52f117fe
-  - 94cb50e04648
   tool_panel_section_id: interactive_tools
   tool_panel_section_label: Interactive Tools
