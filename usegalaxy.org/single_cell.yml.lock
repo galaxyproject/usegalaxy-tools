@@ -177,6 +177,7 @@ tools:
   - 9301df6f892d
   - a54b3bac44aa
   - afe044e6bc93
+  - b26b87f5a13c
   - ee98d611afc6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -187,6 +188,7 @@ tools:
   - 43cb7b5a6fe7
   - 7e8c677a7b71
   - 8db95f488f0f
+  - 9ef202055d5c
   - be1fdce914c6
   - c4209ea387d4
   - d1e49c3c0aa2
@@ -719,6 +721,7 @@ tools:
   revisions:
   - 4ec52a83ec82
   - dde965aee073
+  - f04c81e68e86
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: seurat_integrate
