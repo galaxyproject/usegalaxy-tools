@@ -7,6 +7,7 @@ tools:
   owner: iuc
   revisions:
   - 27fff8d3793e
+  - 2d2fe522553d
   - 636b049e6141
   - 7cd7a55a678d
   tool_panel_section_id: multiple_alignments
@@ -23,6 +24,7 @@ tools:
   owner: iuc
   revisions:
   - 4c89814871e8
+  - 59f156f7f3c7
   - 959c1f8dae95
   - cf3c9489c088
   tool_panel_section_id: multiple_alignments

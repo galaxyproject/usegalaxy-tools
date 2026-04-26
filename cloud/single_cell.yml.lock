@@ -56,6 +56,7 @@ tools:
   - 93dd15e13e6a
   - d0a337ddf062
   - d330b3082107
+  - d9ae58b926fc
   - fb9e030ffae4
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -68,6 +69,7 @@ tools:
   - 83609ef746e9
   - 8b9bf8b5157a
   - cfaf5a405371
+  - d99a178d1ab5
   - e1c3c2f2a834
   - f843b9afd94e
   tool_panel_section_id: single_cell
@@ -78,6 +80,7 @@ tools:
   - 3d748954434b
   - 7e8c677a7b71
   - 9bd945a03d7b
+  - 9ef202055d5c
   - be1fdce914c6
   - d1e49c3c0aa2
   - d9948b3dd270
@@ -103,6 +106,7 @@ tools:
   - 9301df6f892d
   - a54b3bac44aa
   - afe044e6bc93
+  - b26b87f5a13c
   - ee98d611afc6
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -110,6 +114,7 @@ tools:
   owner: iuc
   revisions:
   - 05631436cdf1
+  - 0ee9395e1eb2
   - 0f1aaff9b22d
   - 4c9fa3c63d9e
   - 70228646a181
