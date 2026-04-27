@@ -6,6 +6,7 @@ tools:
 - name: samtools_sort
   owner: devteam
   revisions:
+  - 2ce517eb9af2
   - 69dca890852c
   - 6c2c1836728b
   - 9ede25e390ff
@@ -321,6 +322,7 @@ tools:
   owner: iuc
   revisions:
   - 36677f429310
+  - 37c8eb55315d
   - 65a38e8c8e2a
   - 740ce0a18f0d
   - 8890e2d4c068
