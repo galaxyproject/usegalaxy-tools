@@ -292,6 +292,7 @@ tools:
 - name: samtools_fixmate
   owner: iuc
   revisions:
+  - 2f395ebff85f
   - 41e36c99a008
   - 595ae1ba934a
   - 68a116f469db
@@ -312,6 +313,7 @@ tools:
   - 887e02a45734
   - a312a0fdaf31
   - a389f74c3630
+  - a50321bc1a90
   - b5527cc104ab
   - ce32171c6d44
   - d0a568e1904b
@@ -395,6 +397,7 @@ tools:
   - 6a8febad1f6c
   - 77889ed49dbc
   - a941babb9268
+  - d2f176e331ef
   - f20b704ba069
   - f597cb9b33bf
   tool_panel_section_id: sam_bam
@@ -409,6 +412,7 @@ tools:
   owner: iuc
   revisions:
   - 2fe966f8532e
+  - 4413217d872c
   - 5854d0da92b4
   - ab04d9a08de8
   - b1a8d09e5a82
