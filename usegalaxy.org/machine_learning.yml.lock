@@ -24,6 +24,7 @@ tools:
 - name: image_learner
   owner: goeckslab
   revisions:
+  - 13b9963b3e24
   - 2c6624cae3c5
   - 8729f69e9207
   - 94cd9ac4a9b1
@@ -346,6 +347,7 @@ tools:
 - name: sklearn_ensemble
   owner: bgruening
   revisions:
+  - 00f01f713c3c
   - 060ca94ac049
   - 0b98933cf0f7
   - 1682df52c084
@@ -429,6 +431,7 @@ tools:
   - 70c5a9127f99
   - 7d98dfb04d27
   - 8ced2fac52f4
+  - c78a5fc9e758
   - dc17e2878dc1
   - f04a2405f3fe
   - f5dcb87fd14e
@@ -536,6 +539,7 @@ tools:
   - 89f11e2b0673
   - a4f18bbb4eca
   - caeb57858702
+  - f86c0419af43
   - f93f0cdbaf18
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning

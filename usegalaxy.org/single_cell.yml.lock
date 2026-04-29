@@ -143,6 +143,7 @@ tools:
   - c0b037b12765
   - c5ac926c838f
   - cfaf5a405371
+  - d99a178d1ab5
   - e1c3c2f2a834
   - f843b9afd94e
   tool_panel_section_id: single_cell
@@ -729,6 +730,7 @@ tools:
   revisions:
   - 74fa68f4e579
   - 7704fb998596
+  - 7c728a178c4d
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: seurat_plot
