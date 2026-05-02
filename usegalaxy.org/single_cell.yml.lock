@@ -708,6 +708,7 @@ tools:
   revisions:
   - 0db84eba4b55
   - 51eb02d9b17a
+  - b70382a113e1
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: seurat_create
@@ -715,6 +716,7 @@ tools:
   revisions:
   - ac5f8c583cba
   - af8bdeb89691
+  - b9e7b804ec67
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: seurat_data
@@ -736,6 +738,7 @@ tools:
 - name: seurat_plot
   owner: iuc
   revisions:
+  - 6154937135c7
   - c520f64ffd57
   - fee4b4eb0ef5
   tool_panel_section_id: single_cell
