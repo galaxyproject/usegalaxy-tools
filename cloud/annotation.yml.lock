@@ -59,6 +59,7 @@ tools:
 - name: abricate
   owner: iuc
   revisions:
+  - 31f58ec0459a
   - 3f3e247c053d
   - c2ef298da409
   tool_panel_section_id: annotation

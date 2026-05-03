@@ -67,6 +67,7 @@ tools:
 - name: mitohifi
   owner: bgruening
   revisions:
+  - 3fc33af5d9e2
   - bfab6f5b449d
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
