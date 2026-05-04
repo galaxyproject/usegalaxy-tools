@@ -68,6 +68,7 @@ tools:
 - name: rna_starsolo
   owner: iuc
   revisions:
+  - 002713edc2a1
   - 381a32c51141
   - 42ce70172b72
   - 45795f582ae9
