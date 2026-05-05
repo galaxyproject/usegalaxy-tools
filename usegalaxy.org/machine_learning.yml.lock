@@ -8,6 +8,7 @@ tools:
   revisions:
   - 00ca2dfe9254
   - 25bb80df7c0c
+  - 31e251cca67d
   - 3719606b94af
   - 375c36923da1
   - 499a039871d0
@@ -144,6 +145,7 @@ tools:
   - 1252578525d1
   - 305c1229ac99
   - 3814a92c1416
+  - 3b8fa4ea9727
   - 4a5266c96889
   - 508ce0649bec
   - 61b2d8f8811e
@@ -271,6 +273,7 @@ tools:
   - d37a7f17e35d
   - e5a5ad882f1f
   - f0d2e8a3c575
+  - f484f41ea0dd
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_build_pipeline
@@ -370,6 +373,7 @@ tools:
   - 4483b84310ec
   - 5276bdb49315
   - 5773e98921fc
+  - 5bcf779d901f
   - 6d21b03e00a1
   - 74adae8d7b0f
   - 96bb4c49e30e
