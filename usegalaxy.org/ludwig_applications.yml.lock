@@ -78,6 +78,7 @@ tools:
 - name: ludwig_evaluate
   owner: goeckslab
   revisions:
+  - 29ee176f839b
   - 777be50bc321
   - 7cb9e77d9909
   - b58d8857082c
