@@ -215,5 +215,6 @@ tools:
   owner: naegle_lab
   revisions:
   - 67dd6d0145a2
+  - d3f337405cf1
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
