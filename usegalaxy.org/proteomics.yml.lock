@@ -38,6 +38,7 @@ tools:
 - name: maxquant
   owner: galaxyp
   revisions:
+  - 022e886e8f94
   - 163452d1e255
   - 1f39c833f65f
   - 4d17fcdeb8ff
