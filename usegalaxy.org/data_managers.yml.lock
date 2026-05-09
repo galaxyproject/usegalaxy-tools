@@ -140,6 +140,7 @@ tools:
   - 19ef193d1316
   - 23511530b8fd
   - 4cd97cc67061
+  - b837e6ef4e3e
   - dbf2735e8480
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
