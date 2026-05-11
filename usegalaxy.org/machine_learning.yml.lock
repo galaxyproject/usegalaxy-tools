@@ -648,3 +648,33 @@ tools:
   - ee6c2152e092
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
+- name: flexynesis
+  owner: bgruening
+  revisions:
+  - d1dc88960179
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: flexynesis_cbioportal_import
+  owner: bgruening
+  revisions:
+  - e6c626b3013b
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: flexynesis_infer
+  owner: bgruening
+  revisions:
+  - 7a1bae3c974a
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: flexynesis_plot
+  owner: bgruening
+  revisions:
+  - 5f69690716cb
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: flexynesis_utils
+  owner: bgruening
+  revisions:
+  - 0e86b191f856
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning

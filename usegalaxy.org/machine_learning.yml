@@ -76,3 +76,13 @@ tools:
   owner: bgruening
 - name: chopin2
   owner: iuc
+- name: flexynesis
+  owner: bgruening
+- name: flexynesis_cbioportal_import
+  owner: bgruening
+- name: flexynesis_infer
+  owner: bgruening
+- name: flexynesis_plot
+  owner: bgruening
+- name: flexynesis_utils
+  owner: bgruening
