@@ -6,6 +6,7 @@ tools:
 - name: staramr
   owner: iuc
   revisions:
+  - 146b508457e8
   - 6d5c8a6ceea0
   - eaa563bd535a
   - f2625d1efadd
@@ -14,6 +15,7 @@ tools:
 - name: amrfinderplus
   owner: iuc
   revisions:
+  - 573cfe217474
   - 7844dbe4f8e2
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
