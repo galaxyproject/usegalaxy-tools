@@ -20,6 +20,8 @@ tools:
   owner: devteam
 - name: fastq_to_tabular
   owner: devteam
+- name: xlsx2tsv
+  owner: ufz
 - name: bax2bam
   owner: iuc
 - name: crossmap_bam

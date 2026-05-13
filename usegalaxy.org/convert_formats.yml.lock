@@ -88,6 +88,12 @@ tools:
   - ccf4e1d1fcbe
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
+- name: xlsx2tsv
+  owner: ufz
+  revisions:
+  - 27bc52511ebe
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
 - name: bax2bam
   owner: iuc
   revisions:
