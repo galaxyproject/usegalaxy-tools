@@ -21,6 +21,7 @@ tools:
   revisions:
   - 0cdcf7e99b62
   - 1196fc76fdc2
+  - 15c0c0d90c3f
   - 1e3323a44643
   - 20d92dc4c6cb
   - 54f751e413f4
@@ -747,6 +748,7 @@ tools:
   - 7209f32a9e9d
   - 97b1540b4830
   - c30adf839acd
+  - e91d979deb87
   - ed4c007af906
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -1076,6 +1078,7 @@ tools:
   owner: iuc
   revisions:
   - 939f503acbcf
+  - a4933979dd06
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: kegg_pathways_completeness
