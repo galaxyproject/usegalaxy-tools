@@ -139,6 +139,7 @@ tools:
   - adc4ed59d82b
   - b5c88b7b153e
   - b8beef827165
+  - c4325d32b1a2
   - fea1a167b822
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
@@ -281,6 +282,7 @@ tools:
   owner: iuc
   revisions:
   - 491037bfc0d2
+  - 4bde991b8037
   - 66e23b11feae
   - 720217c23995
   - 9038311ed624
