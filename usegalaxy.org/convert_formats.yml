@@ -70,5 +70,7 @@ tools:
   owner: iuc
 - name: rds_to_tabular
   owner: goeckslab
+- name: unzip
+  owner: imgteam
 - name: ucsc_nettoaxt
   owner: iuc
