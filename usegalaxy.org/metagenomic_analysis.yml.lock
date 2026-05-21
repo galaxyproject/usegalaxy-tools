@@ -1088,3 +1088,15 @@ tools:
   - 9933e2f91584
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: rgi_bwt
+  owner: tcollins
+  revisions:
+  - c2ba21bd8f34
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: rgi_main
+  owner: tcollins
+  revisions:
+  - 15d244ecf848
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
