@@ -232,3 +232,9 @@ tools:
   - fdad714d7caf
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
+- name: nonparametric_rank_tests
+  owner: goeckslab
+  revisions:
+  - a4b4d1142635
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
