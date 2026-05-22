@@ -18,3 +18,5 @@ tools:
   owner: iuc
 - name: phykit
   owner: padge
+- name: phykit_metrics
+  owner: goeckslab
