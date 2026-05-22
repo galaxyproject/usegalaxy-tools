@@ -238,3 +238,9 @@ tools:
   - a4b4d1142635
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
+- name: featurewise_correlation
+  owner: goeckslab
+  revisions:
+  - d614e4c05731
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
