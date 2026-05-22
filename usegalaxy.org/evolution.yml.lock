@@ -85,3 +85,9 @@ tools:
   - b15fbf90db53
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
+- name: phykit
+  owner: padge
+  revisions:
+  - 1ac6ee298657
+  tool_panel_section_id: evolution
+  tool_panel_section_label: Evolution
