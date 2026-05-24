@@ -342,6 +342,7 @@ tools:
   - 7ae443e6217d
   - 823ecc0bce45
   - 8b1b2b91f8d0
+  - 900c42c3eef4
   - 9871a634540f
   - aa83e7e3c398
   - cd02bf168d23
@@ -587,6 +588,7 @@ tools:
 - name: sklearn_lightgbm
   owner: bgruening
   revisions:
+  - 16c442ecd6bf
   - 1b7ab45c7858
   - 27f8bd20a936
   - 3045d322d4ac
