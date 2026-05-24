@@ -235,12 +235,14 @@ tools:
 - name: nonparametric_rank_tests
   owner: goeckslab
   revisions:
+  - 2d56411539ed
   - a4b4d1142635
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: featurewise_correlation
   owner: goeckslab
   revisions:
+  - 7e2d3606e765
   - d614e4c05731
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
