@@ -323,6 +323,7 @@ tools:
 - name: rds_to_tabular
   owner: goeckslab
   revisions:
+  - 054e91e27b37
   - 1020a80225b1
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
