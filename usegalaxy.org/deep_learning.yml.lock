@@ -1,0 +1,206 @@
+install_repository_dependencies: false
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tool_panel_section_label: Deep Learning
+tools:
+- name: image_learner
+  owner: goeckslab
+  revisions:
+  - 13b9963b3e24
+  - 2c6624cae3c5
+  - 328ff3a13078
+  - 8729f69e9207
+  - 94cd9ac4a9b1
+  - bbf30253c99f
+  - c460abae83eb
+  - c5150cceab47
+  - ccbcc012d78d
+  - d17e3a1b8659
+  - d5c582cf74bc
+  tool_panel_section_id: deep_learning
+  tool_panel_section_label: Deep Learning
+- name: multimodal_learner
+  owner: goeckslab
+  revisions:
+  - 00ca2dfe9254
+  - 25bb80df7c0c
+  - 31e251cca67d
+  - 3719606b94af
+  - 375c36923da1
+  - 499a039871d0
+  - 871957823d0c
+  - 975512caae22
+  - a48e750cfd25
+  - a5404f55ee6a
+  - a92f200d296e
+  - b905deb2f1b4
+  - dbf05afb8e6c
+  - de753cf07008
+  - ed2fefc8d892
+  tool_panel_section_id: deep_learning
+  tool_panel_section_label: Deep Learning
+- name: ludwig_train
+  owner: goeckslab
+  revisions:
+  - 26fed0deef67
+  - 3f587f0e5a6d
+  - 4d12452c5361
+  - 650639a4a75f
+  - 9abf329ff045
+  - ad2cceec6268
+  - d5a7ca6bc640
+  tool_panel_section_id: deep_learning
+  tool_panel_section_label: Deep Learning
+- name: ludwig_hyperopt
+  owner: goeckslab
+  revisions:
+  - 12cd5a6fc2ba
+  - 271ecb35891e
+  - 4a63b50a8634
+  - a1b91224afb9
+  - b486ca953371
+  - d76cac7bae15
+  - fed9b5eaa829
+  tool_panel_section_id: deep_learning
+  tool_panel_section_label: Deep Learning
+- name: ludwig_visualize
+  owner: goeckslab
+  revisions:
+  - 197c8cc761aa
+  - 488d878c1c1f
+  - a930e68bdffe
+  - b6953aa083ed
+  - b81fe4d92236
+  - d93e52cf97c7
+  - ef7124ab6b02
+  tool_panel_section_id: deep_learning
+  tool_panel_section_label: Deep Learning
+- name: ludwig_predict
+  owner: goeckslab
+  revisions:
+  - 11b1f328f312
+  - afb22d7a0757
+  - afc8ed4a1838
+  - b0627acfa4f4
+  - cda3d431d237
+  - d6606c4d0d9a
+  - f13455263ac8
+  tool_panel_section_id: deep_learning
+  tool_panel_section_label: Deep Learning
+- name: ludwig_experiment
+  owner: goeckslab
+  revisions:
+  - 0ee0bc6736a2
+  - 124eb5e5c5fc
+  - 44267c11e02b
+  - 4d0d8859a0f2
+  - 5a39f429fad1
+  - 78b1e3921576
+  - e1c7d044b759
+  tool_panel_section_id: deep_learning
+  tool_panel_section_label: Deep Learning
+- name: ludwig_render_config
+  owner: goeckslab
+  revisions:
+  - 56c4f4c0c6df
+  - 65c50cd5aa13
+  - 7447ba518af1
+  - 93ebd9b0f159
+  - d5d69c29d537
+  - dd663701df49
+  - e3c63770083d
+  tool_panel_section_id: deep_learning
+  tool_panel_section_label: Deep Learning
+- name: ludwig_evaluate
+  owner: goeckslab
+  revisions:
+  - 29ee176f839b
+  - 777be50bc321
+  - 7cb9e77d9909
+  - b58d8857082c
+  - cbea2960cca2
+  - e55790a3e8a7
+  tool_panel_section_id: deep_learning
+  tool_panel_section_label: Deep Learning
+- name: ludwig_config_generator
+  owner: goeckslab
+  revisions:
+  - 11d3377511bb
+  - 36c5fcc49286
+  - 4bcd6c3a025e
+  - 779d91d78ecf
+  - b7ed0e483e4d
+  - bf21ab331fe6
+  - ec4b9244f930
+  tool_panel_section_id: deep_learning
+  tool_panel_section_label: Deep Learning
+- name: keras_model_config
+  owner: bgruening
+  revisions:
+  - 00b2ee48b412
+  - 00d1889e9ecc
+  - 01131463df86
+  - 0c933465d70e
+  - 2a853a2d2e72
+  - 2b8d85927742
+  - 2d8478144bb2
+  - 4d81e3e2fb63
+  - 61a6132df9e0
+  - 8a794e6d3388
+  - 94d91334c787
+  - b9906ce4756c
+  - bedbda03c573
+  - f22a9297440f
+  tool_panel_section_id: deep_learning
+  tool_panel_section_label: Deep Learning
+- name: keras_model_builder
+  owner: bgruening
+  revisions:
+  - 053570bac5ea
+  - 1f0c955fabc7
+  - 20cd4269deb2
+  - 522137aaa9c4
+  - 5b35833076f0
+  - 66d7efc06000
+  - 772e0e89fc68
+  - 9b6faa256f15
+  - beeeda757eba
+  - c51571d0a0b1
+  - e4af79bffd57
+  - f7ecdde4b201
+  tool_panel_section_id: deep_learning
+  tool_panel_section_label: Deep Learning
+- name: keras_train_and_eval
+  owner: bgruening
+  revisions:
+  - 0af678661e20
+  - 2af1346e68c9
+  - 470aed90aa41
+  - 6ecb3d77d46e
+  - 818f9b69d8a0
+  - aeee74692508
+  - e1317b5502fa
+  - e29894cdea47
+  - ead8f1822587
+  - f1b9a42d6809
+  tool_panel_section_id: deep_learning
+  tool_panel_section_label: Deep Learning
+- name: keras_batch_models
+  owner: bgruening
+  revisions:
+  - 03533fa14e77
+  - 0dc3027df8f4
+  - 1252578525d1
+  - 305c1229ac99
+  - 3814a92c1416
+  - 3b8fa4ea9727
+  - 4a5266c96889
+  - 508ce0649bec
+  - 61b2d8f8811e
+  - 679e4ede1191
+  - 77c04469e8b8
+  - 7f6079deac6f
+  - 9d77b259ef27
+  - a98b60c639af
+  tool_panel_section_id: deep_learning
+  tool_panel_section_label: Deep Learning
