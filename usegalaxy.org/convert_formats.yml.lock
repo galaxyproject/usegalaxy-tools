@@ -320,6 +320,12 @@ tools:
   - d9965e143053
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
+- name: rds_to_tabular
+  owner: goeckslab
+  revisions:
+  - 1020a80225b1
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
 - name: ucsc_nettoaxt
   owner: iuc
   revisions:

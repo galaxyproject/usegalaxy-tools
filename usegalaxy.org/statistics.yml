@@ -70,3 +70,7 @@ tools:
   owner: bgruening
 - name: rdeval
   owner: richard-burhans
+- name: nonparametric_rank_tests
+  owner: goeckslab
+- name: featurewise_correlation
+  owner: goeckslab
