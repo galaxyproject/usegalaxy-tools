@@ -38,6 +38,8 @@ tools:
   owner: iuc
 - name: jcvi_gff_stats
   owner: iuc
+- name: kegg_ora
+  owner: goeckslab
 - name: kobas
   owner: iuc
 - name: repeat_masker
