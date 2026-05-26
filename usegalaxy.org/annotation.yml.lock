@@ -97,6 +97,12 @@ tools:
   - 17eb1e0d711f
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: gseapy_enrichr
+  owner: goeckslab
+  revisions:
+  - ee854fd95ca1
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
 - name: goslimmer
   owner: iuc
   revisions:
