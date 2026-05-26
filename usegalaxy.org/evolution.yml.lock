@@ -94,6 +94,7 @@ tools:
 - name: phykit_metrics
   owner: goeckslab
   revisions:
+  - 4ff27b390c94
   - bca59a3bf30f
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution

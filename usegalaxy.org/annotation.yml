@@ -20,6 +20,8 @@ tools:
   owner: iuc
 - name: fgsea
   owner: iuc
+- name: gseapy_enrichr
+  owner: goeckslab
 - name: goslimmer
   owner: iuc
 - name: goenrichment
