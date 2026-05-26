@@ -25,6 +25,7 @@ tools:
   - 8e88d3182260
   - b66cf906193c
   - d98d958e3937
+  - ea8ceaf68518
   tool_panel_section_id: interactive_tools
   tool_panel_section_label: Interactive Tools
   tool_shed_url: testtoolshed.g2.bx.psu.edu
