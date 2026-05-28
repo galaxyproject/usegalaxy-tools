@@ -176,15 +176,3 @@ tools:
   - 4cc25c2b1d0b
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
-- name: data_manager_rgi_wildcard
-  owner: tcollins
-  revisions:
-  - 5c532b9ab0fd
-  tool_panel_section_id: data_managers
-  tool_panel_section_label: Data Managers
-- name: data_manager_rgi_card
-  owner: tcollins
-  revisions:
-  - ebcb3631c47b
-  tool_panel_section_id: data_managers
-  tool_panel_section_label: Data Managers
