@@ -1,0 +1,12 @@
+tool_panel_section_label: Multi-omics ML
+tools:
+- name: flexynesis_cbioportal_import
+  owner: bgruening
+- name: flexynesis
+  owner: bgruening
+- name: flexynesis_infer
+  owner: bgruening
+- name: flexynesis_plot
+  owner: bgruening
+- name: flexynesis_utils
+  owner: bgruening
