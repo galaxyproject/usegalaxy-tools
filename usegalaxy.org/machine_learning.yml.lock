@@ -12,6 +12,7 @@ tools:
   - 3719606b94af
   - 375c36923da1
   - 499a039871d0
+  - 73af7d202e2a
   - 871957823d0c
   - 975512caae22
   - a48e750cfd25
@@ -48,6 +49,7 @@ tools:
   - 11fdac5affb3
   - 15707141e7da
   - 169276b820cc
+  - 1dfc3ad13f43
   - 209b663a4f62
   - 2f5e307f31e8
   - '310868974972'
@@ -83,6 +85,7 @@ tools:
   - 4a7df9abe4c4
   - 4eca9d109de1
   - 4fee4504646e
+  - 7d16a7bd5f41
   - 7d78a6afc958
   - 87bc71152366
   - afd0864d18b6
@@ -149,6 +152,7 @@ tools:
   - c51571d0a0b1
   - e4af79bffd57
   - f7ecdde4b201
+  - fe0e82a7d0ee
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: keras_batch_models
