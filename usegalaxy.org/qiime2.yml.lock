@@ -1884,3 +1884,9 @@ tools:
   - f9e68fa06585
   tool_panel_section_id: qiime2
   tool_panel_section_label: QIIME2
+- name: qiime2_core__tools__import_fastq
+  owner: q2d2
+  revisions:
+  - 87623807fced
+  tool_panel_section_id: qiime2
+  tool_panel_section_label: QIIME2
