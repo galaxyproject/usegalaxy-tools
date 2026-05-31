@@ -36,6 +36,7 @@ tools:
   owner: iuc
   revisions:
   - 4d8bc5dd9e95
+  - 7a5598f973c9
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: semibin
@@ -48,6 +49,7 @@ tools:
 - name: concoct_coverage_table
   owner: iuc
   revisions:
+  - 6a9c82cc3448
   - fd31cd168efc
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -62,6 +64,7 @@ tools:
 - name: concoct
   owner: iuc
   revisions:
+  - 396cce609c04
   - eae7ee167917
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -84,12 +87,14 @@ tools:
   owner: iuc
   revisions:
   - 20ccec4a2c38
+  - 28b4b21d6aae
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: concoct_extract_fasta_bins
   owner: iuc
   revisions:
   - 8b1b09fcd8b7
+  - d87b60b2ed78
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: fasta_to_contig2bin

@@ -42,6 +42,7 @@ tools:
 - name: mummer_mummer
   owner: iuc
   revisions:
+  - 355f84a894bf
   - 48823c9635a4
   - 57f042937ba7
   - b7bc272143fb
