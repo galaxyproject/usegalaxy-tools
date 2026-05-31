@@ -153,6 +153,7 @@ tools:
   revisions:
   - 2b0d3e2f402a
   - 41f34e925bd5
+  - 53d889b0a2c9
   - c7ddb719554d
   - f3eb2291da05
   tool_panel_section_id: single_cell
@@ -182,6 +183,7 @@ tools:
   - 2bfd55b87af3
   - 72979cac22b2
   - c92d0f9338c5
+  - fe9bf1aa669e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_inspecttrajectory
