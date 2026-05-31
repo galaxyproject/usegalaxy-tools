@@ -180,3 +180,21 @@ tools:
   - ee17a294d3a3
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: vgp_split_agp
+  owner: iuc
+  revisions:
+  - da61829dc3be
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: vgp_chromosome_assignment
+  owner: iuc
+  revisions:
+  - 8926e6cd9071
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: vgp_sak_generation
+  owner: iuc
+  revisions:
+  - 8fbdd799f24c
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly

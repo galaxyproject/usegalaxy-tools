@@ -141,3 +141,35 @@ tools:
   - c297f2961ee5
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
+- name: color_deconvolution
+  owner: imgteam
+  revisions:
+  - 0cbdf78fee14
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: image_info
+  owner: imgteam
+  revisions:
+  - e28851b24032
+  - f8b4eada923c
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: split_image
+  owner: imgteam
+  revisions:
+  - 390943df8a35
+  - 7191fd16988f
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: imagej2_analyze_particles_binary
+  owner: imgteam
+  revisions:
+  - 862af85a50ec
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: 2d_feature_extraction
+  owner: imgteam
+  revisions:
+  - 519fad2c552a
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
