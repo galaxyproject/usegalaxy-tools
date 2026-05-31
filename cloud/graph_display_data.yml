@@ -24,3 +24,5 @@ tools:
   owner: iuc
 - name: ggplot2_point
   owner: iuc
+- name: jbrowse2
+  owner: fubar

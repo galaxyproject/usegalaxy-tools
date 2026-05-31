@@ -38,3 +38,13 @@ tools:
   owner: imgteam
 - name: curve_fitting
   owner: imgteam
+- name: color_deconvolution
+  owner: imgteam
+- name: image_info
+  owner: imgteam
+- name: split_image
+  owner: imgteam
+- name: imagej2_analyze_particles_binary
+  owner: imgteam
+- name: 2d_feature_extraction
+  owner: imgteam
