@@ -1091,8 +1091,8 @@ tools:
 - name: rgi_bwt
   owner: tcollins
   revisions:
-  - c2ba21bd8f34
   - bff51051d70f
+  - c2ba21bd8f34
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: rgi_main
