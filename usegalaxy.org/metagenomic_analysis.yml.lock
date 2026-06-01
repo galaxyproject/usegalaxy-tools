@@ -1092,13 +1092,11 @@ tools:
   owner: tcollins
   revisions:
   - bff51051d70f
-  - c2ba21bd8f34
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: rgi_main
   owner: tcollins
   revisions:
-  - 15d244ecf848
   - 6c8ccbb19438
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
