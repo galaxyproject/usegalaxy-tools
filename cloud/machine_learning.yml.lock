@@ -95,3 +95,231 @@ tools:
   - ec99e53e91d6
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
+- name: multimodal_learner
+  owner: goeckslab
+  revisions:
+  - 73af7d202e2a
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: pycaret_compare
+  owner: goeckslab
+  revisions:
+  - 4aa511539199
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: pycaret_predict
+  owner: goeckslab
+  revisions:
+  - b062aa285e75
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: model_prediction
+  owner: bgruening
+  revisions:
+  - b6c2289292fa
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: keras_model_config
+  owner: bgruening
+  revisions:
+  - 00d1889e9ecc
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: keras_model_builder
+  owner: bgruening
+  revisions:
+  - fe0e82a7d0ee
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: keras_batch_models
+  owner: bgruening
+  revisions:
+  - 3b8fa4ea9727
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_stacking_ensemble_models
+  owner: bgruening
+  revisions:
+  - b94babda32e4
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_train_test_eval
+  owner: bgruening
+  revisions:
+  - 418cafc53f8e
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_estimator_attributes
+  owner: bgruening
+  revisions:
+  - 0a43c856e1d8
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_model_validation
+  owner: bgruening
+  revisions:
+  - 7e5631773cea
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_svm_classifier
+  owner: bgruening
+  revisions:
+  - 4aa3666b66fa
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_sample_generator
+  owner: bgruening
+  revisions:
+  - 6cf2a66c46f1
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_pairwise_metrics
+  owner: bgruening
+  revisions:
+  - 3ff43fbb7ccf
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_nn_classifier
+  owner: bgruening
+  revisions:
+  - 900c42c3eef4
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_numeric_clustering
+  owner: bgruening
+  revisions:
+  - 1bdac8249aa1
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_feature_selection
+  owner: bgruening
+  revisions:
+  - 5bcf779d901f
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_data_preprocess
+  owner: bgruening
+  revisions:
+  - dde13d557dc4
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_clf_metrics
+  owner: bgruening
+  revisions:
+  - 048d7bd59326
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_regression_metrics
+  owner: bgruening
+  revisions:
+  - c78a5fc9e758
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_discriminant_classifier
+  owner: bgruening
+  revisions:
+  - dea38330b78a
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_generalized_linear
+  owner: bgruening
+  revisions:
+  - 57938c2f6ef5
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_model_fit
+  owner: bgruening
+  revisions:
+  - a293d7937700
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_train_test_split
+  owner: bgruening
+  revisions:
+  - e8e5736b632d
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_fitted_model_eval
+  owner: bgruening
+  revisions:
+  - e8694d796a7e
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_to_categorical
+  owner: bgruening
+  revisions:
+  - f86c0419af43
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: ml_visualization_ex
+  owner: bgruening
+  revisions:
+  - 1d2a478bb514
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_lightgbm
+  owner: bgruening
+  revisions:
+  - 16c442ecd6bf
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: sklearn_pca
+  owner: bgruening
+  revisions:
+  - fbf485fc2d30
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: keras_train_and_eval
+  owner: bgruening
+  revisions:
+  - 31f6bf2382dc
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: scipy_sparse
+  owner: bgruening
+  revisions:
+  - 602b5fb7ef09
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: create_tool_recommendation_model
+  owner: bgruening
+  revisions:
+  - e94dc7945639
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: chopin2
+  owner: iuc
+  revisions:
+  - ee6c2152e092
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: flexynesis
+  owner: bgruening
+  revisions:
+  - d1dc88960179
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: flexynesis_cbioportal_import
+  owner: bgruening
+  revisions:
+  - e6c626b3013b
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: flexynesis_infer
+  owner: bgruening
+  revisions:
+  - 7a1bae3c974a
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: flexynesis_plot
+  owner: bgruening
+  revisions:
+  - 5f69690716cb
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
+- name: flexynesis_utils
+  owner: bgruening
+  revisions:
+  - 0e86b191f856
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
