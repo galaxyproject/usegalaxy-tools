@@ -141,6 +141,7 @@ tools:
   - 23511530b8fd
   - 4cd97cc67061
   - b837e6ef4e3e
+  - c25818208c77
   - dbf2735e8480
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers

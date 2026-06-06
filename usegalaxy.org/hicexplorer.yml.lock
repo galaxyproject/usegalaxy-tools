@@ -175,6 +175,7 @@ tools:
   owner: bgruening
   revisions:
   - 0410b6aada45
+  - 18bf75bf5d67
   - 4375e25de06a
   - bf9379529c3e
   - ffc33339cd3e
@@ -185,6 +186,7 @@ tools:
   revisions:
   - 07dd436ea686
   - 4977f65da0ff
+  - 5b245b3ded3f
   - 5dfba24d7bdd
   - 77d8e0fd162a
   tool_panel_section_id: hicexplorer
@@ -210,6 +212,7 @@ tools:
 - name: hicexplorer_hichyperoptdetectloops
   owner: bgruening
   revisions:
+  - 1fa29fabe773
   - 3e5c86c2f80d
   - 409396ea5cf0
   - 7f7c6ead2d0d
@@ -220,6 +223,7 @@ tools:
   owner: bgruening
   revisions:
   - 51e40e9b6c3c
+  - 58293f858e2d
   - 7fbd6feba1ca
   - b0f33533181d
   - e4f8fceab96a
@@ -256,6 +260,7 @@ tools:
   owner: bgruening
   revisions:
   - 11fa44ee0603
+  - 7011782fdbaf
   - 977dc15add20
   - 9d93c8fbe0a6
   - f72063d9426b
@@ -330,6 +335,7 @@ tools:
 - name: hicexplorer_hicquickqc
   owner: bgruening
   revisions:
+  - 0a134c0bdb39
   - 21d859ad4502
   - 5cbd7a902a8d
   - b13e7a200525

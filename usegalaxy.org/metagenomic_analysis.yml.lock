@@ -486,6 +486,7 @@ tools:
   - 3548a93b39c1
   - 3725f7f2be35
   - 3b22de20bd4b
+  - 85b2bec21695
   - da787fc8b740
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -630,6 +631,7 @@ tools:
   owner: iuc
   revisions:
   - 00e3b4ef7e0c
+  - 45f6d77d37b7
   - ec045ca00b50
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -884,6 +886,7 @@ tools:
   owner: iuc
   revisions:
   - 4d8bc5dd9e95
+  - 7a5598f973c9
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: semibin
@@ -912,6 +915,7 @@ tools:
   owner: iuc
   revisions:
   - 20ccec4a2c38
+  - 28b4b21d6aae
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: concoct_extract_fasta_bins
@@ -1073,6 +1077,7 @@ tools:
   owner: iuc
   revisions:
   - 8a6cd1c7c6fa
+  - 8ba360ca1871
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: metamdbg_gfa

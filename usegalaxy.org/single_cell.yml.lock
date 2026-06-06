@@ -272,6 +272,7 @@ tools:
   - 44b935f2271b
   - 72979cac22b2
   - e93b008c637a
+  - fe9bf1aa669e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_filter_cells
