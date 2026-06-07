@@ -8,6 +8,7 @@ tools:
   revisions:
   - 022e886e8f94
   - 9c52362ae7bb
+  - fce1301d386c
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: peptideshaker
