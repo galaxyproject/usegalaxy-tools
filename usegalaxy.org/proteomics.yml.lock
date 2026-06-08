@@ -47,6 +47,7 @@ tools:
   - 9c52362ae7bb
   - ea0a1d50c83f
   - f522c08e900c
+  - fce1301d386c
   tool_panel_section_id: proteomics
   tool_panel_section_label: Proteomics
 - name: msstats

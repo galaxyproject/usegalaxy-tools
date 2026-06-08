@@ -609,6 +609,8 @@ function run_galaxy() {
 
 
 function stop_galaxy() {
+    log "Persisting Galaxy log"
+    exec_on docker logs "$CONTAINER_NAME" > galaxy-${BUILD_NUMBER}.log 2>&1 || true
     log "Stopping Galaxy on Stratum 0"
     # NOTE: docker rm -f exits 1 if the container does not exist
     exec_on docker stop "$CONTAINER_NAME" || true  # try graceful shutdown first
