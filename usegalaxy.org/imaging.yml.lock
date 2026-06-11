@@ -454,6 +454,7 @@ tools:
 - name: imagej2_shadows
   owner: imgteam
   revisions:
+  - ec82bbbeb775
   - f7ae316b00e4
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
@@ -491,6 +492,7 @@ tools:
   owner: imgteam
   revisions:
   - 69e951528a0b
+  - aed895206786
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: imagej2_smooth
