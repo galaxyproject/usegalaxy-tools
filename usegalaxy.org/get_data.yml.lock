@@ -33,6 +33,7 @@ tools:
   owner: iuc
   revisions:
   - 0622d99c2619
+  - 07f675a7ac2e
   - 0f3b3813b6ae
   - 18eed8fa7f23
   - 198c75abbf55
@@ -116,6 +117,7 @@ tools:
 - name: fastq_dl
   owner: iuc
   revisions:
+  - 123a40edeed1
   - 3f1ee30e39e9
   - 41635d6d4738
   - 5e7401777990
