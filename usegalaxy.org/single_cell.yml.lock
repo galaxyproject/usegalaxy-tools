@@ -202,6 +202,7 @@ tools:
 - name: modify_loom
   owner: iuc
   revisions:
+  - 0ee9395e1eb2
   - 0f1aaff9b22d
   - 4b0adaa31c95
   - 4c9fa3c63d9e
@@ -249,6 +250,7 @@ tools:
   revisions:
   - 37a47c4fd84d
   - 41f34e925bd5
+  - 53d889b0a2c9
   - be4646256624
   - c7ddb719554d
   - f3eb2291da05
