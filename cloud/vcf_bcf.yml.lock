@@ -39,6 +39,7 @@ tools:
   owner: iuc
   revisions:
   - 271965b55437
+  - 5226c31ac6d3
   - 5fa262ce95dd
   - c077f71d351f
   tool_panel_section_id: vcf_bcf
