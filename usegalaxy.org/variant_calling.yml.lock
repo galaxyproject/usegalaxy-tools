@@ -335,6 +335,7 @@ tools:
   - 0da0b2dc624c
   - 45c2ec061cf9
   - 6535dd4a4064
+  - e1ab5699a834
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: arriba_draw_fusions
@@ -343,6 +344,7 @@ tools:
   - 24271361028f
   - 7acb00fc980a
   - a2c1c52a7e47
+  - a9b4d7761b46
   - cf01dd6c6b1f
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling

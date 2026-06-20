@@ -120,6 +120,7 @@ tools:
   - 4877dfefaacc
   - 539b008cfe1c
   - 54871a78828e
+  - 8367be242f35
   - 8c533e19b697
   - 90b4d4f0a3a4
   - e4b4837f06f5
@@ -141,6 +142,7 @@ tools:
   - 23511530b8fd
   - 4cd97cc67061
   - b837e6ef4e3e
+  - c25818208c77
   - dbf2735e8480
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
