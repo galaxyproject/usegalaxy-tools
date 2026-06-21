@@ -13,6 +13,7 @@ tools:
 - name: spades
   owner: nml
   revisions:
+  - 1f04936b96f3
   - 822954de3f59
   - b8c00ce5dfa0
   - d5887ace0dd4
@@ -61,6 +62,7 @@ tools:
 - name: metaspades
   owner: nml
   revisions:
+  - 04d81e5f25e9
   - f192c2fbe13f
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

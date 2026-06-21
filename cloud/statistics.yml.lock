@@ -211,6 +211,7 @@ tools:
   owner: richard-burhans
   revisions:
   - 058bb29e28ba
+  - 280f0db52654
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: nonparametric_rank_tests
