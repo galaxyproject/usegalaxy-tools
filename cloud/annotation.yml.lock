@@ -83,6 +83,7 @@ tools:
 - name: compleasm
   owner: iuc
   revisions:
+  - f421fd0c42ea
   - fc7334661489
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
