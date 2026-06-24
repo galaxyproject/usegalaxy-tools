@@ -82,6 +82,7 @@ tools:
   - 357df6c47d92
   - 3f7790b73906
   - 83c4b4359ac4
+  - a26afcf352fd
   - a6583110825c
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
