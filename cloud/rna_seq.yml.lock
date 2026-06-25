@@ -72,6 +72,7 @@ tools:
   owner: iuc
   revisions:
   - 1ebd14235b92
+  - 92198ab2345f
   - cbf488da3b2c
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
