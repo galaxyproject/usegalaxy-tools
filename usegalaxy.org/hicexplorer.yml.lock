@@ -159,6 +159,7 @@ tools:
   - 30d7390bc918
   - 62b720dceb56
   - 937b7b9832d0
+  - c5ce0cbf73dc
   - ea19190ce5e0
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
@@ -175,6 +176,7 @@ tools:
   owner: bgruening
   revisions:
   - 0410b6aada45
+  - 18bf75bf5d67
   - 4375e25de06a
   - bf9379529c3e
   - ffc33339cd3e
@@ -304,6 +306,7 @@ tools:
   - 11f39d7f6c64
   - 6326cd29c1c3
   - 89cfe7de541b
+  - 9f0578013f9b
   tool_panel_section_id: hicexplorer
   tool_panel_section_label: HiCExplorer
 - name: hicexplorer_hicplotmatrix
@@ -349,6 +352,7 @@ tools:
   revisions:
   - 1d6af10874d5
   - 36dfa2825a59
+  - 86958f9bec1b
   - d74cf4a61d65
   - f81750434d70
   tool_panel_section_id: hicexplorer

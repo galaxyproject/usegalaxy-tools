@@ -16,6 +16,7 @@ tools:
 - name: falco
   owner: iuc
   revisions:
+  - 219ffa24f789
   - 959a14c1f2dd
   - f48b35baf365
   tool_panel_section_id: fastq_quality_control

@@ -209,6 +209,7 @@ tools:
   revisions:
   - 2a90d2fd3336
   - 4e469b758915
+  - 51971db051ba
   - 52a911972c02
   - 7b8cb2b02978
   - a204f3983d22
@@ -229,6 +230,7 @@ tools:
   - 32c9ea835770
   - 498d57610fcd
   - 555ccac8a4c5
+  - 5cba3a0dc3b6
   - 6f06d501b7e6
   - 78faebd0879c
   - 806fe614ca46
@@ -243,6 +245,7 @@ tools:
   - 3a89c3f99f3d
   - 4d89978c6188
   - 5b5a7af9fbb4
+  - 60cd35f37c0a
   - 63f86089423e
   - 65db807336bc
   - 705d26fbea02
@@ -258,6 +261,7 @@ tools:
   revisions:
   - 04144473e59e
   - 073608a50ac3
+  - 0a13d449d1bf
   - 1770d188f72d
   - 1bc3657cd694
   - 4efeb75704c8
@@ -276,6 +280,7 @@ tools:
   - 00e0347751b1
   - 23fc35093b11
   - 34e55239e68b
+  - 6be249bfd55b
   - 777f9846c56d
   - 81fc1ff02788
   - a9f4a217dcd6
@@ -299,6 +304,7 @@ tools:
   - 89d11e95a9b1
   - 96336c6a2bb7
   - b35a5e8ff0fe
+  - b762f4d54f78
   - f79565b12646
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -308,6 +314,7 @@ tools:
   - 04c15826a0b8
   - 0776d824d896
   - 39638e0aff59
+  - 4bba91a89457
   - 5fe3edf19b9c
   - 68129ce1c59b
   - 75403243703a
@@ -329,6 +336,7 @@ tools:
   - 88677f452aea
   - 99c6929236fa
   - 9ccec6ed8e82
+  - aab8af79110e
   - bfd62e881837
   - e96bbb9e24ea
   - ebd632e95aae
@@ -346,6 +354,7 @@ tools:
   - 646c58820267
   - 69900ffd3b8e
   - 84743da21318
+  - a35c40af067f
   - b1e55c248f17
   - c920e1400f98
   tool_panel_section_id: metagenomic_analysis
@@ -356,6 +365,7 @@ tools:
   - 0a1224c4b781
   - 19299bb1c6af
   - 213a3fda0b91
+  - 256e7a119a95
   - 390bc2645138
   - 4cc834cce4fb
   - 7d28da5e9e27
