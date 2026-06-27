@@ -147,6 +147,7 @@ tools:
   - d5fb354f745d
   - dc5d1a54054b
   - de1260f8a300
+  - f4fc734dd9b0
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: spades_metaplasmidspades
