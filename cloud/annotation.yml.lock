@@ -8,6 +8,7 @@ tools:
   revisions:
   - 146b508457e8
   - 6d5c8a6ceea0
+  - cfe8742b704e
   - eaa563bd535a
   - f2625d1efadd
   tool_panel_section_id: annotation
