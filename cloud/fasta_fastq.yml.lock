@@ -192,3 +192,9 @@ tools:
   - 1add611a6018
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
+- name: falco
+  owner: iuc
+  revisions:
+  - 219ffa24f789
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
