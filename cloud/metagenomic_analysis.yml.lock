@@ -213,6 +213,7 @@ tools:
   - 47198090501e
   - 89d11e95a9b1
   - b35a5e8ff0fe
+  - b762f4d54f78
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_mergepairs
@@ -220,6 +221,7 @@ tools:
   revisions:
   - 273b8a00c8a2
   - 646c58820267
+  - a35c40af067f
   - c920e1400f98
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -228,12 +230,14 @@ tools:
   revisions:
   - 0b1ce4edabc7
   - 88677f452aea
+  - aab8af79110e
   - ebd632e95aae
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_removebimeradenovo
   owner: iuc
   revisions:
+  - 0a13d449d1bf
   - 4efeb75704c8
   - 6bd7c48ff6ed
   - efe26de231ec
@@ -243,6 +247,7 @@ tools:
   owner: iuc
   revisions:
   - 213a3fda0b91
+  - 256e7a119a95
   - 390bc2645138
   - 9180d536e20d
   tool_panel_section_id: metagenomic_analysis
