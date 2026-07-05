@@ -1126,3 +1126,21 @@ tools:
   - 3ee493cd606c
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: kneaddata
+  owner: iuc
+  revisions:
+  - 10f8abc1fbdf
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: motus
+  owner: bgruening
+  revisions:
+  - b2b7a3897ef6
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: samestr
+  owner: iuc
+  revisions:
+  - 303e095c89c6
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis

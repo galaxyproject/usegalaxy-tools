@@ -252,3 +252,9 @@ tools:
   owner: tcollins
 - name: kmetashot
   owner: bgruening
+- name: kneaddata
+  owner: iuc
+- name: motus
+  owner: bgruening
+- name: samestr
+  owner: iuc
