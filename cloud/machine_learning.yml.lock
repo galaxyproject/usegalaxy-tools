@@ -102,6 +102,7 @@ tools:
   owner: goeckslab
   revisions:
   - 73af7d202e2a
+  - 9649a6aa6997
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: pycaret_compare
@@ -305,6 +306,7 @@ tools:
 - name: flexynesis_cbioportal_import
   owner: bgruening
   revisions:
+  - 9c320e113a6d
   - e6c626b3013b
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
