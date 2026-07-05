@@ -10,3 +10,5 @@ tools:
   owner: galaxyp
 - name: uniprotxml_downloader
   owner: galaxyp
+- name: pysradb_search
+  owner: iuc
