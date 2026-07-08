@@ -233,6 +233,7 @@ tools:
   - 7e014059a88d
   - a4b734cd253b
   - c4f39bf4a068
+  - d2755d6016ca
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_filtnormconf
@@ -242,6 +243,7 @@ tools:
   - 7608d5faee41
   - 8b917923f7d4
   - b83fbc90161e
+  - b9712ed9c027
   - d45f092caf24
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -261,6 +263,7 @@ tools:
   owner: iuc
   revisions:
   - 3478133d0f6f
+  - 42a08854eb66
   - 69018f285aa3
   - 6e90c8adf84f
   - a6821f856a1e

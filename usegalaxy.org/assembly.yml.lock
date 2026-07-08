@@ -189,6 +189,7 @@ tools:
   - 7490b213baa9
   - 904bf932cf78
   - a5d68876c44e
+  - afac6d6bd02b
   - c33a476f4001
   - d89ced9439f3
   tool_panel_section_id: assembly
@@ -456,6 +457,7 @@ tools:
 - name: mitohifi
   owner: bgruening
   revisions:
+  - 2853471f753d
   - 3fc33af5d9e2
   - 99ddbf037d98
   - bfab6f5b449d

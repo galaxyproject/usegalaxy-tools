@@ -208,6 +208,7 @@ tools:
   - 3f6e5c701945
   - 5f8efb080f49
   - 8c8299e553ec
+  - a3d1bf938fa8
   - dddd7ef63469
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
