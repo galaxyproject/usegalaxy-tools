@@ -37,6 +37,7 @@ tools:
   owner: iuc
   revisions:
   - 2c0ac05fe240
+  - 9c48485bf664
   tool_panel_section_id: phenotype_association
   tool_panel_section_label: Phenotype Association
 - name: qq_manhattan
