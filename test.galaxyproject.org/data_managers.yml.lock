@@ -172,6 +172,7 @@ tools:
   owner: iuc
   revisions:
   - e8873a70f416
+  - 405af1001762
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_motus
