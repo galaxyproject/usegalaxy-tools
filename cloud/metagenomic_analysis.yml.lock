@@ -196,6 +196,7 @@ tools:
   - 6be249bfd55b
   - 81fc1ff02788
   - e8768ddeba32
+  - f8b8c95bff89
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_learnerrors
@@ -212,6 +213,7 @@ tools:
   revisions:
   - 47198090501e
   - 89d11e95a9b1
+  - 9010b9e13dec
   - b35a5e8ff0fe
   - b762f4d54f78
   tool_panel_section_id: metagenomic_analysis
@@ -249,6 +251,7 @@ tools:
   - 213a3fda0b91
   - 256e7a119a95
   - 390bc2645138
+  - 86d6d6cda803
   - 9180d536e20d
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
