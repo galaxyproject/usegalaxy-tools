@@ -29,6 +29,7 @@ tools:
   - 500882207f95
   - 0d215c8381c4
   - e88709ce8e25
+  - d302ce0877f7
   tool_panel_section_id: interactive_tools
   tool_panel_section_label: Interactive Tools
   tool_shed_url: testtoolshed.g2.bx.psu.edu
