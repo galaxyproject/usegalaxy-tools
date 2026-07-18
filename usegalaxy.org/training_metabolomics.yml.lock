@@ -133,6 +133,7 @@ tools:
   - b77023c41c76
   - bf28a0fc0db6
   - bf32ae95a06f
+  - e9fa79966366
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: camera_annotate
