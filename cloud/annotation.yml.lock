@@ -18,6 +18,7 @@ tools:
   revisions:
   - 573cfe217474
   - 7844dbe4f8e2
+  - 96112e4c5e26
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: isescan
