@@ -114,6 +114,7 @@ tools:
 - name: pycaret_predict
   owner: goeckslab
   revisions:
+  - 7422e87df409
   - b062aa285e75
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
@@ -300,6 +301,7 @@ tools:
 - name: flexynesis
   owner: bgruening
   revisions:
+  - 6eb6d8e78d06
   - d1dc88960179
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
