@@ -128,3 +128,5 @@ tools:
   owner: iuc
 - name: fastga
   owner: iuc
+- name: kmindex
+  owner: iuc
