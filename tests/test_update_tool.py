@@ -46,16 +46,15 @@ class UpdateToolTestCase(unittest.TestCase):
 
         for error in errors:
             with self.subTest(error=error):
-                tool_shed = self.tool_shed([error, ['latest']])
-                stats = defaultdict(int)
-                with mock.patch.object(update_tool.time, 'sleep'):
-                    revisions = update_tool.get_revisions({
-                        'name': 'example',
-                        'owner': 'iuc',
-                    }, stats)
-                self.assertEqual(revisions, ['latest'])
-                self.assertEqual(tool_shed.repositories.get_ordered_installable_revisions.call_count, 2)
-                self.assertEqual(stats['retries'], 1)
+                with tempfile.TemporaryDirectory() as directory:
+                    filename = self.write_lockfile(directory)
+                    tool_shed = self.tool_shed([error, ['old']])
+                    stats = defaultdict(int)
+                    update_tool.last_request_at = 0
+                    with mock.patch.object(update_tool.time, 'sleep'):
+                        update_tool.update_file(str(filename), stats=stats)
+                    self.assertEqual(tool_shed.repositories.get_ordered_installable_revisions.call_count, 2)
+                    self.assertEqual(stats['retries'], 1)
 
     def test_adds_only_latest_revision_and_writes_summary(self):
         with tempfile.TemporaryDirectory() as directory:

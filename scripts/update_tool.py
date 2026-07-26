@@ -30,42 +30,9 @@ tool_sheds = ToolSheds()
 last_request_at = 0
 
 
-def get_revisions(tool, stats):
+def update_file(fn, owner=None, name=None, without=False, stats=None):
     global last_request_at
 
-    tool_shed = tool_sheds[tool.get('tool_shed_url', DEFAULT_TOOL_SHED_URL)]
-    for attempt in range(MAX_ATTEMPTS):
-        delay = REQUEST_INTERVAL - (time.monotonic() - last_request_at)
-        if delay > 0:
-            time.sleep(delay)
-        last_request_at = time.monotonic()
-        stats['requests'] += 1
-
-        try:
-            return tool_shed.repositories.get_ordered_installable_revisions(tool['name'], tool['owner'])
-        except (ConnectionError, requests.RequestException) as error:
-            status = getattr(error, 'status_code', None)
-            if status == 429:
-                stats['rate_limits'] += 1
-            elif status is None:
-                stats['network_errors'] += 1
-            elif status >= 500:
-                stats['server_errors'] += 1
-            if status not in TRANSIENT_STATUS_CODES or attempt == MAX_ATTEMPTS - 1:
-                raise
-            stats['retries'] += 1
-            retry_delay = 2 ** attempt
-            logging.warning(
-                'Transient Tool Shed error for %s/%s (%s); retrying in %ss',
-                tool['owner'],
-                tool['name'],
-                error,
-                retry_delay,
-            )
-            time.sleep(retry_delay)
-
-
-def update_file(fn, owner=None, name=None, without=False, stats=None):
     if stats is None:
         stats = defaultdict(int)
 
@@ -86,12 +53,39 @@ def update_file(fn, owner=None, name=None, without=False, stats=None):
         tool_shed_url = tool.get('tool_shed_url', DEFAULT_TOOL_SHED_URL)
         if tool_shed_url != DEFAULT_TOOL_SHED_URL:
             logging.warning('Non-default Tool Shed URL for %s/%s: %s', tool['owner'], tool['name'], tool_shed_url)
+        tool_shed = tool_sheds[tool_shed_url]
 
         logging.info("Fetching updates for {owner}/{name}".format(**tool))
-        try:
-            revisions = get_revisions(tool, stats)
-        except Exception as error:
-            raise RuntimeError('{owner}/{name}: {error}'.format(error=error, **tool)) from error
+        for attempt in range(MAX_ATTEMPTS):
+            delay = REQUEST_INTERVAL - (time.monotonic() - last_request_at)
+            if delay > 0:
+                time.sleep(delay)
+            last_request_at = time.monotonic()
+            stats['requests'] += 1
+
+            try:
+                revisions = tool_shed.repositories.get_ordered_installable_revisions(tool['name'], tool['owner'])
+                break
+            except (ConnectionError, requests.RequestException) as error:
+                status = getattr(error, 'status_code', None)
+                if status == 429:
+                    stats['rate_limits'] += 1
+                elif status is None:
+                    stats['network_errors'] += 1
+                elif status >= 500:
+                    stats['server_errors'] += 1
+                if status not in TRANSIENT_STATUS_CODES or attempt == MAX_ATTEMPTS - 1:
+                    raise RuntimeError('{owner}/{name}: {error}'.format(error=error, **tool)) from error
+                stats['retries'] += 1
+                retry_delay = 2 ** attempt
+                logging.warning(
+                    'Transient Tool Shed error for %s/%s (%s); retrying in %ss',
+                    tool['owner'],
+                    tool['name'],
+                    error,
+                    retry_delay,
+                )
+                time.sleep(retry_delay)
 
         if not revisions:
             raise RuntimeError('Tool Shed returned no revisions for {owner}/{name}'.format(**tool))
