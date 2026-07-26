@@ -53,6 +53,7 @@ tools:
   - 1dfc3ad13f43
   - 4bd75b45a7a1
   - 575cb355247c
+  - 6708cb8547bc
   - ba45bc057d70
   - bf0df21a1ea3
   - e7dd78077b72
@@ -76,6 +77,7 @@ tools:
   - bbf30253c99f
   - c460abae83eb
   - c5150cceab47
+  - c99a4e91b900
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: ludwig_config_generator
@@ -103,6 +105,7 @@ tools:
   revisions:
   - 73af7d202e2a
   - 9649a6aa6997
+  - baa13bb4cdcc
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: pycaret_compare
@@ -114,6 +117,7 @@ tools:
 - name: pycaret_predict
   owner: goeckslab
   revisions:
+  - 7422e87df409
   - b062aa285e75
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
@@ -300,6 +304,7 @@ tools:
 - name: flexynesis
   owner: bgruening
   revisions:
+  - 6eb6d8e78d06
   - d1dc88960179
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
