@@ -28,6 +28,7 @@ tools:
 - name: deseq2
   owner: iuc
   revisions:
+  - 05f9e54d7e81
   - 2275d0688bca
   - 6a3a025714d3
   - 6c363db8c702
