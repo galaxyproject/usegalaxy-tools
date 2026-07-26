@@ -31,6 +31,7 @@ tools:
   - 8b8a3f793f0f
   - 9553180705b7
   - a02aa0dfb850
+  - d663d090c710
   - e8ac2b53f262
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -114,6 +115,7 @@ tools:
   - 6ef0b5664c69
   - a3b86937ead6
   - ab9350a8ab4d
+  - afa26d1f6809
   - dad9da48a09a
   - e3cbd2287f63
   tool_panel_section_id: metagenomic_analysis
@@ -215,6 +217,7 @@ tools:
   - a204f3983d22
   - a58e4a43f49c
   - cae017b76acb
+  - d000854331fe
   - d60df8727f59
   - e7c2674e01fe
   - f947b4bb5107
@@ -255,6 +258,7 @@ tools:
   - 7c2100246a2f
   - 9f306361a58e
   - ce4bfce70e64
+  - e0aea8e800d7
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_removebimeradenovo
@@ -271,6 +275,7 @@ tools:
   - 7136e9ab70db
   - 7f3b59dee073
   - 7f8f0e9fcb37
+  - a6ceb91124fa
   - b6dddf8c2e6f
   - efe26de231ec
   tool_panel_section_id: metagenomic_analysis
@@ -290,6 +295,7 @@ tools:
   - e8768ddeba32
   - e8fba04706d3
   - f732237754fc
+  - f8b8c95bff89
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_dada
@@ -303,6 +309,7 @@ tools:
   - 6b4ddc3b64bd
   - 84fd33a60b35
   - 89d11e95a9b1
+  - 9010b9e13dec
   - 96336c6a2bb7
   - b35a5e8ff0fe
   - b762f4d54f78
@@ -314,6 +321,7 @@ tools:
   revisions:
   - 04c15826a0b8
   - 0776d824d896
+  - 1fb4fc5e64d6
   - 39638e0aff59
   - 4bba91a89457
   - 5fe3edf19b9c
@@ -339,6 +347,7 @@ tools:
   - 9ccec6ed8e82
   - aab8af79110e
   - bfd62e881837
+  - d49e0de76bf5
   - e96bbb9e24ea
   - ebd632e95aae
   tool_panel_section_id: metagenomic_analysis
@@ -959,6 +968,7 @@ tools:
 - name: drep_compare
   owner: iuc
   revisions:
+  - e5dc009367ef
   - f0334664a47b
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis

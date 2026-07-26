@@ -169,6 +169,7 @@ tools:
 - name: spades_coronaspades
   owner: iuc
   revisions:
+  - 045c8498d2dd
   - 152ff7d1817a
   - 2cf8a2028ddc
   - 34305b013402
@@ -676,6 +677,7 @@ tools:
 - name: teloscope
   owner: iuc
   revisions:
+  - 31f96c801f61
   - 321ceb58023e
   - 6c1cfce7c2eb
   tool_panel_section_id: assembly

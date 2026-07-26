@@ -435,23 +435,27 @@ tools:
   owner: imgteam
   revisions:
   - 5f5b7185bc16
+  - efbe484bc683
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: imagej2_create_image
   owner: imgteam
   revisions:
   - 69e28b06e027
+  - b63ed4bb2289
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: imagej2_noise
   owner: imgteam
   revisions:
+  - 2b32aaa9a8b1
   - 73cc4e6a741d
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: imagej2_find_edges
   owner: imgteam
   revisions:
+  - 59b8bef26edf
   - 633bea9c8ee0
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
@@ -487,6 +491,7 @@ tools:
   owner: imgteam
   revisions:
   - 711adedc5bb8
+  - a13240a1a6d3
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: imagej2_watershed_binary
@@ -535,12 +540,14 @@ tools:
   owner: imgteam
   revisions:
   - bd2aadf0f589
+  - c9e87324073c
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: imagej2_make_binary
   owner: imgteam
   revisions:
   - 1cf9771e0e53
+  - ac4aee7dc64c
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: imagej2_sharpen
@@ -560,6 +567,7 @@ tools:
 - name: imagej2_adjust_threshold_binary
   owner: imgteam
   revisions:
+  - 1e1715e2b53d
   - 2b007b1e6c1b
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging

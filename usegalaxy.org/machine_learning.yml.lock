@@ -707,6 +707,7 @@ tools:
   owner: bgruening
   revisions:
   - 5f69690716cb
+  - 91d550761220
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: flexynesis_utils
