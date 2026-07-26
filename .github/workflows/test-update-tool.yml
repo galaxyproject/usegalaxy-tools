@@ -1,0 +1,22 @@
+name: Test Tool Shed updater
+
+on:
+  pull_request:
+    branches: ["master"]
+    paths:
+      - "scripts/update_tool.py"
+      - "tests/**"
+      - "requirements.txt"
+      - ".github/workflows/test-update-tool.yml"
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
