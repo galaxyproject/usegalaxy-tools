@@ -59,6 +59,7 @@ def update_file(fn, owner=None, name=None, without=False, stats=None, failures=N
         tool_shed = tool_sheds[tool_shed_url]
 
         logging.debug("Fetching updates for {owner}/{name}".format(**tool))
+        failed = False
         revisions = None
         for attempt in range(MAX_ATTEMPTS):
             delay = REQUEST_INTERVAL - (time.monotonic() - last_request_at)
@@ -82,6 +83,7 @@ def update_file(fn, owner=None, name=None, without=False, stats=None, failures=N
                     failure = '{owner}/{name}: HTTP {status}'.format(status=status, **tool)
                     failures.append(failure)
                     logging.error('Repository update failed; continuing scan: %s', failure)
+                    failed = True
                     break
                 if status not in TRANSIENT_STATUS_CODES or attempt == MAX_ATTEMPTS - 1:
                     raise RuntimeError('{owner}/{name}: {error}'.format(error=error, **tool)) from error
@@ -96,7 +98,7 @@ def update_file(fn, owner=None, name=None, without=False, stats=None, failures=N
                 )
                 time.sleep(retry_delay)
 
-        if revisions is None:
+        if failed:
             continue
         if not revisions:
             failure = 'Tool Shed returned no revisions for {owner}/{name}'.format(**tool)

@@ -113,18 +113,20 @@ class UpdateToolTestCase(unittest.TestCase):
             self.assertIn('Unresolved failures: 1', summary.read_text())
             self.assertIn('Failure: `iuc/missing: HTTP 404`', summary.read_text())
 
-    def test_continues_after_empty_revision_list(self):
-        with tempfile.TemporaryDirectory() as directory:
-            filename = self.write_lockfile(directory)
-            summary = Path(directory) / 'summary.md'
-            self.tool_shed([[]])
+    def test_continues_after_missing_revision_response(self):
+        for revisions in (None, []):
+            with self.subTest(revisions=revisions), tempfile.TemporaryDirectory() as directory:
+                filename = self.write_lockfile(directory)
+                summary = Path(directory) / 'summary.md'
+                self.tool_shed([revisions])
 
-            with mock.patch.dict(os.environ, {'GITHUB_STEP_SUMMARY': str(summary)}):
-                result = update_tool.main([str(filename)])
+                with mock.patch.object(update_tool.time, 'sleep'), \
+                        mock.patch.dict(os.environ, {'GITHUB_STEP_SUMMARY': str(summary)}):
+                    result = update_tool.main([str(filename)])
 
-            self.assertEqual(result, 1)
-            self.assertIn('Unresolved failures: 1', summary.read_text())
-            self.assertIn('Tool Shed returned no revisions for iuc/example', summary.read_text())
+                self.assertEqual(result, 1)
+                self.assertIn('Unresolved failures: 1', summary.read_text())
+                self.assertIn('Tool Shed returned no revisions for iuc/example', summary.read_text())
 
     def test_adds_scheme_before_creating_tool_shed(self):
         factory = mock.Mock()
