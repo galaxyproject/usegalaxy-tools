@@ -79,7 +79,7 @@ def update_file(fn, owner=None, name=None, without=False, stats=None, failures=N
                 elif status >= 500:
                     stats['server_errors'] += 1
                 if status == 404:
-                    failure = '{owner}/{name}: {error}'.format(error=error, **tool)
+                    failure = '{owner}/{name}: HTTP {status}'.format(status=status, **tool)
                     failures.append(failure)
                     logging.error('Repository update failed; continuing scan: %s', failure)
                     break

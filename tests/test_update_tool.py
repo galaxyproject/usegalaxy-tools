@@ -111,7 +111,7 @@ class UpdateToolTestCase(unittest.TestCase):
             self.assertEqual(tool_shed.repositories.get_ordered_installable_revisions.call_count, 2)
             self.assertEqual(revisions, ['old', 'latest'])
             self.assertIn('Unresolved failures: 1', summary.read_text())
-            self.assertIn('iuc/missing', summary.read_text())
+            self.assertIn('Failure: `iuc/missing: HTTP 404`', summary.read_text())
 
     def test_continues_after_empty_revision_list(self):
         with tempfile.TemporaryDirectory() as directory:
