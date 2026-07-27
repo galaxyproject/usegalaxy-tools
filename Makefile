@@ -6,22 +6,22 @@ help:
 	@egrep '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[94m%-16s\033[0m %s\n", $$1, $$2}'
 
 lint: ## Lint all yaml files
-	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/fix_lockfile.py
-	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 -I{} pykwalify -d '{}' -s .schema.yml
+	find ./$(TOOLSET) -name '*.yml' ! -name '.schema.yml' -exec python scripts/fix_lockfile.py {} \;
+	find ./$(TOOLSET) -name '*.yml' ! -name '.schema.yml' -exec pykwalify -d {} -s .schema.yml \;
 
 lint-no-deps:
-	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/fix_lockfile.py --no-install-repository-dependencies --no-install-resolver-dependencies
-	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 -I{} pykwalify -d '{}' -s .schema.yml
+	find ./$(TOOLSET) -name '*.yml' ! -name '.schema.yml' -exec python scripts/fix_lockfile.py --no-install-repository-dependencies --no-install-resolver-dependencies {} \;
+	find ./$(TOOLSET) -name '*.yml' ! -name '.schema.yml' -exec pykwalify -d {} -s .schema.yml \;
 
 fix: ## Fix all lockfiles and add any missing revisions
 	@# Generates the lockfile or updates it if it is missing tools
-	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/fix_lockfile.py
+	find ./$(TOOLSET) -name '*.yml' ! -name '.schema.yml' -exec python scripts/fix_lockfile.py {} \;
 	@# --without says only add those hashes for those missing hashes (zB new tools)
-	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update_tool.py --without
+	find ./$(TOOLSET) -name '*.yml' ! -name '.schema.yml' -exec python scripts/update_tool.py --without {} \;
 
 fix-no-deps:
-	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml  | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/fix_lockfile.py --no-install-repository-dependencies --no-install-resolver-dependencies
-	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update_tool.py --without
+	find ./$(TOOLSET) -name '*.yml' ! -name '.schema.yml' -exec python scripts/fix_lockfile.py --no-install-repository-dependencies --no-install-resolver-dependencies {} \;
+	find ./$(TOOLSET) -name '*.yml' ! -name '.schema.yml' -exec python scripts/update_tool.py --without {} \;
 
 #install:
 	#@echo "Installing any updated versions of $<"
@@ -30,9 +30,9 @@ fix-no-deps:
 
 update-trusted: ## Run the update script for a subset of repos
 	@# Missing --without, so this updates all tools in the file.
-	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update_tool.py --owner $(OWNER)
+	find ./$(TOOLSET) -name '*.yml' ! -name '.schema.yml' -exec python scripts/update_tool.py --owner $(OWNER) {} \;
 
 update-all: ## Run the update script for all repos
-	find ./$(TOOLSET) -name '*.yml' ! -path .//.schema.yml | grep '^\./[^/]*/' | xargs -n 1 -P 8 python scripts/update_tool.py
+	find ./$(TOOLSET) -name '*.yml' ! -name '.schema.yml' -exec python scripts/update_tool.py {} \;
 
 .PHONY: lint update-trusted update-all help fix
