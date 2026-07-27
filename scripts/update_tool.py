@@ -19,7 +19,17 @@ class ToolSheds(defaultdict):
 tool_sheds = ToolSheds()
 
 
-def update_file(fn, owner=None, name=None, without=False):
+def get_revisions(tool_shed, tool, ignore_errors=False):
+    try:
+        return tool_shed.repositories.get_ordered_installable_revisions(tool['name'], tool['owner'])
+    except Exception as exception:
+        if not ignore_errors:
+            raise
+        logging.error("Failed to fetch revisions for %s/%s: %s", tool['owner'], tool['name'], exception)
+        return None
+
+
+def update_file(fn, owner=None, name=None, without=False, ignore_errors=False):
     with open(fn + '.lock', 'r') as handle:
         locked = yaml.safe_load(handle)
 
@@ -45,10 +55,8 @@ def update_file(fn, owner=None, name=None, without=False):
 
         logging.info("Fetching updates for {owner}/{name}".format(**tool))
 
-        try:
-            revs = ts.repositories.get_ordered_installable_revisions(tool['name'], tool['owner'])
-        except Exception as e:
-            print(e)
+        revs = get_revisions(ts, tool, ignore_errors=ignore_errors)
+        if revs is None:
             continue
 
         logging.debug('TS revisions: %s' % ','.join(revs))
@@ -78,7 +86,8 @@ if __name__ == '__main__':
     parser.add_argument('--owner', action='append', help="Repository owner to filter on, anything matching this will be updated. Can be specified multiple times")
     parser.add_argument('--name', help="Repository name to filter on, anything matching this will be updated")
     parser.add_argument('--without', action='store_true', help="If supplied will ignore any owner/name and just automatically add the latest hash for anything lacking one.")
+    parser.add_argument('--ignore-errors', action='store_true', help="Log Tool Shed errors and continue updating other tools.")
     parser.add_argument('--log', choices=('critical', 'error', 'warning', 'info', 'debug'), default='info')
     args = parser.parse_args()
     logging.basicConfig(level=getattr(logging, args.log.upper()))
-    update_file(args.fn.name, owner=args.owner, name=args.name, without=args.without)
+    update_file(args.fn.name, owner=args.owner, name=args.name, without=args.without, ignore_errors=args.ignore_errors)
