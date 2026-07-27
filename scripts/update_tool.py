@@ -19,8 +19,9 @@ class ToolSheds(defaultdict):
     default_factory = toolshed.ToolShedInstance
 
     def __missing__(self, key):
-        logging.debug('Creating new ToolShedInstance for URL: %s', key)
-        tool_shed = self.default_factory(url=key)
+        url = key if key.lower().startswith(('http://', 'https://')) else 'https://' + key
+        logging.debug('Creating new ToolShedInstance for URL: %s', url)
+        tool_shed = self.default_factory(url=url)
         tool_shed.timeout = 30
         self[key] = tool_shed
         return tool_shed
@@ -30,11 +31,13 @@ tool_sheds = ToolSheds()
 last_request_at = 0
 
 
-def update_file(fn, owner=None, name=None, without=False, stats=None):
+def update_file(fn, owner=None, name=None, without=False, stats=None, failures=None):
     global last_request_at
 
     if stats is None:
         stats = defaultdict(int)
+    if failures is None:
+        failures = []
 
     with open(fn + '.lock', 'r') as handle:
         locked = yaml.safe_load(handle)
@@ -56,6 +59,7 @@ def update_file(fn, owner=None, name=None, without=False, stats=None):
         tool_shed = tool_sheds[tool_shed_url]
 
         logging.info("Fetching updates for {owner}/{name}".format(**tool))
+        revisions = None
         for attempt in range(MAX_ATTEMPTS):
             delay = REQUEST_INTERVAL - (time.monotonic() - last_request_at)
             if delay > 0:
@@ -74,6 +78,11 @@ def update_file(fn, owner=None, name=None, without=False, stats=None):
                     stats['network_errors'] += 1
                 elif status >= 500:
                     stats['server_errors'] += 1
+                if status == 404:
+                    failure = '{owner}/{name}: {error}'.format(error=error, **tool)
+                    failures.append(failure)
+                    logging.error('Repository update failed; continuing scan: %s', failure)
+                    break
                 if status not in TRANSIENT_STATUS_CODES or attempt == MAX_ATTEMPTS - 1:
                     raise RuntimeError('{owner}/{name}: {error}'.format(error=error, **tool)) from error
                 stats['retries'] += 1
@@ -87,8 +96,13 @@ def update_file(fn, owner=None, name=None, without=False, stats=None):
                 )
                 time.sleep(retry_delay)
 
+        if revisions is None:
+            continue
         if not revisions:
-            raise RuntimeError('Tool Shed returned no revisions for {owner}/{name}'.format(**tool))
+            failure = 'Tool Shed returned no revisions for {owner}/{name}'.format(**tool)
+            failures.append(failure)
+            logging.error('%s; continuing scan', failure)
+            continue
         stats['repositories'] += 1
         latest_revision = str(revisions[-1])
         if latest_revision in tool.get('revisions', []):
@@ -108,11 +122,11 @@ def update_file(fn, owner=None, name=None, without=False, stats=None):
         stats['files_written'] += 1
 
 
-def write_summary(stats, files_scanned, started, error=None):
+def write_summary(stats, files_scanned, started, failures):
     summary = '\n'.join([
         '## Tool Shed update summary',
         '',
-        '**Status:** {}'.format('failed' if error else 'completed'),
+        '**Status:** {}'.format('failed' if failures else 'completed'),
         '',
         '- Lockfiles scanned: {}'.format(files_scanned),
         '- Repositories checked: {}'.format(stats['repositories']),
@@ -124,11 +138,13 @@ def write_summary(stats, files_scanned, started, error=None):
         '- HTTP 429 responses: {}'.format(stats['rate_limits']),
         '- HTTP 5xx responses: {}'.format(stats['server_errors']),
         '- Network errors: {}'.format(stats['network_errors']),
-        '- Unresolved failures: {}'.format(1 if error else 0),
+        '- Unresolved failures: {}'.format(len(failures)),
         '- Duration: {:.1f}s'.format(time.monotonic() - started),
     ])
-    if error:
-        summary += '\n\n- Failure: `{}`'.format(str(error).replace('`', "'"))
+    if failures:
+        summary += '\n\n' + '\n'.join(
+            '- Failure: `{}`'.format(failure.replace('`', "'")) for failure in failures
+        )
     logging.info('\n%s', summary)
 
     if os.environ.get('GITHUB_STEP_SUMMARY'):
@@ -146,21 +162,22 @@ def main(argv=None):
     args = parser.parse_args(argv)
     logging.basicConfig(level=getattr(logging, args.log.upper()))
     stats = defaultdict(int)
+    failures = []
     started = time.monotonic()
     files_scanned = 0
-    error = None
 
     try:
         for fn in args.fn:
             files_scanned += 1
-            update_file(fn, owner=args.owner, name=args.name, without=args.without, stats=stats)
+            update_file(fn, owner=args.owner, name=args.name, without=args.without, stats=stats, failures=failures)
     except Exception as error:
         logging.error('Tool update failed: %s', error)
-        write_summary(stats, files_scanned, started, error)
+        failures.append(str(error))
+        write_summary(stats, files_scanned, started, failures)
         return 1
 
-    write_summary(stats, files_scanned, started)
-    return 0
+    write_summary(stats, files_scanned, started, failures)
+    return 1 if failures else 0
 
 
 if __name__ == '__main__':
