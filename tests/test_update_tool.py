@@ -73,20 +73,30 @@ class UpdateToolTestCase(unittest.TestCase):
 
     def test_unresolved_failure_exits_nonzero_without_writing(self):
         with tempfile.TemporaryDirectory() as directory:
-            filename = self.write_lockfile(directory)
+            first_directory = Path(directory) / 'first'
+            second_directory = Path(directory) / 'second'
+            first_directory.mkdir()
+            second_directory.mkdir()
+            first = self.write_lockfile(first_directory)
+            second = self.write_lockfile(second_directory, name='unreached')
             summary = Path(directory) / 'summary.md'
             error = ConnectionError('rate limited', status_code=429)
-            self.tool_shed([error] * update_tool.MAX_ATTEMPTS)
+            tool_shed = self.tool_shed([error] * update_tool.MAX_ATTEMPTS)
 
             with mock.patch.object(update_tool.time, 'sleep'), \
                     mock.patch.dict(os.environ, {'GITHUB_STEP_SUMMARY': str(summary)}):
-                result = update_tool.main([str(filename)])
+                result = update_tool.main([str(first), str(second)])
 
-            with open(str(filename) + '.lock') as handle:
-                revisions = yaml.safe_load(handle)['tools'][0]['revisions']
             self.assertEqual(result, 1)
-            self.assertEqual(revisions, ['old'])
+            self.assertEqual(
+                tool_shed.repositories.get_ordered_installable_revisions.call_count,
+                update_tool.MAX_ATTEMPTS,
+            )
+            for filename in (first, second):
+                with open(str(filename) + '.lock') as handle:
+                    self.assertEqual(yaml.safe_load(handle)['tools'][0]['revisions'], ['old'])
             self.assertIn('**Status:** failed', summary.read_text())
+            self.assertIn('Lockfiles scanned: 1', summary.read_text())
             self.assertIn('HTTP 429 responses: {}'.format(update_tool.MAX_ATTEMPTS), summary.read_text())
 
     def test_continues_after_not_found_and_exits_nonzero(self):
