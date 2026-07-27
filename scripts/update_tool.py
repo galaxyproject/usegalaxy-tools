@@ -58,7 +58,7 @@ def update_file(fn, owner=None, name=None, without=False, stats=None, failures=N
             logging.warning('Non-default Tool Shed URL for %s/%s: %s', tool['owner'], tool['name'], tool_shed_url)
         tool_shed = tool_sheds[tool_shed_url]
 
-        logging.info("Fetching updates for {owner}/{name}".format(**tool))
+        logging.debug("Fetching updates for {owner}/{name}".format(**tool))
         revisions = None
         for attempt in range(MAX_ATTEMPTS):
             delay = REQUEST_INTERVAL - (time.monotonic() - last_request_at)
