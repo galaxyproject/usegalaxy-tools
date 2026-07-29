@@ -170,6 +170,7 @@ tools:
   owner: iuc
   revisions:
   - 21bf2f07f3f3
+  - 775131a4d84b
   - 8dfc90f35aba
   - acd9fe45eb81
   tool_panel_section_id: metagenomic_analysis
@@ -177,6 +178,7 @@ tools:
 - name: cat_prepare
   owner: iuc
   revisions:
+  - 1ab4a7c40daa
   - 51906c8c692a
   - 8315b5cebb82
   - a40bbd70b8b1
@@ -185,6 +187,7 @@ tools:
 - name: cat_contigs
   owner: iuc
   revisions:
+  - 1254b1db9afc
   - 7aebc0137f20
   - c6c77d840993
   - f41dbb0b9ff8
@@ -194,6 +197,7 @@ tools:
   owner: iuc
   revisions:
   - 388e6678fa98
+  - 7a53f2e3fb9d
   - 7f1aaa1932d8
   - a8216def322b
   tool_panel_section_id: metagenomic_analysis
@@ -201,6 +205,7 @@ tools:
 - name: cat_bins
   owner: iuc
   revisions:
+  - 0c1d6b4abca0
   - 0e63d03c8790
   - 18676df0cb3a
   - 31853794ace2
@@ -880,6 +885,7 @@ tools:
   - 24313e0ff049
   - 304ac5b49dea
   - 66acaec9f386
+  - fd8ed3767ebb
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: ampvis2_load

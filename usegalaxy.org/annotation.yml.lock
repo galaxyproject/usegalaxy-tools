@@ -560,6 +560,7 @@ tools:
   owner: iuc
   revisions:
   - 0b833dc20f00
+  - 2b9b64614d0c
   - 7109a27a11db
   - 8f20a5b9b282
   - cfec9601b25d
@@ -710,6 +711,7 @@ tools:
 - name: hmmer_alimask
   owner: iuc
   revisions:
+  - a30ef2a2b3a9
   - e3e5f208e93c
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

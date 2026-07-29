@@ -13,6 +13,7 @@ tools:
   - 61f9ddbc63ca
   - 6595517c2dd8
   - 6e8d94597139
+  - 9bc5cdefb090
   - aff5135563c6
   - be25c075ed54
   tool_panel_section_id: text_manipulation
@@ -91,6 +92,7 @@ tools:
   revisions:
   - 2040e4c2750a
   - 372967836e98
+  - 6428adb323eb
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
 - name: gff3_rebase

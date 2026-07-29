@@ -55,6 +55,7 @@ tools:
 - name: data_manager_hisat2_index_builder
   owner: iuc
   revisions:
+  - 596dfee9e3bc
   - d74c740bdb25
   - e4f36467bb51
   tool_panel_section_id: data_managers
