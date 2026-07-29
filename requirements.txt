@@ -1,4 +1,5 @@
-bioblend>=1.2.0
+# BioBlend PR 542 adds bounded retries for HTTP 429 responses.
+bioblend @ git+https://github.com/galaxyproject/bioblend.git@e9040a29a716ae825b1a9a7e0fe5d92580db09f9
 ephemeris>=0.10.10
 pykwalify>=1.6.1
 PyYAML>=4.2
