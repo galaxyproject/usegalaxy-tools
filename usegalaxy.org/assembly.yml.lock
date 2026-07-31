@@ -696,3 +696,9 @@ tools:
   - 6240e5015f93
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: lexicmap
+  owner: iuc
+  revisions:
+  - bcb6caec41eb
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
