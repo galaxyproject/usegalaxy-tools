@@ -130,3 +130,5 @@ tools:
   owner: iuc
 - name: kmindex
   owner: iuc
+- name: lexicmap
+  owner: iuc
