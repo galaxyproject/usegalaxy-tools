@@ -85,6 +85,7 @@ tools:
 - name: compleasm
   owner: iuc
   revisions:
+  - 2b9b64614d0c
   - f421fd0c42ea
   - fc7334661489
   tool_panel_section_id: annotation
@@ -172,6 +173,7 @@ tools:
 - name: teloscope
   owner: iuc
   revisions:
+  - 31f96c801f61
   - 321ceb58023e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

@@ -7,6 +7,7 @@ tools:
   owner: iuc
   revisions:
   - 18a61a9c1601
+  - 241108ef3506
   - 6bbd30d58cf4
   - e727e82945af
   tool_panel_section_id: evolution
