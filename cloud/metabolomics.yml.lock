@@ -61,23 +61,27 @@ tools:
   owner: lecorguille
   revisions:
   - 35b6fe4d481c
+  - 788a4bac4a11
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_plot_chromatogram
   owner: lecorguille
   revisions:
   - 9291271ec4d9
+  - d26d886f48a3
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_xcmsset
   owner: lecorguille
   revisions:
   - 3990a65b45a4
+  - 734dfb2af03a
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_merge
   owner: lecorguille
   revisions:
+  - 8372531e6c92
   - ae28a753a6f8
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
@@ -85,18 +89,21 @@ tools:
   owner: lecorguille
   revisions:
   - 3820e3f3b1cb
+  - a151d2cf27fb
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: xcms_retcor
   owner: lecorguille
   revisions:
   - 33c0ca93f3ee
+  - ba20f926a460
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: checkformat
   owner: ethevenot
   revisions:
   - e7c5811ec12f
+  - f19a3307db9b
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: intensity_checks
@@ -117,6 +124,7 @@ tools:
   owner: lecorguille
   revisions:
   - 75a1b3f7bacc
+  - abc7c44ae8f7
   tool_panel_section_id: metabolomics
   tool_panel_section_label: Metabolomics
 - name: metams_rungc
