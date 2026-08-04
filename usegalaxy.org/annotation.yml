@@ -84,6 +84,8 @@ tools:
   owner: iuc
 - name: bicodon_counts_from_fasta
   owner: iuc
+- name: clipkit
+  owner: iuc
 - name: codon_freq_from_bicodons
   owner: iuc
 - name: antismash
