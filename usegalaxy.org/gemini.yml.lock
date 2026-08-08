@@ -6,6 +6,7 @@ tools:
 - name: gemini_annotate
   owner: iuc
   revisions:
+  - 081adc1e0cd5
   - cf0f0f05ba9f
   - f2f3bc622a16
   tool_panel_section_id: gemini
@@ -15,6 +16,7 @@ tools:
   revisions:
   - 18d13111692b
   - 2c68e29c3527
+  - 8f410ca7eb89
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_load
@@ -22,11 +24,13 @@ tools:
   revisions:
   - 2270a8b83c12
   - 45296e47d565
+  - cca3391dc8b4
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_query
   owner: iuc
   revisions:
+  - 11fdbee540e5
   - 77a1e60fd1de
   - da74170c55c7
   tool_panel_section_id: gemini
@@ -34,30 +38,35 @@ tools:
 - name: gemini_actionable_mutations
   owner: iuc
   revisions:
+  - c2bd9670af64
   - db47f4939381
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_interactions
   owner: iuc
   revisions:
+  - 48021eee7e33
   - f745f54638e5
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_burden
   owner: iuc
   revisions:
+  - 2adedc87b4b8
   - f0bf88e9e689
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_db_info
   owner: iuc
   revisions:
+  - b1e50c7b840e
   - c2a413e47fe9
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_stats
   owner: iuc
   revisions:
+  - 56d27b51656b
   - b92cfa44f5be
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
@@ -65,18 +74,21 @@ tools:
   owner: iuc
   revisions:
   - 4b5123d51e8c
+  - 84ede9f5fddb
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_amend
   owner: iuc
   revisions:
   - 334e946cacd4
+  - fb2890358aa3
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_set_somatic
   owner: iuc
   revisions:
   - 7814e39409d1
+  - 96222aa3e86e
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_de_novo

@@ -37,6 +37,7 @@ tools:
   - 7d84cdd45c15
   - 8729f69e9207
   - 94cd9ac4a9b1
+  - a2e4242653ec
   - bbf30253c99f
   - c460abae83eb
   - c5150cceab47
@@ -50,6 +51,7 @@ tools:
   owner: goeckslab
   revisions:
   - 01e7c5481f13
+  - 06ef6f6ebfb1
   - 07acf85d1c6b
   - 0afd970bd8ae
   - 11fdac5affb3
@@ -94,6 +96,7 @@ tools:
   - 4a7df9abe4c4
   - 4eca9d109de1
   - 4fee4504646e
+  - 7363de120cc2
   - 7422e87df409
   - 7d16a7bd5f41
   - 7d78a6afc958
