@@ -6,6 +6,7 @@ tools:
 - name: episcanpy_cluster_embed
   owner: iuc
   revisions:
+  - 4e214c0acd59
   - f4713992f23a
   tool_panel_section_id: multiomics
   tool_panel_section_label: Multiomics
