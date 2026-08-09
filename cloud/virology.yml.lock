@@ -75,5 +75,6 @@ tools:
   revisions:
   - 290071465e6e
   - 877e80114d25
+  - a56510b3c4ed
   tool_panel_section_id: virology
   tool_panel_section_label: Virology

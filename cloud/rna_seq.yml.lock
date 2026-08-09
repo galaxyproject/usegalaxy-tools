@@ -14,6 +14,7 @@ tools:
 - name: kallisto_pseudo
   owner: iuc
   revisions:
+  - 3741c4204eb5
   - 5ae5c312d718
   - ce5d418183c5
   tool_panel_section_id: rna_seq
@@ -23,6 +24,7 @@ tools:
   revisions:
   - 4f9c4e6566e5
   - 60f888039fb2
+  - f71c54748ff2
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: deseq2
@@ -67,6 +69,7 @@ tools:
   - 26371a1df031
   - 61ee47027bd3
   - b12d81af0291
+  - eaa10652acc2
   - f4af63aaf57a
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq

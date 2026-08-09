@@ -62,6 +62,7 @@ tools:
 - name: trimmomatic
   owner: pjbriggs
   revisions:
+  - 75a3b8da8e76
   - b9aaed85cbd1
   - d94aff5ee623
   tool_panel_section_id: fastq_quality_control
