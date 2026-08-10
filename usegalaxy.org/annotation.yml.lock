@@ -21,6 +21,7 @@ tools:
   - 4efdca267d51
   - b734db305578
   - c2ef298da409
+  - d8b0de0554a9
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: augustus
@@ -151,6 +152,7 @@ tools:
   revisions:
   - 637ec5d5368c
   - 96e6283e4745
+  - b7e91ff1a894
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: jcvi_gff_stats
@@ -218,6 +220,7 @@ tools:
   - 1f5641a52664
   - 31812e7a1315
   - ded48b36f3b7
+  - ef1966bcece3
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: ncbi_egapx
@@ -737,6 +740,7 @@ tools:
 - name: hmmer_hmmemit
   owner: iuc
   revisions:
+  - 82d6ca8212dc
   - be03abdc6451
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
