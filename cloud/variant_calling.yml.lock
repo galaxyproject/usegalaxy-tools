@@ -55,6 +55,7 @@ tools:
   - 156b60c1530f
   - 3e954e7125bf
   - a5937157062f
+  - c752293b798c
   - ef2c525bd8cd
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -101,6 +102,7 @@ tools:
   - 43fffeed243f
   - 93c4b04a0769
   - ceff2f6a5368
+  - dcd4681273f7
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: jasminesv

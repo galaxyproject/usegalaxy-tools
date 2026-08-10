@@ -49,6 +49,7 @@ tools:
 - name: tabular_learner
   owner: goeckslab
   revisions:
+  - 06ef6f6ebfb1
   - 0afd970bd8ae
   - 1dfc3ad13f43
   - 4bd75b45a7a1
@@ -73,6 +74,7 @@ tools:
   - 85e6f4b2ad18
   - 8729f69e9207
   - 9e912fce264c
+  - a2e4242653ec
   - b0d893d04d4c
   - bbf30253c99f
   - c460abae83eb
@@ -117,6 +119,7 @@ tools:
 - name: pycaret_predict
   owner: goeckslab
   revisions:
+  - 7363de120cc2
   - 7422e87df409
   - b062aa285e75
   tool_panel_section_id: machine_learning

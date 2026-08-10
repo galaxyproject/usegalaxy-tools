@@ -30,6 +30,7 @@ tools:
 - name: recentrifuge
   owner: iuc
   revisions:
+  - 2db2dc0eca8c
   - 613ee22af97c
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -144,6 +145,7 @@ tools:
   revisions:
   - 73b667038f46
   - 8c957deb8a68
+  - c91014de79d2
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: krakentools_kreport2krona
@@ -157,6 +159,7 @@ tools:
 - name: taxonomy_krona_chart
   owner: crs4
   revisions:
+  - 7d01da0b9e18
   - e9005d1f3cfd
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -301,6 +304,7 @@ tools:
   owner: iuc
   revisions:
   - 28d740f2c0b0
+  - 66919d81c4d1
   - d9b724b4a136
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -349,6 +353,7 @@ tools:
 - name: kegg_pathways_completeness
   owner: iuc
   revisions:
+  - 76ad4572eea4
   - 78990897aa94
   - 9933e2f91584
   tool_panel_section_id: metagenomic_analysis
