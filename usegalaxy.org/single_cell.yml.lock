@@ -219,6 +219,7 @@ tools:
 - name: dropletutils
   owner: iuc
   revisions:
+  - 10d928447114
   - 2c1200fba922
   - a9caad671439
   - cdf4443d5625
@@ -583,6 +584,7 @@ tools:
   owner: iuc
   revisions:
   - 29f5f25b9935
+  - 4f1baeda3aca
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: sinto_barcode
@@ -747,6 +749,7 @@ tools:
   owner: iuc
   revisions:
   - 6154937135c7
+  - 83f3879b10e8
   - c520f64ffd57
   - fee4b4eb0ef5
   tool_panel_section_id: single_cell
@@ -764,6 +767,7 @@ tools:
   revisions:
   - 46ed93e8da30
   - 54ee3884e7ca
+  - a9085181e2a8
   - c15978515ff0
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell

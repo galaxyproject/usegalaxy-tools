@@ -28,6 +28,7 @@ tools:
   - 60f307965815
   - 62c9df8382c2
   - 64be1ac21109
+  - 7483f7d26984
   - 8b8a3f793f0f
   - 9553180705b7
   - a02aa0dfb850
@@ -74,6 +75,7 @@ tools:
 - name: kraken
   owner: devteam
   revisions:
+  - 407507e321b3
   - 766d5f63b0f4
   - 8ba2174315aa
   - aec58624706f
@@ -82,6 +84,7 @@ tools:
 - name: taxonomy_krona_chart
   owner: crs4
   revisions:
+  - 7d01da0b9e18
   - e9005d1f3cfd
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
