@@ -75,6 +75,7 @@ tools:
   - 2babe6d5c561
   - 4e70d88adf2f
   - c5a90fa4b8dd
+  - cc217867028e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: ncbi_fcs_adaptor
