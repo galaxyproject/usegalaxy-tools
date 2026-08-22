@@ -409,6 +409,7 @@ tools:
 - name: freyja_demix
   owner: iuc
   revisions:
+  - 1980b199b14a
   - 53b22b7dff19
   - 945b31d82638
   - c0a0e79d7196
@@ -421,6 +422,7 @@ tools:
 - name: freyja_aggregate_plot
   owner: iuc
   revisions:
+  - 0035ac597fa7
   - 0ceb9fb0f4ce
   - 1f89eeba299a
   - 3d9253661554
