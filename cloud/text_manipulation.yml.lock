@@ -88,6 +88,7 @@ tools:
 - name: text_processing
   owner: bgruening
   revisions:
+  - 30b60202d990
   - 3dc70b59608c
   - 6073bb457ec0
   - 74a8bef53a00
