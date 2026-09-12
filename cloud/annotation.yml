@@ -52,3 +52,7 @@ tools:
   owner: iuc
 - name: teloscope
   owner: iuc
+- name: vg_paths
+  owner: iuc
+- name: vg_giraffe
+  owner: iuc
