@@ -34,6 +34,7 @@ tools:
   owner: imgteam
   revisions:
   - 85edbb7a436b
+  - f0242f99a175
   - fa8ce46a95bb
   - fcadded98e61
   tool_panel_section_id: imaging
@@ -614,12 +615,14 @@ tools:
   owner: imgteam
   revisions:
   - 5da9fe99cf02
+  - 6d62f6950f66
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: highdicom_dicom2tiff
   owner: imgteam
   revisions:
   - 5d840cf51a67
+  - d91c748f7114
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
 - name: clip_image

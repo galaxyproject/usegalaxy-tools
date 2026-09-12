@@ -700,11 +700,13 @@ tools:
   revisions:
   - 6240e5015f93
   - b6fa25b6b436
+  - ee4041c922c8
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: lexicmap
   owner: iuc
   revisions:
   - bcb6caec41eb
+  - e92d84ff94e3
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

@@ -7,12 +7,14 @@ tools:
   owner: ecology
   revisions:
   - 00de53d18b99
+  - 56f57ddccbd3
   - e8650cdf092f
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
 - name: xarray_select
   owner: ecology
   revisions:
+  - 3f70e5512e1d
   - 6baac361495b
   - b393815e4cb7
   tool_panel_section_id: gis_data_handling
@@ -21,6 +23,7 @@ tools:
   owner: ecology
   revisions:
   - 1a91e551f3a9
+  - 38f1d26ad8e5
   - c91c27b63fb2
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
@@ -29,11 +32,13 @@ tools:
   revisions:
   - 6015f30a7258
   - 663e6f115a76
+  - 762f32ce768d
   tool_panel_section_id: gis_data_handling
   tool_panel_section_label: GIS Data Handling
 - name: xarray_mapplot
   owner: ecology
   revisions:
+  - 0a7399e79df6
   - 506b6d6880ff
   - d7479b6dfbe8
   tool_panel_section_id: gis_data_handling

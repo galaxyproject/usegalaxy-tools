@@ -8,6 +8,7 @@ tools:
   revisions:
   - 393957ecc97d
   - 4e7c1fb5e894
+  - 7907660cb79b
   - dc187fe78055
   tool_panel_section_id: biodiversity_data_exploration
   tool_panel_section_label: Biodiversity data exploration
