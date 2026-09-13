@@ -52,6 +52,7 @@ tools:
   - 13cf83ced60c
   - 3701d29f7105
   - 55e35e9203cf
+  - 8f8c0fdd625d
   - 923dcc644832
   - 93dd15e13e6a
   - d0a337ddf062
@@ -67,6 +68,7 @@ tools:
   - 4009b2de324d
   - 707023fa62fe
   - 83609ef746e9
+  - 87d9511249cf
   - 8b9bf8b5157a
   - cfaf5a405371
   - d99a178d1ab5
@@ -78,6 +80,7 @@ tools:
   owner: iuc
   revisions:
   - 3d748954434b
+  - 637e50759b72
   - 7e8c677a7b71
   - 9bd945a03d7b
   - 9ef202055d5c
@@ -101,6 +104,7 @@ tools:
   - 0bf7fddf90c7
   - 286a24ac079c
   - 33c0081e16c6
+  - 3a9aee9e3551
   - 688357ad5e61
   - 6f0d0c784f09
   - 9301df6f892d
@@ -116,6 +120,7 @@ tools:
   - 05631436cdf1
   - 0ee9395e1eb2
   - 0f1aaff9b22d
+  - 27f120c69246
   - 4c9fa3c63d9e
   - 70228646a181
   - a7b951572609
@@ -208,6 +213,7 @@ tools:
   revisions:
   - 04b494623f8e
   - '528052085629'
+  - a8b6292cdffc
   - b0fe3e482cb7
   - c9944a2600f1
   - e4c01dcece8b
@@ -219,6 +225,7 @@ tools:
   - 71ce24befa24
   - 88c07fc4024c
   - a896b8b7d264
+  - d421497303c0
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: slice_image
