@@ -139,6 +139,7 @@ tools:
   - 4009b2de324d
   - 7a6655aa6eb2
   - 83609ef746e9
+  - 87d9511249cf
   - 8b9bf8b5157a
   - c0b037b12765
   - c5ac926c838f
@@ -156,6 +157,7 @@ tools:
   - 3701d29f7105
   - '499059586799'
   - 6f143dfe902a
+  - 8f8c0fdd625d
   - 923dcc644832
   - 93dd15e13e6a
   - ae1e5d9d8972
@@ -175,6 +177,7 @@ tools:
   - 33c0081e16c6
   - 383dcb0500f9
   - 39e945f0b2c1
+  - 3a9aee9e3551
   - 6f0d0c784f09
   - 9301df6f892d
   - a54b3bac44aa
@@ -188,6 +191,7 @@ tools:
   revisions:
   - 3d748954434b
   - 43cb7b5a6fe7
+  - 637e50759b72
   - 7e8c677a7b71
   - 8db95f488f0f
   - 9ef202055d5c
@@ -204,6 +208,7 @@ tools:
   revisions:
   - 0ee9395e1eb2
   - 0f1aaff9b22d
+  - 27f120c69246
   - 4b0adaa31c95
   - 4c9fa3c63d9e
   - 59be31ac9dc3
@@ -478,6 +483,7 @@ tools:
   revisions:
   - 04b494623f8e
   - '528052085629'
+  - a8b6292cdffc
   - b0fe3e482cb7
   - c9944a2600f1
   - e32b215b7c04
