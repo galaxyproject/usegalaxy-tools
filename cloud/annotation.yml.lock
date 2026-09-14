@@ -45,6 +45,7 @@ tools:
   owner: iuc
   revisions:
   - 1942e86e2ee1
+  - 292eea8defa7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: repeatmodeler
@@ -177,5 +178,17 @@ tools:
   revisions:
   - 31f96c801f61
   - 321ceb58023e
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: vg_paths
+  owner: iuc
+  revisions:
+  - 7f622ac47f04
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: vg_giraffe
+  owner: iuc
+  revisions:
+  - 479e4a566537
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
