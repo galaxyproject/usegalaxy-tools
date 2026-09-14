@@ -495,6 +495,7 @@ tools:
   - 608ea80cccba
   - 7a2b37ae4a50
   - 914533f3507e
+  - b507ad3fe6ce
   - c162f3c43442
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -554,6 +555,7 @@ tools:
   - 6cbca5661205
   - 7f71687c8146
   - 81fc1418fbfb
+  - 88926bef8e75
   - ade829d2ae3a
   - c20a07c9237b
   - cfeb5205eacc
@@ -707,6 +709,7 @@ tools:
   owner: iuc
   revisions:
   - bcb6caec41eb
+  - d371ff7667e0
   - e92d84ff94e3
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
