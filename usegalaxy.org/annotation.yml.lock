@@ -608,6 +608,7 @@ tools:
   owner: iuc
   revisions:
   - 1942e86e2ee1
+  - 292eea8defa7
   - d77802fe76f7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -795,5 +796,17 @@ tools:
   owner: iuc
   revisions:
   - 5fc148ebafbc
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: vg_paths
+  owner: iuc
+  revisions:
+  - 7f622ac47f04
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: vg_giraffe
+  owner: iuc
+  revisions:
+  - 479e4a566537
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
