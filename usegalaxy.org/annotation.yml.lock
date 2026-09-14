@@ -807,3 +807,15 @@ tools:
   - 5fc148ebafbc
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: vg_paths
+  owner: iuc
+  revisions:
+  - 7f622ac47f04
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: vg_giraffe
+  owner: iuc
+  revisions:
+  - 479e4a566537
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
