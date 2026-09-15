@@ -50,3 +50,5 @@ tools:
   owner: iuc
 - name: falco
   owner: iuc
+- name: seqkit_split2
+  owner: iuc

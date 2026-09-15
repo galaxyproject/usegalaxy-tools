@@ -111,3 +111,15 @@ tools:
   - 2b62154e39c8
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
+- name: deepvariant
+  owner: iuc
+  revisions:
+  - 0a151b5f95e4
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: happy
+  owner: iuc
+  revisions:
+  - a5444c30823d
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling

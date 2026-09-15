@@ -26,3 +26,7 @@ tools:
   owner: iuc
 - name: jasminesv
   owner: iuc
+- name: deepvariant
+  owner: iuc
+- name: happy
+  owner: iuc
