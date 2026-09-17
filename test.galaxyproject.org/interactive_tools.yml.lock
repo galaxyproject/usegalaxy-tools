@@ -34,6 +34,7 @@ tools:
   - 80cda66cf1d2
   - 49c094e5e42d
   - 3894802fdbd3
+  - 61d60b7cab02
   tool_panel_section_id: interactive_tools
   tool_panel_section_label: Interactive Tools
   tool_shed_url: testtoolshed.g2.bx.psu.edu
