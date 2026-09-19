@@ -33,6 +33,7 @@ tools:
   - 8b8a3f793f0f
   - 9553180705b7
   - a02aa0dfb850
+  - b250b3058cbb
   - d663d090c710
   - e8ac2b53f262
   tool_panel_section_id: metagenomic_analysis
@@ -747,6 +748,7 @@ tools:
   - 6a067bbd4e16
   - 87064cb77a52
   - d1c93a32cb25
+  - f09a7ce2f629
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: phyloseq_from_biom
@@ -755,6 +757,7 @@ tools:
   - 04ba1fa0fe57
   - 05e985e0decf
   - 847f433f202b
+  - ac3cb54afbd0
   - b6a38f6222af
   - c0101c72b8af
   - eed716573aba
@@ -765,6 +768,7 @@ tools:
   revisions:
   - 2715e89adff4
   - 32f892954ef6
+  - 47fffb4462d8
   - 5007bc8a3d90
   - bbd9d1022144
   - cee4982a717b
@@ -777,6 +781,7 @@ tools:
   - 10a7732528b2
   - 7ed99cb39c9d
   - '817853857084'
+  - 83c8e8560d8f
   - d6cbeb48294d
   - fb7c4bbe8994
   - fd170b83f148
