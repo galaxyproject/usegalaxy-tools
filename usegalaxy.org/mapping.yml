@@ -44,6 +44,8 @@ tools:
   owner: iuc
 - name: ucsc_chainsort
   owner: iuc
+- name: ucsc_chainmergesort
+  owner: richard-burhans
 - name: ucsc_chainprenet
   owner: iuc
 - name: ucsc_chainnet
