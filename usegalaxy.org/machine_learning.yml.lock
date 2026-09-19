@@ -126,6 +126,7 @@ tools:
   - 948eca2af157
   - 980bf31faa05
   - 9991c4ddde14
+  - a2d7bdd4e705
   - b237f27a8afc
   - b6c2289292fa
   - ce00f1cccb03
@@ -144,6 +145,7 @@ tools:
   - 2d8478144bb2
   - 4d81e3e2fb63
   - 61a6132df9e0
+  - 7f26886839f1
   - 8a794e6d3388
   - 94d91334c787
   - b9906ce4756c
@@ -161,6 +163,7 @@ tools:
   - 5b35833076f0
   - 66d7efc06000
   - 772e0e89fc68
+  - 84697f4f6353
   - 9b6faa256f15
   - beeeda757eba
   - c51571d0a0b1
@@ -173,6 +176,7 @@ tools:
   owner: bgruening
   revisions:
   - 03533fa14e77
+  - 0b2a2554f946
   - 0dc3027df8f4
   - 1252578525d1
   - 305c1229ac99
@@ -212,6 +216,7 @@ tools:
   - b3a4682eabb6
   - bde62c243b7e
   - caf7d2b71a48
+  - dd121e960a16
   - ddc4fe317a92
   - e03a58b31c12
   - e23cfe4be9d4
@@ -224,6 +229,7 @@ tools:
   - 07843f917990
   - 0a43c856e1d8
   - 30d21a6041f6
+  - 3489e5c15882
   - 3881482e568e
   - 5a125d1ac9b9
   - 5ae00d2908f2
@@ -251,6 +257,7 @@ tools:
   - 845dfafac355
   - 887e0aaa482e
   - 9dc28a4b6ca8
+  - b3cafb8519f8
   - bacc38e0a29e
   - bfc7bdfcb423
   - e06ab1e112cc
@@ -265,6 +272,7 @@ tools:
   - 4aa3666b66fa
   - 61461e52c923
   - 6d23883e0b94
+  - 70f61a4de941
   - 73d2ef652879
   - 80852884053f
   - b7c3e9a3b954
@@ -281,6 +289,7 @@ tools:
   - 04b160a26690
   - 0f460421b212
   - 1fe020b2108f
+  - 625a129225f7
   - 6cf2a66c46f1
   - 7068b5fcd623
   - 7c2e71e4acf3
@@ -303,6 +312,7 @@ tools:
   - 25ab6b4e376e
   - 301e07345c93
   - 36e8d6d5d01b
+  - 40ff7c1f393a
   - 5023535e9f8b
   - 69c44aab684e
   - 7626ea9c2e1b
@@ -330,6 +340,7 @@ tools:
   - 9c3e1d3235c8
   - b1eda492f063
   - bc0117538945
+  - dc66f89ba2a2
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_pairwise_metrics
@@ -337,6 +348,7 @@ tools:
   revisions:
   - 053e7f32d37e
   - 09bfbef3dd90
+  - 0a6b69524de2
   - 1682b64aad9e
   - 226524df8c6c
   - 2a1afd3481ce
@@ -361,6 +373,7 @@ tools:
   - 4db563e8d453
   - 672327583f74
   - 7ae443e6217d
+  - 7f21c9e5656d
   - 823ecc0bce45
   - 8b1b2b91f8d0
   - 900c42c3eef4
@@ -384,6 +397,7 @@ tools:
   - ad7e0b4291ee
   - aeca97d9a214
   - bb9fc9d46ea4
+  - dcbfe6ed593b
   - e10e776f2109
   - e13a7c05b3a4
   tool_panel_section_id: machine_learning
@@ -396,6 +410,7 @@ tools:
   - 0b98933cf0f7
   - 1682df52c084
   - 1a53edc4b438
+  - 2268fa04320d
   - 315f01a9d2c2
   - 3ab7af14f1b5
   - 407495139a09
@@ -417,6 +432,7 @@ tools:
   - 5bcf779d901f
   - 6d21b03e00a1
   - 74adae8d7b0f
+  - 83b406104228
   - 96bb4c49e30e
   - 9e0e31bd8392
   - a7c667ff83fe
@@ -438,6 +454,7 @@ tools:
   - 761269451e98
   - 80074b842ebd
   - 826c3e68e7a9
+  - a432f7a41307
   - a5c2ce4ea328
   - add3c3a7c2b4
   - dde13d557dc4
@@ -451,6 +468,7 @@ tools:
   - 048d7bd59326
   - 0ee984c1cbd6
   - 15bcf1a7543b
+  - 4cae0397fcdb
   - 55703205546f
   - 6ffedbe712c0
   - 80ca74b1cb36
@@ -477,6 +495,7 @@ tools:
   - 70c5a9127f99
   - 7d98dfb04d27
   - 8ced2fac52f4
+  - 9c8344681465
   - c78a5fc9e758
   - dc17e2878dc1
   - f04a2405f3fe
@@ -490,6 +509,7 @@ tools:
   - 237ae72d58a3
   - 279cdd8d39e2
   - 2d032cff49eb
+  - 385a9ac83d56
   - 4335cec181ba
   - 4ee087eeda62
   - 6adef419e041
@@ -519,6 +539,7 @@ tools:
   - d3fe6fcc6bf4
   - d4808d5b83da
   - dc4b5fd604a6
+  - ddd7fc59ba59
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_model_fit
@@ -528,6 +549,7 @@ tools:
   - 1c25f305db70
   - 4cea939d7b31
   - 734c66aa945a
+  - 79bfceddc2c4
   - 8e447b95e6a8
   - 9084156b2bb5
   - a293d7937700
@@ -548,6 +570,7 @@ tools:
   - 3312fb686ffb
   - 33c564caa3c4
   - 6e25381dad5c
+  - 7e0efd4eb72f
   - a2e3cf2f9f40
   - adc5e53d4297
   - b6f5443c4f58
@@ -566,6 +589,7 @@ tools:
   - 22e73afd5206
   - 4a1cd790e323
   - 61fb99c55558
+  - 69f627250dea
   - 9a3cb21a3661
   - bfc44324a773
   - c2a7717d96ce
@@ -588,6 +612,7 @@ tools:
   - 89f11e2b0673
   - a4f18bbb4eca
   - caeb57858702
+  - de48a91cec04
   - f86c0419af43
   - f93f0cdbaf18
   tool_panel_section_id: machine_learning
@@ -605,6 +630,7 @@ tools:
   - 6fabdcde0214
   - 8334dc98c48e
   - a536d2736c2d
+  - b93fb28c785b
   - c7655b5a94af
   - c80db5d6fd8c
   - e88c782a127d
@@ -613,6 +639,7 @@ tools:
 - name: sklearn_lightgbm
   owner: bgruening
   revisions:
+  - 029d8b61da32
   - 16c442ecd6bf
   - 1b7ab45c7858
   - 27f8bd20a936
@@ -631,6 +658,7 @@ tools:
   - 03e0da430d44
   - 24c1cc2dd4a4
   - 3af626081467
+  - 4a1addf7cc1e
   - 945a53c248de
   - c17f3eacdb14
   - c716b8c86c5d
@@ -649,6 +677,7 @@ tools:
   - 6ecb3d77d46e
   - 818f9b69d8a0
   - aeee74692508
+  - c5f23a5770e1
   - e1317b5502fa
   - e29894cdea47
   - ead8f1822587
@@ -664,6 +693,7 @@ tools:
   - 4efac966af2a
   - 602b5fb7ef09
   - 6d1a9fae57eb
+  - 923fba89da05
   - 92e09b827300
   - 9f9cf31e3111
   - b7e93c1deb3f
