@@ -14,6 +14,7 @@ tools:
   owner: nml
   revisions:
   - 1f04936b96f3
+  - 263af8401aed
   - 822954de3f59
   - b8c00ce5dfa0
   - d5887ace0dd4
@@ -63,6 +64,7 @@ tools:
   owner: nml
   revisions:
   - 04d81e5f25e9
+  - 434f2a6c3ade
   - f192c2fbe13f
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
