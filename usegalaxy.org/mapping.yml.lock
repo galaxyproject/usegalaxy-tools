@@ -192,6 +192,7 @@ tools:
   revisions:
   - 090cbf2cb339
   - 142d9964568d
+  - 160c739a2170
   - 371e4e21d5de
   - 544ea81a6914
   - 592d6682f49b
@@ -262,6 +263,12 @@ tools:
   - 5815f5bd9ac8
   - c953dbade109
   - fff37ce2d95d
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: ucsc_chainmergesort
+  owner: richard-burhans
+  revisions:
+  - 6ae11314725d
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: ucsc_chainprenet
