@@ -171,8 +171,8 @@ tools:
 - name: data_manager_samestr
   owner: iuc
   revisions:
-  - e8873a70f416
   - 405af1001762
+  - e8873a70f416
   - f444a2898944
   - 7d83c60dd27e
   tool_panel_section_id: data_managers
@@ -180,8 +180,398 @@ tools:
 - name: data_manager_motus
   owner: bgruening
   revisions:
-  - c153e8dd94ad
-  - 603939ba21ec
   - 27bce4678358
+  - 603939ba21ec
+  - c153e8dd94ad
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: amrfinderplus_data_manager_build
+  owner: iuc
+  revisions:
+  - 5a6e1fa871a2
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: bmtagger_index_builder_data_manager
+  owner: iuc
+  revisions:
+  - 8722da7658ce
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: checkm2_build_database
+  owner: iuc
+  revisions:
+  - ca3727ce8fc8
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_bakta
+  owner: iuc
+  revisions:
+  - 97b1b5ad1cda
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_build_coreprofiler
+  owner: iuc
+  revisions:
+  - adc9ab7a10ab
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_build_kma_index
+  owner: iuc
+  revisions:
+  - b221a6c2ed00
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_build_kraken_database
+  owner: devteam
+  revisions:
+  - 4269aa2e0125
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_build_staramr
+  owner: iuc
+  revisions:
+  - 0b367fda55da
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_bwa_mem2_index_builder
+  owner: iuc
+  revisions:
+  - a89d803c8b29
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_bwameth_index_builder
+  owner: iuc
+  revisions:
+  - 129d5a74ca16
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_cat
+  owner: iuc
+  revisions:
+  - 472dabcb03bf
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_celltypist_models
+  owner: iuc
+  revisions:
+  - 1a715c6a13ce
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_clair3_models
+  owner: iuc
+  revisions:
+  - 11e42265a9b0
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_deeparg
+  owner: iuc
+  revisions:
+  - c5511a9b1442
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_dram_database_downloader
+  owner: iuc
+  revisions:
+  - ef701d820f80
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_eggnog_mapper_abspath
+  owner: galaxyp
+  revisions:
+  - 81a286e4c5a2
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_fetch_busco
+  owner: iuc
+  revisions:
+  - 6136ac58acab
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_fetch_busco_options
+  owner: iuc
+  revisions:
+  - 803cef749306
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_fetch_gene_annotation
+  owner: scottx611x
+  revisions:
+  - e4b92f2ca217
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_fetch_plasmidfinder
+  owner: iuc
+  revisions:
+  - 8a3955d56000
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_fetch_refseq
+  owner: iuc
+  revisions:
+  - d58cad5baa70
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_funannotate
+  owner: iuc
+  revisions:
+  - 5459ec34767a
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_funannotate_options
+  owner: iuc
+  revisions:
+  - e22da646fed7
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_genomic_super_signature_ravmodels
+  owner: iuc
+  revisions:
+  - 2873878e3106
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_groot_database_downloader
+  owner: iuc
+  revisions:
+  - 0c255951902a
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_gtdbtk_database_installer
+  owner: iuc
+  revisions:
+  - b2a92f75fda8
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_homer_preparse
+  owner: iuc
+  revisions:
+  - 679673fbf0b4
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_humann2_database_downloader
+  owner: iuc
+  revisions:
+  - ff9cf22838d4
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_humann_database_downloader
+  owner: iuc
+  revisions:
+  - 81aa3846c4ea
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_interproscan
+  owner: iuc
+  revisions:
+  - 0df47f8552f6
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_kaiju
+  owner: iuc
+  revisions:
+  - d89783920192
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_liana_resources
+  owner: iuc
+  revisions:
+  - 8a2a8d667e92
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_malt_index_builder
+  owner: iuc
+  revisions:
+  - 5f9d6aee2256
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_mash_sketch_builder
+  owner: iuc
+  revisions:
+  - 7197573e88b9
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_minibwa_index_builder
+  owner: iuc
+  revisions:
+  - 911db5710d76
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_mitos
+  owner: iuc
+  revisions:
+  - d9339bb8127e
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_mmseqs2_database
+  owner: iuc
+  revisions:
+  - 35885ec2e59b
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_mothur_toolsuite
+  owner: iuc
+  revisions:
+  - f21e77139fb5
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_ncbi_fcs_gx_database_downloader
+  owner: iuc
+  revisions:
+  - 35cef758050c
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_ncbi_taxonomy_sqlite
+  owner: iuc
+  revisions:
+  - f9650b178bfd
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_nextclade
+  owner: iuc
+  revisions:
+  - c8b67693199e
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_omamer
+  owner: iuc
+  revisions:
+  - f8d72275878e
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_packaged_annotation_data
+  owner: iuc
+  revisions:
+  - 2a546f92b1ba
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_pangolin_data
+  owner: iuc
+  revisions:
+  - 7b57cdff1287
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_pharokka
+  owner: iuc
+  revisions:
+  - 50caca83e7c9
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_primer_scheme_bedfiles
+  owner: iuc
+  revisions:
+  - dd451e45681c
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_qiime_database_downloader
+  owner: iuc
+  revisions:
+  - ed86a8f378c8
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_repeatmasker
+  owner: iuc
+  revisions:
+  - 87c97029aca4
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_rsync_g2
+  owner: devteam
+  revisions:
+  - e0329ab30f6d
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_salmon_index_builder
+  owner: iuc
+  revisions:
+  - d31d59516633
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_semibin
+  owner: iuc
+  revisions:
+  - d584aacd7d13
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_snpsift_dbnsfp
+  owner: iuc
+  revisions:
+  - 752439501b04
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_sortmerna_database_downloader
+  owner: rnateam
+  revisions:
+  - 7d2252852f96
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_stanza_models
+  owner: iuc
+  revisions:
+  - 84347a6fd548
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_sylph_database
+  owner: bgruening
+  revisions:
+  - 130224fe2d18
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_sylph_tax_database
+  owner: bgruening
+  revisions:
+  - 8208bd6b2283
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_transvar_annotations
+  owner: iuc
+  revisions:
+  - f4e49f7639f9
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_vep_cache_downloader
+  owner: iuc
+  revisions:
+  - 1439dface5bf
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_vsnp_dnaprints
+  owner: iuc
+  revisions:
+  - 05693c942b1a
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_vsnp_excel
+  owner: iuc
+  revisions:
+  - b819e969b5d9
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: data_manager_vsnp_genbank
+  owner: iuc
+  revisions:
+  - 98babcb65125
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: deacon_build_database
+  owner: iuc
+  revisions:
+  - 03faec8a1c3e
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: kmetashot_build_database
+  owner: bgruening
+  revisions:
+  - 22847889f95e
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: mirge3_build_database
+  owner: bgruening
+  revisions:
+  - f27ca8442e03
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
+- name: virsorter_build_database
+  owner: ufz
+  revisions:
+  - c456ae8354f2
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
