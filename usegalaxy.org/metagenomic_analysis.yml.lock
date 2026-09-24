@@ -33,6 +33,7 @@ tools:
   - 8b8a3f793f0f
   - 9553180705b7
   - a02aa0dfb850
+  - ad7226fac56d
   - b250b3058cbb
   - d663d090c710
   - e8ac2b53f262
@@ -912,6 +913,7 @@ tools:
 - name: ampvis2_load
   owner: iuc
   revisions:
+  - 05d7672c6bed
   - 27ac516ba719
   - 3481feabc54e
   - 5029fd9d572e
