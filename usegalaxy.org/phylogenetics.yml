@@ -1,4 +1,4 @@
-tool_panel_section_label: HyPhy
+tool_panel_section_label: Phylogenetics
 tools:
 - name: hyphy_absrel
   owner: iuc
@@ -43,4 +43,22 @@ tools:
 - name: hyphy_cln
   owner: iuc
 - name: drhip
+  owner: iuc
+- name: hyphaeon_meme
+  owner: iuc
+- name: hyphaeon_dms
+  owner: iuc
+- name: hyphaeon_temporal
+  owner: iuc
+- name: hyphaeon_phenotype
+  owner: iuc
+- name: hyphaeon_disease
+  owner: iuc
+- name: hyphaeon_splits
+  owner: iuc
+- name: hyphaeon_epistasis
+  owner: iuc
+- name: hyphaeon_filter
+  owner: iuc
+- name: hyphaeon_list_models
   owner: iuc

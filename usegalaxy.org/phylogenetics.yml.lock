@@ -1,7 +1,7 @@
 install_repository_dependencies: false
 install_resolver_dependencies: false
 install_tool_dependencies: false
-tool_panel_section_label: HyPhy
+tool_panel_section_label: Phylogenetics
 tools:
 - name: hyphy_absrel
   owner: iuc
@@ -30,8 +30,8 @@ tools:
   - cce7b18495e4
   - d033ffc1c161
   - d7c7ef3353fe
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_annotate
   owner: iuc
   revisions:
@@ -47,8 +47,8 @@ tools:
   - e6009f23582c
   - f7810488bd92
   - fa913c2975da
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_bgm
   owner: iuc
   revisions:
@@ -76,8 +76,8 @@ tools:
   - df8c64576038
   - ede53272264e
   - f22ed633b72b
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_busted
   owner: iuc
   revisions:
@@ -104,8 +104,8 @@ tools:
   - e908c4003bd8
   - e931e69b5a80
   - ff8b64ab5bf7
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_cfel
   owner: iuc
   revisions:
@@ -120,8 +120,8 @@ tools:
   - d76dca762da3
   - fb833dd994f2
   - fcabcc150d21
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_conv
   owner: iuc
   revisions:
@@ -137,8 +137,8 @@ tools:
   - c1d24ff838c8
   - c8276d759758
   - f6e7b5955712
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_fade
   owner: iuc
   revisions:
@@ -166,8 +166,8 @@ tools:
   - e7be036f1616
   - eb23ebaf69d2
   - fccaa7ba05fd
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_fel
   owner: iuc
   revisions:
@@ -195,8 +195,8 @@ tools:
   - ec783806a5c3
   - ef2129a50a13
   - fc50c4bac0a3
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_fubar
   owner: iuc
   revisions:
@@ -224,8 +224,8 @@ tools:
   - c8f912a7a967
   - cd41e7a4d35f
   - ff1e9dd7ad13
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_gard
   owner: iuc
   revisions:
@@ -253,8 +253,8 @@ tools:
   - b0af57c1a968
   - df47d4845b62
   - e75442c7f4da
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_meme
   owner: iuc
   revisions:
@@ -282,8 +282,8 @@ tools:
   - dd45dc0b8c11
   - e0763df98352
   - f9988f5f30e0
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_prime
   owner: iuc
   revisions:
@@ -311,8 +311,8 @@ tools:
   - e06961ac014b
   - e0d7277ae941
   - f207757f9ca2
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_relax
   owner: iuc
   revisions:
@@ -340,8 +340,8 @@ tools:
   - ba548f24669a
   - ed0f10a1db94
   - fba248cbd49e
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_slac
   owner: iuc
   revisions:
@@ -369,8 +369,8 @@ tools:
   - d6f4ff2aed07
   - e46726cd0c9e
   - ec499ddce7a9
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_sm19
   owner: iuc
   revisions:
@@ -398,8 +398,8 @@ tools:
   - c102811766ef
   - d52a803b2b5c
   - f1261376fd4b
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_strike_ambigs
   owner: iuc
   revisions:
@@ -414,8 +414,8 @@ tools:
   - dc8875a13914
   - ea698cd7e086
   - f5bbd4b34541
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_summary
   owner: iuc
   revisions:
@@ -425,38 +425,92 @@ tools:
   - bd90215b7d15
   - f304c108aa1f
   - f3e408cc2546
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: sarscov2summary
   owner: iuc
   revisions:
   - 4ad8b610ea41
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: sarscov2formatter
   owner: iuc
   revisions:
   - 1c664ff29354
   - 2e993ff8e7dc
   - e3a7995dce75
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: remove_terminal_stop_codons
   owner: iuc
   revisions:
   - 0290a7285026
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: hyphy_cln
   owner: iuc
   revisions:
   - bf1ca3de3a76
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
 - name: drhip
   owner: iuc
   revisions:
   - dd2d60b55e0d
   - e301c523e83d
-  tool_panel_section_id: hyphy
-  tool_panel_section_label: HyPhy
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_meme
+  owner: iuc
+  revisions:
+  - 5c223e491b89
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_dms
+  owner: iuc
+  revisions:
+  - 9e514c265361
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_temporal
+  owner: iuc
+  revisions:
+  - 28933de74e66
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_phenotype
+  owner: iuc
+  revisions:
+  - 40238aafdc08
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_disease
+  owner: iuc
+  revisions:
+  - ddeb2d3ab617
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_splits
+  owner: iuc
+  revisions:
+  - a9e2ba068e99
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_epistasis
+  owner: iuc
+  revisions:
+  - 112587a146bb
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_filter
+  owner: iuc
+  revisions:
+  - 08dbe7e63422
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_list_models
+  owner: iuc
+  revisions:
+  - d5990d612224
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
