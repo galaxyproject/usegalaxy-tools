@@ -723,3 +723,9 @@ tools:
   - e92d84ff94e3
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: logan_protein_search_database
+  owner: bgruening
+  revisions:
+  - 03bc0b982ec9
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly

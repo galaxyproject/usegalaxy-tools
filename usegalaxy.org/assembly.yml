@@ -132,3 +132,5 @@ tools:
   owner: iuc
 - name: lexicmap
   owner: iuc
+- name: logan_protein_search_database
+  owner: bgruening
