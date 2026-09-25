@@ -460,3 +460,57 @@ tools:
   - e301c523e83d
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
+- name: hyphaeon_meme
+  owner: iuc
+  revisions:
+  - 5c223e491b89
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_dms
+  owner: iuc
+  revisions:
+  - 9e514c265361
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_temporal
+  owner: iuc
+  revisions:
+  - 28933de74e66
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_phenotype
+  owner: iuc
+  revisions:
+  - 40238aafdc08
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_disease
+  owner: iuc
+  revisions:
+  - ddeb2d3ab617
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_splits
+  owner: iuc
+  revisions:
+  - a9e2ba068e99
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_epistasis
+  owner: iuc
+  revisions:
+  - 112587a146bb
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_filter
+  owner: iuc
+  revisions:
+  - 08dbe7e63422
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: hyphaeon_list_models
+  owner: iuc
+  revisions:
+  - d5990d612224
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
