@@ -1,4 +1,4 @@
-tool_panel_section_label: HyPhy
+tool_panel_section_label: Phylogenetics
 tools:
 - name: hyphy_absrel
   owner: iuc
