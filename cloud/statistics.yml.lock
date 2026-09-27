@@ -193,6 +193,7 @@ tools:
 - name: scipy_sparse
   owner: bgruening
   revisions:
+  - 25254e963e6e
   - 602b5fb7ef09
   - 923fba89da05
   tool_panel_section_id: statistics

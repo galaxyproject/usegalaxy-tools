@@ -176,6 +176,7 @@ tools:
 - name: ampvis2_load
   owner: iuc
   revisions:
+  - 05d7672c6bed
   - 27ac516ba719
   - 5029fd9d572e
   - 738474880da8
