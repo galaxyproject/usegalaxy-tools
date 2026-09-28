@@ -240,6 +240,12 @@ tools:
   - f6090d2a5722
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: growler_lastz_lav
+  owner: richard-burhans
+  revisions:
+  - 76128dce6168
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
 - name: winnowmap
   owner: iuc
   revisions:

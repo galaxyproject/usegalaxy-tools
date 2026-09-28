@@ -38,6 +38,8 @@ tools:
   owner: richard-burhans
 - name: batched_lastz
   owner: richard-burhans
+- name: growler_lastz_lav
+  owner: richard-burhans
 - name: winnowmap
   owner: iuc
 - name: ucsc_axtchain

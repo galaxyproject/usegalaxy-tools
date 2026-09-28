@@ -343,3 +343,15 @@ tools:
   - d8807bae7b3f
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
+- name: ucsc_lavtopsl
+  owner: richard-burhans
+  revisions:
+  - c7b5ce88bccf
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: ucsc_axtsort
+  owner: richard-burhans
+  revisions:
+  - 0cef1682cdf7
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
