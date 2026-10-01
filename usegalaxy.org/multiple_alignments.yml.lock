@@ -169,6 +169,7 @@ tools:
   owner: iuc
   revisions:
   - 0c8a176cd7ca
+  - 3be5eb70cd47
   - 86d5452a28fb
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
