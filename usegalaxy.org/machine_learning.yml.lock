@@ -782,3 +782,9 @@ tools:
   - 88244f1bdfcf
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
+- name: sklearn_label_encoder
+  owner: bgruening
+  revisions:
+  - 549937c7349c
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
