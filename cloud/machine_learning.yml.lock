@@ -322,6 +322,7 @@ tools:
 - name: ml_visualization_ex
   owner: bgruening
   revisions:
+  - 1588f9076e32
   - 1d2a478bb514
   - 5f9c0e99016f
   - 9276346ed061
