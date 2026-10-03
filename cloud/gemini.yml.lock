@@ -25,5 +25,22 @@ tools:
   - 11fdbee540e5
   - 666f60a9331a
   - 77a1e60fd1de
+  - da74170c55c7
+  tool_panel_section_id: gemini
+  tool_panel_section_label: GEMINI
+- name: gemini_inheritance
+  owner: iuc
+  revisions:
+  - 18d13111692b
+  - 2c68e29c3527
+  - 8f410ca7eb89
+  tool_panel_section_id: gemini
+  tool_panel_section_label: GEMINI
+- name: gemini_annotate
+  owner: iuc
+  revisions:
+  - 081adc1e0cd5
+  - cf0f0f05ba9f
+  - f2f3bc622a16
   tool_panel_section_id: gemini
   tool_panel_section_label: GEMINI

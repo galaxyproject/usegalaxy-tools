@@ -207,3 +207,13 @@ tools:
   - 8fbdd799f24c
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: rnaquast
+  owner: iuc
+  revisions:
+  - 3967889cda03
+  - 734fbbd94307
+  - 8e66f695d859
+  - 96f74538896e
+  - f73ab5187eed
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly

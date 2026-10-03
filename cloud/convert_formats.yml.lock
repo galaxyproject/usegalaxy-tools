@@ -76,6 +76,7 @@ tools:
 - name: gffread
   owner: devteam
   revisions:
+  - 154d00cbbf2d
   - 3e436657dcd0
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats

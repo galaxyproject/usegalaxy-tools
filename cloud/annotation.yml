@@ -56,3 +56,13 @@ tools:
   owner: iuc
 - name: vg_giraffe
   owner: iuc
+- name: cpat
+  owner: bgruening
+- name: pfamscan
+  owner: bgruening
+- name: tb_variant_filter
+  owner: iuc
+- name: tbprofiler
+  owner: iuc
+- name: tbvcfreport
+  owner: iuc

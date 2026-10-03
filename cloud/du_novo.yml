@@ -1,0 +1,6 @@
+tool_panel_section_label: Du Novo
+tools:
+- name: dunovo
+  owner: nick
+- name: sequence_content_trimmer
+  owner: nick
