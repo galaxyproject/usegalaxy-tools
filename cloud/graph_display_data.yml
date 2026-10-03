@@ -76,3 +76,5 @@ tools:
   owner: iuc
 - name: krona_text
   owner: saskia-hiltemann
+- name: geneiobio
+  owner: iuc
