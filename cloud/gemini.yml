@@ -6,3 +6,5 @@ tools:
   owner: iuc
 - name: gemini_query
   owner: iuc
+- name: gemini_inheritance
+  owner: iuc
