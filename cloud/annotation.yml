@@ -56,3 +56,7 @@ tools:
   owner: iuc
 - name: vg_giraffe
   owner: iuc
+- name: cpat
+  owner: bgruening
+- name: pfamscan
+  owner: bgruening

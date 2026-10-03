@@ -30,3 +30,7 @@ tools:
   owner: iuc
 - name: happy
   owner: iuc
+- name: naive_variant_caller
+  owner: blankenberg
+- name: allele_counts
+  owner: nick
