@@ -36,3 +36,5 @@ tools:
   owner: nick
 - name: snippy
   owner: iuc
+- name: varscan_somatic
+  owner: iuc

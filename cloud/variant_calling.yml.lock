@@ -149,3 +149,11 @@ tools:
   - d220115f882b
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
+- name: varscan_somatic
+  owner: iuc
+  revisions:
+  - 4e97191a1ff7
+  - a57606054bd7
+  - cf8ffc79db67
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
