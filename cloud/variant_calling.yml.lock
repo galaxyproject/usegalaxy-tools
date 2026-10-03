@@ -157,3 +157,9 @@ tools:
   - cf8ffc79db67
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
+- name: countess
+  owner: iuc
+  revisions:
+  - b1d197da67aa
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
