@@ -60,3 +60,9 @@ tools:
   owner: bgruening
 - name: pfamscan
   owner: bgruening
+- name: tb_variant_filter
+  owner: iuc
+- name: tbprofiler
+  owner: iuc
+- name: tbvcfreport
+  owner: iuc

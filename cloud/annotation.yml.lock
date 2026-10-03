@@ -206,3 +206,40 @@ tools:
   - 15cff34c2005
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: tb_variant_filter
+  owner: iuc
+  revisions:
+  - 32f14a2723ec
+  - 3b1e7c170b10
+  - 40f0591deda0
+  - e7aff4a85df5
+  - ee4a90760848
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: tbprofiler
+  owner: iuc
+  revisions:
+  - 037a11682176
+  - 200c378d85f3
+  - 2c68b0c38785
+  - 4839e590cb26
+  - 51dd22484644
+  - 60a1dad331ec
+  - 809dfc93d593
+  - 8cb134b8c1a5
+  - ac8250086ac3
+  - ba6f87115e13
+  - c2656b729ee9
+  - d03af1c7002c
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
+- name: tbvcfreport
+  owner: iuc
+  revisions:
+  - 02d81b994ef5
+  - 42818629ec4c
+  - 4934c0ac6197
+  - 9793bc5d741b
+  - adc0645b945c
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
