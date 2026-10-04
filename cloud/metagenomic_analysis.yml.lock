@@ -375,6 +375,7 @@ tools:
 - name: comebin
   owner: iuc
   revisions:
+  - 7e66a24282a7
   - cd1d8332bc04
   - ddfb9c10740a
   tool_panel_section_id: metagenomic_analysis
