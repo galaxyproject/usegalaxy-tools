@@ -355,3 +355,33 @@ tools:
   - 0cef1682cdf7
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
+- name: ucsc_fatotwobit
+  owner: richard-burhans
+  revisions:
+  - 4bd3af43100c
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: ucsc_bedtobigbed
+  owner: richard-burhans
+  revisions:
+  - f9cea62e1764
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: ucsc_genepredtobed
+  owner: richard-burhans
+  revisions:
+  - ac8d08f421cb
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: ucsc_gff3togenepred
+  owner: richard-burhans
+  revisions:
+  - 88588a88f33c
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: chain_to_bigchain
+  owner: richard-burhans
+  revisions:
+  - 287d9cff3f4c
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats

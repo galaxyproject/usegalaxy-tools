@@ -224,3 +224,15 @@ tools:
   - 1cd8a25117c1
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
+- name: process_maf
+  owner: richard-burhans
+  revisions:
+  - a6eb8a7fcb3f
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
+- name: maf_to_bigmaf_bed
+  owner: richard-burhans
+  revisions:
+  - c0d5df5bb42c
+  tool_panel_section_id: multiple_alignments
+  tool_panel_section_label: Multiple Alignments
