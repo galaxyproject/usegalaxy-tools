@@ -48,3 +48,7 @@ tools:
   owner: iuc
 - name: cawlign
   owner: iuc
+- name: process_maf
+  owner: richard-burhans
+- name: maf_to_bigmaf_bed
+  owner: richard-burhans
