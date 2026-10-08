@@ -20,3 +20,5 @@ tools:
   owner: bgruening
 - name: kmindex
   owner: iuc
+- name: lexicmap_memcap
+  owner: d-callan
