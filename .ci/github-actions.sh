@@ -47,6 +47,11 @@ if [ -n "${GITHUB_ENV:-}" ]; then
     echo "CI_LOG_DIR=${CI_LOG_DIR}" >> "$GITHUB_ENV"
 fi
 
+# Worker threads for the tool source store build. Galaxy's SQLite store fails concurrent writes with "database is
+# locked" when commits are slow, as on fuse-overlayfs, and drops the affected tools from the bundle. Keep this at 1
+# until galaxyproject/galaxy#24033 is in the galaxy-min:dev image, then raise it (16 builds Main's conf in ~4 minutes).
+TOOL_SOURCE_STORE_PARALLEL=1
+
 # Set to true to perform everything on the runner and copy results to the Stratum 0 for publish, instead of
 # performing everything directly on the Stratum 0. Requires preinstallation/preconfiguration of CVMFS and for
 # fuse-overlayfs to be installed on the runner.
@@ -82,6 +87,9 @@ INSTALL_DATABASE=
 SHED_TOOL_CONFIG=
 SHED_TOOL_DATA_TABLE_CONFIG=
 SHED_DATA_MANAGER_CONFIG=
+TOOL_SOURCE_STORE_NAME=
+TOOL_SOURCE_STORE_DIR=
+TOOL_SOURCE_STORE_TMPDIR=
 SSH_MASTER_SOCKET=
 WORKDIR=
 USER_UID="$(id -u)"
@@ -113,6 +121,7 @@ RUN_DIR_REMOVABLE=true
 function trap_handler() {
     { set +x; } 2>/dev/null
     $GALAXY_CONTAINER_UP && stop_galaxy
+    [ -n "${CONTAINER_NAME:-}" ] && docker rm -f "${CONTAINER_NAME}-tool-source-store" >/dev/null 2>&1 || true
     clean_preconfigured_container
     $LOCAL_CVMFS_MOUNTED && unmount_overlay
     # $LOCAL_OVERLAYFS_MOUNTED does not need to be checked here since if it's true, $LOCAL_CVMFS_MOUNTED must be true
@@ -302,6 +311,9 @@ function set_repo_vars() {
     SHED_TOOL_DIR="${SHED_TOOL_DIRS[$REPO]}"
     SHED_TOOL_DATA_TABLE_CONFIG="${SHED_TOOL_DATA_TABLE_CONFIGS[$REPO]}"
     SHED_DATA_MANAGER_CONFIG="${SHED_DATA_MANAGER_CONFIGS[$REPO]}"
+    # Galaxy tool source store bundle published alongside the shed tool conf, see README "Tool source store"
+    TOOL_SOURCE_STORE_NAME="cvmfs_${REPO%%.*}"
+    TOOL_SOURCE_STORE_DIR="/cvmfs/${REPO}/config/tool_source_store/v1"
     CONTAINER_NAME="usegalaxy-tools-${REPO_USER}-${RUN_ID}"
     if $USE_LOCAL_OVERLAYFS; then
         OVERLAYFS_LOWER="${RUN_DIR}/lower"
@@ -800,6 +812,73 @@ function post_install() {
 }
 
 
+# Pre-parse the tools in the shed tool conf into a Galaxy tool source store (a SQLite bundle plus a manifest sidecar)
+# published next to the conf, so Galaxy servers with `use_cached_toolbox` enabled load the tool panel from the
+# bundle instead of parsing every tool XML on CVMFS at startup. The conf is pointed at the bundle with a `store`
+# attribute, which Galaxy ignores unless the server declares that store name under `tool_source_stores`. Runs on
+# every install (including PR test installs, where the result is discarded with the overlay). The previous bundle is
+# in the overlay lower layer at the same path, so the populator only re-parses tools whose files changed.
+# Point the shed tool conf at the tool source store published by build_tool_source_store. Galaxy ignores the
+# attribute unless the server declares the store name under tool_source_stores, and preserves it when it rewrites
+# the conf during tool installation. Runs before check_for_repo_changes so the one-time edit shows in the summary diff.
+function point_shed_conf_at_tool_source_store() {
+    log "Pointing shed tool conf at tool source store ${TOOL_SOURCE_STORE_NAME}"
+    log_exec python3 .ci/set_shed_conf_store.py "${OVERLAYFS_MOUNT}${SHED_TOOL_CONFIG##*${REPO}}" "$TOOL_SOURCE_STORE_NAME"
+}
+
+
+# Pre-parse the tools in the shed tool conf into a Galaxy tool source store (a SQLite bundle plus a manifest sidecar)
+# published next to the conf, so Galaxy servers with `use_cached_toolbox` enabled load the tool panel from the
+# bundle instead of parsing every tool XML on CVMFS at startup. Runs on every install (including PR test installs,
+# where the result is discarded with the overlay). The previous bundle is in the overlay lower layer at the same
+# path, so the populator only re-parses tools whose files changed. Must run before post_install, whose chmod makes
+# the manifest (created 0600 by Galaxy versions without galaxyproject/galaxy's permission fix) readable on clients.
+function build_tool_source_store() {
+    local shed_tool_conf="${OVERLAYFS_MOUNT}${SHED_TOOL_CONFIG##*${REPO}}"
+    local bundle_dir="${OVERLAYFS_MOUNT}${TOOL_SOURCE_STORE_DIR##*${REPO}}"
+    log "Building tool source store ${TOOL_SOURCE_STORE_NAME} for ${REPO}"
+    TOOL_SOURCE_STORE_TMPDIR=$(exec_on mktemp -d -p "$RUN_DIR" tool-source-store.XXXXXX)
+    # Minimal config for the standalone populator: only the shed tool conf is routed to the named (published) store;
+    # the default store is scratch and is not populated (--target). Paths are container paths.
+    cat > "${TOOL_SOURCE_STORE_TMPDIR}/galaxy.yml" <<EOF
+galaxy:
+  root_dir: /galaxy/server
+  data_dir: /tool_source_store/scratch
+  tool_config_file: ${SHED_TOOL_CONFIG}
+  shed_tool_config_file: ${SHED_TOOL_CONFIG}
+  migrated_tools_config: /abcdef
+  shed_tool_data_table_config: ${SHED_TOOL_DATA_TABLE_CONFIG}
+  shed_data_manager_config_file: ${SHED_DATA_MANAGER_CONFIG}
+  tool_source_database_connection: sqlite:////tool_source_store/scratch/tool_sources.sqlite
+  tool_source_stores:
+    ${TOOL_SOURCE_STORE_NAME}:
+      url: sqlite:///${TOOL_SOURCE_STORE_DIR}/${TOOL_SOURCE_STORE_NAME}.sqlite
+EOF
+    # The populator exits 1 if any single tool failed to parse; such tools are simply absent from the bundle and
+    # Galaxy parses them eagerly, so a pre-existing broken tool must not block every publish. The check below catches
+    # a bundle that was not (re)written or is substantially incomplete.
+    local build_started
+    build_started=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+    exec_on docker run --rm --label "$DOCKER_RUN_LABEL" --user "${USER_UID}:${USER_GID}" \
+        --name "${CONTAINER_NAME}-tool-source-store" \
+        -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
+        -v "${TOOL_SOURCE_STORE_TMPDIR}:/tool_source_store" \
+        --workdir /galaxy/server \
+        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/python scripts/tool_source/populate_store.py \
+            --config /tool_source_store/galaxy.yml --target "$TOOL_SOURCE_STORE_NAME" --parallel "$TOOL_SOURCE_STORE_PARALLEL" \
+        || log_error "populate_store.py exited with code $?, some tools may be missing from the bundle"
+    summary_exec "Tool source store ${TOOL_SOURCE_STORE_NAME}" \
+        python3 .ci/check_tool_source_store.py --built-after "$build_started" \
+        "$bundle_dir" "$TOOL_SOURCE_STORE_NAME" "$shed_tool_conf"
+    # summary_exec swallows the exit status, so repeat the (cheap) check to make failure fatal
+    python3 .ci/check_tool_source_store.py --built-after "$build_started" \
+        "$bundle_dir" "$TOOL_SOURCE_STORE_NAME" "$shed_tool_conf" >/dev/null \
+        || log_exit_error "Tool source store check failed"
+    exec_on rm -rf "$TOOL_SOURCE_STORE_TMPDIR"
+    TOOL_SOURCE_STORE_TMPDIR=
+}
+
+
 function copy_upper_to_stratum0() {
     log "Copying changes to Stratum 0"
     set -x
@@ -814,8 +893,11 @@ function do_install_local() {
     run_galaxy
     wait_for_galaxy
     install_tools
+    point_shed_conf_at_tool_source_store
     check_for_repo_changes
     stop_galaxy
+    # before clean_preconfigured_container, so a patched Galaxy image (see GALAXY_PATCH_FILE) is used for the build too
+    build_tool_source_store
     clean_preconfigured_container
     post_install
     if $PUBLISH; then
