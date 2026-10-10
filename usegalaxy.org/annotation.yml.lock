@@ -233,6 +233,7 @@ tools:
   - 41027ee435c2
   - 4f85da43b40c
   - 8994fea8fbde
+  - 8fbb0629a99d
   - 91eee66904fe
   - b095c69eab5b
   - b0f07e3d6f07
@@ -684,6 +685,7 @@ tools:
   owner: iuc
   revisions:
   - 876d26806584
+  - a43aa384ead4
   - bd5630d401cd
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

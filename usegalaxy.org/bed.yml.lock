@@ -15,6 +15,7 @@ tools:
   - a68aa6c1204a
   - b28e0cfa7ba1
   - ce3c7f062223
+  - d57471728f7b
   - fe5b4cb8356c
   tool_panel_section_id: bed
   tool_panel_section_label: BED
