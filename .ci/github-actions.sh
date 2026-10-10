@@ -47,6 +47,11 @@ if [ -n "${GITHUB_ENV:-}" ]; then
     echo "CI_LOG_DIR=${CI_LOG_DIR}" >> "$GITHUB_ENV"
 fi
 
+# Worker threads for the tool source store build. Galaxy's SQLite store fails concurrent writes with "database is
+# locked" when commits are slow, as on fuse-overlayfs, and drops the affected tools from the bundle. Keep this at 1
+# until galaxyproject/galaxy#24033 is in the galaxy-min:dev image, then raise it (16 builds Main's conf in ~4 minutes).
+TOOL_SOURCE_STORE_PARALLEL=1
+
 # Set to true to perform everything on the runner and copy results to the Stratum 0 for publish, instead of
 # performing everything directly on the Stratum 0. Requires preinstallation/preconfiguration of CVMFS and for
 # fuse-overlayfs to be installed on the runner.
@@ -860,7 +865,7 @@ EOF
         -v "${TOOL_SOURCE_STORE_TMPDIR}:/tool_source_store" \
         --workdir /galaxy/server \
         "$GALAXY_DOCKER_IMAGE" ./.venv/bin/python scripts/tool_source/populate_store.py \
-            --config /tool_source_store/galaxy.yml --target "$TOOL_SOURCE_STORE_NAME" --parallel 16 \
+            --config /tool_source_store/galaxy.yml --target "$TOOL_SOURCE_STORE_NAME" --parallel "$TOOL_SOURCE_STORE_PARALLEL" \
         || log_error "populate_store.py exited with code $?, some tools may be missing from the bundle"
     summary_exec "Tool source store ${TOOL_SOURCE_STORE_NAME}" \
         python3 .ci/check_tool_source_store.py --built-after "$build_started" \
