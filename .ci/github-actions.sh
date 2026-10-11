@@ -812,12 +812,6 @@ function post_install() {
 }
 
 
-# Pre-parse the tools in the shed tool conf into a Galaxy tool source store (a SQLite bundle plus a manifest sidecar)
-# published next to the conf, so Galaxy servers with `use_cached_toolbox` enabled load the tool panel from the
-# bundle instead of parsing every tool XML on CVMFS at startup. The conf is pointed at the bundle with a `store`
-# attribute, which Galaxy ignores unless the server declares that store name under `tool_source_stores`. Runs on
-# every install (including PR test installs, where the result is discarded with the overlay). The previous bundle is
-# in the overlay lower layer at the same path, so the populator only re-parses tools whose files changed.
 # Point the shed tool conf at the tool source store published by build_tool_source_store. Galaxy ignores the
 # attribute unless the server declares the store name under tool_source_stores, and preserves it when it rewrites
 # the conf during tool installation. Runs before check_for_repo_changes so the one-time edit shows in the summary diff.
@@ -867,6 +861,14 @@ EOF
         "$GALAXY_DOCKER_IMAGE" ./.venv/bin/python scripts/tool_source/populate_store.py \
             --config /tool_source_store/galaxy.yml --target "$TOOL_SOURCE_STORE_NAME" --parallel "$TOOL_SOURCE_STORE_PARALLEL" \
         || log_error "populate_store.py exited with code $?, some tools may be missing from the bundle"
+    # Updating the database in place scatters small page changes across the whole file, so nearly every CVMFS chunk
+    # changes and each publish stores the full bundle again. VACUUM rewrites it in a stable order (table rows, then
+    # each index contiguously), so only the chunks around new rows, the indexes and the tool index blob change.
+    # mode=rw: don't create an empty database if the populator didn't write one, the check below reports that.
+    log "Vacuuming tool source store ${TOOL_SOURCE_STORE_NAME}"
+    python3 -c 'import sqlite3, sys; sqlite3.connect(f"file:{sys.argv[1]}?mode=rw", uri=True).execute("VACUUM")' \
+        "${bundle_dir}/${TOOL_SOURCE_STORE_NAME}.sqlite" \
+        || log_error "VACUUM of the tool source store failed, publishing it unvacuumed"
     summary_exec "Tool source store ${TOOL_SOURCE_STORE_NAME}" \
         python3 .ci/check_tool_source_store.py --built-after "$build_started" \
         "$bundle_dir" "$TOOL_SOURCE_STORE_NAME" "$shed_tool_conf"
