@@ -50,6 +50,7 @@ tools:
   - 601575b847c0
   - 77f67ddd89d6
   - ab55af10f1ff
+  - db7c0226ebd9
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: biom_convert
@@ -80,5 +81,17 @@ tools:
   revisions:
   - 154d00cbbf2d
   - 3e436657dcd0
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: fastq_to_fasta
+  owner: devteam
+  revisions:
+  - 191e43b329f6
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: ucsc_wigtobigwig
+  owner: iuc
+  revisions:
+  - 0dcdef015deb
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats

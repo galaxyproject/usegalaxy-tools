@@ -66,3 +66,11 @@ tools:
   owner: iuc
 - name: tbvcfreport
   owner: iuc
+- name: prokka
+  owner: crs4
+- name: mitos2
+  owner: iuc
+- name: antismash
+  owner: bgruening
+- name: roary
+  owner: iuc

@@ -209,3 +209,33 @@ tools:
   - 0c7fadfe52e2
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
+- name: filtlong
+  owner: iuc
+  revisions:
+  - 0d9cd7b02f14
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: fastx_collapser
+  owner: devteam
+  revisions:
+  - 72494a86e047
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: fastx_barcode_splitter
+  owner: devteam
+  revisions:
+  - 229caeddb2df
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: fastq_quality_filter
+  owner: devteam
+  revisions:
+  - b1e332a385f1
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: fastx_trimmer
+  owner: devteam
+  revisions:
+  - 1ea2ae5afb28
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ

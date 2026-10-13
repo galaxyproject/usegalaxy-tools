@@ -62,3 +62,9 @@ tools:
   - 3629cc0115ac
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
+- name: hyphy_absrel
+  owner: iuc
+  revisions:
+  - 3f8261f0a826
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics

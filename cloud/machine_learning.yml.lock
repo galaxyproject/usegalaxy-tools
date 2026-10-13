@@ -58,6 +58,7 @@ tools:
   - 06ef6f6ebfb1
   - 0afd970bd8ae
   - 1dfc3ad13f43
+  - 2c0dae52bcca
   - 4bd75b45a7a1
   - 575cb355247c
   - 6708cb8547bc
@@ -128,6 +129,7 @@ tools:
   - 7363de120cc2
   - 7422e87df409
   - b062aa285e75
+  - fd4ec5f6909d
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: model_prediction

@@ -50,3 +50,9 @@ tools:
   owner: recetox
 - name: qcxms_getres
   owner: recetox
+- name: autodock_vina
+  owner: bgruening
+- name: autodock_vina_prepare_box
+  owner: bgruening
+- name: sdf_to_tab
+  owner: bgruening

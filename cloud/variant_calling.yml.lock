@@ -13,6 +13,7 @@ tools:
 - name: lofreq_call
   owner: iuc
   revisions:
+  - 14af3b671440
   - 4805fe3d8fda
   - 65432c3abf6c
   - b11e8e9c23bf
@@ -22,6 +23,7 @@ tools:
 - name: lofreq_viterbi
   owner: iuc
   revisions:
+  - 3330ebe7c0c7
   - aa35ee7f3ab2
   - af7e416d8176
   tool_panel_section_id: variant_calling
@@ -30,6 +32,7 @@ tools:
   owner: iuc
   revisions:
   - 354b534eeab7
+  - 4165b712b569
   - 426d707dfc47
   - 971e07ca4456
   tool_panel_section_id: variant_calling
@@ -37,6 +40,7 @@ tools:
 - name: lofreq_filter
   owner: iuc
   revisions:
+  - 3e0e44d971d5
   - 7dfca164d2e3
   - 950d1d49d678
   tool_panel_section_id: variant_calling
@@ -45,6 +49,7 @@ tools:
   owner: iuc
   revisions:
   - 09d6e4693887
+  - 3ee7d4ac76f3
   - 791f73caa0c8
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
