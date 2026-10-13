@@ -40,3 +40,9 @@ tools:
   owner: iuc
 - name: gffcompare
   owner: iuc
+- name: htseq_count
+  owner: lparsons
+- name: mirdeep2_quantifier
+  owner: rnateam
+- name: mirdeep2_mapper
+  owner: rnateam

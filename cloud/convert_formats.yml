@@ -20,3 +20,7 @@ tools:
   owner: iuc
 - name: gffread
   owner: devteam
+- name: fastq_to_fasta
+  owner: devteam
+- name: ucsc_wigtobigwig
+  owner: iuc
