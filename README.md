@@ -134,8 +134,10 @@ tool_source_stores:
 A server with `use_cached_toolbox` enabled must declare every store name referenced by the confs it loads, or it
 fails to start. A bundle that is missing or was built by a Galaxy with a different tool index schema only produces
 a startup warning, and that conf is parsed eagerly as before; the next install on the toolset publishes a bundle
-built by the current image. The run summary contains a **Tool source store** block with the tool counts; the run
-fails if the bundle was not rewritten or covers fewer than 90% of the tools in the conf.
+built by the current image. A compatible bundle is trusted as is: Galaxy does not load tools that are missing from
+its index. The run summary therefore contains a **Tool source store** block with the tool counts and any tools
+missing from the bundle, and the run fails unless the bundle was rewritten, passes SQLite's integrity check, and
+indexes every tool in the conf.
 
 Only approved tool installers can install tools. Request admission to the Github Team from project admins for approval.
 

@@ -848,10 +848,10 @@ galaxy:
     ${TOOL_SOURCE_STORE_NAME}:
       url: sqlite:///${TOOL_SOURCE_STORE_DIR}/${TOOL_SOURCE_STORE_NAME}.sqlite
 EOF
-    # The populator exits 1 if any single tool failed to parse; such tools are simply absent from the bundle and
-    # Galaxy parses them eagerly, so a pre-existing broken tool must not block every publish. The check below catches
-    # a bundle that was not (re)written or is substantially incomplete.
-    local build_started
+    # A Galaxy that loads the bundle's index does not load tools missing from it at all, so the bundle must cover every
+    # tool in the conf. The populator exits 1 if any tool could not be stored or indexed; that fails the run, after the
+    # check below has listed the missing tools in the summary.
+    local build_started populate_rc=0
     build_started=$(date -u +%Y-%m-%dT%H:%M:%SZ)
     exec_on docker run --rm --label "$DOCKER_RUN_LABEL" --user "${USER_UID}:${USER_GID}" \
         --name "${CONTAINER_NAME}-tool-source-store" \
@@ -860,7 +860,7 @@ EOF
         --workdir /galaxy/server \
         "$GALAXY_DOCKER_IMAGE" ./.venv/bin/python scripts/tool_source/populate_store.py \
             --config /tool_source_store/galaxy.yml --target "$TOOL_SOURCE_STORE_NAME" --parallel "$TOOL_SOURCE_STORE_PARALLEL" \
-        || log_error "populate_store.py exited with code $?, some tools may be missing from the bundle"
+        || populate_rc=$?
     # Updating the database in place scatters small page changes across the whole file, so nearly every CVMFS chunk
     # changes and each publish stores the full bundle again. VACUUM rewrites it in a stable order (table rows, then
     # each index contiguously), so only the chunks around new rows, the indexes and the tool index blob change.
@@ -876,6 +876,7 @@ EOF
     python3 .ci/check_tool_source_store.py --built-after "$build_started" \
         "$bundle_dir" "$TOOL_SOURCE_STORE_NAME" "$shed_tool_conf" >/dev/null \
         || log_exit_error "Tool source store check failed"
+    [ "$populate_rc" -eq 0 ] || log_exit_error "populate_store.py exited with code ${populate_rc}"
     exec_on rm -rf "$TOOL_SOURCE_STORE_TMPDIR"
     TOOL_SOURCE_STORE_TMPDIR=
 }
