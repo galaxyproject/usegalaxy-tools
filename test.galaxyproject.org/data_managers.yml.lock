@@ -58,6 +58,7 @@ tools:
   revisions:
   - 14eb0fc65c62
   - 4a82d1157b14
+  - 7e9b2f60c9e1
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_bwa_mem_index_builder
@@ -70,6 +71,7 @@ tools:
 - name: data_manager_picard_index_builder
   owner: devteam
   revisions:
+  - 4ecc89d41604
   - 7124d2c14e4b
   - b99040168706
   tool_panel_section_id: data_managers
@@ -230,6 +232,7 @@ tools:
   owner: iuc
   revisions:
   - 97b1b5ad1cda
+  - f9189d4d22b8
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_build_coreprofiler
