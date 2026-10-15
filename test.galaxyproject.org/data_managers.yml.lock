@@ -295,6 +295,12 @@ tools:
   - c5511a9b1442
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
+- name: data_manager_defense_finder
+  owner: rplanel
+  revisions:
+  - 502208b90cfe
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
 - name: data_manager_dram_database_downloader
   owner: iuc
   revisions:

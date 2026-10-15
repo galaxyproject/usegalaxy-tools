@@ -86,6 +86,8 @@ tools:
   owner: iuc
 - name: data_manager_deeparg
   owner: iuc
+- name: data_manager_defense_finder
+  owner: rplanel
 - name: data_manager_dram_database_downloader
   owner: iuc
 - name: data_manager_eggnog_mapper_abspath
