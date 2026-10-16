@@ -523,3 +523,45 @@ tools:
   - d5990d612224
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
+- name: chronaeon_phylogeo
+  owner: iuc
+  revisions:
+  - 181964ce77f7
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: chronaeon_dynamics
+  owner: iuc
+  revisions:
+  - d8c1f9a69ced
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: chronaeon_align
+  owner: iuc
+  revisions:
+  - d2add9c18999
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: chronaeon_sketch
+  owner: iuc
+  revisions:
+  - 09767d9df67c
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: chronaeon_autoclock
+  owner: iuc
+  revisions:
+  - 76b3669f5d6b
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: chronaeon_date
+  owner: iuc
+  revisions:
+  - 532ff4b6b2f5
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: chronaeon_triage
+  owner: iuc
+  revisions:
+  - cdfeb22e64f2
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics

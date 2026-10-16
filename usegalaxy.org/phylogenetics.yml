@@ -62,3 +62,17 @@ tools:
   owner: iuc
 - name: hyphaeon_list_models
   owner: iuc
+- name: chronaeon_phylogeo
+  owner: iuc
+- name: chronaeon_dynamics
+  owner: iuc
+- name: chronaeon_align
+  owner: iuc
+- name: chronaeon_sketch
+  owner: iuc
+- name: chronaeon_autoclock
+  owner: iuc
+- name: chronaeon_date
+  owner: iuc
+- name: chronaeon_triage
+  owner: iuc
