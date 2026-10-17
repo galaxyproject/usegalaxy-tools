@@ -233,6 +233,7 @@ tools:
   - 77f67ddd89d6
   - 8dbc700cb940
   - ab55af10f1ff
+  - db7c0226ebd9
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: msconvert

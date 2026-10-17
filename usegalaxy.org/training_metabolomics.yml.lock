@@ -111,6 +111,7 @@ tools:
   owner: recetox
   revisions:
   - 2ec9253a647e
+  - bfdf5de99cd2
   - da7722f665f4
   - f52181a205d3
   tool_panel_section_id: metabolomics
@@ -119,6 +120,7 @@ tools:
   owner: recetox
   revisions:
   - 25625114618e
+  - b0a739025b81
   - ef3cbcdf5f5d
   - f2c1d0bbb074
   tool_panel_section_id: metabolomics
@@ -126,6 +128,7 @@ tools:
 - name: riassigner
   owner: recetox
   revisions:
+  - 3af9c2de8522
   - 984d5fa7acf5
   - 9b2fe4c49ecb
   - af25aa61c611
@@ -140,6 +143,7 @@ tools:
   - 1a2aeb8137bf
   - 6fc9f6dbcef5
   - 821062fc5782
+  - 9c417575eb83
   - b77023c41c76
   - bf28a0fc0db6
   - bf32ae95a06f

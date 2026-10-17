@@ -139,6 +139,9 @@ its index. The run summary therefore contains a **Tool source store** block with
 missing from the bundle, and the run fails unless the bundle was rewritten, passes SQLite's integrity check, and
 indexes every tool in the conf.
 
+The Galaxy that installs the tools loads the previously published bundle the same way, so that it does not parse the
+whole toolset at startup. It does not write to it: the bundle that gets published is built afterwards, as above.
+
 Only approved tool installers can install tools. Request admission to the Github Team from project admins for approval.
 
 The workflows that do this run on a self-hosted runner, because installing tools into a `fuse-overlayfs` stacked on CVMFS is not possible on GitHub-hosted runners. See [docs/self-hosted-runner.md](docs/self-hosted-runner.md) for how it is provisioned.
