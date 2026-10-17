@@ -35,6 +35,7 @@ tools:
   - 51fce75ceb4b
   - 556d017d4036
   - 89cac6a44fee
+  - 909588978e39
   - 94cb50e04648
   - b670740cf3f7
   - d1c1889284f4
@@ -42,6 +43,5 @@ tools:
   - debe29745559
   - e84a12b5ffed
   - f91d52f117fe
-  - 909588978e39
   tool_panel_section_id: interactive_tools
   tool_panel_section_label: Interactive Tools
