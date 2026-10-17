@@ -8,6 +8,7 @@ tools:
   revisions:
   - 4a82d1157b14
   - 4d3eff1bc421
+  - 7e9b2f60c9e1
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_bowtie2_index_builder
@@ -41,6 +42,7 @@ tools:
 - name: data_manager_picard_index_builder
   owner: devteam
   revisions:
+  - 4ecc89d41604
   - 7124d2c14e4b
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
@@ -116,6 +118,7 @@ tools:
   owner: iuc
   revisions:
   - 13851aefa67a
+  - 19f0b8b9a118
   - 1e34d2e3d285
   - 201eff2131d6
   - 4877dfefaacc

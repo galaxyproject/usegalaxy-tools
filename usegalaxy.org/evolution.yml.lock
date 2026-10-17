@@ -92,6 +92,7 @@ tools:
   - 98f2b5dfdaa9
   - b15fbf90db53
   - ca55048c3668
+  - fa57de3b66b0
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
 - name: phykit

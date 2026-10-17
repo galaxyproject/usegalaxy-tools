@@ -6,6 +6,7 @@ tools:
 - name: kraken2
   owner: iuc
   revisions:
+  - 1a54e1867fd4
   - 20e2f64aa1fe
   - 241a78eb2935
   - 328c607150ff
@@ -998,6 +999,7 @@ tools:
 - name: drep_compare
   owner: iuc
   revisions:
+  - 372361b7e1fd
   - e5dc009367ef
   - f0334664a47b
   tool_panel_section_id: metagenomic_analysis
@@ -1005,6 +1007,7 @@ tools:
 - name: drep_dereplicate
   owner: iuc
   revisions:
+  - 02a3a550751a
   - 76b57044069d
   - 8165eab19456
   - d730086e1432

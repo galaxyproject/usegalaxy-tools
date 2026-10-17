@@ -852,6 +852,7 @@ tools:
 - name: qcxms_neutral_run
   owner: recetox
   revisions:
+  - 3862d7fc6f7e
   - 475bbef634d4
   - c40784ec1fdd
   tool_panel_section_id: chemicaltoolbox
@@ -859,6 +860,7 @@ tools:
 - name: qcxms_production_run
   owner: recetox
   revisions:
+  - 1c7e10729065
   - 69ba95cdcff2
   - cbe34f060712
   tool_panel_section_id: chemicaltoolbox
@@ -868,5 +870,6 @@ tools:
   revisions:
   - 0109f244d25a
   - 720958b09af4
+  - d488b9391103
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
