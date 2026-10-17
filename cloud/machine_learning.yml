@@ -94,3 +94,5 @@ tools:
   owner: bgruening
 - name: flexynesis_utils
   owner: bgruening
+- name: sklearn_label_encoder
+  owner: bgruening

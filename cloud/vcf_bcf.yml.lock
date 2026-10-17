@@ -46,7 +46,9 @@ tools:
   - 271965b55437
   - 5226c31ac6d3
   - 5fa262ce95dd
+  - aaac3ed89508
   - c077f71d351f
+  - da6fc9f4a367
   tool_panel_section_id: vcf_bcf
   tool_panel_section_label: VCF/BCF
 - name: bcftools_query_list_samples

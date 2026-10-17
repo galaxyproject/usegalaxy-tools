@@ -192,14 +192,19 @@ tools:
   revisions:
   - 090cbf2cb339
   - 142d9964568d
+  - 160c739a2170
   - 371e4e21d5de
+  - 47584de70749
   - 544ea81a6914
   - 592d6682f49b
   - 686a8a8b0433
+  - 9fdb7d427703
   - a7b120f452f2
   - aa0abf2d2722
   - c05177db395f
   - c64bee2dc319
+  - c9bf9e78a4e8
+  - eec8bb68845e
   - f885abcfe3a0
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
@@ -229,10 +234,18 @@ tools:
   - 78c4cef2b5a9
   - 79182c2a8c80
   - 8cf5c6162cae
+  - 97c8a5fbcca0
   - a68e128cdb1a
   - aa5586d83ae3
   - d10e7502aba8
   - f6090d2a5722
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: growler_lastz_lav
+  owner: richard-burhans
+  revisions:
+  - 26f0b6aa504a
+  - 76128dce6168
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: winnowmap
@@ -249,6 +262,7 @@ tools:
   - 54a6fb045aea
   - 64d732725a73
   - 7e353b95f0b6
+  - 86b758c95d19
   - ac3a3feb4cf1
   - ac3bae00a350
   tool_panel_section_id: mapping
@@ -260,6 +274,12 @@ tools:
   - 5815f5bd9ac8
   - c953dbade109
   - fff37ce2d95d
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
+- name: ucsc_chainmergesort
+  owner: richard-burhans
+  revisions:
+  - 6ae11314725d
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: ucsc_chainprenet

@@ -259,7 +259,7 @@ function detect_changes() {
                 TOOL_YAMLS+=("${path}")
                 ;;
         esac
-    done < <(git diff --color=never --name-status "$COMMIT_RANGE" -- $(for d in "${!TOOLSET_REPOS[@]}"; do echo "${d}/"; done))
+    done < <(git diff --color=never --no-renames --name-status "$COMMIT_RANGE" -- $(for d in "${!TOOLSET_REPOS[@]}"; do echo "${d}/"; done))
 
     log 'Change detection results:'
     declare -p TOOLSET TOOL_YAMLS

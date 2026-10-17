@@ -74,3 +74,7 @@ tools:
   owner: imgteam
 - name: ucsc_nettoaxt
   owner: iuc
+- name: ucsc_lavtopsl
+  owner: richard-burhans
+- name: ucsc_axtsort
+  owner: richard-burhans

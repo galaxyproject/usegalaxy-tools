@@ -54,3 +54,5 @@ tools:
   owner: iuc
 - name: vgp_sak_generation
   owner: iuc
+- name: rnaquast
+  owner: iuc

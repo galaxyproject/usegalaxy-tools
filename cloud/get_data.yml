@@ -12,3 +12,5 @@ tools:
   owner: galaxyp
 - name: pysradb_search
   owner: iuc
+- name: ega_download_client
+  owner: iuc

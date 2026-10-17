@@ -19,6 +19,7 @@ tools:
   - 9a913cdee30e
   - a7e081ceb76a
   - abfd8a6544d7
+  - bf675f34b056
   - dc0f5512911c
   - df99138d2776
   - e4dd4c0622f6
@@ -36,7 +37,9 @@ tools:
   - 281054a26e41
   - 3432a0e49b86
   - 350c736075eb
+  - 36be11c58dac
   - 4557b2da9e7f
+  - 4990e6f1348f
   - 65b93b623c77
   - 68386e630362
   - 8276962186f2
@@ -67,5 +70,6 @@ tools:
   - 75a3b8da8e76
   - b9aaed85cbd1
   - d94aff5ee623
+  - dfa082f84068
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control

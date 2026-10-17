@@ -45,3 +45,11 @@ tools:
   - f63d8665d8ea
   tool_panel_section_id: get_data
   tool_panel_section_label: Get Data
+- name: ega_download_client
+  owner: iuc
+  revisions:
+  - 6cb20e130473
+  - 7d87a9d58aa1
+  - f9db47f68e5e
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data

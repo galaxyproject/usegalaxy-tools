@@ -38,12 +38,16 @@ tools:
   owner: richard-burhans
 - name: batched_lastz
   owner: richard-burhans
+- name: growler_lastz_lav
+  owner: richard-burhans
 - name: winnowmap
   owner: iuc
 - name: ucsc_axtchain
   owner: iuc
 - name: ucsc_chainsort
   owner: iuc
+- name: ucsc_chainmergesort
+  owner: richard-burhans
 - name: ucsc_chainprenet
   owner: iuc
 - name: ucsc_chainnet

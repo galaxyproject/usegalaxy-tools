@@ -1,4 +1,4 @@
-install_repository_dependencies: true
+install_repository_dependencies: false
 install_resolver_dependencies: false
 install_tool_dependencies: false
 tool_panel_section_label: Assembly
@@ -73,8 +73,14 @@ tools:
 - name: kmindex
   owner: iuc
   revisions:
-  - 40066bb1d9ed
   - 2c9166b44b79
+  - 40066bb1d9ed
   - e41fb9110baf
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: lexicmap_memcap
+  owner: d-callan
+  revisions:
+  - c2e466123581
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

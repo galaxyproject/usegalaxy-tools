@@ -165,3 +165,21 @@ tools:
   - 720958b09af4
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
+- name: autodock_vina
+  owner: bgruening
+  revisions:
+  - 90ea16534012
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: autodock_vina_prepare_box
+  owner: bgruening
+  revisions:
+  - 8f766d9652a2
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
+- name: sdf_to_tab
+  owner: bgruening
+  revisions:
+  - 4beb3e026bbb
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox

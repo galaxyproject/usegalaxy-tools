@@ -49,6 +49,7 @@ tools:
 - name: bamtools
   owner: devteam
   revisions:
+  - 49be7ffc00e2
   - 4d343c1f606b
   - 887a9bf73d1a
   - 8eb649e67987
@@ -304,5 +305,15 @@ tools:
   revisions:
   - 9b8feb118f9e
   - f66e109710bd
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
+- name: mosdepth
+  owner: iuc
+  revisions:
+  - 2fe966f8532e
+  - 4413217d872c
+  - 5854d0da92b4
+  - ab04d9a08de8
+  - b1a8d09e5a82
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM

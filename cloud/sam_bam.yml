@@ -70,3 +70,5 @@ tools:
   owner: iuc
 - name: bamtools_split_ref
   owner: iuc
+- name: mosdepth
+  owner: iuc

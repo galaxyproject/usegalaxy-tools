@@ -12,6 +12,7 @@ tools:
 - name: tooldistillator
   owner: iuc
   revisions:
+  - 4ac5179f245c
   - 6c56786c9d1a
   - 740e1702cb22
   - 9f1c8dc0253e
@@ -22,6 +23,7 @@ tools:
 - name: tooldistillator_summarize
   owner: iuc
   revisions:
+  - 3a66889baf43
   - 3d0223265277
   - 95a71120949f
   - a4506449c300
@@ -48,6 +50,7 @@ tools:
   - 601575b847c0
   - 77f67ddd89d6
   - ab55af10f1ff
+  - db7c0226ebd9
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: biom_convert
@@ -76,6 +79,19 @@ tools:
 - name: gffread
   owner: devteam
   revisions:
+  - 154d00cbbf2d
   - 3e436657dcd0
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: fastq_to_fasta
+  owner: devteam
+  revisions:
+  - 191e43b329f6
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: ucsc_wigtobigwig
+  owner: iuc
+  revisions:
+  - 0dcdef015deb
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
