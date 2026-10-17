@@ -519,6 +519,16 @@ function prep_for_galaxy_run() {
     WORKDIR=$(exec_on mktemp -d -t usegalaxy-tools.work.XXXXXX)
     copy_to ".ci/tool_sheds_conf.xml"
     copy_to ".ci/condarc"
+    # Load the tool panel from the tool source store published by the previous install, as the servers do, instead of
+    # parsing every tool on CVMFS at startup (about 15 minutes for Main). Galaxy parses the conf eagerly as before if
+    # there is no compatible bundle. Every other option keeps its default, as with galaxy.yml.sample.
+    cat > "${WORKDIR}/galaxy.yml" <<EOF
+galaxy:
+  use_cached_toolbox: true
+  tool_source_stores:
+    ${TOOL_SOURCE_STORE_NAME}:
+      external_store_directory: ${TOOL_SOURCE_STORE_DIR%/*}
+EOF
     GALAXY_DATABASE_TMPDIR=$(exec_on mktemp -d -t usegalaxy-tools.database.XXXXXX)
     if $GALAXY_DOCKER_IMAGE_PULL; then
         log "Fetching latest Galaxy image"
@@ -631,10 +641,12 @@ function run_cloudve_galaxy() {
         -e "GALAXY_CONFIG_TOOL_DATA_PATH=/galaxy/server/config/mutable" \
         -e "GALAXY_CONFIG_INSTALL_DATABASE_CONNECTION=sqlite:///${INSTALL_DATABASE}" \
         -e "GALAXY_CONFIG_MASTER_API_KEY=${API_KEY:=deadbeef}" \
-        -e "GALAXY_CONFIG_FILE=/galaxy/server/lib/galaxy/config/sample/galaxy.yml.sample" \
+        -e "GALAXY_CONFIG_FILE=/galaxy.yml" \
+        -e "GALAXY_CONFIG_CONFIG_DIR=/galaxy/server/lib/galaxy/config/sample" \
         -e "${CONDA_ENV_OPTION}" \
         ${CONDA_EXEC_OPTION} \
         -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
+        -v "${WORKDIR}/galaxy.yml:/galaxy.yml" \
         -v "${WORKDIR}/tool_sheds_conf.xml:/tool_sheds_conf.xml" \
         -v "${WORKDIR}/condarc:${CONDARC_MOUNT_PATH}" \
         -v "${GALAXY_DATABASE_TMPDIR}:/galaxy/server/database" \
