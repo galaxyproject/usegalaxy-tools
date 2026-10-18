@@ -196,6 +196,7 @@ tools:
   - 25254e963e6e
   - 602b5fb7ef09
   - 923fba89da05
+  - a1478b43a349
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: create_tool_recommendation_model
