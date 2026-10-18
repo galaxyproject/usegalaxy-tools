@@ -45,6 +45,7 @@ tools:
   owner: iuc
   revisions:
   - 1942e86e2ee1
+  - 25f3b474ca6f
   - 292eea8defa7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -142,6 +143,7 @@ tools:
 - name: argnorm
   owner: iuc
   revisions:
+  - 9125d3f45f4d
   - d8e95a03321a
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -182,6 +184,7 @@ tools:
   revisions:
   - 31f96c801f61
   - 321ceb58023e
+  - d0f5d9821854
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: vg_paths
