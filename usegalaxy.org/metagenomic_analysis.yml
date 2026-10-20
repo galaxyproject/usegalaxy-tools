@@ -260,3 +260,21 @@ tools:
   owner: iuc
 - name: comebin
   owner: iuc
+- name: phyloseq_add_rank_names
+  owner: iuc
+- name: ampvis2_export_otu
+  owner: iuc
+- name: ampvis2_subset_samples
+  owner: iuc
+- name: decontam
+  owner: iuc
+- name: ampvis2_ordinate
+  owner: iuc
+- name: ampvis2_heatmap
+  owner: iuc
+- name: mmuphin
+  owner: iuc
+- name: maaslin3
+  owner: iuc
+- name: phyloseq_tax_glom
+  owner: iuc
