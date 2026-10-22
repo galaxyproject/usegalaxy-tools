@@ -620,6 +620,7 @@ tools:
   owner: iuc
   revisions:
   - 1942e86e2ee1
+  - 25f3b474ca6f
   - 292eea8defa7
   - d77802fe76f7
   tool_panel_section_id: annotation
