@@ -69,6 +69,7 @@ tools:
   revisions:
   - 0a507f4bd19a
   - 1233363389c1
+  - f1a5908ea2cb
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mmseqs2_easy_linclust_clustering

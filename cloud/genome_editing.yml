@@ -1,0 +1,8 @@
+tool_panel_section_label: Genome Editing
+tools:
+- name: mageck_mle
+  owner: iuc
+- name: mageck_test
+  owner: iuc
+- name: mageck_count
+  owner: iuc

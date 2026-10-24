@@ -116,3 +116,5 @@ tools:
   owner: iuc
 - name: phyloseq_tax_glom
   owner: iuc
+- name: diamond
+  owner: bgruening

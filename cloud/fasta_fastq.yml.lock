@@ -8,6 +8,7 @@ tools:
   revisions:
   - 093678460093
   - 135b80fb1ac2
+  - 4e5056fefd88
   - 5d00fd7847eb
   - 5eb7e84243f2
   - 660cffd8d92a
@@ -15,6 +16,7 @@ tools:
   - 8e264b67a8c0
   - aa784cb3810d
   - c5e2e5902201
+  - de6cebe3c043
   - f6168dd17f82
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
