@@ -999,6 +999,7 @@ tools:
 - name: drep_compare
   owner: iuc
   revisions:
+  - 372361b7e1fd
   - e5dc009367ef
   - f0334664a47b
   tool_panel_section_id: metagenomic_analysis
@@ -1006,6 +1007,7 @@ tools:
 - name: drep_dereplicate
   owner: iuc
   revisions:
+  - 02a3a550751a
   - 76b57044069d
   - 8165eab19456
   - d730086e1432

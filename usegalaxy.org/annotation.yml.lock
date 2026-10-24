@@ -221,6 +221,7 @@ tools:
   revisions:
   - 1f5641a52664
   - 31812e7a1315
+  - 578b60b1279d
   - ded48b36f3b7
   - ef1966bcece3
   tool_panel_section_id: annotation
@@ -531,6 +532,7 @@ tools:
   owner: bgruening
   revisions:
   - 1ac12c0cc7a0
+  - 4594ca417b13
   - 7ccc6234b54e
   - 8e9e228c54c4
   tool_panel_section_id: annotation
@@ -725,6 +727,7 @@ tools:
 - name: orthofinder_onlygroups
   owner: iuc
   revisions:
+  - 27dc25864cb7
   - b6ec80429d54
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
