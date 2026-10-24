@@ -19,3 +19,9 @@ tools:
   - 1ac6ee298657
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution
+- name: rapidnj
+  owner: iuc
+  revisions:
+  - 9f4a66e22580
+  tool_panel_section_id: evolution
+  tool_panel_section_label: Evolution
