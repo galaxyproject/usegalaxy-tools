@@ -15,6 +15,7 @@ tools:
   - 5e33b465d8d5
   - 75c93c70d094
   - 862943c10425
+  - 94b6bea727ae
   - 97255f6fdf7e
   - 9a913cdee30e
   - a7e081ceb76a
@@ -68,6 +69,7 @@ tools:
   owner: pjbriggs
   revisions:
   - 75a3b8da8e76
+  - 7bbc3fad1d3b
   - b9aaed85cbd1
   - d94aff5ee623
   - dfa082f84068
