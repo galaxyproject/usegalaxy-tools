@@ -7,6 +7,7 @@ tools:
   owner: iuc
   revisions:
   - 27673f5b5343
+  - 28e85c2ef178
   - 359e043a285c
   - 767943cd85bf
   - 7ecb45126cd2
@@ -214,6 +215,7 @@ tools:
   - 3e436657dcd0
   - 4dea02886337
   - 69e0806b63a4
+  - 88fecd593368
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: compress_file

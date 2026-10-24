@@ -141,6 +141,7 @@ tools:
   - 05f9e54d7e81
   - 0696db066a5b
   - 2275d0688bca
+  - 2a1ad8a533dc
   - 6a3a025714d3
   - 6c363db8c702
   - 71bacea10eee
@@ -461,6 +462,7 @@ tools:
   - 0bcc35b10569
   - 1906cb429215
   - 206a71a69161
+  - 6d005443b243
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: mirdeep2_mapper
@@ -502,11 +504,13 @@ tools:
   revisions:
   - 05996586c8b3
   - 2b2bfeda00d0
+  - bd21dd94c221
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: chira_extract
   owner: iuc
   revisions:
+  - 44c50b0714d9
   - 73d2b7a8d94b
   - e7ee3aadf1a5
   tool_panel_section_id: rna_seq
@@ -514,6 +518,7 @@ tools:
 - name: chira_map
   owner: iuc
   revisions:
+  - 4ac1b4148127
   - 7925dd016f53
   - 95ddee768b61
   tool_panel_section_id: rna_seq
@@ -522,6 +527,7 @@ tools:
   owner: iuc
   revisions:
   - 6492560fe1b4
+  - 672029ec4a0b
   - 9930af9d17f8
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -530,6 +536,7 @@ tools:
   revisions:
   - 06ac35533793
   - 38d2b1f38992
+  - a2bba8b2db55
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: blockbuster
@@ -551,6 +558,7 @@ tools:
   - 298d81e5e138
   - b3f292d9f35d
   - d3377a16d881
+  - ecb3e2432f4f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: brew3r_r
