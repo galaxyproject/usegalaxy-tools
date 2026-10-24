@@ -410,6 +410,7 @@ tools:
   - 9ec9c22767c8
   - c4fb391275a0
   - cfc412b91a57
+  - da25e82a51a8
   - ff02cf8f66f0
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -714,12 +715,14 @@ tools:
   - 6240e5015f93
   - 9c23008e7345
   - b6fa25b6b436
+  - e7bd625dfaa6
   - ee4041c922c8
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: lexicmap
   owner: iuc
   revisions:
+  - b93c986922ac
   - bcb6caec41eb
   - c386984b135c
   - d371ff7667e0
@@ -730,5 +733,6 @@ tools:
   owner: bgruening
   revisions:
   - 03bc0b982ec9
+  - 62c7a15750a0
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
