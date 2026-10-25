@@ -107,6 +107,7 @@ tools:
   revisions:
   - 43fffeed243f
   - 93c4b04a0769
+  - c7a721c21e01
   - ceff2f6a5368
   - dcd4681273f7
   tool_panel_section_id: variant_calling
@@ -150,6 +151,7 @@ tools:
   - 32f2211eeec3
   - 3fe8ef358d66
   - 5bbf9eada9c2
+  - c3b0d50d1b53
   - c9a8ef2aa380
   - d220115f882b
   tool_panel_section_id: variant_calling

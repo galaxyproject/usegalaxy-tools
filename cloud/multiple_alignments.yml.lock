@@ -62,6 +62,7 @@ tools:
   owner: devteam
   revisions:
   - 5b097fde95dd
+  - baa38def0230
   tool_panel_section_id: multiple_alignments
   tool_panel_section_label: Multiple Alignments
 - name: mafft

@@ -27,6 +27,7 @@ tools:
   owner: iuc
   revisions:
   - 2a3a00c1fa0a
+  - b68ff9393fb6
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: ivar_consensus
