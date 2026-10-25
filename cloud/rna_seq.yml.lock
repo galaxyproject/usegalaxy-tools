@@ -33,6 +33,7 @@ tools:
   revisions:
   - 05f9e54d7e81
   - 2275d0688bca
+  - 2a1ad8a533dc
   - 6a3a025714d3
   - 6c363db8c702
   - 8fe98f7094de
@@ -156,6 +157,7 @@ tools:
   - 298d81e5e138
   - b3f292d9f35d
   - d3377a16d881
+  - ecb3e2432f4f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: gffcompare

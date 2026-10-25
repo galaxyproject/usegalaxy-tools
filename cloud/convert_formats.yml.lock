@@ -81,6 +81,7 @@ tools:
   revisions:
   - 154d00cbbf2d
   - 3e436657dcd0
+  - 88fecd593368
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
 - name: fastq_to_fasta

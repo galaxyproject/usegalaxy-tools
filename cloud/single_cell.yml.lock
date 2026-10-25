@@ -242,6 +242,7 @@ tools:
   owner: iuc
   revisions:
   - 8f333f90d8d6
+  - fad352ff02ad
   - fd808de478b1
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -249,6 +250,7 @@ tools:
   owner: iuc
   revisions:
   - 99f912d5af9f
+  - e3a9a42b4605
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scater_filter
@@ -256,6 +258,7 @@ tools:
   revisions:
   - 652923ce664f
   - b7ea9f09c02f
+  - ede400b28a58
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scater_normalize
@@ -268,6 +271,7 @@ tools:
   owner: iuc
   revisions:
   - 2e41b35b5bdd
+  - 63dc52ce8c73
   - ef4c80837bc5
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -281,6 +285,7 @@ tools:
   owner: iuc
   revisions:
   - 46fc6751d746
+  - 7022861faab0
   - c99ba278dfa9
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell

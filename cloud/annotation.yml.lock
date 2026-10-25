@@ -39,6 +39,7 @@ tools:
   revisions:
   - 507d59b036c5
   - 7075b7a5441b
+  - 8621b220c13e
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: bakta
@@ -253,6 +254,7 @@ tools:
 - name: prokka
   owner: crs4
   revisions:
+  - 8096daf9ce73
   - c105b66eaab1
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
