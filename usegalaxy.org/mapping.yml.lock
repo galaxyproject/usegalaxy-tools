@@ -6,6 +6,7 @@ tools:
 - name: bioext_bealign
   owner: iuc
   revisions:
+  - 10f185ef7aee
   - 396cc0c65700
   - 4ad7321205c9
   - 8a7462c0ac14
@@ -59,6 +60,7 @@ tools:
   owner: iuc
   revisions:
   - 04b73d626680
+  - 12281c334d02
   - 137942fac417
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
@@ -128,6 +130,7 @@ tools:
   owner: iuc
   revisions:
   - 002713edc2a1
+  - 0c94634e278b
   - 13022c3d3076
   - 178bdbdb6d24
   - 381a32c51141
@@ -254,6 +257,7 @@ tools:
   owner: iuc
   revisions:
   - 35ea4a8b1ea6
+  - 5211c9527965
   - f9ea02afa87d
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping

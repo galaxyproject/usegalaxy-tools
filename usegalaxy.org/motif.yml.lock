@@ -20,6 +20,7 @@ tools:
   revisions:
   - 01f5d04846c4
   - 0c5239d1aa65
+  - 5275798cf013
   - 613c75eee7bd
   - c1a9a297ba8b
   - c5209f38700d
@@ -38,6 +39,7 @@ tools:
   - 164067a66a5c
   - 47e7ae719765
   - 5f95d385a33c
+  - 67671cc188d2
   - 8436beac5eed
   - ff2f53a32d0e
   tool_panel_section_id: motif
@@ -46,6 +48,7 @@ tools:
   owner: iuc
   revisions:
   - 091a9d638d78
+  - 717980a2e234
   - cc100e0f61f4
   tool_panel_section_id: motif
   tool_panel_section_label: Motif

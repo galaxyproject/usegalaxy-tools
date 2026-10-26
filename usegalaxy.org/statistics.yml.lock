@@ -153,6 +153,7 @@ tools:
 - name: iwtomics_loadandplot
   owner: iuc
   revisions:
+  - 34abac8eb3e7
   - ce633cc8f5f9
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
@@ -160,11 +161,13 @@ tools:
   owner: iuc
   revisions:
   - 1bc9150ed125
+  - 7db40b986b82
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
 - name: iwtomics_testandplot
   owner: iuc
   revisions:
+  - 6993163b4133
   - 94965e369be4
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
@@ -206,6 +209,7 @@ tools:
   - 923fba89da05
   - 92e09b827300
   - 9f9cf31e3111
+  - a1478b43a349
   - b7e93c1deb3f
   - e6893a4bcb7b
   tool_panel_section_id: statistics

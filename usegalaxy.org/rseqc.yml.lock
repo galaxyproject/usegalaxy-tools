@@ -8,6 +8,7 @@ tools:
   revisions:
   - 27e16a30667a
   - 473382134e56
+  - 5bc075714a8b
   - f437057e46f1
   tool_panel_section_id: rseqc
   tool_panel_section_label: RSeQC
