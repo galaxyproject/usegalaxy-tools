@@ -526,6 +526,7 @@ tools:
   owner: iuc
   revisions:
   - 5c9b16bdbd5e
+  - 9e80ebd12099
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: retrieve_scxa
@@ -598,6 +599,7 @@ tools:
   revisions:
   - d0f56ac6bb60
   - d1b34ac42b8f
+  - e188e2c2598b
   - fb61eb03e313
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -723,6 +725,7 @@ tools:
   owner: iuc
   revisions:
   - 0db84eba4b55
+  - 110994732ae2
   - 51eb02d9b17a
   - b70382a113e1
   tool_panel_section_id: single_cell
@@ -731,6 +734,7 @@ tools:
   owner: iuc
   revisions:
   - ac5f8c583cba
+  - ad302917ecb9
   - af8bdeb89691
   - b9e7b804ec67
   tool_panel_section_id: single_cell
@@ -739,6 +743,7 @@ tools:
   owner: iuc
   revisions:
   - 4ec52a83ec82
+  - bae409fc946d
   - dde965aee073
   - f04c81e68e86
   tool_panel_section_id: single_cell
@@ -749,6 +754,7 @@ tools:
   - 74fa68f4e579
   - 7704fb998596
   - 7c728a178c4d
+  - ade6d8b67576
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: seurat_plot
@@ -756,6 +762,7 @@ tools:
   revisions:
   - 6154937135c7
   - 83f3879b10e8
+  - 98bb79188c3f
   - c520f64ffd57
   - fee4b4eb0ef5
   tool_panel_section_id: single_cell
@@ -766,6 +773,7 @@ tools:
   - 156e5b07369a
   - 5d5fe5659252
   - 6bccf5f85f92
+  - 923f6a60c92e
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: seurat_reduce_dimension
@@ -773,6 +781,7 @@ tools:
   revisions:
   - 46ed93e8da30
   - 54ee3884e7ca
+  - 8bde466e6171
   - a9085181e2a8
   - c15978515ff0
   tool_panel_section_id: single_cell

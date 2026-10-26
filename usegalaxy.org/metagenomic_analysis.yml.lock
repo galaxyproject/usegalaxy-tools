@@ -559,6 +559,7 @@ tools:
   - a00df747f03c
   - a6fd47ecbff8
   - c2803012bbb3
+  - f131572be91e
   - fc6c328c292f
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -720,6 +721,7 @@ tools:
 - name: krakentools_beta_diversity
   owner: iuc
   revisions:
+  - 13b4ae988a8e
   - 4505d7643673
   - 5fa703b1f68a
   - c254d75b8b67
@@ -793,6 +795,7 @@ tools:
 - name: gtdbtk_classify_wf
   owner: iuc
   revisions:
+  - 199b07074e1f
   - 28bc8c01b193
   - 30a4bdf88e14
   - 4d9445dff47b
@@ -928,6 +931,7 @@ tools:
   owner: iuc
   revisions:
   - 30e275ed0442
+  - d177e58c5a5e
   - f1d1dafc836d
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -1000,6 +1004,7 @@ tools:
 - name: drep_compare
   owner: iuc
   revisions:
+  - cef09cb5eaff
   - e5dc009367ef
   - f0334664a47b
   tool_panel_section_id: metagenomic_analysis
@@ -1007,6 +1012,7 @@ tools:
 - name: drep_dereplicate
   owner: iuc
   revisions:
+  - 0ae93aa4f8fe
   - 76b57044069d
   - 8165eab19456
   - d730086e1432
@@ -1074,6 +1080,7 @@ tools:
   owner: rplanel
   revisions:
   - 71e221c4906c
+  - dd4979c23e35
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: iphop_predict

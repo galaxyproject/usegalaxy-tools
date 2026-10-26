@@ -76,6 +76,7 @@ tools:
   - 6606a8c97889
   - 7bd020da0ce5
   - 86a20ae274fc
+  - 8b20bc80ebf4
   - a250929be21b
   - c092052ed673
   - c9ef01b1cfba
@@ -96,6 +97,7 @@ tools:
   - 49236b03e4fd
   - 584beffa972b
   - 5e5dfc9e71e2
+  - 924aef5ed7ae
   - aa9de8f20668
   - abbc8041e8ec
   - f95f403841ad
@@ -105,6 +107,7 @@ tools:
   owner: iuc
   revisions:
   - 2a3a00c1fa0a
+  - b68ff9393fb6
   tool_panel_section_id: virology
   tool_panel_section_label: Virology
 - name: pangolin

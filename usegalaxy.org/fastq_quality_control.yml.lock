@@ -25,6 +25,7 @@ tools:
   owner: pjbriggs
   revisions:
   - 75a3b8da8e76
+  - 771554c05a0b
   - 7bbc3fad1d3b
   - 898b67846b47
   - b9aaed85cbd1
@@ -117,6 +118,7 @@ tools:
 - name: fastq_info
   owner: bgruening
   revisions:
+  - 2bca15e630a4
   - 7a821cd57b43
   tool_panel_section_id: fastq_quality_control
   tool_panel_section_label: FASTQ Quality Control

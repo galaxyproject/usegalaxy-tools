@@ -89,6 +89,7 @@ tools:
   owner: iuc
   revisions:
   - 2365720de36d
+  - 779e30677e00
   - 79f505a25bb8
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq

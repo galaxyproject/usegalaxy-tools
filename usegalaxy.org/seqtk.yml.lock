@@ -11,5 +11,6 @@ tools:
   - 58c8ece95b53
   - 8511b6d85fc7
   - a019807f4e67
+  - c8fb17965c7d
   tool_panel_section_id: seqtk
   tool_panel_section_label: Seqtk
