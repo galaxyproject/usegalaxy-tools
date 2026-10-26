@@ -59,6 +59,7 @@ tools:
   - 169276b820cc
   - 1dfc3ad13f43
   - 209b663a4f62
+  - 2c0dae52bcca
   - 2f5e307f31e8
   - '310868974972'
   - 49f73a3c12f3
@@ -111,6 +112,7 @@ tools:
   - f2877a8b54e4
   - f4cb41f458fd
   - f5b713d70f1a
+  - fd4ec5f6909d
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: model_prediction
@@ -188,6 +190,7 @@ tools:
   - 305c1229ac99
   - 3814a92c1416
   - 3b8fa4ea9727
+  - 3fbbea66522d
   - 4a5266c96889
   - 508ce0649bec
   - 61b2d8f8811e
@@ -203,6 +206,7 @@ tools:
   owner: bgruening
   revisions:
   - 253b3aaf0d91
+  - 848d5a2bdf61
   - 9ec25da5ece0
   - ae4b593c99f8
   - b78007bf1cb8
@@ -218,6 +222,7 @@ tools:
   - 418cafc53f8e
   - 443471b0a27a
   - 4d1637cac794
+  - 724f4328af54
   - 77125cbb54ac
   - 8b822484debc
   - a0b0f3158c8c
@@ -245,6 +250,7 @@ tools:
   - 867caa39eaa4
   - 89deaf399ff7
   - 9fda0b82f419
+  - aa243478bb94
   - adaf2457d6ec
   - bd27a211182a
   - c9ddd20d25d0
@@ -259,6 +265,7 @@ tools:
   - 0474777be433
   - 30f892a9b46d
   - 4b359039f09f
+  - 5a26080a4f96
   - 5d5d9cc554f9
   - 61e76fb65daf
   - 65f18ab91132
@@ -286,6 +293,7 @@ tools:
   - 70f61a4de941
   - 73d2ef652879
   - 80852884053f
+  - 8797bedbba8e
   - b7c3e9a3b954
   - d2afc87db26b
   - de94341feadb
@@ -309,6 +317,7 @@ tools:
   - ab2c393080f9
   - ab9977548806
   - b4ba9602a36e
+  - cb2cfcaf6ba8
   - db7eb7302fc9
   - e6af850a1675
   - e99cccc3ca13
@@ -329,6 +338,7 @@ tools:
   - 5023535e9f8b
   - 69c44aab684e
   - 7626ea9c2e1b
+  - 8eb081549c98
   - 9a01835cdead
   - a36a45cb96fa
   - d37a7f17e35d
@@ -355,6 +365,7 @@ tools:
   - 9c3e1d3235c8
   - b1eda492f063
   - bc0117538945
+  - bf5b6f5a18ed
   - dc66f89ba2a2
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
@@ -368,6 +379,7 @@ tools:
   - 226524df8c6c
   - 23a37a52a899
   - 2a1afd3481ce
+  - 383d5372a90d
   - 3ff43fbb7ccf
   - 5bd0866dbc7a
   - 7366e5108e9f
@@ -388,6 +400,7 @@ tools:
   - 309cc7c6af56
   - 39ae3c043096
   - 4db563e8d453
+  - 531513ce17a5
   - 672327583f74
   - 7ae443e6217d
   - 7f21c9e5656d
@@ -410,6 +423,7 @@ tools:
   - 73e7f1c76ece
   - 7dd3fb35904f
   - 86d4c2b66e16
+  - 88bd281cdf65
   - 8eed73e8e04d
   - 981a0328d6bb
   - ad7e0b4291ee
@@ -431,6 +445,7 @@ tools:
   - 1a53edc4b438
   - 2268fa04320d
   - 315f01a9d2c2
+  - 398c7e90ded2
   - 3ab7af14f1b5
   - 407495139a09
   - 4ecc0ce9d0a2
@@ -454,6 +469,7 @@ tools:
   - 83b406104228
   - 96bb4c49e30e
   - 9e0e31bd8392
+  - a79e439ac817
   - a7c667ff83fe
   - ae0fafb53c1d
   - c2cd3219543a
@@ -475,6 +491,7 @@ tools:
   - 761269451e98
   - 80074b842ebd
   - 826c3e68e7a9
+  - 9452bddf21bd
   - a432f7a41307
   - a5c2ce4ea328
   - add3c3a7c2b4
@@ -498,6 +515,7 @@ tools:
   - adc6137e7c73
   - ae69f6918abe
   - c8547d3993c0
+  - d0f0767072b2
   - daaa56720686
   - e54382561bd4
   - e56721f44020
@@ -522,6 +540,7 @@ tools:
   - c78a5fc9e758
   - dc17e2878dc1
   - f04a2405f3fe
+  - f55053c4a5ec
   - f5dcb87fd14e
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
@@ -539,6 +558,7 @@ tools:
   - 7696d389675c
   - 87cb9cb44d1f
   - 893285b150f8
+  - b0b9245d414e
   - d3e99d3df1ca
   - dea38330b78a
   - e76f6dfea5c9
@@ -565,6 +585,7 @@ tools:
   - d4808d5b83da
   - dc4b5fd604a6
   - ddd7fc59ba59
+  - fd703ccdab66
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
 - name: sklearn_model_fit
@@ -578,6 +599,7 @@ tools:
   - 8e447b95e6a8
   - 9084156b2bb5
   - a293d7937700
+  - aaf492da76d4
   - adb084b901cc
   - cde5fc214cc8
   - f0ede473a7e8
@@ -618,6 +640,7 @@ tools:
   - 4a1cd790e323
   - 61fb99c55558
   - 69f627250dea
+  - 6ff5b1978b0c
   - 9a3cb21a3661
   - a9d72bfe33c9
   - bfc44324a773
@@ -674,6 +697,7 @@ tools:
   revisions:
   - 029d8b61da32
   - 16c442ecd6bf
+  - 19e086c622db
   - 1b7ab45c7858
   - 27f8bd20a936
   - 3045d322d4ac
@@ -690,6 +714,7 @@ tools:
   owner: bgruening
   revisions:
   - 03e0da430d44
+  - 1728b4a3895e
   - 24c1cc2dd4a4
   - 3af626081467
   - 4a1addf7cc1e
@@ -734,6 +759,7 @@ tools:
   - 923fba89da05
   - 92e09b827300
   - 9f9cf31e3111
+  - a1478b43a349
   - b7e93c1deb3f
   - e6893a4bcb7b
   tool_panel_section_id: machine_learning

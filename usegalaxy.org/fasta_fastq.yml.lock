@@ -115,6 +115,7 @@ tools:
 - name: length_and_gc_content
   owner: iuc
   revisions:
+  - 0e7eadbd461c
   - e3ba567abdf5
   - f088370d2a3c
   tool_panel_section_id: fasta_fastq
@@ -271,6 +272,7 @@ tools:
   owner: bgruening
   revisions:
   - 084bbd8ba7b8
+  - 433db23e1c1d
   - 949f01671246
   - b94789823aad
   - cd7e644cae1d
@@ -387,6 +389,7 @@ tools:
 - name: sickle
   owner: iuc
   revisions:
+  - 482fb7008500
   - 6756c87dc2d4
   - 9108bd9450cb
   tool_panel_section_id: fasta_fastq
@@ -482,6 +485,7 @@ tools:
 - name: fasta_regex_finder
   owner: mbernt
   revisions:
+  - 5a6ec4585bc9
   - 9a811adb714f
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ

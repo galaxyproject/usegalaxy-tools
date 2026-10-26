@@ -28,6 +28,7 @@ tools:
 - name: physicell_studio
   owner: rheiland
   revisions:
+  - 0150385dc794
   - 022a3b0c7777
   - 08afa5dae36f
   - 16d22d97a2b3

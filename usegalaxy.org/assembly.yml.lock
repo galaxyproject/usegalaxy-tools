@@ -38,6 +38,7 @@ tools:
   - 7594365c546b
   - 875d0f36d66f
   - a3b35edea53a
+  - baeffe7bfe47
   - cbc516cee202
   - ebb0dcdb621a
   tool_panel_section_id: assembly
@@ -84,6 +85,7 @@ tools:
   revisions:
   - 14ddfc8ffb93
   - 7518ee87b53d
+  - 792acb18fb24
   - a96f3ad4e0d8
   - ab208c87d973
   - de387b2b2803
@@ -107,6 +109,7 @@ tools:
   owner: iuc
   revisions:
   - 2dcd07f40204
+  - 691bdc4cc8f0
   - 80d1250bd5fd
   - 8b6d0d85252b
   - 8dee0218ac7d
@@ -304,6 +307,7 @@ tools:
   - 6505bd37670d
   - 71740308d412
   - 9ef6920c3089
+  - b562f08eb13a
   - baf229b1fdfd
   - bf0a4667e3ce
   - df25d4fb79b7
@@ -410,6 +414,7 @@ tools:
   - 9ec9c22767c8
   - c4fb391275a0
   - cfc412b91a57
+  - da25e82a51a8
   - ff02cf8f66f0
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -464,6 +469,7 @@ tools:
   revisions:
   - 015283de3004
   - 24e471d13fe9
+  - 806d8eeb716b
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: aegean_parseval
@@ -714,12 +720,14 @@ tools:
   - 6240e5015f93
   - 9c23008e7345
   - b6fa25b6b436
+  - e7bd625dfaa6
   - ee4041c922c8
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: lexicmap
   owner: iuc
   revisions:
+  - b93c986922ac
   - bcb6caec41eb
   - c386984b135c
   - d371ff7667e0
@@ -730,5 +738,6 @@ tools:
   owner: bgruening
   revisions:
   - 03bc0b982ec9
+  - 62c7a15750a0
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

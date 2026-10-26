@@ -465,6 +465,7 @@ tools:
   revisions:
   - 37a6602c0fb0
   - 5c223e491b89
+  - a7e87e1dc16c
   - dcbf3b62b8e5
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
@@ -472,6 +473,7 @@ tools:
   owner: iuc
   revisions:
   - 346289d29838
+  - 83ae0dc4e415
   - 9e514c265361
   - dc82abcf2cd8
   tool_panel_section_id: phylogenetics
@@ -481,6 +483,7 @@ tools:
   revisions:
   - 28933de74e66
   - 5daf758aa134
+  - a3bdfa7ec71b
   - fa065881c498
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
@@ -489,6 +492,7 @@ tools:
   revisions:
   - 40238aafdc08
   - 871951f0d55d
+  - 9657a1d773c6
   - d4a6c23857c6
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
@@ -496,6 +500,7 @@ tools:
   owner: iuc
   revisions:
   - 393f7a2f192a
+  - 3e7184c1712f
   - caa7f7b72916
   - ddeb2d3ab617
   tool_panel_section_id: phylogenetics
@@ -503,6 +508,7 @@ tools:
 - name: hyphaeon_splits
   owner: iuc
   revisions:
+  - 580c5226634d
   - 5c8c3b1a064c
   - 645b9cb079f7
   - a9e2ba068e99
@@ -514,6 +520,7 @@ tools:
   - 0096ed109d0c
   - 112587a146bb
   - 40f8c7e6b951
+  - b27bda4c1a41
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: hyphaeon_filter
@@ -522,11 +529,13 @@ tools:
   - 08dbe7e63422
   - 44ac2f950b3b
   - 6bdcca302847
+  - fc535390914d
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: hyphaeon_list_models
   owner: iuc
   revisions:
+  - 0fc3b80756c0
   - 87b4733161c0
   - b7ef34da574d
   - d5990d612224
@@ -536,17 +545,20 @@ tools:
   owner: iuc
   revisions:
   - 181964ce77f7
+  - c555a99d4c0d
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: chronaeon_dynamics
   owner: iuc
   revisions:
+  - 428ca1bb2b0f
   - d8c1f9a69ced
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: chronaeon_align
   owner: iuc
   revisions:
+  - 232a5f01268b
   - d2add9c18999
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
@@ -554,11 +566,13 @@ tools:
   owner: iuc
   revisions:
   - 09767d9df67c
+  - '835372723355'
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: chronaeon_autoclock
   owner: iuc
   revisions:
+  - 4c9711ec4431
   - 76b3669f5d6b
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
@@ -566,11 +580,13 @@ tools:
   owner: iuc
   revisions:
   - 532ff4b6b2f5
+  - bdb579e1c741
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
 - name: chronaeon_triage
   owner: iuc
   revisions:
+  - 0201ef73503d
   - cdfeb22e64f2
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics

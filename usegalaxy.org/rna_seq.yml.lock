@@ -11,6 +11,7 @@ tools:
   - 58c35179ebf0
   - 708348a17fa1
   - d6f5fa4ee473
+  - df0082f25f47
   - e827f9aae031
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -106,6 +107,7 @@ tools:
   - 40985510cd98
   - 4f9c4e6566e5
   - 60f888039fb2
+  - a2b65af988d2
   - c971db6f0fe5
   - f71c54748ff2
   tool_panel_section_id: rna_seq
@@ -118,6 +120,7 @@ tools:
   - 5ae5c312d718
   - 87c11c05d238
   - ce5d418183c5
+  - e4eb8c4a82f6
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: sailfish
@@ -141,6 +144,7 @@ tools:
   - 05f9e54d7e81
   - 0696db066a5b
   - 2275d0688bca
+  - 2a1ad8a533dc
   - 6a3a025714d3
   - 6c363db8c702
   - 71bacea10eee
@@ -161,6 +165,7 @@ tools:
   - 53255f6eecfc
   - 55c9ac3aa8f4
   - 5ec75f5dae3c
+  - 6e8618432bea
   - 79de45b5069b
   - 7ed2edc1337f
   - 850f3679b9b4
@@ -272,6 +277,7 @@ tools:
   owner: iuc
   revisions:
   - 402e0b9cfd87
+  - 53fa0bb662be
   - 83f8b5ceff43
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -301,6 +307,7 @@ tools:
   - 3a083c78896e
   - c24765926774
   - d1f7fa5bb3cb
+  - fbba3e57c350
   - fed9d0350d72
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -331,6 +338,7 @@ tools:
 - name: slamdunk
   owner: iuc
   revisions:
+  - 0459d98045c5
   - 141f65f7c7c8
   - 5a26589d95ad
   - 8b62f89924a7
@@ -461,6 +469,7 @@ tools:
   - 0bcc35b10569
   - 1906cb429215
   - 206a71a69161
+  - 6d005443b243
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: mirdeep2_mapper
@@ -502,11 +511,13 @@ tools:
   revisions:
   - 05996586c8b3
   - 2b2bfeda00d0
+  - bd21dd94c221
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: chira_extract
   owner: iuc
   revisions:
+  - 44c50b0714d9
   - 73d2b7a8d94b
   - e7ee3aadf1a5
   tool_panel_section_id: rna_seq
@@ -514,6 +525,7 @@ tools:
 - name: chira_map
   owner: iuc
   revisions:
+  - 4ac1b4148127
   - 7925dd016f53
   - 95ddee768b61
   tool_panel_section_id: rna_seq
@@ -522,6 +534,7 @@ tools:
   owner: iuc
   revisions:
   - 6492560fe1b4
+  - 672029ec4a0b
   - 9930af9d17f8
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -530,6 +543,7 @@ tools:
   revisions:
   - 06ac35533793
   - 38d2b1f38992
+  - a2bba8b2db55
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: blockbuster
@@ -551,6 +565,7 @@ tools:
   - 298d81e5e138
   - b3f292d9f35d
   - d3377a16d881
+  - ecb3e2432f4f
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: brew3r_r
