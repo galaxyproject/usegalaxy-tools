@@ -15,6 +15,7 @@ tools:
   - 6e8d94597139
   - 9bc5cdefb090
   - aff5135563c6
+  - b6236eb1a50b
   - be25c075ed54
   tool_panel_section_id: text_manipulation
   tool_panel_section_label: Text Manipulation
