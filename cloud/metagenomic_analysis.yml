@@ -118,3 +118,11 @@ tools:
   owner: iuc
 - name: diamond
   owner: bgruening
+- name: kneaddata
+  owner: iuc
+- name: metaphlan
+  owner: iuc
+- name: motus
+  owner: bgruening
+- name: samestr
+  owner: iuc
