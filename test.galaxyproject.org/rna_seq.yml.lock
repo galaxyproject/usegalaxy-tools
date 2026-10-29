@@ -56,6 +56,7 @@ tools:
 - name: featurecounts
   owner: iuc
   revisions:
+  - 11a7f9b9cfe1
   - 5dbff3a5845a
   - a37612abf7f9
   tool_panel_section_id: rna_seq
