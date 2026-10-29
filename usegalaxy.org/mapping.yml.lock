@@ -340,3 +340,9 @@ tools:
   - 6a7085c7777e
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
+- name: chromap
+  owner: iuc
+  revisions:
+  - ec1b00aa4490
+  tool_panel_section_id: mapping
+  tool_panel_section_label: Mapping
