@@ -32,3 +32,5 @@ tools:
   owner: iuc
 - name: seacr
   owner: iuc
+- name: homer_annotatepeaks
+  owner: iuc

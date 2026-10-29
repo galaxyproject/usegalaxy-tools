@@ -112,3 +112,9 @@ tools:
   - 66b7657f0bd6
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
+- name: homer_annotatepeaks
+  owner: iuc
+  revisions:
+  - dcd291aeb8a9
+  tool_panel_section_id: chip_seq
+  tool_panel_section_label: ChIP-seq
