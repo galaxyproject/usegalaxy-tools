@@ -1266,3 +1266,9 @@ tools:
   - bcc827195b65
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: barrnap
+  owner: iuc
+  revisions:
+  - fe48aa4ccd5e
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis

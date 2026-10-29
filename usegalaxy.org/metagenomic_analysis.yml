@@ -278,3 +278,5 @@ tools:
   owner: iuc
 - name: phyloseq_tax_glom
   owner: iuc
+- name: barrnap
+  owner: iuc
