@@ -206,3 +206,5 @@ tools:
   owner: iuc
 - name: vg_giraffe
   owner: iuc
+- name: bionym
+  owner: iuc

@@ -846,3 +846,9 @@ tools:
   - 479e4a566537
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
+- name: bionym
+  owner: iuc
+  revisions:
+  - 3d3ef2fc2bd0
+  tool_panel_section_id: annotation
+  tool_panel_section_label: Annotation
