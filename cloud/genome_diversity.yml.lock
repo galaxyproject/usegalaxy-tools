@@ -8,5 +8,6 @@ tools:
   revisions:
   - bc939965ce41
   - e005e659ae21
+  - e7dca6f804c1
   tool_panel_section_id: genome_diversity
   tool_panel_section_label: Genome Diversity

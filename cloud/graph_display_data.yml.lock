@@ -16,6 +16,7 @@ tools:
 - name: circos
   owner: iuc
   revisions:
+  - 6eeb8f9a22ea
   - c4bde687c846
   - df7356989ac1
   tool_panel_section_id: graph_display_data
@@ -26,6 +27,7 @@ tools:
   - 1483285bdb7a
   - 4542035c1075
   - a6e57ff585c0
+  - eb55da80c5e2
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: volcanoplot
@@ -83,6 +85,7 @@ tools:
   revisions:
   - 10515715c940
   - 15cebddc6dba
+  - 28320e68ff9f
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: newick_utils
@@ -106,6 +109,7 @@ tools:
 - name: ggplot2_point
   owner: iuc
   revisions:
+  - 1336484a4e6b
   - 3b12bf9b4b87
   - f87634b12749
   tool_panel_section_id: graph_display_data
@@ -113,6 +117,7 @@ tools:
 - name: jbrowse2
   owner: fubar
   revisions:
+  - 329cd8314959
   - bd903fbbc26e
   - dd032687675c
   tool_panel_section_id: graph_display_data
@@ -189,6 +194,7 @@ tools:
 - name: taxonomy_krona_chart
   owner: crs4
   revisions:
+  - 01a54504b6aa
   - 7d01da0b9e18
   - e9005d1f3cfd
   tool_panel_section_id: graph_display_data
@@ -209,17 +215,20 @@ tools:
   owner: iuc
   revisions:
   - 635c90a27692
+  - a5055c0d190b
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: fasta_nucleotide_color_plot
   owner: iuc
   revisions:
+  - 0c8cba9badcf
   - e4b5401adcec
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_histogram
   owner: iuc
   revisions:
+  - 457ffc1c1c62
   - 6b9816a913de
   - bf96015d2492
   tool_panel_section_id: graph_display_data
@@ -228,18 +237,21 @@ tools:
   owner: iuc
   revisions:
   - 1df3b30325dd
+  - ffcb4db567f9
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_violin
   owner: iuc
   revisions:
   - 63d211052ffb
+  - aa4edc1c6f6c
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: graphlan
   owner: iuc
   revisions:
   - 6e8eb0c0d91f
+  - 703c11e9e432
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data
 - name: graphlan_annotate

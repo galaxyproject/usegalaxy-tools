@@ -166,6 +166,7 @@ tools:
 - name: taxonomy_krona_chart
   owner: crs4
   revisions:
+  - 01a54504b6aa
   - 7d01da0b9e18
   - e9005d1f3cfd
   tool_panel_section_id: metagenomic_analysis
@@ -202,6 +203,7 @@ tools:
   revisions:
   - 4e469b758915
   - 51971db051ba
+  - 8ff0155d0992
   - a204f3983d22
   - d000854331fe
   - e7c2674e01fe
@@ -213,6 +215,7 @@ tools:
   - 00e0347751b1
   - 6be249bfd55b
   - 81fc1ff02788
+  - ad574c1621ac
   - e8768ddeba32
   - f8b8c95bff89
   tool_panel_section_id: metagenomic_analysis
@@ -223,6 +226,7 @@ tools:
   - 1fb4fc5e64d6
   - 4bba91a89457
   - 68129ce1c59b
+  - 9e5c3d358b2c
   - a14a18a47c36
   - dd6572434618
   tool_panel_section_id: metagenomic_analysis
@@ -235,6 +239,7 @@ tools:
   - 9010b9e13dec
   - b35a5e8ff0fe
   - b762f4d54f78
+  - d16fa2560df4
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_mergepairs
@@ -242,6 +247,7 @@ tools:
   revisions:
   - 2495262244bd
   - 273b8a00c8a2
+  - 46680b007c51
   - 646c58820267
   - a35c40af067f
   - c920e1400f98
@@ -253,6 +259,7 @@ tools:
   - 0b1ce4edabc7
   - 88677f452aea
   - aab8af79110e
+  - ab69311d2da2
   - d49e0de76bf5
   - ebd632e95aae
   tool_panel_section_id: metagenomic_analysis
@@ -264,6 +271,7 @@ tools:
   - 4efeb75704c8
   - 6bd7c48ff6ed
   - a6ceb91124fa
+  - ddf5bcfde13d
   - efe26de231ec
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -275,11 +283,13 @@ tools:
   - 390bc2645138
   - 86d6d6cda803
   - 9180d536e20d
+  - dc4e8088b896
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: dada2_assigntaxonomyaddspecies
   owner: iuc
   revisions:
+  - 1b8fda203803
   - 60cd35f37c0a
   - 705d26fbea02
   - 9f306361a58e

@@ -32,6 +32,7 @@ tools:
   revisions:
   - 1dfc975b48d5
   - 2477830927ec
+  - 2e9f2d3d1b39
   - 3fe632431b68
   - 64f11cf59c6e
   - c598cbb8b019
@@ -76,6 +77,7 @@ tools:
   owner: iuc
   revisions:
   - 002713edc2a1
+  - 0c94634e278b
   - 13022c3d3076
   - 381a32c51141
   - 42ce70172b72
@@ -90,6 +92,7 @@ tools:
 - name: bwa_mem2
   owner: iuc
   revisions:
+  - 7febc71de9c3
   - af91699b8d4c
   - bec6ba059ded
   tool_panel_section_id: mapping
