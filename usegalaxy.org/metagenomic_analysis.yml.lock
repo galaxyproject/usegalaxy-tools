@@ -1280,3 +1280,9 @@ tools:
   - fe48aa4ccd5e
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: itsx
+  owner: bgruening
+  revisions:
+  - 2cbd0d66aa08
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
