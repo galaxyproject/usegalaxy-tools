@@ -24,6 +24,7 @@ tools:
   owner: iuc
   revisions:
   - 0eebe086fd58
+  - 19f0b8b9a118
   - 8367be242f35
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
@@ -163,6 +164,7 @@ tools:
   owner: devteam
   revisions:
   - 1865e693d8b2
+  - 1decaa640ada
   - defd3e9ddd2d
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
@@ -298,6 +300,7 @@ tools:
 - name: data_manager_defense_finder
   owner: rplanel
   revisions:
+  - 0b381b7b315a
   - 502208b90cfe
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
@@ -540,6 +543,7 @@ tools:
   revisions:
   - 84347a6fd548
   - 8d320da4d60e
+  - d70e377d6e2b
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_sylph_database
@@ -595,6 +599,7 @@ tools:
   revisions:
   - 22847889f95e
   - 27a102c1f443
+  - 605d9ecf0e26
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: mirge3_build_database
