@@ -7,5 +7,6 @@ tools:
   owner: iuc
   revisions:
   - 80414c33a59a
+  - c6e901032315
   tool_panel_section_id: fetch_sequences_alignments
   tool_panel_section_label: Fetch Sequences/Alignments

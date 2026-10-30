@@ -109,6 +109,7 @@ tools:
   - 543cbeef3949
   - 93d623d9979c
   - a2899db6bd6e
+  - c398c6b9381f
   tool_panel_section_id: nanopore
   tool_panel_section_label: Nanopore
 - name: poretools_winner

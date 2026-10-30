@@ -48,6 +48,7 @@ tools:
   - 1942e86e2ee1
   - 25f3b474ca6f
   - 292eea8defa7
+  - c03be23045b7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: repeatmodeler
@@ -273,6 +274,7 @@ tools:
 - name: roary
   owner: iuc
   revisions:
+  - 3f12675edf68
   - 9b2b122d0415
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

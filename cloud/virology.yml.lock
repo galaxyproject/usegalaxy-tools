@@ -9,6 +9,7 @@ tools:
   - 0893a1dbb807
   - 6606a8c97889
   - 7bd020da0ce5
+  - 8b20bc80ebf4
   - a250929be21b
   - c092052ed673
   - db536ad45f28
@@ -60,6 +61,7 @@ tools:
   - 045d6d00f606
   - 1ef68546d37f
   - 5e5dfc9e71e2
+  - 924aef5ed7ae
   - abbc8041e8ec
   - f95f403841ad
   tool_panel_section_id: virology

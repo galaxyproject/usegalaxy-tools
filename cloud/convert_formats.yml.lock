@@ -6,6 +6,7 @@ tools:
 - name: gtftobed12
   owner: iuc
   revisions:
+  - 33de73363690
   - b026dae67fba
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
@@ -94,5 +95,6 @@ tools:
   owner: iuc
   revisions:
   - 0dcdef015deb
+  - 99390cf2f6a9
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats

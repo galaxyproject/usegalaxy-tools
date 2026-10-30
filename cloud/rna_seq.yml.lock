@@ -18,6 +18,7 @@ tools:
   - 3741c4204eb5
   - 5ae5c312d718
   - ce5d418183c5
+  - e4eb8c4a82f6
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: kallisto_quant
@@ -25,6 +26,7 @@ tools:
   revisions:
   - 4f9c4e6566e5
   - 60f888039fb2
+  - a2b65af988d2
   - f71c54748ff2
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -39,6 +41,7 @@ tools:
   - 8fe98f7094de
   - 9a882d108833
   - b060944b3989
+  - ccc6c4f0236f
   - cd9874cb9019
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -49,6 +52,7 @@ tools:
   - 119b069fc845
   - d5a940112511
   - d6f5fa4ee473
+  - df0082f25f47
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: edger
@@ -94,6 +98,7 @@ tools:
   - 37d067694d40
   - 38b6d12edc68
   - 5dbff3a5845a
+  - ce3c9c1ac7ca
   - f3a5f075498f
   - f9d49f5cb597
   tool_panel_section_id: rna_seq
@@ -103,6 +108,7 @@ tools:
   revisions:
   - 6926716bbfb5
   - d080005cffe1
+  - df40fefcc676
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: deg_annotate
@@ -116,12 +122,14 @@ tools:
   owner: iuc
   revisions:
   - 602de62d995b
+  - 8f51a7500540
   - ef2ad746b589
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: egsea
   owner: iuc
   revisions:
+  - 183afb27bcf1
   - fba1660fb717
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -148,6 +156,7 @@ tools:
   owner: iuc
   revisions:
   - 74ec758e63a4
+  - 98fd01004439
   - 9a7c5b6d8f1e
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -174,6 +183,7 @@ tools:
 - name: htseq_count
   owner: lparsons
   revisions:
+  - 8332c892bd72
   - c5a9d57d7eb1
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
