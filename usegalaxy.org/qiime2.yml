@@ -264,6 +264,8 @@ tools:
     owner: q2d2
   - name: qiime2__quality_filter__q_score
     owner: q2d2
+  - name: qiime2__rescript__cull_seqs
+    owner: q2d2
   - name: qiime2__sample_classifier__classify_samples
     owner: q2d2
   - name: qiime2__sample_classifier__classify_samples_from_dist
