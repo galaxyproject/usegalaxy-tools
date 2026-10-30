@@ -66,6 +66,8 @@ tools:
   owner: iuc
 - name: dada2_seqcounts
   owner: iuc
+- name: dada2_mergesequencetables
+  owner: iuc
 - name: bio_hansel
   owner: iuc
 - name: khmer_partition
@@ -278,3 +280,7 @@ tools:
   owner: iuc
 - name: phyloseq_tax_glom
   owner: iuc
+- name: barrnap
+  owner: iuc
+- name: itsx
+  owner: bgruening

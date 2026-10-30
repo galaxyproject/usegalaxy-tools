@@ -292,6 +292,7 @@ tools:
   - 7f8f0e9fcb37
   - a6ceb91124fa
   - b6dddf8c2e6f
+  - ddf5bcfde13d
   - efe26de231ec
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -343,6 +344,7 @@ tools:
   - 68129ce1c59b
   - 75403243703a
   - 8c202e741d68
+  - 9e5c3d358b2c
   - a14a18a47c36
   - afdfa35a89d9
   - c48d42d65d2b
@@ -401,6 +403,12 @@ tools:
   - a7817705348e
   - d943081510da
   - f74c56549143
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: dada2_mergesequencetables
+  owner: iuc
+  revisions:
+  - 8f6cb375b725
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: bio_hansel
@@ -1264,5 +1272,17 @@ tools:
   owner: iuc
   revisions:
   - bcc827195b65
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: barrnap
+  owner: iuc
+  revisions:
+  - fe48aa4ccd5e
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis
+- name: itsx
+  owner: bgruening
+  revisions:
+  - 2cbd0d66aa08
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
