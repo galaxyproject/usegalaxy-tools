@@ -66,6 +66,8 @@ tools:
   owner: iuc
 - name: dada2_seqcounts
   owner: iuc
+- name: dada2_mergesequencetables
+  owner: iuc
 - name: bio_hansel
   owner: iuc
 - name: khmer_partition
