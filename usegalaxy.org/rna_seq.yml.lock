@@ -584,3 +584,15 @@ tools:
   - bb8409cb3005
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
+- name: drs_transcript_prediction
+  owner: bgruening
+  revisions:
+  - 8277ab2a0123
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq
+- name: fadu
+  owner: bgruening
+  revisions:
+  - ad3216338b9e
+  tool_panel_section_id: rna_seq
+  tool_panel_section_label: RNA-seq

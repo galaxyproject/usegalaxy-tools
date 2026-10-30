@@ -120,3 +120,7 @@ tools:
   owner: iuc
 - name: ngsderive_strandedness
   owner: iuc
+- name: drs_transcript_prediction
+  owner: bgruening
+- name: fadu
+  owner: bgruening
