@@ -55,5 +55,3 @@ tools:
   owner: iuc
 - name: data_manager_dada2
   owner: iuc
-- name: barrnap
-  owner: iuc
