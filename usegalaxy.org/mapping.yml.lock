@@ -50,6 +50,7 @@ tools:
   - 01ac0a5fedc3
   - 1dfc975b48d5
   - 2477830927ec
+  - 2e9f2d3d1b39
   - 3fe632431b68
   - 64f11cf59c6e
   - c598cbb8b019
@@ -150,6 +151,7 @@ tools:
 - name: bwa_mem2
   owner: iuc
   revisions:
+  - 7febc71de9c3
   - af91699b8d4c
   - b4a22d90cce9
   - bec6ba059ded
@@ -181,6 +183,7 @@ tools:
   - 95e9d34c4cad
   - 9ed6579f52f3
   - b394de3cf6e8
+  - d758d31ec054
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: metilene
@@ -271,6 +274,7 @@ tools:
   - 86b758c95d19
   - ac3a3feb4cf1
   - ac3bae00a350
+  - f267540c3257
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: ucsc_chainsort
@@ -278,6 +282,7 @@ tools:
   revisions:
   - 07c87c2ab74b
   - 5815f5bd9ac8
+  - a2947cd25555
   - c953dbade109
   - fff37ce2d95d
   tool_panel_section_id: mapping
@@ -294,6 +299,7 @@ tools:
   revisions:
   - 2a417e645e61
   - 7b0b810b495f
+  - 888c679be537
   - fa0a3a618a57
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
@@ -308,6 +314,7 @@ tools:
   owner: iuc
   revisions:
   - 1999f87602f7
+  - 595b7f566734
   - a28010c3ac9b
   - d2039064b27d
   tool_panel_section_id: mapping
@@ -318,6 +325,7 @@ tools:
   - 128ec4c44111
   - 5c3fa42d003f
   - 728e3b913fbe
+  - 94ba8d8079e1
   tool_panel_section_id: mapping
   tool_panel_section_label: Mapping
 - name: ucsc_chainantirepeat

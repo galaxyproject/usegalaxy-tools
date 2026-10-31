@@ -8,6 +8,7 @@ tools:
   revisions:
   - 071084070619
   - 3ddd99c7efee
+  - 4b00d89e8690
   tool_panel_section_id: collection_operations
   tool_panel_section_label: Collection Operations
 - name: collapse_collections

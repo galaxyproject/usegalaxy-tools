@@ -350,6 +350,7 @@ tools:
   revisions:
   - 012171ba9fce
   - 42b38f6d9f68
+  - 92390a2cbb12
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
 - name: find_nested_alt_orfs
@@ -427,6 +428,7 @@ tools:
   owner: iuc
   revisions:
   - 1980b199b14a
+  - 2b618ed582da
   - 53b22b7dff19
   - 5a98e780fe72
   - 945b31d82638
@@ -448,6 +450,7 @@ tools:
   - 54acd5139cab
   - 640c0b8cc8bf
   - 948903a8555d
+  - aa55042c6e5e
   - d0632d8bac6a
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -559,6 +562,7 @@ tools:
 - name: windowmasker
   owner: iuc
   revisions:
+  - 81da9f1757b1
   - d90ae4a02efd
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -617,6 +621,7 @@ tools:
 - name: icescreen
   owner: iuc
   revisions:
+  - 7768e94eebdd
   - cca2a89210ae
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -633,6 +638,7 @@ tools:
   - 1942e86e2ee1
   - 25f3b474ca6f
   - 292eea8defa7
+  - c03be23045b7
   - d77802fe76f7
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
