@@ -13,12 +13,14 @@ tools:
 - name: cwpair2
   owner: iuc
   revisions:
+  - 9a503d716d81
   - c4b926c9831c
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: genetrack
   owner: iuc
   revisions:
+  - 363240b62158
   - b41a4bb828a3
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
@@ -28,6 +30,7 @@ tools:
   - 424aefbd7777
   - 640d3af5d833
   - 86e2413cf3f8
+  - d8362a868940
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: sicer
@@ -55,6 +58,7 @@ tools:
   - 163688bb8f73
   - 194e3f2c1d86
   - 2605cbdaa7d8
+  - 35da05f22058
   - f907216064f6
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
@@ -75,6 +79,7 @@ tools:
 - name: fasta_nucleotide_color_plot
   owner: iuc
   revisions:
+  - 0c8cba9badcf
   - e4b5401adcec
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
@@ -104,6 +109,7 @@ tools:
   owner: iuc
   revisions:
   - 8353f3cc03db
+  - 9dcc695d5242
   tool_panel_section_id: chip_seq
   tool_panel_section_label: ChIP-seq
 - name: seacr
