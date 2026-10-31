@@ -45,3 +45,9 @@ tools:
   - ebd2a52eb245
   tool_panel_section_id: epigenetics
   tool_panel_section_label: Epigenetics
+- name: atacseqqc
+  owner: iuc
+  revisions:
+  - e03e488e03e0
+  tool_panel_section_id: epigenetics
+  tool_panel_section_label: Epigenetics
