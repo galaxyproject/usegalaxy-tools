@@ -12,3 +12,5 @@ tools:
   owner: lldelisle
 - name: cooler_makebins
   owner: lldelisle
+- name: atacseqqc
+  owner: iuc
