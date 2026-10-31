@@ -793,6 +793,7 @@ tools:
   - a1358f6b25af
   - e88709abd32b
   - f3b56adfed5f
+  - f7557e88befd
   tool_panel_section_id: qiime2
   tool_panel_section_label: QIIME2
 - name: qiime2__feature_classifier__find_consensus_annotation
@@ -1534,6 +1535,12 @@ tools:
   - d786401d6619
   tool_panel_section_id: qiime2
   tool_panel_section_label: QIIME2
+- name: qiime2__rescript__cull_seqs
+  owner: q2d2
+  revisions:
+  - f2591f77f17f
+  tool_panel_section_id: qiime2
+  tool_panel_section_label: QIIME2
 - name: qiime2__sample_classifier__classify_samples
   owner: q2d2
   revisions:
@@ -1746,6 +1753,7 @@ tools:
   - 2e3425c03486
   - 526b35d5a4cd
   - 58975ac028d7
+  - 5aedcbff85e4
   - 5f0c935ced92
   - 9d2cb6f48d1d
   tool_panel_section_id: qiime2
