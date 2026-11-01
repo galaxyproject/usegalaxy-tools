@@ -76,3 +76,11 @@ tools:
   owner: iuc
 - name: chronaeon_triage
   owner: iuc
+- name: hmmer_esl_alimask
+  owner: iuc
+- name: gappa_graft
+  owner: iuc
+- name: gappa_assign
+  owner: iuc
+- name: gappa_heat_tree
+  owner: iuc
