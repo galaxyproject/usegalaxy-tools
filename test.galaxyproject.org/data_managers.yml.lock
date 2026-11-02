@@ -233,6 +233,7 @@ tools:
 - name: data_manager_bakta
   owner: iuc
   revisions:
+  - 24a7f2bd7ef5
   - 97b1b5ad1cda
   - f9189d4d22b8
   tool_panel_section_id: data_managers
