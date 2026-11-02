@@ -43,6 +43,7 @@ tools:
   - b060944b3989
   - ccc6c4f0236f
   - cd9874cb9019
+  - eaeb33f475e9
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: limma_voom
