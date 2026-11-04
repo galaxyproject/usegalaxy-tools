@@ -7,6 +7,7 @@ tools:
   owner: iuc
   revisions:
   - 081adc1e0cd5
+  - 8ed06371fe08
   - cf0f0f05ba9f
   - f2f3bc622a16
   tool_panel_section_id: gemini
@@ -14,6 +15,7 @@ tools:
 - name: gemini_inheritance
   owner: iuc
   revisions:
+  - 130ffc73bcb1
   - 18d13111692b
   - 2c68e29c3527
   - 8f410ca7eb89
@@ -25,11 +27,13 @@ tools:
   - 2270a8b83c12
   - 45296e47d565
   - cca3391dc8b4
+  - fa3f688c2e33
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_query
   owner: iuc
   revisions:
+  - 0f15dd4ed754
   - 11fdbee540e5
   - 77a1e60fd1de
   - da74170c55c7
@@ -38,6 +42,7 @@ tools:
 - name: gemini_actionable_mutations
   owner: iuc
   revisions:
+  - 3f9467fdd1b5
   - c2bd9670af64
   - db47f4939381
   tool_panel_section_id: gemini
@@ -47,18 +52,21 @@ tools:
   revisions:
   - 48021eee7e33
   - f745f54638e5
+  - fc09b92de85f
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_burden
   owner: iuc
   revisions:
   - 2adedc87b4b8
+  - ad751c5f07ee
   - f0bf88e9e689
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_db_info
   owner: iuc
   revisions:
+  - 35da06b44b36
   - b1e50c7b840e
   - c2a413e47fe9
   tool_panel_section_id: gemini
@@ -67,12 +75,14 @@ tools:
   owner: iuc
   revisions:
   - 56d27b51656b
+  - 7a3ea5b60cdf
   - b92cfa44f5be
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_lof_sieve
   owner: iuc
   revisions:
+  - 022a2d6f22f5
   - 4b5123d51e8c
   - 84ede9f5fddb
   tool_panel_section_id: gemini
@@ -80,6 +90,7 @@ tools:
 - name: gemini_amend
   owner: iuc
   revisions:
+  - 12975d8333fb
   - 334e946cacd4
   - fb2890358aa3
   tool_panel_section_id: gemini
@@ -89,6 +100,7 @@ tools:
   revisions:
   - 7814e39409d1
   - 96222aa3e86e
+  - 98c8a4b63976
   tool_panel_section_id: gemini
   tool_panel_section_label: Gemini
 - name: gemini_de_novo

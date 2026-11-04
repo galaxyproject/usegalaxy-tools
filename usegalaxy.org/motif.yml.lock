@@ -30,6 +30,7 @@ tools:
 - name: weblogo3
   owner: devteam
   revisions:
+  - 2e9b214c2ea2
   - dc25a5169a91
   tool_panel_section_id: motif
   tool_panel_section_label: Motif

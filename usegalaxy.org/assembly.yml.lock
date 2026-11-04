@@ -121,6 +121,7 @@ tools:
   owner: iuc
   revisions:
   - 11e5408fd238
+  - 868053394d61
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
 - name: rnaspades
@@ -651,6 +652,7 @@ tools:
   owner: iuc
   revisions:
   - 34245579d255
+  - 825d9ecf8e62
   - 8779f4d2d04d
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -659,6 +661,7 @@ tools:
   revisions:
   - 3e5642ac5620
   - b897c5daf0ce
+  - d9e75105c19f
   - e1954bd8bde9
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -667,6 +670,7 @@ tools:
   revisions:
   - 0cae005d8c4c
   - 73ddd200456a
+  - 92620e417940
   - ec82f2b95e89
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
