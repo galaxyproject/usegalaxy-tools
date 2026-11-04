@@ -78,6 +78,7 @@ tools:
   - b12d81af0291
   - eaa10652acc2
   - f4af63aaf57a
+  - f6ff91cb3120
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: stringtie
@@ -88,6 +89,7 @@ tools:
   - a356a3e21032
   - cbf488da3b2c
   - eba36e001f45
+  - ff365aa70906
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: featurecounts
