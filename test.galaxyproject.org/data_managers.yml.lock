@@ -375,6 +375,7 @@ tools:
   owner: iuc
   revisions:
   - b2a92f75fda8
+  - e83290ce69ad
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_homer_preparse
