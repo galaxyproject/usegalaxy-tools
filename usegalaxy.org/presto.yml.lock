@@ -16,6 +16,7 @@ tools:
   owner: iuc
   revisions:
   - 097b44ff88db
+  - 762e843c1830
   - 967b96c6005a
   - aa3554e51549
   - ef917c03493c
@@ -29,6 +30,7 @@ tools:
   - 1f3ae16f3655
   - 620f3b0a1430
   - 824d24bfe8dd
+  - db92214b1699
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_parselog
@@ -37,6 +39,7 @@ tools:
   - 488cd05be723
   - 7f93403bc705
   - fc1fd003bc80
+  - fc27de9c2388
   - fd8f1ac582bd
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
@@ -46,6 +49,7 @@ tools:
   - 1ed5b0772f98
   - 4049467b8bb8
   - 90315cb06d06
+  - a26f1d3382a3
   - de864d852bce
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
@@ -54,6 +58,7 @@ tools:
   revisions:
   - 49e7407445c3
   - 7bdff30820bf
+  - 94673124f853
   - eed465eb14a3
   - f47efbc66fad
   tool_panel_section_id: presto
@@ -65,6 +70,7 @@ tools:
   - 36ad790eda96
   - 98b0b4c22e69
   - df0797c61790
+  - fa69b6752845
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_filterseq
@@ -74,11 +80,13 @@ tools:
   - 33a09d40751f
   - 4a4e086f6e38
   - 7b102129b1e8
+  - d6a978ce14dd
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
 - name: presto_collapseseq
   owner: iuc
   revisions:
+  - 1d2b0f9dac7b
   - 3364fd7073ca
   - 852e7ca7f7de
   - c60bd515e46d
@@ -89,6 +97,7 @@ tools:
   owner: iuc
   revisions:
   - 1844a3d2c887
+  - 4f6301ed65b7
   - 5b059629cce0
   - 7c7df98db5a9
   - ef31bdd0c9ed
@@ -100,6 +109,7 @@ tools:
   - 0af48f0b7eb8
   - 44c980933450
   - 540fcbdac82e
+  - 6d2da6deda7a
   - af855eb44091
   tool_panel_section_id: presto
   tool_panel_section_label: pRESTO
@@ -108,6 +118,7 @@ tools:
   revisions:
   - 0b4bd722367d
   - 40102188d44e
+  - 47bf52277e6d
   - b401018e0614
   - fa4cf8d895f4
   tool_panel_section_id: presto

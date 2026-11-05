@@ -200,6 +200,7 @@ tools:
   owner: melpetera
   revisions:
   - 2e580585782e
+  - 757b6dcfe32a
   - a31f3f802b2b
   - ec75de7f1e08
   tool_panel_section_id: metabolomics
