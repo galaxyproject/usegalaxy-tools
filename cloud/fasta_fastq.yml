@@ -62,3 +62,5 @@ tools:
   owner: devteam
 - name: fastx_trimmer
   owner: devteam
+- name: seqkit_stats
+  owner: iuc
