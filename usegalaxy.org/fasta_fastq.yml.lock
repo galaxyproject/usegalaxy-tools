@@ -255,6 +255,7 @@ tools:
   - 06934412f56d
   - 10b75444feae
   - '144275714590'
+  - 242f90a25c1d
   - 81a9090d6df3
   - ff7d49ec777f
   tool_panel_section_id: fasta_fastq
@@ -497,5 +498,12 @@ tools:
   - b441f51f88b7
   - c669e8550c46
   - d35d114c26a7
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: seqkit_stats
+  owner: iuc
+  revisions:
+  - 0a2a529e24e3
+  - 812705bcf39c
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
