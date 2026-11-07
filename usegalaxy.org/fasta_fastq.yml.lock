@@ -43,6 +43,7 @@ tools:
   owner: iuc
   revisions:
   - 01a4ebf1f237
+  - 48e98c53e8f9
   - a27654fc4270
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -83,6 +84,7 @@ tools:
   - 547e8d00f11c
   - 61b4cedc8934
   - 73194cdd4f57
+  - cac2c7cba460
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_reverse_complement
@@ -92,11 +94,13 @@ tools:
   - 177f0621c266
   - 6027ef51ef91
   - 7566b751e769
+  - b3c10a950efa
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_clipper
   owner: devteam
   revisions:
+  - 5bd863921cc5
   - 736b8f6ee456
   - 90858c306551
   - b8658f852bc7
@@ -110,6 +114,7 @@ tools:
   - 64e9a6afdd0c
   - 7b4468117008
   - b1e332a385f1
+  - cb57980cefa0
   - ce9cd02d5b88
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -127,6 +132,7 @@ tools:
   - 0ffae348abae
   - 3599f5451ee2
   - b29d37ca9e41
+  - e39e3016fbe1
   - f984bb114520
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -135,12 +141,14 @@ tools:
   revisions:
   - 0b7ec11b3c7c
   - 229caeddb2df
+  - 456be35b3f1b
   - 4bedca26c133
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_artifacts_filter
   owner: devteam
   revisions:
+  - 016529f651dc
   - 34edfa69c149
   - 529bccd5e4a1
   - 567d5b3c52b1
@@ -153,6 +161,7 @@ tools:
   - 045f0e1043f7
   - 54053ea6c77e
   - 86713dc416ec
+  - e4634c67ee8d
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_paired_end_joiner
@@ -283,6 +292,7 @@ tools:
   revisions:
   - 084bbd8ba7b8
   - 433db23e1c1d
+  - 7462caed7065
   - 949f01671246
   - b94789823aad
   - cd7e644cae1d
@@ -307,6 +317,7 @@ tools:
   - 07497255281e
   - 72494a86e047
   - 7ce1891db6f5
+  - cd11b0508361
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_trimmer
@@ -332,6 +343,7 @@ tools:
   revisions:
   - 091ca73f5804
   - 90e8c76156a7
+  - dac07dd4fbd7
   - ec0b5076173a
   - f773e98b26cf
   tool_panel_section_id: fasta_fastq
@@ -340,6 +352,7 @@ tools:
   owner: devteam
   revisions:
   - 516b97a23d7e
+  - 59a3ca730b16
   - 859422bcb689
   - e773f1eb16cf
   tool_panel_section_id: fasta_fastq
