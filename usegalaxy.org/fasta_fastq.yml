@@ -104,3 +104,5 @@ tools:
   owner: mbernt
 - name: seqkit_translate
   owner: iuc
+- name: seqkit_stats
+  owner: iuc
