@@ -524,3 +524,10 @@ tools:
   - d35d114c26a7
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
+- name: seqkit_stats
+  owner: iuc
+  revisions:
+  - 0a2a529e24e3
+  - 812705bcf39c
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
