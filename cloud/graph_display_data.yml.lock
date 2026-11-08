@@ -37,6 +37,7 @@ tools:
   - 2f557f6abbfb
   - 3d5b9e4df7ba
   - 5e08a1e22dbc
+  - 717c6164fea4
   - 73b8cb5bddcd
   - 83c573f2e73c
   - c0b740d23adc
@@ -91,6 +92,7 @@ tools:
 - name: newick_utils
   owner: iuc
   revisions:
+  - 77a7e69dd018
   - b4163d2f64ab
   tool_panel_section_id: graph_display_data
   tool_panel_section_label: Graph/Display Data

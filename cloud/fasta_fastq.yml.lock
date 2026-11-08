@@ -77,6 +77,7 @@ tools:
   owner: iuc
   revisions:
   - 01a4ebf1f237
+  - 48e98c53e8f9
   - a27654fc4270
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -85,6 +86,7 @@ tools:
   revisions:
   - 084bbd8ba7b8
   - 433db23e1c1d
+  - 7462caed7065
   - b94789823aad
   - cd7e644cae1d
   tool_panel_section_id: fasta_fastq
@@ -145,6 +147,7 @@ tools:
   owner: devteam
   revisions:
   - 516b97a23d7e
+  - 59a3ca730b16
   - e773f1eb16cf
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
@@ -233,24 +236,28 @@ tools:
   owner: devteam
   revisions:
   - 72494a86e047
+  - cd11b0508361
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_barcode_splitter
   owner: devteam
   revisions:
   - 229caeddb2df
+  - 456be35b3f1b
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastq_quality_filter
   owner: devteam
   revisions:
   - b1e332a385f1
+  - cb57980cefa0
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: fastx_trimmer
   owner: devteam
   revisions:
   - 1ea2ae5afb28
+  - cac2c7cba460
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
 - name: seqkit_stats

@@ -153,6 +153,7 @@ tools:
 - name: data_manager_fetch_plasmidfinder
   owner: iuc
   revisions:
+  - 86ef3f82feab
   - 8a3955d56000
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
