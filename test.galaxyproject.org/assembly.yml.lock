@@ -18,6 +18,7 @@ tools:
   - 0834c823d4b9
   - 3061c8b029e5
   - 59db8ea8c845
+  - baeffe7bfe47
   - ebb0dcdb621a
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
