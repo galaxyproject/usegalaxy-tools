@@ -57,6 +57,7 @@ tools:
 - name: biom_convert
   owner: iuc
   revisions:
+  - 081cc9a9a738
   - b3858ab7f598
   - d4d4e9febf5c
   tool_panel_section_id: convert_formats
