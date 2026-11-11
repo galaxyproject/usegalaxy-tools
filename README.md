@@ -113,11 +113,18 @@ Once preconditions are met:
 ## Tool source store
 
 Alongside the shed tool conf, every install publishes a pre-parsed *tool source store* for the toolset at
-`/cvmfs/<repo>/config/tool_source_store/v1/cvmfs_<name>.sqlite` (plus a `.manifest.json` sidecar), where `<name>` is
-`test` or `main`. It is built by `build_tool_source_store` in `.ci/github-actions.sh`, which runs Galaxy's
-`scripts/tool_source/populate_store.py` from the same `galaxy/galaxy-min:dev` image that installs the tools, and
-which sets `store="cvmfs_<name>"` on the `<toolbox>` root of `shed_tool_conf.xml` if it is not there yet. Builds are
-incremental: only tools whose files changed since the previous publish are re-parsed.
+`/cvmfs/<repo>/config/tool_source_store/<galaxy version>/cvmfs_<name>.sqlite` (plus a `.manifest.json` sidecar), where
+`<name>` is `test` or `main`. There is one bundle per Galaxy version in `TOOL_SOURCE_STORE_IMAGES` in
+`.ci/github-actions.sh` (currently `26.2/`, built with `galaxy/galaxy-min:26.2-auto`, and `dev/`, built with the
+`galaxy/galaxy-min:dev` image that installs the tools), because a Galaxy server only loads a bundle whose tool index
+schema matches its own, and that schema changes between releases. A server picks the newest compatible bundle from
+the directories under its `external_store_directory`, so no server configuration names the version. The bundles are
+built by `build_tool_source_stores`, which runs Galaxy's `scripts/tool_source/populate_store.py` from each image, and
+`store="cvmfs_<name>"` is set on the `<toolbox>` root of `shed_tool_conf.xml` if it is not there yet. Builds are
+incremental: only tools whose files changed since the previous publish are re-parsed. The `v1/` directory holds the
+single bundle published before there was one per version; it is no longer updated, and only seeds new version
+directories. When a Galaxy version is dropped from `TOOL_SOURCE_STORE_IMAGES`, delete its directory on the Stratum 0,
+otherwise servers still running that version keep loading a bundle that lacks every tool installed since.
 
 Galaxy servers ignore both the attribute and the bundle unless `use_cached_toolbox: true` is set *and* the store name
 is declared in `galaxy.yml`, e.g. for Test, which loads Main's shed tool conf as well:
@@ -131,13 +138,12 @@ tool_source_stores:
     external_store_directory: /cvmfs/main.galaxyproject.org/config/tool_source_store
 ```
 
-A server with `use_cached_toolbox` enabled must declare every store name referenced by the confs it loads, or it
-fails to start. A bundle that is missing or was built by a Galaxy with a different tool index schema only produces
-a startup warning, and that conf is parsed eagerly as before; the next install on the toolset publishes a bundle
-built by the current image. A compatible bundle is trusted as is: Galaxy does not load tools that are missing from
-its index. The run summary therefore contains a **Tool source store** block with the tool counts and any tools
-missing from the bundle, and the run fails unless the bundle was rewritten, passes SQLite's integrity check, and
-indexes every tool in the conf.
+A server with `use_cached_toolbox` enabled must declare every store name referenced by the confs it loads, or it fails
+to start. A bundle that is missing or was built by a Galaxy with a different tool index schema only produces a startup
+warning, and that conf is parsed eagerly as before. A compatible bundle is trusted as is: Galaxy does not load tools
+that are missing from its index. The run summary therefore contains a **Tool source store** block per bundle with the
+tool counts and any tools missing from it, and the run fails unless each bundle was rewritten, passes SQLite's integrity
+check, and indexes every tool in the conf.
 
 Only approved tool installers can install tools. Request admission to the Github Team from project admins for approval.
 

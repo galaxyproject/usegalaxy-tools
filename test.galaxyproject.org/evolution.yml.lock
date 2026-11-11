@@ -6,6 +6,7 @@ tools:
 - name: fasttree
   owner: iuc
   revisions:
+  - e7dca6f804c1
   - e005e659ae21
   tool_panel_section_id: evolution
   tool_panel_section_label: Evolution

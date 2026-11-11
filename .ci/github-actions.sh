@@ -52,6 +52,21 @@ fi
 # until galaxyproject/galaxy#24033 is in the galaxy-min:dev image, then raise it (16 builds Main's conf in ~4 minutes).
 TOOL_SOURCE_STORE_PARALLEL=1
 
+# Galaxy images that build a tool source store bundle, keyed by the directory under tool_source_store/ the bundle is
+# published in. A server only loads a bundle whose index schema hash matches its own, and the hash changes whenever a
+# Galaxy release changes the tool index model, so each Galaxy version that the CVMFS clients run needs its own bundle.
+# Galaxy picks the newest compatible bundle from any directory one level below its `external_store_directory`, so the
+# directory names are free. An empty image means the image that installs the tools ($GALAXY_DOCKER_IMAGE, patched if
+# GALAXY_PATCH_FILE is set). When a version is dropped here, delete its directory on the Stratum 0 too, or servers of
+# that version keep loading its stale bundle, which lacks every tool installed since.
+declare -A TOOL_SOURCE_STORE_IMAGES=(
+    [26.2]='galaxy/galaxy-min:26.2-auto'
+    [dev]=''
+)
+# Directory of the single bundle published before there was one per version. New bundle directories are seeded from
+# it so their first build is incremental.
+TOOL_SOURCE_STORE_LEGACY_DIR=v1
+
 # Set to true to perform everything on the runner and copy results to the Stratum 0 for publish, instead of
 # performing everything directly on the Stratum 0. Requires preinstallation/preconfiguration of CVMFS and for
 # fuse-overlayfs to be installed on the runner.
@@ -88,7 +103,7 @@ SHED_TOOL_CONFIG=
 SHED_TOOL_DATA_TABLE_CONFIG=
 SHED_DATA_MANAGER_CONFIG=
 TOOL_SOURCE_STORE_NAME=
-TOOL_SOURCE_STORE_DIR=
+TOOL_SOURCE_STORE_ROOT=
 TOOL_SOURCE_STORE_TMPDIR=
 SSH_MASTER_SOCKET=
 WORKDIR=
@@ -313,7 +328,7 @@ function set_repo_vars() {
     SHED_DATA_MANAGER_CONFIG="${SHED_DATA_MANAGER_CONFIGS[$REPO]}"
     # Galaxy tool source store bundle published alongside the shed tool conf, see README "Tool source store"
     TOOL_SOURCE_STORE_NAME="cvmfs_${REPO%%.*}"
-    TOOL_SOURCE_STORE_DIR="/cvmfs/${REPO}/config/tool_source_store/v1"
+    TOOL_SOURCE_STORE_ROOT="/cvmfs/${REPO}/config/tool_source_store"
     CONTAINER_NAME="usegalaxy-tools-${REPO_USER}-${RUN_ID}"
     if $USE_LOCAL_OVERLAYFS; then
         OVERLAYFS_LOWER="${RUN_DIR}/lower"
@@ -823,14 +838,36 @@ function point_shed_conf_at_tool_source_store() {
 
 # Pre-parse the tools in the shed tool conf into a Galaxy tool source store (a SQLite bundle plus a manifest sidecar)
 # published next to the conf, so Galaxy servers with `use_cached_toolbox` enabled load the tool panel from the
-# bundle instead of parsing every tool XML on CVMFS at startup. Runs on every install (including PR test installs,
-# where the result is discarded with the overlay). The previous bundle is in the overlay lower layer at the same
-# path, so the populator only re-parses tools whose files changed. Must run before post_install, whose chmod makes
-# the manifest (created 0600 by Galaxy versions without galaxyproject/galaxy's permission fix) readable on clients.
+# bundle instead of parsing every tool XML on CVMFS at startup. Builds one bundle per Galaxy version, see
+# $TOOL_SOURCE_STORE_IMAGES. Runs on every install (including PR test installs, where the result is discarded with the
+# overlay). Must run before post_install, whose chmod makes the manifest (created 0600 by Galaxy versions without
+# galaxyproject/galaxy's permission fix) readable on clients.
+function build_tool_source_stores() {
+    local subdir image
+    for subdir in $(printf '%s\n' "${!TOOL_SOURCE_STORE_IMAGES[@]}" | sort); do
+        image="${TOOL_SOURCE_STORE_IMAGES[$subdir]:-$GALAXY_DOCKER_IMAGE}"
+        if [ "$image" != "$GALAXY_DOCKER_IMAGE" ] && $GALAXY_DOCKER_IMAGE_PULL; then
+            exec_on docker pull "$image"
+        fi
+        build_tool_source_store "$subdir" "$image"
+    done
+}
+
+
+# Build the bundle in tool_source_store/$1 with Galaxy image $2. The previous bundle is in the overlay lower layer at
+# the same path, so the populator only re-parses tools whose files changed.
 function build_tool_source_store() {
+    local subdir="$1" image="$2"
     local shed_tool_conf="${OVERLAYFS_MOUNT}${SHED_TOOL_CONFIG##*${REPO}}"
-    local bundle_dir="${OVERLAYFS_MOUNT}${TOOL_SOURCE_STORE_DIR##*${REPO}}"
-    log "Building tool source store ${TOOL_SOURCE_STORE_NAME} for ${REPO}"
+    local store_root="${OVERLAYFS_MOUNT}${TOOL_SOURCE_STORE_ROOT##*${REPO}}"
+    local bundle_dir="${store_root}/${subdir}"
+    local legacy_database="${store_root}/${TOOL_SOURCE_STORE_LEGACY_DIR}/${TOOL_SOURCE_STORE_NAME}.sqlite"
+    log "Building tool source store ${TOOL_SOURCE_STORE_NAME} in ${subdir}/ for ${REPO} with ${image}"
+    log_exec mkdir -p "$bundle_dir"
+    if [ ! -e "${bundle_dir}/${TOOL_SOURCE_STORE_NAME}.sqlite" ] && [ -f "$legacy_database" ]; then
+        log "Seeding ${subdir}/ from ${TOOL_SOURCE_STORE_LEGACY_DIR}/"
+        log_exec cp "$legacy_database" "${bundle_dir}/"
+    fi
     TOOL_SOURCE_STORE_TMPDIR=$(exec_on mktemp -d -p "$RUN_DIR" tool-source-store.XXXXXX)
     # Minimal config for the standalone populator: only the shed tool conf is routed to the named (published) store;
     # the default store is scratch and is not populated (--target). Paths are container paths.
@@ -846,7 +883,7 @@ galaxy:
   tool_source_database_connection: sqlite:////tool_source_store/scratch/tool_sources.sqlite
   tool_source_stores:
     ${TOOL_SOURCE_STORE_NAME}:
-      url: sqlite:///${TOOL_SOURCE_STORE_DIR}/${TOOL_SOURCE_STORE_NAME}.sqlite
+      url: sqlite:///${TOOL_SOURCE_STORE_ROOT}/${subdir}/${TOOL_SOURCE_STORE_NAME}.sqlite
 EOF
     # A Galaxy that loads the bundle's index does not load tools missing from it at all, so the bundle must cover every
     # tool in the conf. The populator exits 1 if any tool could not be stored or indexed; that fails the run, after the
@@ -858,25 +895,25 @@ EOF
         -v "${OVERLAYFS_MOUNT}:/cvmfs/${REPO}" \
         -v "${TOOL_SOURCE_STORE_TMPDIR}:/tool_source_store" \
         --workdir /galaxy/server \
-        "$GALAXY_DOCKER_IMAGE" ./.venv/bin/python scripts/tool_source/populate_store.py \
+        "$image" ./.venv/bin/python scripts/tool_source/populate_store.py \
             --config /tool_source_store/galaxy.yml --target "$TOOL_SOURCE_STORE_NAME" --parallel "$TOOL_SOURCE_STORE_PARALLEL" \
         || populate_rc=$?
     # Updating the database in place scatters small page changes across the whole file, so nearly every CVMFS chunk
     # changes and each publish stores the full bundle again. VACUUM rewrites it in a stable order (table rows, then
     # each index contiguously), so only the chunks around new rows, the indexes and the tool index blob change.
     # mode=rw: don't create an empty database if the populator didn't write one, the check below reports that.
-    log "Vacuuming tool source store ${TOOL_SOURCE_STORE_NAME}"
+    log "Vacuuming tool source store ${TOOL_SOURCE_STORE_NAME} in ${subdir}/"
     python3 -c 'import sqlite3, sys; sqlite3.connect(f"file:{sys.argv[1]}?mode=rw", uri=True).execute("VACUUM")' \
         "${bundle_dir}/${TOOL_SOURCE_STORE_NAME}.sqlite" \
         || log_error "VACUUM of the tool source store failed, publishing it unvacuumed"
-    summary_exec "Tool source store ${TOOL_SOURCE_STORE_NAME}" \
+    summary_exec "Tool source store ${TOOL_SOURCE_STORE_NAME} (${subdir})" \
         python3 .ci/check_tool_source_store.py --built-after "$build_started" \
         "$bundle_dir" "$TOOL_SOURCE_STORE_NAME" "$shed_tool_conf"
     # summary_exec swallows the exit status, so repeat the (cheap) check to make failure fatal
     python3 .ci/check_tool_source_store.py --built-after "$build_started" \
         "$bundle_dir" "$TOOL_SOURCE_STORE_NAME" "$shed_tool_conf" >/dev/null \
-        || log_exit_error "Tool source store check failed"
-    [ "$populate_rc" -eq 0 ] || log_exit_error "populate_store.py exited with code ${populate_rc}"
+        || log_exit_error "Tool source store check failed for ${subdir}/"
+    [ "$populate_rc" -eq 0 ] || log_exit_error "populate_store.py in ${image} exited with code ${populate_rc}"
     exec_on rm -rf "$TOOL_SOURCE_STORE_TMPDIR"
     TOOL_SOURCE_STORE_TMPDIR=
 }
@@ -900,7 +937,7 @@ function do_install_local() {
     check_for_repo_changes
     stop_galaxy
     # before clean_preconfigured_container, so a patched Galaxy image (see GALAXY_PATCH_FILE) is used for the build too
-    build_tool_source_store
+    build_tool_source_stores
     clean_preconfigured_container
     post_install
     if $PUBLISH; then
