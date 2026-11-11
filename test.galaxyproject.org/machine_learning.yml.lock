@@ -276,3 +276,9 @@ tools:
   - afec8c595124
   tool_panel_section_id: machine_learning
   tool_panel_section_label: Machine Learning
+- name: bars_review
+  owner: nekrut
+  revisions:
+  - 9cb06828c15c
+  tool_panel_section_id: machine_learning
+  tool_panel_section_label: Machine Learning
