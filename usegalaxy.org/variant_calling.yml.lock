@@ -389,3 +389,129 @@ tools:
   - a5444c30823d
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
+- name: gatk4_haplotype_caller
+  owner: iuc
+  revisions:
+  - c439e1f317a2
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: gatk4_base_recalibrator
+  owner: iuc
+  revisions:
+  - 26845c4e5f64
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: gatk4_applybqsr
+  owner: iuc
+  revisions:
+  - 6940c0b8468e
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: gatk4_split_n_cigar_reads
+  owner: iuc
+  revisions:
+  - 9044d3880269
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: manta
+  owner: artbio
+  revisions:
+  - bebb4f9eba4f
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_batch
+  owner: iuc
+  revisions:
+  - e806f882a413
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_target
+  owner: iuc
+  revisions:
+  - db3588a9051f
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_antitarget
+  owner: iuc
+  revisions:
+  - 3c5ff748fdbc
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_coverage
+  owner: iuc
+  revisions:
+  - 5170090eaf4e
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_reference
+  owner: iuc
+  revisions:
+  - 73abbf6495be
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_fix
+  owner: iuc
+  revisions:
+  - 294990cb10cd
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_segment
+  owner: iuc
+  revisions:
+  - bb1c663a9c46
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_call
+  owner: iuc
+  revisions:
+  - 58328c8e37df
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_diagram
+  owner: iuc
+  revisions:
+  - 1924416359eb
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_scatter
+  owner: iuc
+  revisions:
+  - 694411aa16e4
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_heatmap
+  owner: iuc
+  revisions:
+  - 11d0d7c2269f
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_breaks
+  owner: iuc
+  revisions:
+  - b77e9ce643a6
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_genemetrics
+  owner: iuc
+  revisions:
+  - bb5dc90e2ef1
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_sex
+  owner: iuc
+  revisions:
+  - 27b32e5dd963
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_segmetrics
+  owner: iuc
+  revisions:
+  - 0233886f275d
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
+- name: cnvkit_autobin
+  owner: iuc
+  revisions:
+  - 1b46c875128f
+  tool_panel_section_id: variant_calling
+  tool_panel_section_label: Variant Calling
