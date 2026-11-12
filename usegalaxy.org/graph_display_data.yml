@@ -76,3 +76,5 @@ tools:
   owner: saskia-hiltemann
 - name: jbrowse2
   owner: fubar
+- name: ucsc_hubcheck
+  owner: iuc
