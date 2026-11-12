@@ -373,3 +373,27 @@ tools:
   - 0cef1682cdf7
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
+- name: ucsc_fatotwobit
+  owner: iuc
+  revisions:
+  - a90fce5fa88e
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: ucsc_bedtobigbed
+  owner: iuc
+  revisions:
+  - a7a42365b750
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: ucsc_gff3togenepred
+  owner: iuc
+  revisions:
+  - ce8f267297fb
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: ucsc_genepredtobed
+  owner: iuc
+  revisions:
+  - 74e2d4457c1d
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
