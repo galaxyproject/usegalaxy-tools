@@ -76,3 +76,7 @@ tools:
   owner: saskia-hiltemann
 - name: jbrowse2
   owner: fubar
+- name: build_genomes_txt
+  owner: richard-burhans
+- name: build_hub_bb
+  owner: richard-burhans
