@@ -12,6 +12,8 @@ tools:
     owner: q2d2
   - name: qiime2__composition__ancombc
     owner: q2d2
+  - name: qiime2__composition__da_barplot
+    owner: q2d2
   - name: qiime2__composition__tabulate
     owner: q2d2
   - name: qiime2__cutadapt__demux_paired
