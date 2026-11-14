@@ -130,6 +130,7 @@ tools:
   - a3b86937ead6
   - ab9350a8ab4d
   - afa26d1f6809
+  - c4a507fed537
   - dad9da48a09a
   - e3cbd2287f63
   tool_panel_section_id: metagenomic_analysis
@@ -522,6 +523,7 @@ tools:
   - 2bc40bfbcfb4
   - 8a0473eb465e
   - 9da9706f7ca9
+  - c16d6bfc7783
   - cfd50144a871
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -660,6 +662,7 @@ tools:
   - 22384d3d25f4
   - 23d6489e2604
   - 86dec4abcea8
+  - a6a417a2927a
   - f4409b2e1501
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -670,12 +673,14 @@ tools:
   - 43f9ca23c132
   - 9c102da4ca13
   - 9de5319ad2db
+  - caa5e069998c
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: mash_dist
   owner: iuc
   revisions:
   - 10cf5017bf01
+  - 1189da6f9123
   - 45fb62c28c9b
   - 8249e5aa200c
   - c932095af671
@@ -686,6 +691,7 @@ tools:
   revisions:
   - 618969c1d8e1
   - 8f32dcfde5d9
+  - b761da3edc76
   - e0c0fda064eb
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -983,6 +989,7 @@ tools:
 - name: semibin
   owner: iuc
   revisions:
+  - 0689d28fecdf
   - 99ff9221182c
   - afee33334a63
   - b5a7583b8db0

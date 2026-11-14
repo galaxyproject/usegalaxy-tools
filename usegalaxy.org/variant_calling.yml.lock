@@ -194,6 +194,7 @@ tools:
 - name: bcftools_plugin_color_chrs
   owner: iuc
   revisions:
+  - 09694f0edd75
   - 36960e552ddc
   - 51d28b4d3a04
   - 54def72f84b2
@@ -219,6 +220,7 @@ tools:
   - b40213125e88
   - c0b17fc737d4
   - eb22990a2be9
+  - f3b9269e6e70
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: exomedepth
