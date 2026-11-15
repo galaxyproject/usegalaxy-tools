@@ -21,6 +21,7 @@ tools:
   - 9a169729c9f9
   - 9b0cdb8cf6be
   - aa0c474463c2
+  - b1fec941382b
   - f7446fd8d5e7
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -36,6 +37,7 @@ tools:
   - 6c145a6868cc
   - 9d33775ec67d
   - a8d291df615d
+  - a9160efa16c8
   - c0a80a16560f
   - c5d3684f7c4c
   - ca086f24422f
@@ -57,6 +59,7 @@ tools:
   - 5b3c1679d29b
   - 64388be6d510
   - 72a6bebab2a5
+  - 8abe1b403a5c
   - 8cb783c81905
   - 92a189c299d4
   - a03ff8633507
@@ -82,6 +85,7 @@ tools:
   - 9f354c7c8c92
   - a407e7f8bdc1
   - ab55fe8030b6
+  - c13b10841210
   - c9cb76cf8d6c
   - d844935c906c
   - e639abb0de92
@@ -107,11 +111,13 @@ tools:
   - cb43c5d3acd3
   - edec35114f72
   - f9353ee6a0d4
+  - f98417b9e414
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_remove_confounders
   owner: iuc
   revisions:
+  - 1849d1a3b69e
   - 215733a383f2
   - 458d4ab0f894
   - 458e8f43a775
@@ -226,6 +232,7 @@ tools:
   revisions:
   - 10d928447114
   - 2c1200fba922
+  - 2ee6ff4d70fc
   - a9caad671439
   - cdf4443d5625
   - cfe1e6c28d95
@@ -236,6 +243,7 @@ tools:
   revisions:
   - 0bff0ee0683a
   - 49776718ae90
+  - 713f9dd0f77e
   - 7e014059a88d
   - a4b734cd253b
   - c4f39bf4a068
@@ -247,6 +255,7 @@ tools:
   revisions:
   - 43c146e25a43
   - 7608d5faee41
+  - 81aacdf3a656
   - 8b917923f7d4
   - b83fbc90161e
   - b9712ed9c027
@@ -262,6 +271,7 @@ tools:
   - 53d889b0a2c9
   - be4646256624
   - c7ddb719554d
+  - debffa24f4b1
   - f3eb2291da05
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -274,6 +284,7 @@ tools:
   - 6e90c8adf84f
   - a6821f856a1e
   - c8434a623268
+  - fb7906aa5791
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: raceid_trajectory
@@ -283,6 +294,7 @@ tools:
   - 2af7c5086a96
   - 2bfd55b87af3
   - 44b935f2271b
+  - 51e0736263e4
   - 72979cac22b2
   - e93b008c637a
   tool_panel_section_id: single_cell
@@ -485,6 +497,7 @@ tools:
   - '528052085629'
   - a8b6292cdffc
   - b0fe3e482cb7
+  - b3aea985597c
   - c9944a2600f1
   - e32b215b7c04
   - e4c01dcece8b

@@ -653,6 +653,7 @@ tools:
   revisions:
   - 6d8be3337e2a
   - 80b0055ba314
+  - a069e75a344f
   - d6ede73082da
   - e7449b2c14bf
   tool_panel_section_id: annotation
@@ -867,6 +868,7 @@ tools:
 - name: bionym
   owner: iuc
   revisions:
+  - 34d975c34cfb
   - 3d3ef2fc2bd0
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
