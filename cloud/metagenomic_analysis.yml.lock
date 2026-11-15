@@ -46,6 +46,7 @@ tools:
 - name: semibin
   owner: iuc
   revisions:
+  - 0689d28fecdf
   - afee33334a63
   - b5a7583b8db0
   tool_panel_section_id: metagenomic_analysis
@@ -77,6 +78,7 @@ tools:
   revisions:
   - 0917b2d6010d
   - 9da9706f7ca9
+  - c16d6bfc7783
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: metabat2
@@ -141,6 +143,7 @@ tools:
 - name: checkm_lineage_wf
   owner: iuc
   revisions:
+  - 504a555b2bfb
   - 8345d273ba82
   - c3735bcc9cb8
   - dcbbec865b86
@@ -302,18 +305,21 @@ tools:
   revisions:
   - 9c102da4ca13
   - 9de5319ad2db
+  - caa5e069998c
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: mash_paste
   owner: iuc
   revisions:
   - 618969c1d8e1
+  - b761da3edc76
   - e0c0fda064eb
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: mash_dist
   owner: iuc
   revisions:
+  - 1189da6f9123
   - 45fb62c28c9b
   - c932095af671
   tool_panel_section_id: metagenomic_analysis

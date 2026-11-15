@@ -9,6 +9,7 @@ tools:
   - 1a052c827e88
   - 27e16a30667a
   - 5bc075714a8b
+  - 607114bff073
   - dbedfc5f5a3c
   tool_panel_section_id: rseqc
   tool_panel_section_label: RSeQC
