@@ -78,3 +78,11 @@ tools:
   owner: richard-burhans
 - name: ucsc_axtsort
   owner: richard-burhans
+- name: ucsc_fatotwobit
+  owner: iuc
+- name: ucsc_bedtobigbed
+  owner: iuc
+- name: ucsc_gff3togenepred
+  owner: iuc
+- name: ucsc_genepredtobed
+  owner: iuc
