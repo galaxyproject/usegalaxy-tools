@@ -7,9 +7,15 @@ set -euo pipefail
 # The workflows in .github/workflows/ set:
 #   PUBLISH       'false' for the PR test install, 'true' for the post-merge deploy
 #   COMMIT_RANGE  the range to look for changed .lock files in
+# or, for the scheduled refresh of the tool source stores (see refresh_tool_source_stores):
+#   TOOL_SOURCE_STORE_REFRESH_REPO  the CVMFS repository whose bundles to check, e.g. cloud.galaxyproject.org
 
 # Set this variable to 'true' to publish on successful installation
 : ${PUBLISH:=false}
+
+# When set, install no tools: rebuild the tool source store bundles of this CVMFS repository whose manifests are not
+# compatible with their Galaxy image in $TOOL_SOURCE_STORE_IMAGES, and publish them if $PUBLISH is true.
+: ${TOOL_SOURCE_STORE_REFRESH_REPO:=}
 
 # Range passed to `git diff` to detect changed tool files. The default is for running by hand on a PR branch; the
 # workflows pass an explicit range, since after a merge there is nothing left to diff against origin/main.
@@ -34,8 +40,9 @@ GALAXY_DOCKER_IMAGE_PULL=true
 
 # Set by Actions, so the defaults here are for development
 GIT_COMMIT="${GITHUB_SHA:-$(git rev-parse HEAD)}"
-# GITHUB_RUN_ID is stable across re-runs, while GITHUB_RUN_ATTEMPT increments for each attempt.
-RUN_ID="${GITHUB_RUN_ID:-$$}-${GITHUB_RUN_ATTEMPT:-1}"
+# GITHUB_RUN_ID is stable across re-runs, while GITHUB_RUN_ATTEMPT increments for each attempt. A refresh runs one job
+# per repository under the same run ID, so the repository name keeps their run dirs apart.
+RUN_ID="${GITHUB_RUN_ID:-$$}-${GITHUB_RUN_ATTEMPT:-1}${TOOL_SOURCE_STORE_REFRESH_REPO:+-${TOOL_SOURCE_STORE_REFRESH_REPO%%.*}}"
 DOCKER_RUN_LABEL='org.galaxyproject.usegalaxy-tools.runner-managed=true'
 
 # Per-run scratch dir and the log dir within it that the workflow uploads as an artifact
@@ -506,8 +513,10 @@ function abort_transaction() {
 
 
 function publish_transaction() {
+    local tag="${1:-tools-${GIT_COMMIT:0:7}}"
+    local message="${2:-Automated tool installation for commit ${GIT_COMMIT}}"
     log "Publishing transaction on $REPO"
-    exec_on "cvmfs_server publish -a 'tools-${GIT_COMMIT:0:7}' -m 'Automated tool installation for commit ${GIT_COMMIT}' ${REPO}"
+    exec_on "cvmfs_server publish -a '${tag}' -m '${message}' ${REPO}"
     CVMFS_TRANSACTION_UP=false
     PUBLISH_COMPLETE=true
     log "Published ${REPO} for commit ${GIT_COMMIT}"
@@ -823,7 +832,10 @@ function post_install() {
     #    exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/deactivate' '_ENVPATH_/bin/deactivate'" || true
     #    exec_on "find '${OVERLAYFS_UPPER}${CONDA_PATH##*${REPO}}/envs' -maxdepth 1 -mindepth 1 -type d -print0 | xargs -0 --no-run-if-empty -I_ENVPATH_ ln -s '${CONDA_PATH}/bin/conda' '_ENVPATH_/bin/conda'" || true
     #fi
-    [ -n "${WORKDIR:-}" ] && exec_on rm -rf "$WORKDIR"
+    # Not `[ ] && rm`: when WORKDIR is unset (a refresh) that would be the function's failing exit status
+    if [ -n "${WORKDIR:-}" ]; then
+        exec_on rm -rf "$WORKDIR"
+    fi
 }
 
 
@@ -919,6 +931,87 @@ EOF
 }
 
 
+# Whether the published bundle in tool_source_store/$1 is compatible with Galaxy image $2, decided by that image's own
+# manifest check, i.e. the one a server of that Galaxy version applies when it selects a bundle. The database is not
+# opened, so this says nothing about whether it is intact (check_tool_source_store.py checks that when it is built).
+# Prints why not on one line. Exits 0 if compatible, 1 if not (including when there is no bundle yet), and 2 if the
+# check itself failed.
+function tool_source_store_compatible() {
+    local subdir="$1" image="$2"
+    local store_root="${OVERLAYFS_MOUNT}${TOOL_SOURCE_STORE_ROOT##*${REPO}}"
+    exec_on_quiet docker run --rm --label "$DOCKER_RUN_LABEL" --user "${USER_UID}:${USER_GID}" \
+        -v "${store_root}:/tool_source_store:ro" \
+        -v "$(pwd)/.ci/tool_source_store_compatible.py:/tool_source_store_compatible.py:ro" \
+        --workdir /galaxy/server -e PYTHONPATH=lib \
+        "$image" ./.venv/bin/python /tool_source_store_compatible.py "/tool_source_store/${subdir}" "$TOOL_SOURCE_STORE_NAME"
+}
+
+
+# Rebuild and publish the bundles of $TOOL_SOURCE_STORE_REFRESH_REPO that are not compatible with their image in
+# $TOOL_SOURCE_STORE_IMAGES, without installing tools. A deploy only rebuilds bundles when it installs tools into that
+# repository, so without this a `-auto` image whose tool index schema changed, or a version newly added to
+# $TOOL_SOURCE_STORE_IMAGES, leaves servers of that version with no compatible bundle until the next tool PR.
+function refresh_tool_source_stores() {
+    local subdir image reasons rc
+    local rebuild=()
+    REPO="$TOOL_SOURCE_STORE_REFRESH_REPO"
+    [ -n "${REPO_USERS[$REPO]:-}" ] || log_exit_error "Unknown CVMFS repository: ${REPO}"
+    $USE_LOCAL_OVERLAYFS || log_exit_error 'Refreshing tool source stores requires USE_LOCAL_OVERLAYFS'
+    # A deploy builds the dev bundle with the patched image, which a refresh does not create
+    [ -z "$GALAXY_PATCH_FILE" ] || log_exit_error 'Refreshing tool source stores does not support GALAXY_PATCH_FILE'
+    set_repo_vars
+    summary "### Tool source store refresh for \`${REPO}\`"
+    summary
+    mount_overlay
+    if ! exec_on [ -d "${OVERLAYFS_MOUNT}${TOOL_SOURCE_STORE_ROOT##*${REPO}}" ]; then
+        summary "\`${REPO}\` publishes no tool source store, nothing to refresh."
+        unmount_overlay
+        return 0
+    fi
+    for subdir in $(printf '%s\n' "${!TOOL_SOURCE_STORE_IMAGES[@]}" | sort); do
+        image="${TOOL_SOURCE_STORE_IMAGES[$subdir]:-$GALAXY_DOCKER_IMAGE}"
+        if $GALAXY_DOCKER_IMAGE_PULL; then
+            exec_on docker pull "$image"
+        fi
+        rc=0
+        reasons=$(tool_source_store_compatible "$subdir" "$image" 2>&1) || rc=$?
+        case "$rc" in
+            0)
+                summary "- \`${subdir}/\` manifest is compatible with \`${image}\`"
+                ;;
+            1)
+                summary "- \`${subdir}/\` is not compatible with \`${image}\`, rebuilding: ${reasons}"
+                rebuild+=("$subdir")
+                ;;
+            *)
+                log_exit_error "Could not check whether ${subdir}/ is compatible with ${image}: ${reasons}"
+                ;;
+        esac
+    done
+    summary
+    if [ ${#rebuild[@]} -eq 0 ]; then
+        summary 'Every bundle manifest is compatible with its image, nothing to publish.'
+        unmount_overlay
+        return 0
+    fi
+    for subdir in "${rebuild[@]}"; do
+        build_tool_source_store "$subdir" "${TOOL_SOURCE_STORE_IMAGES[$subdir]:-$GALAXY_DOCKER_IMAGE}"
+    done
+    post_install
+    if $PUBLISH; then
+        start_ssh_control
+        begin_transaction 600
+        copy_upper_to_stratum0
+        publish_transaction "tool-source-stores-${RUN_ID}" "Rebuilt tool source stores ${rebuild[*]} in run ${RUN_ID}"
+        stop_ssh_control
+        summary "### :white_check_mark: Published rebuilt \`${rebuild[*]}\` to \`${REPO}\`"
+    else
+        summary "### Rebuilt \`${rebuild[*]}\`, not published (PUBLISH is false)"
+    fi
+    unmount_overlay
+}
+
+
 function copy_upper_to_stratum0() {
     log "Copying changes to Stratum 0"
     set -x
@@ -985,6 +1078,10 @@ function report_outcome() {
 
 function main() {
     load_repo_configs
+    if [ -n "$TOOL_SOURCE_STORE_REFRESH_REPO" ]; then
+        refresh_tool_source_stores
+        return 0
+    fi
     detect_changes
     set_repo_vars
     setup_ephemeris

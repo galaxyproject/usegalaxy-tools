@@ -121,7 +121,13 @@ schema matches its own, and that schema changes between releases. A server picks
 the directories under its `external_store_directory`, so no server configuration names the version. The bundles are
 built by `build_tool_source_stores`, which runs Galaxy's `scripts/tool_source/populate_store.py` from each image, and
 `store="cvmfs_<name>"` is set on the `<toolbox>` root of `shed_tool_conf.xml` if it is not there yet. Builds are
-incremental: only tools whose files changed since the previous publish are re-parsed. The `v1/` directory holds the
+incremental: only tools whose files changed since the previous publish are re-parsed, unless the image's tool index
+schema differs from the bundle's, which re-parses every tool. A deploy rebuilds the bundles only when it installs
+tools, so the deploy workflow's `refresh-tool-source-stores` job also runs every 6 hours (03:00 UTC first), or by
+hand from *Actions → Deploy tools to CVMFS → Run workflow*. It checks each published bundle's manifest with its
+image's own Galaxy, and rebuilds and publishes only the bundles that are not compatible with that image, e.g. after a
+`-auto` image changed its tool index schema or a version was added to `TOOL_SOURCE_STORE_IMAGES`. It does not open
+the databases. Most runs publish nothing. The `v1/` directory holds the
 single bundle published before there was one per version; it is no longer updated, and only seeds new version
 directories. When a Galaxy version is dropped from `TOOL_SOURCE_STORE_IMAGES`, delete its directory on the Stratum 0,
 otherwise servers still running that version keep loading a bundle that lacks every tool installed since.
@@ -139,8 +145,9 @@ tool_source_stores:
 ```
 
 A server with `use_cached_toolbox` enabled must declare every store name referenced by the confs it loads, or it fails
-to start. A bundle that is missing or was built by a Galaxy with a different tool index schema only produces a startup
-warning, and that conf is parsed eagerly as before. A compatible bundle is trusted as is: Galaxy does not load tools
+to start. It also fails to start (`Cannot load the cached toolbox: ...`) if a declared store has no bundle built by a
+Galaxy with the same tool index schema; the conf is not parsed eagerly instead. A toolbox reload in that state keeps
+the current toolbox. A compatible bundle is trusted as is: Galaxy does not load tools
 that are missing from its index. The run summary therefore contains a **Tool source store** block per bundle with the
 tool counts and any tools missing from it, and the run fails unless each bundle was rewritten, passes SQLite's integrity
 check, and indexes every tool in the conf.
