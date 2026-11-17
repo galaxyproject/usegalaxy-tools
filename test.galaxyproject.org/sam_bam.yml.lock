@@ -170,3 +170,9 @@ tools:
   - 04866f817daa
   tool_panel_section_id: sam_bam
   tool_panel_section_label: SAM/BAM
+- name: samtools_faidx
+  owner: iuc
+  revisions:
+  - 78d6d62d4ce4
+  tool_panel_section_id: sam_bam
+  tool_panel_section_label: SAM/BAM
