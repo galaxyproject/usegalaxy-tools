@@ -82,6 +82,8 @@ tools:
   owner: ebi-gxa
 - name: sceasy_convert
   owner: ebi-gxa
+- name: sceasy_convert
+  owner: iuc
 - name: anndata_ops
   owner: ebi-gxa
 - name: retrieve_scxa
