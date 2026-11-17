@@ -92,3 +92,5 @@ tools:
   owner: bgruening
 - name: sambamba_flagstat
   owner: bgruening
+- name: samtools_faidx
+  owner: iuc
