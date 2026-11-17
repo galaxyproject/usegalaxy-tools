@@ -1319,3 +1319,9 @@ tools:
   - 2cbd0d66aa08
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
+- name: kmerfinder
+  owner: thanhlv
+  revisions:
+  - b868a5fd2653
+  tool_panel_section_id: metagenomic_analysis
+  tool_panel_section_label: Metagenomic Analysis

@@ -134,3 +134,7 @@ tools:
   owner: iuc
 - name: logan_protein_search_database
   owner: bgruening
+- name: canu
+  owner: bgruening
+- name: raven
+  owner: iuc
