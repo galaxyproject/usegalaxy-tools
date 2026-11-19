@@ -756,3 +756,15 @@ tools:
   - 62c7a15750a0
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
+- name: canu
+  owner: bgruening
+  revisions:
+  - e05f5ee0ffb9
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: raven
+  owner: iuc
+  revisions:
+  - 27a172326f4e
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
