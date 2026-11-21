@@ -1,5 +1,7 @@
 tool_panel_section_label: Phylogenetics
 tools:
+- name: epa_ng
+  owner: iuc
 - name: hyphy_absrel
   owner: iuc
 - name: hyphy_annotate
