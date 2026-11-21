@@ -75,6 +75,12 @@ tools:
   - fe99db171ce5
   tool_panel_section_id: qiime2
   tool_panel_section_label: QIIME2
+- name: qiime2__composition__da_barplot
+  owner: q2d2
+  revisions:
+  - de8a1f53761e
+  tool_panel_section_id: qiime2
+  tool_panel_section_label: QIIME2
 - name: qiime2__composition__tabulate
   owner: q2d2
   revisions:
