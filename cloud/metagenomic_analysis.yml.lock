@@ -49,6 +49,7 @@ tools:
   - 0689d28fecdf
   - afee33334a63
   - b5a7583b8db0
+  - c942af70a4fc
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: concoct_coverage_table
