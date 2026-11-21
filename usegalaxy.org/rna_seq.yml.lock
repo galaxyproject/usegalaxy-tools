@@ -86,6 +86,7 @@ tools:
   - 92198ab2345f
   - a356a3e21032
   - ae618321f34a
+  - c44f3c61f41c
   - cbf488da3b2c
   - cef79931dda5
   - eba36e001f45
@@ -304,6 +305,7 @@ tools:
   owner: iuc
   revisions:
   - 35e00077ba61
+  - 3edace061e89
   - 43a1c3e1a4d0
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -311,6 +313,7 @@ tools:
   owner: iuc
   revisions:
   - 72927fc9e9ed
+  - 99ed38e2c2e1
   - d696cf0a9622
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
@@ -370,6 +373,7 @@ tools:
   owner: iuc
   revisions:
   - 04936df18de3
+  - 0cb5796ccfa7
   - 24e94d84adc9
   - 55cf05b65ad5
   - ab87da55fe61
@@ -382,6 +386,7 @@ tools:
   owner: iuc
   revisions:
   - 04bb8bb7c198
+  - 7145282890c9
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_super_transcripts
@@ -389,6 +394,7 @@ tools:
   revisions:
   - 29472bde8854
   - 3064aa8755a0
+  - 3811b9bc43fe
   - 5c1fc038df6b
   - 6723249ce1bd
   - 6f480aee5877
@@ -408,6 +414,7 @@ tools:
   - d2bc35f3d1c5
   - d84caa5a98ad
   - db1f362cca3e
+  - f43f0ca95a07
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_abundance_estimates_to_matrix
@@ -418,6 +425,7 @@ tools:
   - 442e3696c634
   - 59fff1388bc2
   - 81a4697677e7
+  - 8b7448d99b7d
   - a009c96c5c18
   - ba3720d7e68b
   - bcc5f03f1900
@@ -430,6 +438,7 @@ tools:
   - 41db7569b4ba
   - 62b05e565a45
   - 870ac06dff8e
+  - 9fa50484098c
   - b1e9a0355166
   - be3f26533209
   - beafdd47f8cf
@@ -442,6 +451,7 @@ tools:
   - 2fb4ee002432
   - 56162e446004
   - 75f4e1859ed7
+  - 8322e64b552f
   - 893655fa55f9
   - 983552d5822d
   - b2bbe9a7f1b8
@@ -458,6 +468,7 @@ tools:
   - a35cba31d904
   - a5ec0e79a93a
   - aa38fa8c5815
+  - c670b8b67800
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinity_gene_to_trans_map
@@ -466,6 +477,7 @@ tools:
   - 7c7fbf13aadd
   - 964b7efe2639
   - ba460ccf0006
+  - ff5c4df05bee
   tool_panel_section_id: rna_seq
   tool_panel_section_label: RNA-seq
 - name: trinotate
