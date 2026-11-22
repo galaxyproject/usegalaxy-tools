@@ -46,6 +46,7 @@ tools:
 - name: semibin
   owner: iuc
   revisions:
+  - 05e819a6ad33
   - 0689d28fecdf
   - afee33334a63
   - b5a7583b8db0
