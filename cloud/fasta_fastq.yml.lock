@@ -267,3 +267,9 @@ tools:
   - 812705bcf39c
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
+- name: fastq_groupmerge
+  owner: iuc
+  revisions:
+  - bbc3d29a94e5
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
