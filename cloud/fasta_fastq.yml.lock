@@ -160,6 +160,7 @@ tools:
 - name: seqtk
   owner: iuc
   revisions:
+  - 61acad608591
   - 8511b6d85fc7
   - a019807f4e67
   - c8fb17965c7d

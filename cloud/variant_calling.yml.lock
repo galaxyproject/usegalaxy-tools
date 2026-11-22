@@ -155,6 +155,7 @@ tools:
 - name: snippy
   owner: iuc
   revisions:
+  - 048730aa6fd4
   - 08d22d220254
   - 32f2211eeec3
   - 3fe8ef358d66
