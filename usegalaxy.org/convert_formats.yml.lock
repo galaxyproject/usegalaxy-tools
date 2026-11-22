@@ -375,3 +375,9 @@ tools:
   - d38f0d2f4e14
   tool_panel_section_id: convert_formats
   tool_panel_section_label: Convert Formats
+- name: chain_to_bigchain
+  owner: richard-burhans
+  revisions:
+  - 287d9cff3f4c
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
