@@ -2,6 +2,10 @@
 # reported back as a comment on the merged PR, since by then nobody is watching the PR's checks.
 #
 # Retry a failed deploy with Actions -> Deploy tools to CVMFS -> the failed run -> "Re-run failed jobs".
+#
+# On a schedule (or by hand), the refresh-tool-source-stores job instead rebuilds and publishes only the tool source
+# store bundles whose manifests are not compatible with their Galaxy image in TOOL_SOURCE_STORE_IMAGES. It lives in
+# this workflow because the cvmfs-publish runner group only runs this workflow (see docs/self-hosted-runner.md).
 name: Deploy tools to CVMFS
 
 # pull_request_target rather than pull_request: a fork-originated pull_request event gets no secrets and a read-only
@@ -20,6 +24,25 @@ on:
       - 'usegalaxy.org/**'
       - 'test.galaxyproject.org/**'
       - 'cloud/**'
+  schedule:
+    # Every 6 hours, with the 03:00 run landing before the daily archive snapshot of cloud.galaxyproject.org that
+    # Galaxy Helm deployments download (~05:40 UTC)
+    - cron: "0 3,9,15,21 * * *"
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: CVMFS repository whose tool source stores to refresh
+        type: choice
+        default: all
+        options:
+          - all
+          - test.galaxyproject.org
+          - main.galaxyproject.org
+          - cloud.galaxyproject.org
+      publish:
+        description: Publish rebuilt bundles (otherwise only check and build them)
+        type: boolean
+        default: true
 
 permissions:
   contents: read
@@ -30,7 +53,7 @@ permissions:
 
 jobs:
   deploy:
-    if: github.event.pull_request.merged == true
+    if: github.event_name == 'pull_request_target' && github.event.pull_request.merged == true
     runs-on:
       group: cvmfs-publish
       labels: cvmfs
@@ -122,5 +145,58 @@ jobs:
         if: always() && env.CI_LOG_DIR != ''
         with:
           name: galaxy-log
+          path: ${{ env.CI_LOG_DIR }}
+          if-no-files-found: ignore
+
+  # A deploy rebuilds the tool source store bundles only when it installs tools into that repository, so a Galaxy
+  # image whose tool index schema changed (e.g. a `-auto` tag picking up a backport), or a version newly added to
+  # TOOL_SOURCE_STORE_IMAGES, would otherwise leave servers of that version with no compatible bundle until the next
+  # tool PR. This checks each bundle's manifest with its own image and rebuilds only the incompatible ones; most runs
+  # publish nothing.
+  refresh-tool-source-stores:
+    if: github.event_name != 'pull_request_target' && github.ref == 'refs/heads/main'
+    runs-on:
+      group: cvmfs-publish
+      labels: cvmfs
+    environment: cvmfs-publish
+    permissions:
+      contents: read
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      matrix:
+        repo: >-
+          ${{ fromJSON(github.event_name == 'workflow_dispatch' && inputs.repo != 'all'
+          && format('["{0}"]', inputs.repo)
+          || '["test.galaxyproject.org", "main.galaxyproject.org", "cloud.galaxyproject.org"]') }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Start ssh-agent with the Stratum 0 key
+        env:
+          STRATUM0_SSH_KEY: ${{ secrets.STRATUM0_SSH_KEY }}
+        run: |
+          eval "$(ssh-agent -s)"
+          echo "SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> "$GITHUB_ENV"
+          echo "SSH_AGENT_PID=$SSH_AGENT_PID" >> "$GITHUB_ENV"
+          printf '%s\n' "$STRATUM0_SSH_KEY" | ssh-add -
+
+      - name: Refresh tool source stores
+        env:
+          TOOL_SOURCE_STORE_REFRESH_REPO: ${{ matrix.repo }}
+          # inputs.publish is empty on a scheduled run
+          PUBLISH: ${{ github.event_name == 'schedule' || inputs.publish }}
+        run: .ci/github-actions.sh
+
+      - name: Stop ssh-agent
+        if: always()
+        run: ssh-agent -k || true
+
+      - name: Upload Galaxy log
+        uses: actions/upload-artifact@v7
+        if: always() && env.CI_LOG_DIR != ''
+        with:
+          name: tool-source-store-log-${{ matrix.repo }}
           path: ${{ env.CI_LOG_DIR }}
           if-no-files-found: ignore
