@@ -2,6 +2,8 @@ tool_panel_section_label: Interactive Tools
 tools:
 - name: interactive_tool_rstudio_bioconductor
   owner: enis
+- name: panagram_view
+  owner: richard-burhans
 - name: physicell_studio
   owner: rheiland
 - name: physicell_studio
