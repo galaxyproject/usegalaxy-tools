@@ -1,0 +1,10 @@
+tool_panel_section_label: Loops
+tools:
+- name: focaloop_expressionloop
+  owner: nekrut
+- name: focaloop_variationloop
+  owner: nekrut
+- name: focaloop_geneloop
+  owner: nekrut
+- name: focaloop_query
+  owner: nekrut
