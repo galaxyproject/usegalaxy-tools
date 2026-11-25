@@ -106,3 +106,5 @@ tools:
   owner: iuc
 - name: seqkit_stats
   owner: iuc
+- name: fastq_groupmerge
+  owner: iuc
