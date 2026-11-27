@@ -173,6 +173,7 @@ tools:
   revisions:
   - 6c6c6df09e64
   - 71c994a11f71
+  - 7e9d81e30fba
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
 - name: data_manager_gemini_database_downloader
