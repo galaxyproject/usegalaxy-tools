@@ -342,6 +342,12 @@ tools:
   - 589f8ef21e58
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox
+- name: flipbook
+  owner: chemteam
+  revisions:
+  - 32559704ddc0
+  tool_panel_section_id: chemicaltoolbox
+  tool_panel_section_label: ChemicalToolBox
 - name: openbabel_addh
   owner: bgruening
   revisions:
