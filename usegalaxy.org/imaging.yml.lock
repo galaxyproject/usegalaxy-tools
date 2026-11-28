@@ -819,6 +819,7 @@ tools:
   owner: iuc
   revisions:
   - df40d7033a9a
+  - e6b7e0cbe25e
   - f92941d1a85e
   tool_panel_section_id: imaging
   tool_panel_section_label: Imaging
