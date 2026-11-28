@@ -94,6 +94,8 @@ tools:
   owner: chemteam
 - name: mdanalysis_extract_rmsd
   owner: chemteam
+- name: flipbook
+  owner: chemteam
 - name: openbabel_addh
   owner: bgruening
 - name: openbabel_remions
