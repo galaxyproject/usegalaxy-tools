@@ -537,3 +537,9 @@ tools:
   - bbc3d29a94e5
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ
+- name: rasusa
+  owner: iuc
+  revisions:
+  - ab762feb3b1c
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
