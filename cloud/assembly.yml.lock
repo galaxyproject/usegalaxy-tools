@@ -7,6 +7,7 @@ tools:
   owner: iuc
   revisions:
   - 9e3e80cc4ad4
+  - b7c5344b12de
   - e022dff952df
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -120,6 +121,7 @@ tools:
   owner: bgruening
   revisions:
   - 09cf7b520734
+  - 202ac9dc920f
   - 5d365d5cbe9d
   - b562f08eb13a
   - baf229b1fdfd

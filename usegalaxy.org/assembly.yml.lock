@@ -23,6 +23,7 @@ tools:
   - 88c240872a65
   - 8f9f06995f98
   - 9e3e80cc4ad4
+  - b7c5344b12de
   - d10bdad2fd17
   - e022dff952df
   tool_panel_section_id: assembly
@@ -308,6 +309,7 @@ tools:
   - 09cf7b520734
   - 0ee0c3089254
   - 170061c052ad
+  - 202ac9dc920f
   - 284a1cb82b61
   - 366a11d316a7
   - 3f7be05a1597

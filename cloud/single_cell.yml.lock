@@ -308,6 +308,7 @@ tools:
   - a84a73471be7
   - aaa5da8e73a9
   - f9353ee6a0d4
+  - f98417b9e414
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_filter
@@ -319,6 +320,7 @@ tools:
   - 5b3c1679d29b
   - 64388be6d510
   - 72a6bebab2a5
+  - 8abe1b403a5c
   - 8cb783c81905
   - 92a189c299d4
   - b409c2486353
@@ -330,6 +332,7 @@ tools:
   - 27c054e8d949
   - 3b5ef3b00cdd
   - a8d291df615d
+  - a9160efa16c8
   - c0a80a16560f
   - c5d3684f7c4c
   - cc0596ccfa4c
@@ -346,6 +349,7 @@ tools:
   - 9428a84a77bd
   - 9f354c7c8c92
   - ab55fe8030b6
+  - c13b10841210
   - e639abb0de92
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
@@ -360,12 +364,14 @@ tools:
   - 7f478b3258ec
   - a8f865950ac4
   - aa0c474463c2
+  - b1fec941382b
   - cef59fc213c7
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: scanpy_remove_confounders
   owner: iuc
   revisions:
+  - 1849d1a3b69e
   - 44b07303ee62
   - 458d4ab0f894
   - 80fe16f87825
@@ -402,6 +408,12 @@ tools:
   owner: ebi-gxa
   revisions:
   - f62bc418173f
+  tool_panel_section_id: single_cell
+  tool_panel_section_label: Single-cell
+- name: sceasy_convert
+  owner: iuc
+  revisions:
+  - 9e80ebd12099
   tool_panel_section_id: single_cell
   tool_panel_section_label: Single-cell
 - name: anndata_ops

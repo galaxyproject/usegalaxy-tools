@@ -160,6 +160,7 @@ tools:
 - name: seqtk
   owner: iuc
   revisions:
+  - 61acad608591
   - 8511b6d85fc7
   - a019807f4e67
   - c8fb17965c7d
@@ -265,5 +266,11 @@ tools:
   revisions:
   - 0a2a529e24e3
   - 812705bcf39c
+  tool_panel_section_id: fasta_fastq
+  tool_panel_section_label: FASTA/FASTQ
+- name: fastq_groupmerge
+  owner: iuc
+  revisions:
+  - bbc3d29a94e5
   tool_panel_section_id: fasta_fastq
   tool_panel_section_label: FASTA/FASTQ

@@ -857,6 +857,7 @@ tools:
   owner: iuc
   revisions:
   - 027297969224
+  - 0c8a4a32f282
   - bb45f97b9579
   - bcb8dc01f296
   - f23a0598b4bc
@@ -866,6 +867,7 @@ tools:
   owner: iuc
   revisions:
   - '482705438671'
+  - 504a555b2bfb
   - 8345d273ba82
   - c3735bcc9cb8
   - dcbbec865b86
@@ -874,6 +876,7 @@ tools:
 - name: checkm_lineage_set
   owner: iuc
   revisions:
+  - 2aa4779e108b
   - 3693acdbf0d6
   - 3f32eb89d482
   - a32ee0bb028b
@@ -885,6 +888,7 @@ tools:
   revisions:
   - 0ac2ba0b0d81
   - 9916308301da
+  - b008cdeca513
   - bfbfffa0fd9d
   - ca5846873a2e
   tool_panel_section_id: metagenomic_analysis
@@ -896,6 +900,7 @@ tools:
   - 5466420816b9
   - 61b0b25c50cb
   - 82caa8ed507c
+  - 990eccfb0a18
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: checkm_taxonomy_wf
@@ -903,6 +908,7 @@ tools:
   revisions:
   - 0ea86ba426e1
   - 19e4e2d98ebb
+  - 6155f485de04
   - 98731fd340c5
   - c7dddac32efc
   tool_panel_section_id: metagenomic_analysis
@@ -914,6 +920,7 @@ tools:
   - 407e50329077
   - 7b705d847810
   - bd631c7b95e3
+  - ee54f3c945f9
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
 - name: checkm_tetra
@@ -922,6 +929,7 @@ tools:
   - 0061483faf7d
   - 46bc08145439
   - 81af66339b05
+  - 9e91bebf63b9
   - d0d9e52a46b8
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -930,6 +938,7 @@ tools:
   revisions:
   - 5e445adeff70
   - 626ab1058170
+  - 73a220a3ba41
   - ce3fd529a6ec
   - d030ce59f075
   tool_panel_section_id: metagenomic_analysis
@@ -940,6 +949,7 @@ tools:
   - 36ea6d5441c3
   - 39010c7012f2
   - 74767297a247
+  - 85f8b08034bc
   - a99ca4bb4d1d
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
@@ -989,10 +999,12 @@ tools:
 - name: semibin
   owner: iuc
   revisions:
+  - 05e819a6ad33
   - 0689d28fecdf
   - 99ff9221182c
   - afee33334a63
   - b5a7583b8db0
+  - c942af70a4fc
   - fdb13ee4be38
   tool_panel_section_id: metagenomic_analysis
   tool_panel_section_label: Metagenomic Analysis
