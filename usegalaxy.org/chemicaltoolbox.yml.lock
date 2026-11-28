@@ -213,6 +213,7 @@ tools:
   revisions:
   - 10d8b43176a9
   - 4d2b77fd7a28
+  - af2839737b00
   - fc36cfd19834
   tool_panel_section_id: chemicaltoolbox
   tool_panel_section_label: ChemicalToolBox

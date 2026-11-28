@@ -406,6 +406,7 @@ tools:
   - 0d0e8d0691c8
   - 2b16ba799da9
   - 511e5e3cd55e
+  - 67c0b6ecddc8
   - 7087d9a23185
   - 79b48f02db49
   - 8fef980d48b5
@@ -425,6 +426,7 @@ tools:
   - 6c571966cfb9
   - 7c9417381ad5
   - 9ec9c22767c8
+  - bbc035c67df6
   - c4fb391275a0
   - cfc412b91a57
   - da25e82a51a8
@@ -441,6 +443,7 @@ tools:
   - 8e422c873d02
   - 936a1edffce8
   - 9491362ac1cd
+  - e33805ae8168
   - eca7d3a0c5f2
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly
@@ -746,6 +749,7 @@ tools:
   revisions:
   - b93c986922ac
   - bcb6caec41eb
+  - bd34479c291e
   - c386984b135c
   - d371ff7667e0
   - e92d84ff94e3

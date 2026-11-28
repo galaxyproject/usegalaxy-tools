@@ -778,6 +778,7 @@ tools:
   owner: iuc
   revisions:
   - 693bfd012601
+  - 8ea9dc1b0bd9
   - d49893faf877
   - ee6c2152e092
   tool_panel_section_id: machine_learning

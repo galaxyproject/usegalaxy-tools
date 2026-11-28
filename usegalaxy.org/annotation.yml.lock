@@ -69,6 +69,7 @@ tools:
   - 2babe6d5c561
   - 4048d82f0c88
   - 41030a6c03b7
+  - 4443b4dda2e9
   - 46ae58b1d792
   - 4e70d88adf2f
   - 602fb8e63aa7
@@ -224,6 +225,7 @@ tools:
   - 1f5641a52664
   - 31812e7a1315
   - 578b60b1279d
+  - 96de1ae86e52
   - ded48b36f3b7
   - ef1966bcece3
   tool_panel_section_id: annotation
@@ -241,6 +243,7 @@ tools:
   - b095c69eab5b
   - b0f07e3d6f07
   - d129c3d0e920
+  - ebb952b8da2e
   - fea9e5d3fb28
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -268,6 +271,7 @@ tools:
   - 809e42326fc2
   - 91887494eb97
   - 9b2b122d0415
+  - 9e5894291f21
   - dbe2b2204555
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -286,6 +290,7 @@ tools:
 - name: socru
   owner: iuc
   revisions:
+  - 72169ae89c12
   - ce0c9fe32e04
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -402,6 +407,7 @@ tools:
   - 10b84b577117
   - 1eafcc450052
   - 65c38d020fea
+  - aadbe1067c20
   - eb35257d2e29
   - f7746d145125
   tool_panel_section_id: annotation
@@ -723,6 +729,7 @@ tools:
 - name: coreprofiler_allele_calling
   owner: iuc
   revisions:
+  - 3835ed53fdc9
   - b781bb77a985
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
@@ -749,6 +756,7 @@ tools:
   owner: iuc
   revisions:
   - 27dc25864cb7
+  - 74b030131a7b
   - b6ec80429d54
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation

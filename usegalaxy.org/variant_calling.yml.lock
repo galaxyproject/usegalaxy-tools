@@ -196,6 +196,7 @@ tools:
   owner: iuc
   revisions:
   - 09694f0edd75
+  - 0ef0c12d7187
   - 36960e552ddc
   - 51d28b4d3a04
   - 54def72f84b2
@@ -211,6 +212,7 @@ tools:
 - name: bcftools_plugin_frameshifts
   owner: iuc
   revisions:
+  - 2b008b4a9eb2
   - 2e303fcd3b0c
   - 399b40b2bcab
   - 3c6952a2b0e4
@@ -241,6 +243,7 @@ tools:
   - '503487218735'
   - 53ce8be43212
   - d90f9190eb27
+  - f4ffa507c13f
   - fb0bb7174530
   - fd2d6e035c3f
   tool_panel_section_id: variant_calling
@@ -395,6 +398,7 @@ tools:
 - name: gatk4_haplotype_caller
   owner: iuc
   revisions:
+  - 7544bf7337a7
   - c439e1f317a2
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -402,11 +406,13 @@ tools:
   owner: iuc
   revisions:
   - 26845c4e5f64
+  - eb38a7716bc9
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: gatk4_applybqsr
   owner: iuc
   revisions:
+  - 35ceddabbdf5
   - 6940c0b8468e
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
@@ -414,6 +420,7 @@ tools:
   owner: iuc
   revisions:
   - 9044d3880269
+  - 99c497575c8f
   tool_panel_section_id: variant_calling
   tool_panel_section_label: Variant Calling
 - name: manta
