@@ -590,3 +590,27 @@ tools:
   - cdfeb22e64f2
   tool_panel_section_id: phylogenetics
   tool_panel_section_label: Phylogenetics
+- name: hmmer_esl_alimask
+  owner: iuc
+  revisions:
+  - ad61d822a347
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: gappa_graft
+  owner: iuc
+  revisions:
+  - 8b447f1c39b1
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: gappa_assign
+  owner: iuc
+  revisions:
+  - 7dac888a2eb7
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
+- name: gappa_heat_tree
+  owner: iuc
+  revisions:
+  - bb5c4f307c2a
+  tool_panel_section_id: phylogenetics
+  tool_panel_section_label: Phylogenetics
