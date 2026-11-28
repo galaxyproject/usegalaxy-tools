@@ -74,3 +74,9 @@ tools:
   owner: goeckslab
 - name: featurewise_correlation
   owner: goeckslab
+- name: mic_50_90_distribution
+  owner: iuc
+- name: mic_50_90_reporting
+  owner: iuc
+- name: mic_50_90_verify_report
+  owner: iuc

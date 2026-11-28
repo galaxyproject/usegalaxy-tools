@@ -258,3 +258,21 @@ tools:
   - d614e4c05731
   tool_panel_section_id: statistics
   tool_panel_section_label: Statistics
+- name: mic_50_90_distribution
+  owner: iuc
+  revisions:
+  - 6bd88f32bec0
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: mic_50_90_reporting
+  owner: iuc
+  revisions:
+  - 9beee2242f59
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: mic_50_90_verify_report
+  owner: iuc
+  revisions:
+  - 5b72c2578f70
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
