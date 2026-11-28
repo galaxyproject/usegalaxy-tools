@@ -876,9 +876,3 @@ tools:
   - 3d3ef2fc2bd0
   tool_panel_section_id: annotation
   tool_panel_section_label: Annotation
-- name: dfast
-  owner: ufz
-  revisions:
-  - 8194a780bd81
-  tool_panel_section_id: annotation
-  tool_panel_section_label: Annotation
